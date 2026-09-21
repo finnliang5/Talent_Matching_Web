@@ -1,0 +1,343 @@
+{
+  "姓名": "Candidate_0032",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "* 【PMP】/【ITIL V3】【AWS-SAA】/【日语】/【英语】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有IT 基础设施项目管理相关专业背景，具备10年+跨部门项目统筹与运维管理经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "* 【PMP】/【ITIL V3】【AWS-SAA】/【日语】/【英语】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有IT 基础设施项目管理相关专业背景，具备10年+跨部门项目统筹与运维管理经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有IT 基础设施项目管理相关专业背景，具备10年+跨部门项目统筹与运维管理经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有IT 基础设施项目管理相关专业背景，具备10年+跨部门项目统筹与运维管理经验。",
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "核心优势在于跨团队协同、IT风险管控与客户需求落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【PMP】/【ITIL V3】【AWS-SAA】/【日语】/【英语】",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有IT 基础设施项目管理相关专业背景，具备10年+跨部门项目统筹与运维管理经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心优势在于跨团队协同、IT风险管控与客户需求落地",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ITIL V3",
+      "evidence": "【ITIL V3】"
+    },
+    {
+      "skill_id": "",
+      "name": "BCP",
+      "evidence": "BCP 方案落地"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "冰山集团",
+      "职位": "销售助理",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "高铁机械",
+      "职位": "事务专员",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "",
+      "职位": "IT服务管理",
+      "时间": "",
+      "描述": "拥有10年+跨部门项目统筹与运维管理经验。熟悉网络、服务器、云服务及企业协作系统全流程管理。核心优势在于跨团队协同、IT风险管控与客户需求落地，运维服务支持。主要交付过 IT 基建搭建、系统迁移、BCP 方案落地、海外客户项目交付。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "IT服务管理",
+      "source": "rule",
+      "matched_term": "IT服务"
+    },
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "项目经验包含诺华、安斯泰来、山德士、强生",
+      "source": "llm",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "项目经验包含罗森、尤妮佳、味之素",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "Guochao.Wu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Guochao.Wu_profile_CN.md",
+    "source_hash": "678277c8f0c497e65f366bcdd006d61e360a8fa426a4429cec8b627b698b1177",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:21:06"
+  },
+  "城市": "Dalian"
+}

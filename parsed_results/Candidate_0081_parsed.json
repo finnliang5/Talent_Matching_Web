@@ -1,0 +1,304 @@
+{
+  "姓名": "Candidate_0081",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【Python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "【网络工程专业，工作9年，主要技术是Splunk，拥有Splunk consultant认证，并熟练使用Copilot studio，熟悉global的产品TA(Tciket Analysis)和ATR(Automate ticket resolver)】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "设计工单分配的整体逻辑，保证工单能够及时被分配不违背response SLA",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计并实现多 Topic 对话逻辑，优化用户交互体验，提升知识检索准确率与响应效率",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "利用ATR开发自动检查备份的阿里云资源的脚本，并且在备份失败的时候创建ServiceNow工单...保证项目的可用性",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "利用ATR开发自动检查备份的阿里云资源的脚本，并且在备份失败的时候创建ServiceNow工单...保证项目的可用性"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并实现多 Topic 对话逻辑，优化用户交互体验，提升知识检索准确率与响应效率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "【网络工程专业，工作9年，主要技术是Splunk，拥有Splunk consultant认证，并熟练使用Copilot studio，熟悉global的产品TA(Tciket Analysis)和ATR(Automate ticket resolver)】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并实现多 Topic 对话逻辑，优化用户交互体验，提升知识检索准确率与响应效率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "【网络工程专业，工作9年，主要技术是Splunk，拥有Splunk consultant认证，并熟练使用Copilot studio，熟悉global的产品TA(Tciket Analysis)和ATR(Automate ticket resolver)】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "设计工单分配的整体逻辑，保证工单能够及时被分配不违背response SLA"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【网络工程专业，工作9年，主要技术是Splunk，拥有Splunk consultant认证，并熟练使用Copilot studio，熟悉global的产品TA(Tciket Analysis)和ATR(Automate ticket resolver)】",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计工单分配的整体逻辑，保证工单能够及时被分配不违背response SLA",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并实现多 Topic 对话逻辑，优化用户交互体验，提升知识检索准确率与响应效率",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "利用ATR开发自动检查备份的阿里云资源的脚本，并且在备份失败的时候创建ServiceNow工单...保证项目的可用性",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Copilot Studio",
+      "evidence": "熟练使用Copilot studio"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "创建ServiceNow工单"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云",
+      "evidence": "自动检查备份的阿里云资源"
+    },
+    {
+      "skill_id": "",
+      "name": "CIM",
+      "evidence": "强化数据建模（如 CIM）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 / A&A CoE",
+      "职位": "运维 / CLP",
+      "时间": "",
+      "描述": "负责CLP客户的TA/ATA/Copilot日常运维和二次开发，设计工单分配逻辑保障SLA，设计多Topic对话逻辑优化交互体验与知识检索，结合日志与使用数据分析优化Copilot效果，创建flow解决重复性问题。"
+    },
+    {
+      "公司": "埃森哲 / A&A CoE",
+      "职位": "自动化开发 / Sephora",
+      "时间": "",
+      "描述": "利用ATR开发自动检查阿里云备份资源的脚本，失败时创建ServiceNow工单；定期检查阿里云服务状态，不可用时建票通知运维，保障系统高可用。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【辽宁科技大学，2017】",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 【能源】",
+      "source": "rule",
+      "matched_term": "能源"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "行业经验：化妆品",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "lu.c.lu_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\lu.c.lu_CN.md",
+    "source_hash": "b1c214a43643bc464262e3eace7fbf0245f17ff2a75ebb761e9a67799af060a8",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:41:44"
+  },
+  "城市": "Dalian"
+}

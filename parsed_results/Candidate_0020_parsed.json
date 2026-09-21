@@ -1,0 +1,207 @@
+{
+  "姓名": "Candidate_0020",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.65,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "负责项目的日常管理工作，例如，新员工的面试和培训，整理文档及流程更新。项目报告的制作。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "参与工作流程梳理工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "客户知识转移培训，客户办公现场的调研工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "客户知识转移培训，客户办公现场的调研工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的日常管理工作，例如，新员工的面试和培训，整理文档及流程更新。项目报告的制作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与工作流程梳理工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的日常管理工作，例如，新员工的面试和培训，整理文档及流程更新。项目报告的制作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的日常管理工作，例如，新员工的面试和培训，整理文档及流程更新。项目报告的制作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "客户知识转移培训，客户办公现场的调研工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "负责项目的日常管理工作，例如，新员工的面试和培训，整理文档及流程更新。项目报告的制作。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与工作流程梳理工作",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "客户知识转移培训，客户办公现场的调研工作",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲公司",
+      "职位": "自动化工具运维",
+      "时间": "2011年1月 - 至今",
+      "描述": "负责用户账户维护与权限管理、客户数据信息更新维护、软硬件设备的装卸与应用维护；解决用户办公软件操作问题；负责项目日常管理（含新员工面试培训、文档整理及流程更新）、项目报告制作；参与项目前期调研、客户现场调研、知识转移培训、工作流程梳理及知识库编辑总结。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "3, 软件的装卸和操作，硬件设备的应用和维护。",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "dongyan.xu_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\dongyan.xu_CN.md",
+    "source_hash": "484bc320be0187e17ed1b14933d881360f7628e259f54fe5fd0089a039b1f40b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:17:47"
+  },
+  "城市": "Dalian"
+}

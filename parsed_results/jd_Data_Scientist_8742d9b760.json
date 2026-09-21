@@ -1,0 +1,353 @@
+{
+  "岗位名称": "Data Scientist",
+  "岗位类型": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_requirement_count": 7,
+      "competency_requirement_count": 0
+    }
+  },
+  "技术技能要求": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_PANDAS",
+      "name": "Pandas",
+      "type": "LIBRARY",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_NUMPY",
+      "name": "NumPy",
+      "type": "LIBRARY",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_SCIKIT_LEARN",
+      "name": "Scikit-learn",
+      "type": "ML_LIBRARY",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_FEATURE_ENGINEERING",
+      "name": "特征工程",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_MODEL_EVALUATION",
+      "name": "模型评估",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "source_type": "technical_skill",
+      "matched_term": "DS",
+      "priority": "must"
+    }
+  ],
+  "技术技能要求组": [
+    {
+      "group_id": "DS_GROUP_1",
+      "group_name": "数据科学基础工具",
+      "logic": "ANY_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_PYTHON_CORE",
+          "name": "Python 基础"
+        },
+        {
+          "skill_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        },
+        {
+          "skill_id": "SKILL_NUMPY",
+          "name": "NumPy"
+        }
+      ],
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "priority": "must"
+    },
+    {
+      "group_id": "DS_GROUP_2",
+      "group_name": "机器学习建模",
+      "logic": "ANY_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        },
+        {
+          "skill_id": "SKILL_SCIKIT_LEARN",
+          "name": "Scikit-learn"
+        }
+      ],
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "priority": "must"
+    },
+    {
+      "group_id": "DS_GROUP_3",
+      "group_name": "特征与模型评估",
+      "logic": "ANY_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_FEATURE_ENGINEERING",
+          "name": "特征工程"
+        },
+        {
+          "skill_id": "SKILL_MODEL_EVALUATION",
+          "name": "模型评估"
+        }
+      ],
+      "evidence": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "source": "role_rule",
+      "priority": "must"
+    }
+  ],
+  "胜任力要求": [],
+  "能力要求": [
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEATURE_ENGINEERING",
+      "name": "Feature Engineering",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FEATURE_ENGINEERING",
+          "name": "特征工程"
+        },
+        {
+          "source_type": "role_rule",
+          "source_id": "DS",
+          "name": "DS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SCIKIT_LEARN",
+          "name": "Scikit-learn"
+        },
+        {
+          "source_type": "role_rule",
+          "source_id": "DS",
+          "name": "DS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MODEL_EVALUATION",
+      "name": "Model Evaluation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SCIKIT_LEARN",
+          "name": "Scikit-learn"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MODEL_EVALUATION",
+          "name": "模型评估"
+        },
+        {
+          "source_type": "role_rule",
+          "source_id": "DS",
+          "name": "DS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_NUMPY",
+          "name": "NumPy"
+        },
+        {
+          "source_type": "role_rule",
+          "source_id": "DS",
+          "name": "DS"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域要求": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 1
+    }
+  ],
+  "本体外技术技能要求": [],
+  "经验要求": [],
+  "级别要求": "Lv8~Lv6",
+  "是否有级别要求": true,
+  "证据": [
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_PANDAS",
+      "supports_entity_name": "Pandas",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_NUMPY",
+      "supports_entity_name": "NumPy",
+      "derived_capability_ids": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_SCIKIT_LEARN",
+      "supports_entity_name": "Scikit-learn",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING",
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_FEATURE_ENGINEERING",
+      "supports_entity_name": "特征工程",
+      "derived_capability_ids": [
+        "CAP_FEATURE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目",
+      "supports_entity_id": "SKILL_MODEL_EVALUATION",
+      "supports_entity_name": "模型评估",
+      "derived_capability_ids": [
+        "CAP_MODEL_EVALUATION"
+      ]
+    }
+  ],
+  "项目约束": {
+    "工作地点": "上海",
+    "可上项目时间": "7月中",
+    "原文": "上海有个项目找人，需要DS，Lv8~Lv6，要求7月中可上项目"
+  }
+}

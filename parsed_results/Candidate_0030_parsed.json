@@ -1,0 +1,334 @@
+{
+  "姓名": "Candidate_0030",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【Python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 【java,spring Cloud,MyBatis】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- 【java,spring Cloud,MyBatis】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 【vue,mysql】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 【Angular】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 【希望从事AI大模型相关的开发和工作】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 【vue,mysql】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【Angular】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 【java,spring Cloud,MyBatis】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【java,spring Cloud,MyBatis】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【java,spring Cloud,MyBatis】",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【java,spring Cloud,MyBatis】",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【vue,mysql】",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Angular】",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【希望从事AI大模型相关的开发和工作】",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【vue,mysql】",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "MyBatis",
+      "evidence": "MyBatis"
+    },
+    {
+      "skill_id": "",
+      "name": "IDEA",
+      "evidence": "IDEA"
+    },
+    {
+      "skill_id": "",
+      "name": "Visual Studio Code",
+      "evidence": "Visual Studio Code"
+    },
+    {
+      "skill_id": "",
+      "name": "Cursor",
+      "evidence": "Cursor"
+    },
+    {
+      "skill_id": "",
+      "name": "trae",
+      "evidence": "trae"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "东软云科技有限公司",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "软件工程师 / NIKE IBPM",
+      "时间": "",
+      "描述": "负责项目运维及项目后期业务修改开发"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "软件工程师 / Evinova",
+      "时间": "",
+      "描述": "负责项目沟通及开发；负责项目运维及项目后期业务修改开发"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "软件工程师 / 联想 IQRT",
+      "时间": "",
+      "描述": "负责项目开发"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "软件工程师 / DCH IBPM",
+      "时间": "",
+      "描述": "负责项目开发；负责项目运维及项目后期业务修改开发"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【SW/App/Cloud Tech Support Team Lead】",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "【财务】",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "guangming.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\guangming.li_profile_CN.md",
+    "source_hash": "e2ef45dc493a658e059a5cfe1a77072dd6d89fd52392578326a6660c8c11ef51",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:20:24"
+  },
+  "级别推断": {
+    "level_requirement": "Level 9",
+    "has_level_requirement": true,
+    "source": "resume_title_rule",
+    "evidence": "SW/App/Cloud Tech Support Team Lead",
+    "confidence": 0.7
+  },
+  "城市": "Dalian"
+}

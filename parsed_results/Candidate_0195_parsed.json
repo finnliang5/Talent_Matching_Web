@@ -1,0 +1,390 @@
+{
+  "姓名": "Candidate_0195",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "BA"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 【加入AI team后参与chatbot项目小部分Node JS开发工作。每周使用IBM Watson平台持续训练chatbot完成运维工作】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 【关注于HR、财务领域AI产品；持续强化系统测试方法论并加强在工作中使用LLM及agent比例，逐步培养项目交付管理、小型团队管理方面的领导力】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "evidence": "- 【Postman】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Postman API"
+      ],
+      "matched_term": "Postman"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 【加入AI team以来作为测试参与超过20个项目测试工作，完成测试用例，测试计划并跟踪修复情况，项目包括KSF、BOE、UC、Panasonic、Envision、Asahi、Arrow、Kewpie等】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 【DevOps】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "【2019年加入埃森哲，拥有超过6年的测试，项目运维，需求分析经验。服务客户包括埃森哲内部项目BPO、GC HR及ANZ HR等，外部项目如KSF、BOE、UC、Panasonic等。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "承担客户日常沟通、需求对齐、问题跟进；与global security团队沟通完成安全扫描工作，与内部采购、HR同事沟通完成团队设备采购及recruitment工作。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "作为测试sub lead，运维sub lead，已参与完成超过20个团队项目的测试与交付；完成测试用例、测试计划并跟踪修复情况。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【Postman】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POSTMAN",
+          "name": "Postman"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 【DevOps】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "承担客户日常沟通、需求对齐、问题跟进；与global security团队沟通完成安全扫描工作，与内部采购、HR同事沟通完成团队设备采购及recruitment工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "作为测试sub lead，运维sub lead，已参与完成超过20个团队项目的测试与交付；完成测试用例、测试计划并跟踪修复情况。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 【DevOps】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 【DevOps】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "【2019年加入埃森哲，拥有超过6年的测试，项目运维，需求分析经验。服务客户包括埃森哲内部项目BPO、GC HR及ANZ HR等，外部项目如KSF、BOE、UC、Panasonic等。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "【2019年加入埃森哲，拥有超过6年的测试，项目运维，需求分析经验。服务客户包括埃森哲内部项目BPO、GC HR及ANZ HR等，外部项目如KSF、BOE、UC、Panasonic等。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【加入AI team以来作为测试参与超过20个项目测试工作，完成测试用例，测试计划并跟踪修复情况，项目包括KSF、BOE、UC、Panasonic、Envision、Asahi、Arrow、Kewpie等】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【加入AI team后参与chatbot项目小部分Node JS开发工作。每周使用IBM Watson平台持续训练chatbot完成运维工作】",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【关注于HR、财务领域AI产品；持续强化系统测试方法论并加强在工作中使用LLM及agent比例，逐步培养项目交付管理、小型团队管理方面的领导力】",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Postman】",
+      "supports_entity_id": "SKILL_POSTMAN",
+      "supports_entity_name": "Postman",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【加入AI team以来作为测试参与超过20个项目测试工作，完成测试用例，测试计划并跟踪修复情况，项目包括KSF、BOE、UC、Panasonic、Envision、Asahi、Arrow、Kewpie等】",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【DevOps】",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "【2019年加入埃森哲，拥有超过6年的测试，项目运维，需求分析经验。服务客户包括埃森哲内部项目BPO、GC HR及ANZ HR等，外部项目如KSF、BOE、UC、Panasonic等。】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "承担客户日常沟通、需求对齐、问题跟进；与global security团队沟通完成安全扫描工作，与内部采购、HR同事沟通完成团队设备采购及recruitment工作。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为测试sub lead，运维sub lead，已参与完成超过20个团队项目的测试与交付；完成测试用例、测试计划并跟踪修复情况。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "IBM Watson Assistant",
+      "evidence": "每周使用IBM Watson平台持续训练chatbot完成运维工作"
+    },
+    {
+      "skill_id": "",
+      "name": "VS code",
+      "evidence": "工具与平台：VS code"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "Quality Engineering Specialist / 测试sub lead, 运维sub lead, BA",
+      "时间": "2019.09 - 至今",
+      "描述": "2019年9-12月，参与CIO-BPO项目，担任.net开发。2019年12月至今，于AI团队负责测试与运维，承担客户沟通、需求对齐，作为BA与澳洲及菲律宾客户分析需求及风险，参与超过20个项目测试，编写测试用例与计划，跟踪缺陷修复，并参与chatbot项目Node JS开发及IBM Watson平台运维。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 【东北电力大学，2019】",
+      "source": "rule",
+      "matched_term": "电力"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhuoran.a.li_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhuoran.a.li_CN.md",
+    "source_hash": "7096f7b76c97ee099a26e0b763f38ae9cb4f478f48dfab527cb389ca259be485",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:47:51"
+  },
+  "城市": "Dalian"
+}

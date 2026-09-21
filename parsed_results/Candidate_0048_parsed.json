@@ -1,0 +1,758 @@
+{
+  "姓名": "Candidate_0048",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 11,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- Java",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- Database(db2, SQL Server, MySQL, Oracle)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "K8s"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "我拥有12年的IT从业经验，具备从需求分析、解决方案设计到部署交付的端到端项目经验。擅长为客户设计并实施高效的自动化解决方案，熟悉AI和ServiceNow平台的开发与实施。熟练掌握C++、C#等多种编程语言。未来我将继续深耕AI、云平台等前沿领域。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "**角色：** 项目管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "- 参与能源和便利零售行业的项目，负责项目规划、执行和交付。熟悉项目管理方法和工具。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "擅长为客户设计并实施高效的自动化解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI (LLM, RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**角色：** 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长为客户设计并实施高效的自动化解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI (LLM, RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长为客户设计并实施高效的自动化解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 参与能源和便利零售行业的项目，负责项目规划、执行和交付。熟悉项目管理方法和工具。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**角色：** 项目管理",
+        "- 参与能源和便利零售行业的项目，负责项目规划、执行和交付。熟悉项目管理方法和工具。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI (LLM, RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "我拥有12年的IT从业经验，具备从需求分析、解决方案设计到部署交付的端到端项目经验。擅长为客户设计并实施高效的自动化解决方案，熟悉AI和ServiceNow平台的开发与实施。熟练掌握C++、C#等多种编程语言。未来我将继续深耕AI、云平台等前沿领域。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "我拥有12年的IT从业经验，具备从需求分析、解决方案设计到部署交付的端到端项目经验。擅长为客户设计并实施高效的自动化解决方案，熟悉AI和ServiceNow平台的开发与实施。熟练掌握C++、C#等多种编程语言。未来我将继续深耕AI、云平台等前沿领域。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**角色：** 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- JavaScript",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI (LLM, RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Database(db2, SQL Server, MySQL, Oracle)",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "我拥有12年的IT从业经验，具备从需求分析、解决方案设计到部署交付的端到端项目经验。擅长为客户设计并实施高效的自动化解决方案，熟悉AI和ServiceNow平台的开发与实施。熟练掌握C++、C#等多种编程语言。未来我将继续深耕AI、云平台等前沿领域。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**角色：** 项目管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 参与能源和便利零售行业的项目，负责项目规划、执行和交付。熟悉项目管理方法和工具。",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长为客户设计并实施高效的自动化解决方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AutoGPT",
+      "evidence": "AI (LLM, RAG, LangChain, AutoGPT ...)"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "熟悉AI和ServiceNow平台的开发与实施"
+    },
+    {
+      "skill_id": "",
+      "name": "Jenkins",
+      "evidence": "DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+    },
+    {
+      "skill_id": "",
+      "name": "Gitlab CI/CD",
+      "evidence": "DevOps (Docker, K8S, Jenkins, Gitlab CI/CD ...)"
+    },
+    {
+      "skill_id": "",
+      "name": "GitHub Actions",
+      "evidence": "具备Docker和GitHub Actions的使用经验"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IBM",
+      "职位": "软件工程师",
+      "时间": "2014-2016",
+      "描述": "主要参与医疗系统的开发和测试，使用C++和DB2。被评为年度优秀员工一等。"
+    },
+    {
+      "公司": "日本公司",
+      "职位": "高级软件工程师",
+      "时间": "2017-2019",
+      "描述": "参与保险和交通运输领域的项目，涵盖从需求分析到部署的完整项目生命周期。熟练使用C#和Java。"
+    },
+    {
+      "公司": "东软",
+      "职位": "高级软件工程师/项目管理",
+      "时间": "2019-2021",
+      "描述": "参与能源和便利零售行业的项目，负责项目规划、执行和交付。熟悉项目管理方法和工具。被评为年度优秀员工。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "应用自动化工程专家/顾问",
+      "时间": "2021-至今",
+      "描述": "为物流、银行和保险行业的客户设计并实施自动化解决方案。熟练使用ServiceNow开发和AI集成以增强自动化能力。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医疗",
+      "source": "rule",
+      "matched_term": "医疗"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 银行",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- IBM，软件工程师，2014-2016",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "jia.d.song_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jia.d.song_profile_CN.md",
+    "source_hash": "d1afaa803b640fe6d5ba2f0658c7617f475af69de3f2943f1a7d2fdcac57b40a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:23:05"
+  },
+  "城市": "Dalian"
+}

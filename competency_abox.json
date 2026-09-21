@@ -1,0 +1,366 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Competency 列表（从 skill_abox 拆分的非技术胜任力）"
+  },
+  "competencies": [
+    {
+      "id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "description": "业务分析与需求澄清核心能力",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "description": "需求获取、拆解与验收标准定义",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "description": "业务流程建模与优化",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "description": "跨部门干系人识别、沟通与协同推进",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_STAKEHOLDER_MANAGEMENT",
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "name": "差距分析",
+      "type": "ABILITY",
+      "description": "现状与目标能力差距评估",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "description": "行业标杆实践对标与差异分析",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "description": "识别高价值AI应用机会与优先级",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "description": "结构化咨询报告、方案和汇报交付",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "description": "跨团队沟通、推动与协同落地",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "description": "项目范围、进度、资源与风险管理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_PROJECT_PLANNING",
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "description": "里程碑、WBS与计划管理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_PROJECT_PLANNING",
+        "CAP_PHASED_ROADMAP_PLANNING"
+      ]
+    },
+    {
+      "id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "description": "项目风险识别、评估与应对",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_RISK_MANAGEMENT",
+        "CAP_RISK_CONTINGENCY_PLANNING"
+      ]
+    },
+    {
+      "id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "description": "交付质量、过程与结果治理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "description": "资源与产能评估、配置与跟踪",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "id": "SKILL_REMOTE_COLLABORATION",
+      "name": "远程协作交付",
+      "type": "ABILITY",
+      "description": "分布式团队远程协作与交付机制",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_REMOTE_COLLABORATION_DELIVERY"
+      ]
+    },
+    {
+      "id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "description": "技术方案风险识别、同步与预案管理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    },
+    {
+      "id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "description": "识别业务痛点并形成机会洞察结论",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "description": "制定年度与阶段性AI建设路线图",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "企业架构对齐",
+      "type": "ABILITY",
+      "description": "解决方案与企业架构目标的一致性设计",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT"
+      ]
+    },
+    {
+      "id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "description": "从业务目标到系统能力的高阶方案设计",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "id": "SKILL_ERP_AI_INTEGRATION",
+      "name": "ERP与AI集成",
+      "type": "ABILITY",
+      "description": "ERP系统与AI底座的集成架构设计",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_ERP_AI_INTEGRATION_DESIGN",
+        "CAP_TECH_DEPENDENCY_MAPPING"
+      ]
+    },
+    {
+      "id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "description": "AI/数字化项目成本、人力节约、营收提升、投资回报ROI测算",
+      "languages": [],
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "related_capabilities": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ],
+      "inference_weight": 0.81,
+      "reason": "价值量化是方案可行性评估核心环节，客户咨询交付必备硬技能，强绑定收益评估顶层能力"
+    },
+    {
+      "id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "name": "AI治理体系设计",
+      "type": "ABILITY",
+      "description": "AI数据安全、模型管控、权限规范、AI风险与合规制度搭建",
+      "languages": [],
+      "aliases": [
+        "AI治理",
+        "AI治理框架",
+        "AI治理体系",
+        "AI风险合规"
+      ],
+      "related_capabilities": [
+        "CAP_AI_GOVERNANCE_FRAMEWORK",
+        "CAP_RISK_MANAGEMENT"
+      ],
+      "inference_weight": 0.77,
+      "reason": "AI治理属于专项风险管理分支，仅覆盖AI合规场景，无法代表通用项目风险管控能力"
+    },
+    {
+      "id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "description": "企业数据资产盘点、数据标准、数据流转、AI数据源规划设计",
+      "languages": [],
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_STANDARDIZATION",
+        "CAP_DATA_MODELING"
+      ],
+      "inference_weight": 0.75,
+      "reason": "数据资产规划支撑数据标准化与建模，但仅聚焦资产梳理，不包含完整数据仓库开发流程"
+    },
+    {
+      "id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "description": "企业数字化落地组织变革、员工培训、业务流程转型落地、变革阻力化解",
+      "languages": [],
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "related_capabilities": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ],
+      "inference_weight": 0.78,
+      "reason": "变革管理是大型数字化项目必备能力，兼顾业务转型与干系人协同，中度偏强权重"
+    },
+    {
+      "id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "name": "客户全生命周期经营",
+      "type": "ABILITY",
+      "description": "客户需求持续跟进、长期经营、续约拓展、客户成功体系搭建",
+      "languages": [],
+      "aliases": [
+        "客户生命周期经营",
+        "客户成功",
+        "客户成功体系",
+        "客户经营"
+      ],
+      "related_capabilities": [
+        "CAP_CUSTOMER_SUCCESS_OPERATION",
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ],
+      "inference_weight": 0.73,
+      "reason": "偏向售前售后经营，仅部分复用协同能力，属于咨询配套辅助技能"
+    },
+    {
+      "id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "description": "制造/金融/零售等垂直行业标准化AI数字化解决方案沉淀与复用",
+      "languages": [],
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "related_capabilities": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN"
+      ],
+      "inference_weight": 0.77,
+      "reason": "行业方案同时支撑对标与顶层设计，但局限单一行业场景，无法通用全行业方案设计"
+    },
+    {
+      "id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "description": "数据治理制度、流程、职责体系和治理方法论设计",
+      "languages": [],
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ],
+      "inference_weight": 0.8,
+      "reason": "数据治理框架更偏业务分析、咨询方法论和治理体系设计，适合作为BA/咨询类胜任力"
+    }
+  ]
+}

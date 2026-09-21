@@ -1,0 +1,302 @@
+{
+  "姓名": "Candidate_0173",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端开发（Angular / JavaScript）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 支持系统扩展性与数据集成能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "数据集成"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 前端开发（Angular / JavaScript）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 支持系统扩展性与数据集成能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端开发（Angular / JavaScript）",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 支持系统扩展性与数据集成能力。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": ".NET",
+      "evidence": "工具与平台：.NET"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IHI",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "使用 C# 参与智能邮件分析与决策系统的核心开发，支持企业级用户的稳定运行与系统扩展。"
+    },
+    {
+      "公司": "HRJP",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "基于 C# 实现智能邮件业务逻辑处理，支持系统部署及后期维护工作。"
+    },
+    {
+      "公司": "Toray",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "负责智能邮件咨询核心功能模块的开发，确保系统性能与稳定性。"
+    },
+    {
+      "公司": "Lenovo",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "基于客户需求定制智能邮件咨询能力，配合业务团队完成企业级交付。"
+    },
+    {
+      "公司": "Asahi",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "开发并优化智能邮件咨询模块，支持持续改进与问题修复。"
+    },
+    {
+      "公司": "大昌行（Dah Chong Hong）",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "负责智能邮件咨询服务的开发与维护。"
+    },
+    {
+      "公司": "SBD",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "使用 Python 设计与实现智能审计平台后端服务，支持审计自动化与数据处理流程。"
+    },
+    {
+      "公司": "KSF",
+      "职位": "全栈开发工程师",
+      "时间": "",
+      "描述": "使用 Python 开发后端服务，Angular 实现前端界面，交付完整的智能审计平台解决方案。"
+    },
+    {
+      "公司": "Beike",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "基于 Python 与 C# 构建智能审计系统，支持系统扩展性与数据集成能力。"
+    },
+    {
+      "公司": "Sanofi（Speaker）",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "使用 Python 与 C# 开发审计与合规相关功能，确保系统符合企业合规要求。"
+    },
+    {
+      "公司": "Sanofi（VMD）",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "实现智能审计模块及相关分析能力，支持数据分析与报表功能。"
+    },
+    {
+      "公司": "Sanofi（Invoice）",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "交付发票审计自动化相关功能，提升审计效率与准确性。"
+    },
+    {
+      "公司": "Intelligent Agent",
+      "职位": "全栈开发工程师",
+      "时间": "",
+      "描述": "使用 Python 与 Angular 开发智能 Agent 相关系统，支持自动化场景及智能交互流程。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有 15 年以上软件行业从业经验，早期从事移动端及 Web 应用开发。精通多种主流开发语言，包括 Objective-C、Swift、Java、Python、C# 及 JavaScript。长期参与并主导企业级智能自动化平台及智能应用系统的设计与交付，具备丰富的跨行业、跨客户项目经验。",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "参与 Sanofi 多个智能审计平台项目：Intelligent Audit Platform – Sanofi（Speaker）、Sanofi（VMD）、Sanofi（Invoice）",
+      "source": "llm",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "为 Asahi（啤酒/食品饮料）交付智能邮件咨询项目：Intelligent Email Advisor – Asahi",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "yu.f.gu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yu.f.gu_profile_CN.md",
+    "source_hash": "949a4bc16c0eb9163d9bfd5a7edd473255b97e508a946ff2e49ee5756d1e6226",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:39:30"
+  },
+  "城市": "Dalian"
+}

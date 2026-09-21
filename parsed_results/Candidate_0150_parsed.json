@@ -1,0 +1,705 @@
+{
+  "姓名": "Candidate_0150",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 开发语言：Shell、Perl、Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- Oracle、PostgreSQL、MySQL、Hive、Greenplum、Gauss",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "数据工程师",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "拥有10余年大数据与数据仓库开发及架构经验，熟悉电商、电信、银行保险等行业业务。曾主导大型国企信息系统建设、互联网电商企业数据仓库设计及架构，具备丰富的系统实践与技术团队管理经验，擅长整体开发过程中的协调与沟通工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库开发"
+    },
+    {
+      "skill_id": "SKILL_DATA_LAKE",
+      "name": "Data Lake",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 大数据平台、数据湖、数据仓库建设",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "数据湖"
+      ],
+      "matched_term": "数据湖"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 负责数据开发组需求分析、分工、排期、进度管理与验收",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "管理数据开发团队，把控开发进度与质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "擅长整体开发过程中的协调与沟通工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "结合企业现状与行业实践完成资产门户应用架构设计及实施路径规划，负责数据资产门户高保真原型图设计，完成门户运营指标设计及梳理",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责数据平台架构及模型设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "负责数据开发组需求分析、分工、排期、进度管理与验收",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "把控开发进度与质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长整体开发过程中的协调与沟通工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据工程师",
+        "结合企业现状与行业实践完成资产门户应用架构设计及实施路径规划，负责数据资产门户高保真原型图设计，完成门户运营指标设计及梳理"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "结合企业现状与行业实践完成资产门户应用架构设计及实施路径规划，负责数据资产门户高保真原型图设计，完成门户运营指标设计及梳理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有10余年大数据与数据仓库开发及架构经验，熟悉电商、电信、银行保险等行业业务。曾主导大型国企信息系统建设、互联网电商企业数据仓库设计及架构，具备丰富的系统实践与技术团队管理经验，擅长整体开发过程中的协调与沟通工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss",
+        "数据工程师",
+        "拥有10余年大数据与数据仓库开发及架构经验，熟悉电商、电信、银行保险等行业业务。曾主导大型国企信息系统建设、互联网电商企业数据仓库设计及架构，具备丰富的系统实践与技术团队管理经验，擅长整体开发过程中的协调与沟通工作。",
+        "- 大数据平台、数据湖、数据仓库建设"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_LAKE",
+          "name": "Data Lake"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "管理数据开发团队，把控开发进度与质量",
+        "把控开发进度与质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据工程师"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责数据平台架构及模型设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责数据平台架构及模型设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责数据开发组需求分析、分工、排期、进度管理与验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "管理数据开发团队，把控开发进度与质量",
+        "负责数据开发组需求分析、分工、排期、进度管理与验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责数据开发组需求分析、分工、排期、进度管理与验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 负责数据开发组需求分析、分工、排期、进度管理与验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "管理数据开发团队，把控开发进度与质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 开发语言：Shell、Perl、Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Oracle、PostgreSQL、MySQL、Hive、Greenplum、Gauss",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "数据工程师",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有10余年大数据与数据仓库开发及架构经验，熟悉电商、电信、银行保险等行业业务。曾主导大型国企信息系统建设、互联网电商企业数据仓库设计及架构，具备丰富的系统实践与技术团队管理经验，擅长整体开发过程中的协调与沟通工作。",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大数据平台、数据湖、数据仓库建设",
+      "supports_entity_id": "SKILL_DATA_LAKE",
+      "supports_entity_name": "Data Lake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责数据开发组需求分析、分工、排期、进度管理与验收",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "管理数据开发团队，把控开发进度与质量",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长整体开发过程中的协调与沟通工作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "结合企业现状与行业实践完成资产门户应用架构设计及实施路径规划，负责数据资产门户高保真原型图设计，完成门户运营指标设计及梳理",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责数据平台架构及模型设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责数据开发组需求分析、分工、排期、进度管理与验收",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "把控开发进度与质量",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss"
+    },
+    {
+      "skill_id": "",
+      "name": "Postgre",
+      "evidence": "数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss"
+    },
+    {
+      "skill_id": "",
+      "name": "Greenplum",
+      "evidence": "数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss"
+    },
+    {
+      "skill_id": "",
+      "name": "Gauss",
+      "evidence": "数据库：Oracle、Postgre、Mysql、Hive、Greenplum、Gauss"
+    },
+    {
+      "skill_id": "",
+      "name": "Ali Cloud",
+      "evidence": "云平台：Ali Cloud、Huawei Cloud、袋鼠云"
+    },
+    {
+      "skill_id": "",
+      "name": "Huawei Cloud",
+      "evidence": "云平台：Ali Cloud、Huawei Cloud、袋鼠云"
+    },
+    {
+      "skill_id": "",
+      "name": "袋鼠云",
+      "evidence": "云平台：Ali Cloud、Huawei Cloud、袋鼠云"
+    },
+    {
+      "skill_id": "",
+      "name": "Shell",
+      "evidence": "开发语言：Shell、Perl、Python"
+    },
+    {
+      "skill_id": "",
+      "name": "Perl",
+      "evidence": "开发语言：Shell、Perl、Python"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某合资寿险公司",
+      "职位": "数据架构",
+      "时间": "",
+      "描述": "基于I17准则进行数据平台部分落地实施，负责数据平台架构及模型设计，完成复杂流程数据加工及验证"
+    },
+    {
+      "公司": "某GLOBAL药企",
+      "职位": "数据架构",
+      "时间": "",
+      "描述": "结合企业现状与行业实践完成资产门户应用架构设计及实施路径规划，负责数据资产门户高保真原型图设计，完成门户运营指标设计及梳理"
+    },
+    {
+      "公司": "某TOP寿险集团",
+      "职位": "数据架构",
+      "时间": "",
+      "描述": "主导保险业务数据平台技术实施，负责数据仓库设计与搭建，在Gauss数据库上实现复杂业务需求、海量数据SQL优化，管理数据开发团队，把控开发进度与质量"
+    },
+    {
+      "公司": "某新零售行业",
+      "职位": "数据Lead",
+      "时间": "",
+      "描述": "负责数据仓库架构设计、迭代、业务模型构建及分层设计，按业务模块建立指标体系，支持实时监控与离线分析"
+    },
+    {
+      "公司": "某运营商",
+      "职位": "数据开发",
+      "时间": "",
+      "描述": "负责数据开发组需求分析、分工、排期、进度管理与验收，使用SQL、PL-SQL、脚本语言完成开发与调度监控，负责数据质量监控与考核"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融保险、新零售、通信行业数据项目",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 通信",
+      "source": "rule",
+      "matched_term": "通信"
+    }
+  ],
+  "_batch": {
+    "source_file": "xiaoci.guo_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\xiaoci.guo_profile_CN.md",
+    "source_hash": "faa42536452952e3eb086fa7bb3574cbb3682cf3796da57690c0627057752b21",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:30:32"
+  },
+  "城市": "Beijing"
+}

@@ -1,0 +1,523 @@
+{
+  "姓名": "Candidate_0135",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "BA",
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 开发工具：.NET, JAVA",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 分析工具：Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "数据库工具：My SQL",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "作为顾问，收集原始流程，设计未来的解决方案，交付业务分析用例。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "运用流程改善相关知识，提供RPA解决方案并负责项目的最终交付。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "作为项目的技术支持顾问，负责晶科共享系统和周边系统得相关改造方案，系统规划，业财一体化系统设计，AI智能审核方案设计，运营管理设计，总账月结自动审核设计。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责销售公司的销售系统高阶方案，系统规划，业财一体化系统设计。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "作为项目实施经理，负责财务平台在三大共享中心的实施上线。支持业务的平稳过渡。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 分析工具：Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为项目的技术支持顾问，负责晶科共享系统和周边系统得相关改造方案，系统规划，业财一体化系统设计，AI智能审核方案设计，运营管理设计，总账月结自动审核设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+        "作为项目实施经理，负责财务平台在三大共享中心的实施上线。支持业务的平稳过渡。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为项目的技术支持顾问，负责晶科共享系统和周边系统得相关改造方案，系统规划，业财一体化系统设计，AI智能审核方案设计，运营管理设计，总账月结自动审核设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责销售公司的销售系统高阶方案，系统规划，业财一体化系统设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责销售公司的销售系统高阶方案，系统规划，业财一体化系统设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+        "运用流程改善相关知识，提供RPA解决方案并负责项目的最终交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+        "作为顾问，收集原始流程，设计未来的解决方案，交付业务分析用例。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "作为顾问，收集原始流程，设计未来的解决方案，交付业务分析用例。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 开发工具：.NET, JAVA",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 分析工具：Power BI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "数据库工具：My SQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "21年以上的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为顾问，收集原始流程，设计未来的解决方案，交付业务分析用例。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "运用流程改善相关知识，提供RPA解决方案并负责项目的最终交付。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为项目的技术支持顾问，负责晶科共享系统和周边系统得相关改造方案，系统规划，业财一体化系统设计，AI智能审核方案设计，运营管理设计，总账月结自动审核设计。",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责销售公司的销售系统高阶方案，系统规划，业财一体化系统设计。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为项目实施经理，负责财务平台在三大共享中心的实施上线。支持业务的平稳过渡。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "UML",
+      "evidence": "设计工具：UML"
+    },
+    {
+      "skill_id": "",
+      "name": ".NET",
+      "evidence": "开发工具：.NET"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "数据库工具：Oracle"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL server",
+      "evidence": "数据库工具：SQL server"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "简柏特（大连）",
+      "职位": "项目负责人/顾问",
+      "时间": "2007 – 2013",
+      "描述": "作为项目负责人带领维护团队，作为顾问收集需求并设计解决方案，交付业务分析用例，负责系统实施和变更管理。"
+    },
+    {
+      "公司": "大连永嘉电子",
+      "职位": "系统工程师",
+      "时间": "2005 - 2007",
+      "描述": "进行业务分析，模块设计，代码开发，系统测试，用户测试和最终部署。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "SW/App/Cloud Tech Support Assoc Manager",
+      "时间": "",
+      "描述": "负责多个数字化转型咨询项目，包括晶科财务共享、三菱菱感销售系统、海信采购供应链等，提供业务分析、高阶方案设计、系统规划及项目交付管理。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 快消品",
+      "source": "rule",
+      "matched_term": "快消"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "HSBC,沃尔玛，华为等 - 外部RPA（机器人流程自动化）项目",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "tiger.xuhu.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\tiger.xuhu.wang_profile_CN.md",
+    "source_hash": "937adb974d4d6a4b91525afe331f31347169a767d8cb1dd1ec1546937650b864",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:23:31"
+  },
+  "城市": "Dalian"
+}

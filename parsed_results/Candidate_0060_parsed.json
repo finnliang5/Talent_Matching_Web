@@ -1,0 +1,477 @@
+{
+  "姓名": "Candidate_0060",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言：VB、C#、Java、Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言：VB、C#、Java、Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "- IT 软件项目规划、实施咨询与交付管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "带领大连 IAP 团队设计并开发内部产品智能平台项目，覆盖财务 PTP、OTC、固定资产管理、人力招聘、薪酬、培训、采购 PR/PO 等多类业务流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "推动 AI 自动化方案在财务、会计和 HR 场景中的实施，并推广生成式 AI 在业务流程优化和效率提升中的应用",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_REMOTE_COLLABORATION",
+      "name": "远程协作交付",
+      "type": "ABILITY",
+      "evidence": "为中国 1500 余名员工和日本 500 余名员工提供跨地域运营支撑与平台服务",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "远程协作交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "推动 AI 自动化方案在财务、会计和 HR 场景中的实施，并推广生成式 AI 在业务流程优化和效率提升中的应用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "推动 AI 自动化方案在财务、会计和 HR 场景中的实施，并推广生成式 AI 在业务流程优化和效率提升中的应用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "推动 AI 自动化方案在财务、会计和 HR 场景中的实施，并推广生成式 AI 在业务流程优化和效率提升中的应用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "带领大连 IAP 团队设计并开发内部产品智能平台项目，覆盖财务 PTP、OTC、固定资产管理、人力招聘、薪酬、培训、采购 PR/PO 等多类业务流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "带领大连 IAP 团队设计并开发内部产品智能平台项目，覆盖财务 PTP、OTC、固定资产管理、人力招聘、薪酬、培训、采购 PR/PO 等多类业务流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- IT 软件项目规划、实施咨询与交付管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+        "- IT 软件项目规划、实施咨询与交付管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REMOTE_COLLABORATION_DELIVERY",
+      "name": "Remote Collaboration Delivery",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "为中国 1500 余名员工和日本 500 余名员工提供跨地域运营支撑与平台服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REMOTE_COLLABORATION",
+          "name": "远程协作交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：VB、C#、Java、Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：VB、C#、Java、Python",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- IT 软件项目规划、实施咨询与交付管理",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "带领大连 IAP 团队设计并开发内部产品智能平台项目，覆盖财务 PTP、OTC、固定资产管理、人力招聘、薪酬、培训、采购 PR/PO 等多类业务流程",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "推动 AI 自动化方案在财务、会计和 HR 场景中的实施，并推广生成式 AI 在业务流程优化和效率提升中的应用",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "为中国 1500 余名员工和日本 500 余名员工提供跨地域运营支撑与平台服务",
+      "supports_entity_id": "SKILL_REMOTE_COLLABORATION",
+      "supports_entity_name": "远程协作交付",
+      "derived_capability_ids": [
+        "CAP_REMOTE_COLLABORATION_DELIVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Citrix",
+      "evidence": "基于 Citrix 的虚拟化基础设施建设与运营支撑"
+    },
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "自动化技能：UiPath、Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "Power Automate",
+      "evidence": "自动化技能：UiPath、Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "VB",
+      "evidence": "编程语言：VB、C#、Java、Python"
+    },
+    {
+      "skill_id": "",
+      "name": "C#",
+      "evidence": "编程语言：VB、C#、Java、Python"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 (Accenture Operations)",
+      "职位": "软件开发经理 / 技术交付经理 / AI 创新经理",
+      "时间": "2017年1月至今",
+      "描述": "负责多个客户并行项目交付与服务管理，年度交付规模超100万美元。带领团队设计开发内部产品智能平台，覆盖财务、人力、采购等流程。推动AI自动化及生成式AI在财务、会计、HR场景的实施与推广。"
+    },
+    {
+      "公司": "Infodeliver 株式会社",
+      "职位": "BI 事业部部长 / 技术交付负责人",
+      "时间": "2008年4月至2017年1月",
+      "描述": "负责对日数据处理业务与软件系统交付，构建基于Citrix的虚拟化环境。统筹中日跨地域运营支撑，主导日本损保、兴亚保险、Benesse教育、Sony生命保险、瑞穗银行等客户的数据处理与系统交付项目。"
+    },
+    {
+      "公司": "南京三商软件公司",
+      "职位": "软件开发工程师",
+      "时间": "2005年7月至2008年3月",
+      "描述": "参与趋势软件全球订单在线采购项目开发与实施，负责需求理解、功能开发与上线支持。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险、银行与金融服务",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有 20 年以上 IT 软件开发、咨询、设计、实施与项目管理经验，其中超过 10 年聚焦于软件需求分析、系统设计、架构规划及交付管理。长期服务于跨国与大型企业客户，覆盖保险、银行、教育、快消、医药、高科技及国企等行业，具备从业务调研、方案设计、基础设施建设到团队交付管理的完整经验。曾长期负责对日业务交付与团队管理，最高担任 BI 事业部部长，管理 70 人以上团队。现阶段在埃森哲负责多客户并行交付、软件产品管理与 AI 创新落地，目前团队成员22人。",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "Jingyang.yu_profile_template_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Jingyang.yu_profile_template_CN.md",
+    "source_hash": "6007d25166d43648ed317fd465f2bd6b9f543a6750d427f3b1c0f0ecc848d571",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:30:07"
+  },
+  "城市": "Dalian"
+}

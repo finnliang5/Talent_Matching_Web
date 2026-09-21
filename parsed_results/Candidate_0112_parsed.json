@@ -1,0 +1,439 @@
+{
+  "姓名": "Candidate_0112",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "CONSULTING",
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【Python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 【Power BI】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 【业务分析师，分析业务需求，通过软件技术提升工作效率优化资源配置，使用新技术改变工作和生产方式，提高效率，缩减成本】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "流程优化及系统改造工作，包括流程梳理、诊断设计、优化提升及测试落地。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "主导项目解决方案制定、资料整合、价值提炼、战略设计、策略制定、调研诊断、数据分析等工作，撰写企业研究报告，并向客户讲解报告内容。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "擅长通过数据分析模型的使用来进行企业内部财务与IT系统的问题分析，并提出解决方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Power BI】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【业务分析师，分析业务需求，通过软件技术提升工作效率优化资源配置，使用新技术改变工作和生产方式，提高效率，缩减成本】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长通过数据分析模型的使用来进行企业内部财务与IT系统的问题分析，并提出解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导项目解决方案制定、资料整合、价值提炼、战略设计、策略制定、调研诊断、数据分析等工作，撰写企业研究报告，并向客户讲解报告内容。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导项目解决方案制定、资料整合、价值提炼、战略设计、策略制定、调研诊断、数据分析等工作，撰写企业研究报告，并向客户讲解报告内容。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 【业务分析师，分析业务需求，通过软件技术提升工作效率优化资源配置，使用新技术改变工作和生产方式，提高效率，缩减成本】",
+        "流程优化及系统改造工作，包括流程梳理、诊断设计、优化提升及测试落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 【业务分析师，分析业务需求，通过软件技术提升工作效率优化资源配置，使用新技术改变工作和生产方式，提高效率，缩减成本】",
+        "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Power BI】",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【业务分析师，分析业务需求，通过软件技术提升工作效率优化资源配置，使用新技术改变工作和生产方式，提高效率，缩减成本】",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【需求分析：根据项目规划进行详细的需求分析，深度整理、分析客户所在行业的多维度信息和数据，对需求业务进行细化，撰写分析报告。】",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "流程优化及系统改造工作，包括流程梳理、诊断设计、优化提升及测试落地。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导项目解决方案制定、资料整合、价值提炼、战略设计、策略制定、调研诊断、数据分析等工作，撰写企业研究报告，并向客户讲解报告内容。",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长通过数据分析模型的使用来进行企业内部财务与IT系统的问题分析，并提出解决方案。",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "核心技能：VBA"
+    },
+    {
+      "skill_id": "",
+      "name": "低代码平台",
+      "evidence": "熟悉行业内主流软件（ERP、OA 、费用报销、低代码平台）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲（中国）有限公司成都分公司",
+      "职位": "应用自动化工程分析师 / 运维 / 欧莱雅Wave3",
+      "时间": "2022年-至今",
+      "描述": "负责欧莱雅项目需求收集与分析、内部调研、方案架构设计与实施，推动方案迭代优化。"
+    },
+    {
+      "公司": "埃森哲（中国）有限公司成都分公司",
+      "职位": "应付账款专员 / Panda",
+      "时间": "2020.07-2021.12",
+      "描述": "负责应付账款管理、数据分析与专项清理、流程改进与系统改造、账务处理与报表输出。"
+    },
+    {
+      "公司": "重庆正力企业管理咨询有限责任公司成都分公司",
+      "职位": "综合行政",
+      "时间": "2019.11-2020.06",
+      "描述": ""
+    },
+    {
+      "公司": "成都零度企业管理咨询有限公司",
+      "职位": "会计",
+      "时间": "2016.09-2018.06",
+      "描述": ""
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 【报表输出：负责应付账款交月末银行账目与财务报表核查，分析报表差异,出具相关职能的报表和费用分析、年度预算和分析、财务分析报表。】",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【四川科技职业学院，2014.09-2017.06】",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "从早期从事雀巢业务的工作经验到后来负责欧莱雅业务的需求，设计，测试，上线，追踪等过程一步步走来",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "Rong.a.jiang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Rong.a.jiang_profile_CN.md",
+    "source_hash": "1b0c292628d3b0a495e0f82f841b152cc003c14f15f3d3e517b33139852d1207",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:56:03"
+  },
+  "城市": "Chengdu"
+}

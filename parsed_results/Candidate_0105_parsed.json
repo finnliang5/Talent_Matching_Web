@@ -1,0 +1,945 @@
+{
+  "姓名": "Candidate_0105",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "HYBRID"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 18,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 平台架构设计： 负责企业级大数据平台架构设计，构建基于 CDH 的数据湖；同步引入 Milvus 向量数据库，打造支持 GPT-4o 大模型推理与检索增强（RAG）的基础数据底座。负责离线与实时数据入湖方案设计与实施，打通批处理与实时处理链路；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vector Database"
+      ],
+      "matched_term": "向量数据库"
+    },
+    {
+      "skill_id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "evidence": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Milvus"
+    },
+    {
+      "skill_id": "SKILL_NEO4J",
+      "name": "Neo4j",
+      "type": "DATABASE",
+      "evidence": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Neo4J",
+        "图数据库"
+      ],
+      "matched_term": "Neo4j"
+    },
+    {
+      "skill_id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据湖（Iceberg/Hudi/Redshift）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "matched_term": "Redshift"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS-SAA认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "evidence": "- 流批处理（Flink/Spark）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "matched_term": "Spark"
+    },
+    {
+      "skill_id": "SKILL_APACHE_ICEBERG",
+      "name": "Apache Iceberg",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据湖（Iceberg/Hudi/Redshift）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Iceberg"
+      ],
+      "matched_term": "Iceberg"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_MODELING",
+      "name": "数据仓库建模",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse Modeling",
+        "Dimensional Modeling",
+        "维度建模",
+        "数仓建模"
+      ],
+      "matched_term": "数据仓库建模"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库"
+    },
+    {
+      "skill_id": "SKILL_DATA_LAKE",
+      "name": "Data Lake",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "数据湖"
+      ],
+      "matched_term": "数据湖"
+    },
+    {
+      "skill_id": "SKILL_METADATA_MANAGEMENT",
+      "name": "元数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "元数据管理"
+    },
+    {
+      "skill_id": "SKILL_DATA_LINEAGE",
+      "name": "数据血缘",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "数据血缘"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- BI可视化（PowerBI/FineBI/MSTR）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "打造高复用性的数据资产体系",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责企业数据平台整体架构规划与设计，完成数据湖及离线数仓体系搭建",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "对接算法与业务需求，提供电池健康度、能耗分析等核心指标的特征提取与数据服务",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- BI可视化（PowerBI/FineBI/MSTR）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- AWS-SAA认证"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对接算法与业务需求，提供电池健康度、能耗分析等核心指标的特征提取与数据服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_LINEAGE_MANAGEMENT",
+      "name": "Data Lineage Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_LINEAGE",
+          "name": "数据血缘"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+        "打造高复用性的数据资产体系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_MODELING",
+          "name": "数据仓库建模"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+        "打造高复用性的数据资产体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_MODELING",
+      "name": "Data Warehouse Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_MODELING",
+          "name": "数据仓库建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据湖（Iceberg/Hudi/Redshift）",
+        "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+        "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_APACHE_ICEBERG",
+          "name": "Apache Iceberg"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_LAKE",
+          "name": "Data Lake"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 流批处理（Flink/Spark）",
+        "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPARK",
+          "name": "Spark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责企业数据平台整体架构规划与设计，完成数据湖及离线数仓体系搭建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_NEO4J",
+          "name": "Neo4j"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_METADATA_MANAGEMENT",
+      "name": "Metadata Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_METADATA_MANAGEMENT",
+          "name": "元数据管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责企业数据平台整体架构规划与设计，完成数据湖及离线数仓体系搭建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+        "- 平台架构设计： 负责企业级大数据平台架构设计，构建基于 CDH 的数据湖；同步引入 Milvus 向量数据库，打造支持 GPT-4o 大模型推理与检索增强（RAG）的基础数据底座。负责离线与实时数据入湖方案设计与实施，打通批处理与实时处理链路；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库",
+          "rule_id": "RULE_VECTOR_DB_TO_RAG",
+          "rule_name": "向量数据库 -> CAP_RAG",
+          "inference_reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities.",
+          "inference_weight": 0.75
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus",
+          "rule_id": "RULE_MILVUS_TO_RAG",
+          "rule_name": "Milvus -> CAP_RAG",
+          "inference_reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems.",
+          "inference_weight": 0.72
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 平台架构设计： 负责企业级大数据平台架构设计，构建基于 CDH 的数据湖；同步引入 Milvus 向量数据库，打造支持 GPT-4o 大模型推理与检索增强（RAG）的基础数据底座。负责离线与实时数据入湖方案设计与实施，打通批处理与实时处理链路；",
+        "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 9
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 平台架构设计： 负责企业级大数据平台架构设计，构建基于 CDH 的数据湖；同步引入 Milvus 向量数据库，打造支持 GPT-4o 大模型推理与检索增强（RAG）的基础数据底座。负责离线与实时数据入湖方案设计与实施，打通批处理与实时处理链路；",
+      "supports_entity_id": "SKILL_VECTOR_DATABASE",
+      "supports_entity_name": "向量数据库",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "supports_entity_id": "SKILL_MILVUS",
+      "supports_entity_name": "Milvus",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture",
+      "supports_entity_id": "SKILL_NEO4J",
+      "supports_entity_name": "Neo4j",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据湖（Iceberg/Hudi/Redshift）",
+      "supports_entity_id": "SKILL_AWS_REDSHIFT",
+      "supports_entity_name": "Amazon Redshift",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS-SAA认证",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 流批处理（Flink/Spark）",
+      "supports_entity_id": "SKILL_SPARK",
+      "supports_entity_name": "Spark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据湖（Iceberg/Hudi/Redshift）",
+      "supports_entity_id": "SKILL_APACHE_ICEBERG",
+      "supports_entity_name": "Apache Iceberg",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_MODELING",
+      "supports_entity_name": "数据仓库建模",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSE_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责数据仓库建模及数据主题域设计，支撑MicroStrategy（MSTR）报表及分析需求",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "supports_entity_id": "SKILL_DATA_LAKE",
+      "supports_entity_name": "Data Lake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "supports_entity_id": "SKILL_METADATA_MANAGEMENT",
+      "supports_entity_name": "元数据管理",
+      "derived_capability_ids": [
+        "CAP_METADATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 多源数据集成： 负责关系型数据库与非结构化数据的接入及 ETL 开发；利用 Python 脚本实现数据清洗与预处理，为模型训练和提示词工程（Prompt Engineering）建立统一集成体系。负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控；",
+      "supports_entity_id": "SKILL_DATA_LINEAGE",
+      "supports_entity_name": "数据血缘",
+      "derived_capability_ids": [
+        "CAP_DATA_LINEAGE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- BI可视化（PowerBI/FineBI/MSTR）",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "近10年大数据开发与数据架构经验，具备从数据开发工程师到数据架构师的完整成长路径，长期服务于企业级数据平台建设与数据治理项目，具备丰富的复杂系统落地经验。在全球某头部药企交付项目中担任数据架构师，负责多源系统（SFA、业务推荐系统等）离线数据入湖方案设计与实施，构建统一数据集成体系。也曾在某中型CDMO企业担任数据架构师，**从0到1搭建流批一体数据湖平台，并在湖中实现对大模型应用的数据集成与数据ETL工作的自动化**。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "打造高复用性的数据资产体系",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责企业数据平台整体架构规划与设计，完成数据湖及离线数仓体系搭建",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对接算法与业务需求，提供电池健康度、能耗分析等核心指标的特征提取与数据服务",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "RAG Architecture",
+      "evidence": "AI & Vector DB: Milvus,Neo4j, GPT-4o (LLM), RAG Architecture"
+    },
+    {
+      "skill_id": "",
+      "name": "SelectDB",
+      "evidence": "基于SelectDB构建的企业级实时数据仓库平台"
+    },
+    {
+      "skill_id": "",
+      "name": "DataHub",
+      "evidence": "数据治理（DataHub/Atlas）"
+    },
+    {
+      "skill_id": "",
+      "name": "Atlas",
+      "evidence": "数据治理（DataHub/Atlas）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某全球头部制药企业",
+      "职位": "大数据架构师",
+      "时间": "",
+      "描述": "负责企业数据平台整体架构规划与设计，完成数据湖及离线数仓体系搭建；负责多源系统离线数据入湖方案设计与实施，构建统一数据集成体系；负责数据仓库建模及数据主题域设计，支撑MSTR报表及分析需求。"
+    },
+    {
+      "公司": "某CDMO生物科技公司",
+      "职位": "大数据架构师",
+      "时间": "",
+      "描述": "负责企业级大数据平台架构设计，构建基于CDH的数据湖；引入Milvus向量数据库打造支持大模型推理与RAG的基础数据底座；负责离线与实时数据入湖设计，实施非结构化数据实时向量化入湖；负责数据治理体系建设，包括元数据管理、数据血缘追踪及数据质量管控。"
+    },
+    {
+      "公司": "某新能源车企",
+      "职位": "大数据开发工程师",
+      "时间": "",
+      "描述": "负责车联网、电池及业务系统数据的离线/实时清洗与建模，构建标准化的数据仓库体系；利用Flink/Spark实现车辆告警、行车轨迹等数据的秒级处理；负责大数据任务的监控与优化，解决高并发数据上报中的性能瓶颈。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 某CDMO生物科技公司",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 新能源汽车工业物联网领域",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "qi.t.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\qi.t.li_profile_CN.md",
+    "source_hash": "5d3c6ef2dada42906e0c38313e064640620cbc7e1f771c5c4100a040744eaee9",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:52:02"
+  },
+  "城市": "Shanghai"
+}

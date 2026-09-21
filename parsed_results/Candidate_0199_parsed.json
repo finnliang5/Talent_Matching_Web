@@ -1,0 +1,455 @@
+{
+  "姓名": "Candidate_0199",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "Took full ownership of end-to-end project migration and service expansion for both new and existing clients, with control over project scope and schedule.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "Identified potential risks that could impact project timelines in a timely manner and implemented corresponding risk mitigation plans.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "Led and implemented standardized governance mechanisms and coordinated core business processes in project migration execution.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "proactively coordinated delivery and business operations teams to drive progress.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "coordinate cross-functional teams across delivery, digital transformation, internal technology, and client technology",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "Identified automation opportunities to reduce costs and improve efficiency.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "Identified automation opportunities to reduce costs and improve efficiency.",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "evidence": "Drove delivery optimization based on industry best practices",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "行业对标"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "Identified automation opportunities to reduce costs and improve efficiency."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Identified automation opportunities to reduce costs and improve efficiency."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Identified automation opportunities to reduce costs and improve efficiency."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "Identified automation opportunities to reduce costs and improve efficiency."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "proactively coordinated delivery and business operations teams to drive progress.",
+        "coordinate cross-functional teams across delivery, digital transformation, internal technology, and client technology"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction.",
+        "Led and implemented standardized governance mechanisms and coordinated core business processes in project migration execution."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "Drove delivery optimization based on industry best practices"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_BENCHMARKING",
+          "name": "行业对标"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Took full ownership of end-to-end project migration and service expansion for both new and existing clients, with control over project scope and schedule."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction.",
+        "Took full ownership of end-to-end project migration and service expansion for both new and existing clients, with control over project scope and schedule."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Identified potential risks that could impact project timelines in a timely manner and implemented corresponding risk mitigation plans."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction.",
+        "Identified potential risks that could impact project timelines in a timely manner and implemented corresponding risk mitigation plans."
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "coordinate cross-functional teams across delivery, digital transformation, internal technology, and client technology"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction.",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Took full ownership of end-to-end project migration and service expansion for both new and existing clients, with control over project scope and schedule.",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Identified potential risks that could impact project timelines in a timely manner and implemented corresponding risk mitigation plans.",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Led and implemented standardized governance mechanisms and coordinated core business processes in project migration execution.",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "proactively coordinated delivery and business operations teams to drive progress.",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "coordinate cross-functional teams across delivery, digital transformation, internal technology, and client technology",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Identified automation opportunities to reduce costs and improve efficiency.",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Identified automation opportunities to reduce costs and improve efficiency.",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Drove delivery optimization based on industry best practices",
+      "supports_entity_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "supports_entity_name": "行业对标",
+      "derived_capability_ids": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "HP",
+      "职位": "",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "Accenture",
+      "职位": "IT Project Management",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "",
+      "职位": "Tech Architecture Manager / Head of IT Service and Delivery Management",
+      "时间": "",
+      "描述": "Responsible for solution migration implementation and delivery, and participated in the solution design process; controlled project costs and conducted variance analysis; proactively coordinated delivery and business operations teams to drive progress. Managed the full project lifecycle, including project initiation and planning, project cost structure setup, tracking and reporting delivery outcomes, risk control, and implementation of project management processes and tools, ensuring on-time and on-budget delivery with high client satisfaction. Took full ownership of end-to-end project migration and service expansion for both new and existing clients, with control over project scope and schedule. Identified potential risks that could impact project timelines in a timely manner and implemented corresponding risk mitigation plans. Led and implemented standardized governance mechanisms and coordinated core business processes in project migration execution. Drove delivery optimization based on industry best practices and implemented standardized solutions in specialized areas. Identified automation opportunities to reduce costs and improve efficiency."
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "Excellent communication and coordination skills, time management, and self-management.",
+      "source": "rule",
+      "matched_term": "Communication"
+    }
+  ]
+}

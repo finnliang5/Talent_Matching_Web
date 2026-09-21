@@ -1,0 +1,629 @@
+{
+  "姓名": "Candidate_0179",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 大数据，Databricks",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "matched_term": "Databricks"
+    },
+    {
+      "skill_id": "SKILL_DATA_LAKE",
+      "name": "Data Lake",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "新能源制造业|锂电池数据湖分析项目",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "数据湖"
+      ],
+      "matched_term": "数据湖"
+    },
+    {
+      "skill_id": "SKILL_DATA_QUALITY_MANAGEMENT",
+      "name": "数据质量管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "数据质量管理"
+    },
+    {
+      "skill_id": "SKILL_METADATA_MANAGEMENT",
+      "name": "元数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "作为数据治理顾问，主导构建了端到端的数据治理体系。从顶层框架设计到落地实施层面完成了以下工作：首先，搭建覆盖数据全生命周期的治理框架，包含数据标准、质量、安全等九大模块，并通过数据治理委员会与跨部门协作机制优化组织效能。其次，明确数据责任人体系，制定涵盖数据域长、治理专员等角色的技能矩阵与考核指标，将数据质量、标准符合度等纳入部门KPI体系。在技术层面，创新设计数据架构与治理的协同模式，通过统一元数据管理平台整合500+业务术语，建立包含主数据、参考数据等六大类目的标准化体系",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "元数据管理"
+    },
+    {
+      "skill_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "name": "主数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Master Data Management",
+        "MDM",
+        "Master Data Managerment",
+        "Master Data Mangerment",
+        "主数据管理"
+      ],
+      "matched_term": "主数据管理"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产管理"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "数据治理咨询顾问",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "统筹物料、产品、客商、项目等7类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "作为数据治理顾问，主导构建了端到端的数据治理体系",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为数据治理顾问，主导构建了端到端的数据治理体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据治理咨询顾问"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_QUALITY_MANAGEMENT",
+      "name": "Data Quality Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_QUALITY_MANAGEMENT",
+          "name": "数据质量管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。",
+        "数据治理咨询顾问"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 大数据，Databricks",
+        "新能源制造业|锂电池数据湖分析项目"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_LAKE",
+          "name": "Data Lake"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "统筹物料、产品、客商、项目等7类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 大数据，Databricks"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为数据治理顾问，主导构建了端到端的数据治理体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MASTER_DATA_MANAGEMENT",
+      "name": "Master Data Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MASTER_DATA_MANAGEMENT",
+          "name": "主数据管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_METADATA_MANAGEMENT",
+      "name": "Metadata Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "作为数据治理顾问，主导构建了端到端的数据治理体系。从顶层框架设计到落地实施层面完成了以下工作：首先，搭建覆盖数据全生命周期的治理框架，包含数据标准、质量、安全等九大模块，并通过数据治理委员会与跨部门协作机制优化组织效能。其次，明确数据责任人体系，制定涵盖数据域长、治理专员等角色的技能矩阵与考核指标，将数据质量、标准符合度等纳入部门KPI体系。在技术层面，创新设计数据架构与治理的协同模式，通过统一元数据管理平台整合500+业务术语，建立包含主数据、参考数据等六大类目的标准化体系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_METADATA_MANAGEMENT",
+          "name": "元数据管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "统筹物料、产品、客商、项目等7类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "统筹物料、产品、客商、项目等7类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 8
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大数据，Databricks",
+      "supports_entity_id": "SKILL_DATABRICKS",
+      "supports_entity_name": "Databricks",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "新能源制造业|锂电池数据湖分析项目",
+      "supports_entity_id": "SKILL_DATA_LAKE",
+      "supports_entity_name": "Data Lake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。",
+      "supports_entity_id": "SKILL_DATA_QUALITY_MANAGEMENT",
+      "supports_entity_name": "数据质量管理",
+      "derived_capability_ids": [
+        "CAP_DATA_QUALITY_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "作为数据治理顾问，主导构建了端到端的数据治理体系。从顶层框架设计到落地实施层面完成了以下工作：首先，搭建覆盖数据全生命周期的治理框架，包含数据标准、质量、安全等九大模块，并通过数据治理委员会与跨部门协作机制优化组织效能。其次，明确数据责任人体系，制定涵盖数据域长、治理专员等角色的技能矩阵与考核指标，将数据质量、标准符合度等纳入部门KPI体系。在技术层面，创新设计数据架构与治理的协同模式，通过统一元数据管理平台整合500+业务术语，建立包含主数据、参考数据等六大类目的标准化体系",
+      "supports_entity_id": "SKILL_METADATA_MANAGEMENT",
+      "supports_entity_name": "元数据管理",
+      "derived_capability_ids": [
+        "CAP_METADATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系",
+      "supports_entity_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "supports_entity_name": "主数据管理",
+      "derived_capability_ids": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责集团及分子公司主数据管理系统全流程咨询与实施，统筹物料、产品、客商、项目等 7 类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化。咨询阶段：牵头主数据识别、分类规则制定与统一编码规则设计，构建标准化主数据体系；主导数据标准定义、分级数据清洗计划编排；搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人；梳理各业务系统集成逻辑，输出系统实施蓝图，支撑系统高效落地。实施阶段：将蓝图转化为需求分析报告与功能说明书，协同开发团队推进系",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在数据治理层面帮助客户根据业务属性规划数据主题域，即“人、机、料、法、测”数据打通，并在元数据、主数据管理、数据资产管理中制定相关管理办法，协助客户落实相关管控流程。交付数据资产地图，可查询元数据、数据目录、分析主题，可图形化展示数据表之间E-R关系等功能。数据质量管理提供数据质量管理方案，可在核心数据对象上进行数据质量标准管控，并设计和发布数据质量考核管理办法。",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "数据治理咨询顾问",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "搭建全集团贯通的主数据治理组织体系，打通集团与分子事业部链路，实现岗位与职责精准绑定到人",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "统筹物料、产品、客商、项目等7类主数据管控，输出落地蓝图并推动系统交付与数据质量持续优化",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为数据治理顾问，主导构建了端到端的数据治理体系",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "DTS",
+      "evidence": "在交付过程中，使用了DTS、SDDP、Dataphin、Maxcompute、RDS等云产品"
+    },
+    {
+      "skill_id": "",
+      "name": "SDDP",
+      "evidence": "在交付过程中，使用了DTS、SDDP、Dataphin、Maxcompute、RDS等云产品"
+    },
+    {
+      "skill_id": "",
+      "name": "Dataphin",
+      "evidence": "在交付过程中，使用了DTS、SDDP、Dataphin、Maxcompute、RDS等云产品"
+    },
+    {
+      "skill_id": "",
+      "name": "Maxcompute",
+      "evidence": "在交付过程中，使用了DTS、SDDP、Dataphin、Maxcompute、RDS等云产品"
+    },
+    {
+      "skill_id": "",
+      "name": "RDS",
+      "evidence": "在交付过程中，使用了DTS、SDDP、Dataphin、Maxcompute、RDS等云产品"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "新华三",
+      "职位": "大数据解决方案架构师",
+      "时间": "",
+      "描述": "从事企业数字化转型咨询与架构规划以及相关技术落地交付工作"
+    },
+    {
+      "公司": "",
+      "职位": "数据治理咨询顾问",
+      "时间": "",
+      "描述": "负责大数据平台、数据中台、数据管理与治理、整合AI技术的数据服务等解决方案和架构设计及交付"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "金融业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "高科技制造业",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "新能源制造业|主数据咨询与交付项目",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "yunwei.zhang_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yunwei.zhang_CN.md",
+    "source_hash": "4276360df0354a9836242e25c6727a08119e66327aa42b073c8f4d283775e637",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:41:45"
+  },
+  "城市": "Beijing"
+}

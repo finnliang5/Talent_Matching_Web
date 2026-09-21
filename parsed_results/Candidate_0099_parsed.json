@@ -1,0 +1,435 @@
+{
+  "姓名": "Candidate_0099",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 8
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "精通项目业务分析、维护和运营管理，有一定的技术背景，并根据技术需要进行业务及工具的需求设计 】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "6年项目主管经验，负责工具在进行2期和3期开发，测试，工具上线过程中的项目管理，沟通，风险排除等作业。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "负责收集项目业务需求，梳理业务流程内容，分析并识别自动化机会",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "利用所了解的业务提前预测风险并及时解决，问题排查、业务支持及谈判等作业",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与客户及开发团队讨论，最终完成自动化工具的开发与上线。在此期间需持续与项目及开发团队沟通",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "负责创建标准化的运维（O&M）模式，规范运维操作，简化运维资源和成本",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "负责部门所有已部署上线自动化工具的日常运维作业及内部资源管理，将人员的利用率达到90%以上",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "梳理业务流程内容，创建适合不同工具的标准化运维模式，制定了针对工具类的有效的交接标准化流程及计划",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "精通项目业务分析、维护和运营管理，有一定的技术背景，并根据技术需要进行业务及工具的需求设计 】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与客户及开发团队讨论，最终完成自动化工具的开发与上线。在此期间需持续与项目及开发团队沟通"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "6年项目主管经验，负责工具在进行2期和3期开发，测试，工具上线过程中的项目管理，沟通，风险排除等作业。",
+        "负责创建标准化的运维（O&M）模式，规范运维操作，简化运维资源和成本"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "精通项目业务分析、维护和运营管理，有一定的技术背景，并根据技术需要进行业务及工具的需求设计 】",
+        "梳理业务流程内容，创建适合不同工具的标准化运维模式，制定了针对工具类的有效的交接标准化流程及计划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "6年项目主管经验，负责工具在进行2期和3期开发，测试，工具上线过程中的项目管理，沟通，风险排除等作业。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "精通项目业务分析、维护和运营管理，有一定的技术背景，并根据技术需要进行业务及工具的需求设计 】",
+        "负责收集项目业务需求，梳理业务流程内容，分析并识别自动化机会"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "负责收集项目业务需求，梳理业务流程内容，分析并识别自动化机会"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责部门所有已部署上线自动化工具的日常运维作业及内部资源管理，将人员的利用率达到90%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "利用所了解的业务提前预测风险并及时解决，问题排查、业务支持及谈判等作业"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "6年项目主管经验，负责工具在进行2期和3期开发，测试，工具上线过程中的项目管理，沟通，风险排除等作业。",
+        "利用所了解的业务提前预测风险并及时解决，问题排查、业务支持及谈判等作业"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与客户及开发团队讨论，最终完成自动化工具的开发与上线。在此期间需持续与项目及开发团队沟通"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "精通项目业务分析、维护和运营管理，有一定的技术背景，并根据技术需要进行业务及工具的需求设计 】",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "6年项目主管经验，负责工具在进行2期和3期开发，测试，工具上线过程中的项目管理，沟通，风险排除等作业。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责收集项目业务需求，梳理业务流程内容，分析并识别自动化机会",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "利用所了解的业务提前预测风险并及时解决，问题排查、业务支持及谈判等作业",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与客户及开发团队讨论，最终完成自动化工具的开发与上线。在此期间需持续与项目及开发团队沟通",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责创建标准化的运维（O&M）模式，规范运维操作，简化运维资源和成本",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责部门所有已部署上线自动化工具的日常运维作业及内部资源管理，将人员的利用率达到90%以上",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "梳理业务流程内容，创建适合不同工具的标准化运维模式，制定了针对工具类的有效的交接标准化流程及计划",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "根据自动化工具及RPA的体积及客户实际业务需求进行客户化的调整"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "大连华信计算机技术股份有限公司",
+      "职位": "项目主管",
+      "时间": "",
+      "描述": "负责全球制造企业生产管理系统的开发与维护工作。根据客户政策和安全管理要求，最大限度地定制系统以满足客户需求，保证工具能够顺利上线并稳定使用。监控整个项目进度并控制关键节点，确保所有环节严格遵循项目计划按时完成任务。"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "BA & Project Team Lead",
+      "时间": "",
+      "描述": "作为BA负责收集项目业务需求，梳理业务流程内容，分析并识别自动化机会。兼任项目管理lead，负责监控管理进度，利用所了解的业务提前预测风险并及时解决。项目上线后继续负责项目的运维管理并持续提出工具和业务的优化方案。"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "自动化工具运维组主管",
+      "时间": "",
+      "描述": "负责部门所有已部署上线自动化工具的日常运维作业及内部资源管理。组建高效运维小组，将人员利用率提升至90%以上。创建标准化运维模式，制定工具交接标准化流程及计划。针对新需求快速确定问题优先级并响应。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【软件/应用/云技术支持助理经理， 自动化工具运维主管】",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "Nicky.ning.zhan_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Nicky.ning.zhan_profile_CN.md",
+    "source_hash": "44f59dec1e4a8d4acb9a8c9022dd9ac3752b28ae0caf24b6960cce4dce56819e",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:49:34"
+  },
+  "城市": "Dalian"
+}

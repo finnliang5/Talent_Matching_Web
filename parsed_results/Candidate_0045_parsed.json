@@ -1,0 +1,983 @@
+{
+  "姓名": "Candidate_0045",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 13,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python / C# / .Net",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_DJANGO",
+      "name": "Django",
+      "type": "FRAMEWORK",
+      "evidence": "- Celery / Django / Vue / Springboot",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Django"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- Celery / Django / Vue / Springboot",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- Celery / Django / Vue / Springboot",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 与 MS OpenAI/OpenAI/Qwen 等合作，进行 LLM 模型集成和开源模型（如 ChatGLM）在生命周期场景解决方案和软件 POC 开发中的应用。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_JUPYTER_NOTEBOOK",
+      "name": "Jupyter Notebook",
+      "type": "TOOL",
+      "evidence": "- 通过 Jupyter 和 Tensorboard 启用团队协作，实施了 Dex+istio+KFAM 访问控制，利用 Knative 管理模型服务，并将此应用于全球制药公司的血液检测场景开发。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Jupyter",
+        "JupyterLab",
+        "Notebook"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Jupyter"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_KUBEFLOW",
+      "name": "Kubeflow",
+      "type": "AI_PLATFORM",
+      "evidence": "### 【Kubeflow-Based MLOps Application Project】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "KubeFlow",
+        "Kube Flow"
+      ],
+      "belongs_to": [
+        "SKILL_KUBERNETES"
+      ],
+      "matched_term": "Kubeflow"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 负责将 GenAI 集成到软件开发生命周期的各个阶段，推动知识库的自动化和优化任务，如 EPIC 生成、功能生成、用户故事创建、测试用例开发等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- DevOps",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计并交付了完整的架构方案，涵盖了身份认证、API 管理、任务编排、模型网关等多个核心模块。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "evidence": "设定 AI 战略方向，并推动解决方案。通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI 路线图规划"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与国际团队合作，协调各方合作，在文档识别方面帮助控制成本并提高效率。曾与多国团队合作，推动跨国项目的成功交付。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "监督了一项利用 OCR 引擎和 AI 算法的项目，管理了从训练数据注释到后处理的整个过程。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "帮助奢侈品公司搭建了完整的 Agentic Platform，其中包括 GenAI 场景的设计与实现，推动销售人员通过 AI 更好地了解客户并提升销售体验。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "设定 AI 战略方向，并推动解决方案。通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "设定 AI 战略方向，并推动解决方案。通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Celery / Django / Vue / Springboot"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+        "- DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+        "### 【Kubeflow-Based MLOps Application Project】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBEFLOW",
+          "name": "Kubeflow"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与国际团队合作，协调各方合作，在文档识别方面帮助控制成本并提高效率。曾与多国团队合作，推动跨国项目的成功交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STORYTELLING",
+      "name": "Data Storytelling",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 通过 Jupyter 和 Tensorboard 启用团队协作，实施了 Dex+istio+KFAM 访问控制，利用 Knative 管理模型服务，并将此应用于全球制药公司的血液检测场景开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。",
+        "监督了一项利用 OCR 引擎和 AI 算法的项目，管理了从训练数据注释到后处理的整个过程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并交付了完整的架构方案，涵盖了身份认证、API 管理、任务编排、模型网关等多个核心模块。",
+        "帮助奢侈品公司搭建了完整的 Agentic Platform，其中包括 GenAI 场景的设计与实现，推动销售人员通过 AI 更好地了解客户并提升销售体验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "帮助奢侈品公司搭建了完整的 Agentic Platform，其中包括 GenAI 场景的设计与实现，推动销售人员通过 AI 更好地了解客户并提升销售体验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并交付了完整的架构方案，涵盖了身份认证、API 管理、任务编排、模型网关等多个核心模块。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+        "- DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与国际团队合作，协调各方合作，在文档识别方面帮助控制成本并提高效率。曾与多国团队合作，推动跨国项目的成功交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 通过 Jupyter 和 Tensorboard 启用团队协作，实施了 Dex+istio+KFAM 访问控制，利用 Knative 管理模型服务，并将此应用于全球制药公司的血液检测场景开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Celery / Django / Vue / Springboot"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 负责将 GenAI 集成到软件开发生命周期的各个阶段，推动知识库的自动化和优化任务，如 EPIC 生成、功能生成、用户故事创建、测试用例开发等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python / C# / .Net",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Celery / Django / Vue / Springboot",
+      "supports_entity_id": "SKILL_DJANGO",
+      "supports_entity_name": "Django",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Celery / Django / Vue / Springboot",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Celery / Django / Vue / Springboot",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 与 MS OpenAI/OpenAI/Qwen 等合作，进行 LLM 模型集成和开源模型（如 ChatGLM）在生命周期场景解决方案和软件 POC 开发中的应用。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 通过 Jupyter 和 Tensorboard 启用团队协作，实施了 Dex+istio+KFAM 访问控制，利用 Knative 管理模型服务，并将此应用于全球制药公司的血液检测场景开发。",
+      "supports_entity_id": "SKILL_JUPYTER_NOTEBOOK",
+      "supports_entity_name": "Jupyter Notebook",
+      "derived_capability_ids": [
+        "CAP_DATA_STORYTELLING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "### 【Kubeflow-Based MLOps Application Project】",
+      "supports_entity_id": "SKILL_KUBEFLOW",
+      "supports_entity_name": "Kubeflow",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责将 GenAI 集成到软件开发生命周期的各个阶段，推动知识库的自动化和优化任务，如 EPIC 生成、功能生成、用户故事创建、测试用例开发等。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 认证：SAP iRPA Expert，AWS Solution Architect，SAFe (SSM)，PMP，Scrum Master",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主导了机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划，以满足多样化员工需求。",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- DevOps",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Hunk Li 目前在一家咨询公司担任 AI 工程专家，拥有 17 年 IT 行业经验，曾担任多个角色，包括业务分析师（BA）、开发人员、项目经理、集成测试、技术架构、技术咨询等。他对技术有广泛的理解，擅长高效推动项目管理任务，并协助解决各类问题。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并交付了完整的架构方案，涵盖了身份认证、API 管理、任务编排、模型网关等多个核心模块。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设定 AI 战略方向，并推动解决方案。通过 MLOps 成熟度路线图推进能力，并监督轻量级应用程序和项目的架构规划。",
+      "supports_entity_id": "SKILL_AI_ROADMAP_PLANNING",
+      "supports_entity_name": "AI 路线图规划",
+      "derived_capability_ids": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与国际团队合作，协调各方合作，在文档识别方面帮助控制成本并提高效率。曾与多国团队合作，推动跨国项目的成功交付。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "监督了一项利用 OCR 引擎和 AI 算法的项目，管理了从训练数据注释到后处理的整个过程。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "帮助奢侈品公司搭建了完整的 Agentic Platform，其中包括 GenAI 场景的设计与实现，推动销售人员通过 AI 更好地了解客户并提升销售体验。",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ARGO",
+      "evidence": "ARGO 进行管道构建"
+    },
+    {
+      "skill_id": "",
+      "name": "Katib",
+      "evidence": "Katib 用于超参数调优"
+    },
+    {
+      "skill_id": "",
+      "name": "Prometheus",
+      "evidence": "Prometheus+Grafana 用于模型监控"
+    },
+    {
+      "skill_id": "",
+      "name": "Grafana",
+      "evidence": "Prometheus+Grafana 用于模型监控"
+    },
+    {
+      "skill_id": "",
+      "name": "Knative",
+      "evidence": "利用 Knative 管理模型服务"
+    },
+    {
+      "skill_id": "",
+      "name": "Qwen",
+      "evidence": "与 MS OpenAI/OpenAI/Qwen 等合作"
+    },
+    {
+      "skill_id": "",
+      "name": "ChatGLM",
+      "evidence": "开源模型（如 ChatGLM）在生命周期场景解决方案"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP iRPA",
+      "evidence": "认证：SAP iRPA Expert"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "奢侈品公司",
+      "职位": "解决方案架构师",
+      "时间": "",
+      "描述": "搭建完整的 Agentic Platform，设计并交付涵盖身份认证、API 管理、任务编排、模型网关的架构方案，推动 GenAI 场景落地以提升销售体验与业务效率。"
+    },
+    {
+      "公司": "GenAI for TDLC for Software Development Life Cycle",
+      "职位": "Product Owner (PO)",
+      "时间": "",
+      "描述": "负责将 GenAI 集成到软件开发生命周期各阶段，推动知识库自动化、EPIC/用户故事生成及测试用例开发，引领逆向工程与原型制作，成功推动产品在多客户环境部署。"
+    },
+    {
+      "公司": "Renowned Domestic Technology Co., Ltd.",
+      "职位": "AI MLOps 工程高级顾问",
+      "时间": "",
+      "描述": "提升 AI 工程能力，运用 MLOps 最佳实践解决关键问题，设定 AI 战略方向，主导机器学习 CI/CD 管道架构设计，通过 MLOps 成熟度路线图推进能力。"
+    },
+    {
+      "公司": "Generative AI Project",
+      "职位": "项目成员",
+      "时间": "",
+      "描述": "与 MS OpenAI/OpenAI/Qwen 等合作进行 LLM 模型集成，开展场景试验，创建基于 Python+Django+Vue 的门户网站嵌入领域知识以提升质量与效率。"
+    },
+    {
+      "公司": "Kubeflow-Based MLOps Application Project",
+      "职位": "项目成员",
+      "时间": "",
+      "描述": "基于 Kubeflow 开发 MLOps 平台，集成 Training Operator、ARGO、Katib、Prometheus+Grafana 等组件，实施访问控制与服务管理，应用于全球制药公司血液检测场景。"
+    },
+    {
+      "公司": "Renowned International Financial Company",
+      "职位": "项目交付主管",
+      "时间": "",
+      "描述": "监督利用 OCR 引擎和 AI 算法的智能自动化项目，管理从数据注释到后处理全流程，协调国际团队合作，控制成本并提高效率。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "AI Engineering Expert (Greater China, Technology Innovation Department at a Consulting Firm)",
+      "source": "rule",
+      "matched_term": "Technology"
+    }
+  ],
+  "_batch": {
+    "source_file": "hunk.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hunk.li_profile_CN.md",
+    "source_hash": "df5c4b7c0edfe7d85d42992024584a3b5b1a853ea296168a235aa3c705b4a757",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:24:22"
+  },
+  "城市": "Dalian"
+}

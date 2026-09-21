@@ -1,0 +1,396 @@
+{
+  "姓名": "Candidate_0057",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "工具/平台列表中明确提及",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "技能列表及项目经历中明确提及",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "项目经历中明确提及",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    },
+    {
+      "skill_id": "SKILL_INFORMATICA",
+      "name": "Informatica",
+      "type": "DATA_PLATFORM",
+      "evidence": "项目经历及工具列表中明确提及",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Informatica PowerCenter",
+        "Informatica IICS",
+        "Informatica Cloud",
+        "Informatica MDM",
+        "PowerCenter",
+        "IICS"
+      ],
+      "matched_term": "Informatica"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "通过Excel自动化将相关流程效率提升60%",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "使用Power Apps、Python、Selenium实现HR相关业务流程的自动化开发与落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "负责Recruitment/Onboarding、Field HR、Total Rewards等HR模块的项目交付与跨部门协同",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "工具/平台列表中明确提及"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "通过Excel自动化将相关流程效率提升60%"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责Recruitment/Onboarding、Field HR、Total Rewards等HR模块的项目交付与跨部门协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "项目经历及工具列表中明确提及"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_INFORMATICA",
+          "name": "Informatica"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "项目经历及工具列表中明确提及"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_INFORMATICA",
+          "name": "Informatica"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "通过Excel自动化将相关流程效率提升60%"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "使用Power Apps、Python、Selenium实现HR相关业务流程的自动化开发与落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责Recruitment/Onboarding、Field HR、Total Rewards等HR模块的项目交付与跨部门协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "项目经历中明确提及"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具/平台列表中明确提及",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "技能列表及项目经历中明确提及",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "项目经历中明确提及",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "项目经历及工具列表中明确提及",
+      "supports_entity_id": "SKILL_INFORMATICA",
+      "supports_entity_name": "Informatica",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "通过Excel自动化将相关流程效率提升60%",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "使用Power Apps、Python、Selenium实现HR相关业务流程的自动化开发与落地",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责Recruitment/Onboarding、Field HR、Total Rewards等HR模块的项目交付与跨部门协同",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Power Apps",
+      "evidence": "技能列表及项目经历中明确提及"
+    },
+    {
+      "skill_id": "",
+      "name": "C#",
+      "evidence": "技能列表中明确提及"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "技能列表中明确提及"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "工具/平台列表中明确提及"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL-Server",
+      "evidence": "工具/平台列表中明确提及"
+    },
+    {
+      "skill_id": "",
+      "name": "OBIEE",
+      "evidence": "项目经历及工具列表中明确提及"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "OKIA / Shimadzu / Merck",
+      "职位": "App Automation Eng Specialist",
+      "时间": "",
+      "描述": "负责HR相关模块（Recruitment/Onboarding, Field HR, Total Rewards）的自动化流程开发与交付，使用Power Apps、Python、Selenium等工具实现流程自动化，并通过Excel自动化将效率提升60%。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "项目经历中明确提及Merck、Shimadzu等企业客户交付经验",
+      "source": "llm",
+      "matched_term": "生命科学"
+    }
+  ],
+  "_batch": {
+    "source_file": "Candidate_0057.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Candidate_0057.md",
+    "source_hash": "95c68334f2867518243b31067a1286612f044e6428c3072586fd366d4ad2444d",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:28:50"
+  },
+  "城市": "Dalian"
+}

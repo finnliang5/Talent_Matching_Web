@@ -1,0 +1,501 @@
+{
+  "姓名": "Candidate_0055",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    },
+    {
+      "skill_id": "SKILL_ADOBE_ANALYTICS",
+      "name": "Adobe Analytics",
+      "type": "MARKETING_ANALYTICS",
+      "evidence": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Adobe SiteCatalyst",
+        "SiteCatalyst"
+      ],
+      "matched_term": "Adobe Analytics"
+    },
+    {
+      "skill_id": "SKILL_GA4",
+      "name": "GA4",
+      "type": "MARKETING_ANALYTICS",
+      "evidence": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Google Analytics 4",
+        "Google Analytics",
+        "GA 4"
+      ],
+      "matched_term": "GA4"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 【希望继续担任数据驱动的业务分析顾问/专家或商业智能负责人/项目经理等角色，专注于全链路数据分析闭环的构建与落地，涵盖业务数据梳理、指标体系建设、可视化报表开发、深度洞察提取及商业价值追踪。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协同内外部多方合作伙伴（包括客户高层、全球COE团队及媒体机构），高效整合资源与需求，保障数据互通与深度分析流程的顺利执行",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "负责亚太区SEO分析项目的全周期交付，通过紧密的全球客户协同与定期共创，确保中、日、韩三国项目高质量按时完成",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "融合数据分析、AI 洞察与行业专家解读，输出全方位市场洞察及战略指导，助力业务部门精准感知市场动态、消费者属性与反馈",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【希望继续担任数据驱动的业务分析顾问/专家或商业智能负责人/项目经理等角色，专注于全链路数据分析闭环的构建与落地，涵盖业务数据梳理、指标体系建设、可视化报表开发、深度洞察提取及商业价值追踪。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "融合数据分析、AI 洞察与行业专家解读，输出全方位市场洞察及战略指导，助力业务部门精准感知市场动态、消费者属性与反馈"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同内外部多方合作伙伴（包括客户高层、全球COE团队及媒体机构），高效整合资源与需求，保障数据互通与深度分析流程的顺利执行"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责亚太区SEO分析项目的全周期交付，通过紧密的全球客户协同与定期共创，确保中、日、韩三国项目高质量按时完成"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责亚太区SEO分析项目的全周期交付，通过紧密的全球客户协同与定期共创，确保中、日、韩三国项目高质量按时完成"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 【希望继续担任数据驱动的业务分析顾问/专家或商业智能负责人/项目经理等角色，专注于全链路数据分析闭环的构建与落地，涵盖业务数据梳理、指标体系建设、可视化报表开发、深度洞察提取及商业价值追踪。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 【希望继续担任数据驱动的业务分析顾问/专家或商业智能负责人/项目经理等角色，专注于全链路数据分析闭环的构建与落地，涵盖业务数据梳理、指标体系建设、可视化报表开发、深度洞察提取及商业价值追踪。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同内外部多方合作伙伴（包括客户高层、全球COE团队及媒体机构），高效整合资源与需求，保障数据互通与深度分析流程的顺利执行"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "supports_entity_id": "SKILL_ADOBE_ANALYTICS",
+      "supports_entity_name": "Adobe Analytics",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具以及GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具，为数据驱动决策提供坚实技术支撑。】",
+      "supports_entity_id": "SKILL_GA4",
+      "supports_entity_name": "GA4",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【希望继续担任数据驱动的业务分析顾问/专家或商业智能负责人/项目经理等角色，专注于全链路数据分析闭环的构建与落地，涵盖业务数据梳理、指标体系建设、可视化报表开发、深度洞察提取及商业价值追踪。】",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协同内外部多方合作伙伴（包括客户高层、全球COE团队及媒体机构），高效整合资源与需求，保障数据互通与深度分析流程的顺利执行",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责亚太区SEO分析项目的全周期交付，通过紧密的全球客户协同与定期共创，确保中、日、韩三国项目高质量按时完成",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "融合数据分析、AI 洞察与行业专家解读，输出全方位市场洞察及战略指导，助力业务部门精准感知市场动态、消费者属性与反馈",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Looker",
+      "evidence": "熟练掌握Power BI、Tableau、 Looker 等主流商业智能可视化工具"
+    },
+    {
+      "skill_id": "",
+      "name": "Optimizely",
+      "evidence": "熟练掌握GA4 、 Adobe Analytics 、 Optimizely等数字化营销领域工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "战略咨询大数据与智能分析顾问",
+      "时间": "近10年",
+      "描述": "大数据分析团队分析业务顾问，覆盖全链路数据分析闭环，负责业务数据梳理、指标体系设计、报告开发、深度洞察提取及商业价值追踪。"
+    },
+    {
+      "公司": "国际知名信息技术和业务解决方案公司",
+      "职位": "数字化营销专家",
+      "时间": "",
+      "描述": "制定项目营销计划，优化渠道资源分配；评估线上推广效果并优化网站与活动；全面负责市场预算、流程、商机及项目的端到端运营管理。"
+    },
+    {
+      "公司": "国际知名食品快消品公司",
+      "职位": "分析专家",
+      "时间": "",
+      "描述": "整合外部舆情等多渠道数据源输出市场洞察；梳理零散数据源统一指标口径，将Excel报表升级为自动化可视化看板，实现数据资产化。"
+    },
+    {
+      "公司": "国际知名美妆公司",
+      "职位": "分析专家",
+      "时间": "",
+      "描述": "整合多渠道数据源进行数据可视化，统一呈现核心绩效；结合数据和业务提供深度洞察，驱动业务决策优化。"
+    },
+    {
+      "公司": "国际知名能源公司",
+      "职位": "分析顾问",
+      "时间": "",
+      "描述": "负责市场活动、全渠道媒体等多维度分析，输出数字绩效报告；运用社交聆听工具采集数据分析；协同内外部多方合作伙伴保障流程执行。"
+    },
+    {
+      "公司": "国际知名奢侈品公司",
+      "职位": "SEO分析顾问",
+      "时间": "",
+      "描述": "负责亚太区SEO分析项目全周期交付，协同全球客户与定期共创，主导中国市场本地化优化与价值实现。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【数据可视化：整合多渠道的数据源，通过数据可视化，统一呈现销售、库存、媒体投放与网站等核心绩效，实现全局可视。】",
+      "source": "rule",
+      "matched_term": "媒体"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "【Candidate_0055是埃森哲大数据分析团队的分析业务顾问，拥有10年项目管理，数据分析，数字化营销和市场运营领域经验。在快消品、奢侈品、美妆、能源、互联网、高科技和信息技术行业拥有运营，数据分析解决方案和项目交付经验。",
+      "source": "rule",
+      "matched_term": "能源"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 【快销品零售行业】",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "jiaying.a.zhao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jiaying.a.zhao_profile_CN.md",
+    "source_hash": "2ec47c9e464be0bc3e9862c279d680c5314149eade78304ce4e4083758cd7df6",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:27:28"
+  },
+  "城市": "Dalian"
+}

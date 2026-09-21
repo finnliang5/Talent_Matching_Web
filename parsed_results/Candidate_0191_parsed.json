@@ -1,0 +1,166 @@
+{
+  "姓名": "Candidate_0191",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "14年软件从业经验，擅长Cloud, LLM, AI等相关技术管理，架构设计，咨询，研发和交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "核心技能：架构设计；项目经验：IBM WSE 架构设计，埃森哲 A&A COE 架构设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "核心技能：架构设计；项目经验：IBM WSE 架构设计，埃森哲 A&A COE 架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "核心技能：架构设计；项目经验：IBM WSE 架构设计，埃森哲 A&A COE 架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "14年软件从业经验，擅长Cloud, LLM, AI等相关技术管理，架构设计，咨询，研发和交付。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心技能：架构设计；项目经验：IBM WSE 架构设计，埃森哲 A&A COE 架构设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Cloud Native",
+      "evidence": "核心技能：Cloud Native"
+    },
+    {
+      "skill_id": "",
+      "name": "AI",
+      "evidence": "核心技能：AI，大模型；职业发展意向：AI"
+    },
+    {
+      "skill_id": "",
+      "name": "微服务",
+      "evidence": "2017-2019 埃森哲 - 微服务开发"
+    },
+    {
+      "skill_id": "",
+      "name": "Azure",
+      "evidence": "认证：AZ-305 - Microsoft Azure Architect Design"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IBM",
+      "职位": "架构师",
+      "时间": "2019-2024",
+      "描述": "技术管理，架构设计，负责 WSE 项目"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "微服务开发",
+      "时间": "2017-2019",
+      "描述": "参与 A&A COE，担任架构师与开发，负责 DocM Agent 与 Intelligent Agent Platform 的架构设计及研发运维"
+    },
+    {
+      "公司": "东软云科技",
+      "职位": "高级软件工程师",
+      "时间": "2014-2017",
+      "描述": ""
+    },
+    {
+      "公司": "富达",
+      "职位": "软件工程师",
+      "时间": "2012-2014",
+      "描述": ""
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 2014-2017 东软云科技 - 高级软件工程师",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhihua.kang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhihua.kang_profile_CN.md",
+    "source_hash": "2419e74b5a48569b89ec417addd32673906ca4100b07171f6f6001ff7b778edb",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:46:45"
+  },
+  "城市": "Dalian"
+}

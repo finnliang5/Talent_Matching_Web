@@ -1,0 +1,958 @@
+{
+  "岗位名称": "Python AI Agent后端",
+  "岗位类型": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_requirement_count": 15,
+      "competency_requirement_count": 0
+    }
+  },
+  "技术技能要求": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "Python AI Agent后端",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_FUNCTION_CALLING",
+      "name": "Function Calling",
+      "type": "AI_TECHNIQUE",
+      "evidence": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Function Calling",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "evidence": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vector Database"
+      ],
+      "matched_term": "向量数据库",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_DASHVECTOR",
+      "name": "DashVector",
+      "type": "VECTOR_DATABASE",
+      "evidence": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "DashVector",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "evidence": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Milvus",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "5 熟练掌握 PostgreSQL；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_ACS",
+      "name": "ACS",
+      "type": "PLATFORM",
+      "evidence": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Container Service",
+        "ACK"
+      ],
+      "belongs_to": [
+        "SKILL_KUBERNETES"
+      ],
+      "matched_term": "ACS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_SSE",
+      "name": "SSE 接口",
+      "type": "PROTOCOL",
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Server-Sent Events",
+        "流式响应"
+      ],
+      "matched_term": "SSE 接口",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_SESSION_MGMT",
+      "name": "会话管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Session Management",
+        "会话状态管理",
+        "Session/Cookie",
+        "Session 管理"
+      ],
+      "matched_term": "会话管理",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_RATE_LIMITING",
+      "name": "接口限流",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "限流",
+        "流量控制",
+        "API 限流",
+        "QPS 限制"
+      ],
+      "matched_term": "接口限流",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "name": "多轮对话管理",
+      "type": "AI_FEATURE",
+      "evidence": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Multi-turn",
+        "Context Management",
+        "上下文管理",
+        "对话历史"
+      ],
+      "belongs_to": [
+        "SKILL_CONTEXT_ENGINEERING"
+      ],
+      "matched_term": "多轮对话管理",
+      "priority": "must"
+    }
+  ],
+  "技术技能要求组": [
+    {
+      "group_id": "TECH_GROUP_1",
+      "group_name": "向量数据库 或 DashVector 或 Milvus",
+      "logic": "ANY_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        },
+        {
+          "skill_id": "SKILL_DASHVECTOR",
+          "name": "DashVector"
+        },
+        {
+          "skill_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        }
+      ],
+      "evidence": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_2",
+      "group_name": "Python 基础",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_PYTHON_CORE",
+          "name": "Python 基础"
+        }
+      ],
+      "evidence": "Python AI Agent后端",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_3",
+      "group_name": "FastAPI",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_FASTAPI",
+          "name": "FastAPI"
+        }
+      ],
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_4",
+      "group_name": "LangChain",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "evidence": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_5",
+      "group_name": "Function Calling",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_FUNCTION_CALLING",
+          "name": "Function Calling"
+        }
+      ],
+      "evidence": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_6",
+      "group_name": "RAG",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "evidence": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_7",
+      "group_name": "PostgreSQL",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_POSTGRESQL",
+          "name": "PostgreSQL"
+        }
+      ],
+      "evidence": "5 熟练掌握 PostgreSQL；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_8",
+      "group_name": "Docker",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "evidence": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_9",
+      "group_name": "ACS",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_ACS",
+          "name": "ACS"
+        }
+      ],
+      "evidence": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_10",
+      "group_name": "SSE 接口",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_SSE",
+          "name": "SSE 接口"
+        }
+      ],
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_11",
+      "group_name": "会话管理",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_SESSION_MGMT",
+          "name": "会话管理"
+        }
+      ],
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_12",
+      "group_name": "接口限流",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_RATE_LIMITING",
+          "name": "接口限流"
+        }
+      ],
+      "evidence": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_13",
+      "group_name": "多轮对话管理",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理"
+        }
+      ],
+      "evidence": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "priority": "must"
+    }
+  ],
+  "胜任力要求": [],
+  "能力要求": [
+    {
+      "capability_id": "CAP_ACS_CONTAINER_DEPLOYMENT",
+      "name": "ACS Container Deployment",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+        "发布到 ACS 集群"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ACS",
+          "name": "ACS"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_ACS_CONTAINER_DEPLOYMENT",
+          "name": "ACS Container Deployment"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "Agent 自主任务执行"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AGENT_TASK_AUTONOMY",
+          "name": "Agent Task Autonomy"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+        "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FUNCTION_CALLING",
+          "name": "Function Calling",
+          "rule_id": "RULE_FUNCTION_CALLING_TO_AGENT_DEV",
+          "rule_name": "Function Calling -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Function calling is a common foundation for tool-using agent workflows.",
+          "inference_weight": 0.71
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理",
+          "rule_id": "RULE_MULTI_TURN_TO_AGENT_DEV",
+          "rule_name": "多轮对话管理 -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Multi-turn dialogue management is a common component in conversational agent systems.",
+          "inference_weight": 0.69
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_RATE_LIMITING",
+      "name": "AI Service Rate Limiting",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+        "接口限流"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RATE_LIMITING",
+          "name": "接口限流"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AI_RATE_LIMITING",
+          "name": "AI Service Rate Limiting"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ACS",
+          "name": "ACS",
+          "rule_id": "RULE_ACS_TO_CLOUD_ARCH",
+          "rule_name": "ACS -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Managed container platform experience is a weak signal for cloud architecture capability.",
+          "inference_weight": 0.66
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+        "容器运维"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_CONTAINER_OPERATION",
+          "name": "Container Operations"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+      "name": "Conversation State Management",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+        "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+        "会话管理"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SESSION_MGMT",
+          "name": "会话管理"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+          "name": "Conversation State Management"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+        "熟悉 Docker 打包"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_DOCKER_IMAGE_PACKAGING",
+          "name": "Docker Image Packaging"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FASTAPI_ASYNC_BACKEND",
+      "name": "FastAPI Async Backend",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "精通 FastAPI 异步框架"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_FASTAPI_ASYNC_BACKEND",
+          "name": "FastAPI Async Backend"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+        "熟练使用 LangChain 框架"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_LANGCHAIN_ORCHESTRATION",
+          "name": "LangChain Orchestration"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+        "熟练使用 OpenAI 官方 SDK"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FUNCTION_CALLING",
+          "name": "Function Calling"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_LLM_API_ENGINEERING",
+          "name": "LLM API Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+        "Prompt 优化"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_PROMPT_OPTIMIZATION",
+          "name": "Prompt Optimization"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+        "4 熟悉向量数据库（DashVector/Milvus）；",
+        "RAG 检索增强"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库",
+          "rule_id": "RULE_VECTOR_DB_TO_RAG",
+          "rule_name": "向量数据库 -> CAP_RAG",
+          "inference_reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities.",
+          "inference_weight": 0.75
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DASHVECTOR",
+          "name": "DashVector",
+          "rule_id": "RULE_DASHVECTOR_TO_RAG",
+          "rule_name": "DashVector -> CAP_RAG",
+          "inference_reason": "DashVector commonly appears in vector retrieval use cases.",
+          "inference_weight": 0.7
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus",
+          "rule_id": "RULE_MILVUS_TO_RAG",
+          "rule_name": "Milvus -> CAP_RAG",
+          "inference_reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems.",
+          "inference_weight": 0.72
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SQLALCHEMY_POSTGRESQL",
+      "name": "SQLAlchemy + PostgreSQL",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "熟练掌握 PostgreSQL"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_SQLALCHEMY_POSTGRESQL",
+          "name": "SQLAlchemy + PostgreSQL"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STREAMING_SSE_INTERFACE",
+      "name": "Streaming SSE Interface",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+        "熟练编写流式 SSE 接口"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SSE",
+          "name": "SSE 接口"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_STREAMING_SSE_INTERFACE",
+          "name": "Streaming SSE Interface"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "4 熟悉向量数据库（DashVector/Milvus）；",
+        "熟悉向量数据库（DashVector/Milvus）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DASHVECTOR",
+          "name": "DashVector"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+          "name": "Vector Database Engineering"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域要求": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 10
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "本体外技术技能要求": [],
+  "经验要求": [],
+  "级别要求": "Level9到Level7",
+  "是否有级别要求": true,
+  "证据": [
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "Python AI Agent后端",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "supports_entity_id": "SKILL_FUNCTION_CALLING",
+      "supports_entity_name": "Function Calling",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "3 熟练使用 LangChain 框架：Prompt 优化、文档加载拆分、RAG 检索增强、Agent 自主任务执行；",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "supports_entity_id": "SKILL_VECTOR_DATABASE",
+      "supports_entity_name": "向量数据库",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "supports_entity_id": "SKILL_DASHVECTOR",
+      "supports_entity_name": "DashVector",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "4 熟悉向量数据库（DashVector/Milvus）；",
+      "supports_entity_id": "SKILL_MILVUS",
+      "supports_entity_name": "Milvus",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "5 熟练掌握 PostgreSQL；",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "6 熟悉 Docker 打包、容器运维，能够把 Agent 服务打包镜像，发布到 ACS 集群；",
+      "supports_entity_id": "SKILL_ACS",
+      "supports_entity_name": "ACS",
+      "derived_capability_ids": [
+        "CAP_ACS_CONTAINER_DEPLOYMENT",
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "supports_entity_id": "SKILL_SSE",
+      "supports_entity_name": "SSE 接口",
+      "derived_capability_ids": [
+        "CAP_STREAMING_SSE_INTERFACE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "supports_entity_id": "SKILL_SESSION_MGMT",
+      "supports_entity_name": "会话管理",
+      "derived_capability_ids": [
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "1 精通 FastAPI 异步框架，熟练编写流式 SSE 接口、会话管理、接口限流；",
+      "supports_entity_id": "SKILL_RATE_LIMITING",
+      "supports_entity_name": "接口限流",
+      "derived_capability_ids": [
+        "CAP_AI_RATE_LIMITING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "2 熟练使用 OpenAI 官方 SDK，掌握流式输出、Function Calling 函数调用、多轮对话管理；",
+      "supports_entity_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "supports_entity_name": "多轮对话管理",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    }
+  ]
+}

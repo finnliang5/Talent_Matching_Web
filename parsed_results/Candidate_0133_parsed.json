@@ -1,0 +1,513 @@
+{
+  "姓名": "Candidate_0133",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 6,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "20年经验的技术专家，专注于财务领域IT系统、自动化工具及Gen-AI项目的解决方案设计与落地。具备深厚的技术背景，精通Java/Python技术栈与微服务架构，并拥有Azure及阿里云等的实战应用经验。擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "20年经验的技术专家，专注于财务领域IT系统、自动化工具及Gen-AI项目的解决方案设计与落地。具备深厚的技术背景，精通Java/Python技术栈与微服务架构，并拥有Azure及阿里云等的实战应用经验。擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- LLM/AI Agent/RAG",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- LLM/AI Agent/RAG",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- Azure/AWS/阿里云/腾讯云应用",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- 微服务/容器化/K8S",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "K8s"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 接手线上运行近3年的整套系统+工具的技术负责，快速了解保险行业业务背景，同时负责新模块的技术架构设计和实施、现有模块维护升级和部分与用户沟通协调解决问题的工作。顺利交接并完成SWI模块交付工作",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "参与业务访谈，根据业务需求及日常作业痛点制定可落地的技术实现方案并完成交付；参与业务访谈，了解现存IT系统的功能与问题，结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "根据业务需求及日常作业痛点制定可落地的技术实现方案；结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Azure/AWS/阿里云/腾讯云应用",
+        "- 微服务/容器化/K8S"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 接手线上运行近3年的整套系统+工具的技术负责，快速了解保险行业业务背景，同时负责新模块的技术架构设计和实施、现有模块维护升级和部分与用户沟通协调解决问题的工作。顺利交接并完成SWI模块交付工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 微服务/容器化/K8S"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "根据业务需求及日常作业痛点制定可落地的技术实现方案；结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "根据业务需求及日常作业痛点制定可落地的技术实现方案；结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- LLM/AI Agent/RAG"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与业务访谈，根据业务需求及日常作业痛点制定可落地的技术实现方案并完成交付；参与业务访谈，了解现存IT系统的功能与问题，结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "参与业务访谈，根据业务需求及日常作业痛点制定可落地的技术实现方案并完成交付；参与业务访谈，了解现存IT系统的功能与问题，结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "20年经验的技术专家，专注于财务领域IT系统、自动化工具及Gen-AI项目的解决方案设计与落地。具备深厚的技术背景，精通Java/Python技术栈与微服务架构，并拥有Azure及阿里云等的实战应用经验。擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "20年经验的技术专家，专注于财务领域IT系统、自动化工具及Gen-AI项目的解决方案设计与落地。具备深厚的技术背景，精通Java/Python技术栈与微服务架构，并拥有Azure及阿里云等的实战应用经验。擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- LLM/AI Agent/RAG",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- LLM/AI Agent/RAG",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Azure/AWS/阿里云/腾讯云应用",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务/容器化/K8S",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 接手线上运行近3年的整套系统+工具的技术负责，快速了解保险行业业务背景，同时负责新模块的技术架构设计和实施、现有模块维护升级和部分与用户沟通协调解决问题的工作。顺利交接并完成SWI模块交付工作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与业务访谈，根据业务需求及日常作业痛点制定可落地的技术实现方案并完成交付；参与业务访谈，了解现存IT系统的功能与问题，结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "根据业务需求及日常作业痛点制定可落地的技术实现方案；结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长统筹项目全生命周期交付，曾主导或参与交付AI智能审核、AI智能订单管理及Agentic智能体平台等关键项目的设计和实施",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Gen-AI",
+      "evidence": "利用Gen-AI与自动化技术解决企业财务流程中的效率瓶颈与合规痛点"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "东软集团（大连）有限公司",
+      "职位": "",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead",
+      "时间": "",
+      "描述": "参与业务访谈，根据业务需求及日常作业痛点制定可落地的技术实现方案并完成交付"
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead",
+      "时间": "",
+      "描述": "参与业务访谈，了解现存IT系统的功能与问题，结合订单业务的特殊性，利用大语言模型能力完成自动化工具与现存系统/工具的整合，成功完成项目交付"
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead",
+      "时间": "",
+      "描述": "接手线上运行近3年的整套系统+工具的技术负责，快速了解保险行业业务背景，同时负责新模块的技术架构设计和实施、现有模块维护升级和部分与用户沟通协调解决问题的工作。顺利交接并完成SWI模块交付工作"
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead & Developer",
+      "时间": "",
+      "描述": "根据AD业务需求完成智能审核工具前端应用的设计和开发，与OCR模块、RPA工具的对接。配合用户完成测试并成功上线"
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead",
+      "时间": "",
+      "描述": "负责财务共享平台TE/AP报账、财务审核和归档管理模块的设计和开发工作，并配合用户完成测试和上线"
+    },
+    {
+      "公司": "ACN",
+      "职位": "Tech Lead & Developer",
+      "时间": "",
+      "描述": "负责TE复审模块的设计和开发工作，并配合用户完成测试和上线"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 财务报销(TE/AP)/Order/RTR/保险等",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "tianran.zhao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\tianran.zhao_profile_CN.md",
+    "source_hash": "c595bc027487bd6d758d3e82b2ea5f6bc62f90d7ee6cd1ff784a2012edf6f5fc",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:23:09"
+  },
+  "城市": "Dalian"
+}

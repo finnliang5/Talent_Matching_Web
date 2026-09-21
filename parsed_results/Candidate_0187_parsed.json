@@ -1,0 +1,608 @@
+{
+  "姓名": "Candidate_0187",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言：Python、Java、JavaScript、SQL、Shell、C",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- 前端基础：HTML、CSS、jQuery、Ajax",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "evidence": "- 前端基础：HTML、CSS、jQuery、Ajax",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "CSS"
+      ],
+      "matched_term": "CSS"
+    },
+    {
+      "skill_id": "SKILL_DJANGO",
+      "name": "Django",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Django"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 重点深耕 IT 信息化、企业服务与人工智能应用领域；持续强化 Python 全栈开发、大模型应用开发、RAG、系统集成及 AI 工程化落地能力，逐步向技术骨干与解决方案型技术方向发展",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 重点深耕 IT 信息化、企业服务与人工智能应用领域；持续强化 Python 全栈开发、大模型应用开发、RAG、系统集成及 AI 工程化落地能力，逐步向技术骨干与解决方案型技术方向发展",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 自入行初期即从事软件开发相关工作，曾负责过 Splunk Dashboard 设计与可视化开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "matched_term": "Dashboard"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "分析既有 VBA、Java 逻辑与 Oracle 库表结构，梳理业务流程及数据校验规则",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导完成技术栈迁移：后端由 Java 向 Python 转型、数据库由 Oracle 向 MySQL 迁移；基于全新技术栈从零搭建 Web 应用系统",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 自入行初期即从事软件开发相关工作，曾负责过 Splunk Dashboard 设计与可视化开发"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_BI_DASHBOARDING",
+          "name": "BI看板"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导完成技术栈迁移：后端由 Java 向 Python 转型、数据库由 Oracle 向 MySQL 迁移；基于全新技术栈从零搭建 Web 应用系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导完成技术栈迁移：后端由 Java 向 Python 转型、数据库由 Oracle 向 MySQL 迁移；基于全新技术栈从零搭建 Web 应用系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 重点深耕 IT 信息化、企业服务与人工智能应用领域；持续强化 Python 全栈开发、大模型应用开发、RAG、系统集成及 AI 工程化落地能力，逐步向技术骨干与解决方案型技术方向发展"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "分析既有 VBA、Java 逻辑与 Oracle 库表结构，梳理业务流程及数据校验规则"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "分析既有 VBA、Java 逻辑与 Oracle 库表结构，梳理业务流程及数据校验规则"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：Python、Java、JavaScript、SQL、Shell、C",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端基础：HTML、CSS、jQuery、Ajax",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端基础：HTML、CSS、jQuery、Ajax",
+      "supports_entity_id": "SKILL_CSS",
+      "supports_entity_name": "CSS",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "supports_entity_id": "SKILL_DJANGO",
+      "supports_entity_name": "Django",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 重点深耕 IT 信息化、企业服务与人工智能应用领域；持续强化 Python 全栈开发、大模型应用开发、RAG、系统集成及 AI 工程化落地能力，逐步向技术骨干与解决方案型技术方向发展",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 重点深耕 IT 信息化、企业服务与人工智能应用领域；持续强化 Python 全栈开发、大模型应用开发、RAG、系统集成及 AI 工程化落地能力，逐步向技术骨干与解决方案型技术方向发展",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端框架 & 技术：Flask、Django、Spring Boot、Mysql",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 自入行初期即从事软件开发相关工作，曾负责过 Splunk Dashboard 设计与可视化开发",
+      "supports_entity_id": "SKILL_BI_DASHBOARDING",
+      "supports_entity_name": "BI看板",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "毕业于电子信息工程专业，拥有约4 年 IT 行业相关工作经验。具备扎实的 Python、Java、C 多语言编程能力，其中3 年以上专注于 Python 项目的设计、开发、测试与运维全流程。曾独立完成简易聊天机器人类 AI 小项目，具备基础 AI 应用开发实践经验。日常主要交付基于 Python 的 Web 系统开发项目，熟练结合数据库与 ServiceNow、Splunk、AWS、ATR 等各类外部 API 完成系统集成与业务落地。",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "分析既有 VBA、Java 逻辑与 Oracle 库表结构，梳理业务流程及数据校验规则",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导完成技术栈迁移：后端由 Java 向 Python 转型、数据库由 Oracle 向 MySQL 迁移；基于全新技术栈从零搭建 Web 应用系统",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ATR",
+      "evidence": "简历中多次提及 ATR 系统集成与工作流触发"
+    },
+    {
+      "skill_id": "",
+      "name": "HULFT",
+      "evidence": "简历中提及 HULFT 标准化文件的自动生成与下发"
+    },
+    {
+      "skill_id": "",
+      "name": "UF服务器",
+      "evidence": "简历中提及 UF 服务器执行脚本自动化运行"
+    },
+    {
+      "skill_id": "",
+      "name": "Subversion",
+      "evidence": "简历中提及对接 Subversion 系统实现账号与仓库信息自动更新"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲大连",
+      "职位": "开发/测试",
+      "时间": "2022.2 - 至今",
+      "描述": "负责多个IMS项目的设计、开发、测试与运维，基于Python Flask、Splunk、ServiceNow、AWS、Zabbix等实现系统集成与流程自动化，主导技术栈迁移与Web系统重构，独立完成Splunk Dashboard可视化开发。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "定制软件工程分析师",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhaojing.xue_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhaojing.xue_profile_CN.md",
+    "source_hash": "eca9770f12fb2e4af55e878bc7b268fec81a1eedb459fcee2de924928bbb4636",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:45:02"
+  },
+  "城市": "Dalian"
+}

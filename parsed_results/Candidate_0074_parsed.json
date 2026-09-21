@@ -1,0 +1,809 @@
+{
+  "姓名": "Candidate_0074",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 工具与系统：LangSmith、Langfuse、飞书、Salesforce；熟悉Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_CONTEXT_ENGINEERING",
+      "name": "上下文工程",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Context Engineering",
+        "上下文工程"
+      ],
+      "matched_term": "上下文工程"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 认证资质：AWS认证AI从业者；埃森哲智能体AI师资",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_SALESFORCE",
+      "name": "Salesforce",
+      "type": "CRM_PLATFORM",
+      "evidence": "- 创新中心经理、院长助理 | 法国里昂商学院亚洲校区（2018年10月 – 2020年7月）：主导校园数字化与创新重塑的战略起草，担任数字创新项目的主要对接人，协调全渠道营销资源和KOL合作关系。在北京、深圳和上海建立了商业智能（BIC）、美好商业（GBC）、组织与人力资源创新（GHOIC）三个产学研创新中心。主导了涵盖教师在线管理系统、LMS和Salesforce CRM部署的校园数字化试点项目。与中欧国际工商学院、吉利汽车和Institut Joel Robuchon合",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SFDC",
+        "Salesforce CRM",
+        "Salesforce Cloud"
+      ],
+      "matched_term": "Salesforce"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "**角色：** LLM SME、业务分析师 | 领域专业LLM微调（2024年6月 – 2024年8月）",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 主导中国本地化负责任AI治理实施的项目管理和解决方案架构设计",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "name": "AI治理体系设计",
+      "type": "ABILITY",
+      "evidence": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "AI治理",
+        "AI治理框架",
+        "AI治理体系",
+        "AI风险合规"
+      ],
+      "matched_term": "AI治理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "- 负责任AI：AI治理本地化、负责任AI战略、风险评估、控制设计、变革管理",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "变革管理"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "evidence": "为客户构建了智能体AI战略和路线图；构建路线图建议和融入以人为本价值观的战略产品概念",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI 路线图规划"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与关键业务发起人共同定义并筛选高潜力项目，明确RACI权责；与政府、学术和非政府组织合作伙伴合作，建立已验证的影响力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "成功交付战略方案和解决方案验证；将研究成果和规划输出发布为行业思想领导力白皮书；半年内完成600万元人民币项目计费",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CONTEXT_ENGINEERING",
+          "name": "上下文工程",
+          "rule_id": "RULE_CONTEXT_ENGINEERING_TO_AGENT_AUTONOMY",
+          "rule_name": "上下文工程 -> CAP_AGENT_TASK_AUTONOMY",
+          "inference_reason": "Context engineering supports longer multi-step execution, but remains a weak secondary inference.",
+          "inference_weight": 0.66
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_GOVERNANCE_FRAMEWORK",
+      "name": "AI Governance Framework",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "为客户构建了智能体AI战略和路线图；构建路线图建议和融入以人为本价值观的战略产品概念"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "为客户构建了智能体AI战略和路线图；构建路线图建议和融入以人为本价值观的战略产品概念"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "**角色：** LLM SME、业务分析师 | 领域专业LLM微调（2024年6月 – 2024年8月）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 负责任AI：AI治理本地化、负责任AI战略、风险评估、控制设计、变革管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 认证资质：AWS认证AI从业者；埃森哲智能体AI师资"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与关键业务发起人共同定义并筛选高潜力项目，明确RACI权责；与政府、学术和非政府组织合作伙伴合作，建立已验证的影响力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "成功交付战略方案和解决方案验证；将研究成果和规划输出发布为行业思想领导力白皮书；半年内完成600万元人民币项目计费"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+      "name": "Conversation State Management",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CONTEXT_ENGINEERING",
+          "name": "上下文工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 主导中国本地化负责任AI治理实施的项目管理和解决方案架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "成功交付战略方案和解决方案验证；将研究成果和规划输出发布为行业思想领导力白皮书；半年内完成600万元人民币项目计费"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "**角色：** LLM SME、业务分析师 | 领域专业LLM微调（2024年6月 – 2024年8月）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 主导中国本地化负责任AI治理实施的项目管理和解决方案架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "**角色：** LLM SME、业务分析师 | 领域专业LLM微调（2024年6月 – 2024年8月）",
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 主导中国本地化负责任AI治理实施的项目管理和解决方案架构设计",
+        "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责任AI：AI治理本地化、负责任AI战略、风险评估、控制设计、变革管理",
+        "与关键业务发起人共同定义并筛选高潜力项目，明确RACI权责；与政府、学术和非政府组织合作伙伴合作，建立已验证的影响力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "name": "AI Strategy",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工具与系统：LangSmith、Langfuse、飞书、Salesforce；熟悉Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与LLM：MAS / 智能体AI、上下文工程、LLM微调、AI交付与解决方案设计",
+      "supports_entity_id": "SKILL_CONTEXT_ENGINEERING",
+      "supports_entity_name": "上下文工程",
+      "derived_capability_ids": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 认证资质：AWS认证AI从业者；埃森哲智能体AI师资",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 创新中心经理、院长助理 | 法国里昂商学院亚洲校区（2018年10月 – 2020年7月）：主导校园数字化与创新重塑的战略起草，担任数字创新项目的主要对接人，协调全渠道营销资源和KOL合作关系。在北京、深圳和上海建立了商业智能（BIC）、美好商业（GBC）、组织与人力资源创新（GHOIC）三个产学研创新中心。主导了涵盖教师在线管理系统、LMS和Salesforce CRM部署的校园数字化试点项目。与中欧国际工商学院、吉利汽车和Institut Joel Robuchon合",
+      "supports_entity_id": "SKILL_SALESFORCE",
+      "supports_entity_name": "Salesforce",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**角色：** LLM SME、业务分析师 | 领域专业LLM微调（2024年6月 – 2024年8月）",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 主导中国本地化负责任AI治理实施的项目管理和解决方案架构设计",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "supports_entity_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "supports_entity_name": "AI治理体系设计",
+      "derived_capability_ids": [
+        "CAP_AI_GOVERNANCE_FRAMEWORK",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责任AI：AI治理本地化、负责任AI战略、风险评估、控制设计、变革管理",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "为客户构建了智能体AI战略和路线图；构建路线图建议和融入以人为本价值观的战略产品概念",
+      "supports_entity_id": "SKILL_AI_ROADMAP_PLANNING",
+      "supports_entity_name": "AI 路线图规划",
+      "derived_capability_ids": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与关键业务发起人共同定义并筛选高潜力项目，明确RACI权责；与政府、学术和非政府组织合作伙伴合作，建立已验证的影响力",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "成功交付战略方案和解决方案验证；将研究成果和规划输出发布为行业思想领导力白皮书；半年内完成600万元人民币项目计费",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "LangSmith",
+      "evidence": "工具与系统：LangSmith、Langfuse、飞书、Salesforce"
+    },
+    {
+      "skill_id": "",
+      "name": "Langfuse",
+      "evidence": "工具与系统：LangSmith、Langfuse、飞书、Salesforce"
+    },
+    {
+      "skill_id": "",
+      "name": "LLM/大语言模型",
+      "evidence": "AI与LLM：MAS / 智能体AI、上下文工程、LLM微调；开展领域特定LLM微调及应用场景的业务分析"
+    },
+    {
+      "skill_id": "",
+      "name": "智能体AI(MAS)",
+      "evidence": "AI与LLM：MAS / 智能体AI；为客户构建了智能体AI战略和路线图"
+    },
+    {
+      "skill_id": "",
+      "name": "Web 3.0",
+      "evidence": "负责任AI与Web 3.0白皮书；在客户生态系统中识别颠覆性AI和区块链技术的关键用例领域"
+    },
+    {
+      "skill_id": "",
+      "name": "区块链",
+      "evidence": "在客户生态系统中识别颠覆性AI和区块链技术的关键用例领域"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "负责任AI中国区负责人 & AI交付负责人",
+      "时间": "2022年5月 – 至今",
+      "描述": "负责中国区负责任AI战略与交付，与亚太及EMEA区域协作；主导多个跨国企业RAI战略实施、LLM战略与微调项目；领导跨文化团队协同。"
+    },
+    {
+      "公司": "亚信科技（中国）有限公司",
+      "职位": "AI与大数据解决方案架构师、AI治理能力负责人",
+      "时间": "2021年5月 – 2022年5月",
+      "描述": "设计AI和大数据解决方案解决国企B2G和金融服务业务痛点；开展需求分析、数据分析与基准对标；构建数据治理方案支持合规审计；半年完成600万项目计费。"
+    },
+    {
+      "公司": "法国里昂商学院亚洲校区",
+      "职位": "创新中心经理、院长助理",
+      "时间": "2018年10月 – 2020年7月",
+      "描述": "主导校园数字化战略与试点项目（LMS/Salesforce CRM部署）；建立产学研创新中心；协调营销资源与KOL合作；孵化创新项目。"
+    },
+    {
+      "公司": "法国跨国消费品公司",
+      "职位": "项目经理、解决方案架构师",
+      "时间": "2025年9月 – 至今",
+      "描述": "主导中国本地化负责任AI治理实施的项目管理和架构设计；制定变革管理计划与工具；部署RAI工具开展试点评估。"
+    },
+    {
+      "公司": "全球顶尖互联网公司",
+      "职位": "项目经理、RAI SME",
+      "时间": "2024年11月 – 2025年9月",
+      "描述": "构建以社会价值交付为中心的负责任AI战略；定义高潜力项目与RACI权责；开发GenAI培训路线图并验证交付。"
+    },
+    {
+      "公司": "全球顶级互联网公司",
+      "职位": "RAI SME首席战略师",
+      "时间": "未明确",
+      "描述": "领导企业层面RAI指南研究、设计与发布；制定指导方针并设计提升残疾人用户体验的产品路线图。"
+    },
+    {
+      "公司": "社会创新加速器",
+      "职位": "RAI项目发起人、解决方案架构师",
+      "时间": "未明确",
+      "描述": "领导研发GenAI非技术学生赋能方案；设计商业模式扩大项目规模；与政府/学术/NGO合作建立影响力。"
+    },
+    {
+      "公司": "一家上市智能制造公司",
+      "职位": "LLM SME、业务分析师",
+      "时间": "2024年6月 – 2024年8月",
+      "描述": "开展领域特定LLM微调及应用场景业务分析；支持基模型选择与数据集定义；基于业务价值确定用例优先级。"
+    },
+    {
+      "公司": "一家知名高科技公司",
+      "职位": "LLM SME、业务分析师",
+      "时间": "2023年11月 – 2024年3月",
+      "描述": "构建智能体AI战略和路线图；支持对齐路线图的变革管理。"
+    },
+    {
+      "公司": "一家知名高科技公司",
+      "职位": "项目经理、首席研究员",
+      "时间": "2022年10月 – 2023年2月",
+      "描述": "识别AI和区块链关键用例；构建路线图建议与战略产品概念；发布行业思想领导力白皮书。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- AI与大数据解决方案架构师、AI治理能力负责人 | 亚信科技（中国）有限公司（2021年5月 – 2022年5月）：通过AI和大数据解决方案设计，解决国有企业B2G和金融服务业务的产品、市场和运营痛点。开展市场需求分析、业务数据分析和基准对标，诊断治理缺口。构建了数据治理解决方案，支持客户在《个人信息保护法》生效背景下的首次内部治理审计。半年内完成600万元人民币项目计费。",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "lichen.mao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\lichen.mao_profile_CN.md",
+    "source_hash": "97f5bbe8ec1758c6073a71eb139c41e3689fcfdc7d3bcc5ea202499b98b61938",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:38:02"
+  },
+  "城市": "Shanghai"
+}

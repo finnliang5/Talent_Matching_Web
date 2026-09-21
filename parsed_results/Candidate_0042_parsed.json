@@ -1,0 +1,602 @@
+{
+  "姓名": "Candidate_0042",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库与存储：Oracle、MySQL、Hive",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "evidence": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "matched_term": "Databricks"
+    },
+    {
+      "skill_id": "SKILL_AZURE_DATA_FACTORY",
+      "name": "Azure Data Factory",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- Azure Data Factory",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ADF",
+        "Azure ADF"
+      ],
+      "matched_term": "Azure Data Factory"
+    },
+    {
+      "skill_id": "SKILL_AZURE_SYNAPSE",
+      "name": "Azure Synapse Analytics",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 使用ADF pipelines和Databricks notebooks设计端到端ELT流程，将数据从SQL Server和Blob Storage迁移、清洗并转换至Azure Synapse。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Azure Synapse",
+        "Synapse"
+      ],
+      "matched_term": "Azure Synapse"
+    },
+    {
+      "skill_id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "evidence": "- Apache Spark",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "matched_term": "Spark"
+    },
+    {
+      "skill_id": "SKILL_PYSPARK",
+      "name": "PySpark",
+      "type": "LIBRARY",
+      "evidence": "- 在Databricks中开发可复用的PySpark库，用于数据清洗、去重与信息增强。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PySpark"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据库与存储：Oracle、MySQL、Hive",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_PANDAS",
+      "name": "Pandas",
+      "type": "LIBRARY",
+      "evidence": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "pandas"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Pandas"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 负责ETL开发、数据清洗和仪表板开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 通过 GitHub Actions 实现 CI/CD 自动化部署，确保 ETL 作业和数据模型能够在各个环境中快速且可靠地发布与上线。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 通过 GitHub Actions 实现 CI/CD 自动化部署，确保 ETL 作业和数据模型能够在各个环境中快速且可靠地发布与上线。",
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+        "- 使用ADF pipelines和Databricks notebooks设计端到端ELT流程，将数据从SQL Server和Blob Storage迁移、清洗并转换至Azure Synapse。",
+        "- 数据库与存储：Oracle、MySQL、Hive"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_SYNAPSE",
+          "name": "Azure Synapse Analytics"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+        "- Azure Data Factory",
+        "- 使用ADF pipelines和Databricks notebooks设计端到端ELT流程，将数据从SQL Server和Blob Storage迁移、清洗并转换至Azure Synapse。",
+        "- Apache Spark",
+        "- 在Databricks中开发可复用的PySpark库，用于数据清洗、去重与信息增强。",
+        "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI",
+        "- 负责ETL开发、数据清洗和仪表板开发"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_DATA_FACTORY",
+          "name": "Azure Data Factory"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_SYNAPSE",
+          "name": "Azure Synapse Analytics"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPARK",
+          "name": "Spark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYSPARK",
+          "name": "PySpark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 通过 GitHub Actions 实现 CI/CD 自动化部署，确保 ETL 作业和数据模型能够在各个环境中快速且可靠地发布与上线。",
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与存储：Oracle、MySQL、Hive",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "supports_entity_id": "SKILL_DATABRICKS",
+      "supports_entity_name": "Databricks",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Azure Data Factory",
+      "supports_entity_id": "SKILL_AZURE_DATA_FACTORY",
+      "supports_entity_name": "Azure Data Factory",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 使用ADF pipelines和Databricks notebooks设计端到端ELT流程，将数据从SQL Server和Blob Storage迁移、清洗并转换至Azure Synapse。",
+      "supports_entity_id": "SKILL_AZURE_SYNAPSE",
+      "supports_entity_name": "Azure Synapse Analytics",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Apache Spark",
+      "supports_entity_id": "SKILL_SPARK",
+      "supports_entity_name": "Spark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 在Databricks中开发可复用的PySpark库，用于数据清洗、去重与信息增强。",
+      "supports_entity_id": "SKILL_PYSPARK",
+      "supports_entity_name": "PySpark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与存储：Oracle、MySQL、Hive",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI",
+      "supports_entity_id": "SKILL_PANDAS",
+      "supports_entity_name": "Pandas",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0042是一名数据工程师，拥有三年实践经验，专注于利用 Azure 数据工厂、Python 和 Databricks 构建稳定高效的数据平台。",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责ETL开发、数据清洗和仪表板开发",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 通过 GitHub Actions 实现 CI/CD 自动化部署，确保 ETL 作业和数据模型能够在各个环境中快速且可靠地发布与上线。",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "GitHub Actions",
+      "evidence": "通过 GitHub Actions 实现 CI/CD 自动化部署"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "数据库与存储：Oracle、MySQL、Hive"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某领先的地产公司",
+      "职位": "数据与技术分析",
+      "时间": "",
+      "描述": "使用ADF pipelines和Databricks notebooks设计端到端ELT流程，将数据从SQL Server和Blob Storage迁移、清洗并转换至Azure Synapse。构建支持动态内容与触发器的参数化ADF管道，兼容批量与增量数据接入模式。在Databricks中开发可复用的PySpark库，用于数据清洗、去重与信息增强。为PySpark数据质量脚本实施单元测试，确保处理逻辑的准确性。"
+    },
+    {
+      "公司": "Prudential FFP A&R ODS",
+      "职位": "数据与技术分析",
+      "时间": "",
+      "描述": "基于现有架构，使用 Databricks notebooks 开发了 IFRS17 和 IFRS4 的端到端 ETL 数据管道，将数据从 Blob Storage 迁移、清洗并转换至 Databricks 平台。通过 GitHub Actions 实现 CI/CD 自动化部署，确保 ETL 作业和数据模型能够在各个环境中快速且可靠地发布与上线。"
+    },
+    {
+      "公司": "",
+      "职位": "",
+      "时间": "",
+      "描述": "负责ETL开发、数据清洗和仪表板开发"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融",
+      "source": "rule",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "hongwei.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hongwei.liu_profile_CN.md",
+    "source_hash": "338f97c1ba44b75e37fa58c24aa2bef649f7c5f61e966d8d43779a07599e9e3d",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:23:22"
+  },
+  "城市": "Dalian"
+}

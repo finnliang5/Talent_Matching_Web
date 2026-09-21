@@ -1,0 +1,721 @@
+{
+  "姓名": "Candidate_0097",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "BA",
+      "TECHNICAL"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 2008.11-2011.05：就职于东软集团大连分公司，担任软件开发全栈工程师，主导中国电信河北、辽宁两省电信网上营业厅的全栈开发工作。负责WEB营业厅、手机端WAP营业厅、短信营业厅、网站宣传内容管理系统及后台数据管理系统的开发与迭代，后端数据查询与计算的优化，支撑日均百万级用户访问，保障了电信线上业务渠道的稳定运行与功能拓展。主要应用技术：Java Web、Oracle、Spring、Struts、iBatis、JavaScript、jQuery",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 2008.11-2011.05：就职于东软集团大连分公司，担任软件开发全栈工程师，主导中国电信河北、辽宁两省电信网上营业厅的全栈开发工作。负责WEB营业厅、手机端WAP营业厅、短信营业厅、网站宣传内容管理系统及后台数据管理系统的开发与迭代，后端数据查询与计算的优化，支撑日均百万级用户访问，保障了电信线上业务渠道的稳定运行与功能拓展。主要应用技术：Java Web、Oracle、Spring、Struts、iBatis、JavaScript、jQuery",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 2013.05-2016.06：就职于Fidelity（大连）商务服务有限公司，担任软件开发全栈工程师，负责Fidelity Central 网站和Who's Who网站的开发工作。负责开发了会议室查询与预定、Beta版本并行与可使用人员控制等功能模块，并参与了需求调研与设计工作。与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训。主要应用技术为：java web，Oracle，spring MVC，JetSpeed，ibatis，Angular JS等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- AI Prompt、向量数据库应用、Agentic AI、MCP协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP协议"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / 数据：** Prompt Engineering、向量数据库、MCP 协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI Prompt、向量数据库应用、Agentic AI、MCP协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vector Database"
+      ],
+      "matched_term": "向量数据库"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **敏捷管理与自动发布工具工具：** Azure DevOps、Jenkins‌、Git、InnerSource",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 负责业务分析，技术解决方案设计，项目计划制定；",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 负责财务共享平台的需求分析和确认，平台功能模块规划和设计;",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有18年软件开发、商业分析及项目管理经验，持有PMP与PBA双重认证。深耕财务领域，擅长财务共享运营精进、财务信息化及流程变革的技术解决方案设计与落地。具备从需求规划到实施交付的全链路管理能力，致力于通过技术手段驱动企业财务数字化转型。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责智能审核平台的技术解决方案设计，负责业务梳理，技术解决方案设计，项目计划制定",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "8年Global团队协同工作经验，与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Prompt、向量数据库应用、Agentic AI、MCP协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 2013.05-2016.06：就职于Fidelity（大连）商务服务有限公司，担任软件开发全栈工程师，负责Fidelity Central 网站和Who's Who网站的开发工作。负责开发了会议室查询与预定、Beta版本并行与可使用人员控制等功能模块，并参与了需求调研与设计工作。与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训。主要应用技术为：java web，Oracle，spring MVC，JetSpeed，ibatis，Angular JS等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 负责业务分析，技术解决方案设计，项目计划制定；"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **敏捷管理与自动发布工具工具：** Azure DevOps、Jenkins‌、Git、InnerSource"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "8年Global团队协同工作经验，与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有18年软件开发、商业分析及项目管理经验，持有PMP与PBA双重认证。深耕财务领域，擅长财务共享运营精进、财务信息化及流程变革的技术解决方案设计与落地。具备从需求规划到实施交付的全链路管理能力，致力于通过技术手段驱动企业财务数字化转型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责智能审核平台的技术解决方案设计，负责业务梳理，技术解决方案设计，项目计划制定"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Prompt、向量数据库应用、Agentic AI、MCP协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **敏捷管理与自动发布工具工具：** Azure DevOps、Jenkins‌、Git、InnerSource"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责智能审核平台的技术解决方案设计，负责业务梳理，技术解决方案设计，项目计划制定"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责业务分析，技术解决方案设计，项目计划制定；"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有18年软件开发、商业分析及项目管理经验，持有PMP与PBA双重认证。深耕财务领域，擅长财务共享运营精进、财务信息化及流程变革的技术解决方案设计与落地。具备从需求规划到实施交付的全链路管理能力，致力于通过技术手段驱动企业财务数字化转型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / 数据：** Prompt Engineering、向量数据库、MCP 协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Prompt、向量数据库应用、Agentic AI、MCP协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库",
+          "rule_id": "RULE_VECTOR_DB_TO_RAG",
+          "rule_name": "向量数据库 -> CAP_RAG",
+          "inference_reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities.",
+          "inference_weight": 0.75
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **敏捷管理与自动发布工具工具：** Azure DevOps、Jenkins‌、Git、InnerSource"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责业务分析，技术解决方案设计，项目计划制定；",
+        "- 负责财务共享平台的需求分析和确认，平台功能模块规划和设计;"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 负责财务共享平台的需求分析和确认，平台功能模块规划和设计;"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有18年软件开发、商业分析及项目管理经验，持有PMP与PBA双重认证。深耕财务领域，擅长财务共享运营精进、财务信息化及流程变革的技术解决方案设计与落地。具备从需求规划到实施交付的全链路管理能力，致力于通过技术手段驱动企业财务数字化转型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "8年Global团队协同工作经验，与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Prompt、向量数据库应用、Agentic AI、MCP协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 2008.11-2011.05：就职于东软集团大连分公司，担任软件开发全栈工程师，主导中国电信河北、辽宁两省电信网上营业厅的全栈开发工作。负责WEB营业厅、手机端WAP营业厅、短信营业厅、网站宣传内容管理系统及后台数据管理系统的开发与迭代，后端数据查询与计算的优化，支撑日均百万级用户访问，保障了电信线上业务渠道的稳定运行与功能拓展。主要应用技术：Java Web、Oracle、Spring、Struts、iBatis、JavaScript、jQuery",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 2008.11-2011.05：就职于东软集团大连分公司，担任软件开发全栈工程师，主导中国电信河北、辽宁两省电信网上营业厅的全栈开发工作。负责WEB营业厅、手机端WAP营业厅、短信营业厅、网站宣传内容管理系统及后台数据管理系统的开发与迭代，后端数据查询与计算的优化，支撑日均百万级用户访问，保障了电信线上业务渠道的稳定运行与功能拓展。主要应用技术：Java Web、Oracle、Spring、Struts、iBatis、JavaScript、jQuery",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 2013.05-2016.06：就职于Fidelity（大连）商务服务有限公司，担任软件开发全栈工程师，负责Fidelity Central 网站和Who's Who网站的开发工作。负责开发了会议室查询与预定、Beta版本并行与可使用人员控制等功能模块，并参与了需求调研与设计工作。与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训。主要应用技术为：java web，Oracle，spring MVC，JetSpeed，ibatis，Angular JS等",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Prompt、向量数据库应用、Agentic AI、MCP协议",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / 数据：** Prompt Engineering、向量数据库、MCP 协议",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Prompt、向量数据库应用、Agentic AI、MCP协议",
+      "supports_entity_id": "SKILL_VECTOR_DATABASE",
+      "supports_entity_name": "向量数据库",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **敏捷管理与自动发布工具工具：** Azure DevOps、Jenkins‌、Git、InnerSource",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责业务分析，技术解决方案设计，项目计划制定；",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责财务共享平台的需求分析和确认，平台功能模块规划和设计;",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有18年软件开发、商业分析及项目管理经验，持有PMP与PBA双重认证。深耕财务领域，擅长财务共享运营精进、财务信息化及流程变革的技术解决方案设计与落地。具备从需求规划到实施交付的全链路管理能力，致力于通过技术手段驱动企业财务数字化转型。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责智能审核平台的技术解决方案设计，负责业务梳理，技术解决方案设计，项目计划制定",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "8年Global团队协同工作经验，与爱尔兰On Shore团队深度协作，主导了新技术选型与团队技术培训",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Agentic AI",
+      "evidence": "核心技能：AI Prompt、向量数据库应用、Agentic AI、MCP协议"
+    },
+    {
+      "skill_id": "",
+      "name": "Azure DevOps",
+      "evidence": "工具与平台：敏捷管理与自动发布工具工具：Azure DevOps、Jenkins‌、Git、InnerSource"
+    },
+    {
+      "skill_id": "",
+      "name": "SonarQube",
+      "evidence": "工具与平台：代码质量管理工具：SonarQube"
+    },
+    {
+      "skill_id": "",
+      "name": "Open-CMS",
+      "evidence": "负责系统技术调研工作，独立完成了Open-CMS的技术调研"
+    },
+    {
+      "skill_id": "",
+      "name": "JetSpeed",
+      "evidence": "主要应用技术为：java web，Oracle，spring MVC，JetSpeed，ibatis，Angular JS等"
+    },
+    {
+      "skill_id": "",
+      "name": "Sybase",
+      "evidence": "主要应用技术为：java web，Sybase，spring，hibernate，struts，javascript，jquery，shell，perl"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "东软集团大连分公司",
+      "职位": "软件开发全栈工程师",
+      "时间": "2008.11-2011.05",
+      "描述": "主导中国电信河北、辽宁两省电信网上营业厅的全栈开发工作，负责WEB/WAP/短信营业厅及后台管理系统开发，支撑日均百万级用户访问。"
+    },
+    {
+      "公司": "花旗软件技术服务（中国）有限公司",
+      "职位": "软件开发全栈工程师",
+      "时间": "2011.05-2013.05",
+      "描述": "负责日本花旗银行固定收益相关交易系统开发，独立设计开发价格管理、保证金监视、债券抵押收益计算及交易风险模型等功能模块。"
+    },
+    {
+      "公司": "Fidelity（大连）商务服务有限公司",
+      "职位": "软件开发全栈工程师",
+      "时间": "2013.05-2016.06",
+      "描述": "负责Fidelity Central和Who's Who网站开发，完成会议室预定等功能模块需求调研、设计与开发，与爱尔兰团队深度协作并主导新技术选型与培训。"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "项目技术经理/项目经理",
+      "时间": "",
+      "描述": "负责多个财务共享智能运营平台、差旅酒店费用智能审核平台及付款管理平台项目，主导业务分析、需求确认、技术解决方案设计、数据架构设计及项目全周期管控与交付管理。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 2011.05-2013.05：就职于花旗软件技术服务（中国）有限公司，担任软件开发全栈工程师，负责日本花旗银行固定收益的相关交易系统的开发工作。负责开发债券回购和买卖交易系统，独立负责设计和开发了价格管理，保证金监视管理，债券抵押收益计算，交易风险模型和交易报表等功能模块。主要应用技术为：java web，Sybase，spring，hibernate，struts，javascript，jquery，shell，perl。",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "nan.geng_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\nan.geng_profile_CN.md",
+    "source_hash": "5db391d8e779535803fb00c6773f666e97ffb2b686c0f82a2e0a5e2459d054bc",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:48:56"
+  },
+  "城市": "Dalian"
+}

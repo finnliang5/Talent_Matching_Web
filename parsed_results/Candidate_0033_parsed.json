@@ -1,0 +1,680 @@
+{
+  "姓名": "Candidate_0033",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 12,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 开发语言：Java、Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 开发语言：Java、Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI/大语言模型：提示词工程，大模型服务集成",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大语言模型"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI/大语言模型：提示词工程，大模型服务集成",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_RABBITMQ",
+      "name": "RabbitMQ",
+      "type": "MESSAGE_QUEUE",
+      "evidence": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Rabbit MQ",
+        "AMQP"
+      ],
+      "matched_term": "RabbitMQ"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "作为技术负责人，从0到1设计并交付 BOE审单平台... 负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_ERP_AI_INTEGRATION",
+      "name": "ERP与AI集成",
+      "type": "ABILITY",
+      "evidence": "集成内部财务共享系统与大模型服务，实现通讯费、业务招待费、团建费、差旅费的AI自动化审核",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "ERP与AI集成"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "协助业务团队实现了近25%的PI... 综合审核准确率：通讯费、业务招待费达99%以上；团建费、差旅费达94%以上",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "协助业务团队实现了近25%的PI... 综合审核准确率：通讯费、业务招待费达99%以上；团建费、差旅费达94%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+      "name": "ERP and AI Integration Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "集成内部财务共享系统与大模型服务，实现通讯费、业务招待费、团建费、差旅费的AI自动化审核"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协助业务团队实现了近25%的PI... 综合审核准确率：通讯费、业务招待费达99%以上；团建费、差旅费达94%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "作为技术负责人，从0到1设计并交付 BOE审单平台... 负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MESSAGE_QUEUE_INTEGRATION",
+      "name": "Message Queue Integration",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RABBITMQ",
+          "name": "RabbitMQ"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "作为技术负责人，从0到1设计并交付 BOE审单平台... 负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/大语言模型：提示词工程，大模型服务集成"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TECH_DEPENDENCY_MAPPING",
+      "name": "Technical Dependency Mapping",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "集成内部财务共享系统与大模型服务，实现通讯费、业务招待费、团建费、差旅费的AI自动化审核"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 开发语言：Java、Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 开发语言：Java、Python",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/大语言模型：提示词工程，大模型服务集成",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/大语言模型：提示词工程，大模型服务集成",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Mysql、Sql Server,Oracle, Redis, MongoDB等",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "supports_entity_id": "SKILL_RABBITMQ",
+      "supports_entity_name": "RabbitMQ",
+      "derived_capability_ids": [
+        "CAP_MESSAGE_QUEUE_INTEGRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 微服务架构及各种中间件 Docker，RabbitMQ，Kafka，Kubernetes，DevOps等",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为技术负责人，从0到1设计并交付 BOE审单平台... 负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "集成内部财务共享系统与大模型服务，实现通讯费、业务招待费、团建费、差旅费的AI自动化审核",
+      "supports_entity_id": "SKILL_ERP_AI_INTEGRATION",
+      "supports_entity_name": "ERP与AI集成",
+      "derived_capability_ids": [
+        "CAP_ERP_AI_INTEGRATION_DESIGN",
+        "CAP_TECH_DEPENDENCY_MAPPING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协助业务团队实现了近25%的PI... 综合审核准确率：通讯费、业务招待费达99%以上；团建费、差旅费达94%以上",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Git",
+      "evidence": "常用工具: ... Git"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "东软集团",
+      "职位": "软件开发工程师/架构师",
+      "时间": "2006-2018",
+      "描述": "从事电信行业BSS项目相关设计、开发、交付工作"
+    },
+    {
+      "公司": "亚信科技",
+      "职位": "架构师",
+      "时间": "2018-2019",
+      "描述": "从事电信行业BSS项目相关设计、开发、交付工作"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "Tech Lead / BOE 审单平台",
+      "时间": "",
+      "描述": "作为技术负责人，从0到1设计并交付 BOE审单平台，集成内部财务共享系统与大模型服务，实现通讯费等AI自动化审核，准确率超94%，日均处理单据超2000单"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "Tech Lead / 松下智赢人事平台",
+      "时间": "",
+      "描述": "负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收，协助业务团队实现近25%的PI提升，覆盖用户超30,000人"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "Tech Lead / 菜鸟人事平台",
+      "时间": "",
+      "描述": "负责平台的技术架构设计、项目建设推进、核心模块实现、项目部署验收，积累可复用的项目资产"
+    },
+    {
+      "公司": "亚信科技",
+      "职位": "架构师 / 中国电信BSS项目",
+      "时间": "",
+      "描述": "负责中国电信BSS系统微服务化方案落地的架构设计及实施，涉及多个省份BSS项目的实施"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "guojun.zhu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\guojun.zhu_profile_CN.md",
+    "source_hash": "e07c715fbf05d757a8cab6d41bcb73e893bb059486945280483df9712c5ba1b4",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:21:13"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

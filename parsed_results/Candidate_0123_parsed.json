@@ -1,0 +1,1043 @@
+{
+  "姓名": "Candidate_0123",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PRODUCT",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 19,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 独立设计并实现基于向量数据库的 RAG 检索增强生成链路，覆盖数据清洗、切片、Embedding 模型选型、向量索引构建与语义检索全流程，显著提升问答准确率与知识覆盖度。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vector Database"
+      ],
+      "matched_term": "向量数据库"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "#### Infrastructure Prediction Dashboard（2022.01 - 2023.10）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "matched_term": "Dashboard"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 工程与管理：技术方案设计、代码评审、团队协作、项目管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责需求澄清、架构设计、全栈开发；独立设计并实现基于向量数据库的 RAG 检索增强生成链路；自主设计并实现 Agentic 框架",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "与澳洲团队协作进行架构评审；面向日本客户开展 Onshore/Offshore 协同开发，具备跨文化沟通与复杂问题闭环能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "涵盖资源调度、健康巡检、故障排查与容量治理；在复杂问题定位与技术调查中形成可执行解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "#### Infrastructure Prediction Dashboard（2022.01 - 2023.10）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_BI_DASHBOARDING",
+          "name": "BI看板"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与澳洲团队协作进行架构评审；面向日本客户开展 Onshore/Offshore 协同开发，具备跨文化沟通与复杂问题闭环能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 工程与管理：技术方案设计、代码评审、团队协作、项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责需求澄清、架构设计、全栈开发；独立设计并实现基于向量数据库的 RAG 检索增强生成链路；自主设计并实现 Agentic 框架"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+        "- 数据与中间件：Splunk、Redis、PostgreSQL"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责需求澄清、架构设计、全栈开发；独立设计并实现基于向量数据库的 RAG 检索增强生成链路；自主设计并实现 Agentic 框架"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 数据与中间件：Splunk、Redis、PostgreSQL"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 工程与管理：技术方案设计、代码评审、团队协作、项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+        "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+        "- 独立设计并实现基于向量数据库的 RAG 检索增强生成链路，覆盖数据清洗、切片、Embedding 模型选型、向量索引构建与语义检索全流程，显著提升问答准确率与知识覆盖度。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库",
+          "rule_id": "RULE_VECTOR_DB_TO_RAG",
+          "rule_name": "向量数据库 -> CAP_RAG",
+          "inference_reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities.",
+          "inference_weight": 0.75
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 工程与管理：技术方案设计、代码评审、团队协作、项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "涵盖资源调度、健康巡检、故障排查与容量治理；在复杂问题定位与技术调查中形成可执行解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 独立设计并实现基于向量数据库的 RAG 检索增强生成链路，覆盖数据清洗、切片、Embedding 模型选型、向量索引构建与语义检索全流程，显著提升问答准确率与知识覆盖度。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 全栈开发：Java（Spring Boot）、Python（Flask/LangChain）、Angular/TypeScript、JavaScript",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 独立设计并实现基于向量数据库的 RAG 检索增强生成链路，覆盖数据清洗、切片、Embedding 模型选型、向量索引构建与语义检索全流程，显著提升问答准确率与知识覆盖度。",
+      "supports_entity_id": "SKILL_VECTOR_DATABASE",
+      "supports_entity_name": "向量数据库",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "#### Infrastructure Prediction Dashboard（2022.01 - 2023.10）",
+      "supports_entity_id": "SKILL_BI_DASHBOARDING",
+      "supports_entity_name": "BI看板",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云原生与平台：AWS、Azure、Docker、Kubernetes、AKS、Cloud Native DevOps",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据与中间件：Splunk、Redis、PostgreSQL",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 工程与管理：技术方案设计、代码评审、团队协作、项目管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责需求澄清、架构设计、全栈开发；独立设计并实现基于向量数据库的 RAG 检索增强生成链路；自主设计并实现 Agentic 框架",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与澳洲团队协作进行架构评审；面向日本客户开展 Onshore/Offshore 协同开发，具备跨文化沟通与复杂问题闭环能力",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "涵盖资源调度、健康巡检、故障排查与容量治理；在复杂问题定位与技术调查中形成可执行解决方案",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AKS",
+      "evidence": "负责 Kubernetes（AKS）集群运维"
+    },
+    {
+      "skill_id": "",
+      "name": "卡尔曼滤波",
+      "evidence": "运用卡尔曼滤波进行时序噪声平滑与状态估计"
+    },
+    {
+      "skill_id": "",
+      "name": "随机森林",
+      "evidence": "采用随机森林构建资源用量预测模型"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲大连",
+      "职位": "高级全栈开发工程师 / GenAI 产品研发",
+      "时间": "2022.01 - 至今",
+      "描述": "主导 GenAI 企业智能助手产品研发，负责需求澄清、架构设计、全栈开发及云上部署；独立设计 RAG 检索增强生成链路与 Agentic 框架；负责 AKS 集群资源监控与预测平台端到端研发，运用卡尔曼滤波与随机森林算法实现容量预测。"
+    },
+    {
+      "公司": "IBM 大连",
+      "职位": "Java 全栈开发工程师 / Team Leader",
+      "时间": "2018.05 - 2022.01",
+      "描述": "参与 TOKIO MARINE & NICHIDO 核心项目，担任 Team Leader 带领 6 人团队完成案件治理与版本交付；负责 Slack Chatbot 后端核心开发，集成 Watson/Slack API 实现保险场景智能对话。"
+    },
+    {
+      "公司": "TOKIO MARINE & NICHIDO",
+      "职位": "核心开发工程师 / Sub Leader",
+      "时间": "2018.05 - 2022.01",
+      "描述": "与日本团队协作完成需求分析、式样书设计与开发交付；在复杂问题定位与技术调查中形成可执行解决方案，保障跨地域协作效率与交付质量。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "具备 8 年以上企业级软件研发经验，覆盖 Java/Python 全栈开发、云原生平台建设与 AI 应用落地。当前就职于埃森哲，近 3 年聚焦 GenAI 产品化研发，主导从需求分析、架构设计到交付运维的全流程工作。擅长将大模型能力与业务系统深度融合，具备自研 RAG 向量检索能力与 Agentic 框架工程化落地经验，在保险与企业数字化场景中持续交付高可用解决方案。",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 期望承担 Tech Lead / Solution Architect 职责，推动跨团队协作与高质量交付。",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "shuxin.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\shuxin.liu_profile_CN.md",
+    "source_hash": "d7d22c0cde4b62ecf56e987e3b5c8c2a8b9cea05c9cda484af28a1b950816bcd",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:01:50"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,474 @@
+{
+  "姓名": "Candidate_0168",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 应用人工智能、机器学习、RPA、低代码平台等多种技术改解决业务问题",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 业务分析",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有20年软件行业相关经验，15年以上流程改善和自动化经验。具备丰富的跨领域解决方案交付经验，包括项目管理、架构设计、软件开发及全周期项目实施，擅于解决技术难题，能够为企业提供端到端的技术驱动型业务创新支持。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "作为项目经理兼技术负责人，领导团队完成集团全渠道销售订单中台建设。全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。技术层面，主导设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成，实现端到端连接，有力支撑了全球业务峰值运营。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "作为项目系统专家，主导汽车设计跟踪管理平台的架构设计与方案交付。负责构建统一的设计数据治理与协同平台，打通从概念设计、数字化样车、工程BOM到试制验证的全链路数据流。通过设计标准化数据模型与集成接口，实现了与第三方系统的深度集成，确保设计变更可实时传递与追溯。项目将设计问题关闭周期缩短40%，显著提升了整车开发流程的协同效率与数据一致性。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成；主导工作流平台的整体架构设计与开发实施，采用微服务与低代码框架构建核心引擎，统一集成第三方系统，实现了财务、销售管理、采购管理等流程的自动化流转。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导设计基于工作流的低代码架构；负责构建统一的设计数据治理与协同平台，打通从概念设计到试制验证的全链路数据流；制定整体技术路线图，基于云原生微服务架构进行平台选型与方案设计。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 业务分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "作为项目系统专家，主导汽车设计跟踪管理平台的架构设计与方案交付。负责构建统一的设计数据治理与协同平台，打通从概念设计、数字化样车、工程BOM到试制验证的全链路数据流。通过设计标准化数据模型与集成接口，实现了与第三方系统的深度集成，确保设计变更可实时传递与追溯。项目将设计问题关闭周期缩短40%，显著提升了整车开发流程的协同效率与数据一致性。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "作为项目系统专家，主导汽车设计跟踪管理平台的架构设计与方案交付。负责构建统一的设计数据治理与协同平台，打通从概念设计、数字化样车、工程BOM到试制验证的全链路数据流。通过设计标准化数据模型与集成接口，实现了与第三方系统的深度集成，确保设计变更可实时传递与追溯。项目将设计问题关闭周期缩短40%，显著提升了整车开发流程的协同效率与数据一致性。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有20年软件行业相关经验，15年以上流程改善和自动化经验。具备丰富的跨领域解决方案交付经验，包括项目管理、架构设计、软件开发及全周期项目实施，擅于解决技术难题，能够为企业提供端到端的技术驱动型业务创新支持。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导设计基于工作流的低代码架构；负责构建统一的设计数据治理与协同平台，打通从概念设计到试制验证的全链路数据流；制定整体技术路线图，基于云原生微服务架构进行平台选型与方案设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 应用人工智能、机器学习、RPA、低代码平台等多种技术改解决业务问题"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导设计基于工作流的低代码架构；负责构建统一的设计数据治理与协同平台，打通从概念设计到试制验证的全链路数据流；制定整体技术路线图，基于云原生微服务架构进行平台选型与方案设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "作为项目经理兼技术负责人，领导团队完成集团全渠道销售订单中台建设。全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。技术层面，主导设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成，实现端到端连接，有力支撑了全球业务峰值运营。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 业务分析",
+        "设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成；主导工作流平台的整体架构设计与开发实施，采用微服务与低代码框架构建核心引擎，统一集成第三方系统，实现了财务、销售管理、采购管理等流程的自动化流转。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有20年软件行业相关经验，15年以上流程改善和自动化经验。具备丰富的跨领域解决方案交付经验，包括项目管理、架构设计、软件开发及全周期项目实施，擅于解决技术难题，能够为企业提供端到端的技术驱动型业务创新支持。",
+        "作为项目经理兼技术负责人，领导团队完成集团全渠道销售订单中台建设。全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。技术层面，主导设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成，实现端到端连接，有力支撑了全球业务峰值运营。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 业务分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有20年软件行业相关经验，15年以上流程改善和自动化经验。具备丰富的跨领域解决方案交付经验，包括项目管理、架构设计、软件开发及全周期项目实施，擅于解决技术难题，能够为企业提供端到端的技术驱动型业务创新支持。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 应用人工智能、机器学习、RPA、低代码平台等多种技术改解决业务问题",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 业务分析",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有20年软件行业相关经验，15年以上流程改善和自动化经验。具备丰富的跨领域解决方案交付经验，包括项目管理、架构设计、软件开发及全周期项目实施，擅于解决技术难题，能够为企业提供端到端的技术驱动型业务创新支持。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为项目经理兼技术负责人，领导团队完成集团全渠道销售订单中台建设。全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。技术层面，主导设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成，实现端到端连接，有力支撑了全球业务峰值运营。",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为项目系统专家，主导汽车设计跟踪管理平台的架构设计与方案交付。负责构建统一的设计数据治理与协同平台，打通从概念设计、数字化样车、工程BOM到试制验证的全链路数据流。通过设计标准化数据模型与集成接口，实现了与第三方系统的深度集成，确保设计变更可实时传递与追溯。项目将设计问题关闭周期缩短40%，显著提升了整车开发流程的协同效率与数据一致性。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计基于工作流的低代码架构，通过任务队列集成多种RPA实现与既有系统的集成；主导工作流平台的整体架构设计与开发实施，采用微服务与低代码框架构建核心引擎，统一集成第三方系统，实现了财务、销售管理、采购管理等流程的自动化流转。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导设计基于工作流的低代码架构；负责构建统一的设计数据治理与协同平台，打通从概念设计到试制验证的全链路数据流；制定整体技术路线图，基于云原生微服务架构进行平台选型与方案设计。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "全面负责项目规划、资源协调与交付管理，确保平台在6个月内平稳上线。",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "简柏特(大连)有限公司",
+      "职位": "高级软件工程师",
+      "时间": "2010.12 - 2013.4",
+      "描述": ""
+    },
+    {
+      "公司": "大连光洋科技工程有限公司",
+      "职位": "互联网软件开发工程师",
+      "时间": "2007.11 - 2010.11",
+      "描述": ""
+    },
+    {
+      "公司": "大连东正置业发展有限公司",
+      "职位": "互联网软件开发工程师",
+      "时间": "2005.10 - 2007.9",
+      "描述": ""
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "主导完成了关键的系统集成与数据治理设计：构建了以财务共享平台为中心的数据枢纽，通过设计并开发标准化API接口，实现了与SAP/ERP核心系统及供应链管理系统的无缝拉通。通过引入RPA机器人处理银行流水对账及增值税发票验真查重，并设计实时数据看板与预警机制，显著提升了财务报告效率与数据透明度，为集团全球化运营提供了坚实、敏捷的财务数字基座。",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 2007.11 — 2010.11 大连光洋科技工程有限公司 互联网软件开发工程师",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售业",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "yaochao.ren_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yaochao.ren_profile_CN.md",
+    "source_hash": "ec11c441727aa1d5e274b3af24a7d8fde867d48cd7d171c49f2fd864c99ab33f",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:36:59"
+  },
+  "城市": "Dalian"
+}

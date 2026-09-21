@@ -1,0 +1,567 @@
+{
+  "姓名": "Candidate_0082",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 6,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "同时具备Python、.NET（C#/VB.NET、ASP.NET）、SQL、JavaScript能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "同时具备Python、.NET（C#/VB.NET、ASP.NET）、SQL、JavaScript能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "-  希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合，推进智能应用落地",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "-  参与基于AWS Systems Manager（SSM）的自动Server健康检查/初动处理基盘 PoC，缩短告警到确认/初查的Lead Time",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Microsoft Power Platform(Power apps,Power Automate,Power BI,Copilot Studio)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "-  打通Zabbix / Splunk / ServiceNow / SSM 联动：告警→日志与对象信息汇总→SSM Run Command自动检查→结果回写ServiceNow工单，减少人工介入",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "负责需求调研分析、设计、开发、测试到上线后维护全流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "以Sub Lead身份推进跨团队协作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "在运维接手阶段负责整个解决方案的运行维护，处理用户问题反馈，评估并实施后续新增需求，保障系统稳定运行与持续优化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "持续向智能化运维与AI结合的自动化方向拓展，希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "持续向智能化运维与AI结合的自动化方向拓展，希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "持续向智能化运维与AI结合的自动化方向拓展，希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Microsoft Power Platform(Power apps,Power Automate,Power BI,Copilot Studio)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "持续向智能化运维与AI结合的自动化方向拓展，希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "-  参与基于AWS Systems Manager（SSM）的自动Server健康检查/初动处理基盘 PoC，缩短告警到确认/初查的Lead Time"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "以Sub Lead身份推进跨团队协作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "在运维接手阶段负责整个解决方案的运行维护，处理用户问题反馈，评估并实施后续新增需求，保障系统稳定运行与持续优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "-  打通Zabbix / Splunk / ServiceNow / SSM 联动：告警→日志与对象信息汇总→SSM Run Command自动检查→结果回写ServiceNow工单，减少人工介入"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "-  打通Zabbix / Splunk / ServiceNow / SSM 联动：告警→日志与对象信息汇总→SSM Run Command自动检查→结果回写ServiceNow工单，减少人工介入"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责需求调研分析、设计、开发、测试到上线后维护全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "负责需求调研分析、设计、开发、测试到上线后维护全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "以Sub Lead身份推进跨团队协作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "同时具备Python、.NET（C#/VB.NET、ASP.NET）、SQL、JavaScript能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "同时具备Python、.NET（C#/VB.NET、ASP.NET）、SQL、JavaScript能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合，推进智能应用落地",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  参与基于AWS Systems Manager（SSM）的自动Server健康检查/初动处理基盘 PoC，缩短告警到确认/初查的Lead Time",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Microsoft Power Platform(Power apps,Power Automate,Power BI,Copilot Studio)",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  打通Zabbix / Splunk / ServiceNow / SSM 联动：告警→日志与对象信息汇总→SSM Run Command自动检查→结果回写ServiceNow工单，减少人工介入",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责需求调研分析、设计、开发、测试到上线后维护全流程",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "以Sub Lead身份推进跨团队协作",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在运维接手阶段负责整个解决方案的运行维护，处理用户问题反馈，评估并实施后续新增需求，保障系统稳定运行与持续优化",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "持续向智能化运维与AI结合的自动化方向拓展，希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Power Platform",
+      "evidence": "Microsoft Power Platform(Power apps,Power Automate,Power BI,Copilot Studio)"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "打通Zabbix / Splunk / ServiceNow / SSM 联动"
+    },
+    {
+      "skill_id": "",
+      "name": "Zabbix",
+      "evidence": "参与Zabbix申请从Excel手工流程改造为Web化即时申请"
+    },
+    {
+      "skill_id": "",
+      "name": "AWS Systems Manager",
+      "evidence": "参与基于AWS Systems Manager（SSM）的自动Server健康检查/初动处理基盘 PoC"
+    },
+    {
+      "skill_id": "",
+      "name": "Dataverse",
+      "evidence": "负责将应用数据从SharePoint Online迁移至 Dataverse"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲大连",
+      "职位": "软件工程师",
+      "时间": "2014 - 2017",
+      "描述": "早期职业背景，具体项目细节未详述"
+    },
+    {
+      "公司": "东京某公司",
+      "职位": "高级软件工程师",
+      "时间": "2017 - 2021",
+      "描述": "早期职业背景，具体项目细节未详述"
+    },
+    {
+      "公司": "国际知名零售公司",
+      "职位": "Sub Lead / IMS 自动化系统等",
+      "时间": "",
+      "描述": "参与基于AWS SSM的自动Server健康检查PoC；打通Zabbix/Splunk/ServiceNow/SSM联动减少人工介入；推进运维ChatBot导入；负责需求调研分析、设计、开发、测试到上线后维护全流程"
+    },
+    {
+      "公司": "国际知名化妆品公司",
+      "职位": "Sub Lead / 员工考核评价系统等",
+      "时间": "",
+      "描述": "将员工考核评价从Excel升级为SharePoint List + Power Apps + Power Automate + Power BI一体化平台；负责数据迁移至Dataverse及新旧系统同步；负责运维接手与持续优化，操作耗时缩短约50%"
+    },
+    {
+      "公司": "日本知名大手人力资源服务公司",
+      "职位": "SE / 企业支援管理系统等",
+      "时间": "",
+      "描述": "参与中小型企业补贴支持管理系统开发；负责核心业务模块实现（企业信息检索、申请提交、付款管理等）；统一业务流程与数据管理，提升处理效率与准确性"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 埃森哲大连（2014 - 2017），软件工程师",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "11年对日IT交付经验，覆盖零售、美妆个护、人力资源等行业，具备从需求调研、方案设计到开发测试、上线运维的端到端交付能力，并能以Sub Lead身份推进跨团队协作。",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "m.zhao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\m.zhao_profile_CN.md",
+    "source_hash": "c6ff47b71c7c651da62fcb94ddaecec37705c390f808a86620f36ca680d55a71",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:42:15"
+  },
+  "城市": "Dalian"
+}

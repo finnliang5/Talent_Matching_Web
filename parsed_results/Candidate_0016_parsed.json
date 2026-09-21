@@ -1,0 +1,819 @@
+{
+  "姓名": "Candidate_0016",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "BA",
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_SNOWFLAKE",
+      "name": "Snowflake",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Snowflake Data Cloud",
+        "SnowPro",
+        "SnowPro Certification",
+        "SnowPro Core"
+      ],
+      "matched_term": "Snowflake"
+    },
+    {
+      "skill_id": "SKILL_AZURE_DATA_FACTORY",
+      "name": "Azure Data Factory",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ADF",
+        "Azure ADF"
+      ],
+      "matched_term": "Azure Data Factory"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 应用客户HIVE大数据平台实施数据处理，使用PowerBI作为数据可视化工具",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "具备10年数据领域复合经验，其中4年专注于数据工程与可视化开发，6年深耕销售数据分析与业务理解，专注于数据开发及看板解决方案的端到端交付。核心优势在于：1) 经验整合能力 - 融合技术实现与业务流程理解，重视解决方案的落地可行性、流程再造及长期运维；2) 高质量交付能力 - 基于深度业务场景分析提供灵活可靠的技术建议，对交付正确率与效率有严格要求，为项目交付提供可靠保障。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 数据可视化：Power BI, Fine BI, Google Looker, 永洪BI, Tableau",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "- 数据可视化：Power BI, Fine BI, Google Looker, 永洪BI, Tableau",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例设计"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 分析能力：业务需求分析、数据建模、趋势预测",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "参与DTP/SOP及流程图的文档编制工作及LOE评估；重视解决方案的落地可行性、流程再造",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "跨团队协作、需求对接；对接本地渠道管理部门；说服客户弃用并重新设计方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "识别原方案预测波动大、运维难的风险，说服客户弃用并重新设计方案；主动识别项目风险点，确保稳健落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "对交付正确率与效率有严格要求，为项目交付提供可靠保障；实现新系统返点计算准确率100%",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "跨团队协作；沟通语言：英文；对接GPO，支持共享团队管理目标",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "参与机票预定行为分析及辖区差旅报销合规性分析探查；渠道销售活动整体描述性分析，渠道销售活动效率：付款效率，达成率...分析",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "整合处理18个数据源，为后续预测模型提供132个特征因子；通过Doris及客户数据平台完成40+数据源的数据开发",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 数据可视化：Power BI, Fine BI, Google Looker, 永洪BI, Tableau"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与机票预定行为分析及辖区差旅报销合规性分析探查；渠道销售活动整体描述性分析，渠道销售活动效率：付款效率，达成率...分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "跨团队协作、需求对接；对接本地渠道管理部门；说服客户弃用并重新设计方案",
+        "跨团队协作；沟通语言：英文；对接GPO，支持共享团队管理目标"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "具备10年数据领域复合经验，其中4年专注于数据工程与可视化开发，6年深耕销售数据分析与业务理解，专注于数据开发及看板解决方案的端到端交付。核心优势在于：1) 经验整合能力 - 融合技术实现与业务流程理解，重视解决方案的落地可行性、流程再造及长期运维；2) 高质量交付能力 - 基于深度业务场景分析提供灵活可靠的技术建议，对交付正确率与效率有严格要求，为项目交付提供可靠保障。",
+        "整合处理18个数据源，为后续预测模型提供132个特征因子；通过Doris及客户数据平台完成40+数据源的数据开发"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "整合处理18个数据源，为后续预测模型提供132个特征因子；通过Doris及客户数据平台完成40+数据源的数据开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+        "- 应用客户HIVE大数据平台实施数据处理，使用PowerBI作为数据可视化工具",
+        "具备10年数据领域复合经验，其中4年专注于数据工程与可视化开发，6年深耕销售数据分析与业务理解，专注于数据开发及看板解决方案的端到端交付。核心优势在于：1) 经验整合能力 - 融合技术实现与业务流程理解，重视解决方案的落地可行性、流程再造及长期运维；2) 高质量交付能力 - 基于深度业务场景分析提供灵活可靠的技术建议，对交付正确率与效率有严格要求，为项目交付提供可靠保障。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SNOWFLAKE",
+          "name": "Snowflake"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+        "对交付正确率与效率有严格要求，为项目交付提供可靠保障；实现新系统返点计算准确率100%"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+        "具备10年数据领域复合经验，其中4年专注于数据工程与可视化开发，6年深耕销售数据分析与业务理解，专注于数据开发及看板解决方案的端到端交付。核心优势在于：1) 经验整合能力 - 融合技术实现与业务流程理解，重视解决方案的落地可行性、流程再造及长期运维；2) 高质量交付能力 - 基于深度业务场景分析提供灵活可靠的技术建议，对交付正确率与效率有严格要求，为项目交付提供可靠保障。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_DATA_FACTORY",
+          "name": "Azure Data Factory"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与DTP/SOP及流程图的文档编制工作及LOE评估；重视解决方案的落地可行性、流程再造"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 分析能力：业务需求分析、数据建模、趋势预测"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 分析能力：业务需求分析、数据建模、趋势预测"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "识别原方案预测波动大、运维难的风险，说服客户弃用并重新设计方案；主动识别项目风险点，确保稳健落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+        "识别原方案预测波动大、运维难的风险，说服客户弃用并重新设计方案；主动识别项目风险点，确保稳健落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "跨团队协作、需求对接；对接本地渠道管理部门；说服客户弃用并重新设计方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "supports_entity_id": "SKILL_SNOWFLAKE",
+      "supports_entity_name": "Snowflake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "supports_entity_id": "SKILL_AZURE_DATA_FACTORY",
+      "supports_entity_name": "Azure Data Factory",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 应用客户HIVE大数据平台实施数据处理，使用PowerBI作为数据可视化工具",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备10年数据领域复合经验，其中4年专注于数据工程与可视化开发，6年深耕销售数据分析与业务理解，专注于数据开发及看板解决方案的端到端交付。核心优势在于：1) 经验整合能力 - 融合技术实现与业务流程理解，重视解决方案的落地可行性、流程再造及长期运维；2) 高质量交付能力 - 基于深度业务场景分析提供灵活可靠的技术建议，对交付正确率与效率有严格要求，为项目交付提供可靠保障。",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据处理与ETL开发：Azure Data Factory, Talend, Snowflake, Google Big Query, SQL Server, MySQL",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据可视化：Power BI, Fine BI, Google Looker, 永洪BI, Tableau",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据可视化：Power BI, Fine BI, Google Looker, 永洪BI, Tableau",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 分析能力：业务需求分析、数据建模、趋势预测",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理与沟通：跨团队协作、需求对接、测试用例设计及支持",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与DTP/SOP及流程图的文档编制工作及LOE评估；重视解决方案的落地可行性、流程再造",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "跨团队协作、需求对接；对接本地渠道管理部门；说服客户弃用并重新设计方案",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "识别原方案预测波动大、运维难的风险，说服客户弃用并重新设计方案；主动识别项目风险点，确保稳健落地",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对交付正确率与效率有严格要求，为项目交付提供可靠保障；实现新系统返点计算准确率100%",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "跨团队协作；沟通语言：英文；对接GPO，支持共享团队管理目标",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与机票预定行为分析及辖区差旅报销合规性分析探查；渠道销售活动整体描述性分析，渠道销售活动效率：付款效率，达成率...分析",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "整合处理18个数据源，为后续预测模型提供132个特征因子；通过Doris及客户数据平台完成40+数据源的数据开发",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Talend",
+      "evidence": "Talend及SQL Server完成数据处理"
+    },
+    {
+      "skill_id": "",
+      "name": "Google Big Query",
+      "evidence": "通过Google Big Query完成数据处理"
+    },
+    {
+      "skill_id": "",
+      "name": "Fine BI",
+      "evidence": "使用Fine BI作为数据可视化工具"
+    },
+    {
+      "skill_id": "",
+      "name": "Google Looker",
+      "evidence": "通过Google Looker 实现可视化"
+    },
+    {
+      "skill_id": "",
+      "name": "永洪BI",
+      "evidence": "永洪BI实现可视化"
+    },
+    {
+      "skill_id": "",
+      "name": "Doris",
+      "evidence": "通过Doris及客户数据平台完成40+数据源的数据开发"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "编程语言：SQL"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国际知名制造业公司",
+      "职位": "商业分析师",
+      "时间": "",
+      "描述": "负责亚太区渠道经销商销售计划达成追踪及返点计算，对接本地渠道管理部门；在渠道销售管理系统上线首轮UAT中担任主要角色，实现新系统返点计算准确率100%；负责UAT及首版新流程Check List编写，参与DTP/SOP及流程图的文档编制工作及LOE评估"
+    },
+    {
+      "公司": "国内知名制造业公司（电子设备制造业）",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "负责TE差旅报销分析，通过Doris及客户数据平台完成40+数据源的数据开发，永洪BI实现可视化；参与机票预定行为分析及辖区差旅报销合规性分析探查"
+    },
+    {
+      "公司": "国际知名快消品公司（彩妆个护行业）",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "负责官网渠道数字营销分析，通过Google Big Query完成数据处理，Google Looker实现可视化；参与双十一及黑五专项Offering分析及Campaign分析"
+    },
+    {
+      "公司": "国际知名快消品公司(食品行业)",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "支持采购部门采购目录品分类规范化，通过Azure Data Factory, Snowflake完成数据处理，参与数据管道开发、生产环境部署及运维"
+    },
+    {
+      "公司": "国际知名快消品公司(食品行业)",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "支持财务总账部门现金流项目归类，通过Talend及SQL Server完成数据处理，Power BI实现数据可视化"
+    },
+    {
+      "公司": "国内知名地产经纪公司",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "支持财务总账部门现金流预测需求，设计并实施数据管道，整合处理18个数据源，为后续预测模型提供132个特征因子；薪酬预测专项模块独立从业务设计到开发测试，工时下降97%，预测准确率提升2%-3%"
+    },
+    {
+      "公司": "国际知名制造业公司（电子设备制造业）",
+      "职位": "数据开发工程师/数据分析师",
+      "时间": "",
+      "描述": "为埃森哲侧GPO项目管理提供数据支持，为客户侧COE提供渠道销售分析；应用客户HIVE大数据平台实施数据处理，使用PowerBI作为数据可视化工具；对接GPO支持共享团队管理目标可视化"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 可视化开发类：快速学习永洪BI软件，灵活安排项目任务，确保项目如期上线",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 快消品（国际及国内知名食品公司，国际知名彩妆个护公司）",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "diane.dan.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\diane.dan.li_profile_CN.md",
+    "source_hash": "e970f06270c7b3a23de1793eb45b98cfce6d3cf1affd104005f401d65e0123c9",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:16:57"
+  },
+  "城市": "Dalian"
+}

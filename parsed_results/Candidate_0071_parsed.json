@@ -1,0 +1,1674 @@
+{
+  "姓名": "Candidate_0071",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 34,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- **软件工程与交付**：19年的全生命周期软件开发与交付经验，涉及Java/Python/JS等多语言的复杂企业级应用。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- **软件工程与交付**：19年的全生命周期软件开发与交付经验，涉及Java/Python/JS等多语言的复杂企业级应用。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_GO_CORE",
+      "name": "Go",
+      "type": "LANGUAGE",
+      "evidence": "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Golang",
+        "go语言",
+        "Go语言",
+        "Google Go"
+      ],
+      "languages": [
+        "Go"
+      ],
+      "matched_term": "Golang"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- **智能体架构开发 (Agentic AI)**：Agent Automation Toolkit, LangChain Agent, ThinkChain, 意图分析 (Intent Analysis), 多轮对话系统设计。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_AUTOGEN",
+      "name": "AutoGen",
+      "type": "FRAMEWORK",
+      "evidence": "- **AI/大模型：** LangChain, AutoGen, ThinkChain, LLM APIs (GPT, Claude等), Neo4j, GraphDB, OCR工具, Embedding库",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "AutoGen"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- **核心成果：** 基于本地化大模型与多维嵌入的企业级平台核心搭建；多智能体编排与上下文协议 (Multi-Agent Orchestration & MCP)；多模态与自动化交互能力融合。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **技术栈：** FastAPI + Celery + Whisper.cpp + Speaker Diarization + LLM Prompt Engineering + React Router + Axios。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "matched_term": "知识图谱"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- **核心成果2：** 针对各类内部表单和流转，使用 Oracle 搭配 MySQL 完成底层数据库高抗压设计及复杂 SQL 查询优化。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_NEO4J",
+      "name": "Neo4j",
+      "type": "DATABASE",
+      "evidence": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Neo4J",
+        "图数据库"
+      ],
+      "matched_term": "Neo4j"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_RABBITMQ",
+      "name": "RabbitMQ",
+      "type": "MESSAGE_QUEUE",
+      "evidence": "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Rabbit MQ",
+        "AMQP"
+      ],
+      "matched_term": "RabbitMQ"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "Data Pipeline"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- **自动化架构与实施**：丰富的自动化实施及架构经验，以及 Splunk 数据分析和 Linux/Cloud 运维体系搭建。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "解决海量数据表定义、数据库规范及项目SQL文档在频繁修改时难以预测影响范围，进而导致系统崩溃的痛点。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "提供端到端的完整生成式AI (GenAI) 解决方案，可利用大语言模型推演影响波及范围。自动输出带有多种数据项说明及波及清单的PPT格式诊断报告",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "name": "AI治理体系设计",
+      "type": "ABILITY",
+      "evidence": "在本地离线ASR方案下保障数据隐私，满足企业知识沉淀场景。防止医疗领域大模型幻觉带来的严重后果。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "AI治理",
+        "AI治理框架",
+        "AI治理体系",
+        "AI风险合规"
+      ],
+      "matched_term": "AI治理体系设计"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "推动跨部门技术协同与产品标准化；以技术布道者身份引领团队从传统架构向大模型驱动（GenAI/Agent）转型",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI/大模型：** LangChain, AutoGen, ThinkChain, LLM APIs (GPT, Claude等), Neo4j, GraphDB, OCR工具, Embedding库"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AUTOGEN",
+          "name": "AutoGen",
+          "rule_id": "RULE_AUTOGEN_TO_AGENT_AUTONOMY",
+          "rule_name": "AutoGen -> CAP_AGENT_TASK_AUTONOMY",
+          "inference_reason": "AutoGen often appears in autonomous multi-agent task execution scenarios.",
+          "inference_weight": 0.73
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **智能体架构开发 (Agentic AI)**：Agent Automation Toolkit, LangChain Agent, ThinkChain, 意图分析 (Intent Analysis), 多轮对话系统设计。",
+        "- **AI/大模型：** LangChain, AutoGen, ThinkChain, LLM APIs (GPT, Claude等), Neo4j, GraphDB, OCR工具, Embedding库",
+        "- **核心成果：** 基于本地化大模型与多维嵌入的企业级平台核心搭建；多智能体编排与上下文协议 (Multi-Agent Orchestration & MCP)；多模态与自动化交互能力融合。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AUTOGEN",
+          "name": "AutoGen"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_GOVERNANCE_FRAMEWORK",
+      "name": "AI Governance Framework",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "在本地离线ASR方案下保障数据隐私，满足企业知识沉淀场景。防止医疗领域大模型幻觉带来的严重后果。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "解决海量数据表定义、数据库规范及项目SQL文档在频繁修改时难以预测影响范围，进而导致系统崩溃的痛点。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search",
+        "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "推动跨部门技术协同与产品标准化；以技术布道者身份引领团队从传统架构向大模型驱动（GenAI/Agent）转型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提供端到端的完整生成式AI (GenAI) 解决方案，可利用大语言模型推演影响波及范围。自动输出带有多种数据项说明及波及清单的PPT格式诊断报告"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul",
+        "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提供端到端的完整生成式AI (GenAI) 解决方案，可利用大语言模型推演影响波及范围。自动输出带有多种数据项说明及波及清单的PPT格式诊断报告"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KNOWLEDGE_GRAPH",
+          "name": "知识图谱"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_NEO4J",
+          "name": "Neo4j"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **智能体架构开发 (Agentic AI)**：Agent Automation Toolkit, LangChain Agent, ThinkChain, 意图分析 (Intent Analysis), 多轮对话系统设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **核心成果：** 基于本地化大模型与多维嵌入的企业级平台核心搭建；多智能体编排与上下文协议 (Multi-Agent Orchestration & MCP)；多模态与自动化交互能力融合。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MESSAGE_QUEUE_INTEGRATION",
+      "name": "Message Queue Integration",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RABBITMQ",
+          "name": "RabbitMQ"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+        "- **自动化架构与实施**：丰富的自动化实施及架构经验，以及 Splunk 数据分析和 Linux/Cloud 运维体系搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **自动化架构与实施**：丰富的自动化实施及架构经验，以及 Splunk 数据分析和 Linux/Cloud 运维体系搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **技术栈：** FastAPI + Celery + Whisper.cpp + Speaker Diarization + LLM Prompt Engineering + React Router + Axios。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **智能体架构开发 (Agentic AI)**：Agent Automation Toolkit, LangChain Agent, ThinkChain, 意图分析 (Intent Analysis), 多轮对话系统设计。",
+        "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "在本地离线ASR方案下保障数据隐私，满足企业知识沉淀场景。防止医疗领域大模型幻觉带来的严重后果。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "推动跨部门技术协同与产品标准化；以技术布道者身份引领团队从传统架构向大模型驱动（GenAI/Agent）转型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding",
+        "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 8
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **软件工程与交付**：19年的全生命周期软件开发与交付经验，涉及Java/Python/JS等多语言的复杂企业级应用。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **软件工程与交付**：19年的全生命周期软件开发与交付经验，涉及Java/Python/JS等多语言的复杂企业级应用。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search",
+      "supports_entity_id": "SKILL_GO_CORE",
+      "supports_entity_name": "Go",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** Springboot / Python / Nodejs Typescript / LLM RAG / OCR / Local LLM / Embedding",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端与云：** AWS Cloud, Docker, Kubernetes, Linux, FastAPI, Spring Boot, Spring Cloud, Golang, MongoDB, Oracle, MySQL, Elastic Search",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **前端：** React/TS, Vue.js, Angular, Node.js, Webpack/Vite, HTML5/CSS3, JavaScript, jQuery, Ajax, Bootstrap, SAP UI5, ECharts, StreamLit",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **智能体架构开发 (Agentic AI)**：Agent Automation Toolkit, LangChain Agent, ThinkChain, 意图分析 (Intent Analysis), 多轮对话系统设计。",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI/大模型：** LangChain, AutoGen, ThinkChain, LLM APIs (GPT, Claude等), Neo4j, GraphDB, OCR工具, Embedding库",
+      "supports_entity_id": "SKILL_AUTOGEN",
+      "supports_entity_name": "AutoGen",
+      "derived_capability_ids": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **核心成果：** 基于本地化大模型与多维嵌入的企业级平台核心搭建；多智能体编排与上下文协议 (Multi-Agent Orchestration & MCP)；多模态与自动化交互能力融合。",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** FastAPI + Celery + Whisper.cpp + Speaker Diarization + LLM Prompt Engineering + React Router + Axios。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "supports_entity_id": "SKILL_KNOWLEDGE_GRAPH",
+      "supports_entity_name": "知识图谱",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **核心成果2：** 针对各类内部表单和流转，使用 Oracle 搭配 MySQL 完成底层数据库高抗压设计及复杂 SQL 查询优化。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "supports_entity_id": "SKILL_NEO4J",
+      "supports_entity_name": "Neo4j",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈：** FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp + 通义千问(OpenAI兼容接口) + Instructor + React 19 + TypeScript + Vite + TailwindCSS + Docker。",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **中间件与应用服务器：** Apache, Nginx, JBoss, WebLogic, Tomcat, Jetty, Redis, Hazel-cast, GuavaCache, Kafka, RabbitMQ, Consul",
+      "supports_entity_id": "SKILL_RABBITMQ",
+      "supports_entity_name": "RabbitMQ",
+      "derived_capability_ids": [
+        "CAP_MESSAGE_QUEUE_INTEGRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全栈开发与云原生架构 (Full Stack & Cloud Native)**：Python, Java, FastAPI, ReactTS UI, StreamLit UI; Docker, Kubernetes, AWS Cloud。",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **知识图谱与数据处理 (Knowledge Graph & Data Pipeline)**：图数据库 (GraphDB / Neo4j), 知识图谱构建关联, GPU加速文档解析及光学字符识别 (OCR)。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **自动化/DevOps：** RPA, CI/CD, Jenkins, GitHub Actions, Selenium, Ansible, Terraform, Maven, Gradle, SonarQube",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **自动化架构与实施**：丰富的自动化实施及架构经验，以及 Splunk 数据分析和 Linux/Cloud 运维体系搭建。",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Leon 拥有 **19年以上** 的软件项目开发与交付经验(埃森哲7年)，其中包括 **5年** 机器学习 (Machine Learning)、大数据分析与智能问答系统 (Chatbot) 的开发执行经验，以及 **2年** 深度参与的 **生成式AI (Generative AI / GenAI)** 框架与系统落地经验。作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建，能够独立完成从客户需求分析、",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为AI技术架构师，他精通大语言模型（LLM）、检索增强生成（RAG）、Agentic AI 架构设计及多渠道知识库构建",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "解决海量数据表定义、数据库规范及项目SQL文档在频繁修改时难以预测影响范围，进而导致系统崩溃的痛点。",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提供端到端的完整生成式AI (GenAI) 解决方案，可利用大语言模型推演影响波及范围。自动输出带有多种数据项说明及波及清单的PPT格式诊断报告",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在本地离线ASR方案下保障数据隐私，满足企业知识沉淀场景。防止医疗领域大模型幻觉带来的严重后果。",
+      "supports_entity_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "supports_entity_name": "AI治理体系设计",
+      "derived_capability_ids": [
+        "CAP_AI_GOVERNANCE_FRAMEWORK",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "推动跨部门技术协同与产品标准化；以技术布道者身份引领团队从传统架构向大模型驱动（GenAI/Agent）转型",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ThinkChain",
+      "evidence": "技术栈：ThinkChain + RAG 技术 + AI Agent"
+    },
+    {
+      "skill_id": "",
+      "name": "Agent Automation Toolkit",
+      "evidence": "技术栈：Agent Automation Toolkit, LangChain Agent"
+    },
+    {
+      "skill_id": "",
+      "name": "Whisper.cpp",
+      "evidence": "技术栈：FastAPI + Celery + Redis + MongoDB(Beanie) + Whisper.cpp"
+    },
+    {
+      "skill_id": "",
+      "name": "Instructor",
+      "evidence": "技术栈：通义千问(OpenAI兼容接口) + Instructor + React 19"
+    },
+    {
+      "skill_id": "",
+      "name": "StreamLit",
+      "evidence": "技术栈：AWS Cloud + StreamLit UI + Claude LLM"
+    },
+    {
+      "skill_id": "",
+      "name": "Unity (XR Interaction Toolkit)",
+      "evidence": "空间计算与元宇宙 (XR/3D)：Unity (XR Interaction Toolkit, OpenXR Plugin, AR Foundation)"
+    },
+    {
+      "skill_id": "",
+      "name": "Genwizard AIOps ATR Platform",
+      "evidence": "埃森哲资产：Genwizard AIOps ATR Platform,Chatbot,Workflow Manager"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 / Greater China Technology",
+      "职位": "AI技术架构师 & 全栈开发工程师",
+      "时间": "7年",
+      "描述": "主导多个GenAI项目落地，包括视频知识提炼平台、会议纪要系统、能源智能客服、数据库变更影响分析工具、医疗智能客服及AIOps平台本地化。负责从需求分析、架构设计到全栈开发与交付的全链路工作。"
+    },
+    {
+      "公司": "北京世联互动 (LINE)",
+      "职位": "高级软件工程师",
+      "时间": "",
+      "描述": "负责全球社交软件LINE的风控与核心生态研发，设计实时聊天数据流关键字安全过滤拦截功能，开发多媒体违禁内容智能判频逻辑及处罚审核中台。"
+    },
+    {
+      "公司": "索尼信息系统（大连）",
+      "职位": "全栈开发工程师",
+      "时间": "",
+      "描述": "梳理内部复杂业务流转需求，开发内部高效业务支撑与管理工具，使用Oracle/MySQL完成底层数据库高抗压设计及复杂SQL查询优化。"
+    },
+    {
+      "公司": "日本日升株式会社",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "参与对外业务架构及定制化企业级后台系统研发，运用Java与VB.net等多语言跨界实现业务实施，遵循大型项目交付规范。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- **医疗健康 (Healthcare)**：主导医疗级智能查询与高精度文档检索系统的AI技术落地，熟悉高敏感度医疗数据图谱构建。",
+      "source": "rule",
+      "matched_term": "Healthcare"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- **英语** O2/E2 Fluent communication / 商务流利",
+      "source": "rule",
+      "matched_term": "Communication"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- **能源与公共事业 (Energy & Utilities)**：主导能源项目的智能客服智能化升级与ITSM工单系统集成。",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "leon.feng_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\leon.feng_profile_CN.md",
+    "source_hash": "2e888150bd026c372bc00ffc1e4ef4da22b457a2e1a0ea848b31ae9d50063952",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:35:11"
+  },
+  "城市": "Dalian"
+}

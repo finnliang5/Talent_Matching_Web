@@ -1,0 +1,79 @@
+{
+  "姓名": "Candidate_0056",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [],
+  "胜任力": [],
+  "能力": [],
+  "领域": [],
+  "证据": [],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SIT/UAT测试",
+      "evidence": "uat和sit的所有测试都有负责"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR识别测试",
+      "evidence": "测试OCR识别的准确率"
+    },
+    {
+      "skill_id": "",
+      "name": "服务器运维",
+      "evidence": "负责项目的运维工作，重启服务器，以保证同事正常工作"
+    },
+    {
+      "skill_id": "",
+      "name": "AI测试工具",
+      "evidence": "期望在软件测试与运维领域深耕，掌握AI测试工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture / BPO",
+      "职位": "Packaged App Development Analyst / 测试与运维",
+      "时间": "2021年至今",
+      "描述": "负责Manulife、KSF、Nestle、Avery、BOE、Tencent等客户项目的测试与运维。参与项目开发阶段测试、SIT/UAT测试、测试场景与数据准备、敏感数据脱敏、OCR准确率测试、服务器重启运维及线上Bug跟踪。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【我期望在软件测试与运维领域深耕，掌握AI测试工具】",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "参与Manulife（宏利金融）项目测试与运维",
+      "source": "llm",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "参与Nestle（雀巢）项目测试与敏感数据脱敏",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "jiayuan.a.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jiayuan.a.wang_profile_CN.md",
+    "source_hash": "d6658bd4c066747048571f8bfdf97d2ba849ff72379f29b4c0e8ac21b90e5d39",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:27:46"
+  },
+  "城市": "Dalian"
+}

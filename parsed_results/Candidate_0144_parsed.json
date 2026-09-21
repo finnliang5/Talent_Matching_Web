@@ -1,0 +1,254 @@
+{
+  "姓名": "Candidate_0144",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "经验丰富的技术架构与基础设施服务专业人士，拥有16年BPO技术基础设施外包与管理经验，其中包括9年以上项目管理和6年以上客户管理经验。具备管理复杂项目、推动解决方案交付、确保跨多服务运营的客户满意度的能力。擅长自动化机会识别、成本降低、生产力提升及结构化治理。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "- 风险管理与缓解",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；提供功能/技术支持以解决客户问题、事件、请求和查询；根据需要与其他支持/产品团队协作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；利用最佳实践推动交付优化，在专业领域内实施标准解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；提供功能/技术支持以解决客户问题、事件、请求和查询；根据需要与其他支持/产品团队协作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "经验丰富的技术架构与基础设施服务专业人士，拥有16年BPO技术基础设施外包与管理经验，其中包括9年以上项目管理和6年以上客户管理经验。具备管理复杂项目、推动解决方案交付、确保跨多服务运营的客户满意度的能力。擅长自动化机会识别、成本降低、生产力提升及结构化治理。",
+        "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；利用最佳实践推动交付优化，在专业领域内实施标准解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "经验丰富的技术架构与基础设施服务专业人士，拥有16年BPO技术基础设施外包与管理经验，其中包括9年以上项目管理和6年以上客户管理经验。具备管理复杂项目、推动解决方案交付、确保跨多服务运营的客户满意度的能力。擅长自动化机会识别、成本降低、生产力提升及结构化治理。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 风险管理与缓解"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "经验丰富的技术架构与基础设施服务专业人士，拥有16年BPO技术基础设施外包与管理经验，其中包括9年以上项目管理和6年以上客户管理经验。具备管理复杂项目、推动解决方案交付、确保跨多服务运营的客户满意度的能力。擅长自动化机会识别、成本降低、生产力提升及结构化治理。",
+        "- 风险管理与缓解"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "经验丰富的技术架构与基础设施服务专业人士，拥有16年BPO技术基础设施外包与管理经验，其中包括9年以上项目管理和6年以上客户管理经验。具备管理复杂项目、推动解决方案交付、确保跨多服务运营的客户满意度的能力。擅长自动化机会识别、成本降低、生产力提升及结构化治理。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 风险管理与缓解",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；提供功能/技术支持以解决客户问题、事件、请求和查询；根据需要与其他支持/产品团队协作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；利用最佳实践推动交付优化，在专业领域内实施标准解决方案",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲BPO",
+      "职位": "基础设施服务管理负责人",
+      "时间": "2016年至今",
+      "描述": "管理解决方案过渡/交付，参与解决方案设计，监督项目成本与差异分析；负责新客户和现有客户的端到端过渡/上线，管理项目范围与进度；识别影响项目时间表的潜在风险，并制定缓解计划；在过渡实施过程中，与关键业务流程方共同领导并执行结构化治理；利用最佳实践推动交付优化，在专业领域内实施标准解决方案；识别自动化机会以降低成本并提高生产力"
+    },
+    {
+      "公司": "埃森哲BPO项目 – 德意志银行",
+      "职位": "IT服务台团队负责人",
+      "时间": "2007-2016",
+      "描述": "领导10人服务台团队，为亚太区200多名用户提供支持；深入理解客户业务需求与挑战；提供功能/技术支持以解决客户问题、事件、请求和查询；根据需要与其他支持/产品团队协作；确保所有事件的妥善文档记录、通知、升级、跟踪与跟进；领导并管理服务台的团队目标、绩效评估、班次安排及服务质量监控"
+    },
+    {
+      "公司": "联想 / 联邦快递 / 耐克",
+      "职位": "客户管理与解决方案交付支持",
+      "时间": "",
+      "描述": "支持大型/复杂客户项目，包括联想、联邦快递、耐克；与运营、转型团队及内部技术支持部门协作，全面理解客户需求；确保项目按计划实施，满足功能要求、内部质量与安全标准及认证要求"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 德意志银行BPO项目IT服务台团队负责人（2007-2016）",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 德意志银行BPO项目IT服务台团队负责人（2007-2016）",
+      "source": "rule",
+      "matched_term": "IT服务"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "支持大型/复杂客户项目，包括联想、联邦快递、耐克",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "Wenbo.Yin_Profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Wenbo.Yin_Profile_CN.md",
+    "source_hash": "08eec1e1bb10c0e242918abbd1f7037d7c4ff3ec5286e370368d954beb785bf9",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:27:49"
+  },
+  "城市": "Dalian"
+}

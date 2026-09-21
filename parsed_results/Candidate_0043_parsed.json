@@ -1,0 +1,244 @@
+{
+  "姓名": "Candidate_0043",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 【Java】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 【JavaScript】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "协助日本同事对客户需求进行整理和理解；对既存系统的需求变更进行分析和设计；对应各种需求变更，整理影响分析",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "完成用户需求的设计和开发，提出相应的架构方案；针对要件提出设计方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "完成用户需求的设计和开发，提出相应的架构方案；针对要件提出设计方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "完成用户需求的设计和开发，提出相应的架构方案；针对要件提出设计方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协助日本同事对客户需求进行整理和理解；对既存系统的需求变更进行分析和设计；对应各种需求变更，整理影响分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "协助日本同事对客户需求进行整理和理解；对既存系统的需求变更进行分析和设计；对应各种需求变更，整理影响分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Java】",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【JavaScript】",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协助日本同事对客户需求进行整理和理解；对既存系统的需求变更进行分析和设计；对应各种需求变更，整理影响分析",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "完成用户需求的设计和开发，提出相应的架构方案；针对要件提出设计方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "核心技能：【ServiceNow】；拥有7年以上ServiceNow开发经验"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "核心技能：【Oracle】"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "软件工程师 / 日本某投资公司",
+      "时间": "",
+      "描述": "协助日本同事对客户需求进行整理和理解；完成用户需求的设计和开发，提出相应的架构方案；对单一和整体功能进行测试与反馈；帮助项目进行环境移行，为最终上线做准备；对应各种需求变更，整理影响分析"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "软件工程师 / 日本某电力公司",
+      "时间": "",
+      "描述": "对既存系统的需求变更进行分析和设计；对功能进行开发和测试；解决既存系统存在的内部问题"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "软件工程师 / 日本某保险公司",
+      "时间": "",
+      "描述": "针对要件提出设计方案；对于复杂逻辑处理进行代码实施和测试；帮助团队完成任务并顺利上线"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 【保险】",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "**角色：** 【软件工程师 / 日本某投资公司】",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 【电力】",
+      "source": "rule",
+      "matched_term": "电力"
+    }
+  ],
+  "_batch": {
+    "source_file": "hongxia.zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hongxia.zhang_profile_CN.md",
+    "source_hash": "bf2608b1193e473d796c35204798b573bcfbeccad2ae4484027de6ac79e8c595",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:23:41"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,574 @@
+{
+  "姓名": "Candidate_0041",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有3年IT领域工作经验，具备扎实的技术基础和良好的问题解决能力。擅长使用VBA、Python等编程语言编写自动化脚本，有效提升业务处理效率并减少人工操作成本。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** Python、Java、SQL、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** Python、Java、SQL、JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "-  将用户的数据从Access 同步至Mysql中",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- **DevOps 与工具：** Git、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **DevOps 与工具：** Git、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- 在用户服务其中搭建Splunk平台，并同步其SAP数据",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景，提升业务处理效率并降低人工操作风险。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "参与自动化流程设计与开发...针对接口异常、权限问题及数据异常进行定位与解决，保障流程稳定运行",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "负责Bot上线发布及UAT支持，监控运行状态并处理异常问题，通过持续优化提升自动化流程的稳定性与可靠性",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责Bot上线发布及UAT支持，监控运行状态并处理异常问题，通过持续优化提升自动化流程的稳定性与可靠性"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker",
+        "- 在用户服务其中搭建Splunk平台，并同步其SAP数据"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 在用户服务其中搭建Splunk平台，并同步其SAP数据"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与自动化流程设计与开发...针对接口异常、权限问题及数据异常进行定位与解决，保障流程稳定运行"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / 数据：** RAG、Prompt Engineering、Vector DB"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / 数据：** RAG、Prompt Engineering、Vector DB"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景，提升业务处理效率并降低人工操作风险。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景，提升业务处理效率并降低人工操作风险。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有3年IT领域工作经验，具备扎实的技术基础和良好的问题解决能力。擅长使用VBA、Python等编程语言编写自动化脚本，有效提升业务处理效率并减少人工操作成本。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** Python、Java、SQL、JavaScript",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** Python、Java、SQL、JavaScript",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  将用户的数据从Access 同步至Mysql中",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **DevOps 与工具：** Git、Docker",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **DevOps 与工具：** Git、Docker",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 在用户服务其中搭建Splunk平台，并同步其SAP数据",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景，提升业务处理效率并降低人工操作风险。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与自动化流程设计与开发...针对接口异常、权限问题及数据异常进行定位与解决，保障流程稳定运行",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责Bot上线发布及UAT支持，监控运行状态并处理异常问题，通过持续优化提升自动化流程的稳定性与可靠性",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "核心技能：编程语言：Python、Java、SQL、JavaScript"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "擅长使用VBA、Python等编程语言编写自动化脚本"
+    },
+    {
+      "skill_id": "",
+      "name": "Automation Anywhere",
+      "evidence": "RPA 工具：Automation Anywhere、VBA"
+    },
+    {
+      "skill_id": "",
+      "name": "Vector DB",
+      "evidence": "AI / 数据：RAG、Prompt Engineering、Vector DB"
+    },
+    {
+      "skill_id": "",
+      "name": "Git",
+      "evidence": "DevOps 与工具：Git、Docker"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP MM/PP/SD",
+      "evidence": "参与涉及SAP MM、PP、SD等模块的自动化流程处理与数据交互"
+    },
+    {
+      "skill_id": "",
+      "name": "Microsoft Access",
+      "evidence": "将用户的数据从Access 同步至Mysql中"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "亿滋国际",
+      "职位": "RPA自动化工程师",
+      "时间": "2025.10 - 至今",
+      "描述": "基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景；参与涉及SAP MM、PP、SD等模块的自动化流程处理与数据交互；负责Bot上线发布及UAT支持，监控运行状态并处理异常问题。"
+    },
+    {
+      "公司": "ABI百威",
+      "职位": "服务器状态监控告警",
+      "时间": "2025.6 - 2025.9",
+      "描述": "在用户服务其中搭建Splunk平台，并同步其SAP数据；根据用户需求监控sap数据状态并告警；对splunk自身状态及lisence进行监控。"
+    },
+    {
+      "公司": "ComPass",
+      "职位": "票单数据监控",
+      "时间": "2025.3 - 2025.5",
+      "描述": "同步用户数据至Splunk；根据用户需求搭建Splunk页面；根据用户需求通过Splunk对票单状态进行监控，超出规定处理时间在前台页面进行告警。"
+    },
+    {
+      "公司": "腾讯安灯系统",
+      "职位": "月报自动生成VBA脚本",
+      "时间": "2024.12 - 2025.2",
+      "描述": "接收用户数据，将其初始化化为用户需求格式；根据数据分类统计各数据数量，并统计为折线，柱状，饼状图；根据用户需求生成邮件。"
+    },
+    {
+      "公司": "ComPass",
+      "职位": "票单数据监控",
+      "时间": "2025.7 - 2025.11",
+      "描述": "同步用户数据至Splunk；根据用户需求搭建Splunk页面；根据用户需求通过Splunk对票单状态进行监控，超出规定处理时间在前台页面进行告警。"
+    },
+    {
+      "公司": "亿滋国际",
+      "职位": "RPA自动化工程师",
+      "时间": "2023.9 - 2024.7",
+      "描述": "基于业务需求分析，参与自动化流程设计与开发，覆盖数据抓取、文件处理及系统交互等场景；参与涉及SAP MM、PP、SD等模块的自动化流程处理与数据交互；负责Bot上线发布及UAT支持，监控运行状态并处理异常问题。"
+    },
+    {
+      "公司": "Japan S&C",
+      "职位": "数据库搭建",
+      "时间": "2023.4 - 2023.8",
+      "描述": "将用户的数据从Access 同步至Mysql中；根据用户需求编写多表联查的SQL语句；通过标准化数据处理与数据输出，减少人工导入与数据检查的流程。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 从毕业至今一直再Accenture担任软件开发工程师，目前主要负责自动化程序的开发与维护",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "-  能源",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "Hongbo.Zou_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Hongbo.Zou_profile_CN.md",
+    "source_hash": "a0d95dee3d84f70d59b24d6f77429bec8a1bb6a968cb4f3e7c688f81edba617c",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:23:19"
+  },
+  "城市": "Dalian"
+}

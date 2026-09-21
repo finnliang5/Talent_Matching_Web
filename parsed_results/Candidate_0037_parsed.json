@@ -1,0 +1,169 @@
+{
+  "姓名": "Candidate_0037",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【工作时间五年，专注于自动化领域，精通RPA工具和基于python搭建自动化平台，有聊天机器人，splunk数据引擎，AI审核平台相关经验】",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "UIPATH",
+      "evidence": "精通RPA工具，【UIPATH】"
+    },
+    {
+      "skill_id": "",
+      "name": "Automationanywhere",
+      "evidence": "【Automationanywhere】"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "专注于自动化领域，精通RPA工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "COSMO",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "负责聊天机器人相关开发与实施"
+    },
+    {
+      "公司": "Loreal",
+      "职位": "开发",
+      "时间": "",
+      "描述": "负责CRM监控平台及Splunk开发"
+    },
+    {
+      "公司": "toray",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "负责AI审核平台相关开发"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【软件工程师】",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "* 【快消化妆品】",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "haonan.a.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\haonan.a.li_profile_CN.md",
+    "source_hash": "2b168ae9f316c22e344e9a9d79743d84fc4910ca041339c58ce1a1266e39ec8a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:21:46"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,521 @@
+{
+  "姓名": "Candidate_0158",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 从数据源整理到prompt构建、调试，提升大模型对用户问题的意图分析、数据分析、跨系统抓取的准确性，提升用户满意度",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 【MySQL】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "evidence": "- 【PostMan】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Postman API"
+      ],
+      "matched_term": "Postman"
+    },
+    {
+      "skill_id": "SKILL_API_TESTING",
+      "name": "接口测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 使用post自动化测试平台进行接口测试，执行质量红线流水线测试",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "API测试",
+        "API Testing",
+        "接口自动化测试"
+      ],
+      "matched_term": "接口测试"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "自动化测试"
+    },
+    {
+      "skill_id": "SKILL_PERFORMANCE_TESTING",
+      "name": "性能测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 【自动化测试与性能测试】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "压力测试",
+        "负载测试",
+        "Performance Testing",
+        "Load Testing",
+        "Stress Testing"
+      ],
+      "matched_term": "性能测试"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 【产品测试用例设计、测试文档撰写】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例设计"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "作为业务与技术团队沟通枢纽，高效处理跨部门需求冲突，保障产品迭代节奏与用户体验平衡",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "分析用户使用路径与业务场景，结合平台现有设计提出用户交互改善和页面视觉效果提升方案并推动实际落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "以用户为中心收集反馈，分析用户痛点；持续跟踪、收集用户使用体验，从业务影响、技术成本、用户收益分析需求合理性并转化为可开发功能点",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【PostMan】",
+        "- 使用post自动化测试平台进行接口测试，执行质量红线流水线测试"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POSTMAN",
+          "name": "Postman"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_API_TESTING",
+          "name": "接口测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "分析用户使用路径与业务场景，结合平台现有设计提出用户交互改善和页面视觉效果提升方案并推动实际落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "以用户为中心收集反馈，分析用户痛点；持续跟踪、收集用户使用体验，从业务影响、技术成本、用户收益分析需求合理性并转化为可开发功能点"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为业务与技术团队沟通枢纽，高效处理跨部门需求冲突，保障产品迭代节奏与用户体验平衡"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PERFORMANCE_TESTING",
+      "name": "Performance Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【自动化测试与性能测试】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PERFORMANCE_TESTING",
+          "name": "性能测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "分析用户使用路径与业务场景，结合平台现有设计提出用户交互改善和页面视觉效果提升方案并推动实际落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+        "分析用户使用路径与业务场景，结合平台现有设计提出用户交互改善和页面视觉效果提升方案并推动实际落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【产品测试用例设计、测试文档撰写】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 从数据源整理到prompt构建、调试，提升大模型对用户问题的意图分析、数据分析、跨系统抓取的准确性，提升用户满意度",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【MySQL】",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【PostMan】",
+      "supports_entity_id": "SKILL_POSTMAN",
+      "supports_entity_name": "Postman",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 使用post自动化测试平台进行接口测试，执行质量红线流水线测试",
+      "supports_entity_id": "SKILL_API_TESTING",
+      "supports_entity_name": "接口测试",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【自动化测试与性能测试】",
+      "supports_entity_id": "SKILL_PERFORMANCE_TESTING",
+      "supports_entity_name": "性能测试",
+      "derived_capability_ids": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【产品测试用例设计、测试文档撰写】",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为业务与技术团队沟通枢纽，高效处理跨部门需求冲突，保障产品迭代节奏与用户体验平衡",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "分析用户使用路径与业务场景，结合平台现有设计提出用户交互改善和页面视觉效果提升方案并推动实际落地",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "以用户为中心收集反馈，分析用户痛点；持续跟踪、收集用户使用体验，从业务影响、技术成本、用户收益分析需求合理性并转化为可开发功能点",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "IBM Watson Assistant",
+      "evidence": "使用IBM Watson进行语料开发训练"
+    },
+    {
+      "skill_id": "",
+      "name": "LoadRunner",
+      "evidence": "利用LoadRunner进行系统场景的性能压测"
+    },
+    {
+      "skill_id": "",
+      "name": "APIFOX",
+      "evidence": "工具与平台中列出APIFOX"
+    },
+    {
+      "skill_id": "",
+      "name": "PyCharm",
+      "evidence": "工具与平台中列出PyCharm"
+    },
+    {
+      "skill_id": "",
+      "name": "Visual Studio Code",
+      "evidence": "工具与平台中列出Visual Studio Code"
+    },
+    {
+      "skill_id": "",
+      "name": "Visual Studio",
+      "evidence": "工具与平台中列出Visual Studio"
+    },
+    {
+      "skill_id": "",
+      "name": "墨刀",
+      "evidence": "工具与平台中列出墨刀"
+    },
+    {
+      "skill_id": "",
+      "name": "Xmind",
+      "evidence": "工具与平台中列出Xmind"
+    },
+    {
+      "skill_id": "",
+      "name": "火山引擎Datagent",
+      "evidence": "工具与平台中列出火山引擎Datagent"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "测试工程师 & 产品运维",
+      "时间": "2018 - 2021年3月",
+      "描述": "参与华为EBG项目，负责CPRI平台测试、Utility数据中台测试，撰写测试文档，与开发及业务人员沟通调试，提供系统使用咨询，执行性能压测与接口测试。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "Quality Engineering Specialist / AI团队测试工程师",
+      "时间": "2021年3月至今",
+      "描述": "参与AI团队研发项目，负责财务智能审计平台（Sanofi等客户）、Outlook智能插件、AVA等产品的测试与运维，进行需求分析、AI训练数据标注、Prompt工程优化，跨部门沟通与协调，推动产品优化与用户体验提升。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有近8年软件测试和产品交付经验，深耕人工智能、财务审计及企业服务平台领域的质量保障。具备从需求分析到交付落地的全链路视野，擅长以测试视角审视业务逻辑的完备性，并以产品思维反推系统设计的合理性。在AI语料训练与自动化测试方面积累深厚，能够挖掘需求与梳理场景，提前识别设计缺陷与业务风险，致力于连接技术与业务价值双重实现和质量把关。",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "xinyi.e.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\xinyi.e.li_profile_CN.md",
+    "source_hash": "f2da8a5aa580484e97ac83c6de43c25889e5ee2cee760b903684602026de6038",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:33:57"
+  },
+  "城市": "Dalian"
+}

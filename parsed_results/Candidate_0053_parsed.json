@@ -1,0 +1,603 @@
+{
+  "姓名": "Candidate_0053",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "* 【认证名称】【认证】具备AWS AI从业者认证，阿里ACA云计算，阿里PSA解决方案架构师，阿里ACP数据分析证书等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例设计"
+    },
+    {
+      "skill_id": "SKILL_DEFECT_MANAGEMENT",
+      "name": "缺陷管理",
+      "type": "TESTING_PRACTICE",
+      "evidence": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Bug管理",
+        "缺陷跟踪",
+        "Defect Management",
+        "Bug Tracking"
+      ],
+      "matched_term": "缺陷管理"
+    },
+    {
+      "skill_id": "SKILL_REGRESSION_TESTING",
+      "name": "回归测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Regression Testing"
+      ],
+      "matched_term": "回归测试"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "* 【需求分析】负责某领先应用的开发及实施工作，作为BA进行业务分析，整合现有需求，配合业务与技术开发完成",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "**角色：** 【商业需求分析师】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "* 【客户协同与干系人管理】作为项目核心成员，与客户多层级（总部战略部、各子公司业务负责人）保持高频沟通，确保项目进展顺畅并有效管理反馈",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "evidence": "* 【行业对标与领先实践研究】完成跨行业标杆分析，结合客户业务特性与战略目标，提出差异化会员体系架构建议，确保方案兼具前瞻性与可落地性",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "行业对标"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "独立/协同完成阶段性咨询报告，涵盖现状分析、对标发现、初步建议等核心模块，确保交付质量与客户预期对齐",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "参与设计并落地共创研讨会，采用引导式方法拉通集团总部与各业务部门之间的认知差异，推动跨部门共识达成",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "name": "差距分析",
+      "type": "ABILITY",
+      "evidence": "调研组织运营现状，梳理特点拉通共识，明确问题及挑战",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "差距分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 【需求分析】负责某领先应用的开发及实施工作，作为BA进行业务分析，整合现有需求，配合业务与技术开发完成",
+        "调研组织运营现状，梳理特点拉通共识，明确问题及挑战"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "* 【认证名称】【认证】具备AWS AI从业者认证，阿里ACA云计算，阿里PSA解决方案架构师，阿里ACP数据分析证书等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【客户协同与干系人管理】作为项目核心成员，与客户多层级（总部战略部、各子公司业务负责人）保持高频沟通，确保项目进展顺畅并有效管理反馈",
+        "参与设计并落地共创研讨会，采用引导式方法拉通集团总部与各业务部门之间的认知差异，推动跨部门共识达成"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "独立/协同完成阶段性咨询报告，涵盖现状分析、对标发现、初步建议等核心模块，确保交付质量与客户预期对齐"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DEFECT_MANAGEMENT",
+      "name": "Defect Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEFECT_MANAGEMENT",
+          "name": "缺陷管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "独立/协同完成阶段性咨询报告，涵盖现状分析、对标发现、初步建议等核心模块，确保交付质量与客户预期对齐"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 【行业对标与领先实践研究】完成跨行业标杆分析，结合客户业务特性与战略目标，提出差异化会员体系架构建议，确保方案兼具前瞻性与可落地性",
+        "调研组织运营现状，梳理特点拉通共识，明确问题及挑战"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_BENCHMARKING",
+          "name": "行业对标"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【需求分析】负责某领先应用的开发及实施工作，作为BA进行业务分析，整合现有需求，配合业务与技术开发完成"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【需求分析】负责某领先应用的开发及实施工作，作为BA进行业务分析，整合现有需求，配合业务与技术开发完成",
+        "**角色：** 【商业需求分析师】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "**角色：** 【商业需求分析师】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【客户协同与干系人管理】作为项目核心成员，与客户多层级（总部战略部、各子公司业务负责人）保持高频沟通，确保项目进展顺畅并有效管理反馈"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【认证名称】【认证】具备AWS AI从业者认证，阿里ACA云计算，阿里PSA解决方案架构师，阿里ACP数据分析证书等",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "supports_entity_id": "SKILL_DEFECT_MANAGEMENT",
+      "supports_entity_name": "缺陷管理",
+      "derived_capability_ids": [
+        "CAP_DEFECT_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【功能测试】全面负责系统各功能模块的 SIT（系统集成测试）与 UAT（用户验收测试），包括测试用例设计、缺陷管理、回归测试及用户验收支持，确保关键功能按时上线并稳定运行",
+      "supports_entity_id": "SKILL_REGRESSION_TESTING",
+      "supports_entity_name": "回归测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION",
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【需求分析】负责某领先应用的开发及实施工作，作为BA进行业务分析，整合现有需求，配合业务与技术开发完成",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**角色：** 【商业需求分析师】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【客户协同与干系人管理】作为项目核心成员，与客户多层级（总部战略部、各子公司业务负责人）保持高频沟通，确保项目进展顺畅并有效管理反馈",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【行业对标与领先实践研究】完成跨行业标杆分析，结合客户业务特性与战略目标，提出差异化会员体系架构建议，确保方案兼具前瞻性与可落地性",
+      "supports_entity_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "supports_entity_name": "行业对标",
+      "derived_capability_ids": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "独立/协同完成阶段性咨询报告，涵盖现状分析、对标发现、初步建议等核心模块，确保交付质量与客户预期对齐",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与设计并落地共创研讨会，采用引导式方法拉通集团总部与各业务部门之间的认知差异，推动跨部门共识达成",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "调研组织运营现状，梳理特点拉通共识，明确问题及挑战",
+      "supports_entity_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "supports_entity_name": "差距分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Azure",
+      "evidence": "牵头自动化连接器项目（Tanium–CMDB–Azure）"
+    },
+    {
+      "skill_id": "",
+      "name": "Tanium",
+      "evidence": "牵头自动化连接器项目（Tanium–CMDB–Azure）"
+    },
+    {
+      "skill_id": "",
+      "name": "CMDB",
+      "evidence": "CMDB 负责人，主导 CMDB 架构优化、IT 资产与配置项管理"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云",
+      "evidence": "阿里ACA云计算，阿里PSA解决方案架构师，阿里ACP数据分析证书"
+    },
+    {
+      "skill_id": "",
+      "name": "ITSM",
+      "evidence": "ITSM 与事件管理】负责 P1 重大事件监控与响应机制建立"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "高级分析师/咨询分析师",
+      "时间": "2022年9月-至今",
+      "描述": "负责数字化转型规划、网络安全、ITSM及云服务相关项目。服务大型国企、跨国外企等，专注于数字化转型领域。"
+    },
+    {
+      "公司": "法国美妆及消费品公司",
+      "职位": "网络安全及IT服务管理负责人",
+      "时间": "",
+      "描述": "负责端到端基础设施安全运营、CMDB架构优化、ITSM与事件管理、流程自动化、变更管理及跨团队协调治理。"
+    },
+    {
+      "公司": "上海某国企",
+      "职位": "咨询分析师",
+      "时间": "",
+      "描述": "负责数字化成熟度分析、现状调研访谈、阶段报告输出、共创研讨会设计及客户协同与干系人管理。"
+    },
+    {
+      "公司": "某互联网头部企业",
+      "职位": "核心成员",
+      "时间": "",
+      "描述": "负责文旅行业发展趋势调研、行业标杆分析、战略规划、对标报告及行业模型输出。"
+    },
+    {
+      "公司": "某跨国医药行业",
+      "职位": "商业需求分析师",
+      "时间": "",
+      "描述": "负责业务分析、需求整合、SIT与UAT测试、用户协同与上线支持。"
+    },
+    {
+      "公司": "某深圳大型国企",
+      "职位": "商业需求分析师",
+      "时间": "",
+      "描述": "现状诊断与访谈调研、行业对标与领先实践研究、阶段报告输出、共创研讨会设计及客户协同与干系人管理。"
+    },
+    {
+      "公司": "字节跳动/腾讯/海尔",
+      "职位": "产品运营/商业化运营",
+      "时间": "",
+      "描述": "早期职业背景，涉及国际化电商、商业化产品运营及产品运营及商业营销。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "* 【行业 2】生命科学/医药",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【用 2–4 句话概括你的专业背景、工作年限、核心优势以及主要交付过的工作类型】Candidate_0053是埃森哲大中华区Data\\&AI团队的高级分析师，于2022年9月加入Accenture CAP校招项目，具备丰富的数字化转型规划、网络安全、ITSM及云服务相关背景。服务的客户包括大型国企、知名跨国外企，国内头部民企等。专注于数字化转型领域，以AI及新兴科技的助力客户高质量持续发展",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "* 【希望重点投入的行业 / 能力领域 / 领导力方向】消费品与零售，医药健康，科技行业等；擅长数字化转型咨询与落地，客户洞察与增长体系设计，业务-技术融合与价值创造，IT治理等。帮助客户共同成长为客户驱动价值整合协作，引导创新",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "Jiang.zhang_profile_template_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Jiang.zhang_profile_template_CN.md",
+    "source_hash": "186fdb1ee570c507605c3423fadaa9bc9954a3c78b7aba30f97e03edd3e1d76b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:26:07"
+  },
+  "城市": "Shanghai"
+}

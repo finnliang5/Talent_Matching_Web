@@ -1,0 +1,476 @@
+{
+  "姓名": "Candidate_0065",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 工具与技术：Python、SQL、Excel、PowerPoint、数据可视化与基础机器学习建模",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 工具与技术：Python、SQL、Excel、PowerPoint、数据可视化与基础机器学习建模",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_FEATURE_ENGINEERING",
+      "name": "特征工程",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- 数据分析、特征工程与预测建模",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Feature Engineering",
+        "特征构建",
+        "特征选择"
+      ],
+      "matched_term": "特征工程"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "围绕 Profile Management、停机 / 断纸预测性维护、关键资产管理 三大场景推进需求澄清、场景收敛与方案设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计 AI 驱动的工艺优化方案，包括数据采集、特征工程、小样本预测模型与参数推荐逻辑",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "帮助工厂减少 16% 生产时间，预计每年节省生产成本约 300 万元；实现目标人群转化率提升 23%；缩短 80% 测试周期",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "系统梳理 QCS、GMS/GMAX、实验室数据、维修记录、RCA 报告等多源数据链路，推动建立事件主表、标签逻辑与数据需求清单",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "在业务、系统与数据团队之间进行协同，推动问题闭环与跨团队沟通",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "主导或深度参与多个管理层 / 工作层材料设计，包括 design phase 蓝图、实施路径、页面原型、数据系统分层、业务价值说明及后续工作计划",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "帮助工厂减少 16% 生产时间，预计每年节省生产成本约 300 万元；实现目标人群转化率提升 23%；缩短 80% 测试周期"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "在业务、系统与数据团队之间进行协同，推动问题闭环与跨团队沟通"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导或深度参与多个管理层 / 工作层材料设计，包括 design phase 蓝图、实施路径、页面原型、数据系统分层、业务价值说明及后续工作计划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "系统梳理 QCS、GMS/GMAX、实验室数据、维修记录、RCA 报告等多源数据链路，推动建立事件主表、标签逻辑与数据需求清单"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "系统梳理 QCS、GMS/GMAX、实验室数据、维修记录、RCA 报告等多源数据链路，推动建立事件主表、标签逻辑与数据需求清单"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "帮助工厂减少 16% 生产时间，预计每年节省生产成本约 300 万元；实现目标人群转化率提升 23%；缩短 80% 测试周期",
+        "主导或深度参与多个管理层 / 工作层材料设计，包括 design phase 蓝图、实施路径、页面原型、数据系统分层、业务价值说明及后续工作计划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEATURE_ENGINEERING",
+      "name": "Feature Engineering",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 数据分析、特征工程与预测建模"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FEATURE_ENGINEERING",
+          "name": "特征工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计 AI 驱动的工艺优化方案，包括数据采集、特征工程、小样本预测模型与参数推荐逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 工具与技术：Python、SQL、Excel、PowerPoint、数据可视化与基础机器学习建模"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计 AI 驱动的工艺优化方案，包括数据采集、特征工程、小样本预测模型与参数推荐逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "围绕 Profile Management、停机 / 断纸预测性维护、关键资产管理 三大场景推进需求澄清、场景收敛与方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "围绕 Profile Management、停机 / 断纸预测性维护、关键资产管理 三大场景推进需求澄清、场景收敛与方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工具与技术：Python、SQL、Excel、PowerPoint、数据可视化与基础机器学习建模",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工具与技术：Python、SQL、Excel、PowerPoint、数据可视化与基础机器学习建模",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据分析、特征工程与预测建模",
+      "supports_entity_id": "SKILL_FEATURE_ENGINEERING",
+      "supports_entity_name": "特征工程",
+      "derived_capability_ids": [
+        "CAP_FEATURE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "围绕 Profile Management、停机 / 断纸预测性维护、关键资产管理 三大场景推进需求澄清、场景收敛与方案设计",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计 AI 驱动的工艺优化方案，包括数据采集、特征工程、小样本预测模型与参数推荐逻辑",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "帮助工厂减少 16% 生产时间，预计每年节省生产成本约 300 万元；实现目标人群转化率提升 23%；缩短 80% 测试周期",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "系统梳理 QCS、GMS/GMAX、实验室数据、维修记录、RCA 报告等多源数据链路，推动建立事件主表、标签逻辑与数据需求清单",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在业务、系统与数据团队之间进行协同，推动问题闭环与跨团队沟通",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导或深度参与多个管理层 / 工作层材料设计，包括 design phase 蓝图、实施路径、页面原型、数据系统分层、业务价值说明及后续工作计划",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "AI咨询顾问/数据科学家/数据分析师",
+      "时间": "2021至今",
+      "描述": "服务于纸业、零食、个护、运动服饰、家电等客户，负责AI场景设计、工艺优化、质量预测、电商数据产品、用户增长分析及HR系统数据追踪。主导需求澄清、数据链路梳理、模型产品化及管理层汇报，实现生产时间减少16%、测试周期缩短80%、转化率提升23%等成果。"
+    },
+    {
+      "公司": "知乎",
+      "职位": "用户增长运营实习生",
+      "时间": "未明确",
+      "描述": "负责用户增长拉新项目，追踪留存漏斗，优化投放策略，推动日均新用户增长至4000，拉新成本降低30%。"
+    },
+    {
+      "公司": "义乌禧语电子商务有限公司",
+      "职位": "联合创始人",
+      "时间": "未明确",
+      "描述": "负责用户研究与数据分析，收集300+样本支持产品定位，基于数据迭代策略提升销量。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "Candidate_0065现就职于埃森哲 Applied Intelligence（应用AI）团队，拥有 4 年以上咨询与数据分析经验，长期服务于智能制造、快消零售、电商运营与企业数字化转型相关项目。她的核心优势在于将复杂业务问题转化为可落地的数据与 AI 方案，既能完成分析建模与数据框架设计，也能推动管理汇报、业务对齐与方案落地。过往项目涵盖工业 AI 场景设计、工艺优化、质量预测、用户增长、营销分析、运营数据产品与 HR 系统上线后分析等多类交付。",
+      "source": "rule",
+      "matched_term": "零售"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "知乎用户增长运营实习生；义乌禧语电子商务有限公司联合创始人（电商运营）",
+      "source": "llm",
+      "matched_term": "CMT"
+    }
+  ],
+  "_batch": {
+    "source_file": "kana.jin_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\kana.jin_profile_CN.md",
+    "source_hash": "6a201bf79571f3de1c3f5c1cfc1ea1a26f453dcc29e1938ceb3b4e5ce203fdb7",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:31:28"
+  },
+  "城市": "Shanghai"
+}

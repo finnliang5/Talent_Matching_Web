@@ -1,0 +1,401 @@
+{
+  "姓名": "Candidate_0090",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 深入理解需求细节与业务逻辑，编写基本设计书，详细设计书及测试用例。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "擅长跨部门协同推进，建立高效沟通机制提升团队效率",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "擅长风险把控，统筹进度并及时解决推进中的瓶颈问题",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "基于需求分析结果，结合业务场景，制定可落地的技术解决方案；负责项目技术架构设计、技术选型",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "把控交付质量，推进项目上线与验收，确保项目按时、按标准完成交付",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长跨部门协同推进，建立高效沟通机制提升团队效率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+        "把控交付质量，推进项目上线与验收，确保项目按时、按标准完成交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于需求分析结果，结合业务场景，制定可落地的技术解决方案；负责项目技术架构设计、技术选型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于需求分析结果，结合业务场景，制定可落地的技术解决方案；负责项目技术架构设计、技术选型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长风险把控，统筹进度并及时解决推进中的瓶颈问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+        "擅长风险把控，统筹进度并及时解决推进中的瓶颈问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 深入理解需求细节与业务逻辑，编写基本设计书，详细设计书及测试用例。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 深入理解需求细节与业务逻辑，编写基本设计书，详细设计书及测试用例。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "自2003年参加工作以来，拥有二十余年软件开发与项目管理经验，长期负责技术团队管理及软件项目全流程落地实施。擅长需求分析、进度管控、风险把控与跨部门协同推进，能够高效推进复杂项目从规划、研发到上线交付。主导并成功交付过大中型定制化软件开发、系统技术改造升级、业务管理平台建设等多类项目，具备扎实的技术背景与出色的项目统筹能力。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长跨部门协同推进，建立高效沟通机制提升团队效率",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长风险把控，统筹进度并及时解决推进中的瓶颈问题",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于需求分析结果，结合业务场景，制定可落地的技术解决方案；负责项目技术架构设计、技术选型",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "把控交付质量，推进项目上线与验收，确保项目按时、按标准完成交付",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "软件/应用/云技术支持副经理",
+      "时间": "2017.04 - 至今",
+      "描述": "调研梳理客户需求并完成需求分析；结合业务场景制定技术解决方案；负责技术架构设计与选型，统筹开发全流程；把控交付质量，推进项目上线与验收。"
+    },
+    {
+      "公司": "上海惠普有限公司",
+      "职位": "软件开发项目经理",
+      "时间": "2007.01 - 2017.04",
+      "描述": "调研梳理客户需求并协调变更；制定详细项目计划并统筹进度；协同团队完成架构设计与技术选型；搭建项目团队并建立沟通机制；推进项目交付与上线部署。"
+    },
+    {
+      "公司": "大连运帮科技发展有限公司",
+      "职位": "软件开发工程师",
+      "时间": "2003.12 - 2006.12",
+      "描述": "深入理解需求与业务逻辑，编写设计书及测试用例；编写代码完成功能模块开发；参与系统架构优化与代码重构，负责日常维护与故障处理。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 2003.12 - 2006.12 大连运帮科技发展有限公司 软件开发工程师",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 快消品与服务",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "ming.ji_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ming.ji_profile_CN.md",
+    "source_hash": "d3ae3805898e334a6900a359f25db4c7ee2bc2604ec791724ef5e44c1ce2ba0c",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:45:05"
+  },
+  "城市": "Dalian"
+}

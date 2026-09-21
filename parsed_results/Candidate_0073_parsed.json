@@ -1,0 +1,694 @@
+{
+  "姓名": "Candidate_0073",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP"
+    },
+    {
+      "skill_id": "SKILL_FUNCTION_CALLING",
+      "name": "Function Calling",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Function Calling"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "name": "多轮对话管理",
+      "type": "AI_FEATURE",
+      "evidence": "- 解决方案：在微信小程序端实现了高效的 用户意图分析 (User Intention Analysis)，通过AI智能体 (Agent) 引导客户进行多轮对话 (Multi-turn Conversations) 进行知识检索，信息收集与补齐，自动创建工单，无缝对接 ITSM 工单系统，全面满足并覆盖各层级用户的业务咨询需求。提升处理效率与体验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Multi-turn",
+        "Context Management",
+        "上下文管理",
+        "对话历史"
+      ],
+      "belongs_to": [
+        "SKILL_CONTEXT_ENGINEERING"
+      ],
+      "matched_term": "Multi-turn"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- 解决方案：以ServiceNow统一工单与服务流程治理，并通过知识管理沉淀标准操作指引，提升服务交付一致性与可复用性。通过服务门户/Chatbot/Outlook自动建单、自动派单，以及利用myWizard AIOps/RPA/脚本机器人等工具实现70+ 类目端到端自动化，并用Ticket Analytics + Splunk仪表盘消除人工报表、实现预测分析。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "具备15+年项目群及大型复杂项目交付经验，建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "专注自动化解决方案设计与交付，为客户提供从问题诊断、机会识别、方案与架构设计到实施与持续运营优化的端到端服务",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "建立自动化用例识别与价值评估机制，输出落地优先级与实施方案；项目收益包括成本节省提升55%、客户等待时间降低90%、人工支持工作量降低70%",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "具备ITSM流程设计、实施与优化经验；梳理PWD team任务管理现状流程与痛点/需求，推动流程重设计并落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险；建立权限/配置/版本与变更管理机制，完善运行监控与故障响应流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协同多团队与供应商确保里程碑达成；与 Global GenWizard Automation Team 协同面向中国区落地平台",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+        "- 解决方案：在微信小程序端实现了高效的 用户意图分析 (User Intention Analysis)，通过AI智能体 (Agent) 引导客户进行多轮对话 (Multi-turn Conversations) 进行知识检索，信息收集与补齐，自动创建工单，无缝对接 ITSM 工单系统，全面满足并覆盖各层级用户的业务咨询需求。提升处理效率与体验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FUNCTION_CALLING",
+          "name": "Function Calling",
+          "rule_id": "RULE_FUNCTION_CALLING_TO_AGENT_DEV",
+          "rule_name": "Function Calling -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Function calling is a common foundation for tool-using agent workflows.",
+          "inference_weight": 0.71
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理",
+          "rule_id": "RULE_MULTI_TURN_TO_AGENT_DEV",
+          "rule_name": "多轮对话管理 -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Multi-turn dialogue management is a common component in conversational agent systems.",
+          "inference_weight": 0.69
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "建立自动化用例识别与价值评估机制，输出落地优先级与实施方案；项目收益包括成本节省提升55%、客户等待时间降低90%、人工支持工作量降低70%"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同多团队与供应商确保里程碑达成；与 Global GenWizard Automation Team 协同面向中国区落地平台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+      "name": "Conversation State Management",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 解决方案：在微信小程序端实现了高效的 用户意图分析 (User Intention Analysis)，通过AI智能体 (Agent) 引导客户进行多轮对话 (Multi-turn Conversations) 进行知识检索，信息收集与补齐，自动创建工单，无缝对接 ITSM 工单系统，全面满足并覆盖各层级用户的业务咨询需求。提升处理效率与体验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备15+年项目群及大型复杂项目交付经验，建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险",
+        "建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险；建立权限/配置/版本与变更管理机制，完善运行监控与故障响应流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "建立自动化用例识别与价值评估机制，输出落地优先级与实施方案；项目收益包括成本节省提升55%、客户等待时间降低90%、人工支持工作量降低70%"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "专注自动化解决方案设计与交付，为客户提供从问题诊断、机会识别、方案与架构设计到实施与持续运营优化的端到端服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FUNCTION_CALLING",
+          "name": "Function Calling"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 解决方案：以ServiceNow统一工单与服务流程治理，并通过知识管理沉淀标准操作指引，提升服务交付一致性与可复用性。通过服务门户/Chatbot/Outlook自动建单、自动派单，以及利用myWizard AIOps/RPA/脚本机器人等工具实现70+ 类目端到端自动化，并用Ticket Analytics + Splunk仪表盘消除人工报表、实现预测分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "专注自动化解决方案设计与交付，为客户提供从问题诊断、机会识别、方案与架构设计到实施与持续运营优化的端到端服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 解决方案：以ServiceNow统一工单与服务流程治理，并通过知识管理沉淀标准操作指引，提升服务交付一致性与可复用性。通过服务门户/Chatbot/Outlook自动建单、自动派单，以及利用myWizard AIOps/RPA/脚本机器人等工具实现70+ 类目端到端自动化，并用Ticket Analytics + Splunk仪表盘消除人工报表、实现预测分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备ITSM流程设计、实施与优化经验；梳理PWD team任务管理现状流程与痛点/需求，推动流程重设计并落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备15+年项目群及大型复杂项目交付经验，建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备15+年项目群及大型复杂项目交付经验，建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同多团队与供应商确保里程碑达成；与 Global GenWizard Automation Team 协同面向中国区落地平台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "supports_entity_id": "SKILL_FUNCTION_CALLING",
+      "supports_entity_name": "Function Calling",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 资产介绍：以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台，沉淀RAG知识工程与Agent管理体系，通过workflow/Tool/Function Calling驱动跨系统自动执行，并支持 MCP Market 插件化扩展能力。平台深度集成ITSM实现工单自动化（自动建单/分类/派单/处理回写）与运营可视化，支撑从PoC到规模化推广的持续价值交付。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 解决方案：在微信小程序端实现了高效的 用户意图分析 (User Intention Analysis)，通过AI智能体 (Agent) 引导客户进行多轮对话 (Multi-turn Conversations) 进行知识检索，信息收集与补齐，自动创建工单，无缝对接 ITSM 工单系统，全面满足并覆盖各层级用户的业务咨询需求。提升处理效率与体验。",
+      "supports_entity_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "supports_entity_name": "多轮对话管理",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 解决方案：以ServiceNow统一工单与服务流程治理，并通过知识管理沉淀标准操作指引，提升服务交付一致性与可复用性。通过服务门户/Chatbot/Outlook自动建单、自动派单，以及利用myWizard AIOps/RPA/脚本机器人等工具实现70+ 类目端到端自动化，并用Ticket Analytics + Splunk仪表盘消除人工报表、实现预测分析。",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备15+年项目群及大型复杂项目交付经验，建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专注自动化解决方案设计与交付，为客户提供从问题诊断、机会识别、方案与架构设计到实施与持续运营优化的端到端服务",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "建立自动化用例识别与价值评估机制，输出落地优先级与实施方案；项目收益包括成本节省提升55%、客户等待时间降低90%、人工支持工作量降低70%",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备ITSM流程设计、实施与优化经验；梳理PWD team任务管理现状流程与痛点/需求，推动流程重设计并落地",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "建立端到端治理机制，统筹多项目并行的范围/进度/成本/质量与风险；建立权限/配置/版本与变更管理机制，完善运行监控与故障响应流程",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协同多团队与供应商确保里程碑达成；与 Global GenWizard Automation Team 协同面向中国区落地平台",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "GenAIOps",
+      "evidence": "以 GenAI/LLM 为核心构建面向AMS/IMS的GenAIOps 平台"
+    },
+    {
+      "skill_id": "",
+      "name": "ITSM",
+      "evidence": "具备ITSM流程设计、实施与优化经验；无缝对接 ITSM 工单系统"
+    },
+    {
+      "skill_id": "",
+      "name": "AIOps",
+      "evidence": "利用myWizard AIOps/RPA/脚本机器人等工具实现70+ 类目端到端自动化"
+    },
+    {
+      "skill_id": "",
+      "name": "Microsoft Power Platform",
+      "evidence": "基于Microsoft Power Platform输出低代码方案与流程重设计并落地"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "雅诗兰黛",
+      "职位": "Automation Lead",
+      "时间": "",
+      "描述": "协同Global团队落地GenWizard自动化平台，打造GenAI知识管理工具链，建立自动化用例识别与价值评估机制，提升知识转移效率与交付SLA达成率。"
+    },
+    {
+      "公司": "远景能源",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "打造GenAI赋能智能客服服务台，实现用户意图分析、多轮对话与自动建单对接ITSM，工单准确率>99%，客户等待时间降低90%，人工工作量降低70%。"
+    },
+    {
+      "公司": "埃森哲（内部）",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "负责GenAIOps平台建设，沉淀RAG与Agent管理体系，集成ITSM实现工单自动化，支撑从PoC到规模化推广的持续价值交付。"
+    },
+    {
+      "公司": "日本埃森哲Tokyo Solution Center",
+      "职位": "自动化解决方案架构师&项目经理",
+      "时间": "",
+      "描述": "负责PMO Shared Service业务流程自动化，以ServiceNow统一工单治理，利用AIOps/RPA实现70+类目自动化，一年内成本节省提升55%。"
+    },
+    {
+      "公司": "日本埃森哲PWD team",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "负责任务&绩效管理平台建设，基于Microsoft Power Platform输出低代码方案，制定交付计划与里程碑，建立权限/配置/变更管理机制。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 与 Global GenWizard Automation Team 协同，面向中国区落地GenWizard自动化平台/工具并负责推广运营，覆盖环境准备、系统集成、权限与规范建设，支撑交付团队规模化复用自动化能力。",
+      "source": "rule",
+      "matched_term": "系统集成"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 能源",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "Libo.lin_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Libo.lin_profile_CN.md",
+    "source_hash": "0c15bf5a09d0beb6d61577c2fcc88043bcbf203ea111022ce59bf466842d24ac",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:36:44"
+  },
+  "城市": "Dalian"
+}

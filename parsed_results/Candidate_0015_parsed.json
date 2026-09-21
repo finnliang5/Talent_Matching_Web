@@ -1,0 +1,939 @@
+{
+  "姓名": "Candidate_0015",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LANGGRAPH",
+      "name": "LangGraph",
+      "type": "FRAMEWORK",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_LANGCHAIN"
+      ],
+      "matched_term": "LangGraph"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- **AI 平台与工具:** Dify, Coze, AgentScope, Python Scripting",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 支持异步批处理、断点续传、prompt缓存（token费用降低约30-40%）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "缓存"
+    },
+    {
+      "skill_id": "SKILL_QLIK_SENSE",
+      "name": "Qlik Sense",
+      "type": "BI_TOOL",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "QlikSense",
+        "Qlik"
+      ],
+      "matched_term": "Qlik Sense"
+    },
+    {
+      "skill_id": "SKILL_AGENT_PLANNING",
+      "name": "Agent 规划能力",
+      "type": "AI_FEATURE",
+      "evidence": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Agent Planning",
+        "Agent 计划能力",
+        "Task Planning",
+        "推理规划",
+        "CoT",
+        "思维链"
+      ],
+      "matched_term": "Agent Planning"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **核心竞争力:** 财务审计背景 + 数据工程能力 + 前沿AI应用开发能力（LangChain/Dify）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **数据库与ETL开发:** 数据库设计, ETL, SAP集成",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_DATA_STORYTELLING",
+      "name": "数据叙事",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "数据叙事"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "- **财务审计 (3年):** 具备内控评估与合规审查经验，拥有敏锐的风险管理与数据完整性意识。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "将业务需求转化为销售、营销和运营仪表板的分析设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "执行大规模数据清洗，建立可信数据源",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "审批周期缩短25%；人工错误减少40%；prompt缓存（token费用降低约30-40%）；单条SQL开发耗时缩短50%以上",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+      "name": "Agent Layered Architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+        "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph",
+          "rule_id": "RULE_LANGGRAPH_TO_AGENT_DEV",
+          "rule_name": "LangGraph -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Graph-based orchestration experience usually indicates hands-on agent system implementation.",
+          "inference_weight": 0.82
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力",
+          "rule_id": "RULE_AGENT_PLANNING_TO_SCENARIO_SELECTION",
+          "rule_name": "Agent 规划能力 -> CAP_AI_SCENARIO_SELECTION",
+          "inference_reason": "Task planning experience is adjacent to judging suitable AI agent scenarios.",
+          "inference_weight": 0.6
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_QLIK_SENSE",
+          "name": "Qlik Sense"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "审批周期缩短25%；人工错误减少40%；prompt缓存（token费用降低约30-40%）；单条SQL开发耗时缩短50%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **核心竞争力:** 财务审计背景 + 数据工程能力 + 前沿AI应用开发能力（LangChain/Dify）",
+        "执行大规模数据清洗，建立可信数据源"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "执行大规模数据清洗，建立可信数据源"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STORYTELLING",
+      "name": "Data Storytelling",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_STORYTELLING",
+          "name": "数据叙事"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **核心竞争力:** 财务审计背景 + 数据工程能力 + 前沿AI应用开发能力（LangChain/Dify）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI 平台与工具:** Dify, Coze, AgentScope, Python Scripting"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **核心竞争力:** 财务审计背景 + 数据工程能力 + 前沿AI应用开发能力（LangChain/Dify）",
+        "- **数据库与ETL开发:** 数据库设计, ETL, SAP集成"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "审批周期缩短25%；人工错误减少40%；prompt缓存（token费用降低约30-40%）；单条SQL开发耗时缩短50%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+        "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "将业务需求转化为销售、营销和运营仪表板的分析设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "将业务需求转化为销售、营销和运营仪表板的分析设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- **财务审计 (3年):** 具备内控评估与合规审查经验，拥有敏锐的风险管理与数据完整性意识。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- **财务审计 (3年):** 具备内控评估与合规审查经验，拥有敏锐的风险管理与数据完整性意识。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_LANGGRAPH",
+      "supports_entity_name": "LangGraph",
+      "derived_capability_ids": [
+        "CAP_AGENT_LAYERED_ARCHITECTURE",
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI 平台与工具:** Dify, Coze, AgentScope, Python Scripting",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 支持异步批处理、断点续传、prompt缓存（token费用降低约30-40%）。",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_QLIK_SENSE",
+      "supports_entity_name": "Qlik Sense",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI 应用开发:** LangChain, LangGraph, RAG, Agent Planning, Prompt Engineering",
+      "supports_entity_id": "SKILL_AGENT_PLANNING",
+      "supports_entity_name": "Agent 规划能力",
+      "derived_capability_ids": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_SCENARIO_SELECTION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **核心竞争力:** 财务审计背景 + 数据工程能力 + 前沿AI应用开发能力（LangChain/Dify）",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **数据库与ETL开发:** 数据库设计, ETL, SAP集成",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用。",
+      "supports_entity_id": "SKILL_DATA_STORYTELLING",
+      "supports_entity_name": "数据叙事",
+      "derived_capability_ids": [
+        "CAP_DATA_STORYTELLING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- **财务审计 (3年):** 具备内控评估与合规审查经验，拥有敏锐的风险管理与数据完整性意识。",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将业务需求转化为销售、营销和运营仪表板的分析设计",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "执行大规模数据清洗，建立可信数据源",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "审批周期缩短25%；人工错误减少40%；prompt缓存（token费用降低约30-40%）；单条SQL开发耗时缩短50%以上",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "开展数据叙事（Data Storytelling）会议，推动决策层面的战略采用",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Coze",
+      "evidence": "熟练使用Dify和Coze平台，快速搭建并部署AI应用"
+    },
+    {
+      "skill_id": "",
+      "name": "AgentScope",
+      "evidence": "对 LangChain/LangGraph、AgentScope 等 AI 智能体框架有一定了解"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "联合开发SAP自动过账模块，人工错误减少40%"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR",
+      "evidence": "实施基于OCR的邮件室数字化与质量控制工作流"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Global Pharmaceutical Leader",
+      "职位": "Accounts Payable Optimization",
+      "时间": "",
+      "描述": "主导差旅与费用（T&E）账龄报告设计，审批周期缩短25%；重新设计应付账款（AP）账龄报告，整合SAP、Excel和邮件数据；联合开发SAP自动过账模块，人工错误减少40%；实施基于OCR的邮件室数字化与质量控制工作流。"
+    },
+    {
+      "公司": "Global Pharmaceutical Company",
+      "职位": "Financial Reporting Modernization",
+      "时间": "",
+      "描述": "将关键Excel报告迁移至Qlik Sense平台，实现报表自动化；构建语义数据模型，统一维度与层级，提升数据一致性；执行大规模数据清洗，建立可信数据源；开发具备动态过滤器与权限控制的BI用户界面。"
+    },
+    {
+      "公司": "Global Financial Services Firm",
+      "职位": "Analytics Platform Buildout",
+      "时间": "",
+      "描述": "交付关于信用风险、客户细分和渠道绩效的运营报告；设计数据库模式并优化ETL作业，确保系统可靠性；通过Python脚本自动化月度报告并邮件分发，显著减少人工投入；提供生产支持和终端用户培训，推动平台采用。"
+    },
+    {
+      "公司": "Multinational Technology Enterprise",
+      "职位": "Data Platform Enablement",
+      "时间": "",
+      "描述": "将业务需求转化为销售、营销和运营仪表板的分析设计；整合分散的数据源，建立标准化的数据处理层；主导Power BI仪表板开发，实现跨职能的可视化关联；开展数据叙事会议，推动决策层面的战略采用。"
+    },
+    {
+      "公司": "内部创新项目",
+      "职位": "AI/ML Developer",
+      "时间": "",
+      "描述": "基于LLM构建批处理分类器，将报销文本映射到22大类/数百小类成本科目；高置信度输出占比>85%，实现自检+重试+正则兜底；支持异步批处理、断点续传、prompt缓存降低token费用。"
+    },
+    {
+      "公司": "内部效率工具项目",
+      "职位": "Internal Tool Developer",
+      "时间": "",
+      "描述": "仅依据表头与业务逻辑自动生成复杂ETL SQL；单条SQL开发耗时缩短50%以上；首轮执行成功率>90%。"
+    },
+    {
+      "公司": "个人AI工程项目",
+      "职位": "Personal AI Engineering Projects",
+      "时间": "",
+      "描述": "全栈开发基于LangChain的智能助手实现RAG知识库检索增强生成；Tool Calling与Text-to-SQL实践；低代码平台编排探索不同场景下的AI落地方案。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 制药与生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "拥有超过10年跨领域财务与数据分析复合经验，目前任职于公司 Data & AI 部门。曾任职财务助理3年，精通应付/应收、总账及月结流程；后转入财务审计领域3年，深度参与内控评估与合规审查，建立了扎实的财务数据质量与风险控制基础。基于扎实的财务背景，成功转型为数据驱动型解决方案专家，长期服务于制药、金融、高科技等高要求行业，主导多个企业级数据分析与自动化项目，推动传统报表向智能 BI 平台升级。精通 SQL、Python、Power BI、Qlik Sense 等工具，具备从",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### Multinational Technology Enterprise",
+      "source": "rule",
+      "matched_term": "Technology"
+    }
+  ],
+  "_batch": {
+    "source_file": "di.h.wu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\di.h.wu_profile_CN.md",
+    "source_hash": "a6cfff6b50a9031aeb898458cc41672eded2e60389a88417dda14e7d96fe6431",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:16:34"
+  },
+  "级别推断": {
+    "level_requirement": "Level 10",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 10",
+    "confidence": 1.0
+  },
+  "城市": "Chengdu"
+}

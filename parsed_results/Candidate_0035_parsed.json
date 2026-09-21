@@ -1,0 +1,903 @@
+{
+  "姓名": "Candidate_0035",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 13,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "* Java",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "* Spring Boot / Spring Cloud",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "* Spring Boot / Spring Cloud",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "* MySQL / MSSQL / Oracle",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "* AWS SAP认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "* Redis / MQ",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "* Docker / Kubernetes",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "* 负责该公司“China for China 数据与应用”落地项目，进行整体评估分析与蓝图设计，其中包括，中国区关键业务场景与业务能力分析，数据类型、数据量、数据管道分析，应用能力与技术分析，云服务提供商评估，关键服务提供商评估，和中国区落地蓝图设计与建议实施路线",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "数据管道"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "提供中国数字化平台整体4A的架构设计包含业务，数据，应用，技术，集成，部署，安全设计等；负责该公司财务ERP SaaS产品化的整体架构规划设计，设计出该财务ERP SaaS产品的未来蓝图与建议实施路线",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "企业架构对齐",
+      "type": "ABILITY",
+      "evidence": "11年4A架构设计，DDD分析与设计经验；使用DDD方法论，识别关键业务场景，业务流程，构建整体平台能力地图，识别领域对象，设计领域服务",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "企业架构对齐"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与客户多个关键团队，包括业务团队、架构师团队、工程团队，进行沟通和协作，带领AC跨职能团队，包括业务流程设计师、开发人员、测试人员",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "领导埃森哲大连交付团队，对平台能力进行高质量和按期交付；端到端中大型全球项目交付与技术服务团队管理",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "提供IT咨询给客户，构建中国数字化平台蓝图，定义中国数字化平台的路线图和范围；中国区关键业务场景与业务能力分析...和中国区落地蓝图设计与建议实施路线",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "数据类型、数据量、数据管道分析；构建业务和数据双中台",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* Spring Boot / Spring Cloud"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "* Spring Boot / Spring Cloud",
+        "* AWS SAP认证",
+        "* Docker / Kubernetes"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与客户多个关键团队，包括业务团队、架构师团队、工程团队，进行沟通和协作，带领AC跨职能团队，包括业务流程设计师、开发人员、测试人员"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提供IT咨询给客户，构建中国数字化平台蓝图，定义中国数字化平台的路线图和范围；中国区关键业务场景与业务能力分析...和中国区落地蓝图设计与建议实施路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "* Docker / Kubernetes"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据类型、数据量、数据管道分析；构建业务和数据双中台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据类型、数据量、数据管道分析；构建业务和数据双中台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "领导埃森哲大连交付团队，对平台能力进行高质量和按期交付；端到端中大型全球项目交付与技术服务团队管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "Enterprise Architecture Alignment",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "11年4A架构设计，DDD分析与设计经验；使用DDD方法论，识别关键业务场景，业务流程，构建整体平台能力地图，识别领域对象，设计领域服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+          "name": "企业架构对齐"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "* 负责该公司“China for China 数据与应用”落地项目，进行整体评估分析与蓝图设计，其中包括，中国区关键业务场景与业务能力分析，数据类型、数据量、数据管道分析，应用能力与技术分析，云服务提供商评估，关键服务提供商评估，和中国区落地蓝图设计与建议实施路线"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提供IT咨询给客户，构建中国数字化平台蓝图，定义中国数字化平台的路线图和范围；中国区关键业务场景与业务能力分析...和中国区落地蓝图设计与建议实施路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "提供中国数字化平台整体4A的架构设计包含业务，数据，应用，技术，集成，部署，安全设计等；负责该公司财务ERP SaaS产品化的整体架构规划设计，设计出该财务ERP SaaS产品的未来蓝图与建议实施路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "提供中国数字化平台整体4A的架构设计包含业务，数据，应用，技术，集成，部署，安全设计等；负责该公司财务ERP SaaS产品化的整体架构规划设计，设计出该财务ERP SaaS产品的未来蓝图与建议实施路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与客户多个关键团队，包括业务团队、架构师团队、工程团队，进行沟通和协作，带领AC跨职能团队，包括业务流程设计师、开发人员、测试人员"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* Spring Boot / Spring Cloud"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Java",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Spring Boot / Spring Cloud",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Spring Boot / Spring Cloud",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "个人专业领域包括：IT咨询，4A架构设计，DDD分析与设计，大规模分布式系统/应用架构设计，云原生架构设计，微服务架构设计和实现，Docker, K8S, 敏捷和DevOps最佳实践，AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、 提示词工程、RAG（检索增强生成）等。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* MySQL / MSSQL / Oracle",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* AWS SAP认证",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Redis / MQ",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Docker / Kubernetes",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 负责该公司“China for China 数据与应用”落地项目，进行整体评估分析与蓝图设计，其中包括，中国区关键业务场景与业务能力分析，数据类型、数据量、数据管道分析，应用能力与技术分析，云服务提供商评估，关键服务提供商评估，和中国区落地蓝图设计与建议实施路线",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "21年IT领域经验；16年系统解决方案架构设计经验；11年4A架构设计，DDD分析与设计经验；11年云原生架构设计经验；11年微服务架构设计，Docker, K8S和DevOps经验； 16年全球项目和团队管理经验; 3年AI应用架构设计经验。",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提供中国数字化平台整体4A的架构设计包含业务，数据，应用，技术，集成，部署，安全设计等；负责该公司财务ERP SaaS产品化的整体架构规划设计，设计出该财务ERP SaaS产品的未来蓝图与建议实施路线",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "11年4A架构设计，DDD分析与设计经验；使用DDD方法论，识别关键业务场景，业务流程，构建整体平台能力地图，识别领域对象，设计领域服务",
+      "supports_entity_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "supports_entity_name": "企业架构对齐",
+      "derived_capability_ids": [
+        "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与客户多个关键团队，包括业务团队、架构师团队、工程团队，进行沟通和协作，带领AC跨职能团队，包括业务流程设计师、开发人员、测试人员",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "领导埃森哲大连交付团队，对平台能力进行高质量和按期交付；端到端中大型全球项目交付与技术服务团队管理",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提供IT咨询给客户，构建中国数字化平台蓝图，定义中国数字化平台的路线图和范围；中国区关键业务场景与业务能力分析...和中国区落地蓝图设计与建议实施路线",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "数据类型、数据量、数据管道分析；构建业务和数据双中台",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Docker / Kubernetes",
+      "evidence": "Docker, K8S和DevOps经验"
+    },
+    {
+      "skill_id": "",
+      "name": "Java / Spring Boot / Spring Cloud",
+      "evidence": "Java; Spring Boot / Spring Cloud"
+    },
+    {
+      "skill_id": "",
+      "name": "MySQL / MSSQL / Oracle / Redis / MQ",
+      "evidence": "MySQL / MSSQL / Oracle; Redis / MQ"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云平台 / 微软云平台 / AWS云平台",
+      "evidence": "阿里云平台/微软云平台/AWS云平台"
+    },
+    {
+      "skill_id": "",
+      "name": "Google Dialogflow CX / RASA",
+      "evidence": "基于RASA平台的Chatbot迁移到Google Dialogflow CX CAI平台上"
+    },
+    {
+      "skill_id": "",
+      "name": "RAG / GenAI LLM / NLP",
+      "evidence": "AI NLP(自然语言处理)，GenAI LLM 大模型应用架构设计, 包括数据处理与管理、模型选择与优化、提示词工程、RAG（检索增强生成）等"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IBM国际商用机器大连GDC/深圳ISSC",
+      "职位": "应用架构师",
+      "时间": "",
+      "描述": "早期职业背景，担任应用架构师"
+    },
+    {
+      "公司": "CDK Global希迪凯环球公司",
+      "职位": "中国区解决方案架构师",
+      "时间": "",
+      "描述": "担任中国区解决方案架构师"
+    },
+    {
+      "公司": "全球著名金融银行公司",
+      "职位": "AI应用架构师和技术交付负责人",
+      "时间": "",
+      "描述": "负责Chatbot从RASA迁移至Google Dialogflow CX CAI平台，进行集成/部署/安全架构设计，关键技术点决策与多语言/NLP模型优化；带领跨职能团队，负责技术选型与方案制定，推动项目高效推进。"
+    },
+    {
+      "公司": "全球著名医药公司",
+      "职位": "技术架构师/解决方案架构师",
+      "时间": "",
+      "描述": "负责‘China for China 数据与应用’落地项目，进行整体评估分析与蓝图设计，涵盖业务场景分析、数据管道分析、云服务商评估及中国区落地蓝图与实施路线设计。"
+    },
+    {
+      "公司": "全球著名ICT公司",
+      "职位": "解决方案架构师",
+      "时间": "",
+      "描述": "负责财务ERP SaaS产品化整体架构规划设计，进行市场流行ERP产品架构洞察与分析，设计未来蓝图与建议实施路线。"
+    },
+    {
+      "公司": "全球著名医疗公司",
+      "职位": "技术架构师/解决方案架构师",
+      "时间": "",
+      "描述": "提供IT咨询构建中国数字化平台蓝图与路线图；完成整体4A架构设计（业务/数据/应用/技术/集成/部署/安全）；使用DDD方法论识别关键业务场景与流程，构建能力地图与领域服务设计。"
+    },
+    {
+      "公司": "全球著名医疗公司",
+      "职位": "技术架构师/解决方案架构师",
+      "时间": "",
+      "描述": "基于整体架构设计进行详细设计；领导埃森哲大连交付团队高质量按期交付平台能力；为团队提供技术指导并解决技术难点。"
+    },
+    {
+      "公司": "全球著名汽车解决方案公司",
+      "职位": "中国区解决方案架构师",
+      "时间": "",
+      "描述": "负责中国区域整体云平台解决方案和技术架构设计，迁移核心业务能力上云，构建业务和数据双中台，打造下一代云原生平台服务于汽车制造商和运营商。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "* 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 金融",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 负责该公司财务ERP SaaS产品化的整体架构规划设计，对市场上流行的ERP产品进行架构洞察与分析（包含架构模式，架构通用能力，SaaS产品化能力等）并设计出该财务ERP SaaS产品的未来蓝图与建议实施路线",
+      "source": "rule",
+      "matched_term": "SaaS"
+    }
+  ],
+  "_batch": {
+    "source_file": "hai.a.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hai.a.liu_profile_CN.md",
+    "source_hash": "977bb35a65afdfff48f58be3ff8a536e9704d8d90004cbd94c8c83ed1328370a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:22:03"
+  },
+  "城市": "Dalian"
+}

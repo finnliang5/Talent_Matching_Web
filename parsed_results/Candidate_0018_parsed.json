@@ -1,0 +1,465 @@
+{
+  "姓名": "Candidate_0018",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 工作内容以AI系统测试、测试数据与模型质量工程为核心，兼顾自动化测试平台集成与LLM测试策略设计。不限于功能验证，更关注正确性、鲁棒性、公平性、可解释性、安全性等AI特有质量属性。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- Mysql、pssql等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "evidence": "- postman、Robot Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Postman API"
+      ],
+      "matched_term": "Postman"
+    },
+    {
+      "skill_id": "SKILL_API_TESTING",
+      "name": "接口测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 功能测试、接口测试、数据测试、自动化测试等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "API测试",
+        "API Testing",
+        "接口自动化测试"
+      ],
+      "matched_term": "接口测试"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 功能测试、接口测试、数据测试、自动化测试等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "自动化测试"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- SAFe",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "工具和平台：Mysql、pssql等",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 需求分析",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "制定测试方案、计划；制定测试计划、方案，分配测试资源",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "把控测试进度和交付质量；测试实施过程中进行功能复查、抽查，保证质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- postman、Robot Framework",
+        "- 功能测试、接口测试、数据测试、自动化测试等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POSTMAN",
+          "name": "Postman"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_API_TESTING",
+          "name": "接口测试"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- SAFe",
+        "把控测试进度和交付质量；测试实施过程中进行功能复查、抽查，保证质量"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "制定测试方案、计划；制定测试计划、方案，分配测试资源"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "制定测试方案、计划；制定测试计划、方案，分配测试资源"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 需求分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 需求分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 功能测试、接口测试、数据测试、自动化测试等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工作内容以AI系统测试、测试数据与模型质量工程为核心，兼顾自动化测试平台集成与LLM测试策略设计。不限于功能验证，更关注正确性、鲁棒性、公平性、可解释性、安全性等AI特有质量属性。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Mysql、pssql等",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- postman、Robot Framework",
+      "supports_entity_id": "SKILL_POSTMAN",
+      "supports_entity_name": "Postman",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 功能测试、接口测试、数据测试、自动化测试等",
+      "supports_entity_id": "SKILL_API_TESTING",
+      "supports_entity_name": "接口测试",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 功能测试、接口测试、数据测试、自动化测试等",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SAFe",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具和平台：Mysql、pssql等",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 需求分析",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "制定测试方案、计划；制定测试计划、方案，分配测试资源",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "把控测试进度和交付质量；测试实施过程中进行功能复查、抽查，保证质量",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "JIRA",
+      "evidence": "工具和平台：JIRA、Testlink、禅道"
+    },
+    {
+      "skill_id": "",
+      "name": "Testlink",
+      "evidence": "工具和平台：JIRA、Testlink、禅道"
+    },
+    {
+      "skill_id": "",
+      "name": "禅道",
+      "evidence": "工具和平台：JIRA、Testlink、禅道"
+    },
+    {
+      "skill_id": "",
+      "name": "Robot Framework",
+      "evidence": "调研robot framework自动化测试适用于AI产品的可能性"
+    },
+    {
+      "skill_id": "",
+      "name": "ATF",
+      "evidence": "顶点自动化建设项目使用公司自主研发自动化产品ATF测试接口"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "根据需求口径编写sql，验证统计数据正确性和产品功能"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "负责某医药公司知识管理平台维护及copilot智能办公自动化测试；调研Robot Framework在AI产品自动化测试中的适用性。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "参与生成式人工智能技术开发生命周期平台测试，负责Agent编排及GENAI生成内容准确性验证；通过混淆矩阵测试code review准确性及不同模型输出效果。"
+    },
+    {
+      "公司": "大连飞泰信息技术有限公司",
+      "职位": "测试负责人",
+      "时间": "",
+      "描述": "负责大连商品交易所顶点自动化建设项目（使用ATF工具）；参与招商证券集中交易系统等多系统测试；负责恒生O32系统第三方测试；组织团队完成大商所七期监察部验收测试及穿透式监管限仓超仓计算逻辑验证。"
+    },
+    {
+      "公司": "百年人寿保险股份有限公司",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "负责保险产品投核保规则测试（投保、保全、理赔等）；执行保险核心系统、微信公众号、APP及渠道系统功能测试。"
+    },
+    {
+      "公司": "华宇（大连）信息服务有限公司",
+      "职位": "产品测试负责人",
+      "时间": "",
+      "描述": "整合干警档案、目标管理、质效及工作量评估4个系统；负责需求分析、工时资源评估、测试计划方案制定与资源分配；通过测试流程优化使复杂计算模块测试效率提高60%。"
+    },
+    {
+      "公司": "华宇（大连）信息服务有限公司",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "根据需求口径编写SQL验证统计数据正确性与产品功能；执行自动化测试一级表单元数据正确性及固定报表单元格下钻验证。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "拥有10余年的软件测试经验，其中6年项目测试管理经验，主要积累在金融、政法检、保险、医疗等行业。可设计测试方案、制定测试计划，把控测试进度和交付质量。熟悉敏捷模式，有AI相关项目落地经验。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有10余年的软件测试经验，其中6年项目测试管理经验，主要积累在金融、政法检、保险、医疗等行业。可设计测试方案、制定测试计划，把控测试进度和交付质量。熟悉敏捷模式，有AI相关项目落地经验。",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "dongling.a.zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\dongling.a.zhang_profile_CN.md",
+    "source_hash": "100d9cbed8d9c3cc093544978f5754c1865461698f3c16d86905cd53d777c05d",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:17:34"
+  },
+  "城市": "Dalian"
+}

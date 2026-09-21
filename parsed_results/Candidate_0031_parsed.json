@@ -1,0 +1,272 @@
+{
+  "姓名": "Candidate_0031",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.75,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "7年+跨部门项目统筹与运维管理经验，拥有IT基础设施项目管理相关专业背景，。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "核心优势在于跨团队协同；负责日常会议总结汇报以及流程和知识体系整理分享",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "核心优势在于IT风险管控；主导BCP（业务连续性计划）方案落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "熟悉网络、服务器、云服务及企业协作系统全流程管理；负责流程和知识体系整理分享",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "核心优势在于跨团队协同；负责日常会议总结汇报以及流程和知识体系整理分享"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "7年+跨部门项目统筹与运维管理经验，拥有IT基础设施项目管理相关专业背景，。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "熟悉网络、服务器、云服务及企业协作系统全流程管理；负责流程和知识体系整理分享"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "7年+跨部门项目统筹与运维管理经验，拥有IT基础设施项目管理相关专业背景，。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "核心优势在于IT风险管控；主导BCP（业务连续性计划）方案落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "7年+跨部门项目统筹与运维管理经验，拥有IT基础设施项目管理相关专业背景，。",
+        "核心优势在于IT风险管控；主导BCP（业务连续性计划）方案落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "7年+跨部门项目统筹与运维管理经验，拥有IT基础设施项目管理相关专业背景，。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心优势在于跨团队协同；负责日常会议总结汇报以及流程和知识体系整理分享",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心优势在于IT风险管控；主导BCP（业务连续性计划）方案落地",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "熟悉网络、服务器、云服务及企业协作系统全流程管理；负责流程和知识体系整理分享",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Office",
+      "evidence": "核心技能包含Office"
+    },
+    {
+      "skill_id": "",
+      "name": "ITIL V3",
+      "evidence": "核心技能包含ITIL V3；认证包含ITILv3 Fundation"
+    },
+    {
+      "skill_id": "",
+      "name": "Microsoft Azure fundamentals(AZ900)",
+      "evidence": "认证包含Microsoft Azure fundamentals(AZ900)"
+    },
+    {
+      "skill_id": "",
+      "name": "BCP",
+      "evidence": "主要交付过BCP方案落地"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "源讯信息技术（中国）有限公司",
+      "职位": "技术支持，主管/全球客服台主管",
+      "时间": "2009-2018",
+      "描述": "担任过全球客服台主管，主要负责管理员工7*24排班、报告整理，日常会议总结汇报以及流程和知识体系整理分享。主要交付过IT基建搭建、系统迁移、BCP方案落地、海外客户项目交付。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "IT移管-运维",
+      "时间": "",
+      "描述": "主要负责项目的移管以及后续运维的工作，项目主要有上海医药，赛诺菲，腾讯，贝壳，京东方，宏利等。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 【主要负责项目的移管以及后续运维的工作，项目主要有上海医药，赛诺菲，腾讯，贝壳，京东方，宏利等】",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【IT服务管理/技术架构支持】",
+      "source": "rule",
+      "matched_term": "IT服务"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "项目主要有...宏利等",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "guobing.zhou_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\guobing.zhou_profile_CN.md",
+    "source_hash": "2af8ae9ac7735f6604348cdbe237f677c7edbd429a20d65a8e90ef7f2ae393aa",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:20:29"
+  },
+  "城市": "Chengdu"
+}

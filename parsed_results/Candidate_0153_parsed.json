@@ -1,0 +1,365 @@
+{
+  "姓名": "Candidate_0153",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "AWS SAA",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "对日BPO项目管理经验：7年",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "Tec预算和成本管理---按季度制定负责项目的Tec预算，每月核查实际成本和预算匹配度；ISM团队整体的Tec Cost Saving目标达成跟踪及ISM团队成员每月收入和成本核算；公司固定资产管理及采购；设备报废预估及预算制定",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "Tec变更管理---关注公司整体Tec变更，制定符合各个项目的实施计划，作为交付团队的Tec窗口和各个Tec团队对接；政府申请相关：BPO人才补助金申请、个人信息保护申请认证",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "问题管理---根据商定的服务级别协议管理各个Tec团队，并跟踪已升级的问题和事件。协同各Tec团队解决...；ISM团队整体的Tec Cost Saving目标达成跟踪",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "关系管理---定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；作为交付团队的Tec窗口和各个Tec团队对接；向日本总经理汇报进度状况",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；向日本总经理汇报进度状况；配合业务现场管理者完成项目前期组建及后期撤出时必须的准备工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "AWS SAA"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "关系管理---定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；作为交付团队的Tec窗口和各个Tec团队对接；向日本总经理汇报进度状况",
+        "定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；向日本总经理汇报进度状况；配合业务现场管理者完成项目前期组建及后期撤出时必须的准备工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "对日BPO项目管理经验：7年",
+        "问题管理---根据商定的服务级别协议管理各个Tec团队，并跟踪已升级的问题和事件。协同各Tec团队解决...；ISM团队整体的Tec Cost Saving目标达成跟踪"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "对日BPO项目管理经验：7年"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Tec预算和成本管理---按季度制定负责项目的Tec预算，每月核查实际成本和预算匹配度；ISM团队整体的Tec Cost Saving目标达成跟踪及ISM团队成员每月收入和成本核算；公司固定资产管理及采购；设备报废预估及预算制定"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Tec变更管理---关注公司整体Tec变更，制定符合各个项目的实施计划，作为交付团队的Tec窗口和各个Tec团队对接；政府申请相关：BPO人才补助金申请、个人信息保护申请认证"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "对日BPO项目管理经验：7年",
+        "Tec变更管理---关注公司整体Tec变更，制定符合各个项目的实施计划，作为交付团队的Tec窗口和各个Tec团队对接；政府申请相关：BPO人才补助金申请、个人信息保护申请认证"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；向日本总经理汇报进度状况；配合业务现场管理者完成项目前期组建及后期撤出时必须的准备工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "AWS SAA",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对日BPO项目管理经验：7年",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Tec预算和成本管理---按季度制定负责项目的Tec预算，每月核查实际成本和预算匹配度；ISM团队整体的Tec Cost Saving目标达成跟踪及ISM团队成员每月收入和成本核算；公司固定资产管理及采购；设备报废预估及预算制定",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Tec变更管理---关注公司整体Tec变更，制定符合各个项目的实施计划，作为交付团队的Tec窗口和各个Tec团队对接；政府申请相关：BPO人才补助金申请、个人信息保护申请认证",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "问题管理---根据商定的服务级别协议管理各个Tec团队，并跟踪已升级的问题和事件。协同各Tec团队解决...；ISM团队整体的Tec Cost Saving目标达成跟踪",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "关系管理---定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；作为交付团队的Tec窗口和各个Tec团队对接；向日本总经理汇报进度状况",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "定期向交付团队项目经理汇报项目预算、成本及其项目Tec问题及变更进度；向日本总经理汇报进度状况；配合业务现场管理者完成项目前期组建及后期撤出时必须的准备工作",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "",
+      "时间": "",
+      "描述": "问题管理：根据商定的服务级别协议管理各个Tec团队，跟踪升级问题与事件，协同各Tec团队解决网络、语音及工具部署问题；Tec预算和成本管理：按季度制定项目Tec预算，月度核查实际成本；Tec变更管理：关注公司整体Tec变更，制定实施计划，作为交付团队Tec窗口对接；Tec文档管理；关系管理：定期向项目经理汇报预算、成本、问题及变更进度；负责ISM团队Tec Cost Saving目标达成跟踪及成员收入成本核算"
+    },
+    {
+      "公司": "富士胶片信息系统大连运维中心（亿达信息技术有限公司）",
+      "职位": "经营统括管理部 组织账户及其权限管理",
+      "时间": "",
+      "描述": "案件统计与分配管理，残留案件分析及再分配；AD/Office365系统运维，使用PowerShell制作用户邮箱及阅览监察权限设置；邮箱送受信状况确认；RADIUS服务器无线网权限管理；服务器定常监视；按职能划分AD组并设置权限与职能；GPO变更作业；处理helpdesk升级案件；周报与会议；编写组织图、径路图、拓扑图等资料"
+    },
+    {
+      "公司": "盟世热线信息技术(大连)有限公司",
+      "职位": "日企内部IT基础设施管理",
+      "时间": "",
+      "描述": "固定资产管理及采购，设备报废预估与预算制定；新项目组装修、弱电、强电报价咨询与工程验收，向日本总经理汇报进度；供应商提案与质量监督；协助日本和现地IT技术人员进行IT设备构筑、调试及对日专线铺设报价与日常维护；合同管理，分类记录并提醒更新；BPO人才补助金申请、个人信息保护申请认证；配合项目前期组建与后期撤出准备工作"
+    },
+    {
+      "公司": "中软国际科技服务（大连）有限公司",
+      "职位": "BPO项目Manager/ 日本某IT公司Tec物理设备信息管理",
+      "时间": "",
+      "描述": "日本通信公司业务：统一化管理各据点机架位置、路由交换设备种类，Team Manager全盘管理40人；招聘网站业务：Web招聘广告制作校正及画像处理，Team Manager全盘管理130人"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "希望持续从事与 Technology / IT Architecture 相关的工作角色，聚焦于以下方向：",
+      "source": "rule",
+      "matched_term": "Technology"
+    }
+  ],
+  "_batch": {
+    "source_file": "xiaoling.yu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\xiaoling.yu_profile_CN.md",
+    "source_hash": "66e6dc4488b62308d2b90886112653fe3bf67ebd343b4b7c5c0c2e8b0e1bb106",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:32:05"
+  },
+  "城市": "Dalian"
+}

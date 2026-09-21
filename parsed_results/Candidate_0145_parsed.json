@@ -1,0 +1,345 @@
+{
+  "姓名": "Candidate_0145",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PRODUCT"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Java/Python/Node.js 全栈开发与技术评审",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- Java/Python/Node.js 全栈开发与技术评审",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- Java/Python/Node.js 全栈开发与技术评审",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "拥有软件开发与 AI 项目落地经验，长期聚焦AI 聊天机器人产品与技术落地，兼具技术架构能力与产品全流程管理经验。擅长将 NLP、大模型能力转化为可用产品，主导 AI chatbot 从需求、架构、研发到上线运维的全链路交付，能平衡产品体验、技术实现与业务价值，具备 AI 产品负责人与技术管理双重能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 产品需求分析、功能规划与体验优化",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "负责管理技术团队，保障任务按时完成；负责开发进度管理，保障项目按时交付",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责架构规划、设计、方案落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责管理技术团队，保障任务按时完成；负责开发进度管理，保障项目按时交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责架构规划、设计、方案落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责架构规划、设计、方案落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责管理技术团队，保障任务按时完成；负责开发进度管理，保障项目按时交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 产品需求分析、功能规划与体验优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 产品需求分析、功能规划与体验优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责管理技术团队，保障任务按时完成；负责开发进度管理，保障项目按时交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java/Python/Node.js 全栈开发与技术评审",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java/Python/Node.js 全栈开发与技术评审",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java/Python/Node.js 全栈开发与技术评审",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有软件开发与 AI 项目落地经验，长期聚焦AI 聊天机器人产品与技术落地，兼具技术架构能力与产品全流程管理经验。擅长将 NLP、大模型能力转化为可用产品，主导 AI chatbot 从需求、架构、研发到上线运维的全链路交付，能平衡产品体验、技术实现与业务价值，具备 AI 产品负责人与技术管理双重能力。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 产品需求分析、功能规划与体验优化",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责管理技术团队，保障任务按时完成；负责开发进度管理，保障项目按时交付",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责架构规划、设计、方案落地",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "Accenture（埃森哲）",
+      "职位": "智能聊天机器人，技术主管",
+      "时间": "2018-2026年",
+      "描述": "负责架构规划、设计、方案落地；负责管理技术团队，保障任务按时完成；负责新技术研究与开发，维护技术基础设施稳定；负责技术问题解决与团队培训指导，提升团队技术水平；精通NLP算法，具备AI项目研发、实施、运维经验"
+    },
+    {
+      "公司": "东软云科技",
+      "职位": "数据中心基础设施管理，项目开发负责人",
+      "时间": "2015-2018年",
+      "描述": "负责技术方案设计、功能设计、核心代码编写；负责安全性漏洞检查与修复；负责开发进度管理，保障项目按时交付"
+    },
+    {
+      "公司": "中国电信",
+      "职位": "电信渠道促销平台，高级软件开发",
+      "时间": "2013-2015年",
+      "描述": "负责客户需求收集与文档整理；负责依据需求完成功能设计与开发；负责功能优化与漏洞修复"
+    },
+    {
+      "公司": "北京市交通委员会",
+      "职位": "电子政务办公自动化，软件开发",
+      "时间": "2011-2013年",
+      "描述": "负责部分功能模块开发；负责项目实施与运维"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 2013-2015年，中国电信，电信渠道促销平台，高级软件开发",
+      "source": "rule",
+      "matched_term": "电信"
+    }
+  ],
+  "_batch": {
+    "source_file": "wenlong.a.gu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\wenlong.a.gu_profile_CN.md",
+    "source_hash": "f2272d963e5ac73518e14906a610e5e3f9922b231ccf5df7a53251bd8ec9d1fd",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:28:29"
+  },
+  "城市": "Dalian"
+}

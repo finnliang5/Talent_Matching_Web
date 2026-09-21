@@ -1,0 +1,496 @@
+{
+  "姓名": "Candidate_0106",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 数据分析与数据治理",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "核心技能包含业务流程设计与优化；引导业务优化用户旅程流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "提供详细的投资估算和资源分配计划；负责项目投资估算",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责市场营销领域的数字规划与设计，包括业务/应用/数据架构设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "扩展了5个智能应用场景，包括AI驱动的会议复核、AI生成的会议/论文摘要和智能助手",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "name": "客户全生命周期经营",
+      "type": "ABILITY",
+      "evidence": "设计针对不同市场和客户量身定制的客户旅程接触点；设计了VOC问题识别与跟踪闭环机制",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "客户生命周期经营",
+        "客户成功",
+        "客户成功体系",
+        "客户经营"
+      ],
+      "matched_term": "客户全生命周期经营"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "扩展了5个智能应用场景，包括AI驱动的会议复核、AI生成的会议/论文摘要和智能助手"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "扩展了5个智能应用场景，包括AI驱动的会议复核、AI生成的会议/论文摘要和智能助手"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "提供详细的投资估算和资源分配计划；负责项目投资估算",
+        "扩展了5个智能应用场景，包括AI驱动的会议复核、AI生成的会议/论文摘要和智能助手"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "设计针对不同市场和客户量身定制的客户旅程接触点；设计了VOC问题识别与跟踪闭环机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CUSTOMER_SUCCESS_OPERATION",
+      "name": "Customer Success Operation",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "设计针对不同市场和客户量身定制的客户旅程接触点；设计了VOC问题识别与跟踪闭环机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据分析与数据治理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据分析与数据治理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提供详细的投资估算和资源分配计划；负责项目投资估算"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责市场营销领域的数字规划与设计，包括业务/应用/数据架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责市场营销领域的数字规划与设计，包括业务/应用/数据架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "核心技能包含业务流程设计与优化；引导业务优化用户旅程流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "- 数据分析与数据治理",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "核心技能包含业务流程设计与优化；引导业务优化用户旅程流程",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提供详细的投资估算和资源分配计划；负责项目投资估算",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责市场营销领域的数字规划与设计，包括业务/应用/数据架构设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "扩展了5个智能应用场景，包括AI驱动的会议复核、AI生成的会议/论文摘要和智能助手",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计针对不同市场和客户量身定制的客户旅程接触点；设计了VOC问题识别与跟踪闭环机制",
+      "supports_entity_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "supports_entity_name": "客户全生命周期经营",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_CUSTOMER_SUCCESS_OPERATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "BPM",
+      "evidence": "负责数据平台、供应链、BPM和B2C四个关键业务流"
+    },
+    {
+      "skill_id": "",
+      "name": "CRM",
+      "evidence": "整合了来自6个系统的数据，包括客户关系管理"
+    },
+    {
+      "skill_id": "",
+      "name": "VOC",
+      "evidence": "设计了VOC问题识别与跟踪闭环机制"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "跨国医疗公司",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "担任全面数字化转型项目经理，负责数据平台、供应链、BPM和B2C四个关键业务流。进行痛点分析与流程优化，协调项目实施路径并提供投资估算与资源分配计划。"
+    },
+    {
+      "公司": "跨国医疗公司",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "领导全渠道运营项目，建立运营模式并设计客户旅程接触点。整合6个系统数据提升系统功能，扩展5个AI智能应用场景。"
+    },
+    {
+      "公司": "消费品公司",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "负责市场营销领域的数字规划与设计，包括业务/应用/数据架构设计、实施路径规划、项目投资估算等。"
+    },
+    {
+      "公司": "消费电子公司",
+      "职位": "业务顾问",
+      "时间": "",
+      "描述": "引导业务优化用户旅程流程，设计VOC问题识别与跟踪闭环机制，构建数据反馈指标和跟踪仪表盘，推动机制在多业务线实施。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 能源",
+      "source": "rule",
+      "matched_term": "能源"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 消费品",
+      "source": "rule",
+      "matched_term": "消费品"
+    }
+  ],
+  "_batch": {
+    "source_file": "qian.abby.sun_Profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\qian.abby.sun_Profile_CN.md",
+    "source_hash": "4005e926129402cdc2df5e66a3aff09fb80e1fad99403b8dcdb79d90772c9ed6",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:53:02"
+  },
+  "城市": "Beijing"
+}

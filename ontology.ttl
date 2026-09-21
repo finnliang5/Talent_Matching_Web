@@ -1,0 +1,498 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix base: <http://example.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.w3.org/2002/07/owl#> .
+
+[ rdf:type owl:Ontology
+ ] .
+
+#################################################################
+#    Datatypes
+#################################################################
+
+###  http://www.w3.org/2001/XMLSchema#date
+xsd:date rdf:type rdfs:Datatype .
+
+
+#################################################################
+#    Object Properties
+#################################################################
+
+
+###  http://example.org/ontology#员工具有行业经验
+base:员工具有行业经验 rdf:type owl:ObjectProperty ;
+              rdfs:domain base:员工 ;
+              rdfs:range base:行业经验 ;
+              rdfs:label "员工具有行业经验" .
+
+
+###  http://example.org/ontology#居住
+base:居住 rdf:type owl:ObjectProperty ;
+        rdfs:domain base:员工 ;
+        rdfs:range base:城市 ;
+        rdfs:label "居住" .
+
+### http://example.org/ontology#具备推导规则
+base:具备推导规则 rdf:type owl:ObjectProperty ;
+    rdfs:domain base:技能 ;
+    rdfs:range base:推导规则 ;
+    rdfs:label "具备推导规则" .
+
+### http://example.org/ontology#推导目标
+base:推导目标 rdf:type owl:ObjectProperty ;
+    rdfs:domain base:推导规则 ;
+    rdfs:range base:技能 ;
+    rdfs:label "推导目标" .
+
+### http://example.org/ontology#推导权重
+base:推导权重 rdf:type owl:DatatypeProperty ;
+    rdfs:domain base:推导规则 ;
+    rdfs:range xsd:double ;
+    rdfs:label "推导权重" .
+
+### http://example.org/ontology#岗位类别
+base:岗位类别 rdf:type owl:DatatypeProperty ;
+    rdfs:domain base:岗位 ;
+    rdfs:range xsd:string ;
+    rdfs:label "岗位类别" .
+
+### http://example.org/ontology#推导原因
+base:推导原因 rdf:type owl:DatatypeProperty ;
+    rdfs:domain base:推导规则 ;
+    rdfs:range xsd:string ;
+    rdfs:label "推导原因" .
+
+
+###  http://example.org/ontology#岗位要求
+base:岗位要求 rdf:type owl:ObjectProperty ;
+        rdfs:domain base:岗位 ;
+        rdfs:range base:城市 ;
+        rdfs:label "岗位要求" .
+
+###  http://example.org/ontology#员工具有证据
+base:员工具有证据 rdf:type owl:ObjectProperty ;
+        rdfs:domain base:员工 ;
+        rdfs:range base:证据 ;
+        rdfs:label "员工具有证据" .
+
+###  http://example.org/ontology#证据证明胜任力
+base:证据证明胜任力 rdf:type owl:ObjectProperty ;
+        rdfs:domain base:证据 ;
+        rdfs:range base:胜任力 ;
+        rdfs:label "证据证明胜利力" .
+
+###  http://example.org/ontology#能力所在领域
+base:能力所在领域 rdf:type owl:ObjectProperty ;
+        rdfs:domain base:能力 ;
+        rdfs:range base:领域 ;
+        rdfs:label "能力所在领域" .
+
+
+###  http://example.org/ontology#岗位要求能力
+base:岗位要求能力 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:岗位 ;
+          rdfs:range base:能力 ;
+          rdfs:label "岗位要求能力" .
+
+
+###  http://example.org/ontology#具备技能
+base:具备技能 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:range base:技能 ;
+          rdfs:label "具备技能" .
+
+###  http://example.org/ontology#技能具备能力
+base:技能具备能力 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:技能 ;
+          rdfs:range base:能力 ;
+          rdfs:label "技能具备能力" .
+
+
+###  http://example.org/ontology#胜任力具备能力
+base:胜任力具备能力 rdf:type owl:ObjectProperty ;
+            rdfs:domain base:胜任力 ;
+            rdfs:range base:能力 ;
+            rdfs:label "胜任力具备能力" .
+
+
+###  http://example.org/ontology#MatchingResult对应岗位
+base:MatchingResult对应岗位 rdf:type owl:ObjectProperty ;
+                        rdfs:domain base:MatchingResult ;
+                        rdfs:range base:岗位 ;
+                        rdfs:label "匹配结果对应岗位" .
+
+
+###  http://example.org/ontology#具备知识
+base:具备知识 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:label "具备知识" .
+
+
+###  http://example.org/ontology#具备经验
+base:具备经验 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:range base:项目经验 ;
+          rdfs:label "具备经验" .
+
+
+###  http://example.org/ontology#具备能力
+base:具备能力 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:range base:能力 ;
+          rdfs:label "具备能力" .
+
+
+###  http://example.org/ontology#员工属于数字职级
+base:员工属于数字职级 rdf:type owl:ObjectProperty ;
+              rdfs:domain base:员工 ;
+              rdfs:range base:职级 ;
+              rdfs:label "员工属于数字职级" .
+
+
+###  http://example.org/ontology#员工达成匹配结果
+base:员工达成匹配结果 rdf:type owl:ObjectProperty ;
+              rdfs:domain base:员工 ;
+              rdfs:range base:MatchingResult ;
+              rdfs:label "员工达成匹配结果" .
+
+
+###  http://example.org/ontology#属于维度
+base:属于维度 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:评分指导 ;
+          rdfs:range base:评分维度 ;
+          rdfs:label "属于维度" .
+
+
+###  http://example.org/ontology#岗位要求知识
+base:岗位要求知识 rdf:type owl:ObjectProperty ;
+            rdfs:domain base:岗位 ;
+            rdfs:label "岗位要求知识" .
+
+
+###  http://example.org/ontology#岗位要求经验
+base:岗位要求经验 rdf:type owl:ObjectProperty ;
+            rdfs:domain base:岗位 ;
+            rdfs:range base:项目经验 ;
+            rdfs:label "岗位要求经验" .
+
+
+###  http://example.org/ontology#岗位要求职级
+base:岗位要求职级 rdf:type owl:ObjectProperty ;
+            rdfs:domain base:岗位 ;
+            rdfs:range base:职级 ;
+            rdfs:label "岗位要求职级" .
+
+
+###  http://example.org/ontology#岗位适用
+base:岗位适用 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:评分指导 ;
+          rdfs:range base:岗位 ;
+          rdfs:label "岗位适用" .
+
+
+###  http://example.org/ontology#岗位适用评分规则
+base:岗位适用评分规则 rdf:type owl:ObjectProperty ;
+              rdfs:domain base:岗位 ;
+              rdfs:range base:MatchingRule ;
+              rdfs:label "岗位适用评分规则" .
+
+
+###  http://example.org/ontology#掌握水平
+base:掌握水平 rdf:type owl:ObjectProperty ;
+          rdfs:range base:定级标准 ;
+          rdfs:label "掌握水平" .
+
+
+###  http://example.org/ontology#目标节点
+base:目标节点 rdf:type owl:ObjectProperty ;
+          rdfs:domain base:评分指导 ;
+          rdfs:label "目标节点" .
+
+
+###  http://example.org/ontology#经验属于分类
+base:经验属于分类 rdf:type owl:ObjectProperty ;
+            rdfs:domain base:项目经验 ;
+            rdfs:range base:经验分类 ;
+            rdfs:label "经验属于分类" .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://example.org/ontology#MatchingScore
+base:MatchingScore rdf:type owl:DatatypeProperty ;
+                   rdfs:domain base:MatchingResult ;
+                   rdfs:range xsd:double ;
+                   rdfs:label "匹配得分" .
+
+
+###  http://example.org/ontology#业务场景
+base:业务场景 rdf:type owl:DatatypeProperty ;
+          rdfs:range xsd:string ;
+          rdfs:label "业务场景" .
+
+
+###  http://example.org/ontology#匹配等级
+base:匹配等级 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:MatchingResult ;
+          rdfs:range xsd:string ;
+          rdfs:label "匹配等级" .
+
+
+###  http://example.org/ontology#匹配维度
+base:匹配维度 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:MatchingResult ;
+          rdfs:range xsd:string ;
+          rdfs:label "匹配维度" .
+
+
+###  http://example.org/ontology#名称
+base:名称 rdf:type owl:DatatypeProperty ;
+        rdfs:domain base:岗位 ;
+        rdfs:range xsd:string ;
+        rdfs:label "名称" .
+
+
+###  http://example.org/ontology#岗位最低职级
+base:岗位最低职级 rdf:type owl:DatatypeProperty ;
+            rdfs:domain base:岗位 ;
+            rdfs:range xsd:integer ;
+            rdfs:comment "职级闭区间下界（含）。" ;
+            rdfs:label "岗位最低职级" .
+
+
+###  http://example.org/ontology#岗位最高职级
+base:岗位最高职级 rdf:type owl:DatatypeProperty ;
+            rdfs:domain base:岗位 ;
+            rdfs:range xsd:integer ;
+            rdfs:comment "职级闭区间上界（含）。" ;
+            rdfs:label "岗位最高职级" .
+
+
+###  http://example.org/ontology#开始日期
+base:开始日期 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:项目经验 ;
+          rdfs:range xsd:date ;
+          rdfs:label "开始日期" .
+
+
+###  http://example.org/ontology#排序序号
+base:排序序号 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:评分指导 ;
+          rdfs:range xsd:integer ;
+          rdfs:label "排序序号" .
+
+
+###  http://example.org/ontology#描述
+base:描述 rdf:type owl:DatatypeProperty ;
+        rdfs:range xsd:string ;
+        rdfs:label "描述" .
+
+
+###  http://example.org/ontology#是否推荐
+base:是否推荐 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:MatchingResult ;
+          rdfs:range xsd:boolean ;
+          rdfs:label "是否推荐" .
+
+
+###  http://example.org/ontology#最低要求等级
+base:最低要求等级 rdf:type owl:DatatypeProperty ;
+            rdfs:domain base:评分指导 ;
+            rdfs:range xsd:string ;
+            rdfs:label "最低要求等级" .
+
+
+###  http://example.org/ontology#潜力评分
+base:潜力评分 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:range xsd:double ;
+          rdfs:label "潜力评分" .
+
+
+###  http://example.org/ontology#级别
+base:级别 rdf:type owl:DatatypeProperty ;
+        rdfs:domain base:定级标准 ;
+        rdfs:range xsd:string ;
+        rdfs:label "级别" .
+
+
+###  http://example.org/ontology#级别名称
+base:级别名称 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:定级标准 ;
+          rdfs:range xsd:string ;
+          rdfs:label "级别名称" .
+
+
+###  http://example.org/ontology#级别描述
+base:级别描述 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:定级标准 ;
+          rdfs:range xsd:string ;
+          rdfs:label "级别描述" .
+
+
+###  http://example.org/ontology#结束日期
+base:结束日期 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:项目经验 ;
+          rdfs:range xsd:date ;
+          rdfs:label "结束日期" .
+
+
+###  http://example.org/ontology#绩效评分
+base:绩效评分 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:员工 ;
+          rdfs:range xsd:double ;
+          rdfs:label "绩效评分" .
+
+
+###  http://example.org/ontology#维度内权重
+base:维度内权重 rdf:type owl:DatatypeProperty ;
+           rdfs:domain base:评分指导 ;
+           rdfs:range xsd:double ;
+           rdfs:label "维度内权重" .
+
+
+###  http://example.org/ontology#维度名称
+base:维度名称 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:评分维度 ;
+          rdfs:range xsd:string ;
+          rdfs:label "维度名称" .
+
+
+###  http://example.org/ontology#维度层级
+base:维度层级 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:评分维度 ;
+          rdfs:range xsd:string ;
+          rdfs:comment "冰山上或冰山下" ;
+          rdfs:label "维度层级" .
+
+
+###  http://example.org/ontology#维度权重
+base:维度权重 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:评分维度 ;
+          rdfs:range xsd:double ;
+          rdfs:label "维度权重" .
+
+
+###  http://example.org/ontology#职级数字
+base:职级数字 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:职级 ;
+          rdfs:range xsd:integer ;
+          rdfs:label "职级数字" .
+
+
+###  http://example.org/ontology#计分方式
+base:计分方式 rdf:type owl:DatatypeProperty ;
+          rdfs:domain base:评分指导 ;
+          rdfs:range xsd:string ;
+          rdfs:label "计分方式" .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://example.org/ontology#胜任力
+base:胜任力 rdf:type owl:Class ;
+        rdfs:label "胜任力" .
+
+
+###  http://example.org/ontology#MatchingResult
+base:MatchingResult rdf:type owl:Class ;
+                    rdfs:comment "汇总胜任力评分和证据后的人岗匹配结论。" ;
+                    rdfs:label "匹配结果" .
+
+
+###  http://example.org/ontology#MatchingRule
+base:MatchingRule rdf:type owl:Class ;
+                  rdfs:label "匹配规则" .
+
+
+###  http://example.org/ontology#员工
+base:员工 rdf:type owl:Class ;
+        rdfs:comment "【内部角色】当前与公司存在雇佣关系的内部人员。" ;
+        rdfs:label "员工" .
+
+
+###  http://example.org/ontology#城市
+base:城市 rdf:type owl:Class ;
+        rdfs:comment "员工所在的城市。" ;
+        rdfs:label "城市" .
+
+
+###  http://example.org/ontology#定级标准
+base:定级标准 rdf:type owl:Class ;
+          rdfs:comment "胜任力维度的L1/L2/L3行为刻度尺，独立于岗位定义，可被多个岗位复用。" ;
+          rdfs:label "定级标准" .
+
+
+###  http://example.org/ontology#岗位
+base:岗位 rdf:type owl:Class ;
+        rdfs:comment "骨架起点，定义业务场景、目标岗位和任用要求。" ;
+        rdfs:label "岗位" .
+
+
+###  http://example.org/ontology#技能
+base:技能 rdf:type owl:Class ;
+        rdfs:label "技能" .
+
+
+###  http://example.org/ontology#经验分类
+base:经验分类 rdf:type owl:Class ;
+          rdfs:comment "行业/岗位/项目等经验分类。" ;
+          rdfs:label "经验分类" .
+
+
+###  http://example.org/ontology#职级
+base:职级 rdf:type owl:Class ;
+        rdfs:comment "供数值比较的职级形式。" ;
+        rdfs:label "数字职级" .
+
+
+###  http://example.org/ontology#能力
+base:能力 rdf:type owl:Class ;
+        rdfs:label "能力" .
+
+
+###  http://example.org/ontology#行业经验
+base:行业经验 rdf:type owl:Class ;
+          rdfs:label "行业经验" .
+
+
+###  http://example.org/ontology#评分指导
+base:评分指导 rdf:type owl:Class ;
+          rdfs:comment "定义具体胜任力在维度中的归属、权重和等级要求。" ;
+          rdfs:label "评分指导" .
+
+
+###  http://example.org/ontology#评分维度
+base:评分维度 rdf:type owl:Class ;
+          rdfs:comment "五大维度：知识、经验、动机、特质、自我认知" ;
+          rdfs:label "评分维度" .
+
+
+###  http://example.org/ontology#项目经验
+base:项目经验 rdf:type owl:Class ;
+          rdfs:comment "原始本体中的经验概念，在完整版里作为背景型胜任力保留。" ;
+          rdfs:label "项目经验" .
+
+###  http://example.org/ontology#领域
+base:领域 rdf:type owl:Class ;
+          rdfs:comment "能力所在的领域" ;
+          rdfs:label "领域" .
+
+###  http://example.org/ontology#证据
+base:证据 rdf:type owl:Class ;
+          rdfs:comment "员工具备的证据" ;
+          rdfs:label "证据" .
+
+###  http://example.org/ontology#推导规则
+base:推导规则 rdf:type owl:Class ;
+          rdfs:comment "描述技能之间的隐含关系，支持权重和逻辑说明" ;
+          rdfs:label "推导规则" .
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

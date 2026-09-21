@@ -1,0 +1,343 @@
+{
+  "姓名": "Candidate_0069",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "-  AWS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "2022年6月至今，在埃森哲担任ISM职位。拥有IT 基础设施项目管理相关专业背景，熟悉网络以及语音架构。擅长跨团队协作，IT风险管控，项目上线后的运维支持。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "擅长跨团队协作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "擅长...IT风险管控",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "结合AI技术，协助项目实现降本增效",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "结合AI技术，协助项目实现降本增效"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "结合AI技术，协助项目实现降本增效"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "结合AI技术，协助项目实现降本增效"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "-  AWS"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长跨团队协作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "2022年6月至今，在埃森哲担任ISM职位。拥有IT 基础设施项目管理相关专业背景，熟悉网络以及语音架构。擅长跨团队协作，IT风险管控，项目上线后的运维支持。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "2022年6月至今，在埃森哲担任ISM职位。拥有IT 基础设施项目管理相关专业背景，熟悉网络以及语音架构。擅长跨团队协作，IT风险管控，项目上线后的运维支持。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长...IT风险管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "2022年6月至今，在埃森哲担任ISM职位。拥有IT 基础设施项目管理相关专业背景，熟悉网络以及语音架构。擅长跨团队协作，IT风险管控，项目上线后的运维支持。",
+        "擅长...IT风险管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  AWS",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "2022年6月至今，在埃森哲担任ISM职位。拥有IT 基础设施项目管理相关专业背景，熟悉网络以及语音架构。擅长跨团队协作，IT风险管控，项目上线后的运维支持。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长跨团队协作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长...IT风险管控",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "结合AI技术，协助项目实现降本增效",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ITIL",
+      "evidence": "核心技能：ITIL"
+    },
+    {
+      "skill_id": "",
+      "name": "BCP",
+      "evidence": "主要交付过项目的网络、语音搭建，BCP方案落地"
+    },
+    {
+      "skill_id": "",
+      "name": "网络与语音架构",
+      "evidence": "熟悉网络以及语音架构"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "ISM / IT服务管理",
+      "时间": "2022年6月至今",
+      "描述": "负责IT基础设施项目管理，熟悉网络及语音架构。擅长跨团队协作与IT风险管控，提供项目上线后运维支持。主要交付项目网络、语音搭建及BCP方案落地。"
+    },
+    {
+      "公司": "大连宇环咨询有限公司",
+      "职位": "",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "多客户项目（海信HR、松下、Siemens等）",
+      "职位": "IT移管与运维",
+      "时间": "",
+      "描述": "负责IT移管与运维工作。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "IT服务管理",
+      "source": "rule",
+      "matched_term": "IT服务"
+    }
+  ],
+  "_batch": {
+    "source_file": "lan.yu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\lan.yu_profile_CN.md",
+    "source_hash": "7eae510100095f0ed13b11207a71bb9e652b08683ba16a28db83edb452ecf4be",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:34:17"
+  },
+  "城市": "Dalian"
+}

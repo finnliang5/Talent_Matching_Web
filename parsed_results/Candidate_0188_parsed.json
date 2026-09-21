@@ -1,0 +1,343 @@
+{
+  "姓名": "Candidate_0188",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "CONSULTING"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 云服务管理运营（Azure、AWS）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理信息库",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "企业架构对齐",
+      "type": "ABILITY",
+      "evidence": "技术架构专家，负责IT技术架构方案设计、实施与转型。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "企业架构对齐"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "协调ISM团队及时跟进公司职能部门针对BPO项目的搬家计划，统筹管理全局IT方案和费用预算，追踪各项目客户的搬家进度。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "IT预算分析和预测，统筹管理全局IT方案和费用预算。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云服务管理运营（Azure、AWS）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调ISM团队及时跟进公司职能部门针对BPO项目的搬家计划，统筹管理全局IT方案和费用预算，追踪各项目客户的搬家进度。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理信息库"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "Enterprise Architecture Alignment",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "技术架构专家，负责IT技术架构方案设计、实施与转型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+          "name": "企业架构对齐"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理信息库"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "IT预算分析和预测，统筹管理全局IT方案和费用预算。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理信息库"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云服务管理运营（Azure、AWS）",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理信息库",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "技术架构专家，负责IT技术架构方案设计、实施与转型。",
+      "supports_entity_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "supports_entity_name": "企业架构对齐",
+      "derived_capability_ids": [
+        "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协调ISM团队及时跟进公司职能部门针对BPO项目的搬家计划，统筹管理全局IT方案和费用预算，追踪各项目客户的搬家进度。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "IT预算分析和预测，统筹管理全局IT方案和费用预算。",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Azure",
+      "evidence": "云服务管理运营（Azure、AWS）"
+    },
+    {
+      "skill_id": "",
+      "name": "Remedy",
+      "evidence": "处理Remedy(ITSM)、ServiceNow事件和服务请求"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "处理Remedy(ITSM)、ServiceNow事件和服务请求"
+    },
+    {
+      "skill_id": "",
+      "name": "ITIL",
+      "evidence": "认证 - ITIL Foundational v3"
+    },
+    {
+      "skill_id": "",
+      "name": "Sharepoint",
+      "evidence": "认证 - Sharepoint Foundational"
+    },
+    {
+      "skill_id": "",
+      "name": "项目管理信息库",
+      "evidence": "工具与平台 - 项目管理信息库"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "",
+      "职位": "网络电话技术工程师",
+      "时间": "2011.01~2011.09",
+      "描述": ""
+    },
+    {
+      "公司": "MTL IO",
+      "职位": "IT呼叫中心技术支持",
+      "时间": "2011.12-2012.10",
+      "描述": ""
+    },
+    {
+      "公司": "CIO",
+      "职位": "IT呼叫中心技术支持",
+      "时间": "2012.11-2013.05",
+      "描述": ""
+    },
+    {
+      "公司": "Pearson IO",
+      "职位": "IT呼叫中心技术支持",
+      "时间": "2013.06-2016.02",
+      "描述": "处理Remedy(ITSM)、ServiceNow事件和服务请求，通过IT热线提供远程技术支持，网络、服务器设备监控，数据库日常备份。"
+    },
+    {
+      "公司": "ISA",
+      "职位": "IT现场工程师",
+      "时间": "2016.03-2019.6",
+      "描述": "现场技术支持，电脑、打印机、扫描仪等软硬件故障排查维修，网络端口设置、故障排查，交换机设备配置维护。"
+    },
+    {
+      "公司": "ISM",
+      "职位": "基础设施服务管理",
+      "时间": "2016.07-至今",
+      "描述": "协助多个BPO新项目（腾讯、贝壳、阿里巴巴、字节、康师傅）移管期间的所有IT相关部署，方案确定、故障排查、测试，确保移管业务100%按计划上线。维护管理BPO在运行项目的基础设施（运营商线路、网络设备、服务器、语音服务），100%保证日常业务顺利交付。协调ISM团队及时跟进公司职能部门针对BPO项目的搬家计划，统筹管理全局IT方案和费用预算，追踪各项目客户的搬家进度。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 维护管理BPO在运行项目的基础设施（运营商线路、网络设备、服务器、语音服务），100%保证日常业务顺利交付。",
+      "source": "rule",
+      "matched_term": "运营商"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "协助BPO新项目（康师傅）移管期间的IT部署",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhenjun.gu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhenjun.gu_profile_CN.md",
+    "source_hash": "0ad4bf54b5024fcde141b48fceceeb7c915faf9e0eed68eea54652aaf5d761e5",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:46:01"
+  },
+  "城市": "Dalian"
+}

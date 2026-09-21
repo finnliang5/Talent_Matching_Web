@@ -1,0 +1,578 @@
+{
+  "姓名": "Candidate_0086",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- FASTAPI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 参与融合 AI 大模型能力的自动化平台设计、开发与测试工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 参与 MySQL 自动化流程开发，实现业务数据自动下载、导入、处理及结果导出，支持多场景数据分析与报表制作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 完成 Bot 从本地 PC 到 AWS Cloud 的迁移，提升系统可扩展性与安全性。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "- Selenium",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "简历文本中命中：测试自动化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "测试自动化"
+    },
+    {
+      "skill_id": "SKILL_PERFORMANCE_TESTING",
+      "name": "性能测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 压力测试",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "压力测试",
+        "负载测试",
+        "Performance Testing",
+        "Load Testing",
+        "Stress Testing"
+      ],
+      "matched_term": "压力测试"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- Splunk Core Certified Power User",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "主导客户需求确认会议，并根据业务需求提供自动化解决方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "协助优化数据处理流程，减少人工操作成本，提高日常业务处理效率。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "主导团队代码集成测试，提升程序稳定性与交付质量。参与制定 Automation Anywhere 开发规范与模板，推动项目自动化开发标准化。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "具备丰富的中日跨国协作经验；主导客户需求确认会议，并根据业务需求提供自动化解决方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 完成 Bot 从本地 PC 到 AWS Cloud 的迁移，提升系统可扩展性与安全性。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备丰富的中日跨国协作经验；主导客户需求确认会议，并根据业务需求提供自动化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "主导团队代码集成测试，提升程序稳定性与交付质量。参与制定 Automation Anywhere 开发规范与模板，推动项目自动化开发标准化。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- Splunk Core Certified Power User"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PERFORMANCE_TESTING",
+      "name": "Performance Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 压力测试"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PERFORMANCE_TESTING",
+          "name": "性能测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Splunk Core Certified Power User"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协助优化数据处理流程，减少人工操作成本，提高日常业务处理效率。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导客户需求确认会议，并根据业务需求提供自动化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "主导客户需求确认会议，并根据业务需求提供自动化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备丰富的中日跨国协作经验；主导客户需求确认会议，并根据业务需求提供自动化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Selenium",
+        "简历文本中命中：测试自动化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- FASTAPI",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 参与融合 AI 大模型能力的自动化平台设计、开发与测试工作。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 参与 MySQL 自动化流程开发，实现业务数据自动下载、导入、处理及结果导出，支持多场景数据分析与报表制作。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 完成 Bot 从本地 PC 到 AWS Cloud 的迁移，提升系统可扩展性与安全性。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Selenium",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "简历文本中命中：测试自动化",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 压力测试",
+      "supports_entity_id": "SKILL_PERFORMANCE_TESTING",
+      "supports_entity_name": "性能测试",
+      "derived_capability_ids": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Splunk Core Certified Power User",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导客户需求确认会议，并根据业务需求提供自动化解决方案。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协助优化数据处理流程，减少人工操作成本，提高日常业务处理效率。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导团队代码集成测试，提升程序稳定性与交付质量。参与制定 Automation Anywhere 开发规范与模板，推动项目自动化开发标准化。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备丰富的中日跨国协作经验；主导客户需求确认会议，并根据业务需求提供自动化解决方案。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Automation Anywhere",
+      "evidence": "使用 Automation Anywhere（AA）与 VBA 开发并部署 10+ RPA Bot"
+    },
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "熟练掌握 RPA 自动化工具；UiPath Certified RPA Associate"
+    },
+    {
+      "skill_id": "",
+      "name": "RiveScript",
+      "evidence": "参与基于 RiveScript 与 Python 的 Chatbot 开发"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲内部",
+      "职位": "软件工程师",
+      "时间": "2025.8~2025.11",
+      "描述": "参与融合 AI 大模型能力的自动化平台设计、开发与测试工作。负责前端页面开发、后端 API 接口设计与实现，以及系统联调与测试验证。参与 AI 大模型 Prompt 的设计、优化与调试。"
+    },
+    {
+      "公司": "Clarios",
+      "职位": "自动化工程师",
+      "时间": "2025.6~2025.8",
+      "描述": "参与自动化工具的开发、测试与维护。基于 VBA 开发自动化功能，实现客户收据数据提取、解析与汇总。协助优化数据处理流程，减少人工操作成本。"
+    },
+    {
+      "公司": "埃森哲S&C Japan",
+      "职位": "自动化工程师",
+      "时间": "2023.8~2025.5",
+      "描述": "参与 Pricing-Staffing Form 自动化流程开发。使用 VBA、ATR 与 Python 实现财务信息确认、邮件监控及系统自动登录。参与 MySQL 自动化流程开发。主导团队代码集成测试。主导客户需求确认会议并提供自动化解决方案。负责运维支持与流程优化。"
+    },
+    {
+      "公司": "Cosmo-Oil",
+      "职位": "自动化工程师",
+      "时间": "2020.11~2023.8",
+      "描述": "使用 AA 与 VBA 开发部署 10+ RPA Bot，实现与 ATR、SAP、Notes 联动。参与基于 RiveScript 与 Python 的 Chatbot 开发。执行压力测试与集成测试。协助故障调查。参与制定 AA 开发规范与模板。"
+    },
+    {
+      "公司": "Aeon",
+      "职位": "自动化工程师",
+      "时间": "2020.6~2020.11",
+      "描述": "针对 4 个业务场景开发上线 7 个 RPA Bot。编写开发与测试文档。将 100+ RPA Bot 从 AA V11 升级至 Automation 360。完成 Bot 从本地 PC 到 AWS Cloud 的迁移。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融审计行业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "我是一名自动化工程师，拥有近 5 年 IT 行业经验，参与过多个项目中自动化程序的设计、开发与测试工作。熟悉软件测试流程及质量保证体系，并积累了丰富的行业实践经验。熟练掌握 RPA 自动化工具及 VBA 开发。",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售 / 超市行业",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "mengni.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\mengni.liu_profile_CN.md",
+    "source_hash": "563309b16cbcf9b674e1d1669b06f272b8c05cdc63d05cf7a037a7ffd7c7b8a1",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:43:51"
+  },
+  "城市": "Dalian"
+}

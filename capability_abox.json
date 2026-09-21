@@ -1,0 +1,864 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Capability 列表（按 Domain 关联）"
+  },
+  "capabilities": [
+    {
+      "id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "type": "CAPABILITY",
+      "description": "Build autonomous and tool-using AI agents",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["智能体开发", "Agent开发"]
+    },
+    {
+      "id": "CAP_RAG",
+      "name": "RAG",
+      "type": "CAPABILITY",
+      "description": "Retrieval-Augmented Generation design and implementation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["检索增强生成"]
+    },
+    {
+      "id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "type": "CAPABILITY",
+      "description": "Knowledge graph modeling, linking, and reasoning",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["知识图谱"]
+    },
+    {
+      "id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "type": "CAPABILITY",
+      "description": "Design maintainable and versioned APIs",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["接口设计"]
+    },
+    {
+      "id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "type": "CAPABILITY",
+      "description": "Design scalable and reliable software systems",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["系统设计"]
+    },
+    {
+      "id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "type": "CAPABILITY",
+      "description": "Build frontend applications using Angular, TypeScript, component patterns, routing, and state management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["Angular前端开发", "Angular工程化"]
+    },
+    {
+      "id": "CAP_IDENTITY_ACCESS_MANAGEMENT",
+      "name": "Identity and Access Management",
+      "type": "CAPABILITY",
+      "description": "Implement authentication, authorization, SSO, OAuth2, OpenID Connect, and identity provider integrations",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["身份认证与访问管理", "IAM", "单点登录", "SSO"]
+    },
+    {
+      "id": "CAP_MESSAGE_QUEUE_INTEGRATION",
+      "name": "Message Queue Integration",
+      "type": "CAPABILITY",
+      "description": "Design and integrate asynchronous messaging, queues, exchanges, routing, and event-driven communication",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["消息队列集成", "异步消息", "事件驱动集成"]
+    },
+    {
+      "id": "CAP_SERVERLESS_FUNCTION_DEVELOPMENT",
+      "name": "Serverless Function Development",
+      "type": "CAPABILITY",
+      "description": "Build and operate serverless functions and event-driven cloud workloads",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["Serverless开发", "云函数开发", "无服务器函数开发"]
+    },
+    {
+      "id": "CAP_CLOUD_KEY_MANAGEMENT",
+      "name": "Cloud Key Management",
+      "type": "CAPABILITY",
+      "description": "Manage cloud secrets, encryption keys, key vaults, and KMS integrations for secure applications",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["云密钥管理", "密钥管理服务", "KMS", "Key Vault"]
+    },
+    {
+      "id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "type": "CAPABILITY",
+      "description": "Build LLM applications, workflows, chatbots, and RAG apps with Dify",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["Dify应用编排", "Dify工作流", "Dify智能体应用"]
+    },
+    {
+      "id": "CAP_CODE_QUALITY",
+      "name": "Code Quality Engineering",
+      "type": "CAPABILITY",
+      "description": "Testing, refactoring, and code quality governance",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["代码质量", "测试与重构"]
+    },
+    {
+      "id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "type": "CAPABILITY",
+      "description": "Design and execute API tests covering request validation, response verification, and integration behavior",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["接口测试", "API测试"]
+    },
+    {
+      "id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "type": "CAPABILITY",
+      "description": "Build and maintain automated tests for UI, API, regression, and continuous testing scenarios",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["自动化测试", "测试自动化"]
+    },
+    {
+      "id": "CAP_PERFORMANCE_TESTING",
+      "name": "Performance Testing",
+      "type": "CAPABILITY",
+      "description": "Design and execute load, stress, and performance tests to evaluate system throughput and stability",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["性能测试", "压力测试", "负载测试"]
+    },
+    {
+      "id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "type": "CAPABILITY",
+      "description": "Design test cases and test scenarios based on requirements, business flows, and risk coverage",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["测试用例设计", "测试场景设计"]
+    },
+    {
+      "id": "CAP_DEFECT_MANAGEMENT",
+      "name": "Defect Management",
+      "type": "CAPABILITY",
+      "description": "Track, analyze, prioritize, and coordinate defect resolution across delivery teams",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["缺陷管理", "Bug管理", "缺陷跟踪"]
+    },
+    {
+      "id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "type": "CAPABILITY",
+      "description": "Build batch and streaming data pipelines",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据管道开发"]
+    },
+    {
+      "id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "type": "CAPABILITY",
+      "description": "Model data for analytical and operational use",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据建模"]
+    },
+    {
+      "id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "type": "CAPABILITY",
+      "description": "Design and optimize data warehouse architecture",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据仓库"]
+    },
+    {
+      "id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "type": "CAPABILITY",
+      "description": "Create business intelligence dashboards and KPI views",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["BI看板"]
+    },
+    {
+      "id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "type": "CAPABILITY",
+      "description": "Apply statistics to interpret and validate data",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["统计分析"]
+    },
+    {
+      "id": "CAP_DATA_STORYTELLING",
+      "name": "Data Storytelling",
+      "type": "CAPABILITY",
+      "description": "Translate analysis into business narratives",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["数据叙事"]
+    },
+    {
+      "id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "type": "CAPABILITY",
+      "description": "Design cloud-native architectures",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["云架构"]
+    },
+    {
+      "id": "CAP_INFRASTRUCTURE_AS_CODE",
+      "name": "Infrastructure as Code",
+      "type": "CAPABILITY",
+      "description": "Provision and manage infrastructure via code",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["IaC", "基础设施即代码"]
+    },
+    {
+      "id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "type": "CAPABILITY",
+      "description": "Improve reliability, availability, and observability",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["平台可靠性", "SRE能力"]
+    },
+    {
+      "id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "type": "CAPABILITY",
+      "description": "Build and optimize CI/CD pipelines",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["持续集成与持续交付"]
+    },
+    {
+      "id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "type": "CAPABILITY",
+      "description": "Plan and govern release lifecycle",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["发布管理"]
+    },
+    {
+      "id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "type": "CAPABILITY",
+      "description": "Detect, diagnose, and resolve production incidents",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["监控与故障响应"]
+    },
+    {
+      "id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "type": "CAPABILITY",
+      "description": "Elicit and analyze business requirements",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["需求分析"]
+    },
+    {
+      "id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "type": "CAPABILITY",
+      "description": "Model and optimize business processes",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["业务流程建模"]
+    },
+    {
+      "id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "type": "CAPABILITY",
+      "description": "Align cross-functional stakeholders and expectations",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["干系人管理"]
+    },
+    {
+      "id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "type": "CAPABILITY",
+      "description": "Define AI vision, roadmap, and execution priorities",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI路线图规划"]
+    },
+    {
+      "id": "CAP_AI_GOVERNANCE",
+      "name": "AI Governance",
+      "type": "CAPABILITY",
+      "description": "Establish AI governance, risk, and compliance controls",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI治理"]
+    },
+    {
+      "id": "CAP_AI_VALUE_ASSESSMENT",
+      "name": "AI Value Assessment",
+      "type": "CAPABILITY",
+      "description": "Assess AI initiatives by value, feasibility, and risk",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI价值评估"]
+    },
+    {
+      "id": "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "Enterprise Architecture Alignment",
+      "type": "CAPABILITY",
+      "description": "Align solution design with enterprise architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["企业架构对齐"]
+    },
+    {
+      "id": "CAP_INTEGRATION_ARCHITECTURE",
+      "name": "Integration Architecture",
+      "type": "CAPABILITY",
+      "description": "Design integration patterns across systems and services",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["集成架构"]
+    },
+    {
+      "id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "type": "CAPABILITY",
+      "description": "Design for performance, security, and reliability",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["非功能需求设计"]
+    },
+    {
+      "id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "type": "CAPABILITY",
+      "description": "Plan scope, schedule, and milestones",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["项目规划"]
+    },
+    {
+      "id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "type": "CAPABILITY",
+      "description": "Identify, assess, and mitigate project risks",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["风险管理"]
+    },
+    {
+      "id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "type": "CAPABILITY",
+      "description": "Govern delivery quality, progress, and reporting",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["交付治理"]
+    },
+    {
+      "id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "type": "CAPABILITY",
+      "description": "Integrate OpenAI SDK for streaming, function calling, and multi-turn chats",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["OpenAI SDK开发", "大模型接口开发"]
+    },
+    {
+      "id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "type": "CAPABILITY",
+      "description": "Build prompt chains, retrievers, and agent tools with LangChain",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["LangChain编排"]
+    },
+    {
+      "id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "type": "CAPABILITY",
+      "description": "Design and optimize vector retrieval workflows with Milvus or DashVector",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["向量数据库", "Milvus", "DashVector"]
+    },
+    {
+      "id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "type": "CAPABILITY",
+      "description": "Optimize prompts for reliability, controllability, and output quality",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["Prompt优化"]
+    },
+    {
+      "id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "type": "CAPABILITY",
+      "description": "Enable agents to plan and execute multi-step tasks autonomously",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["智能体自主执行"]
+    },
+    {
+      "id": "CAP_STREAMING_SSE_INTERFACE",
+      "name": "Streaming SSE Interface",
+      "type": "CAPABILITY",
+      "description": "Implement server-sent event streaming APIs for AI response delivery",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["SSE流式接口"]
+    },
+    {
+      "id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+      "name": "Conversation State Management",
+      "type": "CAPABILITY",
+      "description": "Manage multi-turn session context and dialogue memory",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["会话管理", "多轮对话管理"]
+    },
+    {
+      "id": "CAP_AI_RATE_LIMITING",
+      "name": "AI Service Rate Limiting",
+      "type": "CAPABILITY",
+      "description": "Design API throttling and protection mechanisms for AI services",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["接口限流"]
+    },
+    {
+      "id": "CAP_FULL_STACK_ARCHITECTURE",
+      "name": "Full Stack Architecture",
+      "type": "CAPABILITY",
+      "description": "Design and deliver integrated frontend-backend architectures",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["全栈架构设计"]
+    },
+    {
+      "id": "CAP_REACT_TYPESCRIPT_ENGINEERING",
+      "name": "React + TypeScript Engineering",
+      "type": "CAPABILITY",
+      "description": "Build enterprise frontend systems with React and TypeScript",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["React+TypeScript开发"]
+    },
+    {
+      "id": "CAP_ANT_DESIGN_PRO_IMPLEMENTATION",
+      "name": "Ant Design Pro Implementation",
+      "type": "CAPABILITY",
+      "description": "Implement admin systems with Ant Design Pro",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["Ant Design Pro实战"]
+    },
+    {
+      "id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "type": "CAPABILITY",
+      "description": "Use hooks and state patterns for maintainable frontend logic",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["Hooks", "状态管理"]
+    },
+    {
+      "id": "CAP_ROUTING_GUARD_DESIGN",
+      "name": "Routing Guard Design",
+      "type": "CAPABILITY",
+      "description": "Design route guards and permission-aware navigation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["路由守卫"]
+    },
+    {
+      "id": "CAP_COMPONENT_ABSTRACTION",
+      "name": "Component Abstraction",
+      "type": "CAPABILITY",
+      "description": "Abstract reusable UI and business components",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["组件抽象"]
+    },
+    {
+      "id": "CAP_FASTAPI_ASYNC_BACKEND",
+      "name": "FastAPI Async Backend",
+      "type": "CAPABILITY",
+      "description": "Develop asynchronous backend services with FastAPI",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["FastAPI异步开发"]
+    },
+    {
+      "id": "CAP_FASTAPI_DEPENDENCY_INJECTION",
+      "name": "FastAPI Dependency Injection",
+      "type": "CAPABILITY",
+      "description": "Apply dependency injection patterns in FastAPI services",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["依赖注入"]
+    },
+    {
+      "id": "CAP_FASTAPI_EXCEPTION_HANDLING",
+      "name": "FastAPI Exception Handling",
+      "type": "CAPABILITY",
+      "description": "Implement robust error capture and exception strategies",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["异常捕获"]
+    },
+    {
+      "id": "CAP_API_DOCUMENTATION_AUTOGEN",
+      "name": "API Documentation Autogeneration",
+      "type": "CAPABILITY",
+      "description": "Generate and maintain API docs from code definitions",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["接口文档自动生成"]
+    },
+    {
+      "id": "CAP_SQLALCHEMY_POSTGRESQL",
+      "name": "SQLAlchemy + PostgreSQL",
+      "type": "CAPABILITY",
+      "description": "Model and access PostgreSQL data using SQLAlchemy",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["SQLAlchemy", "PostgreSQL开发"]
+    },
+    {
+      "id": "CAP_ENTERPRISE_WECHAT_OPENAPI",
+      "name": "Enterprise WeChat OpenAPI Integration",
+      "type": "CAPABILITY",
+      "description": "Integrate enterprise WeChat APIs for messaging and event callbacks",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["企微OpenAPI", "企业微信开发"]
+    },
+    {
+      "id": "CAP_CODE_REVIEW_AND_STANDARDS",
+      "name": "Code Review and Technical Standards",
+      "type": "CAPABILITY",
+      "description": "Lead code reviews and enforce engineering standards",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["Code Review", "技术规范落地"]
+    },
+    {
+      "id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "type": "CAPABILITY",
+      "description": "Decompose business requirements into implementable technical work",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["业务需求拆解"]
+    },
+    {
+      "id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "type": "CAPABILITY",
+      "description": "Identify and communicate technical risks early across teams",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "aliases": ["技术风险同步"]
+    },
+    {
+      "id": "CAP_DATA_WAREHOUSE_MODELING",
+      "name": "Data Warehouse Modeling",
+      "type": "CAPABILITY",
+      "description": "Design dimensional and layered warehouse models",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据仓库建模"]
+    },
+    {
+      "id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "type": "CAPABILITY",
+      "description": "Develop and maintain enterprise data warehouse pipelines",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据仓库开发"]
+    },
+    {
+      "id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "type": "CAPABILITY",
+      "description": "Define organization-wide data governance principles and controls",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据治理框架"]
+    },
+    {
+      "id": "CAP_DATA_QUALITY_MANAGEMENT",
+      "name": "Data Quality Management",
+      "type": "CAPABILITY",
+      "description": "Establish data quality rules, checks, and remediation workflows",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据质量管理"]
+    },
+    {
+      "id": "CAP_METADATA_MANAGEMENT",
+      "name": "Metadata Management",
+      "type": "CAPABILITY",
+      "description": "Manage business and technical metadata for discoverability",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["元数据管理"]
+    },
+    {
+      "id": "CAP_MASTER_DATA_MANAGEMENT",
+      "name": "Master Data Management",
+      "type": "CAPABILITY",
+      "description": "Govern core master data entities and consistency",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["主数据管理"]
+    },
+    {
+      "id": "CAP_DATA_LINEAGE_MANAGEMENT",
+      "name": "Data Lineage Management",
+      "type": "CAPABILITY",
+      "description": "Track data lineage for traceability and impact analysis",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据血缘"]
+    },
+    {
+      "id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "type": "CAPABILITY",
+      "description": "Build and enforce data standards across systems",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "aliases": ["数据标准化"]
+    },
+    {
+      "id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "type": "CAPABILITY",
+      "description": "Analyze capability gaps between current and target business states",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["差距分析"]
+    },
+    {
+      "id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "type": "CAPABILITY",
+      "description": "Benchmark against leading practices and competitors",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["行业对标分析"]
+    },
+    {
+      "id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "type": "CAPABILITY",
+      "description": "Discover high-value AI opportunities from business pain points",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["AI机会洞察"]
+    },
+    {
+      "id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "type": "CAPABILITY",
+      "description": "Quantify potential business value of initiatives",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["业务价值量化"]
+    },
+    {
+      "id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "type": "CAPABILITY",
+      "description": "Package applications and services into production-ready images",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["Docker镜像打包"]
+    },
+    {
+      "id": "CAP_HARBOR_REGISTRY_MANAGEMENT",
+      "name": "Harbor Registry Management",
+      "type": "CAPABILITY",
+      "description": "Manage private container registries with Harbor",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["Harbor私有仓库"]
+    },
+    {
+      "id": "CAP_ACS_CONTAINER_DEPLOYMENT",
+      "name": "ACS Container Deployment",
+      "type": "CAPABILITY",
+      "description": "Deploy and operate container services on ACS clusters",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["ACS容器部署"]
+    },
+    {
+      "id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "type": "CAPABILITY",
+      "description": "Operate and troubleshoot containerized runtime environments",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "aliases": ["容器运维"]
+    },
+    {
+      "id": "CAP_YUNXIAO_PIPELINE_RELEASE",
+      "name": "Yunxiao Pipeline Release",
+      "type": "CAPABILITY",
+      "description": "Configure and execute release flows in Yunxiao pipelines",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["云效流水线发布"]
+    },
+    {
+      "id": "CAP_RELEASE_ROLLBACK_STRATEGY",
+      "name": "Release Rollback Strategy",
+      "type": "CAPABILITY",
+      "description": "Design rollback and recovery plans for safe releases",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["发布回滚策略"]
+    },
+    {
+      "id": "CAP_DEVSECOPS_BASELINE",
+      "name": "DevSecOps Baseline",
+      "type": "CAPABILITY",
+      "description": "Embed security checks into CI/CD and delivery workflows",
+      "domain_id": "DOMAIN_DEVOPS",
+      "aliases": ["DevSecOps"]
+    },
+    {
+      "id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "type": "CAPABILITY",
+      "description": "Deliver structured consulting outputs for business and data programs",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["咨询交付"]
+    },
+    {
+      "id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "type": "CAPABILITY",
+      "description": "Identify business pain points and transformation opportunities",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["业务洞察"]
+    },
+    {
+      "id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "type": "CAPABILITY",
+      "description": "Select AI use cases based on value, feasibility, and cost",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["智能体场景选型"]
+    },
+    {
+      "id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "type": "CAPABILITY",
+      "description": "Assess technical feasibility, implementation cost, and dependencies",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["可行性与成本评估"]
+    },
+    {
+      "id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "type": "CAPABILITY",
+      "description": "Coordinate across business and technical teams effectively",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["沟通协调能力"]
+    },
+    {
+      "id": "CAP_AI_MATURITY_ASSESSMENT",
+      "name": "AI Maturity Assessment",
+      "type": "CAPABILITY",
+      "description": "Evaluate organizational AI maturity across capability, data, and process",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI能力成熟度评估"]
+    },
+    {
+      "id": "CAP_AI_IMPLEMENTATION_STRATEGY",
+      "name": "AI Implementation Strategy",
+      "type": "CAPABILITY",
+      "description": "Define annual AI strategy and execution priorities by domain",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI实施策略"]
+    },
+    {
+      "id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "type": "CAPABILITY",
+      "description": "Manage a portfolio of AI use cases across business units",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI场景组合管理"]
+    },
+    {
+      "id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "type": "CAPABILITY",
+      "description": "Design high-level architectures for business AI solutions",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["高阶方案设计"]
+    },
+    {
+      "id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+      "name": "Agent Layered Architecture",
+      "type": "CAPABILITY",
+      "description": "Design perception-decision-execution layered agent architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["感知决策执行分层设计"]
+    },
+    {
+      "id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+      "name": "ERP and AI Integration Design",
+      "type": "CAPABILITY",
+      "description": "Design integrations between ERP systems and AI platforms",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["ERP与AI底座集成"]
+    },
+    {
+      "id": "CAP_TECH_DEPENDENCY_MAPPING",
+      "name": "Technical Dependency Mapping",
+      "type": "CAPABILITY",
+      "description": "Map critical technical dependencies for solution delivery",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "aliases": ["技术依赖识别"]
+    },
+    {
+      "id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "type": "CAPABILITY",
+      "description": "Plan phase-based delivery roadmaps such as Q1-Q4 milestones",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["分阶段路线图规划"]
+    },
+    {
+      "id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "type": "CAPABILITY",
+      "description": "Plan people, budget, and capacity across project phases",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["资源需求规划"]
+    },
+    {
+      "id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "type": "CAPABILITY",
+      "description": "Prepare risk contingency plans for critical project scenarios",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["风险预案"]
+    },
+    {
+      "id": "CAP_REMOTE_COLLABORATION_DELIVERY",
+      "name": "Remote Collaboration Delivery",
+      "type": "CAPABILITY",
+      "description": "Deliver projects efficiently in distributed remote collaboration modes",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["远程协作交付"]
+    },
+    {
+      "id": "CAP_AI_GOVERNANCE_FRAMEWORK",
+      "name": "AI Governance Framework",
+      "type": "CAPABILITY",
+      "description": "Design AI governance frameworks covering data security, model control, access policy, risk, and compliance",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "aliases": ["AI治理体系", "AI治理框架"]
+    },
+    {
+      "id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "type": "CAPABILITY",
+      "description": "Manage organizational change, adoption, training, and process transformation for digital initiatives",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "aliases": ["业务变革管理", "数字化变革管理"]
+    },
+    {
+      "id": "CAP_CUSTOMER_SUCCESS_OPERATION",
+      "name": "Customer Success Operation",
+      "type": "CAPABILITY",
+      "description": "Operate customer lifecycle management, renewal expansion, and customer success mechanisms",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "aliases": ["客户成功运营", "客户全生命周期经营"]
+    },
+    {
+      "id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "type": "CAPABILITY",
+      "description": "Build supervised and unsupervised machine learning models for prediction, classification, ranking, and segmentation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["机器学习建模", "ML建模", "预测建模"]
+    },
+    {
+      "id": "CAP_FEATURE_ENGINEERING",
+      "name": "Feature Engineering",
+      "type": "CAPABILITY",
+      "description": "Create, transform, select, and validate features for machine learning models",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["特征工程", "特征构建", "特征选择"]
+    },
+    {
+      "id": "CAP_MODEL_EVALUATION",
+      "name": "Model Evaluation",
+      "type": "CAPABILITY",
+      "description": "Evaluate model performance with appropriate metrics, validation strategies, and error analysis",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["模型评估", "模型验证", "模型效果评估"]
+    },
+    {
+      "id": "CAP_EXPERIMENTATION_AB_TESTING",
+      "name": "Experimentation and A/B Testing",
+      "type": "CAPABILITY",
+      "description": "Design and analyze controlled experiments, A/B tests, and uplift measurement",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "aliases": ["AB测试", "A/B测试", "实验分析", "实验设计"]
+    },
+    {
+      "id": "CAP_MODEL_INTERPRETABILITY",
+      "name": "Model Interpretability",
+      "type": "CAPABILITY",
+      "description": "Explain model predictions and feature impact using interpretability techniques",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "aliases": ["模型可解释性", "模型解释", "特征重要性分析"]
+    }
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "姓名": "Candidate_0174",
+  "级别": "Level 12",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "数据科学与大数据技术专业出身，具备2年算法与开发实战经验。核心优势聚焦于扎实的Python工程化开发，以及机器学习模型从训练、调优到业务场景落地的全链路能力。日常主要交付各类可落地的算法模型及配套的Python应用代码，致力于用数据技术解决实际业务问题。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言：Java，Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "后端开发： 负责该项目核心后端逻辑的编写，基于 Python与FastAPI框架完成接口开发与业务链路搭建。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI相关：vLLM，ollama，RAG，Agent",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：MySQL，SQL server，PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：MySQL，SQL server，PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_JUPYTER_NOTEBOOK",
+      "name": "Jupyter Notebook",
+      "type": "TOOL",
+      "evidence": "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Jupyter",
+        "JupyterLab",
+        "Notebook"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Jupyter Notebook"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "数据科学与大数据技术专业出身，具备2年算法与开发实战经验。核心优势聚焦于扎实的Python工程化开发，以及机器学习模型从训练、调优到业务场景落地的全链路能力。日常主要交付各类可落地的算法模型及配套的Python应用代码，致力于用数据技术解决实际业务问题。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "运行与部署环境： Linux (Ubuntu/CentOS/RHEL), Docker, MySQL/PostgreSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "evidence": "开发与调试工具： PyCharm, VS Code, Postman, Git",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Postman API"
+      ],
+      "matched_term": "Postman"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "开发与调试工具： PyCharm, VS Code, Postman, Git"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POSTMAN",
+          "name": "Postman"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STORYTELLING",
+      "name": "Data Storytelling",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "运行与部署环境： Linux (Ubuntu/CentOS/RHEL), Docker, MySQL/PostgreSQL"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "数据科学与大数据技术专业出身，具备2年算法与开发实战经验。核心优势聚焦于扎实的Python工程化开发，以及机器学习模型从训练、调优到业务场景落地的全链路能力。日常主要交付各类可落地的算法模型及配套的Python应用代码，致力于用数据技术解决实际业务问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI相关：vLLM，ollama，RAG，Agent"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "数据科学与大数据技术专业出身，具备2年算法与开发实战经验。核心优势聚焦于扎实的Python工程化开发，以及机器学习模型从训练、调优到业务场景落地的全链路能力。日常主要交付各类可落地的算法模型及配套的Python应用代码，致力于用数据技术解决实际业务问题。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：Java，Python",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "后端开发： 负责该项目核心后端逻辑的编写，基于 Python与FastAPI框架完成接口开发与业务链路搭建。",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI相关：vLLM，ollama，RAG，Agent",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：MySQL，SQL server，PostgreSQL",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：MySQL，SQL server，PostgreSQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM",
+      "supports_entity_id": "SKILL_JUPYTER_NOTEBOOK",
+      "supports_entity_name": "Jupyter Notebook",
+      "derived_capability_ids": [
+        "CAP_DATA_STORYTELLING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "数据科学与大数据技术专业出身，具备2年算法与开发实战经验。核心优势聚焦于扎实的Python工程化开发，以及机器学习模型从训练、调优到业务场景落地的全链路能力。日常主要交付各类可落地的算法模型及配套的Python应用代码，致力于用数据技术解决实际业务问题。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "运行与部署环境： Linux (Ubuntu/CentOS/RHEL), Docker, MySQL/PostgreSQL",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "开发与调试工具： PyCharm, VS Code, Postman, Git",
+      "supports_entity_id": "SKILL_POSTMAN",
+      "supports_entity_name": "Postman",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "vLLM",
+      "evidence": "AI相关：vLLM，ollama，RAG，Agent"
+    },
+    {
+      "skill_id": "",
+      "name": "ollama",
+      "evidence": "AI相关：vLLM，ollama，RAG，Agent"
+    },
+    {
+      "skill_id": "",
+      "name": "Agent",
+      "evidence": "AI相关：vLLM，ollama，RAG，Agent"
+    },
+    {
+      "skill_id": "",
+      "name": "PaddleOCR",
+      "evidence": "引入并部署PaddleOCR模型，实现对 PDF 与 JPG 混合格式文件的高精度识别与自动分类"
+    },
+    {
+      "skill_id": "",
+      "name": "NLP模型",
+      "evidence": "结合NLP模型进行关键字段的自动化提取与清洗"
+    },
+    {
+      "skill_id": "",
+      "name": "PyCharm",
+      "evidence": "开发与调试工具： PyCharm, VS Code, Postman, Git"
+    },
+    {
+      "skill_id": "",
+      "name": "VS Code",
+      "evidence": "开发与调试工具： PyCharm, VS Code, Postman, Git"
+    },
+    {
+      "skill_id": "",
+      "name": "Anaconda",
+      "evidence": "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM"
+    },
+    {
+      "skill_id": "",
+      "name": "Dbeaver",
+      "evidence": "模型与数据工具： Jupyter Notebook, Anaconda ，Dbeaver，vLLM"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "",
+      "职位": "Packaged App Development Associate",
+      "时间": "",
+      "描述": "三单匹配系统：负责核心后端逻辑编写，基于Python与FastAPI完成接口开发，部署PaddleOCR模型实现单据识别与分类，交付稳定API接口，提升单据匹配自动化率。"
+    },
+    {
+      "公司": "",
+      "职位": "Packaged App Development Associate",
+      "时间": "",
+      "描述": "收货单智能转换与录入系统：负责收货单解析模块的Python开发，实现非结构化PDF到结构化Excel/JSON格式转换，结合NLP模型进行关键字段自动提取与清洗。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【互联网】",
+      "source": "rule",
+      "matched_term": "互联网"
+    }
+  ],
+  "_batch": {
+    "source_file": "yuantu.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yuantu.wang_profile_CN.md",
+    "source_hash": "95941b362463af4152deefce7543dc801a1a310168c6e951030025c2c1a74f3f",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:39:12"
+  },
+  "城市": "Dalian"
+}

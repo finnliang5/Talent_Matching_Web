@@ -1,0 +1,449 @@
+{
+  "姓名": "Candidate_0104",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 前端技术： JavaScript、Vue/React",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端技术： JavaScript、Vue/React",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端技术： JavaScript、Vue/React",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "拥有多年软件技术开发实施与企业流程自动化经验，专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景。擅长融合RPA、OCR及AI/ML技术，驱动业务流程的智能化改善与端到端再造。具备从客户需求分析、解决方案定制，到系统开发与项目交付的全链路落地能力。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理与客户交付",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "负责采购流程、财务流程等关键业务流程的再造与优化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责财务智能对账与风控方案设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与客户交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责财务智能对账与风控方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责财务智能对账与风控方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责采购流程、财务流程等关键业务流程的再造与优化",
+        "专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与客户交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 前端技术： JavaScript、Vue/React"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有多年软件技术开发实施与企业流程自动化经验，专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景。擅长融合RPA、OCR及AI/ML技术，驱动业务流程的智能化改善与端到端再造。具备从客户需求分析、解决方案定制，到系统开发与项目交付的全链路落地能力。",
+        "专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有多年软件技术开发实施与企业流程自动化经验，专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景。擅长融合RPA、OCR及AI/ML技术，驱动业务流程的智能化改善与端到端再造。具备从客户需求分析、解决方案定制，到系统开发与项目交付的全链路落地能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与客户交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端技术： JavaScript、Vue/React",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端技术： JavaScript、Vue/React",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端技术： JavaScript、Vue/React",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有多年软件技术开发实施与企业流程自动化经验，专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景。擅长融合RPA、OCR及AI/ML技术，驱动业务流程的智能化改善与端到端再造。具备从客户需求分析、解决方案定制，到系统开发与项目交付的全链路落地能力。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理与客户交付",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责采购流程、财务流程等关键业务流程的再造与优化",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责财务智能对账与风控方案设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专注于财务、采购、HR等职能领域的数字化转型与交付，覆盖应收、应付、总账与资产管理、OA协同等核心业务场景",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": ".NET/C#",
+      "evidence": "后端架构： .NET/C#"
+    },
+    {
+      "skill_id": "",
+      "name": "Vue/React",
+      "evidence": "前端技术： JavaScript、Vue/React"
+    },
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "流程自动化： UiPath、影刀、飞书集成"
+    },
+    {
+      "skill_id": "",
+      "name": "影刀",
+      "evidence": "流程自动化： UiPath、影刀、飞书集成"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR",
+      "evidence": "AI工程化： 智能文档处理（IDP）、认知自动化（RPA+AI）、异常检测、OCR识别"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "RPA自动化实施（UiPath/影刀）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "北京首钢机电有限公司",
+      "职位": "",
+      "时间": "2011.07",
+      "描述": ""
+    },
+    {
+      "公司": "大连文思海辉信息技术有限公司",
+      "职位": "",
+      "时间": "2016.07",
+      "描述": ""
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "软件技术开发实施负责人 / 自动化交付",
+      "时间": "",
+      "描述": "负责采购流程、财务流程等关键业务流程的再造与优化，基于RPA+AI架构实现端到端自动化；负责财务智能对账与风控方案设计，运用RPA采集数据并结合规则引擎与异常检测算法，实现快速对账及异常交易识别；负责客户业务场景的需求分析及定制化系统开发，确保技术与业务高度匹配。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Team Lead",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "q.qu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\q.qu_profile_CN.md",
+    "source_hash": "64c5de963e6e557f31aead051c57e9021f8a3096044297e7731d8d217f10c348",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:51:53"
+  },
+  "城市": "Dalian"
+}

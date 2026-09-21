@@ -1,0 +1,166 @@
+{
+  "岗位名称": "Data SM",
+  "岗位类型": {
+    "primary": "CONSULTING",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_requirement_count": 0,
+      "competency_requirement_count": 2
+    }
+  },
+  "技术技能要求": [],
+  "胜任力要求": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "北京联想项目需要一位有consulting经验的Data SM，做知识和数据治理，地点北京，时间两个月。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "有consulting经验",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付",
+      "priority": "must"
+    }
+  ],
+  "能力要求": [
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "有consulting经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_CONSULTING_DELIVERY",
+          "name": "Consulting Delivery"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "北京联想项目需要一位有consulting经验的Data SM，做知识和数据治理，地点北京，时间两个月。",
+        "做知识和数据治理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "Data Governance Framework"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "北京联想项目需要一位有consulting经验的Data SM，做知识和数据治理，地点北京，时间两个月。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "有consulting经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域要求": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "本体外技术技能要求": [],
+  "经验要求": [
+    "consulting经验",
+    "两个月项目周期"
+  ],
+  "级别要求": "Level 6",
+  "是否有级别要求": true,
+  "级别推断": {
+    "level_requirement": "Level 6",
+    "has_level_requirement": true,
+    "source": "title_level_rule",
+    "evidence": "SM",
+    "confidence": 0.9
+  },
+  "证据": [
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "北京联想项目需要一位有consulting经验的Data SM，做知识和数据治理，地点北京，时间两个月。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "有consulting经验",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ]
+}

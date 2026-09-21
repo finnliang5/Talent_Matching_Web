@@ -1,0 +1,1323 @@
+{
+  "姓名": "Candidate_0164",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 29,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_EXPRESS",
+      "name": "Express",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Express.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_NODEJS"
+      ],
+      "matched_term": "Express"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端：React 18、Ant Design、ECharts、Electron、qiankun 微前端",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LANGGRAPH",
+      "name": "LangGraph",
+      "type": "FRAMEWORK",
+      "evidence": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_LANGCHAIN"
+      ],
+      "matched_term": "LangGraph"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP协议"
+    },
+    {
+      "skill_id": "SKILL_AZURE_OPENAI",
+      "name": "Azure OpenAI",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 构建多供应商 LLM 集成层：Azure OpenAI（GPT-5.x）、AWS Bedrock（Claude）、Anthropic（Claude Fable）、Google Gemini，统一 reasoning/temperature/thinking-mode 配置管理",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Azure OpenAI Service",
+        "AOAI",
+        "Azure OpenAI API"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Azure OpenAI"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_DASHVECTOR",
+      "name": "DashVector",
+      "type": "VECTOR_DATABASE",
+      "evidence": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "DashVector"
+    },
+    {
+      "skill_id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "evidence": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Milvus"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_HADOOP",
+      "name": "Hadoop",
+      "type": "DATA_PLATFORM",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hadoop",
+        "HDFS"
+      ],
+      "matched_term": "Hadoop"
+    },
+    {
+      "skill_id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "matched_term": "Spark"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_SQLALCHEMY",
+      "name": "SQLAlchemy",
+      "type": "LIBRARY",
+      "evidence": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "belongs_to": [
+        "SKILL_POSTGRESQL",
+        "SKILL_MYSQL"
+      ],
+      "matched_term": "SQLAlchemy"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 基础设施：Docker、Kubernetes、GitLab CI、Helm、云迁移",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_ACS",
+      "name": "ACS",
+      "type": "PLATFORM",
+      "evidence": "- 云平台：AWS（Lambda、API Gateway、Cognito、S3、ECR）、阿里云（ACK、API Gateway、OSS、IDaaS）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Container Service",
+        "ACK"
+      ],
+      "belongs_to": [
+        "SKILL_KUBERNETES"
+      ],
+      "matched_term": "ACK"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "测试自动化"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "设计并交付面向法律行业的分布式数据处理与分析解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "负责部门技术战略、架构决策与团队技术成长管理",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_ACS_CONTAINER_DEPLOYMENT",
+      "name": "ACS Container Deployment",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云平台：AWS（Lambda、API Gateway、Cognito、S3、ECR）、阿里云（ACK、API Gateway、OSS、IDaaS）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ACS",
+          "name": "ACS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+      "name": "Agent Layered Architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph",
+          "rule_id": "RULE_LANGGRAPH_TO_AGENT_DEV",
+          "rule_name": "LangGraph -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Graph-based orchestration experience usually indicates hands-on agent system implementation.",
+          "inference_weight": 0.82
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+        "- 云平台：AWS（Lambda、API Gateway、Cognito、S3、ECR）、阿里云（ACK、API Gateway、OSS、IDaaS）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ACS",
+          "name": "ACS",
+          "rule_id": "RULE_ACS_TO_CLOUD_ARCH",
+          "rule_name": "ACS -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Managed container platform experience is a weak signal for cloud architecture capability.",
+          "inference_weight": 0.66
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责部门技术战略、架构决策与团队技术成长管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SQLALCHEMY",
+          "name": "SQLAlchemy",
+          "rule_id": "RULE_SQLALCHEMY_TO_DATA_MODELING",
+          "rule_name": "SQLAlchemy -> CAP_DATA_MODELING",
+          "inference_reason": "ORM usage often involves entity and relationship modeling, but this is still a weak inference.",
+          "inference_weight": 0.65
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 基础设施：Docker、Kubernetes、GitLab CI、Helm、云迁移"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HADOOP",
+          "name": "Hadoop"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPARK",
+          "name": "Spark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力",
+        "设计并交付面向法律行业的分布式数据处理与分析解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "设计并交付面向法律行业的分布式数据处理与分析解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+        "- 构建多供应商 LLM 集成层：Azure OpenAI（GPT-5.x）、AWS Bedrock（Claude）、Anthropic（Claude Fable）、Google Gemini，统一 reasoning/temperature/thinking-mode 配置管理"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_OPENAI",
+          "name": "Azure OpenAI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+        "- 数据库：PostgreSQL、Milvus、DashVector、Redis"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DASHVECTOR",
+          "name": "DashVector",
+          "rule_id": "RULE_DASHVECTOR_TO_RAG",
+          "rule_name": "DashVector -> CAP_RAG",
+          "inference_reason": "DashVector commonly appears in vector retrieval use cases.",
+          "inference_weight": 0.7
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus",
+          "rule_id": "RULE_MILVUS_TO_RAG",
+          "rule_name": "Milvus -> CAP_RAG",
+          "inference_reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems.",
+          "inference_weight": 0.72
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 前端：React 18、Ant Design、ECharts、Electron、qiankun 微前端"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SQLALCHEMY_POSTGRESQL",
+      "name": "SQLAlchemy + PostgreSQL",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SQLALCHEMY",
+          "name": "SQLAlchemy"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 数据库：PostgreSQL、Milvus、DashVector、Redis"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DASHVECTOR",
+          "name": "DashVector"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_EXPRESS",
+      "supports_entity_name": "Express",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端：React 18、Ant Design、ECharts、Electron、qiankun 微前端",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "supports_entity_id": "SKILL_LANGGRAPH",
+      "supports_entity_name": "LangGraph",
+      "derived_capability_ids": [
+        "CAP_AGENT_LAYERED_ARCHITECTURE",
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/LLM：LangChain、LangGraph、DeepAgents、多 Agent 编排、RAG 管道、MCP 协议",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 构建多供应商 LLM 集成层：Azure OpenAI（GPT-5.x）、AWS Bedrock（Claude）、Anthropic（Claude Fable）、Google Gemini，统一 reasoning/temperature/thinking-mode 配置管理",
+      "supports_entity_id": "SKILL_AZURE_OPENAI",
+      "supports_entity_name": "Azure OpenAI",
+      "derived_capability_ids": [
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "supports_entity_id": "SKILL_DASHVECTOR",
+      "supports_entity_name": "DashVector",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "supports_entity_id": "SKILL_MILVUS",
+      "supports_entity_name": "Milvus",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：PostgreSQL、Milvus、DashVector、Redis",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_HADOOP",
+      "supports_entity_name": "Hadoop",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_SPARK",
+      "supports_entity_name": "Spark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端：Java（Spring Boot、Spring MVC、Spring Cloud、MyBatis、Hibernate、Tomcat）、Python（FastAPI、SQLAlchemy）、Node.js（TypeScript、Express）、Serverless Framework",
+      "supports_entity_id": "SKILL_SQLALCHEMY",
+      "supports_entity_name": "SQLAlchemy",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_SQLALCHEMY_POSTGRESQL"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基础设施：Docker、Kubernetes、GitLab CI、Helm、云迁移",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云平台：AWS（Lambda、API Gateway、Cognito、S3、ECR）、阿里云（ACK、API Gateway、OSS、IDaaS）",
+      "supports_entity_id": "SKILL_ACS",
+      "supports_entity_name": "ACS",
+      "derived_capability_ids": [
+        "CAP_ACS_CONTAINER_DEPLOYMENT",
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具（Text-to-SQL、图表生成、代码沙箱、财务仿真、测试自动化），具备动态子 Agent 委派与 Orchestrator 任务拆解能力",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并交付面向法律行业的分布式数据处理与分析解决方案",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责部门技术战略、架构决策与团队技术成长管理",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "DeepAgents",
+      "evidence": "核心技能：LangChain、LangGraph、DeepAgents、多 Agent 编排"
+    },
+    {
+      "skill_id": "",
+      "name": "qiankun",
+      "evidence": "qiankun 微前端嵌入主应用"
+    },
+    {
+      "skill_id": "",
+      "name": "百炼",
+      "evidence": "阿里云（ACK、OSS、IDaaS、DashVector、百炼）"
+    },
+    {
+      "skill_id": "",
+      "name": "Serverless Framework",
+      "evidence": "Node.js（TypeScript、Express）、Serverless Framework"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "技术架构经理",
+      "时间": "",
+      "描述": "架构多租户 AI 对话平台，基于 LangChain/LangGraph 实现 Agent 编排，支持 13 种 MCP 工具，具备动态子 Agent 委派与 Orchestrator 任务拆解能力；设计实时 SSE 流式推送架构；构建多供应商 LLM 集成层；全栈前端开发；主导 AWS → 阿里云全栈迁移；落地集中日志、基础设施监控与 Agent 执行链路追踪。"
+    },
+    {
+      "公司": "华宇软件",
+      "职位": "部门技术负责人",
+      "时间": "",
+      "描述": "主导司法系统大数据平台开发，基于 Java（Spring Boot、Spring Cloud、MyBatis）与大数据技术栈（Hadoop、Spark、Kafka、Hive），服务法院与检察院客户；负责部门技术战略、架构决策与团队技术成长管理；设计并交付面向法律行业的分布式数据处理与分析解决方案。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "13 年全栈开发经验，覆盖 AI 平台、大数据、电商、司法系统等领域。技术架构师，Java/Spring 后端深度积累（Spring Boot、Spring Cloud、MyBatis）及大数据生态（Hadoop、Spark、Flink、Kafka、Hive），后期专精 LLM 编排、多 Agent 系统、多租户 SaaS 架构。主导交付企业级 AI 对话平台，具备 RAG 管道、MCP 工具集成、实时 SSE 流式推理能力。精通 AWS 与阿里云双栈云原生架构，主导基础设施",
+      "source": "rule",
+      "matched_term": "SaaS"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 电商 / 零售",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "wangxuezhi_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\wangxuezhi_profile_CN.md",
+    "source_hash": "f08da20de0e371c29f49e9190bda21b940ebc7f0292439dca74dcca1fdb88523",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:26:20"
+  },
+  "城市": "Dalian"
+}

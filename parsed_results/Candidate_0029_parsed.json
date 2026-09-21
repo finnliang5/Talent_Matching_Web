@@ -1,0 +1,751 @@
+{
+  "姓名": "Candidate_0029",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有 9 年 IT 领域经验，长期从事应用开发与自动化交付，覆盖中国与日本等 APAC 区域项目。具备前后端开发、RPA 开发与数据库设计维护的复合能力，擅长使用 Python 进行工程实现与数据处理。曾参与多个企业级自动化与运维项目，能够基于业务需求快速落地稳定、可维护的技术方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** Python、Java、SQL、JavaScript、VB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** Python、Java、SQL、JavaScript、VB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- **云平台：** AWS、阿里云",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- **DevOps 与工具：** Git、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **DevOps 与工具：** Git、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 参与客户需求分析并支持自动化流程方案设计。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "实现票单自动同步和业务处理流程自动化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "聚焦解决流程效率、数据处理、系统集成与重复性人工操作等业务痛点",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "能够基于业务需求快速落地稳定、可维护的技术方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "聚焦解决流程效率、数据处理、系统集成与重复性人工操作等业务痛点"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **云平台：** AWS、阿里云"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "能够基于业务需求快速落地稳定、可维护的技术方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker",
+        "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "能够基于业务需求快速落地稳定、可维护的技术方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "实现票单自动同步和业务处理流程自动化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / 数据：** RAG、Prompt Engineering、Vector DB"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / 数据：** RAG、Prompt Engineering、Vector DB"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **DevOps 与工具：** Git、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 参与客户需求分析并支持自动化流程方案设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 参与客户需求分析并支持自动化流程方案设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 9 年 IT 领域经验，长期从事应用开发与自动化交付，覆盖中国与日本等 APAC 区域项目。具备前后端开发、RPA 开发与数据库设计维护的复合能力，擅长使用 Python 进行工程实现与数据处理。曾参与多个企业级自动化与运维项目，能够基于业务需求快速落地稳定、可维护的技术方案。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** Python、Java、SQL、JavaScript、VB",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** Python、Java、SQL、JavaScript、VB",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / 数据：** RAG、Prompt Engineering、Vector DB",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **云平台：** AWS、阿里云",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **DevOps 与工具：** Git、Docker",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **DevOps 与工具：** Git、Docker",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 参与客户需求分析并支持自动化流程方案设计。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "实现票单自动同步和业务处理流程自动化",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "聚焦解决流程效率、数据处理、系统集成与重复性人工操作等业务痛点",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "能够基于业务需求快速落地稳定、可维护的技术方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "RPA 工具：UiPath、Automation Anywhere、Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "Automation Anywhere",
+      "evidence": "RPA 工具：UiPath、Automation Anywhere、Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "Power Automate",
+      "evidence": "RPA 工具：UiPath、Automation Anywhere、Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "Vector DB",
+      "evidence": "AI / 数据：RAG、Prompt Engineering、Vector DB"
+    },
+    {
+      "skill_id": "",
+      "name": "ATR",
+      "evidence": "基于 ATR 的工单自动化整体落地"
+    },
+    {
+      "skill_id": "",
+      "name": "SharePoint",
+      "evidence": "从 SharePoint 拉取最新数据并处理后生成报表"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "ASMPT",
+      "职位": "基于 ATR 的工单自动化端到端开发",
+      "时间": "2025.11 - 至今",
+      "描述": "负责基于 ATR 的工单自动化整体落地，覆盖方案设计、开发与端到端交付。完成 SAP cloud alm 监控规则配置、自动开单能力实现，以及 ATR 插件开发与集成。"
+    },
+    {
+      "公司": "Envision Energy",
+      "职位": "本地化平台插件开发（ITSM 集成）",
+      "时间": "2025.6 - 2025.10",
+      "描述": "实现自动化平台本地化插件，完成与客户 ITSM 票单系统的双向同步。支持微信小程序起单、票单查询、票单更新等核心服务能力。"
+    },
+    {
+      "公司": "内部部门",
+      "职位": "本地化知识库管理工具后端开发",
+      "时间": "2025.3 - 2025.6",
+      "描述": "负责部门内部基于 ATR 的知识库管理工具后端开发与功能落地。围绕客户使用便捷性实现核心管理能力，提升知识维护与使用效率。"
+    },
+    {
+      "公司": "Largo",
+      "职位": "Java 开发 / 应用增强支持",
+      "时间": "2024.8 - 2025.3",
+      "描述": "基于业务与集成需求，使用 Java 对现有 ATR 插件进行功能增强。将插件数据源从本地数据库改造为 REST API 在线数据获取模式。"
+    },
+    {
+      "公司": "WTW",
+      "职位": "RPA 开发 / Python 开发",
+      "时间": "2024.3 - 2024.7",
+      "描述": "收集客户需求并参与自动化业务流程设计与实现。使用 UiPath 搭建自动化流程，从网页抓取企业信息，并通过 Python 完成数据提取处理。"
+    },
+    {
+      "公司": "CHUBU ELECTRIC",
+      "职位": "RPA 开发",
+      "时间": "2023.6 - 2024.2",
+      "描述": "参与客户需求分析并支持自动化流程方案设计。使用 Automation Anywhere 自动化网页前端数据提取与处理流程。"
+    },
+    {
+      "公司": "IMS",
+      "职位": "全栈开发 / 业务流程支持",
+      "时间": "2022.11 - 2023.10",
+      "描述": "收集客户需求，协助客户优化业务流程，并负责前后端功能开发。基于 Python Flask 实现服务端能力，自动识别并跟踪来自 Splunk 的监控告警。"
+    },
+    {
+      "公司": "Japan S&C",
+      "职位": "RPA 开发 / VBA 开发",
+      "时间": "2021.9 - 2022.10",
+      "描述": "使用 UiPath 搭建自动化流程，完成 Excel 数据采集及后续录入操作。使用 VBA 开发自动化方案，从 SharePoint 拉取最新数据并处理后生成报表。"
+    },
+    {
+      "公司": "Japan Disney",
+      "职位": "售票系统运维工程师",
+      "时间": "2020 - 2021",
+      "描述": "负责售票系统前后端整体运维保障，确保系统稳定运行。执行日常监控、故障排查与定期维护，保障业务连续性。"
+    },
+    {
+      "公司": "Konica Minolta Japan",
+      "职位": "数据库开发与维护工程师",
+      "时间": "2019 - 2020",
+      "描述": "按客户需求设计并开发数据库相关功能，包括数据导入与处理逻辑。开发与维护存储过程及相关数据库组件，支撑业务运行。"
+    },
+    {
+      "公司": "ALSOK Japan",
+      "职位": "前端开发工程师",
+      "时间": "2017 - 2019",
+      "描述": "根据客户需求设计并开发安全业务相关前端页面与交互。将业务需求转化为可用性良好的页面布局与组件实现。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- Master Technology Architect",
+      "source": "rule",
+      "matched_term": "Technology"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 能源",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "Candidate_0029_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Candidate_0029_profile_CN.md",
+    "source_hash": "b47d5db069f80d211a34db4db70e8b1f74449534e5f30a7b6f51ca0282d29a1b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:20:28"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

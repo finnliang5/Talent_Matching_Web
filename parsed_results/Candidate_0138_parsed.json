@@ -1,0 +1,220 @@
+{
+  "姓名": "Candidate_0138",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 【AWS SAA】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "日常网络及语音服务维护，对接内部及客户方各支持团队；Monthly Operations Review；Impact Assessment, Coordination and Communication Of Technology Related Activities",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "对接内部及客户方各支持团队，进行内部安全及合规检查、培训；Other necessary coordination with project, support groups and clients as necessary",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 【AWS SAA】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "日常网络及语音服务维护，对接内部及客户方各支持团队；Monthly Operations Review；Impact Assessment, Coordination and Communication Of Technology Related Activities",
+        "对接内部及客户方各支持团队，进行内部安全及合规检查、培训；Other necessary coordination with project, support groups and clients as necessary"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对接内部及客户方各支持团队，进行内部安全及合规检查、培训；Other necessary coordination with project, support groups and clients as necessary"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【AWS SAA】",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "日常网络及语音服务维护，对接内部及客户方各支持团队；Monthly Operations Review；Impact Assessment, Coordination and Communication Of Technology Related Activities",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对接内部及客户方各支持团队，进行内部安全及合规检查、培训；Other necessary coordination with project, support groups and clients as necessary",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "工具与平台: ServiceNow"
+    },
+    {
+      "skill_id": "",
+      "name": "Avaya",
+      "evidence": "工具与平台: Avaya"
+    },
+    {
+      "skill_id": "",
+      "name": "Amazon Connect",
+      "evidence": "工具与平台: Amazon Connect"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture",
+      "职位": "Infrastructure Service Management",
+      "时间": "",
+      "描述": "Panda项目：日常网络及语音服务维护，对接内部及客户方各支持团队；对接客户对于信息安全方面的审核及要求，进行内部安全及合规检查，培训；做出每季度语音，网络及IT支持相关费用的预算，协助项目降低成本"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "Infrastructure Service Management",
+      "时间": "",
+      "描述": "Tucana项目：日常网络及语音服务维护，对接内部及客户方各支持团队；做每季度语音，网络及IT支持相关费用的预算，协助项目降低成本"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "Infrastructure Service Management",
+      "时间": "",
+      "描述": "Step+项目：日常网络及语音服务维护，对接内部及客户方各支持团队；做每季度语音，网络及IT支持相关费用的预算，协助项目降低成本"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "Infrastructure Service Management",
+      "时间": "",
+      "描述": "Cutie项目：日常网络及语音服务维护，对接内部及客户方各支持团队；做每季度语音，网络及IT支持相关费用的预算，协助项目降低成本"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 【制药】",
+      "source": "rule",
+      "matched_term": "制药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "o\tIncident Management – communication, escalation and monitoring of project incidents/issues",
+      "source": "rule",
+      "matched_term": "Communication"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 【零售】",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "tingting.d.sun_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\tingting.d.sun_profile_CN.md",
+    "source_hash": "19acfcdd4677447fcc0ec807feb11252efc66d87b8b35966a7a0b5d9931a7794",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:24:12"
+  },
+  "城市": "Chengdu"
+}

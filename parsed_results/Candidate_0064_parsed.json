@@ -1,0 +1,387 @@
+{
+  "姓名": "Candidate_0064",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 专注于大模型（LLM）与生成式AI在企业级应用中的场景化落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "十五年以上的产品项目实施管理及业务分析工作经验，积累了丰富的业务分析和项目实施交付的专业技能，并成功交付了多个关键项目。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "&#x20;  - 负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "&#x20; - 负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "- 参与制定项目计划、监控进度、控制成本、保证质量和风险管理等工作。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "通过优化流程和改进方法实现高效执行，确保项目按期交付；成功主导实施交付多个地区和基层法院系统上线工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "十五年以上的产品项目实施管理及业务分析工作经验，积累了丰富的业务分析和项目实施交付的专业技能，并成功交付了多个关键项目。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "&#x20; - 负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。",
+        "通过优化流程和改进方法实现高效执行，确保项目按期交付；成功主导实施交付多个地区和基层法院系统上线工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "十五年以上的产品项目实施管理及业务分析工作经验，积累了丰富的业务分析和项目实施交付的专业技能，并成功交付了多个关键项目。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "&#x20; - 负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "十五年以上的产品项目实施管理及业务分析工作经验，积累了丰富的业务分析和项目实施交付的专业技能，并成功交付了多个关键项目。",
+        "&#x20;  - 负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "&#x20;  - 负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 参与制定项目计划、监控进度、控制成本、保证质量和风险管理等工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "&#x20; - 负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。",
+        "- 参与制定项目计划、监控进度、控制成本、保证质量和风险管理等工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 专注于大模型（LLM）与生成式AI在企业级应用中的场景化落地。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "十五年以上的产品项目实施管理及业务分析工作经验，积累了丰富的业务分析和项目实施交付的专业技能，并成功交付了多个关键项目。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "&#x20;  - 负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "&#x20; - 负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 参与制定项目计划、监控进度、控制成本、保证质量和风险管理等工作。",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "通过优化流程和改进方法实现高效执行，确保项目按期交付；成功主导实施交付多个地区和基层法院系统上线工作",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AI Prompt / Prompt Engineering",
+      "evidence": "作为prompt工程师实施上线海信Audit审核系统；核心技能包含AI Prompt"
+    },
+    {
+      "skill_id": "",
+      "name": "Chatbot",
+      "evidence": "Chatbot智能问询产品语料训练实施，中英文业务语料训练"
+    },
+    {
+      "skill_id": "",
+      "name": "DCIM / IBMS",
+      "evidence": "负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作"
+    },
+    {
+      "skill_id": "",
+      "name": "GIS",
+      "evidence": "参与药监局地理信息GIS系统项目的实施交付工作"
+    },
+    {
+      "skill_id": "",
+      "name": "LLM / 大模型",
+      "evidence": "专注于大模型（LLM）与生成式AI在企业级应用中的场景化落地"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "BA/PM/Corpus/Test",
+      "时间": "2021年~至今",
+      "描述": "负责部门AI项目的BA工作及项目管理交付工作，实施上线Toray、Asahi、Lenovo、Loreal等客户Email advisor系统。作为prompt工程师实施上线海信Audit审核系统。Chatbot智能问询产品语料训练实施，中英文业务语料训练。"
+    },
+    {
+      "公司": "东软集团-东软云科技有限公司",
+      "职位": "软件项目经理",
+      "时间": "2015年~2021年",
+      "描述": "负责公司DCIM、IBMS等产品需求分析及相关项目管理和实施交付工作。成功主导实施交付天坛医院智能集成平台、沈阳大悦城IBMS智能管理系统、河南建业小镇智慧园区、申菱智慧工业园区、阜康医院智慧后勤管理系统等多个项目。"
+    },
+    {
+      "公司": "用友网络",
+      "职位": "产品经理/项目经理",
+      "时间": "2010年~2015年",
+      "描述": "参与最高人民法院-高院-中院-基层法院四级法院数字化建设，包括审判、执行、司法鉴定、数据分析等多个核心业务系统，主导实施交付多个地区和基层法院系统上线工作。参与过苏州政法委业务协同平台的设计、规划和实施过程。"
+    },
+    {
+      "公司": "大连第一注意力有限公司",
+      "职位": "产品负责人",
+      "时间": "2009年~2010年",
+      "描述": "负责互联网优惠券折扣产品的需求分析和实施运营工作，实现了产品从0到1的发展。参与制定有效的营销策略、负责部署终端设备并推广互联网优惠券业务。"
+    },
+    {
+      "公司": "大连恒基电子技术有限公司",
+      "职位": "PMO、实施负责人",
+      "时间": "2007年~2009年",
+      "描述": "参与制定项目计划、监控进度、控制成本、保证质量和风险管理等工作。参与药监局地理信息GIS系统、规划局档案管理系统等多个项目的实施交付工作，通过优化流程和改进方法实现高效执行，确保项目按期交付。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "具备广泛的应用和技术解决方案经验，在政务、司法、医疗、智慧园区、HR、财务等行业完成了众多项目交付任务。熟悉行业的需求和业务流程，并提出解决方案和创新思路。",
+      "source": "rule",
+      "matched_term": "医疗"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "kaidong.sun_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\kaidong.sun_profile_CN.md",
+    "source_hash": "3a0568f0725342280d849d9be73198d9e107bd18b5e41d1100123a31d5618cfe",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:31:45"
+  },
+  "城市": "Dalian"
+}

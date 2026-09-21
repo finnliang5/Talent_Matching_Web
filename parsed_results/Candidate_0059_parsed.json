@@ -1,0 +1,720 @@
+{
+  "姓名": "Candidate_0059",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 19,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "evidence": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "CSS"
+      ],
+      "matched_term": "CSS"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 基于VUE框架开发前端",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 大模型应用架构/设计/开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 设计与优化 Prompt，构建 Embedding + 语义检索（RAG）与对话 Memory 机制",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS SAA",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_HADOOP",
+      "name": "Hadoop",
+      "type": "DATA_PLATFORM",
+      "evidence": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hadoop",
+        "HDFS"
+      ],
+      "matched_term": "Hadoop"
+    },
+    {
+      "skill_id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "evidence": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "matched_term": "Spark"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- Git / Maven / Docker / Eclipse / IntelliJ IDEA",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责架构和设计，开发翻译质量校验系统（基于大模型）；设计语义一致性/术语/表达的自动校验方案，设计Agent flow；负责Splunk平台的部署与分布式架构搭建",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）",
+        "- AWS SAA"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Git / Maven / Docker / Eclipse / IntelliJ IDEA"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HADOOP",
+          "name": "Hadoop"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPARK",
+          "name": "Spark"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责架构和设计，开发翻译质量校验系统（基于大模型）；设计语义一致性/术语/表达的自动校验方案，设计Agent flow；负责Splunk平台的部署与分布式架构搭建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责架构和设计，开发翻译质量校验系统（基于大模型）；设计语义一致性/术语/表达的自动校验方案，设计Agent flow；负责Splunk平台的部署与分布式架构搭建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 设计与优化 Prompt，构建 Embedding + 语义检索（RAG）与对话 Memory 机制"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言：Java / Python / JavaScript / Shell / HTML / CSS",
+      "supports_entity_id": "SKILL_CSS",
+      "supports_entity_name": "CSS",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于VUE框架开发前端",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大模型应用架构/设计/开发",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 设计与优化 Prompt，构建 Embedding + 语义检索（RAG）与对话 Memory 机制",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS SAA",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据技术：MySQL / PostgreSQL / MongoDB / Redis / SQL Server",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "supports_entity_id": "SKILL_HADOOP",
+      "supports_entity_name": "Hadoop",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "supports_entity_id": "SKILL_SPARK",
+      "supports_entity_name": "Spark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Git / Maven / Docker / Eclipse / IntelliJ IDEA",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约18年软件开发经验，其中近8年任职于埃森哲，专注于企业级系统开发与数据平台建设。具备Java/Python全栈开发能力，熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）。近年来重点从事Splunk平台开发与运维，涵盖数据采集、分析与可视化。具备良好的系统设计能力和问题解决能力。",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责架构和设计，开发翻译质量校验系统（基于大模型）；设计语义一致性/术语/表达的自动校验方案，设计Agent flow；负责Splunk平台的部署与分布式架构搭建",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Agent flow",
+      "evidence": "设计Agent flow，编写与优化 Prompt（结构化输出）"
+    },
+    {
+      "skill_id": "",
+      "name": "Spring Boot / Spring Cloud",
+      "evidence": "基于Spring Boot / Spring Cloud构建微服务系统（Eureka / Zuul）"
+    },
+    {
+      "skill_id": "",
+      "name": "Dubbo",
+      "evidence": "使用Dubbo实现服务治理与分布式架构"
+    },
+    {
+      "skill_id": "",
+      "name": "Objective-C",
+      "evidence": "开发多个电商与银行类移动应用（ Objective-C）"
+    },
+    {
+      "skill_id": "",
+      "name": "Hadoop生态",
+      "evidence": "熟悉微服务架构、分布式系统及大数据处理（Hadoop/Spark）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "企业级翻译校验系统架构/设计/开发 / 企业级知识库Chatbot系统方案架构/设计/开发 / Splunk 方案咨询/架构/设计",
+      "时间": "",
+      "描述": "负责架构和设计，开发翻译质量校验系统（基于大模型）；设计语义一致性/术语/表达的自动校验方案，设计Agent flow，编写与优化 Prompt；开发企业级 Chatbot 系统（基于大模型），构建 Embedding + 语义检索（RAG）与对话 Memory 机制；负责Splunk平台的部署与分布式架构搭建，开发数据采集与日志处理方案。"
+    },
+    {
+      "公司": "大连华信计算机技术股份有限公司",
+      "职位": "全栈架构，开发工程师",
+      "时间": "",
+      "描述": "基于Spring Boot / Spring Cloud构建微服务系统；使用Dubbo实现服务治理与分布式架构；基于VUE框架开发前端；参与物流系统与网络管理系统开发。"
+    },
+    {
+      "公司": "",
+      "职位": "iOS + 服务端开发",
+      "时间": "",
+      "描述": "开发多个电商与银行类移动应用（Objective-C）；实现混合开发（H5 + Native）架构；负责服务端接口开发及系统集成。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 开发多个电商与银行类移动应用（ Objective-C）",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 互联网 / 移动应用",
+      "source": "rule",
+      "matched_term": "互联网"
+    }
+  ],
+  "_batch": {
+    "source_file": "jingchao.a.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jingchao.a.liu_profile_CN.md",
+    "source_hash": "59566d1009c4f00b436329725d424c04d4c9506c5b2f70cef575f6784f125675",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:29:12"
+  },
+  "城市": "Dalian"
+}

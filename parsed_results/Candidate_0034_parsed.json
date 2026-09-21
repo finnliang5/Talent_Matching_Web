@@ -1,0 +1,805 @@
+{
+  "姓名": "Candidate_0034",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 10
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **希望解决的业务问题**：破解AI应用\"最后一公里\"难题，将大模型能力从实验室POC转化为可规模化的业务价值；帮助重资产企业建立\"业务-技术-组织\"三位一体的AI落地机制",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MODEL_EVALUATION",
+      "name": "模型评估",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- **智能助手构建**：基于主流办公套件与智能开发平台，主导嵌入式智能助手的产品设计、文件解析、知识库构建、模型验证与Prompt工程",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Model Evaluation",
+        "模型验证",
+        "模型效果评估"
+      ],
+      "matched_term": "模型验证"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- **项目管理与治理**：复杂项目群需求与范围管理、敏捷迭代治理、交付风险管控、业务-IT联合治理机制设计",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "深入营销、供应链、生产制造、人力资源、财务五大业务域，识别关键痛点并完成数字化成熟度评估",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "跨部门利益相关者管理；直接对接客户IT总监与业务部门负责人",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计涵盖业务/应用/数据/技术的分层数字化架构；输出企业级能力建设系统蓝图",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "完成关键企业级软件的选型论证与ROI评估框架设计，为管理层提供可量化的技术投资优先级建议",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "evidence": "规划'AI赋能→AI协同→AI主导'三阶段演进路线",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI 路线图规划"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "构建组织级知识库与Prompt资产库；为品牌电动化转型构建可复用的数字资产体系",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "数字化转型规划；帮助重资产企业建立'业务-技术-组织'三位一体的AI落地机制",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "数字化变革管理"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "形成可推广至其他业务线的标准化AI应用模板；形成标准化功能模块库，支撑后续车型快速复用",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "作为技术-业务翻译桥梁，将复杂的架构方案转化为非技术背景决策者可理解的实施路线图",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "规划'AI赋能→AI协同→AI主导'三阶段演进路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "规划'AI赋能→AI协同→AI主导'三阶段演进路线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "数字化转型规划；帮助重资产企业建立'业务-技术-组织'三位一体的AI落地机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "完成关键企业级软件的选型论证与ROI评估框架设计，为管理层提供可量化的技术投资优先级建议"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "跨部门利益相关者管理；直接对接客户IT总监与业务部门负责人",
+        "作为技术-业务翻译桥梁，将复杂的架构方案转化为非技术背景决策者可理解的实施路线图"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "构建组织级知识库与Prompt资产库；为品牌电动化转型构建可复用的数字资产体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "构建组织级知识库与Prompt资产库；为品牌电动化转型构建可复用的数字资产体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- **项目管理与治理**：复杂项目群需求与范围管理、敏捷迭代治理、交付风险管控、业务-IT联合治理机制设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "完成关键企业级软件的选型论证与ROI评估框架设计，为管理层提供可量化的技术投资优先级建议"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计涵盖业务/应用/数据/技术的分层数字化架构；输出企业级能力建设系统蓝图",
+        "形成可推广至其他业务线的标准化AI应用模板；形成标准化功能模块库，支撑后续车型快速复用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "形成可推广至其他业务线的标准化AI应用模板；形成标准化功能模块库，支撑后续车型快速复用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MODEL_EVALUATION",
+      "name": "Model Evaluation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **智能助手构建**：基于主流办公套件与智能开发平台，主导嵌入式智能助手的产品设计、文件解析、知识库构建、模型验证与Prompt工程"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MODEL_EVALUATION",
+          "name": "模型评估"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计涵盖业务/应用/数据/技术的分层数字化架构；输出企业级能力建设系统蓝图"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- **项目管理与治理**：复杂项目群需求与范围管理、敏捷迭代治理、交付风险管控、业务-IT联合治理机制设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "深入营销、供应链、生产制造、人力资源、财务五大业务域，识别关键痛点并完成数字化成熟度评估"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "深入营销、供应链、生产制造、人力资源、财务五大业务域，识别关键痛点并完成数字化成熟度评估"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- **项目管理与治理**：复杂项目群需求与范围管理、敏捷迭代治理、交付风险管控、业务-IT联合治理机制设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "跨部门利益相关者管理；直接对接客户IT总监与业务部门负责人",
+        "数字化转型规划；帮助重资产企业建立'业务-技术-组织'三位一体的AI落地机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **希望解决的业务问题**：破解AI应用\"最后一公里\"难题，将大模型能力从实验室POC转化为可规模化的业务价值；帮助重资产企业建立\"业务-技术-组织\"三位一体的AI落地机制",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **智能助手构建**：基于主流办公套件与智能开发平台，主导嵌入式智能助手的产品设计、文件解析、知识库构建、模型验证与Prompt工程",
+      "supports_entity_id": "SKILL_MODEL_EVALUATION",
+      "supports_entity_name": "模型评估",
+      "derived_capability_ids": [
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **全生命周期AI交付**：TDLC平台架构（需求-开发-测试-运维AI化）、Harness Engineering方法论、CI/CD与DevOps实践、架构建模与可视化",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- **项目管理与治理**：复杂项目群需求与范围管理、敏捷迭代治理、交付风险管控、业务-IT联合治理机制设计",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "深入营销、供应链、生产制造、人力资源、财务五大业务域，识别关键痛点并完成数字化成熟度评估",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "跨部门利益相关者管理；直接对接客户IT总监与业务部门负责人",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计涵盖业务/应用/数据/技术的分层数字化架构；输出企业级能力建设系统蓝图",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "完成关键企业级软件的选型论证与ROI评估框架设计，为管理层提供可量化的技术投资优先级建议",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "规划'AI赋能→AI协同→AI主导'三阶段演进路线",
+      "supports_entity_id": "SKILL_AI_ROADMAP_PLANNING",
+      "supports_entity_name": "AI 路线图规划",
+      "derived_capability_ids": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "构建组织级知识库与Prompt资产库；为品牌电动化转型构建可复用的数字资产体系",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "数字化转型规划；帮助重资产企业建立'业务-技术-组织'三位一体的AI落地机制",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "形成可推广至其他业务线的标准化AI应用模板；形成标准化功能模块库，支撑后续车型快速复用",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为技术-业务翻译桥梁，将复杂的架构方案转化为非技术背景决策者可理解的实施路线图",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Harness Engineering",
+      "evidence": "主导构建基于多Agent协作的AI原生交付平台与Harness Engineering方法论体系"
+    },
+    {
+      "skill_id": "",
+      "name": "TDLC平台",
+      "evidence": "全生命周期AI交付：TDLC平台架构（需求-开发-测试-运维AI化）"
+    },
+    {
+      "skill_id": "",
+      "name": "多Agent协作框架",
+      "evidence": "多Agent协作框架设计；构建多Agent协作引擎"
+    },
+    {
+      "skill_id": "",
+      "name": "Prompt工程",
+      "evidence": "Prompt工程治理；模型验证与Prompt工程"
+    },
+    {
+      "skill_id": "",
+      "name": "CI/CD与DevOps",
+      "evidence": "CI/CD与DevOps实践"
+    },
+    {
+      "skill_id": "",
+      "name": "L1-L5流程分级",
+      "evidence": "业务架构设计（L1-L5流程分级）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某烟草集团",
+      "职位": "业务解决方案架构师 / 数字化转型规划负责人",
+      "时间": "",
+      "描述": "承接集团数字化转型战略，识别五大业务域痛点并评估成熟度；设计分层数字化架构与分阶段实施路径；推动3个核心场景MVP验证，建立业务-IT联合治理机制。"
+    },
+    {
+      "公司": "某能源央企",
+      "职位": "业务解决方案架构师 / 项目整体方案架构师",
+      "时间": "",
+      "描述": "驻场诊断新服务模式能力缺口，梳理业务流程与数据流；输出企业级能力建设系统蓝图，完成软件选型与ROI评估框架设计；对接客户高管，转化架构方案为实施路线图。"
+    },
+    {
+      "公司": "某头部车企",
+      "职位": "移动应用产品负责人",
+      "时间": "",
+      "描述": "主导远程车控移动应用从0到1建设，打通车机-云端-手机数据闭环；建立数据驱动的敏捷迭代体系，缩短发布周期；构建可复用数字资产体系与标准化功能模块库。"
+    },
+    {
+      "公司": "自研项目",
+      "职位": "业务架构师 / AI交付负责人",
+      "时间": "",
+      "描述": "设计GenAI支持的TDLC平台架构，覆盖需求至运维五大环节；规划三阶段演进路线，构建多Agent协作引擎；实现AI原生交付流程工程化闭环，构建组织级知识库与Prompt资产库。"
+    },
+    {
+      "公司": "自研项目",
+      "职位": "产品负责人",
+      "时间": "",
+      "描述": "深入顾问团队工作流识别高频重复场景，设计嵌入式智能助手产品方案；主导文件解析、知识库构建与模型验证；建立知识沉淀-AI应用闭环模式，提升报告产出效率。"
+    },
+    {
+      "公司": "某化工工程设计集团",
+      "职位": "虚拟设计院平台产品负责人",
+      "时间": "",
+      "描述": "完成工程设计人员需求调研与协同痛点分析，主导系统设计至上线试运行；设计数字化业务协同平台，覆盖项目各阶段运营，提升跨专业协同效率。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有15年+企业级数字化与AI落地经验，作为业务架构师团队Lead先后服务中国烟草、中海油、中国化学、Volvo亚太等国内外大型企业。擅长将集团级业务战略转化为可执行的数字化架构与AI应用方案，具备从业务诊断、蓝图设计到客户现场交付的全周期端到端能力。近期聚焦GenAI在软件全生命周期中的工程化落地，主导构建基于多Agent协作的AI原生交付平台与Harness Engineering方法论体系。",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 能源行业（新服务模式诊断与能力建设蓝图）",
+      "source": "rule",
+      "matched_term": "能源"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "烟草行业（集团级营销/供应链/制造数字化转型）",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "guoqing.gao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\guoqing.gao_profile_CN.md",
+    "source_hash": "f924368fe87a479d0d2dde6c1cd40e67767274b41d2772f7643264908a623c94",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:21:18"
+  },
+  "级别推断": {
+    "level_requirement": "Level 7",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 7",
+    "confidence": 1.0
+  },
+  "城市": "Beijing"
+}

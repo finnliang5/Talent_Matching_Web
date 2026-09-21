@@ -1,0 +1,537 @@
+{
+  "姓名": "Candidate_0036",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 6,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "具备扎实的自然语言处理（NLP）与大语言模型（LLM）研发背景，聚焦于文本检索、文本生成、推理、RAG 以及多智能体系统。拥有丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。熟悉大模型推理部署，重点关注推理成本控制与性能优化。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "具备扎实的自然语言处理（NLP）与大语言模型（LLM）研发背景，聚焦于文本检索、文本生成、推理、RAG 以及多智能体系统。拥有丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。熟悉大模型推理部署，重点关注推理成本控制与性能优化。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "evidence": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PyTorch"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_AGENT_PLANNING",
+      "name": "Agent 规划能力",
+      "type": "AI_FEATURE",
+      "evidence": "* 采用数据合成、SFT、模型蒸馏训练、DPO 强化训练、CoT 生成等方法训练领域型对话语义增强模型。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Agent Planning",
+        "Agent 计划能力",
+        "Task Planning",
+        "推理规划",
+        "CoT",
+        "思维链"
+      ],
+      "matched_term": "CoT"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。支持不同粒度复合信息的混合检索。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。为人工销售提供及时业务支持。覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "具备丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* 采用数据合成、SFT、模型蒸馏训练、DPO 强化训练、CoT 生成等方法训练领域型对话语义增强模型。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。为人工销售提供及时业务支持。覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 采用数据合成、SFT、模型蒸馏训练、DPO 强化训练、CoT 生成等方法训练领域型对话语义增强模型。",
+        "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。为人工销售提供及时业务支持。覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力",
+          "rule_id": "RULE_AGENT_PLANNING_TO_SCENARIO_SELECTION",
+          "rule_name": "Agent 规划能力 -> CAP_AI_SCENARIO_SELECTION",
+          "inference_reason": "Task planning experience is adjacent to judging suitable AI agent scenarios.",
+          "inference_weight": 0.6
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。为人工销售提供及时业务支持。覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。支持不同粒度复合信息的混合检索。",
+        "具备丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "具备丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYTORCH",
+          "name": "PyTorch"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。支持不同粒度复合信息的混合检索。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "具备扎实的自然语言处理（NLP）与大语言模型（LLM）研发背景，聚焦于文本检索、文本生成、推理、RAG 以及多智能体系统。拥有丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。熟悉大模型推理部署，重点关注推理成本控制与性能优化。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备扎实的自然语言处理（NLP）与大语言模型（LLM）研发背景，聚焦于文本检索、文本生成、推理、RAG 以及多智能体系统。拥有丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。熟悉大模型推理部署，重点关注推理成本控制与性能优化。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备扎实的自然语言处理（NLP）与大语言模型（LLM）研发背景，聚焦于文本检索、文本生成、推理、RAG 以及多智能体系统。拥有丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。熟悉大模型推理部署，重点关注推理成本控制与性能优化。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "supports_entity_id": "SKILL_PYTORCH",
+      "supports_entity_name": "PyTorch",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 采用数据合成、SFT、模型蒸馏训练、DPO 强化训练、CoT 生成等方法训练领域型对话语义增强模型。",
+      "supports_entity_id": "SKILL_AGENT_PLANNING",
+      "supports_entity_name": "Agent 规划能力",
+      "derived_capability_ids": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_SCENARIO_SELECTION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。支持不同粒度复合信息的混合检索。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并构建基于关系型数据与结构化三元组的数据库结构。搭建多维度检索系统。",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。为人工销售提供及时业务支持。覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备丰富的领域任务大模型训练经验，涵盖 post-training、SFT、强化学习、数据库设计与数据检索。曾主导或参与智能对话、智能客服、知识增强生成式 AI、实体识别增强等多类研发项目交付。",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "DeepSpeed",
+      "evidence": "机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang"
+    },
+    {
+      "skill_id": "",
+      "name": "vLLM",
+      "evidence": "机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang"
+    },
+    {
+      "skill_id": "",
+      "name": "SGLang",
+      "evidence": "机器学习工程：Python、PyTorch、DeepSpeed、vLLM、SGLang"
+    },
+    {
+      "skill_id": "",
+      "name": "SFT",
+      "evidence": "生成式 AI：LLM post-training、监督微调、强化学习、LLM 部署、性能优化"
+    },
+    {
+      "skill_id": "",
+      "name": "DPO",
+      "evidence": "采用数据合成、SFT、模型蒸馏训练、DPO 强化训练、CoT 生成等方法训练领域型对话语义增强模型。"
+    },
+    {
+      "skill_id": "",
+      "name": "Magpie",
+      "evidence": "为增强多轮对话中的复杂实体识别能力，采用 SFT、DPO、Magpie 数据合成等方法完成模型训练。"
+    },
+    {
+      "skill_id": "",
+      "name": "Agent",
+      "evidence": "应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具。"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture Shenzhen Liquid Studio",
+      "职位": "智能社交媒体分析项目负责人 / 专业领域 AI 销售辅助知识工具开发核心研发成员",
+      "时间": "",
+      "描述": "设计并构建基于关系型数据与结构化三元组的数据库结构，搭建多维度检索系统。应用前沿文档解析技术与 agent 输出优化技术，构建知识增强型生成式 AI 工具，覆盖销售话术支持、业务启动辅助、业务优化辅助等场景。"
+    },
+    {
+      "公司": "追一科技股份有限公司",
+      "职位": "NLP 算法工程师",
+      "时间": "",
+      "描述": "负责 LLM 业务模型训练、部署及相关研发工作。主导智能对话系统、客户语义增强模型训练、智能客服/工单模型训练、双模式大模型训练、大模型蒸馏算法开发、轻量级实体识别增强模型训练等项目。采用 SFT、DPO、CoT、数据合成等方法提升召回率、生成质量与推理速度。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 金融服务 / 银行业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 电信",
+      "source": "rule",
+      "matched_term": "电信"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "* 能源 / 石油与天然气",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "hao.a.zeng_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hao.a.zeng_profile_CN.md",
+    "source_hash": "3e2e67590b97da2ba1832b3b20a0f8c9d88e21586361b05109f8deea274141c8",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:21:59"
+  },
+  "城市": "Shenzhen"
+}

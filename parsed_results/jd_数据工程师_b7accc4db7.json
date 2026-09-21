@@ -1,0 +1,656 @@
+{
+  "岗位名称": "数据工程师",
+  "岗位类型": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_requirement_count": 9,
+      "competency_requirement_count": 1
+    }
+  },
+  "技术技能要求": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "具备Python脚本能力，能够编写运维脚本",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "matched_term": "AWS Redshift",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_AWS_GLUE",
+      "name": "AWS Glue",
+      "type": "CLOUD_SERVICE",
+      "evidence": "【优先】AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Glue"
+      ],
+      "matched_term": "Glue",
+      "priority": "nice"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "数据工程师",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "维护现有ETL数据管道，处理数据异常和数据质量问题，进行数据校验和修复",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "【必备】AWS Redshift数据仓库开发与运维",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库开发",
+      "priority": "must"
+    },
+    {
+      "skill_id": "SKILL_AWS_LAMBDA",
+      "name": "AWS Lambda",
+      "type": "CLOUD_SERVICE",
+      "evidence": "AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Lambda"
+      ],
+      "matched_term": "AWS Lambda",
+      "priority": "must"
+    }
+  ],
+  "技术技能要求组": [
+    {
+      "group_id": "TECH_GROUP_1",
+      "group_name": "Python 基础",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_PYTHON_CORE",
+          "name": "Python 基础"
+        }
+      ],
+      "evidence": "具备Python脚本能力，能够编写运维脚本",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_2",
+      "group_name": "MySQL",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_MYSQL",
+          "name": "MySQL"
+        }
+      ],
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_3",
+      "group_name": "Amazon Redshift",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        }
+      ],
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_4",
+      "group_name": "AWS",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "evidence": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_5",
+      "group_name": "AWS Glue",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_AWS_GLUE",
+          "name": "AWS Glue"
+        }
+      ],
+      "evidence": "【优先】AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "priority": "nice"
+    },
+    {
+      "group_id": "TECH_GROUP_6",
+      "group_name": "数据工程",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ],
+      "evidence": "数据工程师",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_7",
+      "group_name": "ETL/ELT",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "evidence": "维护现有ETL数据管道，处理数据异常和数据质量问题，进行数据校验和修复",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_8",
+      "group_name": "数据仓库开发",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "evidence": "【必备】AWS Redshift数据仓库开发与运维",
+      "priority": "must"
+    },
+    {
+      "group_id": "TECH_GROUP_9",
+      "group_name": "AWS Lambda",
+      "logic": "ALL_OF",
+      "items": [
+        {
+          "skill_id": "SKILL_AWS_LAMBDA",
+          "name": "AWS Lambda"
+        }
+      ],
+      "evidence": "AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "priority": "must"
+    }
+  ],
+  "胜任力要求": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "良好的沟通和团队协作能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调",
+      "priority": "must"
+    }
+  ],
+  "能力要求": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CODE_QUALITY",
+      "name": "Code Quality Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "编写和维护数据处理脚本，处理日常数据运维任务"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_CODE_QUALITY",
+          "name": "Code Quality Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "良好的沟通和团队协作能力",
+        "配合其他团队进行数据接口调试和数据问题排查；良好的沟通和团队协作能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_COMMUNICATION_AND_COORDINATION",
+          "name": "Communication and Coordination"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "数据工程师"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "【必备】AWS Redshift数据仓库开发与运维",
+        "负责iTower数据平台和HCP 360系统的日常数据运维工作；负责AWS Redshift数据仓库开发与运维"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "Data Warehouse Development"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_MODELING",
+      "name": "Data Warehouse Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "承接数据类需求，进行新功能的数据方案评估、SQL开发和数据模型调整；能够快速上手现有数据架构，理解现有数据模型和业务逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_DATA_WAREHOUSE_MODELING",
+          "name": "Data Warehouse Modeling"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+        "数据工程师",
+        "【必备】AWS Redshift数据仓库开发与运维",
+        "具备ETL流程开发和维护经验，熟悉数据仓库基本概念"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_DATA_WAREHOUSING",
+          "name": "Data Warehousing"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "【优先】AWS其他服务（S3、Glue、Lambda等）使用经验",
+        "数据工程师",
+        "维护现有ETL数据管道，处理数据异常和数据质量问题，进行数据校验和修复",
+        "维护现有ETL数据管道，处理数据异常和数据质量问题，进行数据校验和修复；具备ETL流程开发和维护经验，熟悉数据仓库基本概念"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_GLUE",
+          "name": "AWS Glue"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_ETL_ELT",
+          "name": "ETL/ELT Pipeline Development"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "保障数据任务稳定运行；处理数据异常和数据质量问题；数据问题快速排查能力"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+          "name": "Monitoring and Incident Response"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "承接数据类需求，进行新功能的数据方案评估"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_REQUIREMENTS_ANALYSIS",
+          "name": "Requirements Analysis"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SERVERLESS_FUNCTION_DEVELOPMENT",
+      "name": "Serverless Function Development",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "AWS其他服务（S3、Glue、Lambda等）使用经验"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_LAMBDA",
+          "name": "AWS Lambda"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_SERVERLESS_FUNCTION_DEVELOPMENT",
+          "name": "Serverless Function Development"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域要求": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    }
+  ],
+  "本体外技术技能要求": [
+    {
+      "skill_id": "",
+      "name": "Shell",
+      "evidence": "Python/Shell脚本编程"
+    },
+    {
+      "skill_id": "",
+      "name": "AWS S3",
+      "evidence": "AWS其他服务（S3、Glue、Lambda等）使用经验"
+    },
+    {
+      "skill_id": "",
+      "name": "iTower",
+      "evidence": "负责iTower数据平台和HCP 360系统的日常数据运维工作；有iTower或HCP相关项目经验者优先"
+    },
+    {
+      "skill_id": "",
+      "name": "HCP 360",
+      "evidence": "负责iTower数据平台和HCP 360系统的日常数据运维工作；有iTower或HCP相关项目经验者优先"
+    }
+  ],
+  "经验要求": [
+    "数据开发或数据运维相关工作经验",
+    "有iTower或HCP相关项目经验者优先",
+    "有制药行业经验优先"
+  ],
+  "级别要求": "Level 8到level9",
+  "是否有级别要求": true,
+  "证据": [
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "具备Python脚本能力，能够编写运维脚本",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "supports_entity_id": "SKILL_AWS_REDSHIFT",
+      "supports_entity_name": "Amazon Redshift",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "负责AWS Redshift和MySQL数据库的日常运维、性能监控和SQL优化",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "【优先】AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "supports_entity_id": "SKILL_AWS_GLUE",
+      "supports_entity_name": "AWS Glue",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "数据工程师",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "维护现有ETL数据管道，处理数据异常和数据质量问题，进行数据校验和修复",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "【必备】AWS Redshift数据仓库开发与运维",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill_requirement",
+      "source_text": "AWS其他服务（S3、Glue、Lambda等）使用经验",
+      "supports_entity_id": "SKILL_AWS_LAMBDA",
+      "supports_entity_name": "AWS Lambda",
+      "derived_capability_ids": [
+        "CAP_SERVERLESS_FUNCTION_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "良好的沟通和团队协作能力",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "行业知识要求": [
+    "制药行业",
+    "HCP（医疗专业人士）相关业务"
+  ]
+}

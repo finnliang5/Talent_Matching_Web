@@ -1,0 +1,2147 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Technical skill list for concrete resume/JD matching. Only direct capability mappings are kept here; secondary derivations are moved to inference_rule_abox. Abstract abilities should be modeled in capability_abox or competency_abox."
+  },
+  "skills": [
+    {
+      "id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "description": "Python 编程语言基础能力",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ]
+    },
+    {
+      "id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "description": "JAVA 编程语言能力",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ]
+    },
+    {
+      "id": "SKILL_GO_CORE",
+      "name": "Go",
+      "type": "LANGUAGE",
+      "description": "Google 开发的编译型、并发型编程语言，广泛用于后端服务和云原生开发",
+      "aliases": [
+        "Golang",
+        "go语言",
+        "Go语言",
+        "Google Go"
+      ],
+      "languages": [
+        "Go"
+      ]
+    },
+    {
+      "id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "description": "Web 前端与 Node.js 生态编程语言",
+      "languages": [
+        "JavaScript"
+      ],
+      "aliases": [
+        "JS"
+      ]
+    },
+    {
+      "id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "description": "JavaScript 的强类型超集",
+      "languages": [
+        "TypeScript"
+      ],
+      "aliases": [
+        "TS"
+      ]
+    },
+    {
+      "id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "description": "Web 页面结构标记语言",
+      "languages": [
+        "HTML"
+      ]
+    },
+    {
+      "id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "description": "Web 页面样式语言",
+      "languages": [
+        "CSS"
+      ]
+    },
+    {
+      "id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "description": "JavaScript 服务端运行时",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "aliases": [
+        "Node"
+      ]
+    },
+    {
+      "id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "description": "Python 异步 Web API 框架",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "Fast API"
+      ]
+    },
+    {
+      "id": "SKILL_DJANGO",
+      "name": "Django",
+      "type": "FRAMEWORK",
+      "description": "Python Web 全栈框架",
+      "languages": [
+        "Python"
+      ]
+    },
+    {
+      "id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "description": "Python 轻量级 Web 框架",
+      "languages": [
+        "Python"
+      ]
+    },
+    {
+      "id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "description": "Java 生态的后端应用与微服务开发框架",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "related_capabilities": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "description": "Java 生态的分布式系统和微服务治理框架",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "related_capabilities": [
+        "CAP_SYSTEM_DESIGN",
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "SKILL_EXPRESS",
+      "name": "Express",
+      "type": "FRAMEWORK",
+      "description": "Node.js Web 框架",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_NODEJS"
+      ],
+      "aliases": [
+        "Express.js"
+      ]
+    },
+    {
+      "id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "description": "前端 UI 组件框架",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "inference_rule_ids": [
+        "RULE_REACT_TO_HOOKS"
+      ]
+    },
+    {
+      "id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "description": "前端渐进式 UI 框架",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "aliases": [
+        "Vue.js"
+      ]
+    },
+    {
+      "id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "description": "基于 TypeScript 的前端应用开发框架",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "related_capabilities": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_NEXTJS",
+      "name": "Next.js",
+      "type": "FRAMEWORK",
+      "description": "React 服务端渲染与全栈框架",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_REACT"
+      ],
+      "related_capabilities": [
+        "CAP_REACT_TYPESCRIPT_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "description": "大模型应用与 Agent 编排框架",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "related_capabilities": [
+        "CAP_LANGCHAIN_ORCHESTRATION"
+      ],
+      "inference_rule_ids": [
+        "RULE_LANGCHAIN_TO_RAG",
+        "RULE_LANGCHAIN_TO_AGENT_DEV"
+      ]
+    },
+    {
+      "id": "SKILL_LANGGRAPH",
+      "name": "LangGraph",
+      "type": "FRAMEWORK",
+      "description": "基于图的 Agent 工作流框架",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_LANGCHAIN"
+      ],
+      "related_capabilities": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AGENT_LAYERED_ARCHITECTURE"
+      ],
+      "inference_rule_ids": [
+        "RULE_LANGGRAPH_TO_AGENT_DEV"
+      ]
+    },
+    {
+      "id": "SKILL_AUTOGEN",
+      "name": "AutoGen",
+      "type": "FRAMEWORK",
+      "description": "多智能体协作框架",
+      "languages": [
+        "Python"
+      ],
+      "related_capabilities": [
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_AUTOGEN_TO_AGENT_AUTONOMY"
+      ]
+    },
+    {
+      "id": "SKILL_CREWAI",
+      "name": "CrewAI",
+      "type": "FRAMEWORK",
+      "description": "多角色 Agent 协作框架",
+      "languages": [
+        "Python"
+      ],
+      "related_capabilities": [
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_CREWAI_TO_AGENT_AUTONOMY"
+      ]
+    },
+    {
+      "id": "SKILL_MLFLOW",
+      "name": "MLflow",
+      "type": "TOOL",
+      "aliases": [],
+      "description": "开源的 MLOps 平台，用于管理机器学习实验生命周期、模型版本管理、模型部署等",
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "description": "Large Language Model，大语言模型相关技术领域标签",
+      "languages": [],
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "description": "面向 LLM 应用、工作流、Agent 和 RAG 的低代码开发平台",
+      "languages": [],
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "related_capabilities": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "description": "Model Context Protocol，用于 LLM/Agent 与外部工具、数据源和服务的标准化连接",
+      "languages": [],
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "related_capabilities": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_OPENAI_SDK",
+      "name": "OpenAI SDK",
+      "type": "SDK",
+      "description": "OpenAI 模型接口调用 SDK",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "related_capabilities": [
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_OPENAI",
+      "name": "Azure OpenAI",
+      "type": "CLOUD_SERVICE",
+      "description": "Azure 上托管的 OpenAI 大模型服务，用于企业级 LLM API 集成",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "aliases": [
+        "Azure OpenAI Service",
+        "AOAI",
+        "Azure OpenAI API"
+      ],
+      "related_capabilities": [
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_FUNCTION_CALLING",
+      "name": "Function Calling",
+      "type": "AI_TECHNIQUE",
+      "description": "大模型工具调用能力",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_LLM_API_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_FUNCTION_CALLING_TO_AGENT_DEV"
+      ]
+    },
+    {
+      "id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "description": "提示词工程与指令设计",
+      "languages": [],
+      "aliases": [
+        "提示词工程"
+      ],
+      "related_capabilities": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "id": "SKILL_CONTEXT_ENGINEERING",
+      "name": "上下文工程",
+      "type": "AI_TECHNIQUE",
+      "description": "面向大模型的上下文组织与管理",
+      "languages": [],
+      "aliases": [
+        "Context Engineering",
+        "上下文工程"
+      ],
+      "related_capabilities": [
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_CONTEXT_ENGINEERING_TO_AGENT_AUTONOMY"
+      ]
+    },
+    {
+      "id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "description": "Retrieval-Augmented Generation，检索增强生成技术",
+      "languages": [],
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "related_capabilities": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_AI_SEARCH",
+      "name": "Azure AI Search",
+      "type": "CLOUD_SERVICE",
+      "description": "Azure 托管的企业搜索与向量检索服务，常用于 RAG、语义搜索和知识检索场景",
+      "languages": [],
+      "aliases": [
+        "Azure Cognitive Search",
+        "Azure Search",
+        "Azure AI Search Service"
+      ],
+      "related_capabilities": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_BGE_RERANKER_LARGE",
+      "name": "BGE-Reranker-Large",
+      "type": "AI_MODEL",
+      "description": "BAAI BGE Reranker large 模型，用于检索结果重排序和 RAG 召回质量优化",
+      "languages": [],
+      "aliases": [
+        "BGE Reranker Large",
+        "bge-reranker-large",
+        "BAAI/bge-reranker-large",
+        "BGE Reranker"
+      ],
+      "related_capabilities": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_JIEBA",
+      "name": "Jieba",
+      "type": "LIBRARY",
+      "description": "Python 中文分词库，用于中文文本分词和关键词提取",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "jieba",
+        "结巴分词",
+        "jieba分词"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_TESSERACT",
+      "name": "Tesseract",
+      "type": "OCR_TOOL",
+      "description": "开源 OCR 文字识别引擎，用于图片、扫描件和文档中的文本识别",
+      "languages": [],
+      "aliases": [
+        "Tesseract OCR",
+        "Google Tesseract",
+        "OCR Tesseract"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "description": "Knowledge Graph，面向实体、关系、语义建模和推理的图谱技术",
+      "languages": [],
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "related_capabilities": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "description": "向量检索与嵌入数据存储领域",
+      "languages": [],
+      "aliases": [
+        "Vector Database"
+      ],
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_VECTOR_DB_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_CHROMA",
+      "name": "Chroma",
+      "type": "VECTOR_DATABASE",
+      "description": "开源向量数据库",
+      "languages": [
+        "Python"
+      ],
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_CHROMA_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_QDRANT",
+      "name": "Qdrant",
+      "type": "VECTOR_DATABASE",
+      "description": "向量检索数据库",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_QDRANT_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_WEAVIATE",
+      "name": "Weaviate",
+      "type": "VECTOR_DATABASE",
+      "description": "支持语义检索的向量数据库",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_WEAVIATE_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_DASHVECTOR",
+      "name": "DashVector",
+      "type": "VECTOR_DATABASE",
+      "description": "阿里云向量检索服务",
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_DASHVECTOR_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "description": "开源高性能向量数据库",
+      "related_capabilities": [
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ],
+      "inference_rule_ids": [
+        "RULE_MILVUS_TO_RAG"
+      ]
+    },
+    {
+      "id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "description": "开源关系型数据库",
+      "languages": [
+        "SQL"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "description": "关系型数据库",
+      "languages": [
+        "SQL"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_TIDB",
+      "name": "TiDB",
+      "type": "DATABASE",
+      "description": "兼容 MySQL 协议的开源分布式 HTAP 数据库",
+      "aliases": [
+        "PingCAP TiDB",
+        "TiKV",
+        "TiFlash"
+      ],
+      "languages": [
+        "SQL"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_PLSQL",
+      "name": "PL/SQL",
+      "type": "LANGUAGE",
+      "description": "Oracle 数据库的过程化 SQL 编程语言",
+      "aliases": [
+        "PLSQL",
+        "Oracle PL/SQL",
+        "Oracle PLSQL"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "description": "面向文档的 NoSQL 数据库",
+      "aliases": [
+        "Mongo"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_CLICKHOUSE",
+      "name": "ClickHouse",
+      "type": "DATABASE",
+      "description": "面向分析场景的列式数据库",
+      "aliases": [
+        "Clickhouse"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_COSMOS_DB",
+      "name": "Azure Cosmos DB",
+      "type": "DATABASE",
+      "description": "Azure 托管的多模型分布式 NoSQL 数据库",
+      "aliases": [
+        "Cosmos DB",
+        "CosmosDB"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_NEO4J",
+      "name": "Neo4j",
+      "type": "DATABASE",
+      "description": "图数据库，用于关系建模、路径查询和知识图谱存储",
+      "aliases": [
+        "Neo4J",
+        "图数据库"
+      ],
+      "related_capabilities": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "id": "SKILL_SNOWFLAKE",
+      "name": "Snowflake",
+      "type": "DATA_PLATFORM",
+      "description": "云原生数据仓库和数据云平台",
+      "aliases": [
+        "Snowflake Data Cloud",
+        "SnowPro",
+        "SnowPro Certification",
+        "SnowPro Core"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "description": "AWS 托管的云数据仓库服务",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "description": "Amazon Web Services 云平台",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "related_capabilities": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "SKILL_ELASTICSEARCH",
+      "name": "Elasticsearch",
+      "type": "DATABASE",
+      "description": "分布式全文搜索引擎",
+      "aliases": [
+        "ES",
+        "Elastic Stack",
+        "ELK Stack"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "description": "内存数据存储与缓存系统",
+      "languages": [],
+      "aliases": [
+        "缓存"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "description": "基于 Spark 的湖仓一体数据与 AI 平台",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_DATAIKU",
+      "name": "Dataiku",
+      "type": "DATA_PLATFORM",
+      "description": "企业级数据科学、数据准备和机器学习平台",
+      "aliases": [
+        "Dataiku DSS"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_INFORMATICA",
+      "name": "Informatica",
+      "type": "DATA_PLATFORM",
+      "description": "企业级数据集成、数据治理和主数据管理平台",
+      "aliases": [
+        "Informatica PowerCenter",
+        "Informatica IICS",
+        "Informatica Cloud",
+        "Informatica MDM",
+        "PowerCenter",
+        "IICS"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT",
+        "CAP_DATA_GOVERNANCE_FRAMEWORK"
+      ]
+    },
+    {
+      "id": "SKILL_INFORMATICA_CLOUD",
+      "name": "Informatica Cloud",
+      "type": "DATA_PLATFORM",
+      "description": "Informatica 云数据集成与数据管理平台",
+      "aliases": [
+        "Informatica IICS",
+        "IICS",
+        "Informatica Intelligent Cloud Services"
+      ],
+      "belongs_to": [
+        "SKILL_INFORMATICA"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT",
+        "CAP_DATA_GOVERNANCE_FRAMEWORK"
+      ]
+    },
+    {
+      "id": "SKILL_INFORMATICA_MDM",
+      "name": "Informatica MDM",
+      "type": "DATA_PLATFORM",
+      "description": "Informatica 主数据管理平台",
+      "aliases": [
+        "Informatica Master Data Management"
+      ],
+      "belongs_to": [
+        "SKILL_INFORMATICA"
+      ],
+      "related_capabilities": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_QLIK_SENSE",
+      "name": "Qlik Sense",
+      "type": "BI_TOOL",
+      "description": "Qlik 商业智能分析与可视化平台",
+      "aliases": [
+        "QlikSense",
+        "Qlik"
+      ],
+      "related_capabilities": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "id": "SKILL_QLIK_REPLICATE",
+      "name": "Qlik Replicate",
+      "type": "DATA_PLATFORM",
+      "description": "Qlik 数据复制、CDC 与数据集成工具",
+      "aliases": [
+        "Attunity Replicate",
+        "Qlik Data Integration"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_VEEVA_CRM",
+      "name": "Veeva CRM",
+      "type": "SAAS_PLATFORM",
+      "description": "生命科学行业 CRM 平台，用于医药商业、销售和客户互动管理",
+      "aliases": [
+        "Veeva",
+        "Veeva Commercial Cloud"
+      ],
+      "related_capabilities": []
+    },
+    {
+      "id": "SKILL_AWS_GLUE",
+      "name": "AWS Glue",
+      "type": "CLOUD_SERVICE",
+      "description": "AWS 托管的无服务器数据集成与 ETL 服务",
+      "aliases": [
+        "Glue"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_AWS_LAMBDA",
+      "name": "AWS Lambda",
+      "type": "CLOUD_SERVICE",
+      "description": "AWS Serverless 函数计算服务，用于事件驱动应用和云函数开发",
+      "aliases": [
+        "Amazon Lambda"
+      ],
+      "related_capabilities": [
+        "CAP_SERVERLESS_FUNCTION_DEVELOPMENT"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_KEY_VAULT",
+      "name": "Azure Key Vault",
+      "type": "CLOUD_SERVICE",
+      "description": "Azure 密钥、证书和机密管理服务",
+      "aliases": [
+        "Key Vault",
+        "Azure KV"
+      ],
+      "related_capabilities": [
+        "CAP_CLOUD_KEY_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_ALIBABA_CLOUD_KMS",
+      "name": "阿里云KMS",
+      "type": "CLOUD_SERVICE",
+      "description": "阿里云密钥管理服务，用于密钥、凭据和加密能力管理",
+      "aliases": [
+        "阿里云 KMS",
+        "Alibaba Cloud KMS",
+        "Aliyun KMS"
+      ],
+      "related_capabilities": [
+        "CAP_CLOUD_KEY_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_DATA_FACTORY",
+      "name": "Azure Data Factory",
+      "type": "CLOUD_SERVICE",
+      "description": "Azure 数据集成、编排和 ETL/ELT 服务",
+      "aliases": [
+        "ADF",
+        "Azure ADF"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_AZURE_SYNAPSE",
+      "name": "Azure Synapse Analytics",
+      "type": "CLOUD_SERVICE",
+      "description": "Azure 集成式数据仓库、大数据分析和数据湖分析平台",
+      "aliases": [
+        "Azure Synapse",
+        "Synapse"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_HADOOP",
+      "name": "Hadoop",
+      "type": "DATA_PLATFORM",
+      "description": "分布式存储和大数据处理生态",
+      "aliases": [
+        "Apache Hadoop",
+        "HDFS"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "description": "分布式大数据处理引擎",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_PYSPARK",
+      "name": "PySpark",
+      "type": "LIBRARY",
+      "description": "Spark 的 Python API，用于分布式数据处理",
+      "languages": [
+        "Python"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "description": "基于 Hadoop 的数据仓库和 SQL 查询系统",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_APACHE_ICEBERG",
+      "name": "Apache Iceberg",
+      "type": "DATA_PLATFORM",
+      "description": "面向数据湖和湖仓场景的开放表格式",
+      "aliases": [
+        "Iceberg"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_PANDAS",
+      "name": "Pandas",
+      "type": "LIBRARY",
+      "description": "Python 数据分析与数据处理库",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "pandas"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_NUMPY",
+      "name": "NumPy",
+      "type": "LIBRARY",
+      "description": "Python 科学计算与多维数组计算基础库",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "numpy"
+      ],
+      "related_capabilities": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_SCIPY",
+      "name": "SciPy",
+      "type": "LIBRARY",
+      "description": "Python 科学计算库，覆盖优化、统计、信号处理和数值计算",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "scipy"
+      ],
+      "related_capabilities": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_SCIKIT_LEARN",
+      "name": "Scikit-learn",
+      "type": "ML_LIBRARY",
+      "description": "Python 机器学习库，覆盖分类、回归、聚类、降维和模型评估",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "sklearn",
+        "scikit learn",
+        "scikit-learn"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING",
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "id": "SKILL_TENSORFLOW",
+      "name": "TensorFlow",
+      "type": "ML_FRAMEWORK",
+      "description": "机器学习和深度学习建模框架",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "Tensorflow",
+        "TF"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "description": "机器学习和深度学习建模框架",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_XGBOOST",
+      "name": "XGBoost",
+      "type": "ML_LIBRARY",
+      "description": "梯度提升树机器学习库，常用于结构化数据建模",
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "aliases": [
+        "xgboost",
+        "XGB"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING",
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "id": "SKILL_LIGHTGBM",
+      "name": "LightGBM",
+      "type": "ML_LIBRARY",
+      "description": "高性能梯度提升树机器学习库，常用于排序、分类和回归任务",
+      "languages": [
+        "Python",
+        "R"
+      ],
+      "aliases": [
+        "Light Gradient Boosting Machine",
+        "LGBM"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING",
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "id": "SKILL_STATSMODELS",
+      "name": "Statsmodels",
+      "type": "LIBRARY",
+      "description": "Python 统计建模库，常用于回归分析、时间序列和统计检验",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "statsmodels"
+      ],
+      "related_capabilities": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_JUPYTER_NOTEBOOK",
+      "name": "Jupyter Notebook",
+      "type": "TOOL",
+      "description": "交互式数据分析、建模实验和可视化笔记本环境",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "Jupyter",
+        "JupyterLab",
+        "Notebook"
+      ],
+      "related_capabilities": [
+        "CAP_STATISTICAL_ANALYSIS",
+        "CAP_DATA_STORYTELLING"
+      ]
+    },
+    {
+      "id": "SKILL_MATPLOTLIB",
+      "name": "Matplotlib",
+      "type": "LIBRARY",
+      "description": "Python 数据可视化绘图库",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "matplotlib"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_STORYTELLING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_SEABORN",
+      "name": "Seaborn",
+      "type": "LIBRARY",
+      "description": "基于 Matplotlib 的 Python 统计数据可视化库",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "seaborn"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_STORYTELLING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "description": "机器学习建模、训练、验证和应用技术",
+      "languages": [],
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "related_capabilities": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_FEATURE_ENGINEERING",
+      "name": "特征工程",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "description": "面向模型训练的特征构建、转换、选择和验证实践",
+      "languages": [],
+      "aliases": [
+        "Feature Engineering",
+        "特征构建",
+        "特征选择"
+      ],
+      "related_capabilities": [
+        "CAP_FEATURE_ENGINEERING"
+      ]
+    },
+    {
+      "id": "SKILL_MODEL_EVALUATION",
+      "name": "模型评估",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "description": "使用合适指标、验证策略和误差分析评估模型效果",
+      "languages": [],
+      "aliases": [
+        "Model Evaluation",
+        "模型验证",
+        "模型效果评估"
+      ],
+      "related_capabilities": [
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "id": "SKILL_AB_TESTING",
+      "name": "A/B Testing",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "description": "实验设计、A/B 测试和效果评估分析",
+      "languages": [],
+      "aliases": [
+        "AB Testing",
+        "A/B Test",
+        "AB Test",
+        "A/B测试",
+        "AB测试"
+      ],
+      "related_capabilities": [
+        "CAP_EXPERIMENTATION_AB_TESTING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_SHAP",
+      "name": "SHAP",
+      "type": "ML_LIBRARY",
+      "description": "模型可解释性库，用于解释特征贡献和模型预测结果",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "SHAP Values",
+        "Shapley Additive Explanations"
+      ],
+      "related_capabilities": [
+        "CAP_MODEL_INTERPRETABILITY"
+      ]
+    },
+    {
+      "id": "SKILL_SQLALCHEMY",
+      "name": "SQLAlchemy",
+      "type": "LIBRARY",
+      "description": "Python ORM 与 SQL 工具库",
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "belongs_to": [
+        "SKILL_POSTGRESQL",
+        "SKILL_MYSQL"
+      ],
+      "related_capabilities": [
+        "CAP_SQLALCHEMY_POSTGRESQL"
+      ],
+      "inference_rule_ids": [
+        "RULE_SQLALCHEMY_TO_DATA_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_AIRFLOW",
+      "name": "Airflow",
+      "type": "TOOL",
+      "description": "工作流编排与定时调度平台",
+      "languages": [
+        "Python"
+      ],
+      "aliases": [
+        "Apache Airflow"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ],
+      "inference_rule_ids": [
+        "RULE_AIRFLOW_TO_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "description": "分布式事件流与消息队列平台",
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ],
+      "inference_rule_ids": [
+        "RULE_KAFKA_TO_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_RABBITMQ",
+      "name": "RabbitMQ",
+      "type": "MESSAGE_QUEUE",
+      "description": "基于 AMQP 的消息队列和异步消息中间件",
+      "languages": [],
+      "aliases": [
+        "Rabbit MQ",
+        "AMQP"
+      ],
+      "related_capabilities": [
+        "CAP_MESSAGE_QUEUE_INTEGRATION"
+      ]
+    },
+    {
+      "id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "description": "容器化构建与运行工具",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "description": "容器编排平台",
+      "languages": [],
+      "aliases": [
+        "K8s"
+      ],
+      "related_capabilities": [
+        "CAP_CONTAINER_OPERATION"
+      ],
+      "inference_rule_ids": [
+        "RULE_K8S_TO_CLOUD_ARCH"
+      ]
+    },
+    {
+      "id": "SKILL_KUBEFLOW",
+      "name": "Kubeflow",
+      "type": "AI_PLATFORM",
+      "description": "基于 Kubernetes 的机器学习工作流和模型训练部署平台",
+      "languages": [],
+      "aliases": [
+        "KubeFlow",
+        "Kube Flow"
+      ],
+      "belongs_to": [
+        "SKILL_KUBERNETES"
+      ],
+      "related_capabilities": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "id": "SKILL_KEYCLOAK",
+      "name": "Keycloak",
+      "type": "IDENTITY_PLATFORM",
+      "description": "开源身份认证与访问管理平台，支持 SSO、OAuth2 和 OpenID Connect",
+      "languages": [],
+      "aliases": [
+        "Red Hat Keycloak"
+      ],
+      "related_capabilities": [
+        "CAP_IDENTITY_ACCESS_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_ACS",
+      "name": "ACS",
+      "type": "PLATFORM",
+      "description": "阿里云容器服务或Kubernetes托管平台",
+      "belongs_to": [
+        "SKILL_KUBERNETES"
+      ],
+      "aliases": [
+        "Container Service",
+        "ACK"
+      ],
+      "related_capabilities": [
+        "CAP_ACS_CONTAINER_DEPLOYMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_ACS_TO_CLOUD_ARCH"
+      ]
+    },
+    {
+      "id": "SKILL_SSE",
+      "name": "SSE 接口",
+      "type": "PROTOCOL",
+      "description": "Server-Sent Events，服务器推送技术",
+      "aliases": [
+        "Server-Sent Events",
+        "流式响应"
+      ],
+      "related_capabilities": [
+        "CAP_STREAMING_SSE_INTERFACE"
+      ]
+    },
+    {
+      "id": "SKILL_SESSION_MGMT",
+      "name": "会话管理",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "Web应用会话状态管理",
+      "aliases": [
+        "Session Management",
+        "会话状态管理",
+        "Session/Cookie",
+        "Session 管理"
+      ],
+      "related_capabilities": [
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_RATE_LIMITING",
+      "name": "接口限流",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "API 访问频率限制与流量控制",
+      "aliases": [
+        "限流",
+        "流量控制",
+        "API 限流",
+        "QPS 限制"
+      ],
+      "related_capabilities": [
+        "CAP_AI_RATE_LIMITING"
+      ]
+    },
+    {
+      "id": "SKILL_MULTI_TURN_DIALOGUE",
+      "name": "多轮对话管理",
+      "type": "AI_FEATURE",
+      "belongs_to": [
+        "SKILL_CONTEXT_ENGINEERING"
+      ],
+      "description": "管理对话上下文，维护多轮对话的历史记录和状态",
+      "aliases": [
+        "Multi-turn",
+        "Context Management",
+        "上下文管理",
+        "对话历史"
+      ],
+      "related_capabilities": [
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_MULTI_TURN_TO_AGENT_DEV"
+      ]
+    },
+    {
+      "id": "SKILL_MEMORY_MANAGEMENT",
+      "name": "记忆管理",
+      "type": "AI_FEATURE",
+      "belongs_to": [
+        "SKILL_CONTEXT_ENGINEERING"
+      ],
+      "description": "Agent 的记忆管理能力",
+      "related_capabilities": [
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_MEMORY_TO_AGENT_AUTONOMY"
+      ]
+    },
+    {
+      "id": "SKILL_AGENT_PLANNING",
+      "name": "Agent 规划能力",
+      "type": "AI_FEATURE",
+      "aliases": [
+        "Agent Planning",
+        "Agent 计划能力",
+        "Task Planning",
+        "推理规划",
+        "CoT",
+        "思维链"
+      ],
+      "description": "设计 Agent 的任务拆解、步骤规划与反思修正能力",
+      "related_capabilities": [
+        "CAP_AGENT_TASK_AUTONOMY"
+      ],
+      "inference_rule_ids": [
+        "RULE_AGENT_PLANNING_TO_SCENARIO_SELECTION"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数据建模、管道开发与治理核心能力",
+      "languages": [],
+      "aliases": [
+        "Data Engineering"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT",
+        "CAP_DATA_MODELING"
+      ],
+      "inference_rule_ids": [
+        "RULE_DATA_ENGINEERING_TO_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数据抽取、转换、加载以及现代 ELT 数据管道开发实践",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "related_capabilities": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_WAREHOUSE_MODELING",
+      "name": "数据仓库建模",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "维度建模、分层设计与主题域建模",
+      "languages": [],
+      "aliases": [
+        "Data Warehouse Modeling",
+        "Dimensional Modeling",
+        "维度建模",
+        "数仓建模"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSE_MODELING",
+        "CAP_DATA_MODELING"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数仓ETL开发、调度与性能优化",
+      "languages": [],
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT"
+      ],
+      "inference_rule_ids": [
+        "RULE_DW_DEV_TO_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_LAKE",
+      "name": "Data Lake",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "面向结构化、半结构化和非结构化数据的数据湖建设实践",
+      "aliases": [
+        "数据湖"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_LAKEHOUSE",
+      "name": "Data Lakehouse",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "融合数据湖和数据仓库能力的湖仓一体架构实践",
+      "aliases": [
+        "Lakehouse",
+        "湖仓一体",
+        "数据湖仓"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT"
+      ]
+    },
+    {
+      "id": "SKILL_DAMA",
+      "name": "DAMA",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "DAMA 数据管理知识体系与数据治理方法论",
+      "aliases": [
+        "DAMA-DMBOK",
+        "DMBOK",
+        "Data Management Body of Knowledge"
+      ],
+      "related_capabilities": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_QUALITY_MANAGEMENT",
+      "name": "数据质量管理",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数据质量规则、监控与改进闭环",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DATA_QUALITY_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_METADATA_MANAGEMENT",
+      "name": "元数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "技术元数据与业务元数据管理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_METADATA_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "name": "主数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "主数据域治理、口径统一与生命周期管理",
+      "languages": [],
+      "aliases": [
+        "Master Data Management",
+        "MDM",
+        "Master Data Managerment",
+        "Master Data Mangerment",
+        "主数据管理"
+      ],
+      "related_capabilities": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_LINEAGE",
+      "name": "数据血缘",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数据链路追踪、影响分析与溯源",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DATA_LINEAGE_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_STANDARDIZATION",
+      "name": "数据标准化",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "数据命名、口径与标准规范管理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "经营指标体系与可视化看板构建",
+      "languages": [],
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "related_capabilities": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "description": "Microsoft Power BI 商业智能报表和仪表盘工具",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "related_capabilities": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "description": "Tableau 商业智能分析、数据可视化和仪表盘工具",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "related_capabilities": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "id": "SKILL_LOOKER_STUDIO",
+      "name": "Looker Studio",
+      "type": "BI_TOOL",
+      "description": "Google Looker Studio 数据可视化和报表工具",
+      "aliases": [
+        "Google Looker Studio",
+        "Data Studio",
+        "Google Data Studio",
+        "LookerStudio"
+      ],
+      "related_capabilities": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "id": "SKILL_SALESFORCE",
+      "name": "Salesforce",
+      "type": "CRM_PLATFORM",
+      "description": "Salesforce CRM 和云平台生态",
+      "aliases": [
+        "SFDC",
+        "Salesforce CRM",
+        "Salesforce Cloud"
+      ]
+    },
+    {
+      "id": "SKILL_ADOBE_ANALYTICS",
+      "name": "Adobe Analytics",
+      "type": "MARKETING_ANALYTICS",
+      "description": "Adobe Experience Cloud 生态中的数字体验和营销分析工具",
+      "aliases": [
+        "Adobe SiteCatalyst",
+        "SiteCatalyst"
+      ]
+    },
+    {
+      "id": "SKILL_GA4",
+      "name": "GA4",
+      "type": "MARKETING_ANALYTICS",
+      "description": "Google Analytics 4 网站和应用数据分析工具",
+      "aliases": [
+        "Google Analytics 4",
+        "Google Analytics",
+        "GA 4"
+      ]
+    },
+    {
+      "id": "SKILL_BRIGHTEDGE",
+      "name": "BrightEdge",
+      "type": "SEO_PLATFORM",
+      "description": "BrightEdge SEO 和内容营销分析平台",
+      "aliases": [
+        "Bright Edge"
+      ]
+    },
+    {
+      "id": "SKILL_STATISTICAL_ANALYSIS",
+      "name": "统计分析",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "统计方法应用与结果解释",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "id": "SKILL_DATA_STORYTELLING",
+      "name": "数据叙事",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "将分析结果转化为业务决策叙事",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_DATA_STORYTELLING"
+      ]
+    },
+    {
+      "id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "description": "API 调试、接口测试和接口集合管理工具",
+      "aliases": [
+        "Postman API"
+      ],
+      "related_capabilities": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "id": "SKILL_JMETER",
+      "name": "JMeter",
+      "type": "PERFORMANCE_TESTING_TOOL",
+      "description": "Apache JMeter 性能测试、压力测试和负载测试工具",
+      "aliases": [
+        "Apache JMeter"
+      ],
+      "related_capabilities": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "description": "Web UI 自动化测试框架",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_PLAYWRIGHT",
+      "name": "Playwright",
+      "type": "TEST_AUTOMATION_TOOL",
+      "description": "面向 Web 应用的端到端自动化测试框架",
+      "aliases": [
+        "Microsoft Playwright"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_PYTEST",
+      "name": "Pytest",
+      "type": "TEST_AUTOMATION_TOOL",
+      "description": "Python 测试框架，常用于单元测试、接口测试和自动化测试",
+      "aliases": [
+        "pytest",
+        "Python Pytest"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_JUNIT",
+      "name": "JUnit",
+      "type": "TEST_AUTOMATION_TOOL",
+      "description": "Java 单元测试框架",
+      "aliases": [
+        "JUnit 4",
+        "JUnit 5"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_TESTNG",
+      "name": "TestNG",
+      "type": "TEST_AUTOMATION_TOOL",
+      "description": "Java 测试框架，常用于单元测试、集成测试和自动化测试",
+      "languages": [
+        "Java"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_API_TESTING",
+      "name": "接口测试",
+      "type": "TESTING_PRACTICE",
+      "description": "针对 API 接口进行功能、参数、鉴权、错误处理和集成行为验证",
+      "aliases": [
+        "API测试",
+        "API Testing",
+        "接口自动化测试"
+      ],
+      "related_capabilities": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "description": "构建自动化测试脚本、测试框架和持续测试流程",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "id": "SKILL_PERFORMANCE_TESTING",
+      "name": "性能测试",
+      "type": "TESTING_PRACTICE",
+      "description": "执行负载测试、压力测试、容量测试和性能瓶颈分析",
+      "aliases": [
+        "压力测试",
+        "负载测试",
+        "Performance Testing",
+        "Load Testing",
+        "Stress Testing"
+      ],
+      "related_capabilities": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "description": "基于需求、业务流程和风险覆盖设计测试用例和测试场景",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "id": "SKILL_DEFECT_MANAGEMENT",
+      "name": "缺陷管理",
+      "type": "TESTING_PRACTICE",
+      "description": "缺陷记录、跟踪、分析、优先级管理和修复验证",
+      "aliases": [
+        "Bug管理",
+        "缺陷跟踪",
+        "Defect Management",
+        "Bug Tracking"
+      ],
+      "related_capabilities": [
+        "CAP_DEFECT_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_REGRESSION_TESTING",
+      "name": "回归测试",
+      "type": "TESTING_PRACTICE",
+      "description": "验证代码变更后已有功能未发生回退",
+      "aliases": [
+        "Regression Testing"
+      ],
+      "related_capabilities": [
+        "CAP_TEST_AUTOMATION",
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "Scaled Agile Framework 5，用于大规模敏捷交付和项目治理",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "related_capabilities": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "持续集成与持续交付流水线设计和维护",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "languages": [],
+      "related_capabilities": [
+        "CAP_CI_CD"
+      ],
+      "inference_rule_ids": [
+        "RULE_CICD_TO_RELEASE"
+      ]
+    },
+    {
+      "id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "研发运维一体化实践，覆盖自动化交付、发布、监控和稳定性协作",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "related_capabilities": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT",
+        "CAP_MONITORING_INCIDENT_RESPONSE"
+      ]
+    },
+    {
+      "id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "description": "日志分析、监控、可观测性和安全运营分析平台",
+      "languages": [],
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "related_capabilities": [
+        "CAP_PLATFORM_RELIABILITY",
+        "CAP_MONITORING_INCIDENT_RESPONSE"
+      ]
+    },
+    {
+      "id": "SKILL_HARBOR_REGISTRY",
+      "name": "Harbor 镜像仓库",
+      "type": "TOOL",
+      "description": "私有镜像仓库管理与镜像安全治理",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_HARBOR_REGISTRY_MANAGEMENT"
+      ]
+    },
+    {
+      "id": "SKILL_YUNXIAO_PIPELINE",
+      "name": "云效流水线",
+      "type": "PLATFORM",
+      "description": "基于云效完成构建发布与部署自动化",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_YUNXIAO_PIPELINE_RELEASE"
+      ]
+    },
+    {
+      "id": "SKILL_RELEASE_ROLLBACK",
+      "name": "发布回滚",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "发布异常回滚和应急恢复策略设计",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_RELEASE_ROLLBACK_STRATEGY"
+      ]
+    },
+    {
+      "id": "SKILL_ENTERPRISE_WECHAT",
+      "name": "企业微信开发",
+      "type": "PLATFORM_INTEGRATION",
+      "description": "企业微信第三方应用与OpenAPI集成开发",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_ENTERPRISE_WECHAT_OPENAPI"
+      ]
+    },
+    {
+      "id": "SKILL_CODE_REVIEW_STANDARDS",
+      "name": "代码评审规范",
+      "type": "ENGINEERING_PRACTICE",
+      "description": "Code Review流程与工程规范落地",
+      "languages": [],
+      "related_capabilities": [
+        "CAP_CODE_REVIEW_AND_STANDARDS"
+      ]
+    }
+  ]
+}

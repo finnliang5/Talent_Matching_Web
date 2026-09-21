@@ -1,0 +1,633 @@
+{
+  "姓名": "Candidate_0116",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "BA",
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 【Certifications in Alibaba Cloud Certified Associate LLM】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "* 【AWS Certified AI Practitioner】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_PANDAS",
+      "name": "Pandas",
+      "type": "LIBRARY",
+      "evidence": "* 【收入异动预警模型：深入理解业务场景，梳理上游表并结合业务逻辑清洗收入数据口径，根据收入体量筛选出重点客户，应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法，为业务方提供重点客户的异动信息及未来收入的预测预警；在容忍度为 5%的情况下，模型准确率超过 80%，且多数异动客户均有特殊业务原因】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "pandas"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Pandas"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "【硕士毕业于香港科技大学数据驱动建模专业，本科毕业于中山大学。在校期间系统学习了机器学习、深度学习等统计建模知识，能够运用各类时序、回归、决策树等模型处理商业问题。拥有两年零售/高科技制造行业咨询经验，半年ToB云产品商业分析经验。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "* 【数据产品建设：根据各方业务角色消费内容，提供业绩查询、客户收入追踪、目标完成进度等数据看板（Tableau, 腾讯云 BI），辅助建立业务经营分析在线门户；针对各业务数据消费内容、频率、载体等，输出数据产品服务使用指南，并向业务进行宣贯和反馈搜集。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "name": "客户全生命周期经营",
+      "type": "ABILITY",
+      "evidence": "* 【邓韩贝信息技术有限公司，客户成功经理】",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "客户生命周期经营",
+        "客户成功",
+        "客户成功体系",
+        "客户经营"
+      ],
+      "matched_term": "客户成功"
+    },
+    {
+      "competency_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "name": "AI治理体系设计",
+      "type": "ABILITY",
+      "evidence": "企业级RAI架构规划：基于国际通用RAI基础架构，结合客户自身资产、项目生命周期及实施流程，输出定制化的AI风险库、风险评估及决策模型、对应管控措施、RAI流程指南、人员组织配置及参考技术架构等内容，为客户AI项目的落地提供全方位保障",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "AI治理",
+        "AI治理框架",
+        "AI治理体系",
+        "AI风险合规"
+      ],
+      "matched_term": "AI治理体系设计"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "AI 用例挖掘：基于端到端业务流程拆解，挖掘具备应用潜力的 AI 赋能场景，从业务价值（如效率提升、成本优化）、技术可行性（如数据基础、落地周期）、投入产出比等维度进行综合评估，形成 AI 用例分析报告",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "参与客户企业级AI智能体蓝图规划，熟悉“协调-超级-效用”三层智能体架构原理...完成客户域及研发域的智能体架构蓝图及实施路线图",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "深度参与跨国零售企业 P2P/O2C核心业务流程梳理，系统分析现行政策规范与 SOP 执行现状，结合行业最佳实践，精准识别流程关键控制点与潜在优化空间",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "参与研发、人资、数字化中心等 6 个部门共 20 + 场访谈，梳理端到端业务流程图，定位跨部门协作断点（如研发与生产数据不同步、审批流程冗余）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_GOVERNANCE_FRAMEWORK",
+      "name": "AI Governance Framework",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "企业级RAI架构规划：基于国际通用RAI基础架构，结合客户自身资产、项目生命周期及实施流程，输出定制化的AI风险库、风险评估及决策模型、对应管控措施、RAI流程指南、人员组织配置及参考技术架构等内容，为客户AI项目的落地提供全方位保障"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "AI 用例挖掘：基于端到端业务流程拆解，挖掘具备应用潜力的 AI 赋能场景，从业务价值（如效率提升、成本优化）、技术可行性（如数据基础、落地周期）、投入产出比等维度进行综合评估，形成 AI 用例分析报告"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "AI 用例挖掘：基于端到端业务流程拆解，挖掘具备应用潜力的 AI 赋能场景，从业务价值（如效率提升、成本优化）、技术可行性（如数据基础、落地周期）、投入产出比等维度进行综合评估，形成 AI 用例分析报告"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 【数据产品建设：根据各方业务角色消费内容，提供业绩查询、客户收入追踪、目标完成进度等数据看板（Tableau, 腾讯云 BI），辅助建立业务经营分析在线门户；针对各业务数据消费内容、频率、载体等，输出数据产品服务使用指南，并向业务进行宣贯和反馈搜集。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "AI 用例挖掘：基于端到端业务流程拆解，挖掘具备应用潜力的 AI 赋能场景，从业务价值（如效率提升、成本优化）、技术可行性（如数据基础、落地周期）、投入产出比等维度进行综合评估，形成 AI 用例分析报告"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "* 【AWS Certified AI Practitioner】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【邓韩贝信息技术有限公司，客户成功经理】",
+        "参与研发、人资、数字化中心等 6 个部门共 20 + 场访谈，梳理端到端业务流程图，定位跨部门协作断点（如研发与生产数据不同步、审批流程冗余）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CUSTOMER_SUCCESS_OPERATION",
+      "name": "Customer Success Operation",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【邓韩贝信息技术有限公司，客户成功经理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "* 【收入异动预警模型：深入理解业务场景，梳理上游表并结合业务逻辑清洗收入数据口径，根据收入体量筛选出重点客户，应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法，为业务方提供重点客户的异动信息及未来收入的预测预警；在容忍度为 5%的情况下，模型准确率超过 80%，且多数异动客户均有特殊业务原因】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "参与客户企业级AI智能体蓝图规划，熟悉“协调-超级-效用”三层智能体架构原理...完成客户域及研发域的智能体架构蓝图及实施路线图"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "【硕士毕业于香港科技大学数据驱动建模专业，本科毕业于中山大学。在校期间系统学习了机器学习、深度学习等统计建模知识，能够运用各类时序、回归、决策树等模型处理商业问题。拥有两年零售/高科技制造行业咨询经验，半年ToB云产品商业分析经验。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "参与客户企业级AI智能体蓝图规划，熟悉“协调-超级-效用”三层智能体架构原理...完成客户域及研发域的智能体架构蓝图及实施路线图"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "深度参与跨国零售企业 P2P/O2C核心业务流程梳理，系统分析现行政策规范与 SOP 执行现状，结合行业最佳实践，精准识别流程关键控制点与潜在优化空间"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "企业级RAI架构规划：基于国际通用RAI基础架构，结合客户自身资产、项目生命周期及实施流程，输出定制化的AI风险库、风险评估及决策模型、对应管控措施、RAI流程指南、人员组织配置及参考技术架构等内容，为客户AI项目的落地提供全方位保障"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "参与研发、人资、数字化中心等 6 个部门共 20 + 场访谈，梳理端到端业务流程图，定位跨部门协作断点（如研发与生产数据不同步、审批流程冗余）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 【收入异动预警模型：深入理解业务场景，梳理上游表并结合业务逻辑清洗收入数据口径，根据收入体量筛选出重点客户，应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法，为业务方提供重点客户的异动信息及未来收入的预测预警；在容忍度为 5%的情况下，模型准确率超过 80%，且多数异动客户均有特殊业务原因】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【Certifications in Alibaba Cloud Certified Associate LLM】",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【AWS Certified AI Practitioner】",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【收入异动预警模型：深入理解业务场景，梳理上游表并结合业务逻辑清洗收入数据口径，根据收入体量筛选出重点客户，应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法，为业务方提供重点客户的异动信息及未来收入的预测预警；在容忍度为 5%的情况下，模型准确率超过 80%，且多数异动客户均有特殊业务原因】",
+      "supports_entity_id": "SKILL_PANDAS",
+      "supports_entity_name": "Pandas",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【硕士毕业于香港科技大学数据驱动建模专业，本科毕业于中山大学。在校期间系统学习了机器学习、深度学习等统计建模知识，能够运用各类时序、回归、决策树等模型处理商业问题。拥有两年零售/高科技制造行业咨询经验，半年ToB云产品商业分析经验。】",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【数据产品建设：根据各方业务角色消费内容，提供业绩查询、客户收入追踪、目标完成进度等数据看板（Tableau, 腾讯云 BI），辅助建立业务经营分析在线门户；针对各业务数据消费内容、频率、载体等，输出数据产品服务使用指南，并向业务进行宣贯和反馈搜集。】",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【邓韩贝信息技术有限公司，客户成功经理】",
+      "supports_entity_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "supports_entity_name": "客户全生命周期经营",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_CUSTOMER_SUCCESS_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "企业级RAI架构规划：基于国际通用RAI基础架构，结合客户自身资产、项目生命周期及实施流程，输出定制化的AI风险库、风险评估及决策模型、对应管控措施、RAI流程指南、人员组织配置及参考技术架构等内容，为客户AI项目的落地提供全方位保障",
+      "supports_entity_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "supports_entity_name": "AI治理体系设计",
+      "derived_capability_ids": [
+        "CAP_AI_GOVERNANCE_FRAMEWORK",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "AI 用例挖掘：基于端到端业务流程拆解，挖掘具备应用潜力的 AI 赋能场景，从业务价值（如效率提升、成本优化）、技术可行性（如数据基础、落地周期）、投入产出比等维度进行综合评估，形成 AI 用例分析报告",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与客户企业级AI智能体蓝图规划，熟悉“协调-超级-效用”三层智能体架构原理...完成客户域及研发域的智能体架构蓝图及实施路线图",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "深度参与跨国零售企业 P2P/O2C核心业务流程梳理，系统分析现行政策规范与 SOP 执行现状，结合行业最佳实践，精准识别流程关键控制点与潜在优化空间",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与研发、人资、数字化中心等 6 个部门共 20 + 场访谈，梳理端到端业务流程图，定位跨部门协作断点（如研发与生产数据不同步、审批流程冗余）",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法"
+    },
+    {
+      "skill_id": "",
+      "name": "Prophet",
+      "evidence": "应用 SQL, pandas 及 Prophet 时序分析模型对重点客户的线上收入数据建立模型算法"
+    },
+    {
+      "skill_id": "",
+      "name": "腾讯云 BI",
+      "evidence": "提供业绩查询、客户收入追踪、目标完成进度等数据看板（Tableau, 腾讯云 BI）"
+    },
+    {
+      "skill_id": "",
+      "name": "ChatGLM",
+      "evidence": "基于ChatGLM进行测试迭代，优化知识库结构与内容"
+    },
+    {
+      "skill_id": "",
+      "name": "Alibaba Cloud LLM",
+      "evidence": "Certifications in Alibaba Cloud Certified Associate LLM"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "邓韩贝信息技术有限公司",
+      "职位": "客户成功经理",
+      "时间": "无法识别",
+      "描述": "早期职业背景，负责客户成功相关工作"
+    },
+    {
+      "公司": "某跨国头部食品企业",
+      "职位": "分析师",
+      "时间": "无法识别",
+      "描述": "RAI（负责任AI）规划项目。负责企业级RAI架构规划，输出定制化AI风险库、评估模型及管控措施；独立负责RAI知识库从0到1搭建，完成知识采集、清洗、结构化处理，并基于ChatGLM测试迭代优化。"
+    },
+    {
+      "公司": "某跨国头部科技企业",
+      "职位": "分析师",
+      "时间": "无法识别",
+      "描述": "AI智能体架构规划项目。参与10个领域的智能体架构设计，识别建设机会点，定义智能体功能、业务价值、数据源及协同工作流，实现企业流程优化及AI转型。"
+    },
+    {
+      "公司": "某跨国头部零售企业",
+      "职位": "咨询顾问",
+      "时间": "无法识别",
+      "描述": "中国业务科技加速发展项目。深度参与P2P/O2C核心业务流程梳理，识别关键控制点与优化空间；基于端到端流程挖掘AI赋能场景，从业务价值、技术可行性、ROI评估形成AI用例分析报告。"
+    },
+    {
+      "公司": "某国内头部PCB装备制造商",
+      "职位": "咨询顾问",
+      "时间": "无法识别",
+      "描述": "数智化AI变革项目。参与6个部门20+场访谈，梳理端到端流程图，定位跨部门协作断点；参与企业级AI智能体蓝图规划，完成客户域及研发域智能体架构蓝图及实施路线图；设计标准化知识收集表，参与设计客户知识管理体系。"
+    },
+    {
+      "公司": "某国内互联网大厂云产品部门",
+      "职位": "商业分析师",
+      "时间": "无法识别",
+      "描述": "收入异动预警模型。清洗收入数据，应用SQL、pandas及Prophet时序模型建立预测预警，准确率超80%；数据产品建设。提供业绩查询等数据看板(Tableau, 腾讯云BI)，输出使用指南并宣贯。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【硕士毕业于香港科技大学数据驱动建模专业，本科毕业于中山大学。在校期间系统学习了机器学习、深度学习等统计建模知识，能够运用各类时序、回归、决策树等模型处理商业问题。拥有两年零售/高科技制造行业咨询经验，半年ToB云产品商业分析经验。】",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "【硕士毕业于香港科技大学数据驱动建模专业，本科毕业于中山大学。在校期间系统学习了机器学习、深度学习等统计建模知识，能够运用各类时序、回归、决策树等模型处理商业问题。拥有两年零售/高科技制造行业咨询经验，半年ToB云产品商业分析经验。】",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "s.zhong_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\s.zhong_profile_CN.md",
+    "source_hash": "60f7372f1ce48cd69f592641e62716b5f4020c87b2f66cd01bd3d20c00b40c6f",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:57:40"
+  },
+  "城市": "Shenzhen"
+}

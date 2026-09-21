@@ -1,0 +1,689 @@
+{
+  "姓名": "Candidate_0142",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 负责主数据平台设计、架构设计、咨询与数据集成实施",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "数据集成"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库"
+    },
+    {
+      "skill_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "name": "主数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 主数据管理（MDM）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Master Data Management",
+        "MDM",
+        "Master Data Managerment",
+        "Master Data Mangerment",
+        "主数据管理"
+      ],
+      "matched_term": "主数据管理"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理与项目群管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "- 负责企业数据平台、数据应用及报表补偿多项目规划",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 带领团队搭建全套数据治理框架",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理框架"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "擅长跨部门、跨厂商、跨组织协同，具备强领导力、方案呈现与客户沟通能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "具备大型跨国咨询公司全流程交付经验，熟悉企业数字化转型方法论",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "擅长跨部门、跨厂商、跨组织协同",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "提供大数据混合架构和蓝图咨询",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长跨部门、跨厂商、跨组织协同，具备强领导力、方案呈现与客户沟通能力",
+        "擅长跨部门、跨厂商、跨组织协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备大型跨国咨询公司全流程交付经验，熟悉企业数字化转型方法论"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 带领团队搭建全套数据治理框架"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 带领团队搭建全套数据治理框架"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与项目群管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+        "- 负责主数据平台设计、架构设计、咨询与数据集成实施"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备大型跨国咨询公司全流程交付经验，熟悉企业数字化转型方法论"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "提供大数据混合架构和蓝图咨询"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MASTER_DATA_MANAGEMENT",
+      "name": "Master Data Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 主数据管理（MDM）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MASTER_DATA_MANAGEMENT",
+          "name": "主数据管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "提供大数据混合架构和蓝图咨询"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 负责企业数据平台、数据应用及报表补偿多项目规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与项目群管理",
+        "- 负责企业数据平台、数据应用及报表补偿多项目规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理与项目群管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长跨部门、跨厂商、跨组织协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责主数据平台设计、架构设计、咨询与数据集成实施",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主数据管理（MDM）",
+      "supports_entity_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "supports_entity_name": "主数据管理",
+      "derived_capability_ids": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理与项目群管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责企业数据平台、数据应用及报表补偿多项目规划",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 带领团队搭建全套数据治理框架",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长跨部门、跨厂商、跨组织协同，具备强领导力、方案呈现与客户沟通能力",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备大型跨国咨询公司全流程交付经验，熟悉企业数字化转型方法论",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长跨部门、跨厂商、跨组织协同",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提供大数据混合架构和蓝图咨询",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Teradata",
+      "evidence": "Teradata / Presales"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Teradata",
+      "职位": "Presales",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "Amadeus",
+      "职位": "Solution Manager",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "Alibaba",
+      "职位": "Product Manager",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "中国民航信息网络股份有限公司",
+      "职位": "Solution Manager",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "某大型保险公司",
+      "职位": "项目经理、数据架构师",
+      "时间": "",
+      "描述": "数据模型和数据仓库建设项目：提供大数据混合架构和蓝图咨询、2B数据模型咨询及分析主题设计；负责数据标准与治理咨询，指导客户建立治理组织与制度；负责IFRS17数据处理平台、数据质量平台规划、架构设计与实施"
+    },
+    {
+      "公司": "某大型保险公司",
+      "职位": "数据专家",
+      "时间": "",
+      "描述": "客户数据工程项目：负责销售场景客户价值分析模型咨询规划与落地服务"
+    },
+    {
+      "公司": "某大型保险集团",
+      "职位": "数据专家",
+      "时间": "",
+      "描述": "业务管理模式优化项目：带领团队提供数据建模、分析报表咨询及落地服务"
+    },
+    {
+      "公司": "某大型国有石油勘探行业公司",
+      "职位": "数据专家",
+      "时间": "",
+      "描述": "销售系统重构项目：带领客户数据团队开展加管3.0企业级数据中台端到端设计及落地；提供数据平台总体架构、数据治理体系、数字化应用建设专家咨询指导服务"
+    },
+    {
+      "公司": "某大型全球制药企业",
+      "职位": "项目经理 & 数据治理负责人",
+      "时间": "",
+      "描述": "数据治理顶层咨询项目：带领团队搭建全套数据治理框架；对接协调第三方供应商，推进数据应用系统项目实施落地"
+    },
+    {
+      "公司": "某大型知名鞋业公司",
+      "职位": "项目群经理",
+      "时间": "",
+      "描述": "数据迁移 & 报表补偿项目集：负责企业数据平台、数据应用及报表补偿多项目规划；带领团队完成项目集实施交付"
+    },
+    {
+      "公司": "某大型乳制品企业",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "主数据建设项目：负责主数据管理平台规划、数据域目标定位及实施路线规划；负责主数据平台设计、架构设计、咨询与数据集成实施"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "2003 年毕业于中科院计算所计算机应用系，拥有 20 多年 IT 项目咨询管理、解决方案设计、数据咨询全流程经验，专注数据架构设计、数据治理、主数据治理、数据平台规划与数字化转型咨询，主导保险、能源、医药、制造、快消等行业头部企业数据工程、数据中台、数据仓库与治理体系落地，具备大型项目群统筹与跨组织协同交付能力。",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "wei.d.sun_profile_cn.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\wei.d.sun_profile_cn.md",
+    "source_hash": "17dee8f9b9043ea10a816feaa2cebd29f2b55a68894013f7b6dfcdf3b71fe32d",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:27:09"
+  },
+  "城市": "Beijing"
+}

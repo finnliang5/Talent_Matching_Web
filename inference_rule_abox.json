@@ -1,0 +1,242 @@
+{
+  "meta": {
+    "version": "1.0",
+    "description": "Technical skill to capability inference rule ABox aligned with the ontology properties for rule link, target, weight, and reason."
+  },
+  "inference_rules": [
+    {
+      "id": "RULE_REACT_TO_HOOKS",
+      "name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_REACT",
+      "target_capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "inference_weight": 0.78,
+      "reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference."
+    },
+    {
+      "id": "RULE_NEXTJS_TO_FULLSTACK",
+      "name": "Next.js -> CAP_FULL_STACK_ARCHITECTURE",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_NEXTJS",
+      "target_capability_id": "CAP_FULL_STACK_ARCHITECTURE",
+      "inference_weight": 0.72,
+      "reason": "Next.js spans frontend routing, SSR, and backend-adjacent patterns, so full-stack architecture is a cautious secondary inference."
+    },
+    {
+      "id": "RULE_LANGCHAIN_TO_RAG",
+      "name": "LangChain -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_LANGCHAIN",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.74,
+      "reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities."
+    },
+    {
+      "id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+      "name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_LANGCHAIN",
+      "target_capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "inference_weight": 0.76,
+      "reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference."
+    },
+    {
+      "id": "RULE_LANGGRAPH_TO_AGENT_DEV",
+      "name": "LangGraph -> CAP_AI_AGENT_DEVELOPMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_LANGGRAPH",
+      "target_capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "inference_weight": 0.82,
+      "reason": "Graph-based orchestration experience usually indicates hands-on agent system implementation."
+    },
+    {
+      "id": "RULE_AUTOGEN_TO_AGENT_AUTONOMY",
+      "name": "AutoGen -> CAP_AGENT_TASK_AUTONOMY",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_AUTOGEN",
+      "target_capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "inference_weight": 0.73,
+      "reason": "AutoGen often appears in autonomous multi-agent task execution scenarios."
+    },
+    {
+      "id": "RULE_CREWAI_TO_AGENT_AUTONOMY",
+      "name": "CrewAI -> CAP_AGENT_TASK_AUTONOMY",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_CREWAI",
+      "target_capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "inference_weight": 0.73,
+      "reason": "CrewAI commonly reflects role-based autonomous task coordination."
+    },
+    {
+      "id": "RULE_FUNCTION_CALLING_TO_AGENT_DEV",
+      "name": "Function Calling -> CAP_AI_AGENT_DEVELOPMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_FUNCTION_CALLING",
+      "target_capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "inference_weight": 0.71,
+      "reason": "Function calling is a common foundation for tool-using agent workflows."
+    },
+    {
+      "id": "RULE_CONTEXT_ENGINEERING_TO_AGENT_AUTONOMY",
+      "name": "上下文工程 -> CAP_AGENT_TASK_AUTONOMY",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_CONTEXT_ENGINEERING",
+      "target_capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "inference_weight": 0.66,
+      "reason": "Context engineering supports longer multi-step execution, but remains a weak secondary inference."
+    },
+    {
+      "id": "RULE_VECTOR_DB_TO_RAG",
+      "name": "向量数据库 -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_VECTOR_DATABASE",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.75,
+      "reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities."
+    },
+    {
+      "id": "RULE_CHROMA_TO_RAG",
+      "name": "Chroma -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_CHROMA",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.72,
+      "reason": "Chroma is commonly used in lightweight RAG implementations."
+    },
+    {
+      "id": "RULE_QDRANT_TO_RAG",
+      "name": "Qdrant -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_QDRANT",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.72,
+      "reason": "Qdrant is commonly used in vector retrieval pipelines for RAG."
+    },
+    {
+      "id": "RULE_WEAVIATE_TO_RAG",
+      "name": "Weaviate -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_WEAVIATE",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.72,
+      "reason": "Weaviate commonly supports semantic retrieval stacks, but no longer implies knowledge graph capability."
+    },
+    {
+      "id": "RULE_DASHVECTOR_TO_RAG",
+      "name": "DashVector -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_DASHVECTOR",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.7,
+      "reason": "DashVector commonly appears in vector retrieval use cases."
+    },
+    {
+      "id": "RULE_MILVUS_TO_RAG",
+      "name": "Milvus -> CAP_RAG",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_MILVUS",
+      "target_capability_id": "CAP_RAG",
+      "inference_weight": 0.72,
+      "reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems."
+    },
+    {
+      "id": "RULE_SQLALCHEMY_TO_DATA_MODELING",
+      "name": "SQLAlchemy -> CAP_DATA_MODELING",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_SQLALCHEMY",
+      "target_capability_id": "CAP_DATA_MODELING",
+      "inference_weight": 0.65,
+      "reason": "ORM usage often involves entity and relationship modeling, but this is still a weak inference."
+    },
+    {
+      "id": "RULE_AIRFLOW_TO_DATA_WAREHOUSING",
+      "name": "Airflow -> CAP_DATA_WAREHOUSING",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_AIRFLOW",
+      "target_capability_id": "CAP_DATA_WAREHOUSING",
+      "inference_weight": 0.68,
+      "reason": "Airflow often supports warehouse scheduling and orchestration, without implying broader governance skills."
+    },
+    {
+      "id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+      "name": "Kafka -> CAP_DATA_WAREHOUSING",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_KAFKA",
+      "target_capability_id": "CAP_DATA_WAREHOUSING",
+      "inference_weight": 0.64,
+      "reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios."
+    },
+    {
+      "id": "RULE_K8S_TO_CLOUD_ARCH",
+      "name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_KUBERNETES",
+      "target_capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "inference_weight": 0.67,
+      "reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly."
+    },
+    {
+      "id": "RULE_ACS_TO_CLOUD_ARCH",
+      "name": "ACS -> CAP_CLOUD_ARCHITECTURE",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_ACS",
+      "target_capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "inference_weight": 0.66,
+      "reason": "Managed container platform experience is a weak signal for cloud architecture capability."
+    },
+    {
+      "id": "RULE_MULTI_TURN_TO_AGENT_DEV",
+      "name": "多轮对话管理 -> CAP_AI_AGENT_DEVELOPMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "target_capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "inference_weight": 0.69,
+      "reason": "Multi-turn dialogue management is a common component in conversational agent systems."
+    },
+    {
+      "id": "RULE_MEMORY_TO_AGENT_AUTONOMY",
+      "name": "记忆管理 -> CAP_AGENT_TASK_AUTONOMY",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_MEMORY_MANAGEMENT",
+      "target_capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "inference_weight": 0.65,
+      "reason": "Memory management can support longer-running autonomous agent execution."
+    },
+    {
+      "id": "RULE_AGENT_PLANNING_TO_SCENARIO_SELECTION",
+      "name": "Agent 规划能力 -> CAP_AI_SCENARIO_SELECTION",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_AGENT_PLANNING",
+      "target_capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "inference_weight": 0.6,
+      "reason": "Task planning experience is adjacent to judging suitable AI agent scenarios."
+    },
+    {
+      "id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+      "name": "数据工程 -> CAP_DATA_WAREHOUSING",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "target_capability_id": "CAP_DATA_WAREHOUSING",
+      "inference_weight": 0.76,
+      "reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule."
+    },
+    {
+      "id": "RULE_DW_DEV_TO_WAREHOUSING",
+      "name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "target_capability_id": "CAP_DATA_WAREHOUSING",
+      "inference_weight": 0.8,
+      "reason": "Data warehouse development naturally supports a warehousing capability inference."
+    },
+    {
+      "id": "RULE_CICD_TO_RELEASE",
+      "name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+      "type": "INFERENCE_RULE",
+      "source_skill_id": "SKILL_CI_CD",
+      "target_capability_id": "CAP_RELEASE_MANAGEMENT",
+      "inference_weight": 0.77,
+      "reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference."
+    }
+  ]
+}

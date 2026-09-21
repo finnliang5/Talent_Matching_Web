@@ -1,0 +1,606 @@
+{
+  "姓名": "Candidate_0084",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 8
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AB_TESTING",
+      "name": "A/B Testing",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- 设计前后端架构及 Agent 方案，与福特的测试团队协作，通过 A/B 测试持续打磨 Agent 效果",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AB Testing",
+        "A/B Test",
+        "AB Test",
+        "A/B测试",
+        "AB测试"
+      ],
+      "matched_term": "A/B测试"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 最终实现完全由 AI 自动生成福特测试用例，显著提升测试效率与覆盖率",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 设计外卖自提产品方案，并和商家端、支付端等多个相关部门沟通协调",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 彻底改版三星中国应用商店，完善运营位体系、数据治理、用户流程，增加游戏专区及排行榜",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "访谈联想财务团队工作人员，调研现有工作流程，识别痛点；负责需求调研与产品设计，明确 AI 分析医疗文档的业务场景与用户需求",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "专注于寻找 GenAI 赋能机会和产品落地；调研企业端对 AI Agent Skill 的诉求；识别 AI 可落地的场景机会",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协同美国咨询团队、中国开发与设计团队、菲律宾 AI 工程师，跨时区完成产品落地；对接中国迪士尼、香港迪士尼、美国迪士尼多方甲方",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "产出场景梳理报告、平台能力报告、运营能力报告，以及分步迭代上线的路线图；向迪士尼方提案并获认可，提出优化后的流程方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计 AI Agent 架构、流程和核心能力；设计覆盖研发全流程的 AI Agents 体系；设计前后端架构及 Agent 方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "全面梳理研发流程，挖掘各部门痛点；梳理中国、香港、美国迪士尼现有的活动策划与配置流程，重构活动策划与配置流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注于寻找 GenAI 赋能机会和产品落地；调研企业端对 AI Agent Skill 的诉求；识别 AI 可落地的场景机会"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "专注于寻找 GenAI 赋能机会和产品落地；调研企业端对 AI Agent Skill 的诉求；识别 AI 可落地的场景机会"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注于寻找 GenAI 赋能机会和产品落地；调研企业端对 AI Agent Skill 的诉求；识别 AI 可落地的场景机会"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 设计外卖自提产品方案，并和商家端、支付端等多个相关部门沟通协调",
+        "协同美国咨询团队、中国开发与设计团队、菲律宾 AI 工程师，跨时区完成产品落地；对接中国迪士尼、香港迪士尼、美国迪士尼多方甲方"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "产出场景梳理报告、平台能力报告、运营能力报告，以及分步迭代上线的路线图；向迪士尼方提案并获认可，提出优化后的流程方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 彻底改版三星中国应用商店，完善运营位体系、数据治理、用户流程，增加游戏专区及排行榜"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 彻底改版三星中国应用商店，完善运营位体系、数据治理、用户流程，增加游戏专区及排行榜"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_EXPERIMENTATION_AB_TESTING",
+      "name": "Experimentation and A/B Testing",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 设计前后端架构及 Agent 方案，与福特的测试团队协作，通过 A/B 测试持续打磨 Agent 效果"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AB_TESTING",
+          "name": "A/B Testing"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "产出场景梳理报告、平台能力报告、运营能力报告，以及分步迭代上线的路线图；向迪士尼方提案并获认可，提出优化后的流程方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计 AI Agent 架构、流程和核心能力；设计覆盖研发全流程的 AI Agents 体系；设计前后端架构及 Agent 方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计 AI Agent 架构、流程和核心能力；设计覆盖研发全流程的 AI Agents 体系；设计前后端架构及 Agent 方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "全面梳理研发流程，挖掘各部门痛点；梳理中国、香港、美国迪士尼现有的活动策划与配置流程，重构活动策划与配置流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "访谈联想财务团队工作人员，调研现有工作流程，识别痛点；负责需求调研与产品设计，明确 AI 分析医疗文档的业务场景与用户需求"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "访谈联想财务团队工作人员，调研现有工作流程，识别痛点；负责需求调研与产品设计，明确 AI 分析医疗文档的业务场景与用户需求"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同美国咨询团队、中国开发与设计团队、菲律宾 AI 工程师，跨时区完成产品落地；对接中国迪士尼、香港迪士尼、美国迪士尼多方甲方"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 设计前后端架构及 Agent 方案，与福特的测试团队协作，通过 A/B 测试持续打磨 Agent 效果"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AB_TESTING",
+          "name": "A/B Testing"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 最终实现完全由 AI 自动生成福特测试用例，显著提升测试效率与覆盖率"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 设计前后端架构及 Agent 方案，与福特的测试团队协作，通过 A/B 测试持续打磨 Agent 效果",
+      "supports_entity_id": "SKILL_AB_TESTING",
+      "supports_entity_name": "A/B Testing",
+      "derived_capability_ids": [
+        "CAP_EXPERIMENTATION_AB_TESTING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 最终实现完全由 AI 自动生成福特测试用例，显著提升测试效率与覆盖率",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 设计外卖自提产品方案，并和商家端、支付端等多个相关部门沟通协调",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 彻底改版三星中国应用商店，完善运营位体系、数据治理、用户流程，增加游戏专区及排行榜",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "访谈联想财务团队工作人员，调研现有工作流程，识别痛点；负责需求调研与产品设计，明确 AI 分析医疗文档的业务场景与用户需求",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专注于寻找 GenAI 赋能机会和产品落地；调研企业端对 AI Agent Skill 的诉求；识别 AI 可落地的场景机会",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协同美国咨询团队、中国开发与设计团队、菲律宾 AI 工程师，跨时区完成产品落地；对接中国迪士尼、香港迪士尼、美国迪士尼多方甲方",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "产出场景梳理报告、平台能力报告、运营能力报告，以及分步迭代上线的路线图；向迪士尼方提案并获认可，提出优化后的流程方案",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计 AI Agent 架构、流程和核心能力；设计覆盖研发全流程的 AI Agents 体系；设计前后端架构及 Agent 方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "全面梳理研发流程，挖掘各部门痛点；梳理中国、香港、美国迪士尼现有的活动策划与配置流程，重构活动策划与配置流程",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Agentic Framework",
+      "evidence": "使用 Agentic Framework 从 0 到 1 开发 AI 智能体"
+    },
+    {
+      "skill_id": "",
+      "name": "Claude Code",
+      "evidence": "熟练使用 Claude Code 等 vibe coding 工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "AI/ML Computational Science Assoc Mgr / BA & AI 咨询师",
+      "时间": "",
+      "描述": "负责联想财务提效AI智能体、联想AI智能体规划、迪士尼GenAI活动策划、福特AI辅助研发、默沙东AI战略咨询、礼来GenAI医疗文档分析等项目。主导需求调研、痛点分析、AI Agent架构设计、跨团队协同及产品落地交付。"
+    },
+    {
+      "公司": "Thoughtworks",
+      "职位": "BA Lead / 产品负责人",
+      "时间": "",
+      "描述": "负责LVMH AI助手项目、星巴克App重构及活动/配置平台规划。梳理业务痛点，规划AI助手，协调跨团队完成产品落地与迭代。"
+    },
+    {
+      "公司": "Grab",
+      "职位": "高级产品经理 / 产品负责人",
+      "时间": "",
+      "描述": "负责Grabfood外卖自提服务从0到1开发，设计产品方案，协调多国运营与研发团队，跟进测试与上线迭代。"
+    },
+    {
+      "公司": "摩拜单车",
+      "职位": "产品经理 / 产品负责人",
+      "时间": "",
+      "描述": "负责定点停车、电滑板车、月卡自动续费等功能从0到1开发，协调多国团队，完成用户访谈、研发测试与上线。"
+    },
+    {
+      "公司": "三星",
+      "职位": "产品经理 / 产品负责人",
+      "时间": "",
+      "描述": "负责三星中国应用商店改版及中国区应用审核平台从0到1建立，协调中韩多团队，完成调研、竞品分析、合规对接与平台迭代。"
+    },
+    {
+      "公司": "小米",
+      "职位": "运营",
+      "时间": "",
+      "描述": "负责运营相关工作。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- [医药]",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 设计外卖自提产品方案，并和商家端、支付端等多个相关部门沟通协调",
+      "source": "rule",
+      "matched_term": "支付"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 彻底改版三星中国应用商店，完善运营位体系、数据治理、用户流程，增加游戏专区及排行榜",
+      "source": "rule",
+      "matched_term": "游戏"
+    }
+  ],
+  "_batch": {
+    "source_file": "Meng Wei_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Meng Wei_profile_CN.md",
+    "source_hash": "30281c1bedbaaefe781a0bd7cbecf880cc9e4deb81ef013faab9a43970824189",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:43:37"
+  },
+  "城市": "Shanghai"
+}

@@ -1,0 +1,125 @@
+{
+  "姓名": "Candidate_0068",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "近年来开始负责python，以及AI项目开发和运维工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    }
+  ],
+  "胜任力": [],
+  "能力": [],
+  "领域": [],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "近年来开始负责python，以及AI项目开发和运维工作。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": ".NET框架",
+      "evidence": "从事.net框架的应用程序开发工作"
+    },
+    {
+      "skill_id": "",
+      "name": "Linux",
+      "evidence": "Linux操作系统的使用和维护"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR识别",
+      "evidence": "负责Toppan项目的OCR识别服务，Entry桌面工具部分设计以及开发和运维工作"
+    },
+    {
+      "skill_id": "",
+      "name": "AI模型调用与提示词编写",
+      "evidence": "各种AI模型的调用，提示词的编写"
+    },
+    {
+      "skill_id": "",
+      "name": "AI智能体",
+      "evidence": "AI智能体的使用"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云服务",
+      "evidence": "阿里云服务等"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture/TFO",
+      "职位": ".net高级软件开发工程师",
+      "时间": "",
+      "描述": "负责Toppan、Nestle、Loreal、Asahi、KSF、Lenovo、Manulife、Sushiro、Lawson、Astellas等项目的OCR识别服务、扫描、Entry桌面工具部分设计以及开发和运维工作"
+    },
+    {
+      "公司": "Accenture/TFO",
+      "职位": "Linux/云服务技术支持工程师",
+      "时间": "",
+      "描述": "负责项目内所有OCR识别引擎在Linux操作系统以及云服务上的部署，维护和监控"
+    },
+    {
+      "公司": "Accenture/TFO",
+      "职位": "python及AI软件开发工程师",
+      "时间": "",
+      "描述": "负责丘比、贝壳项目的python服务开发，以及AI模型的对接，提示词调优工作"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "高级软件 / 应用 / 云服务技术支持工程师",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "负责Nestle、Loreal、Asahi、KSF、Sushiro、丘比等项目的OCR识别服务",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "负责Manulife项目的OCR识别服务",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "laibao.xu_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\laibao.xu_CN.md",
+    "source_hash": "73689dafc2d9e953bcc02342dc002f87867cf655927cba31001dd1c90d757d97",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:33:35"
+  },
+  "城市": "Dalian"
+}

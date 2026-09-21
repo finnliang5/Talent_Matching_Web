@@ -1,0 +1,478 @@
+{
+  "姓名": "Candidate_0103",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "【拥有近20年财务运营与企业数字化相关工作经验，覆盖应收、信用、流程管理、业务分析及平台规划等多个领域，具备业务梳理、系统设计与项目统筹的综合能力。先后主导业务运营优化、OTC 流程线上化转型、iBPM 与 EEP 平台架构设计落地，以及工单管理平台的业务调研与方案规划工作。擅长通过流程优化与数字化方案实现效率提升、风险降低与业务增值。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 【业务分析师、流程优化专家、数字化方案顾问，专注业务梳理、需求分析、流程设计、方案规划与体系搭建。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 【项目管理】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "OTC流程作为流程管理者；实施流程优化+重组+再优化；聚焦端到端流程设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "生产效率提高了30%；生产力提升42%，准确率提升99.99%；每年为客户节省约600万美元的损失",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责iBPM平台的标准架构设计和实现；负责EEP平台的标准架构设计和实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协调解决对接及需求偏差问题；通过系统将业务团队与客户紧密结合；跨部门协同",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "【拥有近20年财务运营与企业数字化相关工作经验，覆盖应收、信用、流程管理、业务分析及平台规划等多个领域，具备业务梳理、系统设计与项目统筹的综合能力。先后主导业务运营优化、OTC 流程线上化转型、iBPM 与 EEP 平台架构设计落地，以及工单管理平台的业务调研与方案规划工作。擅长通过流程优化与数字化方案实现效率提升、风险降低与业务增值。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "生产效率提高了30%；生产力提升42%，准确率提升99.99%；每年为客户节省约600万美元的损失"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调解决对接及需求偏差问题；通过系统将业务团队与客户紧密结合；跨部门协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "生产效率提高了30%；生产力提升42%，准确率提升99.99%；每年为客户节省约600万美元的损失"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责iBPM平台的标准架构设计和实现；负责EEP平台的标准架构设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责iBPM平台的标准架构设计和实现；负责EEP平台的标准架构设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "【拥有近20年财务运营与企业数字化相关工作经验，覆盖应收、信用、流程管理、业务分析及平台规划等多个领域，具备业务梳理、系统设计与项目统筹的综合能力。先后主导业务运营优化、OTC 流程线上化转型、iBPM 与 EEP 平台架构设计落地，以及工单管理平台的业务调研与方案规划工作。擅长通过流程优化与数字化方案实现效率提升、风险降低与业务增值。】",
+        "OTC流程作为流程管理者；实施流程优化+重组+再优化；聚焦端到端流程设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "【拥有近20年财务运营与企业数字化相关工作经验，覆盖应收、信用、流程管理、业务分析及平台规划等多个领域，具备业务梳理、系统设计与项目统筹的综合能力。先后主导业务运营优化、OTC 流程线上化转型、iBPM 与 EEP 平台架构设计落地，以及工单管理平台的业务调研与方案规划工作。擅长通过流程优化与数字化方案实现效率提升、风险降低与业务增值。】",
+        "- 【业务分析师、流程优化专家、数字化方案顾问，专注业务梳理、需求分析、流程设计、方案规划与体系搭建。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【业务分析师、流程优化专家、数字化方案顾问，专注业务梳理、需求分析、流程设计、方案规划与体系搭建。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调解决对接及需求偏差问题；通过系统将业务团队与客户紧密结合；跨部门协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "【拥有近20年财务运营与企业数字化相关工作经验，覆盖应收、信用、流程管理、业务分析及平台规划等多个领域，具备业务梳理、系统设计与项目统筹的综合能力。先后主导业务运营优化、OTC 流程线上化转型、iBPM 与 EEP 平台架构设计落地，以及工单管理平台的业务调研与方案规划工作。擅长通过流程优化与数字化方案实现效率提升、风险降低与业务增值。】",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【业务分析师、流程优化专家、数字化方案顾问，专注业务梳理、需求分析、流程设计、方案规划与体系搭建。】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【项目管理】",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "OTC流程作为流程管理者；实施流程优化+重组+再优化；聚焦端到端流程设计",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "生产效率提高了30%；生产力提升42%，准确率提升99.99%；每年为客户节省约600万美元的损失",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责iBPM平台的标准架构设计和实现；负责EEP平台的标准架构设计和实施",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协调解决对接及需求偏差问题；通过系统将业务团队与客户紧密结合；跨部门协同",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Axure",
+      "evidence": "工具与平台：Axure"
+    },
+    {
+      "skill_id": "",
+      "name": "iBPM",
+      "evidence": "实施iBPM平台；IBPM(i-Order)"
+    },
+    {
+      "skill_id": "",
+      "name": "EEP",
+      "evidence": "负责EEP平台的标准架构设计和实施"
+    },
+    {
+      "skill_id": "",
+      "name": "SynOps",
+      "evidence": "SynOps(人事共享智能平台)"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "罗森",
+      "职位": "团队负责人",
+      "时间": "2013-2016",
+      "描述": "带领团队将四个客户区域的业务运营转移到大连中心。通过实施流程优化+重组+再优化，生产效率提高了30%。"
+    },
+    {
+      "公司": "UC",
+      "职位": "OTC流程管理者",
+      "时间": "2016-2021",
+      "描述": "带领团队实施iBPM平台，成功将线下业务转移到线上，生产力提升42%，准确率提升99.99%。通过分析和解决因缺货造成的客户端罚款，每年为客户节省约600万美元的损失。"
+    },
+    {
+      "公司": "DCH",
+      "职位": "BA",
+      "时间": "2021-2022",
+      "描述": "负责iBPM平台的标准架构设计和实现。4个月内完成从设计、业务整理、部署和实施，通过系统将业务团队与客户紧密结合，协助业务团队实现PI近35%，客户端收益使用人数达到1500人。"
+    },
+    {
+      "公司": "Panasonic",
+      "职位": "BA",
+      "时间": "2022-2024",
+      "描述": "负责EEP平台的标准架构设计和实施。进行了多次现场客户访谈和讨论，在第一波到第三波期间部署了12个法人实体，协助业务团队实现了近25%的PI，总共有超过30,000人使用该系统。"
+    },
+    {
+      "公司": "Hisense",
+      "职位": "工单管理平台业务顾问",
+      "时间": "2025-2026",
+      "描述": "统筹业务调研、方案设计及实施管控工作。调研客户业务，输出定制化方案；管控实施过程，保障项目交付；推动系统上线，实现降本增效。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 【应收/应付，快消品，人事】",
+      "source": "rule",
+      "matched_term": "快消"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "项目经验包含Panasonic与Hisense（消费电子/科技制造）；多次主导数字化平台与工单管理系统设计与实施",
+      "source": "llm",
+      "matched_term": "CMT"
+    }
+  ],
+  "_batch": {
+    "source_file": "peng.xu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\peng.xu_profile_CN.md",
+    "source_hash": "f24fe926ef01ce33bb793b9dd8c7e9d6a30ea78d68fcf14cc7b26efde749da38",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:51:33"
+  },
+  "城市": "Dalian"
+}

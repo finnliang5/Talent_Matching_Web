@@ -1,0 +1,706 @@
+{
+  "姓名": "Candidate_0076",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_QLIK_SENSE",
+      "name": "Qlik Sense",
+      "type": "BI_TOOL",
+      "evidence": "- Qliksense",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "QlikSense",
+        "Qlik"
+      ],
+      "matched_term": "Qlik Sense"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Powerbi",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "- Tableau",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    },
+    {
+      "skill_id": "SKILL_ADOBE_ANALYTICS",
+      "name": "Adobe Analytics",
+      "type": "MARKETING_ANALYTICS",
+      "evidence": "Core Skills: Adobe分析",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Adobe SiteCatalyst",
+        "SiteCatalyst"
+      ],
+      "matched_term": "Adobe Analytics"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 变革管理、沟通协调、风险控制、问题解决",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "- 变革管理、沟通协调、风险控制、问题解决",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "变革管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与客户的业务、IT、AI和数据等多个团队协作，实现共赢结果；向高管层汇报分析结果",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "从不同维度进行数据分析，生成商业洞察，并指导业务改进方向",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "产出未来解决方案，流程和需要的FTE；利用生成式AI为客户构建先进的人力资源智能分析系统",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "DTC与天猫数据分析及数据库建立；标准化数据源，报表模板，统一指标逻辑及科目口径",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "name": "客户全生命周期经营",
+      "type": "ABILITY",
+      "evidence": "消费者生命周期分析项目经理；CRM数据分析项目经理",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "客户生命周期经营",
+        "客户成功",
+        "客户成功体系",
+        "客户经营"
+      ],
+      "matched_term": "客户全生命周期经营"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Qliksense",
+        "- Powerbi",
+        "- Tableau"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_QLIK_SENSE",
+          "name": "Qlik Sense"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "从不同维度进行数据分析，生成商业洞察，并指导业务改进方向"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 变革管理、沟通协调、风险控制、问题解决"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 变革管理、沟通协调、风险控制、问题解决",
+        "与客户的业务、IT、AI和数据等多个团队协作，实现共赢结果；向高管层汇报分析结果",
+        "消费者生命周期分析项目经理；CRM数据分析项目经理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CUSTOMER_SUCCESS_OPERATION",
+      "name": "Customer Success Operation",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "消费者生命周期分析项目经理；CRM数据分析项目经理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "DTC与天猫数据分析及数据库建立；标准化数据源，报表模板，统一指标逻辑及科目口径"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "DTC与天猫数据分析及数据库建立；标准化数据源，报表模板，统一指标逻辑及科目口径"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "产出未来解决方案，流程和需要的FTE；利用生成式AI为客户构建先进的人力资源智能分析系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "产出未来解决方案，流程和需要的FTE；利用生成式AI为客户构建先进的人力资源智能分析系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 变革管理、沟通协调、风险控制、问题解决",
+        "与客户的业务、IT、AI和数据等多个团队协作，实现共赢结果；向高管层汇报分析结果"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Qliksense",
+      "supports_entity_id": "SKILL_QLIK_SENSE",
+      "supports_entity_name": "Qlik Sense",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Powerbi",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Tableau",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Core Skills: Adobe分析",
+      "supports_entity_id": "SKILL_ADOBE_ANALYTICS",
+      "supports_entity_name": "Adobe Analytics",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 变革管理、沟通协调、风险控制、问题解决",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 变革管理、沟通协调、风险控制、问题解决",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与客户的业务、IT、AI和数据等多个团队协作，实现共赢结果；向高管层汇报分析结果",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "从不同维度进行数据分析，生成商业洞察，并指导业务改进方向",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "产出未来解决方案，流程和需要的FTE；利用生成式AI为客户构建先进的人力资源智能分析系统",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "DTC与天猫数据分析及数据库建立；标准化数据源，报表模板，统一指标逻辑及科目口径",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "消费者生命周期分析项目经理；CRM数据分析项目经理",
+      "supports_entity_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "supports_entity_name": "客户全生命周期经营",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_CUSTOMER_SUCCESS_OPERATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SEO/SEM",
+      "evidence": "Core Skills: SEO/SEM"
+    },
+    {
+      "skill_id": "",
+      "name": "VS Code",
+      "evidence": "Core Skills: VS code"
+    },
+    {
+      "skill_id": "",
+      "name": "社交聆听工具",
+      "evidence": "Core Skills: 社交倾听工具；壳牌项目：使用社交聆听工具收集数据"
+    },
+    {
+      "skill_id": "",
+      "name": "生成式AI",
+      "evidence": "海信项目：利用生成式AI为客户构建先进的人力资源智能分析系统"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "数据分析专家/项目经理",
+      "时间": "2010-至今",
+      "描述": "2010年加入，2015年转岗至分析团队，领导10人团队完成人力资源、市场营销及销售转型项目。擅长管理全球项目。"
+    },
+    {
+      "公司": "丘比",
+      "职位": "销售转型分析项目经理",
+      "时间": "",
+      "描述": "业务知识传递；数据/报告的理解、整合与重构设计；市场洞察分析的设计、交付并向高管层汇报；变革管理、沟通协调、风险控制、问题解决。"
+    },
+    {
+      "公司": "资生堂",
+      "职位": "消费者生命周期分析项目经理",
+      "时间": "",
+      "描述": "DTC与天猫数据分析及数据库建立；审核数据库开发成果并验证数据准确性；汇报分析结果；全球领先实践的本地化管理。"
+    },
+    {
+      "公司": "雅诗兰黛",
+      "职位": "CRM数据分析项目经理",
+      "时间": "",
+      "描述": "带领团队进行15个品牌的报表现状了解，分析差异，识别优化机会；产出未来解决方案、流程和需要的FTE；汇报分析结果；全球领先实践的本地化落地与管理。"
+    },
+    {
+      "公司": "壳牌",
+      "职位": "数字营销项目经理",
+      "时间": "",
+      "描述": "品牌声誉、情感、客户声音、竞争对手及关键意见领袖分析；使用社交聆听工具收集数据，从不同维度进行数据分析，生成商业洞察，并指导业务改进方向；分析自有媒体、付费媒体和赢得媒体。"
+    },
+    {
+      "公司": "海信",
+      "职位": "人力资源智能分析项目经理/人力资源人力成本报表分析项目经理",
+      "时间": "",
+      "描述": "利用生成式AI为客户构建先进的人力资源智能分析系统并推广至企业级应用；与业务、IT、AI和数据团队协作；梳理报表现状，标准化数据源、报表模板，统一指标逻辑及科目口径。"
+    },
+    {
+      "公司": "腾讯",
+      "职位": "人力资源COE建设项目经理",
+      "时间": "",
+      "描述": "梳理现有能力中心存在的问题；设计未来的运营流程、组织架构、角色职责、培训目标和绩效标准等。"
+    },
+    {
+      "公司": "Canada Life / 爱尔兰broker公司",
+      "职位": "寿险/保险专员",
+      "时间": "早期",
+      "描述": "担任寿险/抵押贷款险/健康险/车险/养老险专员。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 分析自有媒体、付费媒体和赢得媒体",
+      "source": "rule",
+      "matched_term": "媒体"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售业",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "lin.sang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\lin.sang_profile_CN.md",
+    "source_hash": "f381bc128669bcc6e0ce69f38fd46cd0d27fda148761c36dca599291ecb0bc58",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:38:31"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,1459 @@
+{
+  "姓名": "Candidate_0007",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 32,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "evidence": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "CSS"
+      ],
+      "matched_term": "CSS"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- 掌握FastAPI，LangChain。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 精通Java，Python，Spring Boot/Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- 精通Java，Python，Spring Boot/Cloud。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Boot/Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- 掌握FastAPI，LangChain。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 掌握Dify，Keycloak认证鉴权及单点登录。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 掌握RAG，知识图谱，提示词工程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 掌握RAG，知识图谱，提示词工程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 掌握RAG，知识图谱，提示词工程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "matched_term": "知识图谱"
+    },
+    {
+      "skill_id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "evidence": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Milvus"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_NEO4J",
+      "name": "Neo4j",
+      "type": "DATABASE",
+      "evidence": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Neo4J",
+        "图数据库"
+      ],
+      "matched_term": "Neo4j"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_AWS_LAMBDA",
+      "name": "AWS Lambda",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- AWS Lambda的调查。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Lambda"
+      ],
+      "matched_term": "AWS Lambda"
+    },
+    {
+      "skill_id": "SKILL_AZURE_KEY_VAULT",
+      "name": "Azure Key Vault",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Key Vault",
+        "Azure KV"
+      ],
+      "matched_term": "Azure Key Vault"
+    },
+    {
+      "skill_id": "SKILL_ALIBABA_CLOUD_KMS",
+      "name": "阿里云KMS",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "阿里云 KMS",
+        "Alibaba Cloud KMS",
+        "Aliyun KMS"
+      ],
+      "matched_term": "阿里云KMS"
+    },
+    {
+      "skill_id": "SKILL_SQLALCHEMY",
+      "name": "SQLAlchemy",
+      "type": "LIBRARY",
+      "evidence": "- 掌握MyBatis，JPA，SQLAlchemy。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "SQL"
+      ],
+      "belongs_to": [
+        "SKILL_POSTGRESQL",
+        "SKILL_MYSQL"
+      ],
+      "matched_term": "SQLAlchemy"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_RABBITMQ",
+      "name": "RabbitMQ",
+      "type": "MESSAGE_QUEUE",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Rabbit MQ",
+        "AMQP"
+      ],
+      "matched_term": "RabbitMQ"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_KEYCLOAK",
+      "name": "Keycloak",
+      "type": "IDENTITY_PLATFORM",
+      "evidence": "- 掌握Dify，Keycloak认证鉴权及单点登录。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Red Hat Keycloak"
+      ],
+      "matched_term": "Keycloak"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- SAFe 5 Practitioner认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe 5"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 需求分析，设计与技术选型。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "根据业务需求设计解决方案。基于DDD的系统架构分析。知识图谱设计与实现。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "各种团队之间的沟通（包括国外团队）。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握FastAPI，LangChain。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 精通Java，Python，Spring Boot/Cloud。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 精通Java，Python，Spring Boot/Cloud。",
+        "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_KEY_MANAGEMENT",
+      "name": "Cloud Key Management",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 熟悉AWS，Azure Key Vault，阿里云KMS。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_KEY_VAULT",
+          "name": "Azure Key Vault"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ALIBABA_CLOUD_KMS",
+          "name": "阿里云KMS"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "各种团队之间的沟通（包括国外团队）。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 掌握MyBatis，JPA，SQLAlchemy。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SQLALCHEMY",
+          "name": "SQLAlchemy",
+          "rule_id": "RULE_SQLALCHEMY_TO_DATA_MODELING",
+          "rule_name": "SQLAlchemy -> CAP_DATA_MODELING",
+          "inference_reason": "ORM usage often involves entity and relationship modeling, but this is still a weak inference.",
+          "inference_weight": 0.65
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- SAFe 5 Practitioner认证",
+        "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握Dify，Keycloak认证鉴权及单点登录。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "根据业务需求设计解决方案。基于DDD的系统架构分析。知识图谱设计与实现。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_IDENTITY_ACCESS_MANAGEMENT",
+      "name": "Identity and Access Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 掌握Dify，Keycloak认证鉴权及单点登录。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KEYCLOAK",
+          "name": "Keycloak"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握RAG，知识图谱，提示词工程。",
+        "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KNOWLEDGE_GRAPH",
+          "name": "知识图谱"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_NEO4J",
+          "name": "Neo4j"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握FastAPI，LangChain。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MESSAGE_QUEUE_INTEGRATION",
+      "name": "Message Queue Integration",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RABBITMQ",
+          "name": "RabbitMQ"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "根据业务需求设计解决方案。基于DDD的系统架构分析。知识图谱设计与实现。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握RAG，知识图谱，提示词工程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握FastAPI，LangChain。",
+        "- 掌握RAG，知识图谱，提示词工程。",
+        "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus",
+          "rule_id": "RULE_MILVUS_TO_RAG",
+          "rule_name": "Milvus -> CAP_RAG",
+          "inference_reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems.",
+          "inference_weight": 0.72
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 需求分析，设计与技术选型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 需求分析，设计与技术选型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SERVERLESS_FUNCTION_DEVELOPMENT",
+      "name": "Serverless Function Development",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- AWS Lambda的调查。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_LAMBDA",
+          "name": "AWS Lambda"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SQLALCHEMY_POSTGRESQL",
+      "name": "SQLAlchemy + PostgreSQL",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 掌握MyBatis，JPA，SQLAlchemy。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SQLALCHEMY",
+          "name": "SQLAlchemy"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 精通Java，Python，Spring Boot/Cloud。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 5
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "supports_entity_id": "SKILL_CSS",
+      "supports_entity_name": "CSS",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握FastAPI，LangChain。",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 精通Java，Python，Spring Boot/Cloud。",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 精通Java，Python，Spring Boot/Cloud。",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握JSP，HTML，CSS，JavaScript，JQuery，Bootstrap，Vue。",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握FastAPI，LangChain。",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握Dify，Keycloak认证鉴权及单点登录。",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握RAG，知识图谱，提示词工程。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握RAG，知识图谱，提示词工程。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握RAG，知识图谱，提示词工程。",
+      "supports_entity_id": "SKILL_KNOWLEDGE_GRAPH",
+      "supports_entity_name": "知识图谱",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "supports_entity_id": "SKILL_MILVUS",
+      "supports_entity_name": "Milvus",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握MySQL，PostgreSQL，Oracle，Milvus，Neo4j。",
+      "supports_entity_id": "SKILL_NEO4J",
+      "supports_entity_name": "Neo4j",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS Lambda的调查。",
+      "supports_entity_id": "SKILL_AWS_LAMBDA",
+      "supports_entity_name": "AWS Lambda",
+      "derived_capability_ids": [
+        "CAP_SERVERLESS_FUNCTION_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "supports_entity_id": "SKILL_AZURE_KEY_VAULT",
+      "supports_entity_name": "Azure Key Vault",
+      "derived_capability_ids": [
+        "CAP_CLOUD_KEY_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉AWS，Azure Key Vault，阿里云KMS。",
+      "supports_entity_id": "SKILL_ALIBABA_CLOUD_KMS",
+      "supports_entity_name": "阿里云KMS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_KEY_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握MyBatis，JPA，SQLAlchemy。",
+      "supports_entity_id": "SKILL_SQLALCHEMY",
+      "supports_entity_name": "SQLAlchemy",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_SQLALCHEMY_POSTGRESQL"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_RABBITMQ",
+      "supports_entity_name": "RabbitMQ",
+      "derived_capability_ids": [
+        "CAP_MESSAGE_QUEUE_INTEGRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 掌握Dify，Keycloak认证鉴权及单点登录。",
+      "supports_entity_id": "SKILL_KEYCLOAK",
+      "supports_entity_name": "Keycloak",
+      "derived_capability_ids": [
+        "CAP_IDENTITY_ACCESS_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SAFe 5 Practitioner认证",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟悉Angular，Linux，Nginx，Redis，Docker，RabbitMQ，Kafka，Kubernetes，DevOps等。",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 需求分析，设计与技术选型。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "精通Java与Python技术栈及微服务架构，擅长将传统软件工程与AI技术融合。拥有15年IT技术经验，其中13年专注于Java开发，近2年深入Python与AI领域，兼具5年项目管理和系统架构经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "根据业务需求设计解决方案。基于DDD的系统架构分析。知识图谱设计与实现。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "各种团队之间的沟通（包括国外团队）。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "后端AI工程师",
+      "时间": "",
+      "描述": "负责某药企知识助手系统的需求和影响范围分析，文档切分分块与嵌入实现，AWS Lambda调研，以及应用开发与部署。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "团队主管 & 后端AI工程师",
+      "时间": "",
+      "描述": "负责企业智能知识管理平台的需求分析，文档预处理与嵌入设计，检索与知识图谱设计，应用开发与部署。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "技术主管 & 全栈高级工程师",
+      "时间": "",
+      "描述": "负责某药企数字化平台系统的需求分析，基于DDD的系统架构分析与技术选型，RBAC多租户权限设计，团队日常管理与高质量交付保障。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "资深Java工程师",
+      "时间": "",
+      "描述": "负责车企微服务系统根据业务需求设计解决方案，开发编写单元测试，生产环境部署及问题修复。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "团队主管 & 资深Java工程师",
+      "时间": "",
+      "描述": "负责商户门店管理系统的项目进度管理与交付质量，需求分析与技术选型，跨团队（含国外）沟通协作，参与微服务改造与架构分析。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "AI软件工程师",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "chunlei.a.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\chunlei.a.wang_profile_CN.md",
+    "source_hash": "2e1f547388675981e50a915c94cdc05d33b30f8d3d631df01863e71cfd4044c3",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:14:26"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

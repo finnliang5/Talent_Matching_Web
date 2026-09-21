@@ -1,0 +1,629 @@
+{
+  "姓名": "Candidate_0004",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "自2014年从业以来，我在系统架构设计、面向对象分析与设计（OOAD）、微服务架构设计方面积累了丰富经验。精通企业运营管理方法论，曾基于六西格玛与精益理论成功推动企业数字化转型。近年来，我着力发展AI应用与集成能力，主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程，包括将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大语言模型"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "name": "差距分析",
+      "type": "ABILITY",
+      "evidence": "担任BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "差距分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "基于iBPM完成订单到收款（O2C）流程设计与自动化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "担任项目经理，基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "具备预算、时间管理、资源调配及风险控制的综合能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "曾基于六西格玛与精益理论成功推动企业数字化转型",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "数字化变革管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "企业架构对齐",
+      "type": "ABILITY",
+      "evidence": "配合公司云战略，完成软件基础设施的微服务化重构，全面支持云架构",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "企业架构对齐"
+    },
+    {
+      "competency_id": "SKILL_ERP_AI_INTEGRATION",
+      "name": "ERP与AI集成",
+      "type": "ABILITY",
+      "evidence": "将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "ERP与AI集成"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "负责BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "担任BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "曾基于六西格玛与精益理论成功推动企业数字化转型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任项目经理，基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "name": "Enterprise Architecture Alignment",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "配合公司云战略，完成软件基础设施的微服务化重构，全面支持云架构"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+          "name": "企业架构对齐"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+      "name": "ERP and AI Integration Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "担任BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "基于iBPM完成订单到收款（O2C）流程设计与自动化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任项目经理，基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备预算、时间管理、资源调配及风险控制的综合能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "担任项目经理，基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案",
+        "具备预算、时间管理、资源调配及风险控制的综合能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "曾基于六西格玛与精益理论成功推动企业数字化转型"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TECH_DEPENDENCY_MAPPING",
+      "name": "Technical Dependency Mapping",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "自2014年从业以来，我在系统架构设计、面向对象分析与设计（OOAD）、微服务架构设计方面积累了丰富经验。精通企业运营管理方法论，曾基于六西格玛与精益理论成功推动企业数字化转型。近年来，我着力发展AI应用与集成能力，主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程，包括将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "担任BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广。",
+      "supports_entity_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "supports_entity_name": "差距分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于iBPM完成订单到收款（O2C）流程设计与自动化",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "担任项目经理，基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备预算、时间管理、资源调配及风险控制的综合能力",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "曾基于六西格玛与精益理论成功推动企业数字化转型",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "配合公司云战略，完成软件基础设施的微服务化重构，全面支持云架构",
+      "supports_entity_id": "SKILL_ENTERPRISE_ARCHITECTURE_ALIGNMENT",
+      "supports_entity_name": "企业架构对齐",
+      "derived_capability_ids": [
+        "CAP_ENTERPRISE_ARCHITECTURE_ALIGNMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将大语言模型与iBPM及企业工具平台集成，提升智能自动化水平与决策支持能力",
+      "supports_entity_id": "SKILL_ERP_AI_INTEGRATION",
+      "supports_entity_name": "ERP与AI集成",
+      "derived_capability_ids": [
+        "CAP_ERP_AI_INTEGRATION_DESIGN",
+        "CAP_TECH_DEPENDENCY_MAPPING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责BPS项目技术方案负责人，基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "iBPM",
+      "evidence": "基于iBPM平台落地BPS解决方案及运营管理方法论"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案"
+    },
+    {
+      "skill_id": "",
+      "name": "Agentic AI",
+      "evidence": "主导设计并落地了智能体AI（Agentic AI）解决方案以赋能业务流程"
+    },
+    {
+      "skill_id": "",
+      "name": "OOAD",
+      "evidence": "在系统架构设计、面向对象分析与设计（OOAD）、微服务架构设计方面积累了丰富经验"
+    },
+    {
+      "skill_id": "",
+      "name": "六西格玛",
+      "evidence": "曾基于六西格玛与精益理论成功推动企业数字化转型"
+    },
+    {
+      "skill_id": "",
+      "name": "精益理论",
+      "evidence": "曾基于六西格玛与精益理论成功推动企业数字化转型"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "全球制药公司",
+      "职位": "",
+      "时间": "",
+      "描述": "负责BPS差旅与费用报销解决方案设计及应用实施"
+    },
+    {
+      "公司": "日本综合商社",
+      "职位": "",
+      "时间": "",
+      "描述": "基于iBPM平台落地BPS解决方案及运营管理方法论"
+    },
+    {
+      "公司": "全球化工企业",
+      "职位": "",
+      "时间": "",
+      "描述": "基于iBPM完成订单到收款（O2C）流程设计与自动化"
+    },
+    {
+      "公司": "全球综合解决方案供应商",
+      "职位": "BPS项目技术方案负责人",
+      "时间": "",
+      "描述": "基于iBPM实现自动订单处理及运营管理方法论落地。负责IT服务管理差距分析、方案设计、实施与推广"
+    },
+    {
+      "公司": "知名婴儿与成人纸尿裤制造商",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "基于iBPM/RPA交付端到端高度自动化的订单到收款应用方案，为业务部门带来显著收益"
+    },
+    {
+      "公司": "全球食品与氨基酸产品企业（客户与埃森哲合资）",
+      "职位": "",
+      "时间": "",
+      "描述": "为合资企业建设企业数字化基础设施。落地覆盖财务、人力资源等多领域的任务管理策略"
+    },
+    {
+      "公司": "内部项目",
+      "职位": "",
+      "时间": "",
+      "描述": "配合公司云战略，完成软件基础设施的微服务化重构，全面支持云架构"
+    },
+    {
+      "公司": "全球科技公司",
+      "职位": "",
+      "时间": "",
+      "描述": "基于iBPM为客服团队实施服务台流程，实现端到端服务请求管理与SLA管控"
+    },
+    {
+      "公司": "亚洲汽车分销集团",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "为该集团香港、食品及汽车分销公司设计并构建财务中台"
+    },
+    {
+      "公司": "多家全球性企业（消费品、制药、能源等）",
+      "职位": "",
+      "时间": "",
+      "描述": "基于iBPM实施跨领域、跨职能流程"
+    },
+    {
+      "公司": "全球运动品牌",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "基于iBPM为客户大中华区实施应付账款自动化方案，实现大中华区、日本、韩国三地端到端应付自动化"
+    },
+    {
+      "公司": "内部项目",
+      "职位": "",
+      "时间": "",
+      "描述": "参与公司级智能体AI驱动重塑计划，为内部团队提供AI Agent能力。为iBPM及其他中国本地工具资产实现AI Agent集成，增强智能自动化与决策支持"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "**全球制药公司**",
+      "source": "rule",
+      "matched_term": "制药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 高科技",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "**多家全球性企业（消费品、制药、能源等）**",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "ben.bing.cui_profile_CN.MD",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ben.bing.cui_profile_CN.MD",
+    "source_hash": "ac6ce4a2b7bca5a127e908d459f741ebbb3bf83234e684fde1eae45284d6d018",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:13:53"
+  },
+  "级别推断": {
+    "level_requirement": "Level 7",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 7",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

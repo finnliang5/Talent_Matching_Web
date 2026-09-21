@@ -1,0 +1,664 @@
+{
+  "姓名": "Candidate_0066",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PRODUCT"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "AI & LLM architecture spec",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "以 LLM/Agent 应用研发为核心能力，具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验。当前重点在多智能体审批、城市治理智能分析与智能体仿真等场景，将大模型能力与业务流程深度结合，形成可量化效率提升。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_HADOOP",
+      "name": "Hadoop",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hadoop",
+        "HDFS"
+      ],
+      "matched_term": "Hadoop"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "evidence": "- PyTorch、LangChain、DeepSpeed、ROS、MATLAB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PyTorch"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "参与政府管理需求评审并主导 LLM 能力接入，构建面向城市治理场景的智能分析与问答框架。设计基于 LLM 的城市推理智能体",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "将大模型能力与业务流程深度结合，形成可量化效率提升。擅长将技术能力转化为业务价值",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "将大模型能力与业务流程深度结合，形成可量化效率提升。擅长将技术能力转化为业务价值"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HADOOP",
+          "name": "Hadoop"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "将大模型能力与业务流程深度结合，形成可量化效率提升。擅长将技术能力转化为业务价值"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "参与政府管理需求评审并主导 LLM 能力接入，构建面向城市治理场景的智能分析与问答框架。设计基于 LLM 的城市推理智能体"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- PyTorch、LangChain、DeepSpeed、ROS、MATLAB"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYTORCH",
+          "name": "PyTorch"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "参与政府管理需求评审并主导 LLM 能力接入，构建面向城市治理场景的智能分析与问答框架。设计基于 LLM 的城市推理智能体"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计",
+        "以 LLM/Agent 应用研发为核心能力，具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验。当前重点在多智能体审批、城市治理智能分析与智能体仿真等场景，将大模型能力与业务流程深度结合，形成可量化效率提升。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "AI & LLM architecture spec",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大语言模型应用开发：LangChain、RAG、Prompt Engineering、多智能体工作流设计",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "以 LLM/Agent 应用研发为核心能力，具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验。当前重点在多智能体审批、城市治理智能分析与智能体仿真等场景，将大模型能力与业务流程深度结合，形成可量化效率提升。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "supports_entity_id": "SKILL_HADOOP",
+      "supports_entity_name": "Hadoop",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- PyTorch、LangChain、DeepSpeed、ROS、MATLAB",
+      "supports_entity_id": "SKILL_PYTORCH",
+      "supports_entity_name": "PyTorch",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程化与平台能力：Docker、Kubernetes、Kafka、Hive、Hadoop、Nacos",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备从业务需求拆解、Prompt/Agent 设计、RAG 检索增强到流程上线的端到端落地经验",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与政府管理需求评审并主导 LLM 能力接入，构建面向城市治理场景的智能分析与问答框架。设计基于 LLM 的城市推理智能体",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将大模型能力与业务流程深度结合，形成可量化效率提升。擅长将技术能力转化为业务价值",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "哈啰出行",
+      "职位": "数据分析师",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "深城交",
+      "职位": "AI研究员",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "城市数字孪生项目",
+      "职位": "城市数字孪生算法负责人",
+      "时间": "",
+      "描述": "参与政府管理需求评审并主导 LLM 能力接入，构建面向城市治理场景的智能分析与问答框架。设计基于 LLM 的城市推理智能体，支持事故、异常状态与资源调度影响分析。在宏观调度阶段输出可解释的策略建议，提升管理决策效率与分析覆盖度。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融服务",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 中级软件设计师",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "kechen.zhu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\kechen.zhu_profile_CN.md",
+    "source_hash": "cffe6468c14843033dbdbd20018026d6bd4b6ef3b4230b5fcee69f4116c19712",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:32:24"
+  },
+  "城市": "Shenzhen"
+}

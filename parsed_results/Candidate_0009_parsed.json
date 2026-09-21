@@ -1,0 +1,608 @@
+{
+  "姓名": "Candidate_0009",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_DATA_LAKE",
+      "name": "Data Lake",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 主要负责需求分析、数据收集与申请（Data Lake）、功能交互设计、务共享平台的总账模块、费用模块、应付模块、供应商管理的需求分析，交互原型设计，以及宣传资料制作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "数据湖"
+      ],
+      "matched_term": "Data Lake"
+    },
+    {
+      "skill_id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "matched_term": "BI看板"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "-  SAFe POPM认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "-  业务分析",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计一体化销售&工资数据管理平台，自动管控柜台销售的日常工作以及工资结算，并基于销售数据生成多维度销售看板。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验。分析BOE费用报销模块的审核点逻辑，转化为代码逻辑，并编写提示词，提取非结构化数据信息，实现AI与代码逻辑相结合的费用智能自动审核。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验。分析BOE费用报销模块的审核点逻辑，转化为代码逻辑，并编写提示词，提取非结构化数据信息，实现AI与代码逻辑相结合的费用智能自动审核。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验。分析BOE费用报销模块的审核点逻辑，转化为代码逻辑，并编写提示词，提取非结构化数据信息，实现AI与代码逻辑相结合的费用智能自动审核。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_BI_DASHBOARDING",
+          "name": "BI看板"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "-  业务分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验。分析BOE费用报销模块的审核点逻辑，转化为代码逻辑，并编写提示词，提取非结构化数据信息，实现AI与代码逻辑相结合的费用智能自动审核。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 主要负责需求分析、数据收集与申请（Data Lake）、功能交互设计、务共享平台的总账模块、费用模块、应付模块、供应商管理的需求分析，交互原型设计，以及宣传资料制作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_LAKE",
+          "name": "Data Lake"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "-  SAFe POPM认证",
+        "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计一体化销售&工资数据管理平台，自动管控柜台销售的日常工作以及工资结算，并基于销售数据生成多维度销售看板。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计一体化销售&工资数据管理平台，自动管控柜台销售的日常工作以及工资结算，并基于销售数据生成多维度销售看板。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "-  业务分析",
+        "主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "-  业务分析",
+        "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主要负责需求分析、数据收集与申请（Data Lake）、功能交互设计、务共享平台的总账模块、费用模块、应付模块、供应商管理的需求分析，交互原型设计，以及宣传资料制作。",
+      "supports_entity_id": "SKILL_DATA_LAKE",
+      "supports_entity_name": "Data Lake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "supports_entity_id": "SKILL_BI_DASHBOARDING",
+      "supports_entity_name": "BI看板",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  SAFe POPM认证",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "-  业务分析",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计一体化销售&工资数据管理平台，自动管控柜台销售的日常工作以及工资结算，并基于销售数据生成多维度销售看板。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与global compliance team合作，分析compliance业务的痛点，设计AI相关或PowerBI看板解决方案。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验。分析BOE费用报销模块的审核点逻辑，转化为代码逻辑，并编写提示词，提取非结构化数据信息，实现AI与代码逻辑相结合的费用智能自动审核。",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SharePoint",
+      "evidence": "数据保护与恢复（微软SharePoint及O365数据备份、还原、同步）"
+    },
+    {
+      "skill_id": "",
+      "name": "Office 365 (O365)",
+      "evidence": "针对企业在Office 365上存储的数据进行备份、还原、同步、治理"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "对F&A, 消费品灵活用工管理, RPA，AI智能体应用等领域有较强的知识和项目经验"
+    },
+    {
+      "skill_id": "",
+      "name": "AI智能体 / Prompt工程",
+      "evidence": "负责跟进多个智能体的方案设计及交付：费用审核智能体、开票审核智能体...提示词编写"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 (Accenture)",
+      "职位": "Business Architecture Associate Manager / BA / PO",
+      "时间": "2019.02 - 至今",
+      "描述": "主导海信财务智能体优化、BOE费用智能审核、资生堂iSaler、Security AI Service Hub、大昌行及BOE财务共享平台等多个核心项目；负责业务需求分析、高阶方案设计、提示词编写、UAT测试与上线运维；协同Global Compliance团队及US PM推进跨部门协作与解决方案交付。"
+    },
+    {
+      "公司": "恒锐科技（Everspry）",
+      "职位": "产品经理",
+      "时间": "2015.12 - 2019.02",
+      "描述": "负责足迹实验室整体解决方案及足迹分析与检验系统从0到1的产品规划与设计；基于法规要求串联硬件设备实现无纸化数据流转；独立完成需求分析、解决方案设计、功能测试及项目资料制作。"
+    },
+    {
+      "公司": "径点科技（AvePoint）",
+      "职位": "产品管理专员",
+      "时间": "2012.07 - 2015.11",
+      "描述": "负责DocAve Online产品从0到1的设计与交付；对接美国PM转化企业级O365数据备份、还原、同步与治理需求，协同开发团队完成功能落地。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 拥有14年以上需求分析管理，解决方案设计、流程改善，项目管理，自动化机会识别等经验。主要行业涉及高科技、外包金融（应收OTC，应付PTP，报销TE&总账RTR），数据保护、快消财务流程等。帮助15+项目进行业务需求梳理及解决方案交付。",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 分析彩妆零售业灵活用工业绩及工资管理业务流程并设计一体化销售&工资数据管理平台，自动管控柜台销售的日常工作以及工资结算，并基于销售数据生成多维度销售看板。",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "Daiyin.Zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Daiyin.Zhang_profile_CN.md",
+    "source_hash": "22731a34b06f1b0818bf5cc6d5aaa61735ea4e951f3392a7eb13c41d70f30ed5",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:15:01"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

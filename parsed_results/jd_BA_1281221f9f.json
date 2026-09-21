@@ -1,0 +1,654 @@
+{
+  "岗位名称": "BA",
+  "岗位类型": {
+    "primary": "BA",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_requirement_count": 0,
+      "competency_requirement_count": 10
+    }
+  },
+  "技术技能要求": [],
+  "技术技能要求组": [],
+  "胜任力要求": [
+    {
+      "competency_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "name": "差距分析",
+      "type": "ABILITY",
+      "evidence": "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "差距分析",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务洞察",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "业务智能体 高阶方案设计 针对重点业务智能体，完成高阶方案设计：包括智能体的目标定位、核 心功能模块（如感知层、决策层、执行层）、与ERP系统及AI底座的 交互逻辑、关键数据需求与技术依赖。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "开展业务痛点与AI应用机会洞察",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "evidence": "对标行业标杆企业（如SAP、Oracle智能ERP 实践）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "行业对标",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "结合业务价值、技术可行性、实施成本",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "evidence": "制定各领域的年度AI实施策略",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI 路线图规划",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_ERP_AI_INTEGRATION",
+      "name": "ERP与AI集成",
+      "type": "ABILITY",
+      "evidence": "与ERP系统及AI底座的交互逻辑",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "ERP与AI集成",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "资源需求",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划",
+      "priority": "must"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "风险预案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理",
+      "priority": "must"
+    }
+  ],
+  "能力要求": [
+    {
+      "capability_id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+      "name": "Agent Layered Architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "核心功能模块（如感知层、决策层、执行层）"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+          "name": "Agent Layered Architecture"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_IMPLEMENTATION_STRATEGY",
+      "name": "AI Implementation Strategy",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "业务智能体 选型与实施策 略 基于洞察与差距分析，结合业务价值、技术可行性、实施成本，为各业 务领域筛选候选业务智能体场景（如“财务智能审单”“供应链动态补 货”“生产异常预测”等），并制定各领域的年度AI实施策略。",
+        "制定各领域的年度AI实施策略"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AI_IMPLEMENTATION_STRATEGY",
+          "name": "AI Implementation Strategy"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "开展业务痛点与AI应用机会洞察"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI Opportunity Discovery"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "制定各领域的年度AI实施策略"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "开展业务痛点与AI应用机会洞察"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "制定各领域的年度AI实施策略"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_VALUE_ASSESSMENT",
+      "name": "AI Value Assessment",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "结合业务价值、技术可行性、实施成本"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_AI_VALUE_ASSESSMENT",
+          "name": "AI Value Assessment"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+        "分析各业务领域在AI能力成熟度、数据基础、流程适配性上的差距"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_BUSINESS_GAP_ANALYSIS",
+          "name": "Business Gap Analysis"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+          "name": "Business Insight Discovery"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "开展业务痛点与AI应用机会洞察",
+        "结合业务价值、技术可行性、实施成本"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+      "name": "ERP and AI Integration Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "与ERP系统及AI底座的交互逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+          "name": "ERP and AI Integration Design"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "结合业务价值、技术可行性、实施成本"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "业务智能体 高阶方案设计 针对重点业务智能体，完成高阶方案设计：包括智能体的目标定位、核 心功能模块（如感知层、决策层、执行层）、与ERP系统及AI底座的 交互逻辑、关键数据需求与技术依赖。",
+        "完成高阶方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "High-level Solution Design"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+        "对标行业标杆企业（如SAP、Oracle智能ERP 实践）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_BENCHMARKING",
+          "name": "行业对标"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+          "name": "Industry Benchmark Analysis"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "业务智能体 高阶方案设计 针对重点业务智能体，完成高阶方案设计：包括智能体的目标定位、核 心功能模块（如感知层、决策层、执行层）、与ERP系统及AI底座的 交互逻辑、关键数据需求与技术依赖。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "输出各业务智能体的实施路线图（如Q1-Q4分阶段目标"
+      ],
+      "sources": [
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_PHASED_ROADMAP_PLANNING",
+          "name": "Phased Roadmap Planning"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "资源需求"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+          "name": "Resource and Capacity Planning"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "风险预案",
+        "输出各业务智能体的实施路线图（如Q1-Q4分阶段目标、资源需求、风 险预案），为后续落地提供指导"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        },
+        {
+          "source_type": "jd_direct",
+          "source_id": "CAP_RISK_CONTINGENCY_PLANNING",
+          "name": "Risk Contingency Planning"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "风险预案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECH_DEPENDENCY_MAPPING",
+      "name": "Technical Dependency Mapping",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "与ERP系统及AI底座的交互逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域要求": [
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "name": "AI Strategy",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    }
+  ],
+  "本体外技术技能要求": [
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "对标行业标杆企业（如SAP、Oracle智能ERP 实践）"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "对标行业标杆企业（如SAP、Oracle智能ERP 实践）"
+    },
+    {
+      "skill_id": "",
+      "name": "ERP系统",
+      "evidence": "与ERP系统及AI底座的交互逻辑"
+    },
+    {
+      "skill_id": "",
+      "name": "AI底座",
+      "evidence": "与ERP系统及AI底座的交互逻辑"
+    }
+  ],
+  "经验要求": [
+    "具备业务痛点与AI应用机会洞察经验",
+    "具备业务智能体选型与实施策略制定经验",
+    "具备高阶方案设计与实施路线图规划经验"
+  ],
+  "级别要求": "Level 8到Level 6",
+  "是否有级别要求": true,
+  "证据": [
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+      "supports_entity_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "supports_entity_name": "差距分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "业务洞察与 差距分析 针对公司核心业务领域（ISC、CRM、财经、人力、通用），开展业务痛 点与AI应用机会洞察。并对标行业标杆企业（如SAP、Oracle智能ERP 实践）及公司内部首批业务智能体探索成果，分析各业务领域在AI能 力成熟度、数据基础、流程适配性上的差距，形成差距分析报告。",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "业务智能体 高阶方案设计 针对重点业务智能体，完成高阶方案设计：包括智能体的目标定位、核 心功能模块（如感知层、决策层、执行层）、与ERP系统及AI底座的 交互逻辑、关键数据需求与技术依赖。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "开展业务痛点与AI应用机会洞察",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "对标行业标杆企业（如SAP、Oracle智能ERP 实践）",
+      "supports_entity_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "supports_entity_name": "行业对标",
+      "derived_capability_ids": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "结合业务价值、技术可行性、实施成本",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "制定各领域的年度AI实施策略",
+      "supports_entity_id": "SKILL_AI_ROADMAP_PLANNING",
+      "supports_entity_name": "AI 路线图规划",
+      "derived_capability_ids": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "与ERP系统及AI底座的交互逻辑",
+      "supports_entity_id": "SKILL_ERP_AI_INTEGRATION",
+      "supports_entity_name": "ERP与AI集成",
+      "derived_capability_ids": [
+        "CAP_ERP_AI_INTEGRATION_DESIGN",
+        "CAP_TECH_DEPENDENCY_MAPPING"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "资源需求",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency_requirement",
+      "source_text": "风险预案",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "行业知识要求": [
+    "ISC",
+    "CRM",
+    "财经",
+    "人力资源",
+    "供应链管理",
+    "生产制造"
+  ]
+}

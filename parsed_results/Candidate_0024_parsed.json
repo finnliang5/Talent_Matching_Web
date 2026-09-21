@@ -1,0 +1,256 @@
+{
+  "姓名": "Candidate_0024",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "负责所有BPO项目的流程改善和自动化开发",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "提高效率，节省人力",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "提高效率，节省人力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "提高效率，节省人力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责所有BPO项目的流程改善和自动化开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责所有BPO项目的流程改善和自动化开发",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提高效率，节省人力",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "C#",
+      "evidence": "精通C#、python、VBA、WPF、Selenium等技术语言"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "精通C#、python、VBA、WPF、Selenium等技术语言"
+    },
+    {
+      "skill_id": "",
+      "name": "WPF",
+      "evidence": "精通C#、python、VBA、WPF、Selenium等技术语言"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "角色：【RPA工程师】；数据分析整理，RPA工具开发"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "工具与平台-【SAP】"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术大连有限公司",
+      "职位": "RPA工程师",
+      "时间": "",
+      "描述": "数据分析整理，RPA工具开发，提高效率，节省人力；平台交互工具的开发，实现无纸化管理；平台信息采集，Tracker工具开发，工作流程化；前后端工具整体设计与开发。"
+    },
+    {
+      "公司": "惠普",
+      "职位": "自动化工程师",
+      "时间": "",
+      "描述": "负责所有BPO项目的流程改善和自动化开发；CS/BS工具开发与维护。"
+    },
+    {
+      "公司": "NTT DATA",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "BS平台的后端开发与测试；VBA工具的设计与开发。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【15年软件和自动化工具开发经验，精通C#、python、VBA、WPF、Selenium等技术语言，了解财务、采购等业务背景】",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "了解财务、采购等业务背景；行业经验-【财务】",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "Fanen.Liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Fanen.Liu_profile_CN.md",
+    "source_hash": "b8ce936e0f87c2f7ce6ba47faa9c1038ee6bf4c97aea837a0e13523305b2bf00",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:18:56"
+  },
+  "城市": "Dalian"
+}

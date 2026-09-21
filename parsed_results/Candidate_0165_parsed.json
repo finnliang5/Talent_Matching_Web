@@ -1,0 +1,549 @@
+{
+  "姓名": "Candidate_0165",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "matched_term": "知识图谱"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS-AI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "K8s"
+    },
+    {
+      "skill_id": "SKILL_JMETER",
+      "name": "JMeter",
+      "type": "PERFORMANCE_TESTING_TOOL",
+      "evidence": "- Java SpringCloud K8s Python Vue JMeter",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache JMeter"
+      ],
+      "matched_term": "JMeter"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- Safe认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "某国际药企数字化应用项目：搭建应用服务框架，调研和集成所需中间件，根据业务需求，设计数据模型，开发和实现业务功能；某国际汽车厂商销售与库存报表项目：根据业务需求，设计数据模型，根据性能要求，进行技术选型。配置平台参数，完成代码发布",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "某国际药企数字化应用项目：构建一个用于医院科室的病患病程管理应用，医护人员使用PC端管理病患的随访、到诊和检查报告等数据，病患可以关注微信公众号，阅读推荐文章，解读检测报告，一对一聊天咨询",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Java SpringCloud K8s Python Vue JMeter",
+        "- AWS-AI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Java SpringCloud K8s Python Vue JMeter"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- Safe认证"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "某国际药企数字化应用项目：搭建应用服务框架，调研和集成所需中间件，根据业务需求，设计数据模型，开发和实现业务功能；某国际汽车厂商销售与库存报表项目：根据业务需求，设计数据模型，根据性能要求，进行技术选型。配置平台参数，完成代码发布",
+        "某国际药企数字化应用项目：构建一个用于医院科室的病患病程管理应用，医护人员使用PC端管理病患的随访、到诊和检查报告等数据，病患可以关注微信公众号，阅读推荐文章，解读检测报告，一对一聊天咨询"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "某国际药企数字化应用项目：构建一个用于医院科室的病患病程管理应用，医护人员使用PC端管理病患的随访、到诊和检查报告等数据，病患可以关注微信公众号，阅读推荐文章，解读检测报告，一对一聊天咨询"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KNOWLEDGE_GRAPH",
+          "name": "知识图谱"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "某国际药企数字化应用项目：搭建应用服务框架，调研和集成所需中间件，根据业务需求，设计数据模型，开发和实现业务功能；某国际汽车厂商销售与库存报表项目：根据业务需求，设计数据模型，根据性能要求，进行技术选型。配置平台参数，完成代码发布"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PERFORMANCE_TESTING",
+      "name": "Performance Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Java SpringCloud K8s Python Vue JMeter"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JMETER",
+          "name": "JMeter"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Java SpringCloud K8s Python Vue JMeter"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 当前AI相关的各种技术和解决方案不断涌现，公司的AI资产也会跟随技术的发展不断验证新技术和方案的可行性。当前火热的知识图谱，又有了新的解决方案，使用图的性质，代替RAG的语义分析，能够提高查询的速度，同时能够清晰的关联相关知识，并且节省Token的消耗，基于这个目的，不断探索与落地新的功能。",
+      "supports_entity_id": "SKILL_KNOWLEDGE_GRAPH",
+      "supports_entity_name": "知识图谱",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS-AI",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Java SpringCloud K8s Python Vue JMeter",
+      "supports_entity_id": "SKILL_JMETER",
+      "supports_entity_name": "JMeter",
+      "derived_capability_ids": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Safe认证",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "某国际药企数字化应用项目：搭建应用服务框架，调研和集成所需中间件，根据业务需求，设计数据模型，开发和实现业务功能；某国际汽车厂商销售与库存报表项目：根据业务需求，设计数据模型，根据性能要求，进行技术选型。配置平台参数，完成代码发布",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "某国际药企数字化应用项目：构建一个用于医院科室的病患病程管理应用，医护人员使用PC端管理病患的随访、到诊和检查报告等数据，病患可以关注微信公众号，阅读推荐文章，解读检测报告，一对一聊天咨询",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "全栈开发工程师",
+      "时间": "",
+      "描述": "负责多个项目交付，担任TechLead或全栈工程师，主导微服务架构设计、技术选型、数据建模与核心功能开发。项目包括某国际药企数字化应用、某国际汽车厂商销售库存报表、AI资产项目等，涉及生命科学、汽车保险等行业。"
+    },
+    {
+      "公司": "大连同方软银科技股份有限公司",
+      "职位": "平台研发工程师",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "大连华信科技股份有限公司",
+      "职位": "技术经理",
+      "时间": "",
+      "描述": ""
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 汽车保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 辽宁科技大学，2015年",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "Xuliang.Zu_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Xuliang.Zu_CN.md",
+    "source_hash": "7a1cad358e742ccd5fe305238d1f6138c1df053bb1a45b7a26770b87fe278b25",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:35:55"
+  },
+  "城市": "Dalian"
+}

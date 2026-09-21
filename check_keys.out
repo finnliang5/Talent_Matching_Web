@@ -1,0 +1,4 @@
+Top keys: ['姓名', '级别', 'profile_type', '技术技能', '胜任力', '能力', '领域', '证据', '本体外技术技能', '经验', '行业知识', '_batch', '城市']
+Skills count: 14
+First skill keys: ['skill_id', 'name', 'type', 'evidence', 'source', 'source_type', 'aliases', 'languages', 'matched_term']
+First 5 names: ['Python 基础', 'MySQL', 'Databricks', 'Azure Data Factory', 'Azure Synapse Analytics']

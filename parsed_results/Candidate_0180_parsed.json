@@ -1,0 +1,487 @@
+{
+  "姓名": "Candidate_0180",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 负责收集并调研各大模型厂商资料，检索并综合多家权威大模型测试，对大模型各项能力进行评估，形成国内外大模型能力洞察报告。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 生成式人工智能与大模型相关平台：Dify，Coze，Codex，openclaw",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- Prompt Engineering",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 数据查询与分析工具：SQL，PowerBI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例设计"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "业务分析师",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 在项目进行过程中，负责与客户公司IT部门、业务部门沟通协调，及时将客户诉求梳理并传达给开发团队进行开发，协调推进项目进行与交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 数据查询与分析工具：SQL，PowerBI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "业务分析师"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 在项目进行过程中，负责与客户公司IT部门、业务部门沟通协调，及时将客户诉求梳理并传达给开发团队进行开发，协调推进项目进行与交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 生成式人工智能与大模型相关平台：Dify，Coze，Codex，openclaw"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "业务分析师"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- Prompt Engineering"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "业务分析师",
+        "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责收集并调研各大模型厂商资料，检索并综合多家权威大模型测试，对大模型各项能力进行评估，形成国内外大模型能力洞察报告。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 生成式人工智能与大模型相关平台：Dify，Coze，Codex，openclaw",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Prompt Engineering",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据查询与分析工具：SQL，PowerBI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "业务分析师",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有约2年业务分析及数字化项目交付经验，能够深入理解并沟通客户业务与IT部门需求，主导从需求分析、解决方案设计到测试交付的全流程。交付过多种类型的企业级项目，擅长识别业务痛点、跨团队协调、测试用例设计与用户验收，确保高质量交付与落地。具备多项AI项目落地经验，擅长运用AI工具解决业务问题，并持有阿里云ACA认证、埃森哲Reinvention of Agentic AI认证。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 在项目进行过程中，负责与客户公司IT部门、业务部门沟通协调，及时将客户诉求梳理并传达给开发团队进行开发，协调推进项目进行与交付。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "核心技能：SQL"
+    },
+    {
+      "skill_id": "",
+      "name": "AI测试",
+      "evidence": "核心技能：AI测试"
+    },
+    {
+      "skill_id": "",
+      "name": "JIRA / Confluence",
+      "evidence": "工具与平台：JIRA / Confluence"
+    },
+    {
+      "skill_id": "",
+      "name": "Rally",
+      "evidence": "工具与平台：Rally"
+    },
+    {
+      "skill_id": "",
+      "name": "O365",
+      "evidence": "工具与平台：O365"
+    },
+    {
+      "skill_id": "",
+      "name": "XMind",
+      "evidence": "工具与平台：XMind"
+    },
+    {
+      "skill_id": "",
+      "name": "Figma",
+      "evidence": "工具与平台：Figma"
+    },
+    {
+      "skill_id": "",
+      "name": "Coze",
+      "evidence": "工具与平台：Coze"
+    },
+    {
+      "skill_id": "",
+      "name": "Codex",
+      "evidence": "工具与平台：Codex"
+    },
+    {
+      "skill_id": "",
+      "name": "openclaw",
+      "evidence": "工具与平台：openclaw"
+    },
+    {
+      "skill_id": "",
+      "name": "企业微信",
+      "evidence": "工具与平台：企业微信"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某跨国知名体外诊断公司",
+      "职位": "业务分析师",
+      "时间": "",
+      "描述": "扫描行业现状，寻找GenAI赋能产品机会点；采访一线人员并组织workshop，洞察效率影响因素并制定解决方案；完成竞品调研及合作伙伴扫描，定制化生成GenAI解决方案。"
+    },
+    {
+      "公司": "某跨国知名生物科技公司",
+      "职位": "业务分析师",
+      "时间": "",
+      "描述": "负责业务需求分析、应用解决方案设计、测试用例设计；与客户IT部门、业务部门沟通协调，及时梳理客户诉求并传达给开发团队，协调推进项目交付。"
+    },
+    {
+      "公司": "某跨国知名药企",
+      "职位": "业务分析师&测试工程师",
+      "时间": "",
+      "描述": "熟悉医药研发管线里程碑，分析理解客户数据并完成数据清理；辅助开发团队进行prompt微调和优化；完成应用测试，编写测试场景，记录缺陷，与开发人员沟通并追踪至缺陷关闭。"
+    },
+    {
+      "公司": "某跨国知名酒店管理公司",
+      "职位": "业务分析师",
+      "时间": "",
+      "描述": "负责集团中国区企业微信平台日常运营与迭代，主导应用选型与集成，优化工作台功能配置；建立并维护数据监控体系，定期分析用户行为，输出年度运营报告；搭建Marketing广告审批流程后台，完成客服系统调研选型与上线，部署酒店管家企业微信服务号后台；管理集团官方App在各应用商店的上架与版本更新；探索AI工具在业务场景中的应用。"
+    },
+    {
+      "公司": "某知名国际保险公司",
+      "职位": "业务分析师&测试工程师",
+      "时间": "",
+      "描述": "对客户现状进行调研，研读政策并结合需求设计数字化改造方案；撰写BRD文档，与开发人员沟通确保准确按需求开发；撰写UT、SIT文档，并根据文档编写SQL进行测试。"
+    },
+    {
+      "公司": "某跨国知名大功率内燃机涡轮增压技术提供商",
+      "职位": "业务分析师&测试工程师",
+      "时间": "",
+      "描述": "负责业务需求分析，与客户沟通核对需求、梳理业务逻辑并转化为系统设计；沟通多方人员确保代码顺利交接、资源准备妥当；负责UXUI设计，将需求转化为原型图，协助前端工程师进行页面开发；撰写UAT用例，进行单元测试及用户验收测试，记录缺陷并追踪至关闭；撰写用户手册，确保项目顺利交付。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "业务分析师",
+      "时间": "",
+      "描述": "收集并调研各大模型厂商资料，综合多家权威大模型测试，对大模型能力进行评估，形成国内外大模型能力洞察报告；深度分析中国各大模型技术路线及发展趋势，结合企业业务领域探索适用场景；与团队共同分析生成式人工智能生态合作伙伴的选择与合作模式，形成合作建议书。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 行业：生命科学、金融（保险）、高端制造、酒店旅游等（有兴趣探索不同行业）",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 负责多项数字化工具的落地运营：搭建Marketing广告审批流程后台、完成客服系统调研选型与上线、部署酒店管家企业微信服务号后台。",
+      "source": "rule",
+      "matched_term": "广告"
+    }
+  ],
+  "_batch": {
+    "source_file": "yuyang.a.hao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yuyang.a.hao_profile_CN.md",
+    "source_hash": "9239e5a23a4c612d8e007598c68fe3f5625eda95d2ba239d320cf6ccd3a9fbcd",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:42:14"
+  },
+  "城市": "Shanghai"
+}

@@ -1,0 +1,1977 @@
+{
+  "generated_at": "2026-07-23T10:42:42",
+  "total_text_resumes": 197,
+  "updated_files": 11,
+  "unmatched_alias_files": 1,
+  "fuzzy_matched_files": 2,
+  "alias_mapping_count": 199,
+  "items": [
+    {
+      "file": "Candidate_0001.md",
+      "alias": "Candidate_0001",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0001"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0002.md",
+      "alias": "Candidate_0002",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0002"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "baoyu.zhange_profile_CN.md",
+      "alias": "Candidate_0003",
+      "alias_match_mode": "fuzzy",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0003"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0004.MD",
+      "alias": "Candidate_0004",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0004"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0005.md",
+      "alias": "Candidate_0005",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0005"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0006.md",
+      "alias": "Candidate_0006",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0006"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0007.md",
+      "alias": "Candidate_0007",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0007"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0008.md",
+      "alias": "Candidate_0008",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0008"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0009.md",
+      "alias": "Candidate_0009",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0009"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0010.md",
+      "alias": "Candidate_0010",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0010"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0011.md",
+      "alias": "Candidate_0011",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0011"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0012.md",
+      "alias": "Candidate_0012",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0012"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0013.md",
+      "alias": "Candidate_0013",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0013"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0014.md",
+      "alias": "Candidate_0014",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0014"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0015.md",
+      "alias": "Candidate_0015",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0015"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0016.md",
+      "alias": "Candidate_0016",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0016"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0017.md",
+      "alias": "Candidate_0017",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0017"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0018.md",
+      "alias": "Candidate_0018",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0018"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0019.md",
+      "alias": "Candidate_0019",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0019"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0020.md",
+      "alias": "Candidate_0020",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0020"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0021.md",
+      "alias": "Candidate_0021",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0021"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0022.md",
+      "alias": "Candidate_0022",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0022"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0023.md",
+      "alias": "Candidate_0023",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0023"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0024.md",
+      "alias": "Candidate_0024",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0024"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0025.md",
+      "alias": "Candidate_0025",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0025"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0026.md",
+      "alias": "Candidate_0026",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0026"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0027.md",
+      "alias": "Candidate_0027",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0027"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0028.md",
+      "alias": "Candidate_0028",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0028"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0029.md",
+      "alias": "Candidate_0029",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0029"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0030.md",
+      "alias": "Candidate_0030",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0030"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0031.md",
+      "alias": "Candidate_0031",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0031"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0032.md",
+      "alias": "Candidate_0032",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0032"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0033.md",
+      "alias": "Candidate_0033",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0033"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0034.md",
+      "alias": "Candidate_0034",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0034"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0035.md",
+      "alias": "Candidate_0035",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0035"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0036.md",
+      "alias": "Candidate_0036",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0036"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0037.md",
+      "alias": "Candidate_0037",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0037"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0038.md",
+      "alias": "Candidate_0038",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0038"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0039.md",
+      "alias": "Candidate_0039",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0039"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0040.md",
+      "alias": "Candidate_0040",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0040"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0041.md",
+      "alias": "Candidate_0041",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0041"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0042.md",
+      "alias": "Candidate_0042",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0042"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0043.md",
+      "alias": "Candidate_0043",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0043"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0044.md",
+      "alias": "Candidate_0044",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0044"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0045.md",
+      "alias": "Candidate_0045",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0045"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0046.md",
+      "alias": "Candidate_0046",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0046"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0047.md",
+      "alias": "Candidate_0047",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0047"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "jia.a.qu_CN.md",
+      "alias": "Candidate_0049",
+      "alias_match_mode": "fuzzy",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0049"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0048.md",
+      "alias": "Candidate_0048",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0048"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0050.md",
+      "alias": "Candidate_0050",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0050"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0051.md",
+      "alias": "Candidate_0051",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0051"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0052.md",
+      "alias": "Candidate_0052",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0052"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0053.md",
+      "alias": "Candidate_0053",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0053"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0054.md",
+      "alias": "Candidate_0054",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0054"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0055.md",
+      "alias": "Candidate_0055",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0055"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0056.md",
+      "alias": "Candidate_0056",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0056"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0057.md",
+      "alias": "Candidate_0057",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0057"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0058.md",
+      "alias": "Candidate_0058",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0058"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0059.md",
+      "alias": "Candidate_0059",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0059"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0060.md",
+      "alias": "Candidate_0060",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0060"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0061.md",
+      "alias": "Candidate_0061",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0061"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0062.md",
+      "alias": "Candidate_0062",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0062"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0063.md",
+      "alias": "Candidate_0063",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0063"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0064.md",
+      "alias": "Candidate_0064",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0064"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0065.md",
+      "alias": "Candidate_0065",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0065"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0066.md",
+      "alias": "Candidate_0066",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0066"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0067.md",
+      "alias": "Candidate_0067",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0067"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0068.md",
+      "alias": "Candidate_0068",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0068"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0069.md",
+      "alias": "Candidate_0069",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0069"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0070.md",
+      "alias": "Candidate_0070",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0070"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0071.md",
+      "alias": "Candidate_0071",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0071"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0072.md",
+      "alias": "Candidate_0072",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0072"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0073.md",
+      "alias": "Candidate_0073",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0073"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0074.md",
+      "alias": "Candidate_0074",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0074"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0075.md",
+      "alias": "Candidate_0075",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0075"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0076.md",
+      "alias": "Candidate_0076",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0076"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0077.md",
+      "alias": "Candidate_0077",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0077"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0078.md",
+      "alias": "Candidate_0078",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0078"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0079.md",
+      "alias": "Candidate_0079",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0079"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0080.md",
+      "alias": "Candidate_0080",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0080"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0081.md",
+      "alias": "Candidate_0081",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0081"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0082.md",
+      "alias": "Candidate_0082",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0082"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0083.md",
+      "alias": "Candidate_0083",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0083"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0084.md",
+      "alias": "Candidate_0084",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0084"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0085.md",
+      "alias": "Candidate_0085",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0085"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0086.md",
+      "alias": "Candidate_0086",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0086"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0087.md",
+      "alias": "Candidate_0087",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0088.md",
+      "alias": "Candidate_0088",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0088"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0089.md",
+      "alias": "Candidate_0089",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0089"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0090.md",
+      "alias": "Candidate_0090",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0090"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0091.md",
+      "alias": "Candidate_0091",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0091"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0092.md",
+      "alias": "Candidate_0092",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "王铭浩"
+      ],
+      "replaced_name_candidates": [
+        "王铭浩"
+      ]
+    },
+    {
+      "file": "Candidate_0093.md",
+      "alias": "Candidate_0093",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0093"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0094.md",
+      "alias": "Candidate_0094",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0094"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0095.md",
+      "alias": "Candidate_0095",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0095"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0096.md",
+      "alias": "Candidate_0096",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0096"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0097.md",
+      "alias": "Candidate_0097",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0097"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0098.md",
+      "alias": "Candidate_0098",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0098"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0099.md",
+      "alias": "Candidate_0099",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0099"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0100.md",
+      "alias": "Candidate_0100",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0100"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0101.md",
+      "alias": "Candidate_0101",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0101"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0102.md",
+      "alias": "Candidate_0102",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0102"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0103.md",
+      "alias": "Candidate_0103",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0103"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0104.md",
+      "alias": "Candidate_0104",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0104"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0105.md",
+      "alias": "Candidate_0105",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0105"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0106.md",
+      "alias": "Candidate_0106",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0106"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0107.md",
+      "alias": "Candidate_0107",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0107"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0108.md",
+      "alias": "Candidate_0108",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0108"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0109.md",
+      "alias": "Candidate_0109",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0109"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0110.md",
+      "alias": "Candidate_0110",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0110"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0111.md",
+      "alias": "Candidate_0111",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0111"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0112.md",
+      "alias": "Candidate_0112",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0112"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0113.md",
+      "alias": "Candidate_0113",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0113"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0114.md",
+      "alias": "Candidate_0114",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0114"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0115.md",
+      "alias": "Candidate_0115",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0115"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0116.md",
+      "alias": "Candidate_0116",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0116"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0117.md",
+      "alias": "Candidate_0117",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0117"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0118.md",
+      "alias": "Candidate_0118",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0118"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0119.md",
+      "alias": "Candidate_0119",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0119"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0120.md",
+      "alias": "Candidate_0120",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0120"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0121.md",
+      "alias": "Candidate_0121",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0121"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0122.md",
+      "alias": "Candidate_0122",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0122"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0123.md",
+      "alias": "Candidate_0123",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0123"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0124.md",
+      "alias": "Candidate_0124",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0124"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0125.md",
+      "alias": "Candidate_0125",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0125"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0126.md",
+      "alias": "Candidate_0126",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0126"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0127.md",
+      "alias": "Candidate_0127",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0127"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0128.md",
+      "alias": "Candidate_0128",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0128"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0129.md",
+      "alias": "Candidate_0129",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0129"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0130.md",
+      "alias": "Candidate_0130",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0130"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0131.md",
+      "alias": "Candidate_0131",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0131"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0132.md",
+      "alias": "Candidate_0132",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0132"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0133.md",
+      "alias": "Candidate_0133",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0133"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0134.md",
+      "alias": "Candidate_0134",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0134"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0135.md",
+      "alias": "Candidate_0135",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0135"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0136.md",
+      "alias": "Candidate_0136",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0136"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0137.md",
+      "alias": "Candidate_0137",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0137"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0138.md",
+      "alias": "Candidate_0138",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0138"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0139.md",
+      "alias": "Candidate_0139",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0139"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0140.md",
+      "alias": "Candidate_0140",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0140"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0141.md",
+      "alias": "Candidate_0141",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0141"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0142.md",
+      "alias": "Candidate_0142",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0142"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0143.md",
+      "alias": "Candidate_0143",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0143"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0144.md",
+      "alias": "Candidate_0144",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0144"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0145.md",
+      "alias": "Candidate_0145",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "Candidate_0145"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0146.md",
+      "alias": "Candidate_0146",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0146"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0147.md",
+      "alias": "Candidate_0147",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0147"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0148.md",
+      "alias": "Candidate_0148",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0148"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0149.md",
+      "alias": "Candidate_0149",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0149"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0150.md",
+      "alias": "Candidate_0150",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0150"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0151.md",
+      "alias": "Candidate_0151",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0151"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0152.md",
+      "alias": "Candidate_0152",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0152"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Unmatched_0001.md",
+      "status": "unmatched_alias"
+    },
+    {
+      "file": "Candidate_0153.md",
+      "alias": "Candidate_0153",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0153"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0154.md",
+      "alias": "Candidate_0154",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0154"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0155.md",
+      "alias": "Candidate_0155",
+      "alias_match_mode": "exact",
+      "status": "updated",
+      "detected_name_candidates": [
+        "王晓允"
+      ],
+      "replaced_name_candidates": [
+        "王晓允"
+      ]
+    },
+    {
+      "file": "Candidate_0156.md",
+      "alias": "Candidate_0156",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0156"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0157.md",
+      "alias": "Candidate_0157",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0157"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0158.md",
+      "alias": "Candidate_0158",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0158"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0159.md",
+      "alias": "Candidate_0159",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0159"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0160.md",
+      "alias": "Candidate_0160",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0160"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0161.md",
+      "alias": "Candidate_0161",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0161"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0162.md",
+      "alias": "Candidate_0162",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0162"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0163.md",
+      "alias": "Candidate_0163",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0163"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0165.md",
+      "alias": "Candidate_0165",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0165"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0166.md",
+      "alias": "Candidate_0166",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0166"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0167.md",
+      "alias": "Candidate_0167",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0167"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0168.md",
+      "alias": "Candidate_0168",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0168"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0169.md",
+      "alias": "Candidate_0169",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0169"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0170.md",
+      "alias": "Candidate_0170",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0170"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0171.md",
+      "alias": "Candidate_0171",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0171"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0172.md",
+      "alias": "Candidate_0172",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0172"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0173.md",
+      "alias": "Candidate_0173",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0173"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0174.md",
+      "alias": "Candidate_0174",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0174"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0175.md",
+      "alias": "Candidate_0175",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0175"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0176.md",
+      "alias": "Candidate_0176",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0176"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0177.md",
+      "alias": "Candidate_0177",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0177"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0178.md",
+      "alias": "Candidate_0178",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0178"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0179.md",
+      "alias": "Candidate_0179",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0179"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0180.md",
+      "alias": "Candidate_0180",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0180"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0181.md",
+      "alias": "Candidate_0181",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0181"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0182.md",
+      "alias": "Candidate_0182",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0182"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0183.md",
+      "alias": "Candidate_0183",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0183"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0184.md",
+      "alias": "Candidate_0184",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0184"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0185.md",
+      "alias": "Candidate_0185",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0185"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0186.md",
+      "alias": "Candidate_0186",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0186"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0187.md",
+      "alias": "Candidate_0187",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0187"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0188.md",
+      "alias": "Candidate_0188",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0188"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0189.md",
+      "alias": "Candidate_0189",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0189"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0190.md",
+      "alias": "Candidate_0190",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0190"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0191.md",
+      "alias": "Candidate_0191",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0191"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0192.md",
+      "alias": "Candidate_0192",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0192"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0193.md",
+      "alias": "Candidate_0193",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0193"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0194.md",
+      "alias": "Candidate_0194",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0194"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0195.md",
+      "alias": "Candidate_0195",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0195"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0196.md",
+      "alias": "Candidate_0196",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0196"
+      ],
+      "replaced_name_candidates": []
+    },
+    {
+      "file": "Candidate_0197.md",
+      "alias": "Candidate_0197",
+      "alias_match_mode": "exact",
+      "status": "unchanged",
+      "detected_name_candidates": [
+        "Candidate_0197"
+      ],
+      "replaced_name_candidates": []
+    }
+  ],
+  "note": "File names have been anonymized to alias-based names."
+}

@@ -1,0 +1,362 @@
+{
+  "姓名": "Candidate_0047",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- dify平台的应用",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 负责产品需求分析与系统架构设计",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "- 参与自动化平台与交付治理体系建设，保障自动化质量与可持续性",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "主导业务流程分析，将人工流程转化为稳定、可复用的自动化解决方案；业务流程分析与流程自动化设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责企业级业务流程自动化方案设计与技术选型；RPA方案选型、架构设计与实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "项目交付管理与跨团队协作；擅长在业务、技术、交付之间建立清晰边界与协作机制",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "项目交付管理与跨团队协作；擅长在业务、技术、交付之间建立清晰边界与协作机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 参与自动化平台与交付治理体系建设，保障自动化质量与可持续性"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- dify平台的应用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责企业级业务流程自动化方案设计与技术选型；RPA方案选型、架构设计与实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责企业级业务流程自动化方案设计与技术选型；RPA方案选型、架构设计与实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导业务流程分析，将人工流程转化为稳定、可复用的自动化解决方案；业务流程分析与流程自动化设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责产品需求分析与系统架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 负责产品需求分析与系统架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- dify平台的应用",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责产品需求分析与系统架构设计",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 参与自动化平台与交付治理体系建设，保障自动化质量与可持续性",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导业务流程分析，将人工流程转化为稳定、可复用的自动化解决方案；业务流程分析与流程自动化设计",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责企业级业务流程自动化方案设计与技术选型；RPA方案选型、架构设计与实施",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "项目交付管理与跨团队协作；擅长在业务、技术、交付之间建立清晰边界与协作机制",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Power Automate",
+      "evidence": "Power Automate /Uipath/Automation Anywhere(AA)企业自动化平台自动化"
+    },
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "Power Automate /Uipath/Automation Anywhere(AA)企业自动化平台自动化"
+    },
+    {
+      "skill_id": "",
+      "name": "Automation Anywhere",
+      "evidence": "Power Automate /Uipath/Automation Anywhere(AA)企业自动化平台自动化"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR",
+      "evidence": "OCR+RPA端到端自动化方案；OCR 识别技术"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "Excel Macro(VBA)"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲成都分公司",
+      "职位": "自动化工程副经理 / 自动化解决方案负责人",
+      "时间": "",
+      "描述": "负责企业级业务流程自动化方案设计与技术选型；主导业务流程分析，将人工流程转化为稳定、可复用的自动化解决方案；推动RPA、OCR、应用集成在客户侧的规模化落地；参与自动化平台与交付治理体系建设，保障自动化质量与可持续性。"
+    },
+    {
+      "公司": "某通信行业客户",
+      "职位": "高级工程师 / 系统架构与核心模块负责人",
+      "时间": "",
+      "描述": "负责产品需求分析与系统架构设计；承担核心模块设计、开发及性能优化；支持多项目并行交付与系统稳定运行。"
+    },
+    {
+      "公司": "某大型网络设备与解决方案提供商",
+      "职位": "高级工程师 / 企业级平台项目成员",
+      "时间": "",
+      "描述": "参与技术支援平台（多国家上线）建设；负责业务系统方案设计与实施落地；覆盖人事、业务管理、产品管理等多个企业级系统。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "在RPA平台选型、自动化架构设计、规模化交付与治理方面具备成熟经验，服务过快消、保险、财务等行业客户。",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 高级工程师-某通信行业，负责产品需求与系统架构设计",
+      "source": "rule",
+      "matched_term": "通信"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "在RPA平台选型、自动化架构设计、规模化交付与治理方面具备成熟经验，服务过快消、保险、财务等行业客户。",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "ji.a.chen_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ji.a.chen_profile_CN.md",
+    "source_hash": "caae4c626491daf7c03cd8e4756f517f2c501b3fbb45ba5bccd0db9fc5e9e197",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:21:35"
+  },
+  "城市": "Chengdu"
+}

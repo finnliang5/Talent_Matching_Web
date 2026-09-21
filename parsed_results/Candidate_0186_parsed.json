@@ -1,0 +1,572 @@
+{
+  "姓名": "Candidate_0186",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端开发（Angular / JavaScript）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 后端系统开发(Python / C# / Dify Agent)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 与硬件部、嵌入式软件部沟通协调产品设计方案",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与硬件部、嵌入式软件部沟通协调产品设计方案，与客户沟通并反馈需求给开发人员进行改善",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "埃森哲信息技术（大连）有限公司 后端开发工程师 / Email Advisor DCH：基于客户需求定制智能邮件咨询能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：平台架构设计、数据库搭建以及核心代码编写",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与客户沟通并反馈需求给开发人员进行改善",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "埃森哲信息技术（大连）有限公司 后端开发工程师 / Audit Platform Sanofi：交付完整的智能审计平台解决方案；供应商风险识别系统：交付完整的系统解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 前端开发（Angular / JavaScript）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 与硬件部、嵌入式软件部沟通协调产品设计方案",
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与客户沟通并反馈需求给开发人员进行改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与硬件部、嵌入式软件部沟通协调产品设计方案，与客户沟通并反馈需求给开发人员进行改善",
+        "埃森哲信息技术（大连）有限公司 后端开发工程师 / Audit Platform Sanofi：交付完整的智能审计平台解决方案；供应商风险识别系统：交付完整的系统解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 后端系统开发(Python / C# / Dify Agent)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：平台架构设计、数据库搭建以及核心代码编写"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：平台架构设计、数据库搭建以及核心代码编写"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与硬件部、嵌入式软件部沟通协调产品设计方案，与客户沟通并反馈需求给开发人员进行改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "埃森哲信息技术（大连）有限公司 后端开发工程师 / Email Advisor DCH：基于客户需求定制智能邮件咨询能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "埃森哲信息技术（大连）有限公司 后端开发工程师 / Email Advisor DCH：基于客户需求定制智能邮件咨询能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与硬件部、嵌入式软件部沟通协调产品设计方案，与客户沟通并反馈需求给开发人员进行改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与客户沟通并反馈需求给开发人员进行改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端开发（Angular / JavaScript）",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端系统开发(Python / C# / Dify Agent)",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "精通多种主流开发语言，包括 Python、C#、JavaScript 以及RPA相关技术(selenium & Uipath & Power Automate & VBA等)",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 与硬件部、嵌入式软件部沟通协调产品设计方案",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与硬件部、嵌入式软件部沟通协调产品设计方案，与客户沟通并反馈需求给开发人员进行改善",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "埃森哲信息技术（大连）有限公司 后端开发工程师 / Email Advisor DCH：基于客户需求定制智能邮件咨询能力",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：平台架构设计、数据库搭建以及核心代码编写",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "微迪科技（大连）有限公司 项目经理 / 分布式视频拼接系统：与客户沟通并反馈需求给开发人员进行改善",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "埃森哲信息技术（大连）有限公司 后端开发工程师 / Audit Platform Sanofi：交付完整的智能审计平台解决方案；供应商风险识别系统：交付完整的系统解决方案",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "简历中明确列出：RPA相关技术包括 VBA 等"
+    },
+    {
+      "skill_id": "",
+      "name": "Power Automate",
+      "evidence": "简历中明确列出：RPA相关技术包括 Power Automate"
+    },
+    {
+      "skill_id": "",
+      "name": "Uipath",
+      "evidence": "简历中明确列出：RPA相关技术包括 Uipath"
+    },
+    {
+      "skill_id": "",
+      "name": "Dify Agent",
+      "evidence": "简历中明确列出：基于Dify Agent 搭建智能审核平台"
+    },
+    {
+      "skill_id": "",
+      "name": "RTSP",
+      "evidence": "简历中明确列出：熟悉 TCP、UDP、RTSP、组播等通讯协议"
+    },
+    {
+      "skill_id": "",
+      "name": "组播",
+      "evidence": "简历中明确列出：熟悉 TCP、UDP、RTSP、组播等通讯协议"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "大连海创信息技术有限公司",
+      "职位": "高级软件开发",
+      "时间": "",
+      "描述": "智慧警亭系统集成方案开发，系统开发及交付"
+    },
+    {
+      "公司": "微迪科技（大连）有限公司",
+      "职位": "项目经理",
+      "时间": "",
+      "描述": "分布式视频拼接系统：平台架构设计、数据库搭建以及核心代码编写；与硬件部、嵌入式软件部沟通协调产品设计方案；与客户沟通并反馈需求给开发人员进行改善"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "Asahi RPA：基于selenium 实现自动数据上抛，支持系统部署及后期维护工作"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "Email Advisor DCH：基于客户需求定制智能邮件咨询能力，配合业务团队完成企业级交付"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "Audit Platform Sanofi：基于 Python 与 C# 构建智能审计系统，交付完整的智能审计平台解决方案"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "供应商风险识别系统：基于 Python 与 Power Automate 实现企业供应商风险评估系统，交付完整的系统解决方案"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "MS_AI_Asstant：基于 Azure 中 App Service 及 OpenAI 实现 AI 邮件提取 VLC 系统操作，基于 Azure 订阅搭建完整 Azure 系统资源及解决方案"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "后端开发工程师",
+      "时间": "",
+      "描述": "Hisense 智能审核平台：基于 Dify Agent 搭建智能审核平台，智能体平台搭建、后端服务开发"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 网络通信 Socket (TCP / UDP / RTSP / 组播)",
+      "source": "rule",
+      "matched_term": "通信"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhaohui.a.zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhaohui.a.zhang_profile_CN.md",
+    "source_hash": "7873f5bf9c0665b9747480427ca176b19eb7b75fb8f4f702360abc68d1b038e9",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:44:13"
+  },
+  "城市": "Dalian"
+}

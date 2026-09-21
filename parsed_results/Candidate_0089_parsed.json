@@ -1,0 +1,421 @@
+{
+  "姓名": "Candidate_0089",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- 熟练使用es6，typescript，以及前端主流的一些js库，UI库，例如 echart.js，elementUI，antdesign等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 有php，node.js后端开发经验，aws云服务经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- 精通前端主流框架React.js，vue.js等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 精通前端主流框架React.js，vue.js等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 有php，node.js后端开发经验，aws云服务经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_API_TESTING",
+      "name": "接口测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 主要负责后端接口的开发，包括接口设计，接口实现，接口测试等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "API测试",
+        "API Testing",
+        "接口自动化测试"
+      ],
+      "matched_term": "接口测试"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 主要负责前端工程的构建，包括项目初始化，依赖安装，代码规范，打包，部署等，跟devops同事配合。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "本人从事前端开发工作7年多，其中全栈开发经验2年多。在项目开发过程中，我注重代码的可维护性和可扩展性，对自己的每一项任务认真负责，并且勇于接受新技能的挑战，乐于学习后端技术。我具备良好的沟通能力和团队合作精神，跟项目中的每一位同事互帮互助，共同成长。主要交付的工作类型包括：前端开发、全栈开发、测试、项目管理等。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 主要负责后端接口的开发，包括接口设计，接口实现，接口测试等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_API_TESTING",
+          "name": "接口测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 主要负责前端工程的构建，包括项目初始化，依赖安装，代码规范，打包，部署等，跟devops同事配合。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 有php，node.js后端开发经验，aws云服务经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "本人从事前端开发工作7年多，其中全栈开发经验2年多。在项目开发过程中，我注重代码的可维护性和可扩展性，对自己的每一项任务认真负责，并且勇于接受新技能的挑战，乐于学习后端技术。我具备良好的沟通能力和团队合作精神，跟项目中的每一位同事互帮互助，共同成长。主要交付的工作类型包括：前端开发、全栈开发、测试、项目管理等。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 主要负责前端工程的构建，包括项目初始化，依赖安装，代码规范，打包，部署等，跟devops同事配合。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "本人从事前端开发工作7年多，其中全栈开发经验2年多。在项目开发过程中，我注重代码的可维护性和可扩展性，对自己的每一项任务认真负责，并且勇于接受新技能的挑战，乐于学习后端技术。我具备良好的沟通能力和团队合作精神，跟项目中的每一位同事互帮互助，共同成长。主要交付的工作类型包括：前端开发、全栈开发、测试、项目管理等。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 精通前端主流框架React.js，vue.js等。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 主要负责前端工程的构建，包括项目初始化，依赖安装，代码规范，打包，部署等，跟devops同事配合。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "本人从事前端开发工作7年多，其中全栈开发经验2年多。在项目开发过程中，我注重代码的可维护性和可扩展性，对自己的每一项任务认真负责，并且勇于接受新技能的挑战，乐于学习后端技术。我具备良好的沟通能力和团队合作精神，跟项目中的每一位同事互帮互助，共同成长。主要交付的工作类型包括：前端开发、全栈开发、测试、项目管理等。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 熟练使用es6，typescript，以及前端主流的一些js库，UI库，例如 echart.js，elementUI，antdesign等。",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 有php，node.js后端开发经验，aws云服务经验。",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 精通前端主流框架React.js，vue.js等。",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 精通前端主流框架React.js，vue.js等。",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 有php，node.js后端开发经验，aws云服务经验。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主要负责后端接口的开发，包括接口设计，接口实现，接口测试等。",
+      "supports_entity_id": "SKILL_API_TESTING",
+      "supports_entity_name": "接口测试",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主要负责前端工程的构建，包括项目初始化，依赖安装，代码规范，打包，部署等，跟devops同事配合。",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "本人从事前端开发工作7年多，其中全栈开发经验2年多。在项目开发过程中，我注重代码的可维护性和可扩展性，对自己的每一项任务认真负责，并且勇于接受新技能的挑战，乐于学习后端技术。我具备良好的沟通能力和团队合作精神，跟项目中的每一位同事互帮互助，共同成长。主要交付的工作类型包括：前端开发、全栈开发、测试、项目管理等。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "React.js",
+      "evidence": "精通前端主流框架React.js"
+    },
+    {
+      "skill_id": "",
+      "name": "AWS云服务",
+      "evidence": "aws云服务经验"
+    },
+    {
+      "skill_id": "",
+      "name": "Agile",
+      "evidence": "项目开发过程中采用agile模式"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲(大连)",
+      "职位": "前端开发/全栈开发",
+      "时间": "",
+      "描述": "负责clxxx、msxxx、bmxxx、unilexxx等项目的前端与全栈开发，涵盖页面布局、交互、数据展示、接口调用、多端适配及图表开发，使用Vue.js、React.js、Node.js、PHP、AWS等技术。"
+    },
+    {
+      "公司": "IBM(外包)",
+      "职位": "前端开发",
+      "时间": "早期经验",
+      "描述": "负责esmxxx欧美项目前端页面开发，包括页面布局、交互、数据展示与接口调用，主要使用React.js。"
+    },
+    {
+      "公司": "大连拓思科技有限公司",
+      "职位": "前端开发",
+      "时间": "早期经验",
+      "描述": "负责某思网站前端页面开发，包括页面布局、交互、数据展示与接口调用，主要使用Vue2。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 大连拓思科技有限公司(早期经验)",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "min.l.zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\min.l.zhang_profile_CN.md",
+    "source_hash": "e27652de647ca21721d5c9e24c2e1baf479b80994427f377b245bd10e3d44eb1",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:44:58"
+  },
+  "城市": "Dalian"
+}

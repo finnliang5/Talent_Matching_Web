@@ -1,0 +1,714 @@
+{
+  "姓名": "Candidate_0049",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- python后端开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- LLM调用优化、结构化输出",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- MCP服务集成与skills设计、编排、调用",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_VECTOR_DATABASE",
+      "name": "向量数据库",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 向量数据库与embedding模型使用",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vector Database"
+      ],
+      "matched_term": "向量数据库"
+    },
+    {
+      "skill_id": "SKILL_TENSORFLOW",
+      "name": "TensorFlow",
+      "type": "ML_FRAMEWORK",
+      "evidence": "- 专注于传统AI领域，涵盖机器学习应用落地与TensorFlow框架下的神经网络开发。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tensorflow",
+        "TF"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "TensorFlow"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 专注于传统AI领域，涵盖机器学习应用落地与TensorFlow框架下的神经网络开发。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_FEATURE_ENGINEERING",
+      "name": "特征工程",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- 通过特征工程与模型调优，提升预测准确率，有效辅助业务方制定培训计划。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Feature Engineering",
+        "特征构建",
+        "特征选择"
+      ],
+      "matched_term": "特征工程"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "**职责:** LLM开发工程师/项目管理智能体",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计多Agent协同架构：意图识别Agent → 主Agent → 多个子Agent，实现复杂业务链路。设计三Agent协作流程（故事线Agent → 大纲Agent → PPT生成Agent），实现端到端自动生成。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。解决更复杂的跨系统、多步骤业务流程的端到端自动化与智能化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "RAG知识库构建及检索策略优化。基于医药知识库构建RAG问答系统，结合向量检索与关键词召回，显著提升答案准确率。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "基于医生多维度数据（如学习行为、考核记录等）构建回归模型，预测高潜力学员。有效辅助业务方制定培训计划。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- MCP服务集成与skills设计、编排、调用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。解决更复杂的跨系统、多步骤业务流程的端到端自动化与智能化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。解决更复杂的跨系统、多步骤业务流程的端到端自动化与智能化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "基于医生多维度数据（如学习行为、考核记录等）构建回归模型，预测高潜力学员。有效辅助业务方制定培训计划。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。解决更复杂的跨系统、多步骤业务流程的端到端自动化与智能化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "RAG知识库构建及检索策略优化。基于医药知识库构建RAG问答系统，结合向量检索与关键词召回，显著提升答案准确率。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "RAG知识库构建及检索策略优化。基于医药知识库构建RAG问答系统，结合向量检索与关键词召回，显著提升答案准确率。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**职责:** LLM开发工程师/项目管理智能体"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEATURE_ENGINEERING",
+      "name": "Feature Engineering",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 通过特征工程与模型调优，提升预测准确率，有效辅助业务方制定培训计划。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FEATURE_ENGINEERING",
+          "name": "特征工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计多Agent协同架构：意图识别Agent → 主Agent → 多个子Agent，实现复杂业务链路。设计三Agent协作流程（故事线Agent → 大纲Agent → PPT生成Agent），实现端到端自动生成。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- MCP服务集成与skills设计、编排、调用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 专注于传统AI领域，涵盖机器学习应用落地与TensorFlow框架下的神经网络开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TENSORFLOW",
+          "name": "TensorFlow"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计多Agent协同架构：意图识别Agent → 主Agent → 多个子Agent，实现复杂业务链路。设计三Agent协作流程（故事线Agent → 大纲Agent → PPT生成Agent），实现端到端自动生成。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**职责:** LLM开发工程师/项目管理智能体"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。",
+        "- 向量数据库与embedding模型使用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库",
+          "rule_id": "RULE_VECTOR_DB_TO_RAG",
+          "rule_name": "向量数据库 -> CAP_RAG",
+          "inference_reason": "Vector database experience is often part of a RAG stack, but should not imply broader AI capabilities.",
+          "inference_weight": 0.75
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "**职责:** LLM开发工程师/项目管理智能体"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 向量数据库与embedding模型使用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_VECTOR_DATABASE",
+          "name": "向量数据库"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- python后端开发",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- LLM调用优化、结构化输出",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- MCP服务集成与skills设计、编排、调用",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。拥有8年AI开发经验（其中大模型专项2年+），在RAG、Agent框架实现、提示词工程及生产部署方面具备深厚技术专长。成功交付生产级Agent框架实现，真正解决业务问题。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 向量数据库与embedding模型使用",
+      "supports_entity_id": "SKILL_VECTOR_DATABASE",
+      "supports_entity_name": "向量数据库",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 专注于传统AI领域，涵盖机器学习应用落地与TensorFlow框架下的神经网络开发。",
+      "supports_entity_id": "SKILL_TENSORFLOW",
+      "supports_entity_name": "TensorFlow",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 专注于传统AI领域，涵盖机器学习应用落地与TensorFlow框架下的神经网络开发。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 通过特征工程与模型调优，提升预测准确率，有效辅助业务方制定培训计划。",
+      "supports_entity_id": "SKILL_FEATURE_ENGINEERING",
+      "supports_entity_name": "特征工程",
+      "derived_capability_ids": [
+        "CAP_FEATURE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**职责:** LLM开发工程师/项目管理智能体",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计多Agent协同架构：意图识别Agent → 主Agent → 多个子Agent，实现复杂业务链路。设计三Agent协作流程（故事线Agent → 大纲Agent → PPT生成Agent），实现端到端自动生成。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专注于大模型应用全流程开发，从知识库构建到智能Agent系统，切实解决企业内部实际问题。解决更复杂的跨系统、多步骤业务流程的端到端自动化与智能化",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "RAG知识库构建及检索策略优化。基于医药知识库构建RAG问答系统，结合向量检索与关键词召回，显著提升答案准确率。",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于医生多维度数据（如学习行为、考核记录等）构建回归模型，预测高潜力学员。有效辅助业务方制定培训计划。",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Embedding模型",
+      "evidence": "针对医药领域微调Embedding模型"
+    },
+    {
+      "skill_id": "",
+      "name": "Agent框架",
+      "evidence": "Agent状态图设计、节点开发"
+    },
+    {
+      "skill_id": "",
+      "name": "MCP服务",
+      "evidence": "MCP服务集成与skills设计、编排、调用"
+    },
+    {
+      "skill_id": "",
+      "name": "Prompt工程",
+      "evidence": "prompt工程"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某医药公司",
+      "职位": "LLM开发工程师/智能问答ChatBot",
+      "时间": "",
+      "描述": "针对医药领域微调Embedding模型，提升专业术语检索效果，并完成模型与向量库的私有化部署。引入标准问答对作为兜底策略。基于医药知识库构建RAG问答系统，结合向量检索与关键词召回，显著提升答案准确率。"
+    },
+    {
+      "公司": "某医药公司",
+      "职位": "机器学习开发工程师/高潜力学员预测",
+      "时间": "",
+      "描述": "基于医生多维度数据（如学习行为、考核记录等）构建回归模型，预测高潜力学员。输出学员各维度能力得分，为学员筛选与培养提供数据决策支持。通过特征工程与模型调优，提升预测准确率。"
+    },
+    {
+      "公司": "某制造业公司",
+      "职位": "LLM开发工程师/项目管理智能体",
+      "时间": "",
+      "描述": "设计多Agent协同架构：意图识别Agent → 主Agent → 多个子Agent，实现复杂业务链路。主Agent根据用户意图动态分发任务，子Agent通过MCP服务调用CRM底层Tool。实现对项目管理系统的自然语言查询与更新。"
+    },
+    {
+      "公司": "某医药公司",
+      "职位": "LLM开发工程师/智能PPT生成助手",
+      "时间": "",
+      "描述": "设计三Agent协作流程（故事线Agent → 大纲Agent → PPT生成Agent），实现端到端自动生成。结合预置PPT模板，自动匹配并填充内容，大幅减少研究员手动制作PPT的时间。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "### 某医药公司",
+      "source": "rule",
+      "matched_term": "医药"
+    }
+  ],
+  "_batch": {
+    "source_file": "jia.qu_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jia.qu_CN.md",
+    "source_hash": "52309d9fbbefbcbad7196676e38e8936ce4afd991ee7365b07ea2a645865cf61",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:23:30"
+  },
+  "城市": "Shanghai"
+}

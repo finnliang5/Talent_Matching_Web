@@ -1,0 +1,591 @@
+{
+  "姓名": "Candidate_0189",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 10
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "* 锚定与项目规划。.net 与VBA相结合的手段同步业务数据，对可视化展示数据处理进行方案设计。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "雀巢项目：'业务流程梳理，形成对接业务方进行访谈，梳理现有业务流程、痛点难点及数字化需求'；海信项目：'收集多工厂人事管理的现存问题，包含人事流程（入转调离）不统一、薪酬核算规则不统一、人事数据统计滞后等，兼顾消耗品行业岗位特性“共性+个性化”的前提，重新规范业务逻辑'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "Sony项目：'绘制业务流程图，业务需求说明书、产品需求说明书，明确据对接接口、业务状态台账的字段定义'；Lixil项目：'明确每个需求的场景、输入输出、业务规则，绘制流程图、PDD及SDD'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "Sony项目：'牵头内部开发与外部客户，同步项目背景、痛点、解决方案及核心目标，明确各方职责，统一项目认知'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队，拉起现有业务流程，确保同一流程认识统一'；Lixil项目：'做为大连业务团队和大连IT团队的对接人，定期与日本埃森哲IT团队、移管团队进行进度汇报'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "关西电力项目角色为'项目经理'；Sony项目角色为'项目经理'，并'管控进度并验证已完成功能点功能'；Lixil项目角色为'项目经理'，并'管理项目成本'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "职业背景概述：'擅长采购风险前置管，从业务源头降低风险发生概率'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "Recruit项目：'结合过去两年的业务量历史走势，对未来业务量、所需人员需求进行逻辑设计，以图表形式对预测结果进行呈现'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "衢州巨化集团项目角色为'咨询顾问'，'梳理现有业务情况进行蓝图设计，设计招采平台原型'，并设计采购寻源、执行、供应商审核模块",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_REMOTE_COLLABORATION",
+      "name": "远程协作交付",
+      "type": "ABILITY",
+      "evidence": "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队'，'培训日本开发团队与日本业务团队并交付工具'；Lixil项目：'定期与日本埃森哲IT团队、移管团队进行进度汇报'",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "远程协作交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Sony项目：'牵头内部开发与外部客户，同步项目背景、痛点、解决方案及核心目标，明确各方职责，统一项目认知'",
+        "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队，拉起现有业务流程，确保同一流程认识统一'；Lixil项目：'做为大连业务团队和大连IT团队的对接人，定期与日本埃森哲IT团队、移管团队进行进度汇报'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "衢州巨化集团项目角色为'咨询顾问'，'梳理现有业务情况进行蓝图设计，设计招采平台原型'，并设计采购寻源、执行、供应商审核模块"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "关西电力项目角色为'项目经理'；Sony项目角色为'项目经理'，并'管控进度并验证已完成功能点功能'；Lixil项目角色为'项目经理'，并'管理项目成本'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "衢州巨化集团项目角色为'咨询顾问'，'梳理现有业务情况进行蓝图设计，设计招采平台原型'，并设计采购寻源、执行、供应商审核模块"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 锚定与项目规划。.net 与VBA相结合的手段同步业务数据，对可视化展示数据处理进行方案设计。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Sony项目：'绘制业务流程图，业务需求说明书、产品需求说明书，明确据对接接口、业务状态台账的字段定义'；Lixil项目：'明确每个需求的场景、输入输出、业务规则，绘制流程图、PDD及SDD'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 锚定与项目规划。.net 与VBA相结合的手段同步业务数据，对可视化展示数据处理进行方案设计。",
+        "关西电力项目角色为'项目经理'；Sony项目角色为'项目经理'，并'管控进度并验证已完成功能点功能'；Lixil项目角色为'项目经理'，并'管理项目成本'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REMOTE_COLLABORATION_DELIVERY",
+      "name": "Remote Collaboration Delivery",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队'，'培训日本开发团队与日本业务团队并交付工具'；Lixil项目：'定期与日本埃森哲IT团队、移管团队进行进度汇报'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REMOTE_COLLABORATION",
+          "name": "远程协作交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "雀巢项目：'业务流程梳理，形成对接业务方进行访谈，梳理现有业务流程、痛点难点及数字化需求'；海信项目：'收集多工厂人事管理的现存问题，包含人事流程（入转调离）不统一、薪酬核算规则不统一、人事数据统计滞后等，兼顾消耗品行业岗位特性“共性+个性化”的前提，重新规范业务逻辑'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "雀巢项目：'业务流程梳理，形成对接业务方进行访谈，梳理现有业务流程、痛点难点及数字化需求'；海信项目：'收集多工厂人事管理的现存问题，包含人事流程（入转调离）不统一、薪酬核算规则不统一、人事数据统计滞后等，兼顾消耗品行业岗位特性“共性+个性化”的前提，重新规范业务逻辑'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Recruit项目：'结合过去两年的业务量历史走势，对未来业务量、所需人员需求进行逻辑设计，以图表形式对预测结果进行呈现'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "职业背景概述：'擅长采购风险前置管，从业务源头降低风险发生概率'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "关西电力项目角色为'项目经理'；Sony项目角色为'项目经理'，并'管控进度并验证已完成功能点功能'；Lixil项目角色为'项目经理'，并'管理项目成本'",
+        "职业背景概述：'擅长采购风险前置管，从业务源头降低风险发生概率'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "Sony项目：'牵头内部开发与外部客户，同步项目背景、痛点、解决方案及核心目标，明确各方职责，统一项目认知'"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "* 锚定与项目规划。.net 与VBA相结合的手段同步业务数据，对可视化展示数据处理进行方案设计。",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "雀巢项目：'业务流程梳理，形成对接业务方进行访谈，梳理现有业务流程、痛点难点及数字化需求'；海信项目：'收集多工厂人事管理的现存问题，包含人事流程（入转调离）不统一、薪酬核算规则不统一、人事数据统计滞后等，兼顾消耗品行业岗位特性“共性+个性化”的前提，重新规范业务逻辑'",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Sony项目：'绘制业务流程图，业务需求说明书、产品需求说明书，明确据对接接口、业务状态台账的字段定义'；Lixil项目：'明确每个需求的场景、输入输出、业务规则，绘制流程图、PDD及SDD'",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Sony项目：'牵头内部开发与外部客户，同步项目背景、痛点、解决方案及核心目标，明确各方职责，统一项目认知'",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队，拉起现有业务流程，确保同一流程认识统一'；Lixil项目：'做为大连业务团队和大连IT团队的对接人，定期与日本埃森哲IT团队、移管团队进行进度汇报'",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "关西电力项目角色为'项目经理'；Sony项目角色为'项目经理'，并'管控进度并验证已完成功能点功能'；Lixil项目角色为'项目经理'，并'管理项目成本'",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "职业背景概述：'擅长采购风险前置管，从业务源头降低风险发生概率'",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Recruit项目：'结合过去两年的业务量历史走势，对未来业务量、所需人员需求进行逻辑设计，以图表形式对预测结果进行呈现'",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "衢州巨化集团项目角色为'咨询顾问'，'梳理现有业务情况进行蓝图设计，设计招采平台原型'，并设计采购寻源、执行、供应商审核模块",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "关西电力项目：'对接大连业务团队和日本埃森哲开发团队及日本业务团队'，'培训日本开发团队与日本业务团队并交付工具'；Lixil项目：'定期与日本埃森哲IT团队、移管团队进行进度汇报'",
+      "supports_entity_id": "SKILL_REMOTE_COLLABORATION",
+      "supports_entity_name": "远程协作交付",
+      "derived_capability_ids": [
+        "CAP_REMOTE_COLLABORATION_DELIVERY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Uipath",
+      "evidence": "Lixil FA项目：'Uipath自动化工具设计-项目经理'"
+    },
+    {
+      "skill_id": "",
+      "name": ".NET",
+      "evidence": "Sony项目：'.net 与VBA相结合的手段同步业务数据'"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "Sony项目：'.net 与VBA相结合的手段同步业务数据'"
+    },
+    {
+      "skill_id": "",
+      "name": "OCR",
+      "evidence": "Manulife HK项目：'数字化OCR存储设计-BA'；松下项目：'包含从数据接收、OCR扫描、数据审批流'"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "海信集团",
+      "职位": "数字化转型项目，人事信息管理平台设计-BA",
+      "时间": "2025",
+      "描述": "调研多工厂人事管理现状，梳理组织架构、人员编制、岗位体系，收集问题，重新规范业务逻辑并推进开发落地。"
+    },
+    {
+      "公司": "关西电力",
+      "职位": "业务移管项目，自动化工具设计-项目经理",
+      "时间": "2024",
+      "描述": "对接中日团队，梳理业务流程，制作PDD、SDD和工具使用手册，培训并交付工具。"
+    },
+    {
+      "公司": "Sony",
+      "职位": "管理数字化可视化项目，管理台账工具设计-项目经理",
+      "时间": "2023",
+      "描述": "牵头内外团队，同步项目目标，设计.net与VBA数据同步方案，绘制业务流程图，编写需求说明书，管控进度。"
+    },
+    {
+      "公司": "Lixil FA",
+      "职位": "数字化运营项目，Uipath自动化工具设计-项目经理",
+      "时间": "2024",
+      "描述": "明确需求场景，绘制流程图，编写PDD/SDD，对接IT团队，定期汇报进度，管理项目成本。"
+    },
+    {
+      "公司": "雀巢",
+      "职位": "数字化运营管理项目，快消品库存管理平台设计-BA",
+      "时间": "2022",
+      "描述": "访谈业务方，梳理业务流程与痛点，绘制流程图，明确需求规则，跟进开发，协调分歧。"
+    },
+    {
+      "公司": "衢州巨化集团",
+      "职位": "采购流程数字化转型项目，采购平台设计-咨询顾问",
+      "时间": "2021",
+      "描述": "梳理业务现状，设计招采平台原型，设计寻源、执行、供应商审核模块功能，实现全流程线上化。"
+    },
+    {
+      "公司": "Manulife HK",
+      "职位": "Digital-Mailroom项目，数字化OCR存储设计-BA",
+      "时间": "2020",
+      "描述": "设计Digital IO平台界面，设计业务流程，包括数据接收、OCR扫描、审批流、数据备份。"
+    },
+    {
+      "公司": "松下",
+      "职位": "SSC数字化运营项目，人事信息管理平台设计-BA",
+      "时间": "2019",
+      "描述": "收集需求，设计人事平台原型，设计审批流和权限矩阵，配置系统，设计业务流程。"
+    },
+    {
+      "公司": "Recruit株式会社",
+      "职位": "数字化运营管理项目，业务运营看板设计-BA",
+      "时间": "2018",
+      "描述": "设计运营看板核心，呈现运营数据，基于历史数据预测未来业务量和人员需求。"
+    },
+    {
+      "公司": "IBM",
+      "职位": "TSS业务部项目运营经理",
+      "时间": "",
+      "描述": "项目运营管理。"
+    },
+    {
+      "公司": "东软信息科技有限公司",
+      "职位": "运营经理&自动化小组组长",
+      "时间": "",
+      "描述": "运营管理与自动化小组管理。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 保险金融",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 东软信息科技有限公司,运营经理\\&自动化小组组长",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "### 2024年，关西电力",
+      "source": "rule",
+      "matched_term": "电力"
+    }
+  ],
+  "_batch": {
+    "source_file": "Zhentao.a.Liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Zhentao.a.Liu_profile_CN.md",
+    "source_hash": "ff848d01c6b2cb41eeb0bbbca075aa0a009c672387eb51ff3c48e853730e451b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:46:10"
+  },
+  "城市": "Dalian"
+}

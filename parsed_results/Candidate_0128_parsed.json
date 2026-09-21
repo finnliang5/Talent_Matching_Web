@@ -1,0 +1,596 @@
+{
+  "姓名": "Candidate_0128",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 8,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_SPARK",
+      "name": "Spark",
+      "type": "DATA_PROCESSING_ENGINE",
+      "evidence": "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Spark"
+      ],
+      "matched_term": "Spark"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库"
+    },
+    {
+      "skill_id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 设计并交付人力资源仪表盘（HRD Dashboard），识别数据问题并设计解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "matched_term": "Dashboard"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "沟通并了解财务流程中 “付款到付款（PTP）” 和 “订单到现金（OTC）” 控制中心的业务需求。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "擅长深挖业务痛点并转化为可落地的数据解决方案；将所理解的业务逻辑转化为计算逻辑",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "具备极强的逻辑拆解与跨团队协同能力；沟通并了解客户需求，以确保在该流程中不同中心之间的指标计算逻辑准确且规范。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "对数据仓库中的数据进行分层并加工，最终形成数据集市；注重数据质量与流程规范化建设",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 设计并交付人力资源仪表盘（HRD Dashboard），识别数据问题并设计解决方案。",
+        "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_BI_DASHBOARDING",
+          "name": "BI看板"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "擅长深挖业务痛点并转化为可落地的数据解决方案；将所理解的业务逻辑转化为计算逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备极强的逻辑拆解与跨团队协同能力；沟通并了解客户需求，以确保在该流程中不同中心之间的指标计算逻辑准确且规范。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "对数据仓库中的数据进行分层并加工，最终形成数据集市；注重数据质量与流程规范化建设"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "对数据仓库中的数据进行分层并加工，最终形成数据集市；注重数据质量与流程规范化建设"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+        "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+        "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPARK",
+          "name": "Spark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长深挖业务痛点并转化为可落地的数据解决方案；将所理解的业务逻辑转化为计算逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "沟通并了解财务流程中 “付款到付款（PTP）” 和 “订单到现金（OTC）” 控制中心的业务需求。",
+        "擅长深挖业务痛点并转化为可落地的数据解决方案；将所理解的业务逻辑转化为计算逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "沟通并了解财务流程中 “付款到付款（PTP）” 和 “订单到现金（OTC）” 控制中心的业务需求。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+      "supports_entity_id": "SKILL_SPARK",
+      "supports_entity_name": "Spark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 将所理解的业务逻辑转化为计算逻辑、进行数据处理和建模、编写 Spark/hive SQL 代码、创建和发布 LUDP（大数据处理平台）任务、进行数据验证等等。",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0128是埃森哲公司的数据分析师。他拥有超过7年的数据分析和数据仓库建设经验，专注于数据库、ETL（抽取、转换、加载）、数据模型、数据系统集成以及数据分析自动化领域。",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 设计并交付人力资源仪表盘（HRD Dashboard），识别数据问题并设计解决方案。",
+      "supports_entity_id": "SKILL_BI_DASHBOARDING",
+      "supports_entity_name": "BI看板",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "在ETL领域，他精通数据库操作（如SQL Server、MySQL、Oracle等），也熟练掌握商业智能可视化工具（如Power BI、帆软BI等），同时掌握数据相关的自动化技术与工具（如VBA、Python、Talend等）。",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "沟通并了解财务流程中 “付款到付款（PTP）” 和 “订单到现金（OTC）” 控制中心的业务需求。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长深挖业务痛点并转化为可落地的数据解决方案；将所理解的业务逻辑转化为计算逻辑",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备极强的逻辑拆解与跨团队协同能力；沟通并了解客户需求，以确保在该流程中不同中心之间的指标计算逻辑准确且规范。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对数据仓库中的数据进行分层并加工，最终形成数据集市；注重数据质量与流程规范化建设",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "自动下载（SAP）的数据"
+    },
+    {
+      "skill_id": "",
+      "name": "LUDP",
+      "evidence": "创建和发布 LUDP（大数据处理平台）任务"
+    },
+    {
+      "skill_id": "",
+      "name": "Trae",
+      "evidence": "掌握Trae、Codex等AI开发工具的使用"
+    },
+    {
+      "skill_id": "",
+      "name": "Codex",
+      "evidence": "掌握Trae、Codex等AI开发工具的使用"
+    },
+    {
+      "skill_id": "",
+      "name": "帆软BI",
+      "evidence": "熟练掌握商业智能可视化工具（如Power BI、帆软BI等）"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国际跨国食品饮料制造商",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "通过VBA、Python等实现SAP数据自动化抽取、转换、加工等ETL流程；设计人力资源仪表盘等BI报表。"
+    },
+    {
+      "公司": "跨国制药企业",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "沟通财务流程PTP和OTC业务需求；将业务逻辑转化为计算逻辑，编写SQL进行数据加工与验证；使用Power BI进行数据可视化分析。"
+    },
+    {
+      "公司": "银行业",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "利用数据抽取工具对上游系统数据抽取至ODS，进行数据分层加工形成数据集市；沟通银行业务流程进行针对性开发；银行数据报表开发。"
+    },
+    {
+      "公司": "全球人力资源数字化转型项目",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "设计并交付HRD Dashboard和Talent Profile，进行技能映射和职业发展路径设计；使用ETL工具、Python、数据库、VBA。"
+    },
+    {
+      "公司": "全球信息技术公司",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "沟通客户需求确保指标计算逻辑准确规范；将业务逻辑转化为计算逻辑，编写Spark/hive SQL，创建发布LUDP任务，进行数据验证；提升工作效率和计算准确性。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "### 跨国制药企业，数据项目",
+      "source": "rule",
+      "matched_term": "制药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "银行业",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "辽宁科技大学 2014-2018",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "Song Xianpeng_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Song Xianpeng_profile_CN.md",
+    "source_hash": "72935ff262d4f180d820e3dde2c93b9aca6ccf57eebeff255aa9a309a07e7c30",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:04:28"
+  },
+  "城市": "Dalian"
+}

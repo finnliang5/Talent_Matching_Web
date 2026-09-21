@@ -1,0 +1,628 @@
+{
+  "姓名": "Candidate_0194",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有6年VB和Python开发经验的后端开发者",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_DJANGO",
+      "name": "Django",
+      "type": "FRAMEWORK",
+      "evidence": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Django"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- Ops (Docker, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_AGENT_PLANNING",
+      "name": "Agent 规划能力",
+      "type": "AI_FEATURE",
+      "evidence": "- 负责核心对话引擎与工单生成模块开发，集成思维链（Chain-of-Thought）推理模式，引导用户完成信息结构化收集，提升意图识别准确性。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Agent Planning",
+        "Agent 计划能力",
+        "Task Planning",
+        "推理规划",
+        "CoT",
+        "思维链"
+      ],
+      "matched_term": "思维链"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Docker, Gitlab CI/CD, Power BI等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- Ops (Docker, Gitlab CI/CD ...)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 独立完成端到端需求分析、方案设计与代码实现，通过VBA自动化工具将月度结账报表生成时间从8小时缩短至1小时以内，准确率达100%。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 负责核心对话引擎与工单生成模块开发，集成思维链（Chain-of-Thought）推理模式，引导用户完成信息结构化收集，提升意图识别准确性。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责核心对话引擎与工单生成模块开发，集成思维链（Chain-of-Thought）推理模式，引导用户完成信息结构化收集，提升意图识别准确性。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AGENT_PLANNING",
+          "name": "Agent 规划能力",
+          "rule_id": "RULE_AGENT_PLANNING_TO_SCENARIO_SELECTION",
+          "rule_name": "Agent 规划能力 -> CAP_AI_SCENARIO_SELECTION",
+          "inference_reason": "Task planning experience is adjacent to judging suitable AI agent scenarios.",
+          "inference_weight": 0.6
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Docker, Gitlab CI/CD, Power BI等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- Ops (Docker, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- Ops (Docker, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- Ops (Docker, Gitlab CI/CD ...)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 独立完成端到端需求分析、方案设计与代码实现，通过VBA自动化工具将月度结账报表生成时间从8小时缩短至1小时以内，准确率达100%。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 独立完成端到端需求分析、方案设计与代码实现，通过VBA自动化工具将月度结账报表生成时间从8小时缩短至1小时以内，准确率达100%。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有6年VB和Python开发经验的后端开发者",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "supports_entity_id": "SKILL_DJANGO",
+      "supports_entity_name": "Django",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python (FastAPI, Django, Flask, OpenAI ...)",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Agent / LLM (RAG, LangChain, AutoGPT ...)",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SQL & NoSQL (PGSQL / MySQL, MongoDB, Redis ...)",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Ops (Docker, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责核心对话引擎与工单生成模块开发，集成思维链（Chain-of-Thought）推理模式，引导用户完成信息结构化收集，提升意图识别准确性。",
+      "supports_entity_id": "SKILL_AGENT_PLANNING",
+      "supports_entity_name": "Agent 规划能力",
+      "derived_capability_ids": [
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_SCENARIO_SELECTION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Docker, Gitlab CI/CD, Power BI等",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Ops (Docker, Gitlab CI/CD ...)",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 独立完成端到端需求分析、方案设计与代码实现，通过VBA自动化工具将月度结账报表生成时间从8小时缩短至1小时以内，准确率达100%。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "核心技能：VB（VB.Net, VBA）"
+    },
+    {
+      "skill_id": "",
+      "name": "VB.Net",
+      "evidence": "核心技能：VB（VB.Net, VBA）"
+    },
+    {
+      "skill_id": "",
+      "name": "AutoGPT",
+      "evidence": "AI Agent / LLM (RAG, LangChain, AutoGPT ...)"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "ServiceNow CSA 认证"
+    },
+    {
+      "skill_id": "",
+      "name": "Gitlab CI/CD",
+      "evidence": "Ops (Docker, Gitlab CI/CD ...)"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "信华信",
+      "职位": "初级软件工程师",
+      "时间": "2020-2022",
+      "描述": "参与软件开发，使用VB、Python等技术进行后端开发与系统维护。"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "SE -> SSE",
+      "时间": "2022-至今",
+      "描述": "负责多个项目后端开发，包括ELC定制化AI工具平台、Envision自动化票单创建小程序、VBA流程自动化工具、VB.Net银行/保险服务平台。涉及AI模型集成、工作流引擎开发、需求分析、性能优化，服务保险、银行及零售行业客户。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 面向日本金融行业客户，主导其核心WinForm内部系统升级与重构，从旧有架构向模块化、可维护的现代化系统迁移。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 信华信，初级软件工程师 2020-2022",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 为某头部能源企业设计并开发了智能化运维小程序，实现基于自然语言对话的工单自动化创建，将信息收集与录入流程智能化。",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhiwei.su_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhiwei.su_profile_CN.md",
+    "source_hash": "09f8a75e81db237f522bd86d9e130a51fd58f68acf25d95b8e8655996a1c0d70",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:47:28"
+  },
+  "城市": "Dalian"
+}

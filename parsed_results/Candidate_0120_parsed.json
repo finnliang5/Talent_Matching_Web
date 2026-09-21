@@ -1,0 +1,450 @@
+{
+  "姓名": "Candidate_0120",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "- 负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题，保障跨系统集成与业务顺畅运转",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有 10 年软件开发与项目管理经验，前期深耕技术研发与编程实现，具备扎实的技术功底与系统实现能力。后期兼任项目管理工作，擅长跨角色沟通与客户对接，能够高效理解需求并推动项目落地。核心优势在于技术与管理兼备，沟通表达能力突出，可独立完成项目报价、FDD 方案编写及项目全流程上线交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "负责前期需求调研；负责需求调研，文档编写",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "负责项目开发过程中协调客户和开发人员的需求；负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "FDD 方案编写；负责项目后期测试计划，操作手册的编写；推进项目验收",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "快速响应并处理线上紧急故障与突发问题，及时完成应急修复，降低业务影响；希望负责风险管控相关工作内容",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题，保障跨系统集成与业务顺畅运转",
+        "负责项目开发过程中协调客户和开发人员的需求；负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "FDD 方案编写；负责项目后期测试计划，操作手册的编写；推进项目验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 10 年软件开发与项目管理经验，前期深耕技术研发与编程实现，具备扎实的技术功底与系统实现能力。后期兼任项目管理工作，擅长跨角色沟通与客户对接，能够高效理解需求并推动项目落地。核心优势在于技术与管理兼备，沟通表达能力突出，可独立完成项目报价、FDD 方案编写及项目全流程上线交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "FDD 方案编写；负责项目后期测试计划，操作手册的编写；推进项目验收"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 10 年软件开发与项目管理经验，前期深耕技术研发与编程实现，具备扎实的技术功底与系统实现能力。后期兼任项目管理工作，擅长跨角色沟通与客户对接，能够高效理解需求并推动项目落地。核心优势在于技术与管理兼备，沟通表达能力突出，可独立完成项目报价、FDD 方案编写及项目全流程上线交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责前期需求调研；负责需求调研，文档编写"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "负责前期需求调研；负责需求调研，文档编写"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "快速响应并处理线上紧急故障与突发问题，及时完成应急修复，降低业务影响；希望负责风险管控相关工作内容"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 10 年软件开发与项目管理经验，前期深耕技术研发与编程实现，具备扎实的技术功底与系统实现能力。后期兼任项目管理工作，擅长跨角色沟通与客户对接，能够高效理解需求并推动项目落地。核心优势在于技术与管理兼备，沟通表达能力突出，可独立完成项目报价、FDD 方案编写及项目全流程上线交付。",
+        "快速响应并处理线上紧急故障与突发问题，及时完成应急修复，降低业务影响；希望负责风险管控相关工作内容"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责项目开发过程中协调客户和开发人员的需求；负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Power BI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题，保障跨系统集成与业务顺畅运转",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有 10 年软件开发与项目管理经验，前期深耕技术研发与编程实现，具备扎实的技术功底与系统实现能力。后期兼任项目管理工作，擅长跨角色沟通与客户对接，能够高效理解需求并推动项目落地。核心优势在于技术与管理兼备，沟通表达能力突出，可独立完成项目报价、FDD 方案编写及项目全流程上线交付。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责前期需求调研；负责需求调研，文档编写",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责项目开发过程中协调客户和开发人员的需求；负责与客户方及多系统对接方沟通协调，精准对接需求、同步进度、反馈问题",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "FDD 方案编写；负责项目后期测试计划，操作手册的编写；推进项目验收",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "快速响应并处理线上紧急故障与突发问题，及时完成应急修复，降低业务影响；希望负责风险管控相关工作内容",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": ".Net",
+      "evidence": "核心技能：.Net"
+    },
+    {
+      "skill_id": "",
+      "name": "VB",
+      "evidence": "核心技能：VB"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "多年独自负责项目所有VBA项目的开发工作"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "客户信息SAP维护项目；供应商信息SAP维护项目"
+    },
+    {
+      "skill_id": "",
+      "name": "Visual Studio",
+      "evidence": "工具与平台：Visual Studio"
+    },
+    {
+      "skill_id": "",
+      "name": "VS Code",
+      "evidence": "工具与平台：VS Code"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲成都分公司",
+      "职位": "应用自动化工程师 / 项目经理 / 开发工程师",
+      "时间": "",
+      "描述": "负责TTO项目群（报销、采购、SAP维护、HR工单、资料库管理等）的需求调研、FDD编写、成本计算、任务拆分、进度推进、客户协调、测试计划及验收交付；负责雀巢项目运维统筹、故障应急处理与跨系统对接；独立负责VBA开发、OA系统全栈开发及HR自动化流程开发。"
+    },
+    {
+      "公司": "四川邦成科技有限公司",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "负责炼钢公司库存管理系统微信端架构设计与开发；负责政府机关查询机系统的需求调研、设计、开发、测试与交付；负责中国移动装维系统宽带开通流程设计、开发与上线。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 埃森哲成都分公司 Technology For Operation",
+      "source": "rule",
+      "matched_term": "Technology"
+    }
+  ],
+  "_batch": {
+    "source_file": "shiyun.a.wu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\shiyun.a.wu_profile_CN.md",
+    "source_hash": "055c4402eacf03e5956882e4958f13fbac980f0177d2143fb8993523811ab1c8",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:01:36"
+  },
+  "城市": "Chengdu"
+}

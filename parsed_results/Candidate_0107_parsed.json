@@ -1,0 +1,923 @@
+{
+  "姓名": "Candidate_0107",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 脚本自动化，vba、python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 【基于MVC模式，使用Python + JS + MySQL，实现购物网站退货退款功能。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_SNOWFLAKE",
+      "name": "Snowflake",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Snowflake Data Cloud",
+        "SnowPro",
+        "SnowPro Certification",
+        "SnowPro Core"
+      ],
+      "matched_term": "Snowflake"
+    },
+    {
+      "skill_id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "matched_term": "Redshift"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "matched_term": "Databricks"
+    },
+    {
+      "skill_id": "SKILL_QLIK_SENSE",
+      "name": "Qlik Sense",
+      "type": "BI_TOOL",
+      "evidence": "- 【辅助BI同事通过QlikSense做看板开发 2】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "QlikSense",
+        "Qlik"
+      ],
+      "matched_term": "Qlik Sense"
+    },
+    {
+      "skill_id": "SKILL_AZURE_DATA_FACTORY",
+      "name": "Azure Data Factory",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ADF",
+        "Azure ADF"
+      ],
+      "matched_term": "ADF"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- ETL工程师",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数仓"
+    },
+    {
+      "skill_id": "SKILL_BI_DASHBOARDING",
+      "name": "BI看板",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 【提前调研永洪BI功能性，可行性，并制作第一本BI看板后横展开给其他同事完成后续开发 1】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "BI Dashboarding",
+        "Dashboard",
+        "Dashboarding"
+      ],
+      "matched_term": "BI看板"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "- 【出差客户工厂，下到车间调研，跟客户it人员及工厂各科长了解其系统及数据情况，根据项目评估数据使用可行性，规划数据提取方式，数据流向，配合客户IT在其环境内完成数据加工，直至产出最后tableau分析管理看板。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 【希望从事数据治理，数据处理相关类型工作，可多了解不同客户的数据平台，积累经验，将好的东西复用到内部项目中】",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "根据需求难度，体量，安排开发时间表，分发作业，每天跟进进度，排查技术难题；带领开发团队完成计划三个月的开发测试工作，按时、保质保量的将差旅分析看板交付客户",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "全程对接客户IT负责人，确认开发环境，工具，规约 ，权限，QA；客户环境涉及多方对接人，数据来源较多，需要多方沟通后整个各方数据源",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "将项目潜在风险降到最低；完善数据质量监控看板，针对每期数据源进行初步数据质量检测保证后期运行稳定性",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "沿用客户既定的数仓结构和对象分层架构，筛查数据质量，制定数据规范，维护ETL Flow，数据字典文档",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "下到项目组与组长直接沟通，保证合理性及可行性的前提下开发轻便的数据处理工具",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【辅助BI同事通过QlikSense做看板开发 2】",
+        "- 【提前调研永洪BI功能性，可行性，并制作第一本BI看板后横展开给其他同事完成后续开发 1】",
+        "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+        "- 【出差客户工厂，下到车间调研，跟客户it人员及工厂各科长了解其系统及数据情况，根据项目评估数据使用可行性，规划数据提取方式，数据流向，配合客户IT在其环境内完成数据加工，直至产出最后tableau分析管理看板。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_QLIK_SENSE",
+          "name": "Qlik Sense"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_BI_DASHBOARDING",
+          "name": "BI看板"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "全程对接客户IT负责人，确认开发环境，工具，规约 ，权限，QA；客户环境涉及多方对接人，数据来源较多，需要多方沟通后整个各方数据源",
+        "下到项目组与组长直接沟通，保证合理性及可行性的前提下开发轻便的数据处理工具"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 【希望从事数据治理，数据处理相关类型工作，可多了解不同客户的数据平台，积累经验，将好的东西复用到内部项目中】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "沿用客户既定的数仓结构和对象分层架构，筛查数据质量，制定数据规范，维护ETL Flow，数据字典文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 【希望从事数据治理，数据处理相关类型工作，可多了解不同客户的数据平台，积累经验，将好的东西复用到内部项目中】",
+        "沿用客户既定的数仓结构和对象分层架构，筛查数据质量，制定数据规范，维护ETL Flow，数据字典文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+        "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。",
+        "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SNOWFLAKE",
+          "name": "Snowflake"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "根据需求难度，体量，安排开发时间表，分发作业，每天跟进进度，排查技术难题；带领开发团队完成计划三个月的开发测试工作，按时、保质保量的将差旅分析看板交付客户"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite",
+        "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+        "- ETL工程师"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_DATA_FACTORY",
+          "name": "Azure Data Factory"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "根据需求难度，体量，安排开发时间表，分发作业，每天跟进进度，排查技术难题；带领开发团队完成计划三个月的开发测试工作，按时、保质保量的将差旅分析看板交付客户"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "将项目潜在风险降到最低；完善数据质量监控看板，针对每期数据源进行初步数据质量检测保证后期运行稳定性"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "根据需求难度，体量，安排开发时间表，分发作业，每天跟进进度，排查技术难题；带领开发团队完成计划三个月的开发测试工作，按时、保质保量的将差旅分析看板交付客户",
+        "将项目潜在风险降到最低；完善数据质量监控看板，针对每期数据源进行初步数据质量检测保证后期运行稳定性"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "全程对接客户IT负责人，确认开发环境，工具，规约 ，权限，QA；客户环境涉及多方对接人，数据来源较多，需要多方沟通后整个各方数据源"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 脚本自动化，vba、python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【基于MVC模式，使用Python + JS + MySQL，实现购物网站退货退款功能。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "supports_entity_id": "SKILL_SNOWFLAKE",
+      "supports_entity_name": "Snowflake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。",
+      "supports_entity_id": "SKILL_AWS_REDSHIFT",
+      "supports_entity_name": "Amazon Redshift",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【项目涉及本地离线及客户系统数据，通过自动化工具同步至客户AWS S3存储中--后通过Redshift数据库做处理供后期Tableau用--Tableau看板开发并发布。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite",
+      "supports_entity_id": "SKILL_DATABRICKS",
+      "supports_entity_name": "Databricks",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【辅助BI同事通过QlikSense做看板开发 2】",
+      "supports_entity_id": "SKILL_QLIK_SENSE",
+      "supports_entity_name": "Qlik Sense",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "supports_entity_id": "SKILL_AZURE_DATA_FACTORY",
+      "supports_entity_name": "Azure Data Factory",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- ETL工程师",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数仓/SQL，SQL Server、Snwoflake、databricks、Sqlite",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【提前调研永洪BI功能性，可行性，并制作第一本BI看板后横展开给其他同事完成后续开发 1】",
+      "supports_entity_id": "SKILL_BI_DASHBOARDING",
+      "supports_entity_name": "BI看板",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【在Azure ADF中调度Snowflake脚本完成数据处理，以power bi看板形式展示给用户，过程中包含关于采购分类的机器学习过程。2】",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【出差客户工厂，下到车间调研，跟客户it人员及工厂各科长了解其系统及数据情况，根据项目评估数据使用可行性，规划数据提取方式，数据流向，配合客户IT在其环境内完成数据加工，直至产出最后tableau分析管理看板。",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【希望从事数据治理，数据处理相关类型工作，可多了解不同客户的数据平台，积累经验，将好的东西复用到内部项目中】",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "根据需求难度，体量，安排开发时间表，分发作业，每天跟进进度，排查技术难题；带领开发团队完成计划三个月的开发测试工作，按时、保质保量的将差旅分析看板交付客户",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "全程对接客户IT负责人，确认开发环境，工具，规约 ，权限，QA；客户环境涉及多方对接人，数据来源较多，需要多方沟通后整个各方数据源",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将项目潜在风险降到最低；完善数据质量监控看板，针对每期数据源进行初步数据质量检测保证后期运行稳定性",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "沿用客户既定的数仓结构和对象分层架构，筛查数据质量，制定数据规范，维护ETL Flow，数据字典文档",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "下到项目组与组长直接沟通，保证合理性及可行性的前提下开发轻便的数据处理工具",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Talend",
+      "evidence": "主要使用Talend+SQLServer；利用Talend完成数据处理自动化"
+    },
+    {
+      "skill_id": "",
+      "name": "Kettle",
+      "evidence": "ETL工具，Talend、Kettle"
+    },
+    {
+      "skill_id": "",
+      "name": "永洪BI",
+      "evidence": "提前调研永洪BI功能性，可行性，并制作第一本BI看板"
+    },
+    {
+      "skill_id": "",
+      "name": "帆软BI",
+      "evidence": "BI工具，帆软BI、永洪BI、飞书系"
+    },
+    {
+      "skill_id": "",
+      "name": "飞书系",
+      "evidence": "基于客户的飞书系环境，基于多维表格、工作流、妙搭实现多个审批流"
+    },
+    {
+      "skill_id": "",
+      "name": "AWS S3",
+      "evidence": "通过自动化工具同步至客户AWS S3存储中"
+    },
+    {
+      "skill_id": "",
+      "name": "DataStage",
+      "evidence": "使用DataStage+Teradata完成大量ETL作业"
+    },
+    {
+      "skill_id": "",
+      "name": "Teradata",
+      "evidence": "全量迁移到Teradata数据库"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "通过VBA开发辅助组内同事执行批量处理的轻便工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "海信集团",
+      "职位": "差旅分析BI开发Lead",
+      "时间": "",
+      "描述": "提前调研永洪BI功能性并制作第一本BI看板；全程对接客户IT负责人确认环境与规约；安排开发时间表并分发作业，带领团队提前完成开发测试交付；后期支持自动化和BI分析，基于飞书系实现审批流、仪表盘及AI for BI功能。"
+    },
+    {
+      "公司": "贝壳集团",
+      "职位": "ETL Lead",
+      "时间": "",
+      "描述": "调研FineBI/FineReport功能并制作首本BI看板；对接客户IT团队熟悉环境与权限分配；担当所有数据清洗加工；完善数据质量监控看板保证运行稳定性并按时交付。"
+    },
+    {
+      "公司": "Toray",
+      "职位": "ETL lead / 智慧工厂流程优化",
+      "时间": "",
+      "描述": "出差工厂调研系统与数据情况，规划数据提取与流向；指定ETL技术方案并编写样例Job带领团队开发；通过自动化工具同步数据至AWS S3，经Redshift处理后开发Tableau看板。"
+    },
+    {
+      "公司": "Nestle",
+      "职位": "ETL开发 / bi optimization",
+      "时间": "",
+      "描述": "多方沟通整合数据源，沿用数仓结构制定数据规范与维护ETL Flow；在Azure ADF中调度Snowflake脚本处理数据，以Power BI展示，包含采购分类机器学习过程。"
+    },
+    {
+      "公司": "上海电气",
+      "职位": "ETL lead / SEC",
+      "时间": "",
+      "描述": "支持客户数字化转型，通过Tableau看板监测各业务流程指标；独立担当ETL部分使用Talend+SQLServer，开发爬虫与批处理脚本；以技术教练身份培训客户员工ETL作业与看板开发。"
+    },
+    {
+      "公司": "康师傅",
+      "职位": "ETL工程师",
+      "时间": "",
+      "描述": "根据业务逻辑负责ETL详细设计与开发测试，利用Talend完成数据处理自动化；辅助BI同事通过QlikSense做看板开发。"
+    },
+    {
+      "公司": "Mizuho",
+      "职位": "ETL工程师",
+      "时间": "",
+      "描述": "使用DataStage+Teradata完成大量ETL作业与全量数据迁移；通过VBA开发批量处理辅助工具，负责新人技术支持、Review与作业进度监测。"
+    },
+    {
+      "公司": "MonotaRO",
+      "职位": "python开发工程师",
+      "时间": "",
+      "描述": "基于MVC模式使用Python+JS+MySQL实现购物网站退货退款功能；独立担当详细设计、页面、后台开发及测试，与日方Review人员沟通。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 对日银行数据迁移",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 因为学生时期一直是校足球队主力成员，平时喜欢竞技类游戏，工作和生活中自认为有着较高的求胜欲和进取心。",
+      "source": "rule",
+      "matched_term": "游戏"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 对日零售平台",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "qiang.tian_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\qiang.tian_profile_CN.md",
+    "source_hash": "1260bb717a799a868ead82b3768d846365629830b70069514b1b86e7742ca125",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:53:45"
+  },
+  "城市": "Dalian"
+}

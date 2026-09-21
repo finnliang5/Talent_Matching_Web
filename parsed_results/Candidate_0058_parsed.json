@@ -1,0 +1,648 @@
+{
+  "姓名": "Candidate_0058",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 10
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 采用先进的AI算法和业务分析深度融合的创新方案，完成落地开发实施交付及运行期每月出具预测报告运营服务",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "专业服务领域从业20年，资深财务领域专家，其中7年多审计经验，13年商业智能分析经验。擅长智能财务预算管理及分析、现金流预测等资金管理提升、管理报告优化等多领域，是企业财务数据分析及商业智能应用领域的资深专家，具备丰富的复杂项目管理经验及强大的客户管理和创新能力，致力于企业数据价值挖掘及数据分析赋能。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "- 实施变革管理，辅助客户试点单位落地实施方案，全程陪跑",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "变革管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "负责整体设计经营绩效分析报告流程端到端变革优化方案；高阶和详细流程、系统功能点设计及梳理",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与HRP供应商沟通方案可行性，指导系统开发，协调系统功能开发相关问题；与咨询团队合作，带领财务小团队设计全面预算管理体系咨询服务",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "全面预算管理体系设计及辅助落地实施咨询项目负责人；采购平台规划咨询项目数据分析专家；绩效管理体系规划咨询项目财务专家",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "降费影响年化约500万元；现金流优化收益影响年化约2200万元；流程提效50%以上",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "带领团队为客户从零基础构建全部业务条线（财务共享、采购集采、人资共享、资产处置）数据分析体系；顶层设计规划采购数据分析体系",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "智能绩效报告全端流程共享优化项目方案总设计师；顶层设计规划采购数据分析体系；打造绩效报告分析智能体平台",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "打造基于AI算法的智能现金流预测分析应用产品；梳理绩效分析知识文档供智能体分析参考，梳理工具开发逻辑，参与智能体架构设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "打造基于AI算法的智能现金流预测分析应用产品；梳理绩效分析知识文档供智能体分析参考，梳理工具开发逻辑，参与智能体架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "打造基于AI算法的智能现金流预测分析应用产品；梳理绩效分析知识文档供智能体分析参考，梳理工具开发逻辑，参与智能体架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 采用先进的AI算法和业务分析深度融合的创新方案，完成落地开发实施交付及运行期每月出具预测报告运营服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 实施变革管理，辅助客户试点单位落地实施方案，全程陪跑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "降费影响年化约500万元；现金流优化收益影响年化约2200万元；流程提效50%以上",
+        "打造基于AI算法的智能现金流预测分析应用产品；梳理绩效分析知识文档供智能体分析参考，梳理工具开发逻辑，参与智能体架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与HRP供应商沟通方案可行性，指导系统开发，协调系统功能开发相关问题；与咨询团队合作，带领财务小团队设计全面预算管理体系咨询服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "全面预算管理体系设计及辅助落地实施咨询项目负责人；采购平台规划咨询项目数据分析专家；绩效管理体系规划咨询项目财务专家"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "带领团队为客户从零基础构建全部业务条线（财务共享、采购集采、人资共享、资产处置）数据分析体系；顶层设计规划采购数据分析体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "带领团队为客户从零基础构建全部业务条线（财务共享、采购集采、人资共享、资产处置）数据分析体系；顶层设计规划采购数据分析体系"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "专业服务领域从业20年，资深财务领域专家，其中7年多审计经验，13年商业智能分析经验。擅长智能财务预算管理及分析、现金流预测等资金管理提升、管理报告优化等多领域，是企业财务数据分析及商业智能应用领域的资深专家，具备丰富的复杂项目管理经验及强大的客户管理和创新能力，致力于企业数据价值挖掘及数据分析赋能。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "全面预算管理体系设计及辅助落地实施咨询项目负责人；采购平台规划咨询项目数据分析专家；绩效管理体系规划咨询项目财务专家",
+        "降费影响年化约500万元；现金流优化收益影响年化约2200万元；流程提效50%以上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "智能绩效报告全端流程共享优化项目方案总设计师；顶层设计规划采购数据分析体系；打造绩效报告分析智能体平台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "智能绩效报告全端流程共享优化项目方案总设计师；顶层设计规划采购数据分析体系；打造绩效报告分析智能体平台"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 采用先进的AI算法和业务分析深度融合的创新方案，完成落地开发实施交付及运行期每月出具预测报告运营服务",
+        "负责整体设计经营绩效分析报告流程端到端变革优化方案；高阶和详细流程、系统功能点设计及梳理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "专业服务领域从业20年，资深财务领域专家，其中7年多审计经验，13年商业智能分析经验。擅长智能财务预算管理及分析、现金流预测等资金管理提升、管理报告优化等多领域，是企业财务数据分析及商业智能应用领域的资深专家，具备丰富的复杂项目管理经验及强大的客户管理和创新能力，致力于企业数据价值挖掘及数据分析赋能。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 采用先进的AI算法和业务分析深度融合的创新方案，完成落地开发实施交付及运行期每月出具预测报告运营服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "专业服务领域从业20年，资深财务领域专家，其中7年多审计经验，13年商业智能分析经验。擅长智能财务预算管理及分析、现金流预测等资金管理提升、管理报告优化等多领域，是企业财务数据分析及商业智能应用领域的资深专家，具备丰富的复杂项目管理经验及强大的客户管理和创新能力，致力于企业数据价值挖掘及数据分析赋能。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 实施变革管理，辅助客户试点单位落地实施方案，全程陪跑",
+        "与HRP供应商沟通方案可行性，指导系统开发，协调系统功能开发相关问题；与咨询团队合作，带领财务小团队设计全面预算管理体系咨询服务"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "- 采用先进的AI算法和业务分析深度融合的创新方案，完成落地开发实施交付及运行期每月出具预测报告运营服务",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专业服务领域从业20年，资深财务领域专家，其中7年多审计经验，13年商业智能分析经验。擅长智能财务预算管理及分析、现金流预测等资金管理提升、管理报告优化等多领域，是企业财务数据分析及商业智能应用领域的资深专家，具备丰富的复杂项目管理经验及强大的客户管理和创新能力，致力于企业数据价值挖掘及数据分析赋能。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 实施变革管理，辅助客户试点单位落地实施方案，全程陪跑",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责整体设计经营绩效分析报告流程端到端变革优化方案；高阶和详细流程、系统功能点设计及梳理",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与HRP供应商沟通方案可行性，指导系统开发，协调系统功能开发相关问题；与咨询团队合作，带领财务小团队设计全面预算管理体系咨询服务",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "全面预算管理体系设计及辅助落地实施咨询项目负责人；采购平台规划咨询项目数据分析专家；绩效管理体系规划咨询项目财务专家",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "降费影响年化约500万元；现金流优化收益影响年化约2200万元；流程提效50%以上",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "带领团队为客户从零基础构建全部业务条线（财务共享、采购集采、人资共享、资产处置）数据分析体系；顶层设计规划采购数据分析体系",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "智能绩效报告全端流程共享优化项目方案总设计师；顶层设计规划采购数据分析体系；打造绩效报告分析智能体平台",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "打造基于AI算法的智能现金流预测分析应用产品；梳理绩效分析知识文档供智能体分析参考，梳理工具开发逻辑，参与智能体架构设计",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "基于客户SAP银行明细账数据分析判断现金流业务性质"
+    },
+    {
+      "skill_id": "",
+      "name": "AI算法/智能体平台",
+      "evidence": "打造基于AI算法的智能现金流预测分析应用产品；打造绩效报告分析智能体平台"
+    },
+    {
+      "skill_id": "",
+      "name": "HRP系统",
+      "evidence": "与HRP供应商沟通方案可行性，指导系统开发"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国内领先快消品企业集团",
+      "职位": "智能绩效报告全端流程共享优化项目方案总设计师",
+      "时间": "26.03至今",
+      "描述": "负责整体设计经营绩效分析报告流程端到端变革优化方案，打造绩效报告分析智能体平台，流程提效50%以上；主导方案落地实施，全面负责共享移管；梳理报告内容及相关系统，提供报告标准化及流程优化改善建议；梳理绩效分析知识文档供智能体分析参考，参与智能体架构设计；设计未来流程及操作指引，组建运营团队并进行能力培养。"
+    },
+    {
+      "公司": "国内领先电子消费品企业集团",
+      "职位": "差旅节降分析及管理看板应用项目负责人",
+      "时间": "25.06-26.02",
+      "描述": "分析全集团差旅费用，找出八大节降动因机会，降费影响年化约500万元；为企业优化差旅政策、航司策略谈判、统结报销平台优化等提供全面优化建议；根据管理场景设计与开发12个管理看板，有效实施管控落地。"
+    },
+    {
+      "公司": "国内房地产平台领先集团",
+      "职位": "智能现金流预测分析应用项目经理及产品负责人",
+      "时间": "23.04-23.08",
+      "描述": "带领团队打造基于AI算法的智能现金流预测分析应用产品，大幅提高预测效率和准确率；为客户节省大规模预测人力物力，现金流优化收益影响年化约2200万元；带领团队用时十八周顺利完成600多家主体的预测；完成落地开发实施交付及运行期每月出具预测报告运营服务。"
+    },
+    {
+      "公司": "国内装备制造业领先集团",
+      "职位": "内部共享中心数据分析主教练",
+      "时间": "常驻客户现场四年半",
+      "描述": "带领团队为客户从零基础构建全部业务条线数据分析体系；包括体系长短期建设规划、运营管理看板系列设计与开发交付、流程效率分析与提效；搭建客户分析团队并进行能力培养，深度参与客户日常运营管理。"
+    },
+    {
+      "公司": "国内医疗企业集团",
+      "职位": "全面预算管理体系设计及辅助落地实施咨询项目负责人",
+      "时间": "项目用时半年",
+      "描述": "与咨询团队合作，带领财务小团队设计全面预算管理体系咨询服务；主要工作包括组织架构、预算管理制度、高阶和详细流程、系统功能点设计及梳理；与HRP供应商沟通方案可行性，指导系统开发；实施变革管理，辅助客户试点单位落地实施方案。"
+    },
+    {
+      "公司": "四大会计师事务所",
+      "职位": "审计经理",
+      "时间": "七年多",
+      "描述": "领导团队完成香港IPO、重大收购审计和会计师服务，以及国内准则和IFRS准则年度审计服务。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "### 国内医疗企业集团",
+      "source": "rule",
+      "matched_term": "医疗"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 基于客户SAP银行明细账数据分析判断现金流业务性质",
+      "source": "rule",
+      "matched_term": "银行"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 领导团队为国内大型CMT客户完成香港IPO和重大收购审计和会计师服务",
+      "source": "rule",
+      "matched_term": "CMT"
+    }
+  ],
+  "_batch": {
+    "source_file": "jing.d.sun_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jing.d.sun_profile_CN.md",
+    "source_hash": "64ad4c81cb8ebd32d8d19c5f8aa9cb19e8c5a0f52d0e9aa15ecbc2ae584c1bff",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:29:11"
+  },
+  "城市": "Dalian"
+}

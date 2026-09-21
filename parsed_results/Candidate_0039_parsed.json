@@ -1,0 +1,552 @@
+{
+  "姓名": "Candidate_0039",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 12,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 完成提示词工程和数据标注工作，测试生成式人工智能模型（LLM）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 完成提示词工程和数据标注工作，测试生成式人工智能模型（LLM）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库与存储：Oracle、MySQL、Hive",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS Certified AI Practioner",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "matched_term": "Databricks"
+    },
+    {
+      "skill_id": "SKILL_PYSPARK",
+      "name": "PySpark",
+      "type": "LIBRARY",
+      "evidence": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PySpark"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 优化Azure系统性能和开发ETL，将业务数据从上游（hive数据库）转换为下游（sqlserver），使用数据块和管道，以报告的形式向客户呈现数据。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_PANDAS",
+      "name": "Pandas",
+      "type": "LIBRARY",
+      "evidence": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "pandas"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Pandas"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 负责ETL开发、数据清洗、建模和仪表板开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- PowerBI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- PowerBI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- AWS Certified AI Practioner"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）",
+        "- 优化Azure系统性能和开发ETL，将业务数据从上游（hive数据库）转换为下游（sqlserver），使用数据块和管道，以报告的形式向客户呈现数据。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）",
+        "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、",
+        "- 负责ETL开发、数据清洗、建模和仪表板开发"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYSPARK",
+          "name": "PySpark"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 完成提示词工程和数据标注工作，测试生成式人工智能模型（LLM）。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 云生态：Azure（Devops/Data Factory/Databricks）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PANDAS",
+          "name": "Pandas"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 完成提示词工程和数据标注工作，测试生成式人工智能模型（LLM）。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 完成提示词工程和数据标注工作，测试生成式人工智能模型（LLM）。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与存储：Oracle、MySQL、Hive",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS Certified AI Practioner",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "supports_entity_id": "SKILL_DATABRICKS",
+      "supports_entity_name": "Databricks",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、",
+      "supports_entity_id": "SKILL_PYSPARK",
+      "supports_entity_name": "PySpark",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 优化Azure系统性能和开发ETL，将业务数据从上游（hive数据库）转换为下游（sqlserver），使用数据块和管道，以报告的形式向客户呈现数据。",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程与分析工具：SQL/SQL、Python（Pandas/PySpark）、Power BI、Scala、",
+      "supports_entity_id": "SKILL_PANDAS",
+      "supports_entity_name": "Pandas",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责ETL开发、数据清洗、建模和仪表板开发",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- PowerBI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云生态：Azure（Devops/Data Factory/Databricks）",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "核心技能包含SQL；数据库与存储工具"
+    },
+    {
+      "skill_id": "",
+      "name": "Git",
+      "evidence": "核心技能包含Git；开发运维工具"
+    },
+    {
+      "skill_id": "",
+      "name": "Scala",
+      "evidence": "核心技能包含Scala"
+    },
+    {
+      "skill_id": "",
+      "name": "Azure",
+      "evidence": "云生态：Azure（Devops/Data Factory/Databricks）"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle",
+      "evidence": "数据库与存储：Oracle"
+    },
+    {
+      "skill_id": "",
+      "name": "Watson",
+      "evidence": "AI：Watson；训练Watson模型"
+    },
+    {
+      "skill_id": "",
+      "name": "Copilot",
+      "evidence": "AI：Copilot"
+    },
+    {
+      "skill_id": "",
+      "name": "百炼",
+      "evidence": "AI：百炼"
+    },
+    {
+      "skill_id": "",
+      "name": "Appian",
+      "evidence": "使用Appian开发，根据需求对用户数据进行权限配置"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "戴姆勒",
+      "职位": "数据运维&ETL开发",
+      "时间": "",
+      "描述": "优化Azure系统性能和开发ETL，将业务数据从上游转换为下游；分析日常任务和历史问题，完成周报月报，解决客户提单；根据需求创建API并提供数据，开发PowerBI可视化报表。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "模型训练",
+      "时间": "2023年至今",
+      "描述": "优化人工智能模型，训练Watson模型实现聊天交互；完成提示词工程和数据标注，测试生成式AI模型（LLM）；分析日常任务，排除问题，完成模型部署和系统升级。"
+    },
+    {
+      "公司": "松下",
+      "职位": "提示词工程&模型测试",
+      "时间": "",
+      "描述": "完成提示词工程和数据标注工作；测试生成式AI模型（LLM）和维护AI知识库；根据需求完成API接口开发与测试。"
+    },
+    {
+      "公司": "辉瑞",
+      "职位": "环境部署",
+      "时间": "",
+      "描述": "完成部署开发环境，分析日常运维任务；使用Appian开发，根据需求对用户数据进行权限配置。"
+    }
+  ],
+  "行业知识": [],
+  "_batch": {
+    "source_file": "hexuan.zhu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\hexuan.zhu_profile_CN.md",
+    "source_hash": "ad047fde876d5b442c6ffb783879f4aaf8d02e23dc384b44e890d648d70ad5db",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:22:44"
+  },
+  "级别推断": {
+    "level_requirement": "Level 11",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 11",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

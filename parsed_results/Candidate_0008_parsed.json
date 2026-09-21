@@ -1,0 +1,224 @@
+{
+  "姓名": "Candidate_0008",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "产品数据库大规模迁移实施负责人",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "产品国际化标准制定与实施；产品合规支持与DevSecOps实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "作为窗口人参与DevSecOps实施的各个环节",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为窗口人参与DevSecOps实施的各个环节"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "产品数据库大规模迁移实施负责人",
+        "产品国际化标准制定与实施；产品合规支持与DevSecOps实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "产品数据库大规模迁移实施负责人"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "产品数据库大规模迁移实施负责人"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "产品数据库大规模迁移实施负责人",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "产品国际化标准制定与实施；产品合规支持与DevSecOps实施",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为窗口人参与DevSecOps实施的各个环节",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Shell",
+      "evidence": "产品开发（Shell / Perl / HTML+CSS / 数据库等）"
+    },
+    {
+      "skill_id": "",
+      "name": "Perl",
+      "evidence": "产品开发（Shell / Perl / HTML+CSS / 数据库等）"
+    },
+    {
+      "skill_id": "",
+      "name": "HTML+CSS",
+      "evidence": "产品开发（Shell / Perl / HTML+CSS / 数据库等）"
+    },
+    {
+      "skill_id": "",
+      "name": "IBM Watson",
+      "evidence": "AI Chatbot产品开发（IBM Watson）"
+    },
+    {
+      "skill_id": "",
+      "name": "DevSecOps",
+      "evidence": "产品合规支持与DevSecOps实施"
+    },
+    {
+      "skill_id": "",
+      "name": "服务器环境构筑",
+      "evidence": "核心技能：服务器环境构筑"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "数码林（大连）软件有限公司",
+      "职位": "软件工程师 / 网站分析产品研发与维护",
+      "时间": "",
+      "描述": "负责产品国际化/运维/测试标准制定与实施；负责数据采集模块测试与数据分析、计算模块维护；担任产品数据库大规模迁移实施负责人；进行Shell/Perl/HTML+CSS/数据库开发。"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "Security Champion / TSG团队及AI团队",
+      "时间": "",
+      "描述": "负责产品合规支持与DevSecOps实施；负责服务器环境构筑与运维协助；负责产品测试；主导AI Chatbot产品开发（IBM Watson）。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "chunsheng.tong_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\chunsheng.tong_profile_CN.md",
+    "source_hash": "b8b933a02ddb6142648ecd2e17aeffee8f2cdeb1293675b77cb4898711b453f2",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:14:32"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,376 @@
+{
+  "姓名": "Candidate_0177",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "* Dify",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_DATA_ENGINEERING_CORE",
+      "name": "数据工程",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Engineering"
+      ],
+      "matched_term": "数据工程"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "* Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "evidence": "利用舆情工具采集数据，从多个维度对标比较行业内竞争对手全渠道服务，寻找可优化点并指导业务部门优化决策。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "行业对标"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "对品牌声誉，情感属性，VOC，社交媒体等进行分析, 定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对品牌声誉，情感属性，VOC，社交媒体等进行分析, 定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程",
+          "rule_id": "RULE_DATA_ENGINEERING_TO_WAREHOUSING",
+          "rule_name": "数据工程 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Core data engineering often includes warehouse-oriented design, but it is still expressed as an explicit rule.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* Dify"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_ENGINEERING_CORE",
+          "name": "数据工程"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对品牌声誉，情感属性，VOC，社交媒体等进行分析, 定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "利用舆情工具采集数据，从多个维度对标比较行业内竞争对手全渠道服务，寻找可优化点并指导业务部门优化决策。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_BENCHMARKING",
+          "name": "行业对标"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Dify",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。",
+      "supports_entity_id": "SKILL_DATA_ENGINEERING_CORE",
+      "supports_entity_name": "数据工程",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过5年的数据分析相关工作经验，在人事领域，财务领域及舆情分析方面拥有丰富的知识和经验。通常在项目中担任数据工程师及分析师，负责数据梳理，指标及报表设计、数据集成ETL开发、数据模型搭建及可视化看板开发。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Power BI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "利用舆情工具采集数据，从多个维度对标比较行业内竞争对手全渠道服务，寻找可优化点并指导业务部门优化决策。",
+      "supports_entity_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "supports_entity_name": "行业对标",
+      "derived_capability_ids": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对品牌声誉，情感属性，VOC，社交媒体等进行分析, 定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "社交倾听工具",
+      "evidence": "核心技能中列出“社交倾听工具”"
+    },
+    {
+      "skill_id": "",
+      "name": "Coze",
+      "evidence": "核心技能中列出“Coze”"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "聚思鸿信息技术服务（大连）有限公司",
+      "职位": "SEO专员",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "国际知名农业制造业公司",
+      "职位": "HR Reporting",
+      "时间": "",
+      "描述": "通过HR Reporting的日常运营，协助客户梳理和管理人力资源数据，并在数字化、差异化、多样化、劳动成本、员工流失率等方面提供分析思路和数据支持。"
+    },
+    {
+      "公司": "国际知名保险行业公司",
+      "职位": "可视化工程师",
+      "时间": "",
+      "描述": "负责可视化看板开发，数据建模及指标体系搭建。同技术团队一同参与数据库设计与搭建。协助客户搭建指标体系，实现看板自动化，节省FTE。"
+    },
+    {
+      "公司": "国际知名能源公司",
+      "职位": "分析顾问",
+      "时间": "",
+      "描述": "对品牌声誉，情感属性，VOC，社交媒体等进行分析, 定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。利用舆情工具采集数据，从多个维度对标比较行业内竞争对手全渠道服务，寻找可优化点并指导业务部门优化决策。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 金融业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 对品牌声誉，情感属性，VOC，社交媒体等进行分析,  定期提供数字绩效报告以及活动总结报告，以优化用户体验及品牌美誉度。",
+      "source": "rule",
+      "matched_term": "媒体"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "* 能源行业",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "yulin.jiang_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yulin.jiang_CN.md",
+    "source_hash": "a904a34c37e7c2edd1afa37022be06b820a52d0c260999937610fb6c882999fb",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:40:20"
+  },
+  "城市": "Dalian"
+}

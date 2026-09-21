@@ -1,0 +1,417 @@
+{
+  "姓名": "Candidate_0062",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- OpenAI / LLM APIs，提示词工程框架",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- OpenAI / LLM APIs，提示词工程框架",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 知识图谱",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "matched_term": "知识图谱"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 主导设计图谱增强的测试用例生成系统，针对直接基于大语言模型生成测试用例时存在的覆盖率不足、结果不一致及幻觉问题，构建更适用于 QA 场景的生成方案，提升测试用例的完整性与需求对齐度。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "擅长将复杂且不明确的业务问题拆解为可执行的技术路径",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "基于约 50 万条中文社交媒体帖子，搭建社媒聆听与消费者建模框架，用于识别产品采纳与消费者偏好的关键驱动因素，并支撑营销洞察输出",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "具备面向企业场景设计、验证与交付 AI 解决方案的实践经验，在方案设计、原型验证与落地实施之间建立闭环",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "将用户定义的研究目标转化为可执行分析流程，完成迭代分析、结果评估与结构化长篇报告生成",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "基于约 50 万条中文社交媒体帖子，搭建社媒聆听与消费者建模框架，用于识别产品采纳与消费者偏好的关键驱动因素，并支撑营销洞察输出"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "具备面向企业场景设计、验证与交付 AI 解决方案的实践经验，在方案设计、原型验证与落地实施之间建立闭环"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 知识图谱"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KNOWLEDGE_GRAPH",
+          "name": "知识图谱"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "具备面向企业场景设计、验证与交付 AI 解决方案的实践经验，在方案设计、原型验证与落地实施之间建立闭环"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "将用户定义的研究目标转化为可执行分析流程，完成迭代分析、结果评估与结构化长篇报告生成"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- OpenAI / LLM APIs，提示词工程框架"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长将复杂且不明确的业务问题拆解为可执行的技术路径"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "擅长将复杂且不明确的业务问题拆解为可执行的技术路径"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 主导设计图谱增强的测试用例生成系统，针对直接基于大语言模型生成测试用例时存在的覆盖率不足、结果不一致及幻觉问题，构建更适用于 QA 场景的生成方案，提升测试用例的完整性与需求对齐度。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- OpenAI / LLM APIs，提示词工程框架",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- OpenAI / LLM APIs，提示词工程框架",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 知识图谱",
+      "supports_entity_id": "SKILL_KNOWLEDGE_GRAPH",
+      "supports_entity_name": "知识图谱",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 主导设计图谱增强的测试用例生成系统，针对直接基于大语言模型生成测试用例时存在的覆盖率不足、结果不一致及幻觉问题，构建更适用于 QA 场景的生成方案，提升测试用例的完整性与需求对齐度。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长将复杂且不明确的业务问题拆解为可执行的技术路径",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于约 50 万条中文社交媒体帖子，搭建社媒聆听与消费者建模框架，用于识别产品采纳与消费者偏好的关键驱动因素，并支撑营销洞察输出",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备面向企业场景设计、验证与交付 AI 解决方案的实践经验，在方案设计、原型验证与落地实施之间建立闭环",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将用户定义的研究目标转化为可执行分析流程，完成迭代分析、结果评估与结构化长篇报告生成",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "大语言模型（LLMs）",
+      "evidence": "核心技能：大语言模型（LLMs）"
+    },
+    {
+      "skill_id": "",
+      "name": "多智能体系统",
+      "evidence": "核心技能：多智能体系统"
+    },
+    {
+      "skill_id": "",
+      "name": "数字孪生建模",
+      "evidence": "核心技能：数字孪生建模"
+    },
+    {
+      "skill_id": "",
+      "name": "OpenAI / LLM APIs",
+      "evidence": "工具与平台：OpenAI / LLM APIs"
+    },
+    {
+      "skill_id": "",
+      "name": "提示词工程框架",
+      "evidence": "工具与平台：提示词工程框架"
+    },
+    {
+      "skill_id": "",
+      "name": "Codex",
+      "evidence": "工具与平台：Vibe Coding：Codex"
+    },
+    {
+      "skill_id": "",
+      "name": "Claude Code",
+      "evidence": "工具与平台：Vibe Coding：Claude Code"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲中国",
+      "职位": "技术创新工程副经理",
+      "时间": "",
+      "描述": "主导设计图谱增强的测试用例生成系统；开发基于大语言模型的包装概念生成系统；构建自主式多轮社媒聆听智能体；推动传统社媒聆听升级为大规模语义分析框架；搭建社媒聆听与消费者建模框架；提出基于图谱记忆的消费者认知建模方法；开发面向 KPI 根因分析的多智能体推理系统；开发 AI 销售辅导系统；构建客户数字孪生架构。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 推动传统社媒聆听从关键词监测升级为大规模语义分析框架，使社交媒体内容中隐含的消费者意图、情绪与语境信息能够被更准确地识别、解释和利用。",
+      "source": "rule",
+      "matched_term": "媒体"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 快消品（FMCG）",
+      "source": "rule",
+      "matched_term": "FMCG"
+    }
+  ],
+  "_batch": {
+    "source_file": "jintao.ling_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jintao.ling_profile_CN.md",
+    "source_hash": "f77616f5d4cdf67494321a06130609fa099f0318fca59568ee62680a55bde40a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:30:17"
+  },
+  "城市": "Shenzhen"
+}

@@ -1,0 +1,151 @@
+{
+  "姓名": "Candidate_0176",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "* Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "* Mysql、SQL Server",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "拥有7年财务、人力流程的自动化测试开发与运维经验，熟悉端到端开发流程，能够独立完成自动化方案设计、开发、测试及运维管理。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "自动化测试"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有7年财务、人力流程的自动化测试开发与运维经验，熟悉端到端开发流程，能够独立完成自动化方案设计、开发、测试及运维管理。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Mysql、SQL Server",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有7年财务、人力流程的自动化测试开发与运维经验，熟悉端到端开发流程，能够独立完成自动化方案设计、开发、测试及运维管理。",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "RPA 开发",
+      "时间": "",
+      "描述": "开发自动数据处理、清洗工具，减少人工错误，加快应收/应付对账与结账节奏；开发自动入账、清账等工具，实现应收应付台账自动更新；开发自动批量处理电子邮件工具，减少重复性人工工作。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "RPA 开发",
+      "时间": "",
+      "描述": "响应业务需求，完成系统功能变更与版本迭代，实现业务变更的快速交付与平滑上线；负责业务变更后的代码部署、配置更新与验证，降低因变更导致的系统故障与数据异常。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "RPA 运维",
+      "时间": "",
+      "描述": "监控自动化工具与平台运行状态与异常告，以及相关账、权限与调度，增加自动化工具可用性，减少故障修复时间；处理流程报错与数据修复，跟进业务系统变更对RPA的影响，大幅提高自动化处理成功率。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "RPA 开发",
+      "时间": "",
+      "描述": "开发人事报表自动生成工具，缩短报表处理时间；编写考勤、薪资、社保等数据处理工具，降低人力数据清洗时间。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "* 快消品",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "yue.f.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yue.f.liu_profile_CN.md",
+    "source_hash": "a1c8f3c6b8fb36e39075ec5eb7e9d2210ac9777eef9ced6ed0b4eb6d6ea78a8e",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:39:40"
+  },
+  "城市": "Dalian"
+}

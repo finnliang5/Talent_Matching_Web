@@ -1,0 +1,837 @@
+{
+  "姓名": "Candidate_0005",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 6,
+      "competency_count": 12
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 数据分析工具：Python, R studio, MySQL，",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据分析工具：Python, R studio, MySQL，",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS AI从业者认证证书",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 为AI驱动的测试用例生成平台提供了概念验证（POC）及前端设计支持，通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "陈玢嫣（Angela）是埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "- 希望继续担任业务分析兼项目管理的复合型角色，聚焦区域落地与跨部门协作、及变革管理能力、AI赋能落地。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "变革管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "作为PMO负责与Global团队对接需求、规划本地化实施时间线；通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协调技术、产品、法务等多部门协作；在利益相关方管理、数据分析及流程优化方面也有丰富经验",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "规划本地化实施时间线；完成项目里程碑规划、资源协调及进展跟踪",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "具备跨全球团队高效协作的能力；通过制作汇报材料与会议推动各方对齐，确保平台上线计划按期实行",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "编写平台各功能模块的标准操作流程（SOP）；在流程优化方面也有丰富经验",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "对实验数据进行比较评估，以确定相较于现有治疗的改进方向，为决策提供可行见解；提供数据驱动的见解以支持战略决策",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_REMOTE_COLLABORATION",
+      "name": "远程协作交付",
+      "type": "ABILITY",
+      "evidence": "具备跨全球团队高效协作的能力；协助酒店内容平台切换项目落地大中华区，作为PMO负责与Global团队对接需求",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "远程协作交付"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "她曾参与多个行业的项目实践，涵盖但不限于生物医药、酒店、银行与金融等领域；持续扎根生命科学、酒店管理等行业",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "通过制作汇报材料与会议推动各方对齐；编写面向酒店的培训与宣讲材料；为客户提供培训指导",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "陈玢嫣（Angela）是埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对实验数据进行比较评估，以确定相较于现有治疗的改进方向，为决策提供可行见解；提供数据驱动的见解以支持战略决策"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 希望继续担任业务分析兼项目管理的复合型角色，聚焦区域落地与跨部门协作、及变革管理能力、AI赋能落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- AWS AI从业者认证证书"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调技术、产品、法务等多部门协作；在利益相关方管理、数据分析及流程优化方面也有丰富经验",
+        "具备跨全球团队高效协作的能力；通过制作汇报材料与会议推动各方对齐，确保平台上线计划按期实行"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "通过制作汇报材料与会议推动各方对齐；编写面向酒店的培训与宣讲材料；为客户提供培训指导"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "通过制作汇报材料与会议推动各方对齐；编写面向酒店的培训与宣讲材料；为客户提供培训指导"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "她曾参与多个行业的项目实践，涵盖但不限于生物医药、酒店、银行与金融等领域；持续扎根生命科学、酒店管理等行业"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "她曾参与多个行业的项目实践，涵盖但不限于生物医药、酒店、银行与金融等领域；持续扎根生命科学、酒店管理等行业"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "规划本地化实施时间线；完成项目里程碑规划、资源协调及进展跟踪"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "陈玢嫣（Angela）是埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等。",
+        "编写平台各功能模块的标准操作流程（SOP）；在流程优化方面也有丰富经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理",
+        "规划本地化实施时间线；完成项目里程碑规划、资源协调及进展跟踪"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REMOTE_COLLABORATION_DELIVERY",
+      "name": "Remote Collaboration Delivery",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备跨全球团队高效协作的能力；协助酒店内容平台切换项目落地大中华区，作为PMO负责与Global团队对接需求"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REMOTE_COLLABORATION",
+          "name": "远程协作交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "陈玢嫣（Angela）是埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等。",
+        "作为PMO负责与Global团队对接需求、规划本地化实施时间线；通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "作为PMO负责与Global团队对接需求、规划本地化实施时间线；通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 希望继续担任业务分析兼项目管理的复合型角色，聚焦区域落地与跨部门协作、及变革管理能力、AI赋能落地。",
+        "协调技术、产品、法务等多部门协作；在利益相关方管理、数据分析及流程优化方面也有丰富经验"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 为AI驱动的测试用例生成平台提供了概念验证（POC）及前端设计支持，通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据分析工具：Python, R studio, MySQL，",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据分析工具：Python, R studio, MySQL，",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS AI从业者认证证书",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 为AI驱动的测试用例生成平台提供了概念验证（POC）及前端设计支持，通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "陈玢嫣（Angela）是埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 希望继续担任业务分析兼项目管理的复合型角色，聚焦区域落地与跨部门协作、及变革管理能力、AI赋能落地。",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为PMO负责与Global团队对接需求、规划本地化实施时间线；通过深度分析客户需求，交付了精准解决客户痛点的定制化解决方案",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协调技术、产品、法务等多部门协作；在利益相关方管理、数据分析及流程优化方面也有丰富经验",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "规划本地化实施时间线；完成项目里程碑规划、资源协调及进展跟踪",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备跨全球团队高效协作的能力；通过制作汇报材料与会议推动各方对齐，确保平台上线计划按期实行",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "编写平台各功能模块的标准操作流程（SOP）；在流程优化方面也有丰富经验",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对实验数据进行比较评估，以确定相较于现有治疗的改进方向，为决策提供可行见解；提供数据驱动的见解以支持战略决策",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备跨全球团队高效协作的能力；协助酒店内容平台切换项目落地大中华区，作为PMO负责与Global团队对接需求",
+      "supports_entity_id": "SKILL_REMOTE_COLLABORATION",
+      "supports_entity_name": "远程协作交付",
+      "derived_capability_ids": [
+        "CAP_REMOTE_COLLABORATION_DELIVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "她曾参与多个行业的项目实践，涵盖但不限于生物医药、酒店、银行与金融等领域；持续扎根生命科学、酒店管理等行业",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "通过制作汇报材料与会议推动各方对齐；编写面向酒店的培训与宣讲材料；为客户提供培训指导",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "R studio",
+      "evidence": "数据分析工具：Python, R studio, MySQL"
+    },
+    {
+      "skill_id": "",
+      "name": "Deepseek",
+      "evidence": "生成式人工智能与大模型相关平台：ChatGPT, Deepseek, Dify"
+    },
+    {
+      "skill_id": "",
+      "name": "Figma",
+      "evidence": "原型设计与UX/UI工具：Figma"
+    },
+    {
+      "skill_id": "",
+      "name": "O365",
+      "evidence": "项目管理与文档协作工具：JIRA，O365"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "Data Eng, Mgmt and Governance Analyst / 业务分析师",
+      "时间": "",
+      "描述": "埃森哲大中华区技术服务Data & AI 团队的业务分析师，服务的客户包括知名民企，跨国外企等，参与多个行业的项目实践，涵盖生物医药、酒店、银行与金融等领域"
+    },
+    {
+      "公司": "行业领先跨国药企",
+      "职位": "数据分析师",
+      "时间": "",
+      "描述": "对实验数据进行比较评估，为决策提供可行见解；对生物医学数据进行因果分析，评估新药治疗的有效性和影响；测试新开发的AI聊天机器人功能，识别并记录程序缺陷，与开发人员协调确保代码及时更新"
+    },
+    {
+      "公司": "全球知名酒店管理集团",
+      "职位": "业务分析师 & PMO",
+      "时间": "",
+      "描述": "协助酒店内容平台切换项目落地大中华区，负责与Global团队对接需求、规划本地化实施时间线，协调多部门协作；执行月度酒店内容质量评分机制，推动所有品牌酒店内容评分在6个月内提升56%；负责酒店餐厅扫码点餐小程序项目的Pilot与推广，推动项目在30+试点酒店成功落地"
+    },
+    {
+      "公司": "全球知名车企",
+      "职位": "业务分析师",
+      "时间": "",
+      "描述": "为AI驱动的测试用例生成平台提供POC及前端设计支持，深度分析客户需求交付定制化解决方案；系统分析客户方复杂的APP功能树，基于核心特征对JIRA平台上的历史用户故事进行管理；持续监控平台性能与客户方反馈，与数据科学家协作优化测试用例生成算法；编写平台各功能模块的标准操作流程（SOP）"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 持续扎根生命科学、酒店管理等行业，但不局限于此。",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "她英语流利，具备跨全球团队高效协作的能力。她曾参与多个行业的项目实践，涵盖但不限于生物医药、酒店、银行与金融等领域。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "全球知名酒店管理集团：负责酒店餐厅扫码点餐小程序项目在区域的Pilot（试点）与推广，推动项目在30+试点酒店成功落地",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "Candidate_0005.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Candidate_0005.md",
+    "source_hash": "43daeaee9e566e71ed0255268ecf86bc7b2669d22efc7729abad9033676d59df",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-23T11:11:37"
+  }
+}

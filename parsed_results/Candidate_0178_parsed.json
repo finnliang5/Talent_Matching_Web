@@ -1,0 +1,323 @@
+{
+  "姓名": "Candidate_0178",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "evidence": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "CSS"
+      ],
+      "matched_term": "CSS"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 基于 Python 开发数据分析系统，结合大语言模型能力提升分析、总结与交互体验",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大语言模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- MySQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "负责 Flow 创建、权限控制、业务逻辑开发与第三方系统集成。在项目中支持流程自动化和跨系统数据协同，帮助客户优化 IT 服务管理流程。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责 Flow 创建、权限控制、业务逻辑开发与第三方系统集成。在项目中支持流程自动化和跨系统数据协同，帮助客户优化 IT 服务管理流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Vue.js, TypeScript, JavaScript, HTML, CSS",
+      "supports_entity_id": "SKILL_CSS",
+      "supports_entity_name": "CSS",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于 Python 开发数据分析系统，结合大语言模型能力提升分析、总结与交互体验",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- MySQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责 Flow 创建、权限控制、业务逻辑开发与第三方系统集成。在项目中支持流程自动化和跨系统数据协同，帮助客户优化 IT 服务管理流程。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "长期参与 ServiceNow 平台定制化开发、流程自动化和第三方系统集成；某日本公司项目中为客户定制开发 ServiceNow。"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某保险公司",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "基于 Vue 3 + TypeScript（前端）、Python + Flask（后端）、MySQL，参与搭建数据一体化看板，统一展示并管理多个业务维度状态。负责前后端接口联调、页面功能开发与数据展示逻辑实现，提升了业务数据的可视化和使用效率。"
+    },
+    {
+      "公司": "某项目组",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "基于大语言模型能力，对输入数据进行多维度分析、总结与提炼，并通过可视化视图输出分析结果。支持多轮对话式交互，帮助用户对分析结论进行修改、聚焦和优化，提升了内容生成与结果整理效率。"
+    },
+    {
+      "公司": "某日本公司",
+      "职位": "ServiceNow开发",
+      "时间": "",
+      "描述": "为客户定制开发 ServiceNow，负责 Flow 创建、权限控制、业务逻辑开发与第三方系统集成。在项目中支持流程自动化和跨系统数据协同，帮助客户优化 IT 服务管理流程并降低人工处理成本。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "### 某保险公司",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "成果导向的全栈软件工程师，具备 Python、Java、TypeScript 等多语言开发能力，以及 Vue.js、Flask 等常用技术栈的落地经验。",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "yunlong.a.zhao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yunlong.a.zhao_profile_CN.md",
+    "source_hash": "262f9aae1b7e886524363290d9226689bfb4a4e25fe4c07c43000cc0f5b7e03b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:40:22"
+  },
+  "城市": "Dalian"
+}

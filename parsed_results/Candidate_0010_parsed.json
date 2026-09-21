@@ -1,0 +1,542 @@
+{
+  "姓名": "Candidate_0010",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 10
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有 17+ 年 IT 行业经验，长期深耕基础设施外包、IT 服务管理与大型项目/项目群交付。具备成熟的端到端项目管理能力，覆盖迁移、转型、稳定化及持续优化全过程。善于通过流程重构、自动化与 AI 思维提升交付效率、成本控制与服务质量，是连接业务、技术与运营的项目型与 AI 驱动型管理者。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "设计项目成本结构与治理模型，进行预算跟踪、偏差分析与风险管理，支持多账户并行交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "基于尽调结果设计 SOP、运维流程及事件/问题管理模型，覆盖重大问题与升级机制。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "作为主要客户接口人对接业务与 IT。具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付），善于在复杂 stakeholder 环境下推动共识与落地。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "IT 服务管理与治理（成本、风险、质量、SLA 管理）。全面管理事件、问题、请求与重大故障流程，建立清晰的升级、跟踪与复盘机制，保障 SLA 与客户满意度。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "基础设施与云运营解决方案设计。负责过几十个BPO项目的IT infra solution设计, 例如Lenovo，Hisense, KFC, Triumph, Morgan Stanley, Yusen等等",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "制定完整迁移策略、实施计划与里程碑。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "领导 20+ 人 Helpdesk 与服务支持团队...具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "转型与迁移支持负责人。主导 Go-live 准备与稳定化阶段，通过试点、演练与用户沟通，确保项目平稳上线并顺利转入 BAU。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "数字化变革管理"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "name": "行业场景方案沉淀",
+      "type": "ABILITY",
+      "evidence": "识别并推动自动化与 AI 驱动的流程优化机会，降低人工成本、提升交付效率及服务稳定性，逐步建立标准化、可复制的解决方案模式。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "行业场景方案",
+        "沉淀行业场景方案",
+        "行业解决方案沉淀",
+        "垂直行业方案"
+      ],
+      "matched_term": "行业场景方案沉淀"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "转型与迁移支持负责人。主导 Go-live 准备与稳定化阶段，通过试点、演练与用户沟通，确保项目平稳上线并顺利转入 BAU。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为主要客户接口人对接业务与 IT。具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付），善于在复杂 stakeholder 环境下推动共识与落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 17+ 年 IT 行业经验，长期深耕基础设施外包、IT 服务管理与大型项目/项目群交付。具备成熟的端到端项目管理能力，覆盖迁移、转型、稳定化及持续优化全过程。善于通过流程重构、自动化与 AI 思维提升交付效率、成本控制与服务质量，是连接业务、技术与运营的项目型与 AI 驱动型管理者。",
+        "IT 服务管理与治理（成本、风险、质量、SLA 管理）。全面管理事件、问题、请求与重大故障流程，建立清晰的升级、跟踪与复盘机制，保障 SLA 与客户满意度。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基础设施与云运营解决方案设计。负责过几十个BPO项目的IT infra solution设计, 例如Lenovo，Hisense, KFC, Triumph, Morgan Stanley, Yusen等等",
+        "识别并推动自动化与 AI 驱动的流程优化机会，降低人工成本、提升交付效率及服务稳定性，逐步建立标准化、可复制的解决方案模式。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "识别并推动自动化与 AI 驱动的流程优化机会，降低人工成本、提升交付效率及服务稳定性，逐步建立标准化、可复制的解决方案模式。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+          "name": "行业场景方案沉淀"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基础设施与云运营解决方案设计。负责过几十个BPO项目的IT infra solution设计, 例如Lenovo，Hisense, KFC, Triumph, Morgan Stanley, Yusen等等"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "制定完整迁移策略、实施计划与里程碑。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "基于尽调结果设计 SOP、运维流程及事件/问题管理模型，覆盖重大问题与升级机制。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 17+ 年 IT 行业经验，长期深耕基础设施外包、IT 服务管理与大型项目/项目群交付。具备成熟的端到端项目管理能力，覆盖迁移、转型、稳定化及持续优化全过程。善于通过流程重构、自动化与 AI 思维提升交付效率、成本控制与服务质量，是连接业务、技术与运营的项目型与 AI 驱动型管理者。",
+        "制定完整迁移策略、实施计划与里程碑。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "领导 20+ 人 Helpdesk 与服务支持团队...具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "设计项目成本结构与治理模型，进行预算跟踪、偏差分析与风险管理，支持多账户并行交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有 17+ 年 IT 行业经验，长期深耕基础设施外包、IT 服务管理与大型项目/项目群交付。具备成熟的端到端项目管理能力，覆盖迁移、转型、稳定化及持续优化全过程。善于通过流程重构、自动化与 AI 思维提升交付效率、成本控制与服务质量，是连接业务、技术与运营的项目型与 AI 驱动型管理者。",
+        "设计项目成本结构与治理模型，进行预算跟踪、偏差分析与风险管理，支持多账户并行交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为主要客户接口人对接业务与 IT。具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付），善于在复杂 stakeholder 环境下推动共识与落地。",
+        "转型与迁移支持负责人。主导 Go-live 准备与稳定化阶段，通过试点、演练与用户沟通，确保项目平稳上线并顺利转入 BAU。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有 17+ 年 IT 行业经验，长期深耕基础设施外包、IT 服务管理与大型项目/项目群交付。具备成熟的端到端项目管理能力，覆盖迁移、转型、稳定化及持续优化全过程。善于通过流程重构、自动化与 AI 思维提升交付效率、成本控制与服务质量，是连接业务、技术与运营的项目型与 AI 驱动型管理者。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计项目成本结构与治理模型，进行预算跟踪、偏差分析与风险管理，支持多账户并行交付。",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于尽调结果设计 SOP、运维流程及事件/问题管理模型，覆盖重大问题与升级机制。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为主要客户接口人对接业务与 IT。具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付），善于在复杂 stakeholder 环境下推动共识与落地。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "IT 服务管理与治理（成本、风险、质量、SLA 管理）。全面管理事件、问题、请求与重大故障流程，建立清晰的升级、跟踪与复盘机制，保障 SLA 与客户满意度。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基础设施与云运营解决方案设计。负责过几十个BPO项目的IT infra solution设计, 例如Lenovo，Hisense, KFC, Triumph, Morgan Stanley, Yusen等等",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "制定完整迁移策略、实施计划与里程碑。",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "领导 20+ 人 Helpdesk 与服务支持团队...具备成熟的团队管理经验（30+ 常规团队，100+ 高峰交付）",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "转型与迁移支持负责人。主导 Go-live 准备与稳定化阶段，通过试点、演练与用户沟通，确保项目平稳上线并顺利转入 BAU。",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "识别并推动自动化与 AI 驱动的流程优化机会，降低人工成本、提升交付效率及服务稳定性，逐步建立标准化、可复制的解决方案模式。",
+      "supports_entity_id": "SKILL_INDUSTRY_SCENARIO_SOLUTION",
+      "supports_entity_name": "行业场景方案沉淀",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ITSM 工具",
+      "evidence": "ITSM 工具、服务台系统"
+    },
+    {
+      "skill_id": "",
+      "name": "服务台系统",
+      "evidence": "ITSM 工具、服务台系统"
+    },
+    {
+      "skill_id": "",
+      "name": "Microsoft Azure",
+      "evidence": "Microsoft Azure Fundamentals"
+    },
+    {
+      "skill_id": "",
+      "name": "云与基础设施管理平台",
+      "evidence": "云与基础设施管理平台、数据与报表分析工具"
+    },
+    {
+      "skill_id": "",
+      "name": "数据与报表分析工具",
+      "evidence": "云与基础设施管理平台、数据与报表分析工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture",
+      "职位": "IT 服务与项目群管理负责人 / Tech Architecture Lead",
+      "时间": "",
+      "描述": "负责基础设施外包项目的端到端项目管理，涵盖项目启动、规划、交付、稳定化与正式移交；设计项目成本结构与治理模型，进行预算跟踪、偏差分析与风险管理；识别并推动自动化与 AI 驱动的流程优化机会，逐步建立标准化、可复制的解决方案模式。"
+    },
+    {
+      "公司": "全球领先快消品企业（大中华区）",
+      "职位": "服务交付负责人 / 基础设施外包项目经理",
+      "时间": "",
+      "描述": "领导 20+ 人 Helpdesk 与服务支持团队，为大中华区移动销售系统与 IT 工具提供持续支持；全面管理事件、问题、请求与重大故障流程，建立清晰的升级、跟踪与复盘机制，保障 SLA 与客户满意度；通过数据分析与运营指标监控服务质量，持续推动流程优化。"
+    },
+    {
+      "公司": "基础设施外包迁移与转型项目",
+      "职位": "迁移与转型主题专家 / 项目经理",
+      "时间": "",
+      "描述": "负责 IT 基础设施外包迁移项目（L1 服务台、L2 现场支持），制定完整迁移策略、实施计划与里程碑；负责过几十个BPO项目的IT infra solution设计；主导 Go-live 准备与稳定化阶段，通过试点、演练与用户沟通，确保项目平稳上线并顺利转入 BAU。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "Tech Architecture Manager / IT 服务与交付管理负责人（Accenture）",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "快消品（FMCG）",
+      "source": "rule",
+      "matched_term": "FMCG"
+    }
+  ],
+  "_batch": {
+    "source_file": "Dandan.c.wang_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Dandan.c.wang_CN.md",
+    "source_hash": "9db2682e52275a44f8a9e036acc03685e607a053a38eb83c7f29ce33c4790511",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:15:15"
+  },
+  "级别推断": {
+    "level_requirement": "Level 7",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 7",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

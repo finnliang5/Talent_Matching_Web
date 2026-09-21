@@ -1,0 +1,477 @@
+{
+  "姓名": "Candidate_0182",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "同时掌握前端开发、基于 C# 的后端开发以及 Python 开发，并具备 SharePoint Server 及自定义 Add-in 的运维支持经验，持续向 AI 应用与智能自动化方向拓展。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- JavaScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- TypeScript",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- HTML/CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_CSS",
+      "name": "CSS",
+      "type": "STYLE",
+      "evidence": "- HTML/CSS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "CSS"
+      ],
+      "matched_term": "CSS"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端与全栈应用开发，涵盖 React、FastAPI、C#、Python 及相关 Web 技术",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端与全栈应用开发，涵盖 React、FastAPI、C#、Python 及相关 Web 技术",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 基于大模型对转写内容进行分析与聚合，生成结构化最终文档，提升信息整理与内容产出效率。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 参与开发基于 Web 的 AI 应用，前端采用 React，后端基于 FastAPI，数据库使用 MySQL。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 参与任务管理与绩效考核应用的重构与持续迭代，使用 Power Apps、Power Automate 和 Power BI 实现任务管理、员工工作量管理与分析，以及自动化数据完整性检查。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 熟悉从需求分析、方案设计到开发测试和跨团队协作的端到端项目交付流程。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导需求确认、技术调研、方案设计、开发与测试",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "与开发、业务及支持团队协作，推动平台问题快速定位",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 参与任务管理与绩效考核应用的重构与持续迭代，使用 Power Apps、Power Automate 和 Power BI 实现任务管理、员工工作量管理与分析，以及自动化数据完整性检查。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与开发、业务及支持团队协作，推动平台问题快速定位"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导需求确认、技术调研、方案设计、开发与测试"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导需求确认、技术调研、方案设计、开发与测试"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 前端与全栈应用开发，涵盖 React、FastAPI、C#、Python 及相关 Web 技术"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 熟悉从需求分析、方案设计到开发测试和跨团队协作的端到端项目交付流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 熟悉从需求分析、方案设计到开发测试和跨团队协作的端到端项目交付流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "同时掌握前端开发、基于 C# 的后端开发以及 Python 开发，并具备 SharePoint Server 及自定义 Add-in 的运维支持经验，持续向 AI 应用与智能自动化方向拓展。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- JavaScript",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- TypeScript",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- HTML/CSS",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- HTML/CSS",
+      "supports_entity_id": "SKILL_CSS",
+      "supports_entity_name": "CSS",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端与全栈应用开发，涵盖 React、FastAPI、C#、Python 及相关 Web 技术",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端与全栈应用开发，涵盖 React、FastAPI、C#、Python 及相关 Web 技术",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于大模型对转写内容进行分析与聚合，生成结构化最终文档，提升信息整理与内容产出效率。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 参与开发基于 Web 的 AI 应用，前端采用 React，后端基于 FastAPI，数据库使用 MySQL。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 参与任务管理与绩效考核应用的重构与持续迭代，使用 Power Apps、Power Automate 和 Power BI 实现任务管理、员工工作量管理与分析，以及自动化数据完整性检查。",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 熟悉从需求分析、方案设计到开发测试和跨团队协作的端到端项目交付流程。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导需求确认、技术调研、方案设计、开发与测试",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与开发、业务及支持团队协作，推动平台问题快速定位",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Dataverse",
+      "evidence": "将应用数据从 SharePoint Online 迁移至 Dataverse"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "",
+      "职位": "BPO 采购流程专员",
+      "时间": "4年",
+      "描述": "从事 BPO 采购流程专员工作"
+    },
+    {
+      "公司": "",
+      "职位": "Power Platform 解决方案顾问 / 自动化工程师",
+      "时间": "",
+      "描述": "参与任务管理与绩效考核应用的重构与持续迭代，使用 Power Apps、Power Automate 和 Power BI 实现任务管理、员工工作量管理与分析，以及自动化数据完整性检查。主导需求确认、技术调研、方案设计、开发与测试，交付数据映射、迁移工具及新旧系统数据同步工具。"
+    },
+    {
+      "公司": "",
+      "职位": "Power Platform 开发工程师 / 应用支持工程师",
+      "时间": "",
+      "描述": "基于 SharePoint Online List 定制业务表单，支持多类工单的录入与管理。集成并测试第三方开发的 Power Automate 流程，使系统能够按不同业务流程分支自动流转，并向对应责任方发送通知邮件。负责 NG 问题的根因调查与分析，向第三方开发团队提供详细反馈并推动问题修复。"
+    },
+    {
+      "公司": "",
+      "职位": "SharePoint 平台运维工程师 / 应用支持工程师",
+      "时间": "",
+      "描述": "负责 SharePoint Server 环境的日常运维、问题排查与稳定性支持，保障平台持续可用。参与自定义开发 Add-in 的部署、维护与故障处理，支持业务系统平稳运行。与开发、业务及支持团队协作，推动平台问题快速定位和持续优化。"
+    },
+    {
+      "公司": "",
+      "职位": "全栈开发工程师 / AI 应用工程师",
+      "时间": "",
+      "描述": "参与开发基于 Web 的 AI 应用，前端采用 React，后端基于 FastAPI，数据库使用 MySQL。支持用户上传媒体文件，完成音频提取与语音转文本处理，构建后续 AI 分析所需的数据输入。基于大模型对转写内容进行分析与聚合，生成结构化最终文档。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### AI 媒体转文本与文档生成 Web 应用项目",
+      "source": "rule",
+      "matched_term": "媒体"
+    }
+  ],
+  "_batch": {
+    "source_file": "z.d.li_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\z.d.li_CN.md",
+    "source_hash": "a9ed12786e17bb2cde6423cc73e2b06bd36c0f6e5d2df90bdb5f978f1eec66f4",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:42:47"
+  },
+  "城市": "Dalian"
+}

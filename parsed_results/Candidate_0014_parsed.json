@@ -1,0 +1,772 @@
+{
+  "姓名": "Candidate_0014",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 8,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 数据库：AWS Redshift，SQL SERVER，DB2",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "matched_term": "AWS Redshift"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_INFORMATICA",
+      "name": "Informatica",
+      "type": "DATA_PLATFORM",
+      "evidence": "- ETL工具：IBM Datastage，Informatica PowerCenter，Microsoft SSIS，SSAS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Informatica PowerCenter",
+        "Informatica IICS",
+        "Informatica Cloud",
+        "Informatica MDM",
+        "PowerCenter",
+        "IICS"
+      ],
+      "matched_term": "Informatica"
+    },
+    {
+      "skill_id": "SKILL_AIRFLOW",
+      "name": "Airflow",
+      "type": "TOOL",
+      "evidence": "- 调度工具：Airflow, UC4, CTM",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Airflow"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Airflow"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_MODELING",
+      "name": "数据仓库建模",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 数据仓库建模",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse Modeling",
+        "Dimensional Modeling",
+        "维度建模",
+        "数仓建模"
+      ],
+      "matched_term": "数据仓库建模"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库"
+    },
+    {
+      "skill_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "name": "主数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 根据实际数据特殊性结合现有全球平台的架构模型进行数据整合，使系统可以接收来自不同外部系统的异构数据并整合为同构数据进行存储，提供数据导出接口。同时兼顾下游BI系统使用的DW构建准备。部分数据与MDM系统数据的交互与维护。同时不得影响现有下游数据系统的使用。根据客户提供的需求，根据平台架构模型要求进行ETL过程（含有数据结构设计等）的分析设计，并支持开发团队与测试团队的疑难解答，问题调查，解决方案提供等。熟悉数据上云相关流程设计，AWS，Redshift等解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Master Data Management",
+        "MDM",
+        "Master Data Managerment",
+        "Master Data Mangerment",
+        "主数据管理"
+      ],
+      "matched_term": "MDM"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 对于IT Operation汇总的Sky for Business相关监控信息进行整理并结合监控业务需求进行Qlikview报表制作，提高客户团队对SfB的监控效率。如使用自动化的报表替代部分手工制作的报表等。在敏捷开发的框架下，负责项目小组的需求分析，mockup制作并定期与客户沟通获取客户反馈和意见，对任务分解和分派、进度制订和督促，此外还进行详细设计、编写测试式样书、以及对项目组成员的代码进行检查。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "负责跨团队沟通及交付协调；定期与客户沟通获取客户反馈和意见",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "在敏捷开发的框架下，负责项目小组的需求分析...对任务分解和分派、进度制订和督促",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "整理汇总ODS中已存在的数据表的结构，数据字典和数据关系模型，还有数据逻辑解释，回溯数据逻辑到数据源系统等",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "基于AWS，Redshift等解决方案的全球平台的架构模型数据产品项目...提供解决方案；从BI建模，数据库等多种角度分析性能痛点，并以此制定调优策略",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "负责跨团队沟通及交付协调；英语流利，可从事跨国项目沟通及工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责跨团队沟通及交付协调；定期与客户沟通获取客户反馈和意见",
+        "负责跨团队沟通及交付协调；英语流利，可从事跨国项目沟通及工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- ETL工具：IBM Datastage，Informatica PowerCenter，Microsoft SSIS，SSAS"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_INFORMATICA",
+          "name": "Informatica"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据仓库建模",
+        "整理汇总ODS中已存在的数据表的结构，数据字典和数据关系模型，还有数据逻辑解释，回溯数据逻辑到数据源系统等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_MODELING",
+          "name": "数据仓库建模"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "整理汇总ODS中已存在的数据表的结构，数据字典和数据关系模型，还有数据逻辑解释，回溯数据逻辑到数据源系统等"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_MODELING",
+      "name": "Data Warehouse Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据仓库建模"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_MODELING",
+          "name": "数据仓库建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 数据库：AWS Redshift，SQL SERVER，DB2",
+        "- 调度工具：Airflow, UC4, CTM",
+        "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AIRFLOW",
+          "name": "Airflow",
+          "rule_id": "RULE_AIRFLOW_TO_DATA_WAREHOUSING",
+          "rule_name": "Airflow -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Airflow often supports warehouse scheduling and orchestration, without implying broader governance skills.",
+          "inference_weight": 0.68
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "在敏捷开发的框架下，负责项目小组的需求分析...对任务分解和分派、进度制订和督促"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- ETL工具：IBM Datastage，Informatica PowerCenter，Microsoft SSIS，SSAS",
+        "- 调度工具：Airflow, UC4, CTM",
+        "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_INFORMATICA",
+          "name": "Informatica"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AIRFLOW",
+          "name": "Airflow"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于AWS，Redshift等解决方案的全球平台的架构模型数据产品项目...提供解决方案；从BI建模，数据库等多种角度分析性能痛点，并以此制定调优策略"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MASTER_DATA_MANAGEMENT",
+      "name": "Master Data Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 根据实际数据特殊性结合现有全球平台的架构模型进行数据整合，使系统可以接收来自不同外部系统的异构数据并整合为同构数据进行存储，提供数据导出接口。同时兼顾下游BI系统使用的DW构建准备。部分数据与MDM系统数据的交互与维护。同时不得影响现有下游数据系统的使用。根据客户提供的需求，根据平台架构模型要求进行ETL过程（含有数据结构设计等）的分析设计，并支持开发团队与测试团队的疑难解答，问题调查，解决方案提供等。熟悉数据上云相关流程设计，AWS，Redshift等解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MASTER_DATA_MANAGEMENT",
+          "name": "主数据管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于AWS，Redshift等解决方案的全球平台的架构模型数据产品项目...提供解决方案；从BI建模，数据库等多种角度分析性能痛点，并以此制定调优策略"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "在敏捷开发的框架下，负责项目小组的需求分析...对任务分解和分派、进度制订和督促"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 对于IT Operation汇总的Sky for Business相关监控信息进行整理并结合监控业务需求进行Qlikview报表制作，提高客户团队对SfB的监控效率。如使用自动化的报表替代部分手工制作的报表等。在敏捷开发的框架下，负责项目小组的需求分析，mockup制作并定期与客户沟通获取客户反馈和意见，对任务分解和分派、进度制订和督促，此外还进行详细设计、编写测试式样书、以及对项目组成员的代码进行检查。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 对于IT Operation汇总的Sky for Business相关监控信息进行整理并结合监控业务需求进行Qlikview报表制作，提高客户团队对SfB的监控效率。如使用自动化的报表替代部分手工制作的报表等。在敏捷开发的框架下，负责项目小组的需求分析，mockup制作并定期与客户沟通获取客户反馈和意见，对任务分解和分派、进度制订和督促，此外还进行详细设计、编写测试式样书、以及对项目组成员的代码进行检查。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "在敏捷开发的框架下，负责项目小组的需求分析...对任务分解和分派、进度制订和督促"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责跨团队沟通及交付协调；定期与客户沟通获取客户反馈和意见"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 8
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：AWS Redshift，SQL SERVER，DB2",
+      "supports_entity_id": "SKILL_AWS_REDSHIFT",
+      "supports_entity_name": "Amazon Redshift",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- ETL工具：IBM Datastage，Informatica PowerCenter，Microsoft SSIS，SSAS",
+      "supports_entity_id": "SKILL_INFORMATICA",
+      "supports_entity_name": "Informatica",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 调度工具：Airflow, UC4, CTM",
+      "supports_entity_id": "SKILL_AIRFLOW",
+      "supports_entity_name": "Airflow",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据仓库建模",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_MODELING",
+      "supports_entity_name": "数据仓库建模",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_WAREHOUSE_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 根据实际数据特殊性结合现有全球平台的架构模型进行数据整合，使系统可以接收来自不同外部系统的异构数据并整合为同构数据进行存储，提供数据导出接口。同时兼顾下游BI系统使用的DW构建准备。部分数据与MDM系统数据的交互与维护。同时不得影响现有下游数据系统的使用。根据客户提供的需求，根据平台架构模型要求进行ETL过程（含有数据结构设计等）的分析设计，并支持开发团队与测试团队的疑难解答，问题调查，解决方案提供等。熟悉数据上云相关流程设计，AWS，Redshift等解决方案。",
+      "supports_entity_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "supports_entity_name": "主数据管理",
+      "derived_capability_ids": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 对于IT Operation汇总的Sky for Business相关监控信息进行整理并结合监控业务需求进行Qlikview报表制作，提高客户团队对SfB的监控效率。如使用自动化的报表替代部分手工制作的报表等。在敏捷开发的框架下，负责项目小组的需求分析，mockup制作并定期与客户沟通获取客户反馈和意见，对任务分解和分派、进度制订和督促，此外还进行详细设计、编写测试式样书、以及对项目组成员的代码进行检查。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责跨团队沟通及交付协调；定期与客户沟通获取客户反馈和意见",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "在敏捷开发的框架下，负责项目小组的需求分析...对任务分解和分派、进度制订和督促",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "整理汇总ODS中已存在的数据表的结构，数据字典和数据关系模型，还有数据逻辑解释，回溯数据逻辑到数据源系统等",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于AWS，Redshift等解决方案的全球平台的架构模型数据产品项目...提供解决方案；从BI建模，数据库等多种角度分析性能痛点，并以此制定调优策略",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责跨团队沟通及交付协调；英语流利，可从事跨国项目沟通及工作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AWS云平台",
+      "evidence": "目前从事基于AWS相关项目...熟悉数据上云相关流程设计，AWS，Redshift等解决方案"
+    },
+    {
+      "skill_id": "",
+      "name": "ETL工具（IBM Datastage, Informatica PowerCenter, Microsoft SSIS）",
+      "evidence": "熟练使用ETL...工具与平台：ETL工具：IBM Datastage，Informatica PowerCenter，Microsoft SSIS"
+    },
+    {
+      "skill_id": "",
+      "name": "Qlikview",
+      "evidence": "对于IT Operation汇总的Sky for Business相关监控信息进行整理并结合监控业务需求进行Qlikview报表制作"
+    },
+    {
+      "skill_id": "",
+      "name": "Microsoft SSRS",
+      "evidence": "报表工具：Qlikview，Microsoft SSRS"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL SERVER",
+      "evidence": "数据库：AWS Redshift，SQL SERVER，DB2"
+    },
+    {
+      "skill_id": "",
+      "name": "DB2",
+      "evidence": "IBM Certified Database Associate - DB2 9 Fundamentals"
+    },
+    {
+      "skill_id": "",
+      "name": "UC4",
+      "evidence": "调度工具：Airflow, UC4, CTM"
+    },
+    {
+      "skill_id": "",
+      "name": "CTM",
+      "evidence": "调度工具：Airflow, UC4, CTM"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "商业智能工程副经理",
+      "时间": "",
+      "描述": "资深数据与解决方案架构师，专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务生命科学领域客户，基于AWS项目担任数据和技术分析角色。擅长ETL、数据仓库及报表相关业务流程。"
+    },
+    {
+      "公司": "某国际知名药企",
+      "职位": "数据与技术分析 / 交付组长",
+      "时间": "",
+      "描述": "基于AWS/Redshift全球平台架构模型数据产品项目；负责异构数据整合与ODS库构建，维护历史数据(SCD表)；分析ODS库数据并提供大数据平台导入策略；HR BI系统性能调优与ETL环境搭建。"
+    },
+    {
+      "公司": "某世界知名技术服务企业",
+      "职位": "交付组长",
+      "时间": "",
+      "描述": "负责IT Operation监控信息整理与Qlikview报表制作；在敏捷开发框架下负责需求分析、mockup制作、任务分解分派、进度制订督促、详细设计、测试式样书编写及代码检查。"
+    },
+    {
+      "公司": "某国内知名通信企业",
+      "职位": "数据与技术分析",
+      "时间": "",
+      "描述": "HR BI系统中自定义报表部分响应时间调优；从BI建模、数据库等多角度分析性能痛点并制定调优策略；系统ETL环境搭建准备。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "资深数据与解决方案架构师。自2010年开始从事BI相关项目工作，加入埃森哲13年。专业领域包括数据分析、技术架构设计、BI实现与交付。主要服务与交付的客户为生命科学领域。目前从事基于AWS相关项目，并在项目中担任数据和技术分析角色。主要专注于数据分析和架构设计。擅长ETL, 数据仓库及报表相关业务流程等。熟练使用ETL，报表工具，数据库以及第三方流程控制工具。具有云原生系统迁移经验。",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 电子通信",
+      "source": "rule",
+      "matched_term": "通信"
+    }
+  ],
+  "_batch": {
+    "source_file": "depeng.xie_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\depeng.xie_profile_CN.md",
+    "source_hash": "8823583d84f94e503a1ec1307a84e238b0a5b9e50e1f80a0df72586fe13a2919",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:16:01"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

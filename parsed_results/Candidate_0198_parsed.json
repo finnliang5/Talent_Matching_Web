@@ -1,0 +1,501 @@
+{
+  "姓名": "Candidate_0198",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 8
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "* 看板原型图设计与数据校验（Power BI）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "* 协助客户实现报表标准化及自动化（Tableau）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "**角色：** 业务分析与工具开发",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "曲岩是埃森哲数据与人工智能分析团队的高级分析师，拥有超过 15 年的销售与外包服务行业经验。核心专长覆盖流程分析、数据分析、仪表盘开发及技术协同领域，在呼叫中心运营、销售管理、订单处理、采购流程及财务流程等多个业务板块积累了丰富的实践经验。在项目执行过程中，主要负责业务沟通对接、流程梳理、数据处理分析、逻辑架构设计、工具设计、数据仪表盘设计开发、数据验证、相关文档编写、业务洞察提炼、交付质量管控及变更需求管理等工作。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "需求收集整合、需求收集",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "流程梳理、业务流程了解与梳理",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "客户端宣讲、与项目组沟通、向客户汇报",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "与项目组沟通业务流程并收集整理相关需求、客户端宣讲及运维团队培训",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "项目日常运维、需求变更处理、项目末期业务移管计划准备与交接工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "交付质量管控",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 看板原型图设计与数据校验（Power BI）",
+        "* 协助客户实现报表标准化及自动化（Tableau）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "**角色：** 业务分析与工具开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "曲岩是埃森哲数据与人工智能分析团队的高级分析师，拥有超过 15 年的销售与外包服务行业经验。核心专长覆盖流程分析、数据分析、仪表盘开发及技术协同领域，在呼叫中心运营、销售管理、订单处理、采购流程及财务流程等多个业务板块积累了丰富的实践经验。在项目执行过程中，主要负责业务沟通对接、流程梳理、数据处理分析、逻辑架构设计、工具设计、数据仪表盘设计开发、数据验证、相关文档编写、业务洞察提炼、交付质量管控及变更需求管理等工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "客户端宣讲、与项目组沟通、向客户汇报",
+        "与项目组沟通业务流程并收集整理相关需求、客户端宣讲及运维团队培训"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "项目日常运维、需求变更处理、项目末期业务移管计划准备与交接工作",
+        "交付质量管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "**角色：** 业务分析与工具开发",
+        "流程梳理、业务流程了解与梳理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "项目日常运维、需求变更处理、项目末期业务移管计划准备与交接工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "**角色：** 业务分析与工具开发",
+        "需求收集整合、需求收集"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "需求收集整合、需求收集"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "项目日常运维、需求变更处理、项目末期业务移管计划准备与交接工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "客户端宣讲、与项目组沟通、向客户汇报"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 看板原型图设计与数据校验（Power BI）",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 协助客户实现报表标准化及自动化（Tableau）",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**角色：** 业务分析与工具开发",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "曲岩是埃森哲数据与人工智能分析团队的高级分析师，拥有超过 15 年的销售与外包服务行业经验。核心专长覆盖流程分析、数据分析、仪表盘开发及技术协同领域，在呼叫中心运营、销售管理、订单处理、采购流程及财务流程等多个业务板块积累了丰富的实践经验。在项目执行过程中，主要负责业务沟通对接、流程梳理、数据处理分析、逻辑架构设计、工具设计、数据仪表盘设计开发、数据验证、相关文档编写、业务洞察提炼、交付质量管控及变更需求管理等工作。",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "需求收集整合、需求收集",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "流程梳理、业务流程了解与梳理",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "客户端宣讲、与项目组沟通、向客户汇报",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与项目组沟通业务流程并收集整理相关需求、客户端宣讲及运维团队培训",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "项目日常运维、需求变更处理、项目末期业务移管计划准备与交接工作",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "交付质量管控",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "永洪BI",
+      "evidence": "永洪BI"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国内食品品牌",
+      "职位": "业务分析与工具开发",
+      "时间": "",
+      "描述": "总账报表业务调研、逻辑梳理与需求收集整合；数据收集、分析及逻辑验证；工具功能设计及相关文档编写（流程图、需求文档、逻辑文档、操作手册、宣导材料等）；工具测试及数据校验；客户端宣讲及运维团队培训"
+    },
+    {
+      "公司": "国内家电品牌",
+      "职位": "业务分析与看板开发",
+      "时间": "",
+      "描述": "负责前期业务调研、逻辑梳理及需求收集整合；负责自动化工具的逻辑设计，并与技术工程师协作配合工具开发；带领用户开展工具测试及变更需求管理；看板开发、美化及数据校验（永洪BI）；制作项目相关文档（如PRD、需求文档、逻辑文档、项目计划、交付文档等）"
+    },
+    {
+      "公司": "跨国药企",
+      "职位": "数据分析与看板设计",
+      "时间": "",
+      "描述": "与项目组沟通业务流程并收集整理相关需求；业务逻辑梳理与设计；数据收集与清洗；看板原型图设计与数据校验（Power BI）"
+    },
+    {
+      "公司": "国际保险公司",
+      "职位": "数据分析与运维管理",
+      "时间": "",
+      "描述": "项目前期，需求收集、数据分析与逻辑梳理；看板原型图设计、开发与数据校验（Power BI）；看板上线后对用户端做使用培训及日常运维管理；看板突发事件响应、需求变更处理及定期向客户汇报项目进度；项目末期，业务移管计划准备与交接工作"
+    },
+    {
+      "公司": "全球打印机品牌",
+      "职位": "数据分析与运维支持",
+      "时间": "",
+      "描述": "业务知识学习与传授、成果物交付及管理；项目日常运维、紧急事项应对及需求变更处理；协助客户实现报表标准化及自动化（Tableau）；项目末期，负责制定业务交接计划、交接具体实施及交接进度管理"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "### 跨国药企财务流程项目",
+      "source": "rule",
+      "matched_term": "药企"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 保险行业",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 高科技行业",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ]
+}

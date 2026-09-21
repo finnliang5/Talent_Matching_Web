@@ -1,0 +1,1054 @@
+{
+  "姓名": "Candidate_0121",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 19,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Boot/Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- **前端框架：** Vue",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LANGGRAPH",
+      "name": "LangGraph",
+      "type": "FRAMEWORK",
+      "evidence": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_LANGCHAIN"
+      ],
+      "matched_term": "LangGraph"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **AI / LLM：** LangChain、LangGraph、Dify、Prompt Engineering、RAG、Agent",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 成果：系统可用性达 99.9%，支持 7,000+ 设备并发在线，接口响应效率提升超 60%；通过数据库读写分离、Redis 高可用及反向代理优化，显著提升系统吞吐能力；采用并行运行与渐进切换策略，保障新旧系统平稳过渡。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- **云原生：** Kubernetes、Docker、Helm、Flux CD",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "- **云原生：** Kubernetes、Docker、Helm、Flux CD",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "Kubernetes"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "与 PO 协作完成业务需求梳理，配合架构师进行技术方案评审，输出详细设计文档",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协同业务、应用与开发团队，推动关键模块落地与技术方案实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目；设计并交付企业级应用平台（PaaS）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "推动团队技术规范建设，主导 Code Review 与架构决策，保障交付质量与技术一致性",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "统筹开发任务拆分与技术风险把控；集成自检、故障恢复与远程诊断机制",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AGENT_LAYERED_ARCHITECTURE",
+      "name": "Agent Layered Architecture",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AGENT_TASK_AUTONOMY",
+      "name": "Agent Task Autonomy",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGGRAPH",
+          "name": "LangGraph",
+          "rule_id": "RULE_LANGGRAPH_TO_AGENT_DEV",
+          "rule_name": "LangGraph -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Graph-based orchestration experience usually indicates hands-on agent system implementation.",
+          "inference_weight": 0.82
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+        "- **云原生：** Kubernetes、Docker、Helm、Flux CD"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同业务、应用与开发团队，推动关键模块落地与技术方案实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **云原生：** Kubernetes、Docker、Helm、Flux CD"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。",
+        "推动团队技术规范建设，主导 Code Review 与架构决策，保障交付质量与技术一致性"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- **云原生：** Kubernetes、Docker、Helm、Flux CD"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目；设计并交付企业级应用平台（PaaS）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目；设计并交付企业级应用平台（PaaS）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **AI / LLM：** LangChain、LangGraph、Dify、Prompt Engineering、RAG、Agent"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与 PO 协作完成业务需求梳理，配合架构师进行技术方案评审，输出详细设计文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "与 PO 协作完成业务需求梳理，配合架构师进行技术方案评审，输出详细设计文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同业务、应用与开发团队，推动关键模块落地与技术方案实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "统筹开发任务拆分与技术风险把控；集成自检、故障恢复与远程诊断机制"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **编程语言：** JAVA | Python | JavaScript | C/C++ | Shell",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **后端框架：** Spring Boot/Cloud、FastAPI、NodeJS",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **前端框架：** Vue",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "supports_entity_id": "SKILL_LANGGRAPH",
+      "supports_entity_name": "LangGraph",
+      "derived_capability_ids": [
+        "CAP_AGENT_LAYERED_ARCHITECTURE",
+        "CAP_AGENT_TASK_AUTONOMY",
+        "CAP_AI_AGENT_DEVELOPMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **AI / LLM：** LangChain、LangGraph、Dify、Prompt Engineering、RAG、Agent",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟悉 LangChain、LangGraph 和 Dify 等框架，具备基于 RAG、Agent、Tool Calling 等技术构建 LLM 应用的实践经验，能够支持智能问答、知识检索与任务编排等场景的开发落地。",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 成果：系统可用性达 99.9%，支持 7,000+ 设备并发在线，接口响应效率提升超 60%；通过数据库读写分离、Redis 高可用及反向代理优化，显著提升系统吞吐能力；采用并行运行与渐进切换策略，保障新旧系统平稳过渡。",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **云原生：** Kubernetes、Docker、Helm、Flux CD",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **云原生：** Kubernetes、Docker、Helm、Flux CD",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0121，埃森哲大中华区人工智能与数据团队的全栈工程师，拥有 8 年 IT 行业经验，专注于全栈开发、系统架构与云平台管理。擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目。熟悉 DevOps 与 GitOps 实践。在大规模敏捷交付方面拥有丰富经验，并持有 SAFe® 5 Agilist 认证。",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与 PO 协作完成业务需求梳理，配合架构师进行技术方案评审，输出详细设计文档",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协同业务、应用与开发团队，推动关键模块落地与技术方案实施",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长基于业务需求设计高可用、可扩展的技术方案，主导过云迁移与微服务重构项目；设计并交付企业级应用平台（PaaS）",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "推动团队技术规范建设，主导 Code Review 与架构决策，保障交付质量与技术一致性",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "统筹开发任务拆分与技术风险把控；集成自检、故障恢复与远程诊断机制",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Flux CD",
+      "evidence": "基于 GitOps（Flux）构建自动化部署能力，实现应用配置变更的自动同步与生效"
+    },
+    {
+      "skill_id": "",
+      "name": "GitOps",
+      "evidence": "熟悉 DevOps 与 GitOps 实践"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "全栈开发工程师 / Tech Lead",
+      "时间": "",
+      "描述": "专注于全栈开发、系统架构与云平台管理，主导云迁移与微服务重构项目，熟悉 DevOps 与 GitOps 实践，持有 SAFe 认证。"
+    },
+    {
+      "公司": "全球知名制药集团",
+      "职位": "Tech Lead / 全栈开发",
+      "时间": "",
+      "描述": "与 PO 协作完成业务需求梳理，设计并交付企业级应用平台（PaaS），基于 GitOps 构建自动化部署能力，集成统一认证与开放 API，推动团队技术规范建设。"
+    },
+    {
+      "公司": "智能售货终端项目",
+      "职位": "架构与开发",
+      "时间": "",
+      "描述": "主导 ARM 架构嵌入式终端系统设计，设计端云安全通信协议，构建高并发后台服务支撑万台级终端实时在线。"
+    },
+    {
+      "公司": "智能零售项目",
+      "职位": "全栈开发",
+      "时间": "",
+      "描述": "参与软硬件系统从单体向微服务架构演进，主导核心服务拆分与全栈功能开发，系统可用性达 99.9%，接口响应效率提升超 60%。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "**角色：** Tech Lead / 全栈开发",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 新零售",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "shuaishuai.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\shuaishuai.li_profile_CN.md",
+    "source_hash": "3f0904549de3737b692d21d2b39d315a364d5fef15c7a69ea33e587698ca869d",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:00:34"
+  },
+  "城市": "Dalian"
+}

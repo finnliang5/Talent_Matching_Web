@@ -1,0 +1,1024 @@
+{
+  "姓名": "Candidate_0040",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 14
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "数据库：MySQL（查询）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AB_TESTING",
+      "name": "A/B Testing",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "4.分析挖掘用户需求及产品痛点，帮助运营给出优化方案，结合数据分析结果提出运营方案，进行A/B测试，验证并优化方案；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AB Testing",
+        "A/B Test",
+        "AB Test",
+        "A/B测试",
+        "AB测试"
+      ],
+      "matched_term": "A/B测试"
+    },
+    {
+      "skill_id": "SKILL_DATA_STANDARDIZATION",
+      "name": "数据标准化",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 基于数据标准化，设计非生能源零基预算数据方案，助力搭建科学预算体系；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "数据标准化"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "工具：Power BI、Tableau、Looker Studio",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "工具：Power BI、Tableau、Looker Studio",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    },
+    {
+      "skill_id": "SKILL_LOOKER_STUDIO",
+      "name": "Looker Studio",
+      "type": "BI_TOOL",
+      "evidence": "工具：Power BI、Tableau、Looker Studio",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Google Looker Studio",
+        "Data Studio",
+        "Google Data Studio",
+        "LookerStudio"
+      ],
+      "matched_term": "Looker Studio"
+    },
+    {
+      "skill_id": "SKILL_SALESFORCE",
+      "name": "Salesforce",
+      "type": "CRM_PLATFORM",
+      "evidence": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SFDC",
+        "Salesforce CRM",
+        "Salesforce Cloud"
+      ],
+      "matched_term": "Salesforce"
+    },
+    {
+      "skill_id": "SKILL_ADOBE_ANALYTICS",
+      "name": "Adobe Analytics",
+      "type": "MARKETING_ANALYTICS",
+      "evidence": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Adobe SiteCatalyst",
+        "SiteCatalyst"
+      ],
+      "matched_term": "Adobe Analytics"
+    },
+    {
+      "skill_id": "SKILL_GA4",
+      "name": "GA4",
+      "type": "MARKETING_ANALYTICS",
+      "evidence": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Google Analytics 4",
+        "Google Analytics",
+        "GA 4"
+      ],
+      "matched_term": "GA4"
+    },
+    {
+      "skill_id": "SKILL_BRIGHTEDGE",
+      "name": "BrightEdge",
+      "type": "SEO_PLATFORM",
+      "evidence": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Bright Edge"
+      ],
+      "matched_term": "BrightEdge"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "1.对用户行为数据专项业务分析，进行分层管理，通过数据分析、调研等方式获取关键结论并形成报告，实现精细化运营；",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "name": "行业对标",
+      "type": "ABILITY",
+      "evidence": "成本优化分析（行业对标、价差分析、供应商合理化、采购需求管理、能源零基预算管理、节降分析）",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "行业对标"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "精通生成式AI数据处理、工作流创建、驱动分析等核心方法，凭借严谨的逻辑思维，能从海量数据中挖掘核心关联、拆解业务痛点，通过AI&Data解决方案驱动策略优化；具备极强的跨部门沟通协调能力与项目统筹能力，精准把控项目进度与质量；同时保持持续学习的习惯，主动钻研行业新技术、新方法，快速转化为实操能力，积累了丰富的跨行业AI数据解决方案设计与项目管理实践经验，助力业务达成增长与效率提升目标。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "Icy 拥有11年项目管理、数据分析及数字营销活动管理经验，核心优势聚焦于AI&Data解决方案设计、全流程项目管理及数据化交付。具备极强的自主学习能力，能快速吸收行业前沿技术与先进管理方法，快速适配跨行业业务场景；逻辑思维缜密，擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程，同时精通业务数据梳理、指标与报表设计、数据整合及商业价值落地。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "前沿应用：生成式 AI 在数据分析、工作流自动化、业务洞察中的落地实践；",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "担任领域专家（SME），主导人力资源总监（HRD）仪表盘的设计与开发；优化数据治理体系、提升数据质量，联动客户搭建全维度数据覆盖方案，保障数据完整性与准确性；基于招聘、员工管理、薪酬激励、人员流失、员工技能管理五大核心模块，搭建HRD价值可视化图谱，为人力资源战略决策提供数据支撑，助力HR精细化管理落地。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "搭建流程挖掘工具，实现O2C 流程可视化，层层拆解业务异常环节，精准完成根因分析（RCA），设计针对性优化方案并推动落地",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "统筹协调交付团队、技术团队、业务转型团队的需求与诉求，整合多方资源输出最优落地方案，推动跨团队协同",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "实现品牌声量（SOV）、投资回报率（ROI）等核心指标最大化",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "解决跨系统数据整合困难、数据质量低、口径不统一的问题，搭建标准化数据基础",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "全链路 AI/Data 方案设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "精准排查团队达成目标过程中的潜在风险并制定针对性解决方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "name": "客户全生命周期经营",
+      "type": "ABILITY",
+      "evidence": "结合AIPL用户旅程模型，优化活动、网站及内容全旅程，结合市场需求与不同阶段用户特征，提炼目标用户核心需求，通过多渠道精准互动，增强用户粘性，推动转化提升",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "客户生命周期经营",
+        "客户成功",
+        "客户成功体系",
+        "客户经营"
+      ],
+      "matched_term": "客户全生命周期经营"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "工具：Power BI、Tableau、Looker Studio"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LOOKER_STUDIO",
+          "name": "Looker Studio"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "1.对用户行为数据专项业务分析，进行分层管理，通过数据分析、调研等方式获取关键结论并形成报告，实现精细化运营；"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "前沿应用：生成式 AI 在数据分析、工作流自动化、业务洞察中的落地实践；"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "实现品牌声量（SOV）、投资回报率（ROI）等核心指标最大化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "精通生成式AI数据处理、工作流创建、驱动分析等核心方法，凭借严谨的逻辑思维，能从海量数据中挖掘核心关联、拆解业务痛点，通过AI&Data解决方案驱动策略优化；具备极强的跨部门沟通协调能力与项目统筹能力，精准把控项目进度与质量；同时保持持续学习的习惯，主动钻研行业新技术、新方法，快速转化为实操能力，积累了丰富的跨行业AI数据解决方案设计与项目管理实践经验，助力业务达成增长与效率提升目标。",
+        "统筹协调交付团队、技术团队、业务转型团队的需求与诉求，整合多方资源输出最优落地方案，推动跨团队协同",
+        "结合AIPL用户旅程模型，优化活动、网站及内容全旅程，结合市场需求与不同阶段用户特征，提炼目标用户核心需求，通过多渠道精准互动，增强用户粘性，推动转化提升"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_CUSTOMER_SUCCESS_OPERATION",
+      "name": "Customer Success Operation",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "结合AIPL用户旅程模型，优化活动、网站及内容全旅程，结合市场需求与不同阶段用户特征，提炼目标用户核心需求，通过多渠道精准互动，增强用户粘性，推动转化提升"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+          "name": "客户全生命周期经营"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "担任领域专家（SME），主导人力资源总监（HRD）仪表盘的设计与开发；优化数据治理体系、提升数据质量，联动客户搭建全维度数据覆盖方案，保障数据完整性与准确性；基于招聘、员工管理、薪酬激励、人员流失、员工技能管理五大核心模块，搭建HRD价值可视化图谱，为人力资源战略决策提供数据支撑，助力HR精细化管理落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "解决跨系统数据整合困难、数据质量低、口径不统一的问题，搭建标准化数据基础"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 基于数据标准化，设计非生能源零基预算数据方案，助力搭建科学预算体系；",
+        "担任领域专家（SME），主导人力资源总监（HRD）仪表盘的设计与开发；优化数据治理体系、提升数据质量，联动客户搭建全维度数据覆盖方案，保障数据完整性与准确性；基于招聘、员工管理、薪酬激励、人员流失、员工技能管理五大核心模块，搭建HRD价值可视化图谱，为人力资源战略决策提供数据支撑，助力HR精细化管理落地。",
+        "解决跨系统数据整合困难、数据质量低、口径不统一的问题，搭建标准化数据基础"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_STANDARDIZATION",
+          "name": "数据标准化"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Icy 拥有11年项目管理、数据分析及数字营销活动管理经验，核心优势聚焦于AI&Data解决方案设计、全流程项目管理及数据化交付。具备极强的自主学习能力，能快速吸收行业前沿技术与先进管理方法，快速适配跨行业业务场景；逻辑思维缜密，擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程，同时精通业务数据梳理、指标与报表设计、数据整合及商业价值落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_EXPERIMENTATION_AB_TESTING",
+      "name": "Experimentation and A/B Testing",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "4.分析挖掘用户需求及产品痛点，帮助运营给出优化方案，结合数据分析结果提出运营方案，进行A/B测试，验证并优化方案；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AB_TESTING",
+          "name": "A/B Testing"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "实现品牌声量（SOV）、投资回报率（ROI）等核心指标最大化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "全链路 AI/Data 方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "成本优化分析（行业对标、价差分析、供应商合理化、采购需求管理、能源零基预算管理、节降分析）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_INDUSTRY_BENCHMARKING",
+          "name": "行业对标"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "全链路 AI/Data 方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "1.对用户行为数据专项业务分析，进行分层管理，通过数据分析、调研等方式获取关键结论并形成报告，实现精细化运营；",
+        "搭建流程挖掘工具，实现O2C 流程可视化，层层拆解业务异常环节，精准完成根因分析（RCA），设计针对性优化方案并推动落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Icy 拥有11年项目管理、数据分析及数字营销活动管理经验，核心优势聚焦于AI&Data解决方案设计、全流程项目管理及数据化交付。具备极强的自主学习能力，能快速吸收行业前沿技术与先进管理方法，快速适配跨行业业务场景；逻辑思维缜密，擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程，同时精通业务数据梳理、指标与报表设计、数据整合及商业价值落地。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "1.对用户行为数据专项业务分析，进行分层管理，通过数据分析、调研等方式获取关键结论并形成报告，实现精细化运营；",
+        "擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精准排查团队达成目标过程中的潜在风险并制定针对性解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Icy 拥有11年项目管理、数据分析及数字营销活动管理经验，核心优势聚焦于AI&Data解决方案设计、全流程项目管理及数据化交付。具备极强的自主学习能力，能快速吸收行业前沿技术与先进管理方法，快速适配跨行业业务场景；逻辑思维缜密，擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程，同时精通业务数据梳理、指标与报表设计、数据整合及商业价值落地。",
+        "精准排查团队达成目标过程中的潜在风险并制定针对性解决方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "统筹协调交付团队、技术团队、业务转型团队的需求与诉求，整合多方资源输出最优落地方案，推动跨团队协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "4.分析挖掘用户需求及产品痛点，帮助运营给出优化方案，结合数据分析结果提出运营方案，进行A/B测试，验证并优化方案；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AB_TESTING",
+          "name": "A/B Testing"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "数据库：MySQL（查询）",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "4.分析挖掘用户需求及产品痛点，帮助运营给出优化方案，结合数据分析结果提出运营方案，进行A/B测试，验证并优化方案；",
+      "supports_entity_id": "SKILL_AB_TESTING",
+      "supports_entity_name": "A/B Testing",
+      "derived_capability_ids": [
+        "CAP_EXPERIMENTATION_AB_TESTING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于数据标准化，设计非生能源零基预算数据方案，助力搭建科学预算体系；",
+      "supports_entity_id": "SKILL_DATA_STANDARDIZATION",
+      "supports_entity_name": "数据标准化",
+      "derived_capability_ids": [
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：Power BI、Tableau、Looker Studio",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：Power BI、Tableau、Looker Studio",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：Power BI、Tableau、Looker Studio",
+      "supports_entity_id": "SKILL_LOOKER_STUDIO",
+      "supports_entity_name": "Looker Studio",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "supports_entity_id": "SKILL_SALESFORCE",
+      "supports_entity_name": "Salesforce",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "supports_entity_id": "SKILL_ADOBE_ANALYTICS",
+      "supports_entity_name": "Adobe Analytics",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "supports_entity_id": "SKILL_GA4",
+      "supports_entity_name": "GA4",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "工具：GA4、BrightEdge、Adobe Analytics、百度分析、百度指数、Salesforce",
+      "supports_entity_id": "SKILL_BRIGHTEDGE",
+      "supports_entity_name": "BrightEdge",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "1.对用户行为数据专项业务分析，进行分层管理，通过数据分析、调研等方式获取关键结论并形成报告，实现精细化运营；",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "成本优化分析（行业对标、价差分析、供应商合理化、采购需求管理、能源零基预算管理、节降分析）",
+      "supports_entity_id": "SKILL_INDUSTRY_BENCHMARKING",
+      "supports_entity_name": "行业对标",
+      "derived_capability_ids": [
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "精通生成式AI数据处理、工作流创建、驱动分析等核心方法，凭借严谨的逻辑思维，能从海量数据中挖掘核心关联、拆解业务痛点，通过AI&Data解决方案驱动策略优化；具备极强的跨部门沟通协调能力与项目统筹能力，精准把控项目进度与质量；同时保持持续学习的习惯，主动钻研行业新技术、新方法，快速转化为实操能力，积累了丰富的跨行业AI数据解决方案设计与项目管理实践经验，助力业务达成增长与效率提升目标。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Icy 拥有11年项目管理、数据分析及数字营销活动管理经验，核心优势聚焦于AI&Data解决方案设计、全流程项目管理及数据化交付。具备极强的自主学习能力，能快速吸收行业前沿技术与先进管理方法，快速适配跨行业业务场景；逻辑思维缜密，擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程，同时精通业务数据梳理、指标与报表设计、数据整合及商业价值落地。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "前沿应用：生成式 AI 在数据分析、工作流自动化、业务洞察中的落地实践；",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "担任领域专家（SME），主导人力资源总监（HRD）仪表盘的设计与开发；优化数据治理体系、提升数据质量，联动客户搭建全维度数据覆盖方案，保障数据完整性与准确性；基于招聘、员工管理、薪酬激励、人员流失、员工技能管理五大核心模块，搭建HRD价值可视化图谱，为人力资源战略决策提供数据支撑，助力HR精细化管理落地。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长拆解复杂业务需求、梳理数据逻辑，结合业务痛点设计可落地的AI数据解决方案，统筹项目从需求对接、方案搭建到落地复盘的全流程",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "搭建流程挖掘工具，实现O2C 流程可视化，层层拆解业务异常环节，精准完成根因分析（RCA），设计针对性优化方案并推动落地",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "统筹协调交付团队、技术团队、业务转型团队的需求与诉求，整合多方资源输出最优落地方案，推动跨团队协同",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "实现品牌声量（SOV）、投资回报率（ROI）等核心指标最大化",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "解决跨系统数据整合困难、数据质量低、口径不统一的问题，搭建标准化数据基础",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "全链路 AI/Data 方案设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "精准排查团队达成目标过程中的潜在风险并制定针对性解决方案",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "结合AIPL用户旅程模型，优化活动、网站及内容全旅程，结合市场需求与不同阶段用户特征，提炼目标用户核心需求，通过多渠道精准互动，增强用户粘性，推动转化提升",
+      "supports_entity_id": "SKILL_CUSTOMER_OPERATION_LIFECYCLE",
+      "supports_entity_name": "客户全生命周期经营",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_CUSTOMER_SUCCESS_OPERATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "百度分析",
+      "evidence": "数字媒体与用户分析工具：百度分析"
+    },
+    {
+      "skill_id": "",
+      "name": "百度指数",
+      "evidence": "数字媒体与用户分析工具：百度指数"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "能看懂sql 代码并做简单开发"
+    },
+    {
+      "skill_id": "",
+      "name": "流程挖掘",
+      "evidence": "全链路 AI/Data 方案设计包含流程挖掘及全流程效率优化"
+    },
+    {
+      "skill_id": "",
+      "name": "生成式AI",
+      "evidence": "精通生成式AI数据处理、工作流创建、驱动分析等核心方法"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IBM",
+      "职位": "Digital Specialist",
+      "时间": "",
+      "描述": "以用户需求与转化为核心，结合用户画像及市场规划，分析线上媒体推广效果，合理分配渠道资源，实现品牌声量（SOV）、投资回报率（ROI）等核心指标最大化；运用GA等工具开展网站及用户深度分析，优化营销活动旅程。"
+    },
+    {
+      "公司": "腾讯无线大连研发中心",
+      "职位": "市场运营",
+      "时间": "",
+      "描述": "对用户行为数据专项业务分析，进行分层管理；搭建并不断完善业务回归模型，对用户行为进行预测；策划线下活动，撰写数据分析报告，组织复盘会议；确认网站埋点，改善网站跳出率，提高网站转化率。"
+    },
+    {
+      "公司": "民生电子商务有限责任公司",
+      "职位": "数据运营主管",
+      "时间": "",
+      "描述": "分析用户购买行为数据，提炼品类偏好与消费趋势；负责本城市及所辖门店的销售业务分析，市场调研，竞对分析，数据运营等工作；辅助公司共拓店21家，参与每个城市分公司及每个门店从人员招聘、到人员培训、城市运营的全流程工作。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "1.线上媒体推广效果评估及规划，通过Search/Media Banner 等渠道的资源合理分配达成Share of voice ,responses conversion 等最大化回报。",
+      "source": "rule",
+      "matched_term": "Media"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "成本优化分析（行业对标、价差分析、供应商合理化、采购需求管理、能源零基预算管理、节降分析）",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "heyuan.chen_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\heyuan.chen_profile_CN.md",
+    "source_hash": "16f31f67525fba6ac64378ea5e4ca216c5aa243603df752a5ef919f0f6669c35",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:22:59"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

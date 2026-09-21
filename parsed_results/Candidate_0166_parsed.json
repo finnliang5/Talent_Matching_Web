@@ -1,0 +1,379 @@
+{
+  "姓名": "Candidate_0166",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.8,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "\\- \\[JAVA]",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_KUBERNETES",
+      "name": "Kubernetes",
+      "type": "TOOL",
+      "evidence": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "K8s"
+      ],
+      "matched_term": "K8s"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "针对云平台的各种组件如AKS,DATABASE等资源，便于统一管理平台资源优化资源结构，提供技术方案，节省开支，规范客户的流程管理操作。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "该项目是为公司内各个项目的AZURE基础云设施进行的开发维护，COST SAVING评估以及流程管理开发",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "该项目是为公司内各个项目的AZURE基础云设施进行的开发维护，COST SAVING评估以及流程管理开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes",
+          "rule_id": "RULE_K8S_TO_CLOUD_ARCH",
+          "rule_name": "Kubernetes -> CAP_CLOUD_ARCHITECTURE",
+          "inference_reason": "Kubernetes experience is adjacent to cloud-native architecture, but no longer implies IaC directly.",
+          "inference_weight": 0.67
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONTAINER_OPERATION",
+      "name": "Container Operations",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KUBERNETES",
+          "name": "Kubernetes"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "该项目是为公司内各个项目的AZURE基础云设施进行的开发维护，COST SAVING评估以及流程管理开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "针对云平台的各种组件如AKS,DATABASE等资源，便于统一管理平台资源优化资源结构，提供技术方案，节省开支，规范客户的流程管理操作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "\\- \\[JAVA]",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。】",
+      "supports_entity_id": "SKILL_KUBERNETES",
+      "supports_entity_name": "Kubernetes",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_CONTAINER_OPERATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "针对云平台的各种组件如AKS,DATABASE等资源，便于统一管理平台资源优化资源结构，提供技术方案，节省开支，规范客户的流程管理操作。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "该项目是为公司内各个项目的AZURE基础云设施进行的开发维护，COST SAVING评估以及流程管理开发",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AKS",
+      "evidence": "项目经验中提及：“针对云平台的各种组件如AKS,DATABASE等资源”"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceBus",
+      "evidence": "项目经验中提及：“使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件”"
+    },
+    {
+      "skill_id": "",
+      "name": "PGSQL",
+      "evidence": "项目经验中提及：“主要使用了K8S,SPRINGBOOT,PGSQL,FLUX等技术”"
+    },
+    {
+      "skill_id": "",
+      "name": "FLUX",
+      "evidence": "项目经验中提及：“主要使用了K8S,SPRINGBOOT,PGSQL,FLUX等技术”"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "大连埃森哲",
+      "职位": "开发运维工程师",
+      "时间": "",
+      "描述": "该项目是为公司内各个项目的AZURE基础云设施进行的开发维护，COST SAVING评估以及流程管理开发，针对云平台的各种组件如AKS,DATABASE等资源，便于统一管理平台资源优化资源结构，提供技术方案，节省开支，规范客户的流程管理操作。"
+    },
+    {
+      "公司": "大连埃森哲",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "该项目为针对公司各个原项目进行云平台的迁移适配，主要负责改造SPRINGBOOT应用，VUE应用，PYTHON应用等，使其能够在AKS环境下进行正常运行，使用了K8S，JAVA,DATABASE，SERVICEBUS等技术组件，实现了各个项目在新云平台的平稳运行。"
+    },
+    {
+      "公司": "大连埃森哲",
+      "职位": "开发工程师",
+      "时间": "",
+      "描述": "该项目由云平台部署组件以及客户端部署组件构成，云平台组件负责数据的集中管理与分析，客户端组件部署在各个医院部门中，客户端组件可以动态嵌入多功能模块，为医院诊疗提供技术支持，主要使用了K8S,SPRINGBOOT,PGSQL,FLUX等技术，为客户开拓更多的医药诊疗市场提供技术支持。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "【医药】",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "【金融】",
+      "source": "rule",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "yanqun.ren_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yanqun.ren_profile_CN.md",
+    "source_hash": "3d6cb7d3c535954593f5d4a3191c81a06d19e483aac5485fdd112bf25f191bd1",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:36:13"
+  },
+  "城市": "Dalian"
+}

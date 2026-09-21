@@ -1,0 +1,972 @@
+{
+  "姓名": "Candidate_0184",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 20,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python开发工程师，大连泛游创想科技有限公司 (2017.06 - 2023.03)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_GO_CORE",
+      "name": "Go",
+      "type": "LANGUAGE",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Golang",
+        "go语言",
+        "Go语言",
+        "Google Go"
+      ],
+      "languages": [
+        "Go"
+      ],
+      "matched_term": "Golang"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_DJANGO",
+      "name": "Django",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Django"
+    },
+    {
+      "skill_id": "SKILL_FLASK",
+      "name": "Flask",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Flask"
+    },
+    {
+      "skill_id": "SKILL_EXPRESS",
+      "name": "Express",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Express.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "belongs_to": [
+        "SKILL_NODEJS"
+      ],
+      "matched_term": "Express"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- 使用框架: Django, Flask, FastAPI, LangChain, Beego, Gin, Express等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "拥有逾16年深厚的技术研发与工程化落地经验，现为埃森哲AI/ML计算科学专家。专注于将前沿人工智能技术（特别是大语言模型LLM）转化为高价值的商业解决方案。擅长构建端到端的AI系统，从复杂的数据提取、智能处理到严谨的自动化校验，成功主导了多个关键客户的AI审计与认证平台建设，显著提升了业务流程的智能化水平与合规性保障。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_MCP_PROTOCOL",
+      "name": "MCP协议",
+      "type": "AI_PROTOCOL",
+      "evidence": "- 重点投入方向：强化LLM框架设计、多模态AI混合架构、智能体编排系统设计以及 MCP协议、Skill定义、Multiple Agent协作等前沿技术的深入研究与实践应用",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "MCP",
+        "Model Context Protocol",
+        "MCP Protocol",
+        "模型上下文协议"
+      ],
+      "matched_term": "MCP协议"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MILVUS",
+      "name": "Milvus",
+      "type": "VECTOR_DATABASE",
+      "evidence": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Milvus"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- 数据库：Mysql, Sql Server, Redis, MongoDB",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "evidence": "- AI与计算机视觉：LLM，多模态，Stable Diffusion, OCR文字识别, OpenCV, PyTorch等",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PyTorch"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 云相关: 熟练运用Docker进行服务的容器化部署，并熟悉腾讯云、阿里云等主流云平台的相关服务",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    },
+    {
+      "skill_id": "SKILL_SELENIUM",
+      "name": "Selenium",
+      "type": "TEST_AUTOMATION_TOOL",
+      "evidence": "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Selenium WebDriver",
+        "WebDriver"
+      ],
+      "matched_term": "Selenium"
+    },
+    {
+      "skill_id": "SKILL_DEVOPS",
+      "name": "DevOps",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dev Ops",
+        "研发运维一体化"
+      ],
+      "matched_term": "DevOps"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 海量数据治理专家: 为解决高昂的CMEM存储成本，设计并实施了一套分布式数据迁移方案。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "针对EBS系统不稳定性，设计流式处理架构与智能重试机制，引入异常检测算法自动识别卡死状态并执行恢复策略。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导开发了一套高度灵活、可扩展的智能校验框架。该框架创新性地整合了表达式配置引擎、自定义代码校验模块及大语言模型（LLM）推理能力，能够无缝对接并处理来自数十个不同数据源的复杂信息。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "贝壳余额表项目：实现从20人工3天的工作量到自动化1天的效率飞跃；微软Banner项目：将单张Banner的平均制作时间从数小时缩短至分钟级。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 使用框架: Django, Flask, FastAPI, LangChain, Beego, Gin, Express等",
+        "- 重点投入方向：强化LLM框架设计、多模态AI混合架构、智能体编排系统设计以及 MCP协议、Skill定义、Multiple Agent协作等前沿技术的深入研究与实践应用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "贝壳余额表项目：实现从20人工3天的工作量到自动化1天的效率飞跃；微软Banner项目：将单张Banner的平均制作时间从数小时缩短至分钟级。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 海量数据治理专家: 为解决高昂的CMEM存储成本，设计并实施了一套分布式数据迁移方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 海量数据治理专家: 为解决高昂的CMEM存储成本，设计并实施了一套分布式数据迁移方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云相关: 熟练运用Docker进行服务的容器化部署，并熟悉腾讯云、阿里云等主流云平台的相关服务"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "贝壳余额表项目：实现从20人工3天的工作量到自动化1天的效率飞跃；微软Banner项目：将单张Banner的平均制作时间从数小时缩短至分钟级。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导开发了一套高度灵活、可扩展的智能校验框架。该框架创新性地整合了表达式配置引擎、自定义代码校验模块及大语言模型（LLM）推理能力，能够无缝对接并处理来自数十个不同数据源的复杂信息。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 使用框架: Django, Flask, FastAPI, LangChain, Beego, Gin, Express等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 重点投入方向：强化LLM框架设计、多模态AI混合架构、智能体编排系统设计以及 MCP协议、Skill定义、Multiple Agent协作等前沿技术的深入研究与实践应用"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MCP_PROTOCOL",
+          "name": "MCP协议"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI与计算机视觉：LLM，多模态，Stable Diffusion, OCR文字识别, OpenCV, PyTorch等"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYTORCH",
+          "name": "PyTorch"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导开发了一套高度灵活、可扩展的智能校验框架。该框架创新性地整合了表达式配置引擎、自定义代码校验模块及大语言模型（LLM）推理能力，能够无缝对接并处理来自数十个不同数据源的复杂信息。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 使用框架: Django, Flask, FastAPI, LangChain, Beego, Gin, Express等",
+        "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计",
+        "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus",
+          "rule_id": "RULE_MILVUS_TO_RAG",
+          "rule_name": "Milvus -> CAP_RAG",
+          "inference_reason": "Milvus commonly appears as vector retrieval infrastructure in RAG systems.",
+          "inference_weight": 0.72
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DEVOPS",
+          "name": "DevOps"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "针对EBS系统不稳定性，设计流式处理架构与智能重试机制，引入异常检测算法自动识别卡死状态并执行恢复策略。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SELENIUM",
+          "name": "Selenium"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_VECTOR_DATABASE_ENGINEERING",
+      "name": "Vector Database Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MILVUS",
+          "name": "Milvus"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python开发工程师，大连泛游创想科技有限公司 (2017.06 - 2023.03)",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_GO_CORE",
+      "supports_entity_name": "Go",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_DJANGO",
+      "supports_entity_name": "Django",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_FLASK",
+      "supports_entity_name": "Flask",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发: 使用Python（Django, Flask, FastAPI）及Golang（Beego, Gin）/ nodejs（Express）/php 构建高性能后端服务",
+      "supports_entity_id": "SKILL_EXPRESS",
+      "supports_entity_name": "Express",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 使用框架: Django, Flask, FastAPI, LangChain, Beego, Gin, Express等",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有逾16年深厚的技术研发与工程化落地经验，现为埃森哲AI/ML计算科学专家。专注于将前沿人工智能技术（特别是大语言模型LLM）转化为高价值的商业解决方案。擅长构建端到端的AI系统，从复杂的数据提取、智能处理到严谨的自动化校验，成功主导了多个关键客户的AI审计与认证平台建设，显著提升了业务流程的智能化水平与合规性保障。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 重点投入方向：强化LLM框架设计、多模态AI混合架构、智能体编排系统设计以及 MCP协议、Skill定义、Multiple Agent协作等前沿技术的深入研究与实践应用",
+      "supports_entity_id": "SKILL_MCP_PROTOCOL",
+      "supports_entity_name": "MCP协议",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 大语言模型（LLM）全栈应用: 精通Prompt Engineering（提示词工程）、RAG（检索增强生成）架构设计",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "supports_entity_id": "SKILL_MILVUS",
+      "supports_entity_name": "Milvus",
+      "derived_capability_ids": [
+        "CAP_RAG",
+        "CAP_VECTOR_DATABASE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：Mysql, Sql Server, Redis, MongoDB",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库与缓存: 熟练掌握关系型（MySQL, SQL Server）数据库 与向量（Milvus）数据库，并精通Redis缓存优化策略。",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与计算机视觉：LLM，多模态，Stable Diffusion, OCR文字识别, OpenCV, PyTorch等",
+      "supports_entity_id": "SKILL_PYTORCH",
+      "supports_entity_name": "PyTorch",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云相关: 熟练运用Docker进行服务的容器化部署，并熟悉腾讯云、阿里云等主流云平台的相关服务",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。",
+      "supports_entity_id": "SKILL_SELENIUM",
+      "supports_entity_name": "Selenium",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 自动化与运维: 具备强大的系统集成与自动化能力，熟练使用Selenium进行复杂UI自动化，并能高效利用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程。",
+      "supports_entity_id": "SKILL_DEVOPS",
+      "supports_entity_name": "DevOps",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 海量数据治理专家: 为解决高昂的CMEM存储成本，设计并实施了一套分布式数据迁移方案。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "针对EBS系统不稳定性，设计流式处理架构与智能重试机制，引入异常检测算法自动识别卡死状态并执行恢复策略。",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导开发了一套高度灵活、可扩展的智能校验框架。该框架创新性地整合了表达式配置引擎、自定义代码校验模块及大语言模型（LLM）推理能力，能够无缝对接并处理来自数十个不同数据源的复杂信息。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "贝壳余额表项目：实现从20人工3天的工作量到自动化1天的效率飞跃；微软Banner项目：将单张Banner的平均制作时间从数小时缩短至分钟级。",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "nssm",
+      "evidence": "常用工具: Git, Svn, Nginx, Docker, nssm, Selenium, PyInstaller"
+    },
+    {
+      "skill_id": "",
+      "name": "PyInstaller",
+      "evidence": "常用工具: Git, Svn, Nginx, Docker, nssm, Selenium, PyInstaller"
+    },
+    {
+      "skill_id": "",
+      "name": "Supervisor",
+      "evidence": "自动化与运维: 熟练使用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程"
+    },
+    {
+      "skill_id": "",
+      "name": "Forever",
+      "evidence": "自动化与运维: 熟练使用Linux Shell脚本、Supervisor、Forever等工具实现DevOps流程"
+    },
+    {
+      "skill_id": "",
+      "name": "LDA",
+      "evidence": "并结合LDA主题模型对营销素材进行语义聚类与主题匹配"
+    },
+    {
+      "skill_id": "",
+      "name": "Oracle EBS",
+      "evidence": "集成Selenium操作Oracle EBS与汇金系统"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 (Accenture)",
+      "职位": "AI/ML Computational Science Specialist",
+      "时间": "",
+      "描述": "主导开发智能校验框架、AI内容生成流水线、自动化查询平台等，推动AI在审计、营销、财务领域的应用，实现显著效率提升。"
+    },
+    {
+      "公司": "大连泛游创想科技有限公司",
+      "职位": "Python开发工程师",
+      "时间": "2017.06 - 2023.03",
+      "描述": "负责游戏后端架构设计、核心功能开发、性能优化，通过分布式锁、读写分离、DevOps自动化提升系统性能与稳定性。"
+    },
+    {
+      "公司": "北京分播时代网络科技有限公司",
+      "职位": "Python开发工程师",
+      "时间": "2010.01 - 2017.05",
+      "描述": "核心后端开发，应对高并发，微服务解耦，数据迁移，大幅降低服务器成本。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 游戏与互动娱乐",
+      "source": "rule",
+      "matched_term": "娱乐"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "行业经验：财务审计",
+      "source": "llm",
+      "matched_term": "金融"
+    }
+  ],
+  "_batch": {
+    "source_file": "zaiyang.yu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zaiyang.yu_profile_CN.md",
+    "source_hash": "de4072bc3967ffd5300d3e7bf0930cdc542ff3f59f76c071cad8230763eb417a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:44:34"
+  },
+  "城市": "Dalian"
+}

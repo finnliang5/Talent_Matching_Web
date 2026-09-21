@@ -1,0 +1,811 @@
+{
+  "姓名": "Candidate_0006",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "TECHNICAL",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 8,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "* Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "* LangChain",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 基于大语言模型（LLM）、RAG 架构及元提示（Meta Prompting）实现功能型 MVP AI 智能体，全面展示自主查询处理、意图识别、上下文分析、情绪检测及 API 调用等端到端智能体能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_AZURE_OPENAI",
+      "name": "Azure OpenAI",
+      "type": "CLOUD_SERVICE",
+      "evidence": "* Azure OpenAI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Azure OpenAI Service",
+        "AOAI",
+        "Azure OpenAI API"
+      ],
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Azure OpenAI"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "提示词工程"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "* AI与机器学习研究员",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "* 基于Tableau构建交互式数据可视化仪表板，支持投资人进行即席 “What-if” 情景分析",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "Caroline 现任职于埃森哲香港，担任 AI 与数据咨询顾问。她曾从事自然语言处理（Natural Language Processing）相关研究，并参与生成式 AI 及 Agentic AI 项目的开发与落地。此外，她还具备丰富的数字化转型经验，曾协助多家《财富》500 强企业实施及升级其企业资源规划（ERP）平台。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计客户服务AI智能体整体架构及 Agentic AI 劳动力能力体系；为 MetLife 亚洲区域市场团队设计端到端的 Agentic AI 战略方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "将投资回报率（ROI）从12%提升至19%；协助追回超过5,000万美元 的收入损失",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "针对主数据及交易数据开发自动化数据校验工具，支持每一轮数据迁移的数据质量验证与问题识别",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "开展未计费电表订单的数据分析，识别并解决计费异常问题",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* LangChain"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 基于Tableau构建交互式数据可视化仪表板，支持投资人进行即席 “What-if” 情景分析"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "开展未计费电表订单的数据分析，识别并解决计费异常问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计",
+        "将投资回报率（ROI）从12%提升至19%；协助追回超过5,000万美元 的收入损失"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "针对主数据及交易数据开发自动化数据校验工具，支持每一轮数据迁移的数据质量验证与问题识别"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "针对主数据及交易数据开发自动化数据校验工具，支持每一轮数据迁移的数据质量验证与问题识别"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "将投资回报率（ROI）从12%提升至19%；协助追回超过5,000万美元 的收入损失"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计客户服务AI智能体整体架构及 Agentic AI 劳动力能力体系；为 MetLife 亚洲区域市场团队设计端到端的 Agentic AI 战略方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* LangChain"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_LLM_API_ENGINEERING",
+      "name": "LLM API Engineering",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* Azure OpenAI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_OPENAI",
+          "name": "Azure OpenAI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* AI与机器学习研究员"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计客户服务AI智能体整体架构及 Agentic AI 劳动力能力体系；为 MetLife 亚洲区域市场团队设计端到端的 Agentic AI 战略方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "开展未计费电表订单的数据分析，识别并解决计费异常问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "* LangChain",
+        "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "开展未计费电表订单的数据分析，识别并解决计费异常问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "Caroline 现任职于埃森哲香港，担任 AI 与数据咨询顾问。她曾从事自然语言处理（Natural Language Processing）相关研究，并参与生成式 AI 及 Agentic AI 项目的开发与落地。此外，她还具备丰富的数字化转型经验，曾协助多家《财富》500 强企业实施及升级其企业资源规划（ERP）平台。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 4
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* LangChain",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 基于大语言模型（LLM）、RAG 架构及元提示（Meta Prompting）实现功能型 MVP AI 智能体，全面展示自主查询处理、意图识别、上下文分析、情绪检测及 API 调用等端到端智能体能力",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* Azure OpenAI",
+      "supports_entity_id": "SKILL_AZURE_OPENAI",
+      "supports_entity_name": "Azure OpenAI",
+      "derived_capability_ids": [
+        "CAP_LLM_API_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* AI与机器学习研究员",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 基于Tableau构建交互式数据可视化仪表板，支持投资人进行即席 “What-if” 情景分析",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "Caroline 现任职于埃森哲香港，担任 AI 与数据咨询顾问。她曾从事自然语言处理（Natural Language Processing）相关研究，并参与生成式 AI 及 Agentic AI 项目的开发与落地。此外，她还具备丰富的数字化转型经验，曾协助多家《财富》500 强企业实施及升级其企业资源规划（ERP）平台。",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计客户服务AI智能体整体架构及 Agentic AI 劳动力能力体系；为 MetLife 亚洲区域市场团队设计端到端的 Agentic AI 战略方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将投资回报率（ROI）从12%提升至19%；协助追回超过5,000万美元 的收入损失",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "针对主数据及交易数据开发自动化数据校验工具，支持每一轮数据迁移的数据质量验证与问题识别",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "开展未计费电表订单的数据分析，识别并解决计费异常问题",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "基于Excel VBA 与 SAP 开发自动化程序"
+    },
+    {
+      "skill_id": "",
+      "name": "RAG架构",
+      "evidence": "结合 RAG 架构与提示词工程进行优化"
+    },
+    {
+      "skill_id": "",
+      "name": "Deepseek",
+      "evidence": "工具与平台列表明确列出"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "MetLife 保险",
+      "职位": "战略咨询顾问",
+      "时间": "",
+      "描述": "为 MetLife 亚洲区域市场团队设计端到端的 Agentic AI 战略方案；识别并定义5个可通过 Agentic AI 协同编排的核心业务用例；覆盖5个亚洲市场开展调研，评估市场就绪度与价值影响，并整合洞察以支持 Agentic AI 方案设计"
+    },
+    {
+      "公司": "Ernst & Young LLP（安永）",
+      "职位": "生成式AI开发工程师",
+      "时间": "",
+      "描述": "主导开发生成式 AI 聊天机器人，将自然语言形式的税务与审计问题自动转换为 SQL 查询，并结合 RAG 架构与提示词工程进行优化；将信息查询与检索时间缩短85%，并在2个月内实现500+活跃用户的落地与使用"
+    },
+    {
+      "公司": "美国电商平台",
+      "职位": "战略咨询顾问",
+      "时间": "",
+      "描述": "设计客户服务AI智能体整体架构及 Agentic AI 劳动力能力体系；基于大语言模型（LLM）、RAG 架构及元提示（Meta Prompting）实现功能型 MVP AI 智能体，全面展示自主查询处理、意图识别、上下文分析、情绪检测及 API 调用等端到端智能体能力"
+    },
+    {
+      "公司": "美国房地产投资公司",
+      "职位": "项目经理 & 机器学习工程师",
+      "时间": "",
+      "描述": "领导由 6 人组成的跨职能团队，交付房地产增长与估值模型；构建机器学习模型，对覆盖800+邮政编码区域的房价数据进行分析；面向3个都会区（MSA）生成投资建议，将投资回报率（ROI）从12%提升至19%；基于Tableau构建交互式数据可视化仪表板，支持投资人进行即席 What-if 情景分析"
+    },
+    {
+      "公司": "美国能源公司",
+      "职位": "数据分析咨询顾问",
+      "时间": "",
+      "描述": "开展未计费电表订单的数据分析，识别并解决计费异常问题，协助追回超过5,000万美元 的收入损失；基于Excel VBA 与 SAP 开发自动化程序，实现数据分析与 SAP 执行流程自动化，成功更正15万+条未计费数据记录"
+    },
+    {
+      "公司": "Chanel（香奈儿）",
+      "职位": "数据与报表咨询顾问",
+      "时间": "",
+      "描述": "负责数据迁移及数据报表相关工作流的统筹与管理，确保 ERP 项目各阶段数据交付的准确性与一致性；针对主数据及交易数据开发自动化数据校验工具，支持每一轮数据迁移的数据质量验证与问题识别"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "* 保险",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "* 重点关注消费品与零售（CG\\&R）、科技、媒体与通信（TMT）及保险行业，持续提升 AI 战略制定能力、AI 技术开发能力及项目管理能力",
+      "source": "rule",
+      "matched_term": "通信"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "* 化学与新能源",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "caroline.z.ai_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\caroline.z.ai_profile_CN.md",
+    "source_hash": "efb8131773293d8c3a6d2656d0f911044ca0f408d82c58b03889ea864e949e53",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:14:07"
+  },
+  "城市": "Hong Kong"
+}

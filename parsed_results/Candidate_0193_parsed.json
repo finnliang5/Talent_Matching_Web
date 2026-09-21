@@ -1,0 +1,592 @@
+{
+  "姓名": "Candidate_0193",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "TECHNICAL",
+      "BA"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 6,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_TYPESCRIPT",
+      "name": "TypeScript",
+      "type": "LANGUAGE",
+      "evidence": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "TS"
+      ],
+      "languages": [
+        "TypeScript"
+      ],
+      "matched_term": "TypeScript"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 组建并领导技术研发团队，主导客户需求分析、系统架构设计及核心功能开发",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 历任软件开发工程师、流程顾问、技术负责人至应用开发助理项目经理，具备从一线编码到项目管理的完整晋升路径。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "深入业务部门调研现状，梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "严格把控项目进度与质量（中国某大型能源企业项目）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "确保项目按时保质交付，并负责系统上线后的运维支持与版本升级（中国某大型能源企业项目）；负责系统交付后的用户培训、运维支持及功能迭代（中国某大型金融保险集团项目）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **技术栈**：C#, Typescript, Angular, MySql"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "深入业务部门调研现状，梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 历任软件开发工程师、流程顾问、技术负责人至应用开发助理项目经理，具备从一线编码到项目管理的完整晋升路径。",
+        "确保项目按时保质交付，并负责系统上线后的运维支持与版本升级（中国某大型能源企业项目）；负责系统交付后的用户培训、运维支持及功能迭代（中国某大型金融保险集团项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "严格把控项目进度与质量（中国某大型能源企业项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "深入业务部门调研现状，梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）",
+        "梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 历任软件开发工程师、流程顾问、技术负责人至应用开发助理项目经理，具备从一线编码到项目管理的完整晋升路径。",
+        "严格把控项目进度与质量（中国某大型能源企业项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 组建并领导技术研发团队，主导客户需求分析、系统架构设计及核心功能开发",
+        "深入业务部门调研现状，梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 组建并领导技术研发团队，主导客户需求分析、系统架构设计及核心功能开发"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 历任软件开发工程师、流程顾问、技术负责人至应用开发助理项目经理，具备从一线编码到项目管理的完整晋升路径。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "supports_entity_id": "SKILL_TYPESCRIPT",
+      "supports_entity_name": "TypeScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：C#, Typescript, Angular, MySql",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **技术栈**：Azure, C#, Java, Python, GitHub Copilot, Kafka, Azure Data Explorer",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 组建并领导技术研发团队，主导客户需求分析、系统架构设计及核心功能开发",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 历任软件开发工程师、流程顾问、技术负责人至应用开发助理项目经理，具备从一线编码到项目管理的完整晋升路径。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "深入业务部门调研现状，梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "梳理并优化复杂的跨部门业务流程（日本某跨国大型制造业公司项目）",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "严格把控项目进度与质量（中国某大型能源企业项目）",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "确保项目按时保质交付，并负责系统上线后的运维支持与版本升级（中国某大型能源企业项目）；负责系统交付后的用户培训、运维支持及功能迭代（中国某大型金融保险集团项目）",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Blue Prism",
+      "evidence": "日本某跨国大型制造业公司项目技术栈：Blue Prism"
+    },
+    {
+      "skill_id": "",
+      "name": "Dynamics AX",
+      "evidence": "日本某大型汽车制造公司项目技术栈：Dynamics AX"
+    },
+    {
+      "skill_id": "",
+      "name": "GitHub Copilot",
+      "evidence": "某全球顶尖科技企业项目技术栈：GitHub Copilot"
+    },
+    {
+      "skill_id": "",
+      "name": "Azure Data Explorer",
+      "evidence": "某全球顶尖科技企业项目技术栈：Azure Data Explorer"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "",
+      "职位": "应用开发助理项目经理 / 核心研发",
+      "时间": "2024年至今",
+      "描述": "负责全球化云平台核心数据传输模块的架构设计与迭代开发，引入AI辅助编程工具提升研发效能，进行高并发场景性能调优与安全加固。"
+    },
+    {
+      "公司": "",
+      "职位": "技术负责人 / 项目经理",
+      "时间": "2022年~2023年",
+      "描述": "组建技术团队，主导客户需求分析、系统架构设计及核心功能开发，全面负责项目全生命周期管理，确保按时保质交付，并负责客户培训与运维支持。"
+    },
+    {
+      "公司": "",
+      "职位": "技术负责人 / 项目经理",
+      "时间": "2018年~2021年",
+      "描述": "主导企业级自动化调度平台的架构设计与开发实施，负责项目进度管控与技术难题攻关，交付后提供用户培训、运维支持及功能迭代。"
+    },
+    {
+      "公司": "",
+      "职位": "流程顾问 / 流程自动化专家",
+      "时间": "2017年~2018年",
+      "描述": "深入调研业务部门，梳理优化跨部门流程，评估自动化可行性并主导RPA实施与部署，开发定制化扩展组件，对团队及客户进行技术培训。"
+    },
+    {
+      "公司": "",
+      "职位": "软件开发工程师",
+      "时间": "2015年~2016年",
+      "描述": "负责核心业务系统集成接口开发与单元测试，保障异构系统间数据流转的准确性与及时性。"
+    },
+    {
+      "公司": "",
+      "职位": "软件开发工程师",
+      "时间": "2012年~2013年",
+      "描述": "依据设计方案进行核心业务功能模块编码与单元测试，保障异构系统间数据流转的准确性与及时性。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "拥有20年以上企业级应用开发与管理经验，现任埃森哲公司应用开发助理项目经理。长期专注于企业管理系统、供应链系统及财务系统的规划、设计与实施，对企业级应用的全生命周期管理有着深刻理解。曾主导多家大中型企业（涵盖快消、能源、金融及制造领域）的IT架构规划与核心平台建设项目，擅长通过技术创新赋能业务转型。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 某全球顶尖科技企业（2024年至今）",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "拥有20年以上企业级应用开发与管理经验，现任埃森哲公司应用开发助理项目经理。长期专注于企业管理系统、供应链系统及财务系统的规划、设计与实施，对企业级应用的全生命周期管理有着深刻理解。曾主导多家大中型企业（涵盖快消、能源、金融及制造领域）的IT架构规划与核心平台建设项目，擅长通过技术创新赋能业务转型。",
+      "source": "rule",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "zhipeng.zhou_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\zhipeng.zhou_profile_CN.md",
+    "source_hash": "8610886576356ec13583e0dcd4651a25d9cd5b102ff9591d6a0c039bca871624",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:47:30"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,805 @@
+{
+  "姓名": "Candidate_0019",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "BA",
+      "PRODUCT"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 7,
+      "competency_count": 8
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_KNOWLEDGE_GRAPH",
+      "name": "知识图谱",
+      "type": "AI_TECHNIQUE",
+      "evidence": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Knowledge Graph",
+        "KG",
+        "语义图谱"
+      ],
+      "matched_term": "知识图谱"
+    },
+    {
+      "skill_id": "SKILL_JUPYTER_NOTEBOOK",
+      "name": "Jupyter Notebook",
+      "type": "TOOL",
+      "evidence": "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Jupyter",
+        "JupyterLab",
+        "Notebook"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Jupyter Notebook"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "- 【Jira、阿里云效、Figma、Tableau】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "项目完成情况：拥有端到端项目交付经验，覆盖需求分析、方案设计、模型优化、PRD 输出、跨团队协同到上线验收全过程，能够推动复杂项目高质量落地，并持续提升业务效率、数据质量与决策价值】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 【项目与流程管理：具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "具备 SOP 流程设计与端到端交付管理经验；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "具备跨团队协作能力；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "专注人工智能在产业场景中的应用实践，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "具备生成式 AI 应用设计能力，涵盖 Prompt Engineering、LLM 微调、知识图谱与标签体系架构设计；基于竞品调研与业务指标体系设计社媒数据抽取框架及核心字段 schema",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "擅长数据建模、结构化 schema 设计；构建领域知识图谱及多层级标签体系，定义实体关系与语义本体；负责前期数据集构建",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度；多文化环境适应能力强",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注人工智能在产业场景中的应用实践，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "专注人工智能在产业场景中的应用实践，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Jira、阿里云效、Figma、Tableau】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "专注人工智能在产业场景中的应用实践，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备跨团队协作能力；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度",
+        "协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度；多文化环境适应能力强"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "擅长数据建模、结构化 schema 设计；构建领域知识图谱及多层级标签体系，定义实体关系与语义本体；负责前期数据集构建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "擅长数据建模、结构化 schema 设计；构建领域知识图谱及多层级标签体系，定义实体关系与语义本体；负责前期数据集构建"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STORYTELLING",
+      "name": "Data Storytelling",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目与流程管理：具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "具备生成式 AI 应用设计能力，涵盖 Prompt Engineering、LLM 微调、知识图谱与标签体系架构设计；基于竞品调研与业务指标体系设计社媒数据抽取框架及核心字段 schema"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_KNOWLEDGE_GRAPH",
+      "name": "Knowledge Graph",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KNOWLEDGE_GRAPH",
+          "name": "知识图谱"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "具备生成式 AI 应用设计能力，涵盖 Prompt Engineering、LLM 微调、知识图谱与标签体系架构设计；基于竞品调研与业务指标体系设计社媒数据抽取框架及核心字段 schema"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备 SOP 流程设计与端到端交付管理经验；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目与流程管理：具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "项目完成情况：拥有端到端项目交付经验，覆盖需求分析、方案设计、模型优化、PRD 输出、跨团队协同到上线验收全过程，能够推动复杂项目高质量落地，并持续提升业务效率、数据质量与决策价值】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "项目完成情况：拥有端到端项目交付经验，覆盖需求分析、方案设计、模型优化、PRD 输出、跨团队协同到上线验收全过程，能够推动复杂项目高质量落地，并持续提升业务效率、数据质量与决策价值】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【项目与流程管理：具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备跨团队协作能力；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_JUPYTER_NOTEBOOK",
+          "name": "Jupyter Notebook"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "supports_entity_id": "SKILL_KNOWLEDGE_GRAPH",
+      "supports_entity_name": "知识图谱",
+      "derived_capability_ids": [
+        "CAP_KNOWLEDGE_GRAPH"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook】",
+      "supports_entity_id": "SKILL_JUPYTER_NOTEBOOK",
+      "supports_entity_name": "Jupyter Notebook",
+      "derived_capability_ids": [
+        "CAP_DATA_STORYTELLING",
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "人工智能应用：专注人工智能在产业场景中的应用实践，具备从 Prompt Engineering、LLM 信息抽取、知识图谱构建到聚类算法优化的完整能力链，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Jira、阿里云效、Figma、Tableau】",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "项目完成情况：拥有端到端项目交付经验，覆盖需求分析、方案设计、模型优化、PRD 输出、跨团队协同到上线验收全过程，能够推动复杂项目高质量落地，并持续提升业务效率、数据质量与决策价值】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【项目与流程管理：具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验】",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备 SOP 流程设计与端到端交付管理经验；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备跨团队协作能力；协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "专注人工智能在产业场景中的应用实践，将生成式 AI、机器学习与自动化流程应用于社交洞察、金融运营、智能硬件及交易系统等多类场景",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备生成式 AI 应用设计能力，涵盖 Prompt Engineering、LLM 微调、知识图谱与标签体系架构设计；基于竞品调研与业务指标体系设计社媒数据抽取框架及核心字段 schema",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长数据建模、结构化 schema 设计；构建领域知识图谱及多层级标签体系，定义实体关系与语义本体；负责前期数据集构建",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协调亚太与欧洲跨部门团队（产品、研发等）推动流程优化，提高运营效率与问题响应速度；多文化环境适应能力强",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "工具与平台：Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook"
+    },
+    {
+      "skill_id": "",
+      "name": "R",
+      "evidence": "工具与平台：Python、SQL、R、OpenAI API / LLM 工具链、Jupyter Notebook"
+    },
+    {
+      "skill_id": "",
+      "name": "OpenAI API",
+      "evidence": "工具与平台：OpenAI API / LLM 工具链"
+    },
+    {
+      "skill_id": "",
+      "name": "Jira",
+      "evidence": "工具与平台：Jira、阿里云效、Figma、Tableau"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云效",
+      "evidence": "工具与平台：阿里云效"
+    },
+    {
+      "skill_id": "",
+      "name": "Figma",
+      "evidence": "工具与平台：Figma"
+    },
+    {
+      "skill_id": "",
+      "name": "HDBSCAN",
+      "evidence": "调研并优化 HDBSCAN 等聚类算法及模型参数，提升标签生成的语义准确性与业务可解释性"
+    },
+    {
+      "skill_id": "",
+      "name": "Scrum",
+      "evidence": "具备跨团队协作、敏捷项目管理（Scrum）、SOP 流程设计与端到端交付管理经验"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "晨星中国",
+      "职位": "高级基金数据分析师",
+      "时间": "",
+      "描述": "负责欧洲、亚洲、加拿大市场基金数据运营流程管理，保障跨区域数据质量与业务连续性；基于客户反馈识别自动化抓取流程缺陷，协同研发优化数据抓取逻辑，使数据缺陷率下降 15%；协调亚太与欧洲跨部门团队推动流程优化。"
+    },
+    {
+      "公司": "头部虚拟货币交易所",
+      "职位": "产品经理",
+      "时间": "",
+      "描述": "参与产品优化项目，负责全球及区域市场竞品调研，撰写 PRD，推动新版 APP UI 升级，参与从前端交易流程设计到后端清算逻辑优化的完整产品迭代，管理排期并协同研发支持本地法币兑换流程成功上线。"
+    },
+    {
+      "公司": "腾讯研究院",
+      "职位": "产业研究分析师",
+      "时间": "",
+      "描述": "参与企业 AI 转型研究项目，负责行业数据分析与结构化处理，提炼趋势洞察并支撑研究报告发布。"
+    },
+    {
+      "公司": "私募机构",
+      "职位": "投资助理",
+      "时间": "",
+      "描述": "支持投资尽调与投后管理，完成行业上下游分析、专家访谈整理及结构化研究输出。"
+    },
+    {
+      "公司": "埃森哲 Liquid Studio",
+      "职位": "Social Listening AI 产品设计",
+      "时间": "",
+      "描述": "基于竞品调研与业务指标体系，设计社媒数据抽取框架、结构化数据模型及核心字段 schema；搭建基于 LLM 的信息抽取流程，通过 Prompt Engineering 与模型微调提升非结构化文本事件抽取准确性；构建领域知识图谱及多层级标签体系；调研优化 HDBSCAN 等聚类算法。"
+    },
+    {
+      "公司": "科技产品创新与智能硬件实践",
+      "职位": "科研项目成员",
+      "时间": "",
+      "描述": "参与智能硬件产品孵化，运用设计思维开展用户需求挖掘、用户访谈及成本分析；参与 AI 驱动智能硬件项目，负责前期数据集构建与语音处理工作流设计，实现语音识别、内容总结与信息提炼闭环。"
+    },
+    {
+      "公司": "Web3 产品方案与市场落地",
+      "职位": "产品经理",
+      "时间": "",
+      "描述": "参与头部虚拟货币交易所产品优化项目，负责全球及区域市场竞品调研，撰写 PRD，推动新版 APP UI 升级，参与从前端交易流程设计到后端清算逻辑优化的完整产品迭代，管理排期并协同研发支持本地法币兑换流程成功上线。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 【希望重点投入的行业：金融科技 Web3 创新领域、医疗健康、智能零售】",
+      "source": "rule",
+      "matched_term": "医疗"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "【领域专长：具备经济学与信息系统复合背景，融合数据分析、产品设计、流程管理与用户研究能力，深度参与金融服务、快消零售、科技及 Web3 等行业的数字化与 AI 转型项目，能够在业务需求与技术落地之间建立高效连接。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【领域专长：具备经济学与信息系统复合背景，融合数据分析、产品设计、流程管理与用户研究能力，深度参与金融服务、快消零售、科技及 Web3 等行业的数字化与 AI 转型项目，能够在业务需求与技术落地之间建立高效连接。",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "dongting.ye_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\dongting.ye_profile_CN.md",
+    "source_hash": "0f593550c50798e8e41c75bdf3b4412d8432cbacd1ce189843cc68def617f616",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:17:40"
+  },
+  "级别推断": {
+    "level_requirement": "Level 11",
+    "has_level_requirement": true,
+    "source": "resume_title_rule",
+    "evidence": "业务架构分析师",
+    "confidence": 0.7
+  },
+  "城市": "Shenzhen"
+}

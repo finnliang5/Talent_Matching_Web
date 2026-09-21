@@ -1,0 +1,347 @@
+{
+  "姓名": "Candidate_0044",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "BA",
+    "secondary": [
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【Python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 【Microsoft Power Platform(Power apps,Power Automate,Power BI) 】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "收集业务需求，为客户量身定做最优自动化解决方案；收集客户需求，为客户设计仓库流通系统",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "功能包含自动申请，邮件通知，审批流程，SharePoint平台上权限控制，及与其他系统API交互集成；帮助团队将线下合同签订流程转移到线上，实现业务流程自动化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "为客户量身定做最优自动化解决方案；设计自动化方案，帮助团队将线下合同签订流程转移到线上",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "具备从与客户沟通需求调研、方案设计到开发测试、上线运维的端到端交付能力；协同Outlook以及Teams实现数据交互；未来能够承担团队间相互沟通合作以及带领团队的职责",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Microsoft Power Platform(Power apps,Power Automate,Power BI) 】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备从与客户沟通需求调研、方案设计到开发测试、上线运维的端到端交付能力；协同Outlook以及Teams实现数据交互；未来能够承担团队间相互沟通合作以及带领团队的职责"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "为客户量身定做最优自动化解决方案；设计自动化方案，帮助团队将线下合同签订流程转移到线上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "为客户量身定做最优自动化解决方案；设计自动化方案，帮助团队将线下合同签订流程转移到线上"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "功能包含自动申请，邮件通知，审批流程，SharePoint平台上权限控制，及与其他系统API交互集成；帮助团队将线下合同签订流程转移到线上，实现业务流程自动化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "收集业务需求，为客户量身定做最优自动化解决方案；收集客户需求，为客户设计仓库流通系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "收集业务需求，为客户量身定做最优自动化解决方案；收集客户需求，为客户设计仓库流通系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Microsoft Power Platform(Power apps,Power Automate,Power BI) 】",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "收集业务需求，为客户量身定做最优自动化解决方案；收集客户需求，为客户设计仓库流通系统",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "功能包含自动申请，邮件通知，审批流程，SharePoint平台上权限控制，及与其他系统API交互集成；帮助团队将线下合同签订流程转移到线上，实现业务流程自动化",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "为客户量身定做最优自动化解决方案；设计自动化方案，帮助团队将线下合同签订流程转移到线上",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备从与客户沟通需求调研、方案设计到开发测试、上线运维的端到端交付能力；协同Outlook以及Teams实现数据交互；未来能够承担团队间相互沟通合作以及带领团队的职责",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Microsoft Power Platform (Power Apps, Power Automate, Power BI)",
+      "evidence": "核心技能列表及多个项目应用技术说明"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL Server, Oracle, MySQL",
+      "evidence": "核心技能列表"
+    },
+    {
+      "skill_id": "",
+      "name": "VBA",
+      "evidence": "核心技能列表；PCS项目应用技术"
+    },
+    {
+      "skill_id": "",
+      "name": "VB.NET, .NET, VS2015",
+      "evidence": "核心技能列表；物业保洁公司管理系统应用技术"
+    },
+    {
+      "skill_id": "",
+      "name": "SharePoint, Outlook, Teams, Crystal Reports",
+      "evidence": "项目经验中提及的系统集成与报表工具"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某对日公司",
+      "职位": "BA & 开发 / 开发 & 测试",
+      "时间": "",
+      "描述": "负责物流系统、仓库流通系统及物业保洁公司管理系统的BA与开发工作；应用Power Platform及vb.net进行需求收集、方案设计、开发测试及系统集成。"
+    },
+    {
+      "公司": "武田项目（药企）",
+      "职位": "开发 & 测试 & 运维 / BA & 开发 & 测试 & 运维 / BA & 开发",
+      "时间": "",
+      "描述": "负责药企合同管理系统、权限管理系统及公司门户网站的开发与运维；利用Power Platform实现合同流转自动化、权限审计盘点及门户网站功能开发。"
+    },
+    {
+      "公司": "PCS项目",
+      "职位": "开发 & 测试",
+      "时间": "",
+      "描述": "负责Excel数据计算整理模块的开发与测试；使用VBA实现数据整理流程自动化，降低人工操作成本。"
+    },
+    {
+      "公司": "辉瑞项目（药企）",
+      "职位": "BA & 开发 & 测试 / BA & 开发 & 运维",
+      "时间": "",
+      "描述": "负责医院准入审批系统及旅行社报销系统的BA与开发；利用Power Platform实现销售奖金审批可视化、税率自动计算及合规报销材料生成。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "【2年对日、5年对国内IT交付经验，覆盖物流管理、医药、旅游等行业，具备从与客户沟通需求调研、方案设计到开发测试、上线运维的端到端交付能力。",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 【东北电力大学，2018】",
+      "source": "rule",
+      "matched_term": "电力"
+    }
+  ],
+  "_batch": {
+    "source_file": "huiling.lu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\huiling.lu_profile_CN.md",
+    "source_hash": "12975d41cecc3b7dfb23c7aa1c308390abe502e604ae92fc3e9e8689bf9a276b",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:24:03"
+  },
+  "级别推断": {
+    "level_requirement": "Level 10",
+    "has_level_requirement": true,
+    "source": "resume_title_rule",
+    "evidence": "App Automation Eng Senior Analyst",
+    "confidence": 0.7
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,401 @@
+{
+  "姓名": "Candidate_0113",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 阿里巴巴大模型应用与实践 (Accenture, Internal Training)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- PMP 项目管理专业认证",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "主导流程再造与持续优化（100+ 关键节点）；数字化流程再造（Digital Process Re‑engineering）；构建并沉淀 可复用的运营方法论与框架（SOP、根因分析模型、标准化分类与闭环机制）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "复杂干系人协调与跨区域协作；单一责任接口（Single Point of Contact），确保 SLA 闭环与跨团队协同；在全球统一能力与中国业务实际之间建立低摩擦协同",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "SLA / 风险 / 稳定性治理；长期保持高 SLA 合规与平台连续性；确保技术能力在本地复杂业务体系中的稳定性、合规性与可持续产出",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "主动识别流程与自动化机会，形成可支撑后续服务扩展与价值讨论的运营洞察；将本地高频痛点反向输入全球资产治理",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "跨区域（中国 / 印度）协作；跨团队协同；复杂干系人协调与跨区域协作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主动识别流程与自动化机会，形成可支撑后续服务扩展与价值讨论的运营洞察；将本地高频痛点反向输入全球资产治理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "复杂干系人协调与跨区域协作；单一责任接口（Single Point of Contact），确保 SLA 闭环与跨团队协同；在全球统一能力与中国业务实际之间建立低摩擦协同",
+        "跨区域（中国 / 印度）协作；跨团队协同；复杂干系人协调与跨区域协作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- PMP 项目管理专业认证",
+        "SLA / 风险 / 稳定性治理；长期保持高 SLA 合规与平台连续性；确保技术能力在本地复杂业务体系中的稳定性、合规性与可持续产出"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导流程再造与持续优化（100+ 关键节点）；数字化流程再造（Digital Process Re‑engineering）；构建并沉淀 可复用的运营方法论与框架（SOP、根因分析模型、标准化分类与闭环机制）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- PMP 项目管理专业认证"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- PMP 项目管理专业认证"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "复杂干系人协调与跨区域协作；单一责任接口（Single Point of Contact），确保 SLA 闭环与跨团队协同；在全球统一能力与中国业务实际之间建立低摩擦协同"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 阿里巴巴大模型应用与实践 (Accenture, Internal Training)",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- PMP 项目管理专业认证",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导流程再造与持续优化（100+ 关键节点）；数字化流程再造（Digital Process Re‑engineering）；构建并沉淀 可复用的运营方法论与框架（SOP、根因分析模型、标准化分类与闭环机制）",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "复杂干系人协调与跨区域协作；单一责任接口（Single Point of Contact），确保 SLA 闭环与跨团队协同；在全球统一能力与中国业务实际之间建立低摩擦协同",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "SLA / 风险 / 稳定性治理；长期保持高 SLA 合规与平台连续性；确保技术能力在本地复杂业务体系中的稳定性、合规性与可持续产出",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主动识别流程与自动化机会，形成可支撑后续服务扩展与价值讨论的运营洞察；将本地高频痛点反向输入全球资产治理",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "跨区域（中国 / 印度）协作；跨团队协同；复杂干系人协调与跨区域协作",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Workfront",
+      "evidence": "深度推动 Workfront 作为典型人机协同平台 的规模化应用"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "ServiceNow"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "SAP / Concur"
+    },
+    {
+      "skill_id": "",
+      "name": "Concur",
+      "evidence": "SAP / Concur"
+    },
+    {
+      "skill_id": "",
+      "name": "GFAS",
+      "evidence": "GFAS"
+    },
+    {
+      "skill_id": "",
+      "name": "Double Key",
+      "evidence": "Double Key"
+    },
+    {
+      "skill_id": "",
+      "name": "SynOps",
+      "evidence": "SynOps (Workfront + CXL)"
+    },
+    {
+      "skill_id": "",
+      "name": "CXL",
+      "evidence": "SynOps (Workfront + CXL)"
+    },
+    {
+      "skill_id": "",
+      "name": "GenAI",
+      "evidence": "AI / GenAI / Automation / Hyperautomation"
+    },
+    {
+      "skill_id": "",
+      "name": "Hyperautomation",
+      "evidence": "AI / GenAI / Automation / Hyperautomation"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲（Accenture）",
+      "职位": "Global SynOps – AI 驱动智能运营整合者 / China Market Integrator & AI Operations Anchor",
+      "时间": "",
+      "描述": "承担 SynOps 全球 AI / 自动化能力在中国市场的端到端落地与运行责任，累计支撑 2000+ 高价值与高复杂度运营请求。将 GenAI、流程自动化与超自动化能力转化为可复用运营模式，深度推动 Workfront 平台规模化应用，构建并沉淀可复用的运营方法论与框架。"
+    },
+    {
+      "公司": "Microsoft",
+      "职位": "Enterprise Incident Operations Lead",
+      "时间": "",
+      "描述": "管理企业级紧急事件全生命周期，涵盖系统中断、全局性故障与高优先级修复。作为单一责任接口确保 SLA 闭环与跨团队协同，构建可复制的事件响应与升级模型，带教并培养 30+ 成员。"
+    },
+    {
+      "公司": "Dell 中国",
+      "职位": "Global Marketing Operations / 项目协调与流程再造管理",
+      "时间": "",
+      "描述": "支持全球营销交付与跨区域（中国 / 印度）协作。主导流程再造与持续优化（100+ 关键节点），显著提升交付效率、质量一致性与客户满意度。"
+    },
+    {
+      "公司": "富达（Fidelity）",
+      "职位": "全球基金财务与运营管理",
+      "时间": "",
+      "描述": "高合规、高稳定性运营体系"
+    },
+    {
+      "公司": "高知特",
+      "职位": "企业级财务流程与系统优化",
+      "时间": "",
+      "描述": "流程治理与数据管理能力"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融服务与企业级共享服务",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- Technology Quotient (TQ) – GenAI & Intelligent Operations (Accenture Internal Certification)",
+      "source": "rule",
+      "matched_term": "Technology"
+    }
+  ],
+  "_batch": {
+    "source_file": "ruixue.bao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ruixue.bao_profile_CN.md",
+    "source_hash": "96bed95eef264e39fdc53b36cb4d1e90151fc7c33daa19001fc74dc1a4a31acf",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:56:36"
+  },
+  "城市": "Dalian"
+}

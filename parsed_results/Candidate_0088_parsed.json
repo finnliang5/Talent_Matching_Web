@@ -1,0 +1,768 @@
+{
+  "姓名": "Candidate_0088",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "HYBRID"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 13,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 前端开发：Vue2、Vue3、Node.js、JavaScript、UniApp、原生iOS（OC、Swift）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 前端开发：Vue2、Vue3、Node.js、JavaScript、UniApp、原生iOS（OC、Swift）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    },
+    {
+      "skill_id": "SKILL_DOCKER",
+      "name": "Docker",
+      "type": "TOOL",
+      "evidence": "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "Docker"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 对接业务分析需求，进行数据清洗及整理，持续优化AI查询速度和正确率",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "- **能力深耕：** 持续深化云原生架构、微服务治理、AI工程化落地能力，成为兼具业务洞察与技术领导力的复合型技术专家",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责整体架构设计、前后端功能开发及持续迭代；负责企业内部自主研发的数字化应用平台的前端架构设计，涵盖iPad原生App、Web页面、微信小程序、企微微信等多端应用，实现统一数据标准、数据模型和接入能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "实现统一数据标准、数据模型和接入能力；进行数据清洗及整理，持续优化AI查询速度和正确率",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "完成并发测试，确保系统满足客户性能要求，助力销售管理数字化、智能化升级",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 对接业务分析需求，进行数据清洗及整理，持续优化AI查询速度和正确率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- **能力深耕：** 持续深化云原生架构、微服务治理、AI工程化落地能力，成为兼具业务洞察与技术领导力的复合型技术专家"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+        "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "实现统一数据标准、数据模型和接入能力；进行数据清洗及整理，持续优化AI查询速度和正确率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "实现统一数据标准、数据模型和接入能力；进行数据清洗及整理，持续优化AI查询速度和正确率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DOCKER_IMAGE_PACKAGING",
+      "name": "Docker Image Packaging",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DOCKER",
+          "name": "Docker"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责整体架构设计、前后端功能开发及持续迭代；负责企业内部自主研发的数字化应用平台的前端架构设计，涵盖iPad原生App、Web页面、微信小程序、企微微信等多端应用，实现统一数据标准、数据模型和接入能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责整体架构设计、前后端功能开发及持续迭代；负责企业内部自主研发的数字化应用平台的前端架构设计，涵盖iPad原生App、Web页面、微信小程序、企微微信等多端应用，实现统一数据标准、数据模型和接入能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 对接业务分析需求，进行数据清洗及整理，持续优化AI查询速度和正确率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 对接业务分析需求，进行数据清洗及整理，持续优化AI查询速度和正确率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "完成并发测试，确保系统满足客户性能要求，助力销售管理数字化、智能化升级"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端开发：Vue2、Vue3、Node.js、JavaScript、UniApp、原生iOS（OC、Swift）",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端开发：Vue2、Vue3、Node.js、JavaScript、UniApp、原生iOS（OC、Swift）",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI与数据：Python、FastAPI、AI接口封装、数据清洗与整理、对接通义千问等大模型能力",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端开发：Java、Spring Boot、Spring Cloud、Redis、MySQL、Kafka",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 服务器运维：AWS、阿里云、Azure、Nginx、Jenkins、Docker",
+      "supports_entity_id": "SKILL_DOCKER",
+      "supports_entity_name": "Docker",
+      "derived_capability_ids": [
+        "CAP_DOCKER_IMAGE_PACKAGING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 对接业务分析需求，进行数据清洗及整理，持续优化AI查询速度和正确率",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- **能力深耕：** 持续深化云原生架构、微服务治理、AI工程化落地能力，成为兼具业务洞察与技术领导力的复合型技术专家",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责整体架构设计、前后端功能开发及持续迭代；负责企业内部自主研发的数字化应用平台的前端架构设计，涵盖iPad原生App、Web页面、微信小程序、企微微信等多端应用，实现统一数据标准、数据模型和接入能力",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "实现统一数据标准、数据模型和接入能力；进行数据清洗及整理，持续优化AI查询速度和正确率",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "完成并发测试，确保系统满足客户性能要求，助力销售管理数字化、智能化升级",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Vue3",
+      "evidence": "基于Vue3实现高效、可扩展的前端方案"
+    },
+    {
+      "skill_id": "",
+      "name": "通义千问",
+      "evidence": "对接通义千问等大模型能力；协助搭建Python服务，对接通义千问AI能力并提供API接口"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "全栈开发工程师",
+      "时间": "当前",
+      "描述": "现任埃森哲企业技术创新事业部全栈开发工程师，深耕零售与医药行业数字化领域，具备生成式AI项目开发方案与设计经验。负责整体架构设计、前后端功能开发及持续迭代，同时负责服务器相关运维。"
+    },
+    {
+      "公司": "联合利华公司",
+      "职位": "全栈开发工程师 / 技术架构",
+      "时间": "2020年 – 2026年",
+      "描述": "负责UFS连锁中台前端架构设计，涵盖多端应用，实现统一数据标准；基于Vue/Node.js/iOS完成开发；后端基于Java技术栈服务化开发；负责服务器运维。"
+    },
+    {
+      "公司": "联合利华公司",
+      "职位": "前端架构负责人 / 全栈开发",
+      "时间": "2023年 – 2026年",
+      "描述": "负责168平台/MC4.0前端架构设计及业务开发，构建自助下单、客户360等核心界面；后端基于Spring Boot等技术栈支撑业务系统。"
+    },
+    {
+      "公司": "联合利华公司",
+      "职位": "AI开发工程师 / 数据对接",
+      "时间": "2025年 – 2026年",
+      "描述": "协助搭建Python服务对接通义千问AI能力；打造AI智能对话窗口支持KPI及订单跟进；进行数据清洗整理优化AI查询。"
+    },
+    {
+      "公司": "武田制药",
+      "职位": "Python后端开发 / AI接口架构",
+      "时间": "2025年 – 2026年",
+      "描述": "基于FastAPI封装AI调用接口提供DDI销售数据AI助手；负责开发计划制定、代码规范；完成并发测试确保性能。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "拥有12年IT行业实战经验，其中5年以上技术架构经验。现任埃森哲企业技术创新事业部全栈开发工程师，深耕零售与医药行业数字化领域，具备生成式AI项目开发方案与设计经验。曾参与多个自研软件产品和定制化系统研发项目，负责整体架构设计、前后端功能开发及持续迭代，同时负责服务器相关运维，包括环境部署、性能优化、故障排查及稳定运行保障。",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "Custom Software Engineering Assoc Mgr",
+      "source": "rule",
+      "matched_term": "Software"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "拥有12年IT行业实战经验，其中5年以上技术架构经验。现任埃森哲企业技术创新事业部全栈开发工程师，深耕零售与医药行业数字化领域，具备生成式AI项目开发方案与设计经验。曾参与多个自研软件产品和定制化系统研发项目，负责整体架构设计、前后端功能开发及持续迭代，同时负责服务器相关运维，包括环境部署、性能优化、故障排查及稳定运行保障。",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "Mengzhi.Zhao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Mengzhi.Zhao_profile_CN.md",
+    "source_hash": "e38da97358379a38277112ba0192ae679492778802b8ae5700e055c3cf01581c",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:45:16"
+  },
+  "城市": "Beijing"
+}

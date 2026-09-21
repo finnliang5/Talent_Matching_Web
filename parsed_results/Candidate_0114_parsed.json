@@ -1,0 +1,252 @@
+{
+  "姓名": "Candidate_0114",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 0
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "拥有两年软件开发经验，熟悉Python语言，能熟练开发自动化工具，以及自动化解决方案。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- Python, GenAI, Java, SQL, React",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- Python, GenAI, Java, SQL, React",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "- 搭建 Web 系统，对接 Splunk 实现 CSV 数据读取与页面展示；",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [],
+  "能力": [
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 搭建 Web 系统，对接 Splunk 实现 CSV 数据读取与页面展示；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 搭建 Web 系统，对接 Splunk 实现 CSV 数据读取与页面展示；"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- Python, GenAI, Java, SQL, React"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有两年软件开发经验，熟悉Python语言，能熟练开发自动化工具，以及自动化解决方案。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python, GenAI, Java, SQL, React",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python, GenAI, Java, SQL, React",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 搭建 Web 系统，对接 Splunk 实现 CSV 数据读取与页面展示；",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "GenAI",
+      "evidence": "核心技能包含GenAI；集成多种AI模型"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "核心技能包含SQL"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "ServiceNow 工单触发；在ServiceNow 系统中创建工单"
+    },
+    {
+      "skill_id": "",
+      "name": "rundeck",
+      "evidence": "创建 rundeck 作业，用于定时向用户发送告警邮件"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "IMS",
+      "职位": "开发工程师",
+      "时间": "2024年",
+      "描述": "负责部分页面的开发以及测试；搭建 Web 系统，对接 Splunk 实现 CSV 数据读取与页面展示；完成数据校验、数据库写入、CSV 更新及数据备份功能"
+    },
+    {
+      "公司": "Sephora",
+      "职位": "开发工程师",
+      "时间": "2025年",
+      "描述": "负责代码开发、业务逻辑实现以及测试；监控 CPU/内存/磁盘事件工单，自动向应用负责人发送邮件，并根据负责人的反馈采取相应措施；开发工作流，由 CPU/内存/磁盘的ServiceNow 工单触发，创建 rundeck 作业，用于定时向用户发送告警邮件"
+    },
+    {
+      "公司": "L'Oreal",
+      "职位": "开发工程师",
+      "时间": "2025年",
+      "描述": "负责代码开发、业务逻辑实现以及测试；通过邮箱客户端读取指定邮箱目录内告警邮件，同步告警邮件内容到数据库中存储，根据告警内容，在ServiceNow 系统中创建工单，邮件通知对应的工单对应者；程序发生异常时，邮件通知运维人员相关异常信息"
+    },
+    {
+      "公司": "ELC (定制化AI工具平台)",
+      "职位": "开发工程师",
+      "时间": "2026年",
+      "描述": "负责代码开发、业务逻辑实现以及测试；负责为内部运维团队设计并开发文件管理系统与音视频内容提取工具，支持多种文件格式的存储、预览与批量处理；集成多种AI模型，增强了平台的功能和用户体验"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "拥有两年软件开发经验，熟悉Python语言，能熟练开发自动化工具，以及自动化解决方案。",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "简历明确列出行业经验为美妆；项目经历包含Sephora（丝芙兰）与L'Oreal（欧莱雅）",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "ruotong.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ruotong.wang_profile_CN.md",
+    "source_hash": "ecc08ccbdd6a2b43c49cfc3edbaf4655ff8c895b6de7c49c73e8fb46928d2903",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:56:29"
+  },
+  "城市": "Dalian"
+}

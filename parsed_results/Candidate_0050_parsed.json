@@ -1,0 +1,457 @@
+{
+  "姓名": "Candidate_0050",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "同时具备VB.NET、SQL、Python能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "-  希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合，推进智能应用落地",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Microsoft Power Platform(Power apps,Power Automate,Power BI)",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "### 项目管理APP",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "作为技术顾问，收集客户需求，为项目设计审批流程；覆盖需求调研分析、设计、开发、测试到上线后维护全流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "将原有多人多Excel进行申报，审批，整合工作流程，转换成基于SharePoint平台，实现数据一元化，申报，审批，管理自动化工作流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "以Sub Lead身份推进跨团队协作；逐步承担跨团队交付推进与团队带领职责",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案；参与方案设计、开发与测试",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Microsoft Power Platform(Power apps,Power Automate,Power BI)"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "以Sub Lead身份推进跨团队协作；逐步承担跨团队交付推进与团队带领职责"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "### 项目管理APP"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案；参与方案设计、开发与测试"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案；参与方案设计、开发与测试"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "将原有多人多Excel进行申报，审批，整合工作流程，转换成基于SharePoint平台，实现数据一元化，申报，审批，管理自动化工作流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "### 项目管理APP"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "作为技术顾问，收集客户需求，为项目设计审批流程；覆盖需求调研分析、设计、开发、测试到上线后维护全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "作为技术顾问，收集客户需求，为项目设计审批流程；覆盖需求调研分析、设计、开发、测试到上线后维护全流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "### 项目管理APP"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "以Sub Lead身份推进跨团队协作；逐步承担跨团队交付推进与团队带领职责"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "同时具备VB.NET、SQL、Python能力及运维/监控自动化经验，持续向智能化运维与AI结合的自动化方向拓展。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "-  希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合，推进智能应用落地",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Microsoft Power Platform(Power apps,Power Automate,Power BI)",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "### 项目管理APP",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "作为技术顾问，收集客户需求，为项目设计审批流程；覆盖需求调研分析、设计、开发、测试到上线后维护全流程",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "将原有多人多Excel进行申报，审批，整合工作流程，转换成基于SharePoint平台，实现数据一元化，申报，审批，管理自动化工作流程",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "以Sub Lead身份推进跨团队协作；逐步承担跨团队交付推进与团队带领职责",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长将Excel等手工作业改造为可视化应用+流程自动化+数据报表的标准化解决方案；参与方案设计、开发与测试",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Power Platform (Power Apps/Power Automate/Power BI)",
+      "evidence": "5年以上Power Platform实战，利用Power Apps、Power Automate、Power BI与SharePoint集成做成了Project Operation Management Platform系统"
+    },
+    {
+      "skill_id": "",
+      "name": "SharePoint",
+      "evidence": "转换成基于SharePoint平台，实现数据一元化"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "将Copilot/LLM与Power Platform、ServiceNow及云上自动化能力结合"
+    },
+    {
+      "skill_id": "",
+      "name": "Copilot/LLM",
+      "evidence": "希望从事 AI+自动化方向的解决方案架构/技术负责人工作，将Copilot/LLM与Power Platform结合"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国际知名保险公司",
+      "职位": "developer",
+      "时间": "",
+      "描述": "参与将员工考核评价从Excel升级为基于sql数据库 + .net程序的一体化出勤平台；负责浏览器从IE迁移至Edge的适配、方案设计、开发与测试，交付数据映射"
+    },
+    {
+      "公司": "大型软件公司",
+      "职位": "developer",
+      "时间": "",
+      "描述": "参与员工Task管理系统开发，覆盖需求调研分析、设计、开发、测试到上线后维护全流程；负责作业Task分配管理、打卡计时、KPI报表等核心业务模块实现"
+    },
+    {
+      "公司": "医疗公司",
+      "职位": "developer",
+      "时间": "",
+      "描述": "参与员工设备管理系统开发，覆盖需求调研分析、设计、开发、测试到上线后维护全流程；负责员工申请设备、审批人审批、设备分发管理等核心业务模块实现"
+    },
+    {
+      "公司": "",
+      "职位": "Sub Lead / 管理自动化系统",
+      "时间": "",
+      "描述": "作为技术顾问收集客户需求，设计审批流程；将多Excel申报审批整合为基于SharePoint的自动化工作流程，利用Power Apps/Automate/BI集成实现Project Operation Management Platform系统"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "5年对日、2年对国内IT交付经验，覆盖保险、医药、人力资源等行业，具备从需求调研、方案设计到开发测试、上线运维的端到端交付能力，并能以Sub Lead身份推进跨团队协作。",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "5年对日、2年对国内IT交付经验，覆盖保险、医药、人力资源等行业，具备从需求调研、方案设计到开发测试、上线运维的端到端交付能力，并能以Sub Lead身份推进跨团队协作。",
+      "source": "rule",
+      "matched_term": "保险"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 大型软件公司残障员工Task管理系统APP",
+      "source": "rule",
+      "matched_term": "软件"
+    }
+  ],
+  "_batch": {
+    "source_file": "jialin.b.liu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\jialin.b.liu_profile_CN.md",
+    "source_hash": "6ec441d62872aa71edc5df4036eb06cc00ac86b9cf586b1c15ac05eee75db992",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:24:14"
+  },
+  "城市": "Dalian"
+}

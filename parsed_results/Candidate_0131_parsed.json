@@ -1,0 +1,697 @@
+{
+  "姓名": "Candidate_0131",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 12,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "- 前端框架： thymeleaf、html、jsp、vue",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "- 后端框架： Spring Boot/Cloud、SpringMVC、Hibernate、Mybatis",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_SPRING_CLOUD",
+      "name": "Spring Cloud",
+      "type": "FRAMEWORK",
+      "evidence": "- 项目描述：负责公司内部标准AP类报销流程开发，同步主导Digital I/O标准化基础平台搭建。项目采用Spring Cloud微服务架构实现服务解耦，基于Activiti工作流引擎驱动全流程任务流转，各节点通过自定义接口协议完成数据交互、传输与维护，保障流程合规性与数据一致性。目前该基础平台已成功落地并在多个项目中完成交付，实现标准化能力复用，提升项目交付效率。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringCloud",
+        "Spring Cloud Framework",
+        "Spring Boot/Cloud",
+        "SpringBoot/Cloud"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "belongs_to": [
+        "SKILL_SPRING_BOOT"
+      ],
+      "matched_term": "Spring Cloud"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "- 前端框架： thymeleaf、html、jsp、vue",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI/LLM： RAG、Agent",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI/LLM： RAG、Agent",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- 数据库：SQL Server、MySQL、Oracle、PgSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_PLSQL",
+      "name": "PL/SQL",
+      "type": "LANGUAGE",
+      "evidence": "- 项目描述：某公司内部财经管理类项目，在项目中主要负责后台业务逻辑开发，主要开发语言为Java和PL/SQL，通过Oracle 存储过程实现业务逻辑控制和数据聚合，为前端快速展示提供基础数据支持。同时做了少量Hana开发工作",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PLSQL",
+        "Oracle PL/SQL",
+        "Oracle PLSQL"
+      ],
+      "languages": [
+        "SQL",
+        "PL/SQL"
+      ],
+      "matched_term": "PL/SQL"
+    },
+    {
+      "skill_id": "SKILL_KAFKA",
+      "name": "Kafka",
+      "type": "TOOL",
+      "evidence": "技术选型基于Kafka+Storm",
+      "source": "llm",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Kafka"
+      ],
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "Go"
+      ],
+      "matched_term": "Kafka"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 项目职责：项目管理、需求分析",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 项目职责：编码开发，项目管理",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "中央平台架构设计，主导底层框架、公共组件与通用工具类设计开发，核心负责后端业务逻辑的设计、实现与优化",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "参与需求调研、概要设计、详细设计、编码开发、单元测试、联调测试及产品交付，并负责上线运维保障",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端框架： Spring Boot/Cloud、SpringMVC、Hibernate、Mybatis"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 项目描述：负责公司内部标准AP类报销流程开发，同步主导Digital I/O标准化基础平台搭建。项目采用Spring Cloud微服务架构实现服务解耦，基于Activiti工作流引擎驱动全流程任务流转，各节点通过自定义接口协议完成数据交互、传输与维护，保障流程合规性与数据一致性。目前该基础平台已成功落地并在多个项目中完成交付，实现标准化能力复用，提升项目交付效率。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "技术选型基于Kafka+Storm"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka",
+          "rule_id": "RULE_KAFKA_TO_DATA_WAREHOUSING",
+          "rule_name": "Kafka -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Kafka commonly appears in streaming data pipelines adjacent to warehousing scenarios.",
+          "inference_weight": 0.64
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目职责：编码开发，项目管理",
+        "参与需求调研、概要设计、详细设计、编码开发、单元测试、联调测试及产品交付，并负责上线运维保障"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "技术选型基于Kafka+Storm"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_KAFKA",
+          "name": "Kafka"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "中央平台架构设计，主导底层框架、公共组件与通用工具类设计开发，核心负责后端业务逻辑的设计、实现与优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "中央平台架构设计，主导底层框架、公共组件与通用工具类设计开发，核心负责后端业务逻辑的设计、实现与优化"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目职责：编码开发，项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI/LLM： RAG、Agent"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 项目职责：项目管理、需求分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 项目职责：项目管理、需求分析"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 项目职责：编码开发，项目管理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 后端框架： Spring Boot/Cloud、SpringMVC、Hibernate、Mybatis",
+        "- 项目描述：负责公司内部标准AP类报销流程开发，同步主导Digital I/O标准化基础平台搭建。项目采用Spring Cloud微服务架构实现服务解耦，基于Activiti工作流引擎驱动全流程任务流转，各节点通过自定义接口协议完成数据交互、传输与维护，保障流程合规性与数据一致性。目前该基础平台已成功落地并在多个项目中完成交付，实现标准化能力复用，提升项目交付效率。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_CLOUD",
+          "name": "Spring Cloud"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 编程语言： JAVA、Python、JavaScript、Shell",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端框架： thymeleaf、html、jsp、vue",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 后端框架： Spring Boot/Cloud、SpringMVC、Hibernate、Mybatis",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 项目描述：负责公司内部标准AP类报销流程开发，同步主导Digital I/O标准化基础平台搭建。项目采用Spring Cloud微服务架构实现服务解耦，基于Activiti工作流引擎驱动全流程任务流转，各节点通过自定义接口协议完成数据交互、传输与维护，保障流程合规性与数据一致性。目前该基础平台已成功落地并在多个项目中完成交付，实现标准化能力复用，提升项目交付效率。",
+      "supports_entity_id": "SKILL_SPRING_CLOUD",
+      "supports_entity_name": "Spring Cloud",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 前端框架： thymeleaf、html、jsp、vue",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/LLM： RAG、Agent",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI/LLM： RAG、Agent",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 数据库：SQL Server、MySQL、Oracle、PgSQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 项目描述：某公司内部财经管理类项目，在项目中主要负责后台业务逻辑开发，主要开发语言为Java和PL/SQL，通过Oracle 存储过程实现业务逻辑控制和数据聚合，为前端快速展示提供基础数据支持。同时做了少量Hana开发工作",
+      "supports_entity_id": "SKILL_PLSQL",
+      "supports_entity_name": "PL/SQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "技术选型基于Kafka+Storm",
+      "supports_entity_id": "SKILL_KAFKA",
+      "supports_entity_name": "Kafka",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目职责：项目管理、需求分析",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 项目职责：编码开发，项目管理",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "中央平台架构设计，主导底层框架、公共组件与通用工具类设计开发，核心负责后端业务逻辑的设计、实现与优化",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与需求调研、概要设计、详细设计、编码开发、单元测试、联调测试及产品交付，并负责上线运维保障",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Activiti",
+      "evidence": "依托 Activiti 工作流引擎驱动报销全流程流转"
+    },
+    {
+      "skill_id": "",
+      "name": "Storm",
+      "evidence": "技术选型基于Kafka+Storm，将实时流数据通过Storm处理后存储"
+    },
+    {
+      "skill_id": "",
+      "name": "GreenPlum",
+      "evidence": "软件环境： Oracle, Linux，GreenPlum，Java"
+    },
+    {
+      "skill_id": "",
+      "name": "Agent",
+      "evidence": "AI/LLM： RAG、Agent"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司/TFO",
+      "职位": "软件开发负责人",
+      "时间": "2025/08–今",
+      "描述": "某公司费用(TE)报销流程项目。负责公用报销标准流程开发与 Digital I/O 标准化基础平台搭建，基于云平台部署，采用模块化设计实现服务解耦。依托 Activiti 工作流引擎驱动报销全流程流转，通过自定义接口完成数据交互与维护，保障流程合规与数据一致。"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司/TFO",
+      "职位": "软件开发负责人",
+      "时间": "2017/07–今",
+      "描述": "AP报销流程项目。负责公司内部标准AP类报销流程开发，同步主导Digital I/O标准化基础平台搭建。项目采用Spring Cloud微服务架构实现服务解耦，基于Activiti工作流引擎驱动全流程任务流转，各节点通过自定义接口协议完成数据交互、传输与维护。"
+    },
+    {
+      "公司": "日立咨询信息技术（广州）有限公司",
+      "职位": "资深软件工程师",
+      "时间": "2016/07—2017/06",
+      "描述": "某公司财经类项目。专注于国内软件项目研发，核心负责后端业务逻辑的设计、实现与优化。主要负责后台业务逻辑开发，主要开发语言为Java和PL/SQL，通过Oracle 存储过程实现业务逻辑控制和数据聚合。"
+    },
+    {
+      "公司": "东软集团股份有限公司",
+      "职位": "软件开发负责人/项目组长",
+      "时间": "2004/07—2016/07",
+      "描述": "长期深耕国内软件开发领域，主导并参与中国移动网管中心、网络优化类核心项目。担任项目组长期间，统筹项目全流程管理，开展质量数据跟踪分析，参与需求调研、概要设计、详细设计、编码开发、单元测试、联调测试及产品交付，并负责上线运维保障。主导底层框架、公共组件与通用工具类设计开发。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 具备移动通信、金融、电信等多行业技术实践经验，长期从事架构设计与核心研发工作，拥有海量请求、高并发场景下的系统架构优化与稳定性保障经验，同时具备复杂系统集成与项目落地实施能力。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 具备移动通信、金融、电信等多行业技术实践经验，长期从事架构设计与核心研发工作，拥有海量请求、高并发场景下的系统架构优化与稳定性保障经验，同时具备复杂系统集成与项目落地实施能力。",
+      "source": "rule",
+      "matched_term": "通信"
+    }
+  ],
+  "_batch": {
+    "source_file": "Tianjiu.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Tianjiu.wang_profile_CN.md",
+    "source_hash": "d6cb648480f108db4337899b679255c7bbeb01696b3ca105a74ab12a89bb8848",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:06:58"
+  },
+  "城市": "Dalian"
+}

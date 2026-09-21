@@ -1,0 +1,317 @@
+{
+  "姓名": "Candidate_0119",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 希望通过更多的技术手段帮助客户实现端到端自动化价值，例如AI智能体、大模型等。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "大模型"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- MYSQL",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "拥有 16 年软件开发经验（BPO 流程自动化改进经验）；目前在埃森哲工作 9 年，擅长基于RPA 的业务流程自动化解决方案实施；负责项目沟通、需求分析、设计、开发、实施与运营管理，具备完整的项目交付与客户满意度保障能力。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "负责项目沟通...具备完整的项目交付与客户满意度保障能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "负责Process各个automation的规划、设计; 负责项目设计、整理、开发、测试和实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责项目沟通...具备完整的项目交付与客户满意度保障能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责Process各个automation的规划、设计; 负责项目设计、整理、开发、测试和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责Process各个automation的规划、设计; 负责项目设计、整理、开发、测试和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有 16 年软件开发经验（BPO 流程自动化改进经验）；目前在埃森哲工作 9 年，擅长基于RPA 的业务流程自动化解决方案实施；负责项目沟通、需求分析、设计、开发、实施与运营管理，具备完整的项目交付与客户满意度保障能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有 16 年软件开发经验（BPO 流程自动化改进经验）；目前在埃森哲工作 9 年，擅长基于RPA 的业务流程自动化解决方案实施；负责项目沟通、需求分析、设计、开发、实施与运营管理，具备完整的项目交付与客户满意度保障能力。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责Process各个automation的规划、设计; 负责项目设计、整理、开发、测试和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 希望通过更多的技术手段帮助客户实现端到端自动化价值，例如AI智能体、大模型等。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- MYSQL",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有 16 年软件开发经验（BPO 流程自动化改进经验）；目前在埃森哲工作 9 年，擅长基于RPA 的业务流程自动化解决方案实施；负责项目沟通、需求分析、设计、开发、实施与运营管理，具备完整的项目交付与客户满意度保障能力。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责项目沟通...具备完整的项目交付与客户满意度保障能力",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责Process各个automation的规划、设计; 负责项目设计、整理、开发、测试和实施",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "A360",
+      "evidence": "核心技能: A360"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "涉及：SAP系统"
+    },
+    {
+      "skill_id": "",
+      "name": "飞书多为表",
+      "evidence": "涉及：...飞书多为表"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "大连联合科技有限公司",
+      "职位": "自动化项目开发设计",
+      "时间": "2010-2013",
+      "描述": "派遣至惠普（大连）负责自动化项目的开发和设计"
+    },
+    {
+      "公司": "安永（大连）咨询有限公司",
+      "职位": "自动化项目开发设计",
+      "时间": "2013-2015",
+      "描述": "负责自动化项目的开发和设计"
+    },
+    {
+      "公司": "大连习才科技有限公司",
+      "职位": "自动化项目开发设计",
+      "时间": "2015-2018",
+      "描述": "分别派遣至惠普（大连）和埃森哲（大连），负责自动化项目的开发和设计"
+    },
+    {
+      "公司": "埃森哲（大连）",
+      "职位": "RPA业务流程自动化解决方案实施工程师",
+      "时间": "2018-至今",
+      "描述": "负责海信、Nike、Carrier等客户RPA自动化开发、流程规划、设计、测试实施及数据流转自动化开发；涉及C#、VBA、SAP、Excel等"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "**角色：** 【开发 /  Carrier】",
+      "source": "rule",
+      "matched_term": "Carrier"
+    }
+  ],
+  "_batch": {
+    "source_file": "shijie.chen_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\shijie.chen_profile_CN.md",
+    "source_hash": "83403a19450226197bc707a9aae666ba9965a64a90feae31f0c19291bb6854ea",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:59:03"
+  },
+  "城市": "Dalian"
+}

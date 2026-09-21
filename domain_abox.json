@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "version": "1.1",
+    "description": "Domain 列表"
+  },
+  "domains": [
+    {
+      "id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "type": "DOMAIN",
+      "description": "AI engineering domain",
+      "aliases": [
+        "AI工程",
+        "人工智能工程"
+      ]
+    },
+    {
+      "id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "type": "DOMAIN",
+      "description": "Software engineering domain",
+      "aliases": [
+        "软件工程"
+      ]
+    },
+    {
+      "id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "type": "DOMAIN",
+      "description": "Data engineering domain",
+      "aliases": [
+        "数据工程"
+      ]
+    },
+    {
+      "id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "type": "DOMAIN",
+      "description": "Data analytics domain",
+      "aliases": [
+        "数据分析"
+      ]
+    },
+    {
+      "id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "type": "DOMAIN",
+      "description": "Cloud and infrastructure domain",
+      "aliases": [
+        "云与基础设施",
+        "云基础设施"
+      ]
+    },
+    {
+      "id": "DOMAIN_DEVOPS",
+      "name": "DevOps",
+      "type": "DOMAIN",
+      "description": "DevOps domain",
+      "aliases": [
+        "开发运维",
+        "开发与运维"
+      ]
+    },
+    {
+      "id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "type": "DOMAIN",
+      "description": "Business analysis domain",
+      "aliases": [
+        "业务分析"
+      ]
+    },
+    {
+      "id": "DOMAIN_AI_STRATEGY",
+      "name": "AI Strategy",
+      "type": "DOMAIN",
+      "description": "AI strategy domain",
+      "aliases": [
+        "AI战略",
+        "人工智能战略"
+      ]
+    },
+    {
+      "id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "type": "DOMAIN",
+      "description": "Solution architecture domain",
+      "aliases": [
+        "解决方案架构"
+      ]
+    },
+    {
+      "id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "type": "DOMAIN",
+      "description": "Project management domain",
+      "aliases": [
+        "项目管理"
+      ]
+    }
+  ]
+}

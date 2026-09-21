@@ -1,0 +1,1091 @@
+{
+  "姓名": "Candidate_0054",
+  "级别": "Level 6",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 14,
+      "competency_count": 8
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_MLFLOW",
+      "name": "MLflow",
+      "type": "TOOL",
+      "evidence": "- MLflow",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "MLflow"
+    },
+    {
+      "skill_id": "SKILL_SNOWFLAKE",
+      "name": "Snowflake",
+      "type": "DATA_PLATFORM",
+      "evidence": "- Snowflake",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Snowflake Data Cloud",
+        "SnowPro",
+        "SnowPro Certification",
+        "SnowPro Core"
+      ],
+      "matched_term": "Snowflake"
+    },
+    {
+      "skill_id": "SKILL_AWS_REDSHIFT",
+      "name": "Amazon Redshift",
+      "type": "DATA_PLATFORM",
+      "evidence": "- Redshift",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AWS Redshift",
+        "Redshift"
+      ],
+      "matched_term": "Redshift"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_DATABRICKS",
+      "name": "Databricks",
+      "type": "DATA_PLATFORM",
+      "evidence": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Databricks Lakehouse",
+        "Delta Lake"
+      ],
+      "matched_term": "Databricks"
+    },
+    {
+      "skill_id": "SKILL_AZURE_DATA_FACTORY",
+      "name": "Azure Data Factory",
+      "type": "CLOUD_SERVICE",
+      "evidence": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ADF",
+        "Azure ADF"
+      ],
+      "matched_term": "ADF"
+    },
+    {
+      "skill_id": "SKILL_HIVE",
+      "name": "Hive",
+      "type": "DATA_PLATFORM",
+      "evidence": "- EMR/Hive",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Hive"
+      ],
+      "matched_term": "Hive"
+    },
+    {
+      "skill_id": "SKILL_AIRFLOW",
+      "name": "Airflow",
+      "type": "TOOL",
+      "evidence": "- Airflow",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Apache Airflow"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Airflow"
+    },
+    {
+      "skill_id": "SKILL_ETL_ELT",
+      "name": "ETL/ELT",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ETL",
+        "ELT",
+        "数据管道",
+        "数据集成",
+        "Data Pipeline",
+        "Data Integration"
+      ],
+      "matched_term": "ETL"
+    },
+    {
+      "skill_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "数据仓库开发",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Data Warehouse",
+        "Data Warehousing",
+        "Data Warehouse Development",
+        "数据仓库",
+        "数仓"
+      ],
+      "matched_term": "数据仓库"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- PowerBI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_TABLEAU",
+      "name": "Tableau",
+      "type": "BI_TOOL",
+      "evidence": "- Tableau",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Tableau Desktop",
+        "Tableau Server",
+        "Tableau Cloud"
+      ],
+      "matched_term": "Tableau"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "- 作为数据架构师，与新核心系统数据团队及业务分析团队共同制定新核心系统数据模型。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "name": "差距分析",
+      "type": "ABILITY",
+      "evidence": "- 与利益相关者沟通解决方案，包括重建上下游系统数据集成，以及 as-is 与 to-be 数据模型映射与差距分析。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "差距分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "与客户 IT 团队访谈，了解系统现状与痛点，识别关键需求并提供高阶迁移咨询方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与各利益相关者沟通，定义数据集成方案。与下游数据应用方和本地化团队沟通对齐。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "协助客户构建可落地的云上数据平台总体方案。与客户 IT 团队及集团架构合作设计并搭建中国区业务数据分析平台架构。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "具有大型跨国咨询公司全流程交付经验，熟悉数字化转型方法论。提供高阶迁移咨询方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- PowerBI",
+        "- Tableau"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TABLEAU",
+          "name": "Tableau"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 作为数据架构师，与新核心系统数据团队及业务分析团队共同制定新核心系统数据模型。",
+        "- 与利益相关者沟通解决方案，包括重建上下游系统数据集成，以及 as-is 与 to-be 数据模型映射与差距分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与各利益相关者沟通，定义数据集成方案。与下游数据应用方和本地化团队沟通对齐。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具有大型跨国咨询公司全流程交付经验，熟悉数字化转型方法论。提供高阶迁移咨询方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+      "name": "Data Warehouse Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_WAREHOUSING",
+      "name": "Data Warehousing",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- Snowflake",
+        "- Redshift",
+        "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+        "- EMR/Hive",
+        "- Airflow",
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SNOWFLAKE",
+          "name": "Snowflake"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS_REDSHIFT",
+          "name": "Amazon Redshift"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_HIVE",
+          "name": "Hive"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AIRFLOW",
+          "name": "Airflow",
+          "rule_id": "RULE_AIRFLOW_TO_DATA_WAREHOUSING",
+          "rule_name": "Airflow -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Airflow often supports warehouse scheduling and orchestration, without implying broader governance skills.",
+          "inference_weight": 0.68
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+          "name": "数据仓库开发",
+          "rule_id": "RULE_DW_DEV_TO_WAREHOUSING",
+          "rule_name": "数据仓库开发 -> CAP_DATA_WAREHOUSING",
+          "inference_reason": "Data warehouse development naturally supports a warehousing capability inference.",
+          "inference_weight": 0.8
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_ETL_ELT",
+      "name": "ETL/ELT Pipeline Development",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+        "- Airflow",
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DATABRICKS",
+          "name": "Databricks"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AZURE_DATA_FACTORY",
+          "name": "Azure Data Factory"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AIRFLOW",
+          "name": "Airflow"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ETL_ELT",
+          "name": "ETL/ELT"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具有大型跨国咨询公司全流程交付经验，熟悉数字化转型方法论。提供高阶迁移咨询方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "协助客户构建可落地的云上数据平台总体方案。与客户 IT 团队及集团架构合作设计并搭建中国区业务数据分析平台架构。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_INDUSTRY_BENCHMARK_ANALYSIS",
+      "name": "Industry Benchmark Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 与利益相关者沟通解决方案，包括重建上下游系统数据集成，以及 as-is 与 to-be 数据模型映射与差距分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+          "name": "差距分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "协助客户构建可落地的云上数据平台总体方案。与客户 IT 团队及集团架构合作设计并搭建中国区业务数据分析平台架构。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 作为数据架构师，与新核心系统数据团队及业务分析团队共同制定新核心系统数据模型。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- 搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 作为数据架构师，与新核心系统数据团队及业务分析团队共同制定新核心系统数据模型。",
+        "与客户 IT 团队访谈，了解系统现状与痛点，识别关键需求并提供高阶迁移咨询方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "与客户 IT 团队访谈，了解系统现状与痛点，识别关键需求并提供高阶迁移咨询方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与各利益相关者沟通，定义数据集成方案。与下游数据应用方和本地化团队沟通对齐。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- MLflow",
+      "supports_entity_id": "SKILL_MLFLOW",
+      "supports_entity_name": "MLflow",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Snowflake",
+      "supports_entity_id": "SKILL_SNOWFLAKE",
+      "supports_entity_name": "Snowflake",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Redshift",
+      "supports_entity_id": "SKILL_AWS_REDSHIFT",
+      "supports_entity_name": "Amazon Redshift",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "supports_entity_id": "SKILL_DATABRICKS",
+      "supports_entity_name": "Databricks",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）",
+      "supports_entity_id": "SKILL_AZURE_DATA_FACTORY",
+      "supports_entity_name": "Azure Data Factory",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- EMR/Hive",
+      "supports_entity_id": "SKILL_HIVE",
+      "supports_entity_name": "Hive",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Airflow",
+      "supports_entity_id": "SKILL_AIRFLOW",
+      "supports_entity_name": "Airflow",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSING",
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "supports_entity_id": "SKILL_ETL_ELT",
+      "supports_entity_name": "ETL/ELT",
+      "derived_capability_ids": [
+        "CAP_ETL_ELT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "supports_entity_id": "SKILL_DATA_WAREHOUSE_DEVELOPMENT",
+      "supports_entity_name": "数据仓库开发",
+      "derived_capability_ids": [
+        "CAP_DATA_WAREHOUSE_DEVELOPMENT",
+        "CAP_DATA_WAREHOUSING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- PowerBI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Tableau",
+      "supports_entity_id": "SKILL_TABLEAU",
+      "supports_entity_name": "Tableau",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码。",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 作为数据架构师，与新核心系统数据团队及业务分析团队共同制定新核心系统数据模型。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 与利益相关者沟通解决方案，包括重建上下游系统数据集成，以及 as-is 与 to-be 数据模型映射与差距分析。",
+      "supports_entity_id": "SKILL_BUSINESS_GAP_ANALYSIS",
+      "supports_entity_name": "差距分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_INDUSTRY_BENCHMARK_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与客户 IT 团队访谈，了解系统现状与痛点，识别关键需求并提供高阶迁移咨询方案。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与各利益相关者沟通，定义数据集成方案。与下游数据应用方和本地化团队沟通对齐。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协助客户构建可落地的云上数据平台总体方案。与客户 IT 团队及集团架构合作设计并搭建中国区业务数据分析平台架构。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具有大型跨国咨询公司全流程交付经验，熟悉数字化转型方法论。提供高阶迁移咨询方案。",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "ADLS",
+      "evidence": "云数据平台与现代化迁移（Azure、AWS、Databricks、ADF、ADLS）"
+    },
+    {
+      "skill_id": "",
+      "name": "SparkSQL",
+      "evidence": "将 SSIS 与 MS SQL 代码重写为 SparkSQL，以适应云端大数据平台。"
+    },
+    {
+      "skill_id": "",
+      "name": "Control-M",
+      "evidence": "工具与平台列表明确列出 Control-M"
+    },
+    {
+      "skill_id": "",
+      "name": "Presto",
+      "evidence": "工具与平台列表明确列出 Presto"
+    },
+    {
+      "skill_id": "",
+      "name": "EMR/Hive",
+      "evidence": "工具与平台列表明确列出 EMR/Hive"
+    },
+    {
+      "skill_id": "",
+      "name": "GitHub Action",
+      "evidence": "工具与平台列表明确列出 GitHub Action"
+    },
+    {
+      "skill_id": "",
+      "name": "IaaC",
+      "evidence": "搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码。"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "数据架构高级经理",
+      "时间": "",
+      "描述": "担任数据架构高级经理，负责数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构。"
+    },
+    {
+      "公司": "泰康",
+      "职位": "数据架构师",
+      "时间": "",
+      "描述": "与客户 IT 团队访谈识别关键需求，提供高阶迁移咨询方案与云上数据平台总体方案，推动咨询成果与实施团队衔接。"
+    },
+    {
+      "公司": "友邦保险",
+      "职位": "数据迁移主管 / 解决方案架构师 / 数据架构师",
+      "时间": "",
+      "描述": "管理数据迁移全流程，制定迁移框架与端到端方案，协调范围与验收标准，编制预算与计划，设计框架代码并带领团队进行数据剖析、清洗与转换，制定新核心系统数据模型。"
+    },
+    {
+      "公司": "Nike",
+      "职位": "技术专家 / 业务分析 Lead",
+      "时间": "",
+      "描述": "组织分析现有数据仓库模型并重新建模，整合主数据构建单一主数据集，重构 ETL 流程，将 SSIS 与 MS SQL 代码重写为 SparkSQL 以适应云端大数据平台。"
+    },
+    {
+      "公司": "保诚保险",
+      "职位": "技术架构师",
+      "时间": "",
+      "描述": "编写架构文档与技术设计，搭建环境并开发 ETL 框架、CI/CD 管道与 IaaC 基础代码，评审功能设计并指导开发。"
+    },
+    {
+      "公司": "理想汽车",
+      "职位": "数据集成架构师",
+      "时间": "",
+      "描述": "与各利益相关者沟通定义数据集成方案，提供接口规范、middleware 配置、ETL 管道搭建与性能调优方案，支持项目交付与系统联调。"
+    },
+    {
+      "公司": "汇丰银行",
+      "职位": "Scrum Master / 业务分析师 / 技术主管 / ETL 专家",
+      "时间": "",
+      "描述": "编写与维护 backlog 及业务逻辑设计，对接上游业务系统构建统一落地数据模型，带领 IT 团队实施数据集市，负责数据架构、建模、技术设计、ETL 处理和历史数据迁移转换。"
+    },
+    {
+      "公司": "MSD",
+      "职位": "技术架构师",
+      "时间": "",
+      "描述": "沟通解决方案，重建上下游系统数据集成，进行 as-is 与 to-be 数据模型映射与差距分析，重建数据仓库模型，清理技术债务，研究数据平台服务迁移方案。"
+    },
+    {
+      "公司": "Nestle",
+      "职位": "技术架构师",
+      "时间": "",
+      "描述": "与中国区 IT 团队及集团架构合作设计搭建业务数据分析平台架构，提供数据集成方案打通端到端数据链路，设计数据管道、ETL、报表与 AI 分析方案。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 生命科学",
+      "source": "rule",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "拥有超过 20 年 IT 经验，15 年专注于 ETL、BI、数据仓库/数据集市、数据分析与数据迁移。具备丰富的数据架构、数据迁移、云数据平台建设、项目管理与解决方案架构经验。曾在多个大型金融、保险与跨国零售/制造项目中主导数据模型、数据集成、ETL 重构与数据治理实践。",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "Jianming.liang_Profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Jianming.liang_Profile_CN.md",
+    "source_hash": "43c24685821857ddf42eb5aff3fa0cf8fb5cdb652262f0596a4a5031d7c6a4ad",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:27:49"
+  },
+  "城市": "Guangzhou"
+}

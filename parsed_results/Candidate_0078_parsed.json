@@ -1,0 +1,375 @@
+{
+  "姓名": "Candidate_0078",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "具备优秀的 沟通能力与信息技术管理能力，熟练掌握 Microsoft O365 管理、Cisco网络、Azure 云平台、AWS 云平台、技术解决方案设计与基础架构部署。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "持续强化 AI 相关能力，并运用 AI 提升基础架构项目管理的效率、洞察力与整体成效。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "P1重大事件管理：负责基础架构相关的 P1 事件管理，确保完成根因分析（RCA）；及早识别并提示风险，避免对交付造成影响",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "持续监控日常服务交付与服务质量，开展 Call Barging 监听、月度服务报告分析；持续监控 SLA达标情况",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "与交付团队及业务运营团队紧密合作，开展前瞻性的技术支持与协调；跨职能协作能力，在业务、客户、IT、合规及安全团队之间发挥技术桥梁作用",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "组织并实施季度技术评审（QTR），涵盖财务分析、IT 安全评估、变更管理及技术风险识别；将安全、合规、审计及访问控制要求前移至技术方案设计和实施阶段",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "具备优秀的 沟通能力与信息技术管理能力，熟练掌握 Microsoft O365 管理、Cisco网络、Azure 云平台、AWS 云平台、技术解决方案设计与基础架构部署。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与交付团队及业务运营团队紧密合作，开展前瞻性的技术支持与协调；跨职能协作能力，在业务、客户、IT、合规及安全团队之间发挥技术桥梁作用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "持续强化 AI 相关能力，并运用 AI 提升基础架构项目管理的效率、洞察力与整体成效。",
+        "持续监控日常服务交付与服务质量，开展 Call Barging 监听、月度服务报告分析；持续监控 SLA达标情况"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "持续强化 AI 相关能力，并运用 AI 提升基础架构项目管理的效率、洞察力与整体成效。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "P1重大事件管理：负责基础架构相关的 P1 事件管理，确保完成根因分析（RCA）；及早识别并提示风险，避免对交付造成影响"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "持续强化 AI 相关能力，并运用 AI 提升基础架构项目管理的效率、洞察力与整体成效。",
+        "P1重大事件管理：负责基础架构相关的 P1 事件管理，确保完成根因分析（RCA）；及早识别并提示风险，避免对交付造成影响"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "与交付团队及业务运营团队紧密合作，开展前瞻性的技术支持与协调；跨职能协作能力，在业务、客户、IT、合规及安全团队之间发挥技术桥梁作用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "组织并实施季度技术评审（QTR），涵盖财务分析、IT 安全评估、变更管理及技术风险识别；将安全、合规、审计及访问控制要求前移至技术方案设计和实施阶段"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "name": "Cloud & Infrastructure",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备优秀的 沟通能力与信息技术管理能力，熟练掌握 Microsoft O365 管理、Cisco网络、Azure 云平台、AWS 云平台、技术解决方案设计与基础架构部署。",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "持续强化 AI 相关能力，并运用 AI 提升基础架构项目管理的效率、洞察力与整体成效。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "P1重大事件管理：负责基础架构相关的 P1 事件管理，确保完成根因分析（RCA）；及早识别并提示风险，避免对交付造成影响",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "持续监控日常服务交付与服务质量，开展 Call Barging 监听、月度服务报告分析；持续监控 SLA达标情况",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "与交付团队及业务运营团队紧密合作，开展前瞻性的技术支持与协调；跨职能协作能力，在业务、客户、IT、合规及安全团队之间发挥技术桥梁作用",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "组织并实施季度技术评审（QTR），涵盖财务分析、IT 安全评估、变更管理及技术风险识别；将安全、合规、审计及访问控制要求前移至技术方案设计和实施阶段",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Microsoft 365",
+      "evidence": "熟练掌握 Microsoft O365 管理；负责 Microsoft 365 相关服务的管理与运维"
+    },
+    {
+      "skill_id": "",
+      "name": "Azure 云平台",
+      "evidence": "熟练掌握 Azure 云平台"
+    },
+    {
+      "skill_id": "",
+      "name": "AWS 云平台",
+      "evidence": "熟练掌握 AWS 云平台"
+    },
+    {
+      "skill_id": "",
+      "name": "Cisco网络",
+      "evidence": "熟悉 Cisco 网络相关知识"
+    },
+    {
+      "skill_id": "",
+      "name": "Active Directory",
+      "evidence": "Microsoft 365 与 Active Directory 的二线运维与管理能力"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture",
+      "职位": "Infrastructure Services Management",
+      "时间": "",
+      "描述": "负责Accenture BPO日常运营项目的基础架构服务管理，包括移管与交付管理、技术解决方案设计与成本评估、P1事件管理、基础架构维护与优化、季度技术评审等。作为6个新移管项目的本地技术负责人，按Blueprint方法论推进转型活动，保障系统平稳上线。"
+    },
+    {
+      "公司": "简柏特（大连）有限责任公司",
+      "职位": "Novartis IT Helpdesk / IT Helpdesk Lead",
+      "时间": "",
+      "描述": "负责IT治理与服务管理，带领服务台团队提供技术支持。负责IT基础架构外包转型项目，设计并建立事件管理与问题管理流程，持续监控服务交付质量。"
+    },
+    {
+      "公司": "协力管理咨询（深圳）有限公司大连分公司",
+      "职位": "IT Account Management",
+      "时间": "",
+      "描述": "负责Microsoft 365相关服务的管理与运维（Exchange Online, Teams, SharePoint等），支持身份与访问管理，确保符合安全与合规要求，通过流程标准化提升管理效率。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "完成 IT 支持方案、ITDR 等相关文档的更新维护，在 Technology Information Repository 系统中持续维护项目信息；在财务系统中完成年度技术预算与预测工作。在项目稳定阶段与运营团队紧密协作，直至项目顺利移交至 BAU 支持团队。",
+      "source": "rule",
+      "matched_term": "Technology"
+    },
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "服务客户包括：TW Medical；Novartis IT Helpdesk；曾支持多项大型企业项目，包括 Medtronic",
+      "source": "llm",
+      "matched_term": "生命科学"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "服务客户包括：Unilever；曾支持多项大型企业项目，包括 Estee Lauder",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "Linlin.Tang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Linlin.Tang_profile_CN.md",
+    "source_hash": "249bcd17decbfeab3943b07ee557ff6d48c1219f6f8ebd0c0f7349c03af8a78f",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:39:44"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,447 @@
+{
+  "姓名": "Candidate_0098",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "CONSULTING",
+      "PRODUCT"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 生成式 AI：LLM、多模态模型、扩散式图像与视频生成、Prompt Engineering、RAG、Agentic System 设计与实现",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PROMPT_ENGINEERING",
+      "name": "Prompt Engineering",
+      "type": "AI_TECHNIQUE",
+      "evidence": "具备扎实的生成式 AI 与计算机视觉研发背景，研究方向覆盖大语言模型、基于扩散模型的图像与视频生成、多模态模型、深度学习渲染及视觉任务。兼具全栈工程与 AI 系统架构经验，熟悉 Prompt Engineering、模型微调与强化学习相关方法。曾作为多项交付项目的 Lead AI Engineer，并连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "提示词工程"
+      ],
+      "matched_term": "Prompt Engineering"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 生成式 AI：LLM、多模态模型、扩散式图像与视频生成、Prompt Engineering、RAG、Agentic System 设计与实现",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "evidence": "- 工程与架构：AI 系统架构、PyTorch、DeepSpeed、VeRL、VLLM",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PyTorch"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "从主流社交平台帖子中提取及时、可执行的洞察信息...帮助构思与策略决策",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "兼具全栈工程与 AI 系统架构经验...设计面向复杂提示词结构的最佳实践，并结合适配不同风格的模型配置方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "洞察产出时间最高缩短 70%...预期可将项目构思阶段周期缩短 40%...预期可将客户项目交付时间缩短 35%...节省约 20% 人工时间",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "提升生成质量与交付稳定性...连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "从主流社交平台帖子中提取及时、可执行的洞察信息...帮助构思与策略决策"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "从主流社交平台帖子中提取及时、可执行的洞察信息...帮助构思与策略决策"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "从主流社交平台帖子中提取及时、可执行的洞察信息...帮助构思与策略决策",
+        "洞察产出时间最高缩短 70%...预期可将项目构思阶段周期缩短 40%...预期可将客户项目交付时间缩短 35%...节省约 20% 人工时间"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "提升生成质量与交付稳定性...连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "洞察产出时间最高缩短 70%...预期可将项目构思阶段周期缩短 40%...预期可将客户项目交付时间缩短 35%...节省约 20% 人工时间"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "兼具全栈工程与 AI 系统架构经验...设计面向复杂提示词结构的最佳实践，并结合适配不同风格的模型配置方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 工程与架构：AI 系统架构、PyTorch、DeepSpeed、VeRL、VLLM"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYTORCH",
+          "name": "PyTorch"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "兼具全栈工程与 AI 系统架构经验...设计面向复杂提示词结构的最佳实践，并结合适配不同风格的模型配置方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROMPT_OPTIMIZATION",
+      "name": "Prompt Optimization",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "具备扎实的生成式 AI 与计算机视觉研发背景，研究方向覆盖大语言模型、基于扩散模型的图像与视频生成、多模态模型、深度学习渲染及视觉任务。兼具全栈工程与 AI 系统架构经验，熟悉 Prompt Engineering、模型微调与强化学习相关方法。曾作为多项交付项目的 Lead AI Engineer，并连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PROMPT_ENGINEERING",
+          "name": "Prompt Engineering"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 生成式 AI：LLM、多模态模型、扩散式图像与视频生成、Prompt Engineering、RAG、Agentic System 设计与实现"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 生成式 AI：LLM、多模态模型、扩散式图像与视频生成、Prompt Engineering、RAG、Agentic System 设计与实现",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "具备扎实的生成式 AI 与计算机视觉研发背景，研究方向覆盖大语言模型、基于扩散模型的图像与视频生成、多模态模型、深度学习渲染及视觉任务。兼具全栈工程与 AI 系统架构经验，熟悉 Prompt Engineering、模型微调与强化学习相关方法。曾作为多项交付项目的 Lead AI Engineer，并连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作。",
+      "supports_entity_id": "SKILL_PROMPT_ENGINEERING",
+      "supports_entity_name": "Prompt Engineering",
+      "derived_capability_ids": [
+        "CAP_PROMPT_OPTIMIZATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 生成式 AI：LLM、多模态模型、扩散式图像与视频生成、Prompt Engineering、RAG、Agentic System 设计与实现",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程与架构：AI 系统架构、PyTorch、DeepSpeed、VeRL、VLLM",
+      "supports_entity_id": "SKILL_PYTORCH",
+      "supports_entity_name": "PyTorch",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "从主流社交平台帖子中提取及时、可执行的洞察信息...帮助构思与策略决策",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "兼具全栈工程与 AI 系统架构经验...设计面向复杂提示词结构的最佳实践，并结合适配不同风格的模型配置方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "洞察产出时间最高缩短 70%...预期可将项目构思阶段周期缩短 40%...预期可将客户项目交付时间缩短 35%...节省约 20% 人工时间",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "提升生成质量与交付稳定性...连续参与 FY23、FY24、FY25 GTIC GM #1 获奖团队核心工作",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "LLM / 大语言模型",
+      "evidence": "研究方向覆盖大语言模型...使用 LLM 与 Agent 系统"
+    },
+    {
+      "skill_id": "",
+      "name": "Agentic System",
+      "evidence": "Agentic System 设计与实现...多智能体协同决策"
+    },
+    {
+      "skill_id": "",
+      "name": "LoRA / SFT",
+      "evidence": "通过基于客户 IP 的 LoRA 微调...模型训练与优化：LoRA、SFT"
+    },
+    {
+      "skill_id": "",
+      "name": "PyTorch / DeepSpeed / VLLM",
+      "evidence": "工程与架构：AI 系统架构、PyTorch、DeepSpeed、VeRL、VLLM"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Accenture / AI Liquid Studio",
+      "职位": "Lead AI Engineer",
+      "时间": "FY23-FY25",
+      "描述": "主导生成式AI社交聆听、创意构思、图像生成加速及航空制造安全监测等项目。负责LLM与Agent系统架构设计、模型微调与Prompt工程优化，显著提升业务洞察效率与交付质量，方案已集成至Airbus工厂系统。"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "Tech Innovation Eng Assoc Manager",
+      "时间": "当前",
+      "描述": "负责技术创新工程管理与AI系统架构设计，推动大模型后训练、Agent架构设计及企业智能化转型落地。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 金融服务",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "Tech Innovation Eng Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "nan.ke_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\nan.ke_profile_CN.md",
+    "source_hash": "8f94c308968fb4e7a71082895f7801b05ae5074efd37c32131ef872729f4b73e",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:48:52"
+  },
+  "城市": "Shenzhen"
+}

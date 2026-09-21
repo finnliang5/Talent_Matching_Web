@@ -1,0 +1,659 @@
+{
+  "姓名": "Candidate_0129",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_FASTAPI",
+      "name": "FastAPI",
+      "type": "FRAMEWORK",
+      "evidence": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Fast API"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "FastAPI"
+    },
+    {
+      "skill_id": "SKILL_SPRING_BOOT",
+      "name": "Spring Boot",
+      "type": "FRAMEWORK",
+      "evidence": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SpringBoot",
+        "Spring Boot Framework"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Spring Boot"
+    },
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_VUE",
+      "name": "Vue",
+      "type": "FRAMEWORK",
+      "evidence": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Vue.js"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Vue"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "### Accenture / dify系统开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_AWS",
+      "name": "AWS",
+      "type": "CLOUD_PLATFORM",
+      "evidence": "- AWS Certified AI Practitioner",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Amazon Web Services",
+        "Amazon AWS"
+      ],
+      "matched_term": "AWS"
+    },
+    {
+      "skill_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "name": "主数据管理",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "### Pfizer  / MDE主数据管理平台",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Master Data Management",
+        "MDM",
+        "Master Data Managerment",
+        "Master Data Mangerment",
+        "主数据管理"
+      ],
+      "matched_term": "主数据管理"
+    },
+    {
+      "skill_id": "SKILL_POSTMAN",
+      "name": "Postman",
+      "type": "API_TESTING_TOOL",
+      "evidence": "- postman",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Postman API"
+      ],
+      "matched_term": "Postman"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责整体方案设计、架构设计（VM在线会议系统、HCP系统）",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "负责项目的各项管理和项目期间的客户沟通，保证项目进度和质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "负责项目期间的客户沟通，保证项目进度和质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_DESIGN",
+      "name": "API Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- postman"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POSTMAN",
+          "name": "Postman"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CLOUD_ARCHITECTURE",
+      "name": "Cloud Architecture",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "- AWS Certified AI Practitioner"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_AWS",
+          "name": "AWS"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责项目期间的客户沟通，保证项目进度和质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的各项管理和项目期间的客户沟通，保证项目进度和质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "### Accenture / dify系统开发"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责整体方案设计、架构设计（VM在线会议系统、HCP系统）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MASTER_DATA_MANAGEMENT",
+      "name": "Master Data Management",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "### Pfizer  / MDE主数据管理平台"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MASTER_DATA_MANAGEMENT",
+          "name": "主数据管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责整体方案设计、架构设计（VM在线会议系统、HCP系统）"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的各项管理和项目期间的客户沟通，保证项目进度和质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责项目的各项管理和项目期间的客户沟通，保证项目进度和质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责项目期间的客户沟通，保证项目进度和质量"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_SYSTEM_DESIGN",
+      "name": "System Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPRING_BOOT",
+          "name": "Spring Boot"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "supports_entity_id": "SKILL_FASTAPI",
+      "supports_entity_name": "FastAPI",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "supports_entity_id": "SKILL_SPRING_BOOT",
+      "supports_entity_name": "Spring Boot",
+      "derived_capability_ids": [
+        "CAP_API_DESIGN",
+        "CAP_SYSTEM_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "supports_entity_id": "SKILL_VUE",
+      "supports_entity_name": "Vue",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有 15 年 IT 行业工作经验，精通 iOS 及 Android 移动端开发，熟练掌握前端 Vue、React 框架开发与微信生态开发技术，同时具备 Springboot、fastapi 后端开发能力；对 AI Agent 开发领域有深入了解，熟悉 langchain 等相关开发框架，能够跨端、跨技术栈完成复杂的技术开发与团队管理工作。",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "### Accenture / dify系统开发",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AWS Certified AI Practitioner",
+      "supports_entity_id": "SKILL_AWS",
+      "supports_entity_name": "AWS",
+      "derived_capability_ids": [
+        "CAP_CLOUD_ARCHITECTURE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "### Pfizer  / MDE主数据管理平台",
+      "supports_entity_id": "SKILL_MASTER_DATA_MANAGEMENT",
+      "supports_entity_name": "主数据管理",
+      "derived_capability_ids": [
+        "CAP_MASTER_DATA_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- postman",
+      "supports_entity_id": "SKILL_POSTMAN",
+      "supports_entity_name": "Postman",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责整体方案设计、架构设计（VM在线会议系统、HCP系统）",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责项目的各项管理和项目期间的客户沟通，保证项目进度和质量",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责项目期间的客户沟通，保证项目进度和质量",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "DBGPT",
+      "evidence": "负责DBGPT系统的升级及改造"
+    },
+    {
+      "skill_id": "",
+      "name": "AI Agent",
+      "evidence": "对 AI Agent 开发领域有深入了解"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "Pfizer",
+      "职位": "前端开发/技术Leader/架构师",
+      "时间": "",
+      "描述": "负责Spider系统迁移规划与开发；主导MDE主数据管理平台前端开发(Vue3+ts)；负责VM在线会议系统整体方案设计、架构设计、项目管理与客户沟通；负责HCP系统整体方案设计、架构设计、项目管理及移动端(iOS/Android)开发。"
+    },
+    {
+      "公司": "菜市口百货",
+      "职位": "Android开发/微信小程序开发",
+      "时间": "",
+      "描述": "负责供应链及质检系统的Android端与微信小程序端开发。"
+    },
+    {
+      "公司": "Accenture",
+      "职位": "前端开发",
+      "时间": "",
+      "描述": "负责Langding Zone系统vue前端开发；负责dify开源系统升级、改造及定制化模块开发。"
+    },
+    {
+      "公司": "MSD",
+      "职位": "前端开发",
+      "时间": "",
+      "描述": "负责DBGPT系统升级改造及定制化模块开发。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 医药行业",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 游戏行业",
+      "source": "rule",
+      "matched_term": "游戏"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 消费品行业",
+      "source": "rule",
+      "matched_term": "消费品"
+    }
+  ],
+  "_batch": {
+    "source_file": "taixin.jiang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\taixin.jiang_profile_CN.md",
+    "source_hash": "98899e790b9bd3ce76b852bf7829929469f0a51a9893a2f6a80b03a6d86a6b64",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:04:33"
+  },
+  "城市": "Beijing"
+}

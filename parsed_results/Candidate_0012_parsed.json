@@ -1,0 +1,422 @@
+{
+  "姓名": "Candidate_0012",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 1,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_SALESFORCE",
+      "name": "Salesforce",
+      "type": "CRM_PLATFORM",
+      "evidence": "* 持有数据库工程师、SFDC认证。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SFDC",
+        "Salesforce CRM",
+        "Salesforce Cloud"
+      ],
+      "matched_term": "SFDC"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "* 2016.07 - 2018.11 大连文思海辉信息技术有限公司 高级软件开发工程师（IT服务），负责技术培训体系搭建、系统交付全流程管理（需求分析、方案设计、编码、测试验证至上线运维），协同跨部门团队解决关键技术瓶颈，搭建新入职开发人员技术培训体系并通过阶段性考核保障效果，缩短新人上手周期。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验；参与项目高阶设计、AI审核方案设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协同跨部门团队解决关键技术瓶颈；负责人员协调、客户沟通",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "担任技术交付Leader和技术交付经理双重角色，主导财务领域的系统交付全流程；负责项目进度管控",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同跨部门团队解决关键技术瓶颈；负责人员协调、客户沟通"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+        "担任技术交付Leader和技术交付经理双重角色，主导财务领域的系统交付全流程；负责项目进度管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验；参与项目高阶设计、AI审核方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验；参与项目高阶设计、AI审核方案设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+        "* 2016.07 - 2018.11 大连文思海辉信息技术有限公司 高级软件开发工程师（IT服务），负责技术培训体系搭建、系统交付全流程管理（需求分析、方案设计、编码、测试验证至上线运维），协同跨部门团队解决关键技术瓶颈，搭建新入职开发人员技术培训体系并通过阶段性考核保障效果，缩短新人上手周期。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "* 2016.07 - 2018.11 大连文思海辉信息技术有限公司 高级软件开发工程师（IT服务），负责技术培训体系搭建、系统交付全流程管理（需求分析、方案设计、编码、测试验证至上线运维），协同跨部门团队解决关键技术瓶颈，搭建新入职开发人员技术培训体系并通过阶段性考核保障效果，缩短新人上手周期。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协同跨部门团队解决关键技术瓶颈；负责人员协调、客户沟通"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 持有数据库工程师、SFDC认证。",
+      "supports_entity_id": "SKILL_SALESFORCE",
+      "supports_entity_name": "Salesforce",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 2016.07 - 2018.11 大连文思海辉信息技术有限公司 高级软件开发工程师（IT服务），负责技术培训体系搭建、系统交付全流程管理（需求分析、方案设计、编码、测试验证至上线运维），协同跨部门团队解决关键技术瓶颈，搭建新入职开发人员技术培训体系并通过阶段性考核保障效果，缩短新人上手周期。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有16年以上项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验；深耕F\\&A、RPA、AI领域，具备扎实的知识储备和丰富项目经验；擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长数字化转型、流程卓越运营，能够通过技术手段改善提升业务流程，拥有解决方案交付、流程改善、系统架构设计交付等全流程经验；参与项目高阶设计、AI审核方案设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协同跨部门团队解决关键技术瓶颈；负责人员协调、客户沟通",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "担任技术交付Leader和技术交付经理双重角色，主导财务领域的系统交付全流程；负责项目进度管控",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "核心技能包含RPA方案设计与落地；多个项目中明确负责RPA方案设计"
+    },
+    {
+      "skill_id": "",
+      "name": "AI",
+      "evidence": "深耕F&A、RPA、AI领域；参与项目高阶设计、AI审核方案设计"
+    },
+    {
+      "skill_id": "",
+      "name": "数据库技术",
+      "evidence": "持有数据库工程师认证"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "大连山客软件",
+      "职位": "项目经理（软件开发）",
+      "时间": "2009.12 - 2016.06",
+      "描述": "负责软件开发类项目全流程管理，统筹项目交付落地。"
+    },
+    {
+      "公司": "大连文思海辉信息技术有限公司",
+      "职位": "高级软件开发工程师（IT服务）",
+      "时间": "2016.07 - 2018.11",
+      "描述": "负责技术培训体系搭建、系统交付全流程管理（需求分析、方案设计、编码、测试验证至上线运维），协同跨部门团队解决关键技术瓶颈，搭建新入职开发人员技术培训体系并通过阶段性考核保障效果，缩短新人上手周期。"
+    },
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "技术交付经理（咨询服务）",
+      "时间": "2018.11 - 至今",
+      "描述": "担任技术交付Leader和技术交付经理双重角色，主导财务领域的系统交付全流程。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "软件 / 应用 / 云技术支持副经理",
+      "source": "rule",
+      "matched_term": "软件"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "**角色：** 技术咨询顾问 / 某国内大型连锁便利店集团-业财一体项目",
+      "source": "rule",
+      "matched_term": "便利店"
+    }
+  ],
+  "_batch": {
+    "source_file": "dawei.a.li_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\dawei.a.li_profile_CN.md",
+    "source_hash": "872cfbaa33db06e4133570954f7c9586b76ff0e74a9f344d503096b4ed28dc9a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:15:47"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

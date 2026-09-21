@@ -1,0 +1,772 @@
+{
+  "姓名": "Candidate_0147",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "CONSULTING",
+      "TECHNICAL"
+    ],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 15
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "【拥有 18 年数字化转型、系统实施及开发领域从业经验，深度布局智能体（AI Agent）技术落地应用，擅长大型企业级系统全生命周期落地，主导过 20 + 数字化转型及智能体赋能项目，覆盖需求分析、方案设计、开发实施到交付运维全流程。核心优势在于跨部门资源整合、项目风险管控及智能体技术与业务场景的融合落地，曾帮助制造、零售、化工、服务行业等客户完成核心业务系统升级、数字化体系搭建及智能体解决方案落地，交付过多个千万级预算的系统实施项目，实现业务效率提升 30% 以上。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- 【大型系统实施全流程项目管理（需求、进度、成本、风险）】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "贝壳项目独立完成智能采购中台的现状调研、系统规划",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "巨化项目设计服务履约数字化转型方案，实现履约流程智能化、标准化；远景风电项目完成采购流程标准化设计；上海电气项目优化业财流程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "海信项目牵头组建跨职能项目团队；电装项目提供北京、上海、天津等多地分公司用户测试与试运行现场支持",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "贝壳项目独立完成智能采购中台的现状调研、系统规划、解决方案设计及需求确认，牵头输出详细设计文档",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "海信项目牵头组建跨职能项目团队；上海电气项目统筹跨部门团队完成全域采购、财务共享体系开发与上线",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_PLANNING",
+      "name": "项目规划",
+      "type": "ABILITY",
+      "evidence": "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案；贝壳项目进行系统规划",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目规划"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "职业背景概述中核心优势包含项目风险管控",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "贝壳项目统筹项目全生命周期管理与质量保障；每个项目均交付可量化成果",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_INSIGHT",
+      "name": "业务洞察",
+      "type": "ABILITY",
+      "evidence": "远景风电项目解决跨区域采购流程不统一、交付周期长的核心痛点",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务洞察"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "海信项目HR智能体开发；上海电气项目落地智能选品智能体；职业背景概述深度布局智能体（AI Agent）技术落地应用",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "海信项目运营效率提高50%以上；贝壳项目核心履约效率提升40%以上；远景风电项目采购流程自动化率达50%，数字化覆盖广度提升60%，核心采购流程效率提升35%等多项量化指标",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "海信项目主导S&OP、核心人事、薪酬管理等方案设计；贝壳项目解决方案设计；巨化项目设计服务履约数字化转型方案；上海电气项目牵头制定企业全渠道数字化升级方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_ROADMAP_PLANNING",
+      "name": "AI 路线图规划",
+      "type": "ABILITY",
+      "evidence": "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI 路线图规划"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "海信项目HR智能体开发；上海电气项目落地智能选品智能体；职业背景概述深度布局智能体（AI Agent）技术落地应用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_ROADMAP_PLANNING",
+      "name": "AI Roadmap Planning",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "海信项目HR智能体开发；上海电气项目落地智能选品智能体；职业背景概述深度布局智能体（AI Agent）技术落地应用"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT",
+      "name": "AI Use Case Portfolio Management",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_ROADMAP_PLANNING",
+          "name": "AI 路线图规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "贝壳项目独立完成智能采购中台的现状调研、系统规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_INSIGHT_DISCOVERY",
+      "name": "Business Insight Discovery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "远景风电项目解决跨区域采购流程不统一、交付周期长的核心痛点"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_INSIGHT",
+          "name": "业务洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "海信项目HR智能体开发；上海电气项目落地智能选品智能体；职业背景概述深度布局智能体（AI Agent）技术落地应用",
+        "海信项目运营效率提高50%以上；贝壳项目核心履约效率提升40%以上；远景风电项目采购流程自动化率达50%，数字化覆盖广度提升60%，核心采购流程效率提升35%等多项量化指标"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "海信项目牵头组建跨职能项目团队；电装项目提供北京、上海、天津等多地分公司用户测试与试运行现场支持",
+        "海信项目牵头组建跨职能项目团队；上海电气项目统筹跨部门团队完成全域采购、财务共享体系开发与上线"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "贝壳项目独立完成智能采购中台的现状调研、系统规划、解决方案设计及需求确认，牵头输出详细设计文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【大型系统实施全流程项目管理（需求、进度、成本、风险）】",
+        "贝壳项目统筹项目全生命周期管理与质量保障；每个项目均交付可量化成果"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "贝壳项目独立完成智能采购中台的现状调研、系统规划、解决方案设计及需求确认，牵头输出详细设计文档",
+        "海信项目运营效率提高50%以上；贝壳项目核心履约效率提升40%以上；远景风电项目采购流程自动化率达50%，数字化覆盖广度提升60%，核心采购流程效率提升35%等多项量化指标"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "海信项目主导S&OP、核心人事、薪酬管理等方案设计；贝壳项目解决方案设计；巨化项目设计服务履约数字化转型方案；上海电气项目牵头制定企业全渠道数字化升级方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "海信项目主导S&OP、核心人事、薪酬管理等方案设计；贝壳项目解决方案设计；巨化项目设计服务履约数字化转型方案；上海电气项目牵头制定企业全渠道数字化升级方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PHASED_ROADMAP_PLANNING",
+      "name": "Phased Roadmap Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案；贝壳项目进行系统规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "贝壳项目独立完成智能采购中台的现状调研、系统规划",
+        "巨化项目设计服务履约数字化转型方案，实现履约流程智能化、标准化；远景风电项目完成采购流程标准化设计；上海电气项目优化业财流程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【大型系统实施全流程项目管理（需求、进度、成本、风险）】",
+        "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案；贝壳项目进行系统规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_PLANNING",
+          "name": "项目规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "【拥有 18 年数字化转型、系统实施及开发领域从业经验，深度布局智能体（AI Agent）技术落地应用，擅长大型企业级系统全生命周期落地，主导过 20 + 数字化转型及智能体赋能项目，覆盖需求分析、方案设计、开发实施到交付运维全流程。核心优势在于跨部门资源整合、项目风险管控及智能体技术与业务场景的融合落地，曾帮助制造、零售、化工、服务行业等客户完成核心业务系统升级、数字化体系搭建及智能体解决方案落地，交付过多个千万级预算的系统实施项目，实现业务效率提升 30% 以上。】",
+        "贝壳项目独立完成智能采购中台的现状调研、系统规划"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "【拥有 18 年数字化转型、系统实施及开发领域从业经验，深度布局智能体（AI Agent）技术落地应用，擅长大型企业级系统全生命周期落地，主导过 20 + 数字化转型及智能体赋能项目，覆盖需求分析、方案设计、开发实施到交付运维全流程。核心优势在于跨部门资源整合、项目风险管控及智能体技术与业务场景的融合落地，曾帮助制造、零售、化工、服务行业等客户完成核心业务系统升级、数字化体系搭建及智能体解决方案落地，交付过多个千万级预算的系统实施项目，实现业务效率提升 30% 以上。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "职业背景概述中核心优势包含项目风险管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 【大型系统实施全流程项目管理（需求、进度、成本、风险）】",
+        "职业背景概述中核心优势包含项目风险管控"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "海信项目牵头组建跨职能项目团队；电装项目提供北京、上海、天津等多地分公司用户测试与试运行现场支持"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 8
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "【拥有 18 年数字化转型、系统实施及开发领域从业经验，深度布局智能体（AI Agent）技术落地应用，擅长大型企业级系统全生命周期落地，主导过 20 + 数字化转型及智能体赋能项目，覆盖需求分析、方案设计、开发实施到交付运维全流程。核心优势在于跨部门资源整合、项目风险管控及智能体技术与业务场景的融合落地，曾帮助制造、零售、化工、服务行业等客户完成核心业务系统升级、数字化体系搭建及智能体解决方案落地，交付过多个千万级预算的系统实施项目，实现业务效率提升 30% 以上。】",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 【大型系统实施全流程项目管理（需求、进度、成本、风险）】",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "贝壳项目独立完成智能采购中台的现状调研、系统规划",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "巨化项目设计服务履约数字化转型方案，实现履约流程智能化、标准化；远景风电项目完成采购流程标准化设计；上海电气项目优化业财流程",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目牵头组建跨职能项目团队；电装项目提供北京、上海、天津等多地分公司用户测试与试运行现场支持",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "贝壳项目独立完成智能采购中台的现状调研、系统规划、解决方案设计及需求确认，牵头输出详细设计文档",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目牵头组建跨职能项目团队；上海电气项目统筹跨部门团队完成全域采购、财务共享体系开发与上线",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案；贝壳项目进行系统规划",
+      "supports_entity_id": "SKILL_PROJECT_PLANNING",
+      "supports_entity_name": "项目规划",
+      "derived_capability_ids": [
+        "CAP_PHASED_ROADMAP_PLANNING",
+        "CAP_PROJECT_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "职业背景概述中核心优势包含项目风险管控",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "贝壳项目统筹项目全生命周期管理与质量保障；每个项目均交付可量化成果",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "远景风电项目解决跨区域采购流程不统一、交付周期长的核心痛点",
+      "supports_entity_id": "SKILL_BUSINESS_INSIGHT",
+      "supports_entity_name": "业务洞察",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_INSIGHT_DISCOVERY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目HR智能体开发；上海电气项目落地智能选品智能体；职业背景概述深度布局智能体（AI Agent）技术落地应用",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目运营效率提高50%以上；贝壳项目核心履约效率提升40%以上；远景风电项目采购流程自动化率达50%，数字化覆盖广度提升60%，核心采购流程效率提升35%等多项量化指标",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目主导S&OP、核心人事、薪酬管理等方案设计；贝壳项目解决方案设计；巨化项目设计服务履约数字化转型方案；上海电气项目牵头制定企业全渠道数字化升级方案",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "海信项目制定‘系统设计 + 智能体落地’分阶段数字化转型方案",
+      "supports_entity_id": "SKILL_AI_ROADMAP_PLANNING",
+      "supports_entity_name": "AI 路线图规划",
+      "derived_capability_ids": [
+        "CAP_AI_ROADMAP_PLANNING",
+        "CAP_AI_USE_CASE_PORTFOLIO_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [],
+  "经验": [
+    {
+      "公司": "大连理工科技有限公司",
+      "职位": "高级软件工程师",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "大连思科技术有限公司",
+      "职位": "技术架构师",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "大连Genpact有限公司",
+      "职位": "高级项目经理",
+      "时间": "",
+      "描述": ""
+    },
+    {
+      "公司": "埃森哲（大连）技术有限公司",
+      "职位": "高级产品及项目经理",
+      "时间": "",
+      "描述": ""
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【SW/App/Cloud Tech Support Manager】",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "### 【远景风电集团 / 供应链数字化】",
+      "source": "rule",
+      "matched_term": "风电"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "【拥有 18 年数字化转型、系统实施及开发领域从业经验，深度布局智能体（AI Agent）技术落地应用，擅长大型企业级系统全生命周期落地，主导过 20 + 数字化转型及智能体赋能项目，覆盖需求分析、方案设计、开发实施到交付运维全流程。核心优势在于跨部门资源整合、项目风险管控及智能体技术与业务场景的融合落地，曾帮助制造、零售、化工、服务行业等客户完成核心业务系统升级、数字化体系搭建及智能体解决方案落地，交付过多个千万级预算的系统实施项目，实现业务效率提升 30% 以上。】",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "wenzhe.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\wenzhe.wang_profile_CN.md",
+    "source_hash": "6c22f355336396e117eb007325c745e6134151ed497be35e10ae8457c23d9f16",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:29:44"
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,263 @@
+{
+  "姓名": "Candidate_0091",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 2,
+      "competency_count": 1
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_REACT",
+      "name": "React",
+      "type": "FRAMEWORK",
+      "evidence": "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "React"
+    },
+    {
+      "skill_id": "SKILL_ANGULAR",
+      "name": "Angular",
+      "type": "FRAMEWORK",
+      "evidence": "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "AngularJS",
+        "Angular 2+",
+        "Angular Framework"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Angular"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "【2020年加入埃森哲，拥有10多年项目开发和项目管理经验，6年项目运维经验。精通软件的UI设计和交互设计。服务的客户包括内部项目，从事软件产品涉及的行业包括人工智能，互联网，系统集成，OA自动化办公。】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_ANGULAR_FRONTEND_ENGINEERING",
+      "name": "Angular Frontend Engineering",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_ANGULAR",
+          "name": "Angular"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【2020年加入埃森哲，拥有10多年项目开发和项目管理经验，6年项目运维经验。精通软件的UI设计和交互设计。服务的客户包括内部项目，从事软件产品涉及的行业包括人工智能，互联网，系统集成，OA自动化办公。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【2020年加入埃森哲，拥有10多年项目开发和项目管理经验，6年项目运维经验。精通软件的UI设计和交互设计。服务的客户包括内部项目，从事软件产品涉及的行业包括人工智能，互联网，系统集成，OA自动化办公。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REACT_HOOKS_STATE_MANAGEMENT",
+      "name": "React Hooks and State Management",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REACT",
+          "name": "React",
+          "rule_id": "RULE_REACT_TO_HOOKS",
+          "rule_name": "React -> CAP_REACT_HOOKS_STATE_MANAGEMENT",
+          "inference_reason": "React often implies Hooks-based state and effect patterns, but this remains a secondary inference.",
+          "inference_weight": 0.78
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "【2020年加入埃森哲，拥有10多年项目开发和项目管理经验，6年项目运维经验。精通软件的UI设计和交互设计。服务的客户包括内部项目，从事软件产品涉及的行业包括人工智能，互联网，系统集成，OA自动化办公。】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】",
+      "supports_entity_id": "SKILL_REACT",
+      "supports_entity_name": "React",
+      "derived_capability_ids": [
+        "CAP_REACT_HOOKS_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【2016年—2020年 ，东软云科技有限公司，资深软件开发工程师。参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。】",
+      "supports_entity_id": "SKILL_ANGULAR",
+      "supports_entity_name": "Angular",
+      "derived_capability_ids": [
+        "CAP_ANGULAR_FRONTEND_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "【2020年加入埃森哲，拥有10多年项目开发和项目管理经验，6年项目运维经验。精通软件的UI设计和交互设计。服务的客户包括内部项目，从事软件产品涉及的行业包括人工智能，互联网，系统集成，OA自动化办公。】",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "UI设计",
+      "evidence": "精通软件的UI设计和交互设计；负责软件产品的UI设计和交互设计。"
+    },
+    {
+      "skill_id": "",
+      "name": "交互设计",
+      "evidence": "负责平台整体的UI设计和交互设计工作。"
+    },
+    {
+      "skill_id": "",
+      "name": "Qwen Code",
+      "evidence": "工具与平台：Qwen Code / 阿里云百炼"
+    },
+    {
+      "skill_id": "",
+      "name": "阿里云百炼",
+      "evidence": "工具与平台：Qwen Code / 阿里云百炼"
+    },
+    {
+      "skill_id": "",
+      "name": "VS Code",
+      "evidence": "工具与平台：VS Code / 微软"
+    },
+    {
+      "skill_id": "",
+      "name": "Chrome扩展应用",
+      "evidence": "工具与平台：Chrome扩展应用 / 谷歌"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲信息技术（大连）有限公司",
+      "职位": "云技术支持副经理",
+      "时间": "2020年至今",
+      "描述": "负责React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作和升级工作。负责软件产品的UI设计和交互设计。对已上线的其中一些项目，负责项目管理和项目运维的工作。"
+    },
+    {
+      "公司": "东软云科技有限公司",
+      "职位": "资深软件开发工程师",
+      "时间": "2016年—2020年",
+      "描述": "参与React, Angular等前端框架的设计和搭建。负责React等前端框架的优化工作。"
+    },
+    {
+      "公司": "大连倚天软件股份有限公司",
+      "职位": "高级软件开发工程师",
+      "时间": "2012年—2016年",
+      "描述": "负责WEB端的前端框架的设计和搭建。"
+    },
+    {
+      "公司": "大连口岸物流科技有限公司",
+      "职位": "软件开发工程师",
+      "时间": "2008年—2012年",
+      "描述": "负责软件产品的UI设计和交互设计。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 【2008年—2012年 ，大连口岸物流科技有限公司，软件开发工程师。负责软件产品的UI设计和交互设计。】",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "ming.sun_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\ming.sun_profile_CN.md",
+    "source_hash": "bd54d078ac74451d212afc8dc907908b84f14ed0442add4a3c84a41790c60b21",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:45:59"
+  },
+  "城市": "Dalian"
+}

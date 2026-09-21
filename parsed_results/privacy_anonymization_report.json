@@ -1,0 +1,797 @@
+{
+  "generated_at": "2026-07-23T10:42:42",
+  "candidate_file_count": 197,
+  "updated_candidate_file_count": 0,
+  "updated_candidate_match_results": false,
+  "aliases": [
+    {
+      "file": "Candidate_0001_parsed.json",
+      "alias": "Candidate_0001"
+    },
+    {
+      "file": "Candidate_0002_parsed.json",
+      "alias": "Candidate_0002"
+    },
+    {
+      "file": "Candidate_0003_parsed.json",
+      "alias": "Candidate_0003"
+    },
+    {
+      "file": "Candidate_0004_parsed.json",
+      "alias": "Candidate_0004"
+    },
+    {
+      "file": "Candidate_0005_parsed.json",
+      "alias": "Candidate_0005"
+    },
+    {
+      "file": "Candidate_0006_parsed.json",
+      "alias": "Candidate_0006"
+    },
+    {
+      "file": "Candidate_0007_parsed.json",
+      "alias": "Candidate_0007"
+    },
+    {
+      "file": "Candidate_0008_parsed.json",
+      "alias": "Candidate_0008"
+    },
+    {
+      "file": "Candidate_0009_parsed.json",
+      "alias": "Candidate_0009"
+    },
+    {
+      "file": "Candidate_0010_parsed.json",
+      "alias": "Candidate_0010"
+    },
+    {
+      "file": "Candidate_0011_parsed.json",
+      "alias": "Candidate_0011"
+    },
+    {
+      "file": "Candidate_0012_parsed.json",
+      "alias": "Candidate_0012"
+    },
+    {
+      "file": "Candidate_0013_parsed.json",
+      "alias": "Candidate_0013"
+    },
+    {
+      "file": "Candidate_0014_parsed.json",
+      "alias": "Candidate_0014"
+    },
+    {
+      "file": "Candidate_0015_parsed.json",
+      "alias": "Candidate_0015"
+    },
+    {
+      "file": "Candidate_0016_parsed.json",
+      "alias": "Candidate_0016"
+    },
+    {
+      "file": "Candidate_0017_parsed.json",
+      "alias": "Candidate_0017"
+    },
+    {
+      "file": "Candidate_0018_parsed.json",
+      "alias": "Candidate_0018"
+    },
+    {
+      "file": "Candidate_0019_parsed.json",
+      "alias": "Candidate_0019"
+    },
+    {
+      "file": "Candidate_0020_parsed.json",
+      "alias": "Candidate_0020"
+    },
+    {
+      "file": "Candidate_0021_parsed.json",
+      "alias": "Candidate_0021"
+    },
+    {
+      "file": "Candidate_0022_parsed.json",
+      "alias": "Candidate_0022"
+    },
+    {
+      "file": "Candidate_0023_parsed.json",
+      "alias": "Candidate_0023"
+    },
+    {
+      "file": "Candidate_0024_parsed.json",
+      "alias": "Candidate_0024"
+    },
+    {
+      "file": "Candidate_0025_parsed.json",
+      "alias": "Candidate_0025"
+    },
+    {
+      "file": "Candidate_0026_parsed.json",
+      "alias": "Candidate_0026"
+    },
+    {
+      "file": "Candidate_0027_parsed.json",
+      "alias": "Candidate_0027"
+    },
+    {
+      "file": "Candidate_0028_parsed.json",
+      "alias": "Candidate_0028"
+    },
+    {
+      "file": "Candidate_0029_parsed.json",
+      "alias": "Candidate_0029"
+    },
+    {
+      "file": "Candidate_0030_parsed.json",
+      "alias": "Candidate_0030"
+    },
+    {
+      "file": "Candidate_0031_parsed.json",
+      "alias": "Candidate_0031"
+    },
+    {
+      "file": "Candidate_0032_parsed.json",
+      "alias": "Candidate_0032"
+    },
+    {
+      "file": "Candidate_0033_parsed.json",
+      "alias": "Candidate_0033"
+    },
+    {
+      "file": "Candidate_0034_parsed.json",
+      "alias": "Candidate_0034"
+    },
+    {
+      "file": "Candidate_0035_parsed.json",
+      "alias": "Candidate_0035"
+    },
+    {
+      "file": "Candidate_0036_parsed.json",
+      "alias": "Candidate_0036"
+    },
+    {
+      "file": "Candidate_0037_parsed.json",
+      "alias": "Candidate_0037"
+    },
+    {
+      "file": "Candidate_0038_parsed.json",
+      "alias": "Candidate_0038"
+    },
+    {
+      "file": "Candidate_0039_parsed.json",
+      "alias": "Candidate_0039"
+    },
+    {
+      "file": "Candidate_0040_parsed.json",
+      "alias": "Candidate_0040"
+    },
+    {
+      "file": "Candidate_0041_parsed.json",
+      "alias": "Candidate_0041"
+    },
+    {
+      "file": "Candidate_0042_parsed.json",
+      "alias": "Candidate_0042"
+    },
+    {
+      "file": "Candidate_0043_parsed.json",
+      "alias": "Candidate_0043"
+    },
+    {
+      "file": "Candidate_0044_parsed.json",
+      "alias": "Candidate_0044"
+    },
+    {
+      "file": "Candidate_0045_parsed.json",
+      "alias": "Candidate_0045"
+    },
+    {
+      "file": "Candidate_0046_parsed.json",
+      "alias": "Candidate_0046"
+    },
+    {
+      "file": "Candidate_0047_parsed.json",
+      "alias": "Candidate_0047"
+    },
+    {
+      "file": "Candidate_0048_parsed.json",
+      "alias": "Candidate_0048"
+    },
+    {
+      "file": "Candidate_0049_parsed.json",
+      "alias": "Candidate_0049"
+    },
+    {
+      "file": "Candidate_0050_parsed.json",
+      "alias": "Candidate_0050"
+    },
+    {
+      "file": "Candidate_0051_parsed.json",
+      "alias": "Candidate_0051"
+    },
+    {
+      "file": "Candidate_0052_parsed.json",
+      "alias": "Candidate_0052"
+    },
+    {
+      "file": "Candidate_0053_parsed.json",
+      "alias": "Candidate_0053"
+    },
+    {
+      "file": "Candidate_0054_parsed.json",
+      "alias": "Candidate_0054"
+    },
+    {
+      "file": "Candidate_0055_parsed.json",
+      "alias": "Candidate_0055"
+    },
+    {
+      "file": "Candidate_0056_parsed.json",
+      "alias": "Candidate_0056"
+    },
+    {
+      "file": "Candidate_0057_parsed.json",
+      "alias": "Candidate_0057"
+    },
+    {
+      "file": "Candidate_0058_parsed.json",
+      "alias": "Candidate_0058"
+    },
+    {
+      "file": "Candidate_0059_parsed.json",
+      "alias": "Candidate_0059"
+    },
+    {
+      "file": "Candidate_0060_parsed.json",
+      "alias": "Candidate_0060"
+    },
+    {
+      "file": "Candidate_0061_parsed.json",
+      "alias": "Candidate_0061"
+    },
+    {
+      "file": "Candidate_0062_parsed.json",
+      "alias": "Candidate_0062"
+    },
+    {
+      "file": "Candidate_0063_parsed.json",
+      "alias": "Candidate_0063"
+    },
+    {
+      "file": "Candidate_0064_parsed.json",
+      "alias": "Candidate_0064"
+    },
+    {
+      "file": "Candidate_0065_parsed.json",
+      "alias": "Candidate_0065"
+    },
+    {
+      "file": "Candidate_0066_parsed.json",
+      "alias": "Candidate_0066"
+    },
+    {
+      "file": "Candidate_0067_parsed.json",
+      "alias": "Candidate_0067"
+    },
+    {
+      "file": "Candidate_0068_parsed.json",
+      "alias": "Candidate_0068"
+    },
+    {
+      "file": "Candidate_0069_parsed.json",
+      "alias": "Candidate_0069"
+    },
+    {
+      "file": "Candidate_0070_parsed.json",
+      "alias": "Candidate_0070"
+    },
+    {
+      "file": "Candidate_0071_parsed.json",
+      "alias": "Candidate_0071"
+    },
+    {
+      "file": "Candidate_0072_parsed.json",
+      "alias": "Candidate_0072"
+    },
+    {
+      "file": "Candidate_0073_parsed.json",
+      "alias": "Candidate_0073"
+    },
+    {
+      "file": "Candidate_0074_parsed.json",
+      "alias": "Candidate_0074"
+    },
+    {
+      "file": "Candidate_0075_parsed.json",
+      "alias": "Candidate_0075"
+    },
+    {
+      "file": "Candidate_0076_parsed.json",
+      "alias": "Candidate_0076"
+    },
+    {
+      "file": "Candidate_0077_parsed.json",
+      "alias": "Candidate_0077"
+    },
+    {
+      "file": "Candidate_0078_parsed.json",
+      "alias": "Candidate_0078"
+    },
+    {
+      "file": "Candidate_0079_parsed.json",
+      "alias": "Candidate_0079"
+    },
+    {
+      "file": "Candidate_0080_parsed.json",
+      "alias": "Candidate_0080"
+    },
+    {
+      "file": "Candidate_0081_parsed.json",
+      "alias": "Candidate_0081"
+    },
+    {
+      "file": "Candidate_0082_parsed.json",
+      "alias": "Candidate_0082"
+    },
+    {
+      "file": "Candidate_0083_parsed.json",
+      "alias": "Candidate_0083"
+    },
+    {
+      "file": "Candidate_0084_parsed.json",
+      "alias": "Candidate_0084"
+    },
+    {
+      "file": "Candidate_0085_parsed.json",
+      "alias": "Candidate_0085"
+    },
+    {
+      "file": "Candidate_0086_parsed.json",
+      "alias": "Candidate_0086"
+    },
+    {
+      "file": "Candidate_0087_parsed.json",
+      "alias": "Candidate_0087"
+    },
+    {
+      "file": "Candidate_0088_parsed.json",
+      "alias": "Candidate_0088"
+    },
+    {
+      "file": "Candidate_0089_parsed.json",
+      "alias": "Candidate_0089"
+    },
+    {
+      "file": "Candidate_0090_parsed.json",
+      "alias": "Candidate_0090"
+    },
+    {
+      "file": "Candidate_0091_parsed.json",
+      "alias": "Candidate_0091"
+    },
+    {
+      "file": "Candidate_0092_parsed.json",
+      "alias": "Candidate_0092"
+    },
+    {
+      "file": "Candidate_0093_parsed.json",
+      "alias": "Candidate_0093"
+    },
+    {
+      "file": "Candidate_0094_parsed.json",
+      "alias": "Candidate_0094"
+    },
+    {
+      "file": "Candidate_0095_parsed.json",
+      "alias": "Candidate_0095"
+    },
+    {
+      "file": "Candidate_0096_parsed.json",
+      "alias": "Candidate_0096"
+    },
+    {
+      "file": "Candidate_0097_parsed.json",
+      "alias": "Candidate_0097"
+    },
+    {
+      "file": "Candidate_0098_parsed.json",
+      "alias": "Candidate_0098"
+    },
+    {
+      "file": "Candidate_0099_parsed.json",
+      "alias": "Candidate_0099"
+    },
+    {
+      "file": "Candidate_0100_parsed.json",
+      "alias": "Candidate_0100"
+    },
+    {
+      "file": "Candidate_0101_parsed.json",
+      "alias": "Candidate_0101"
+    },
+    {
+      "file": "Candidate_0102_parsed.json",
+      "alias": "Candidate_0102"
+    },
+    {
+      "file": "Candidate_0103_parsed.json",
+      "alias": "Candidate_0103"
+    },
+    {
+      "file": "Candidate_0104_parsed.json",
+      "alias": "Candidate_0104"
+    },
+    {
+      "file": "Candidate_0105_parsed.json",
+      "alias": "Candidate_0105"
+    },
+    {
+      "file": "Candidate_0106_parsed.json",
+      "alias": "Candidate_0106"
+    },
+    {
+      "file": "Candidate_0107_parsed.json",
+      "alias": "Candidate_0107"
+    },
+    {
+      "file": "Candidate_0108_parsed.json",
+      "alias": "Candidate_0108"
+    },
+    {
+      "file": "Candidate_0109_parsed.json",
+      "alias": "Candidate_0109"
+    },
+    {
+      "file": "Candidate_0110_parsed.json",
+      "alias": "Candidate_0110"
+    },
+    {
+      "file": "Candidate_0111_parsed.json",
+      "alias": "Candidate_0111"
+    },
+    {
+      "file": "Candidate_0112_parsed.json",
+      "alias": "Candidate_0112"
+    },
+    {
+      "file": "Candidate_0113_parsed.json",
+      "alias": "Candidate_0113"
+    },
+    {
+      "file": "Candidate_0114_parsed.json",
+      "alias": "Candidate_0114"
+    },
+    {
+      "file": "Candidate_0115_parsed.json",
+      "alias": "Candidate_0115"
+    },
+    {
+      "file": "Candidate_0116_parsed.json",
+      "alias": "Candidate_0116"
+    },
+    {
+      "file": "Candidate_0117_parsed.json",
+      "alias": "Candidate_0117"
+    },
+    {
+      "file": "Candidate_0118_parsed.json",
+      "alias": "Candidate_0118"
+    },
+    {
+      "file": "Candidate_0119_parsed.json",
+      "alias": "Candidate_0119"
+    },
+    {
+      "file": "Candidate_0120_parsed.json",
+      "alias": "Candidate_0120"
+    },
+    {
+      "file": "Candidate_0121_parsed.json",
+      "alias": "Candidate_0121"
+    },
+    {
+      "file": "Candidate_0122_parsed.json",
+      "alias": "Candidate_0122"
+    },
+    {
+      "file": "Candidate_0123_parsed.json",
+      "alias": "Candidate_0123"
+    },
+    {
+      "file": "Candidate_0124_parsed.json",
+      "alias": "Candidate_0124"
+    },
+    {
+      "file": "Candidate_0125_parsed.json",
+      "alias": "Candidate_0125"
+    },
+    {
+      "file": "Candidate_0126_parsed.json",
+      "alias": "Candidate_0126"
+    },
+    {
+      "file": "Candidate_0127_parsed.json",
+      "alias": "Candidate_0127"
+    },
+    {
+      "file": "Candidate_0128_parsed.json",
+      "alias": "Candidate_0128"
+    },
+    {
+      "file": "Candidate_0129_parsed.json",
+      "alias": "Candidate_0129"
+    },
+    {
+      "file": "Candidate_0130_parsed.json",
+      "alias": "Candidate_0130"
+    },
+    {
+      "file": "Candidate_0131_parsed.json",
+      "alias": "Candidate_0131"
+    },
+    {
+      "file": "Candidate_0132_parsed.json",
+      "alias": "Candidate_0132"
+    },
+    {
+      "file": "Candidate_0133_parsed.json",
+      "alias": "Candidate_0133"
+    },
+    {
+      "file": "Candidate_0134_parsed.json",
+      "alias": "Candidate_0134"
+    },
+    {
+      "file": "Candidate_0135_parsed.json",
+      "alias": "Candidate_0135"
+    },
+    {
+      "file": "Candidate_0136_parsed.json",
+      "alias": "Candidate_0136"
+    },
+    {
+      "file": "Candidate_0137_parsed.json",
+      "alias": "Candidate_0137"
+    },
+    {
+      "file": "Candidate_0138_parsed.json",
+      "alias": "Candidate_0138"
+    },
+    {
+      "file": "Candidate_0139_parsed.json",
+      "alias": "Candidate_0139"
+    },
+    {
+      "file": "Candidate_0140_parsed.json",
+      "alias": "Candidate_0140"
+    },
+    {
+      "file": "Candidate_0141_parsed.json",
+      "alias": "Candidate_0141"
+    },
+    {
+      "file": "Candidate_0142_parsed.json",
+      "alias": "Candidate_0142"
+    },
+    {
+      "file": "Candidate_0143_parsed.json",
+      "alias": "Candidate_0143"
+    },
+    {
+      "file": "Candidate_0144_parsed.json",
+      "alias": "Candidate_0144"
+    },
+    {
+      "file": "Candidate_0145_parsed.json",
+      "alias": "Candidate_0145"
+    },
+    {
+      "file": "Candidate_0146_parsed.json",
+      "alias": "Candidate_0146"
+    },
+    {
+      "file": "Candidate_0147_parsed.json",
+      "alias": "Candidate_0147"
+    },
+    {
+      "file": "Candidate_0148_parsed.json",
+      "alias": "Candidate_0148"
+    },
+    {
+      "file": "Candidate_0149_parsed.json",
+      "alias": "Candidate_0149"
+    },
+    {
+      "file": "Candidate_0150_parsed.json",
+      "alias": "Candidate_0150"
+    },
+    {
+      "file": "Candidate_0151_parsed.json",
+      "alias": "Candidate_0151"
+    },
+    {
+      "file": "Candidate_0152_parsed.json",
+      "alias": "Candidate_0152"
+    },
+    {
+      "file": "Candidate_0153_parsed.json",
+      "alias": "Candidate_0153"
+    },
+    {
+      "file": "Candidate_0154_parsed.json",
+      "alias": "Candidate_0154"
+    },
+    {
+      "file": "Candidate_0155_parsed.json",
+      "alias": "Candidate_0155"
+    },
+    {
+      "file": "Candidate_0156_parsed.json",
+      "alias": "Candidate_0156"
+    },
+    {
+      "file": "Candidate_0157_parsed.json",
+      "alias": "Candidate_0157"
+    },
+    {
+      "file": "Candidate_0158_parsed.json",
+      "alias": "Candidate_0158"
+    },
+    {
+      "file": "Candidate_0159_parsed.json",
+      "alias": "Candidate_0159"
+    },
+    {
+      "file": "Candidate_0160_parsed.json",
+      "alias": "Candidate_0160"
+    },
+    {
+      "file": "Candidate_0161_parsed.json",
+      "alias": "Candidate_0161"
+    },
+    {
+      "file": "Candidate_0162_parsed.json",
+      "alias": "Candidate_0162"
+    },
+    {
+      "file": "Candidate_0163_parsed.json",
+      "alias": "Candidate_0163"
+    },
+    {
+      "file": "Candidate_0164_parsed.json",
+      "alias": "Candidate_0164"
+    },
+    {
+      "file": "Candidate_0165_parsed.json",
+      "alias": "Candidate_0165"
+    },
+    {
+      "file": "Candidate_0166_parsed.json",
+      "alias": "Candidate_0166"
+    },
+    {
+      "file": "Candidate_0167_parsed.json",
+      "alias": "Candidate_0167"
+    },
+    {
+      "file": "Candidate_0168_parsed.json",
+      "alias": "Candidate_0168"
+    },
+    {
+      "file": "Candidate_0169_parsed.json",
+      "alias": "Candidate_0169"
+    },
+    {
+      "file": "Candidate_0170_parsed.json",
+      "alias": "Candidate_0170"
+    },
+    {
+      "file": "Candidate_0171_parsed.json",
+      "alias": "Candidate_0171"
+    },
+    {
+      "file": "Candidate_0172_parsed.json",
+      "alias": "Candidate_0172"
+    },
+    {
+      "file": "Candidate_0173_parsed.json",
+      "alias": "Candidate_0173"
+    },
+    {
+      "file": "Candidate_0174_parsed.json",
+      "alias": "Candidate_0174"
+    },
+    {
+      "file": "Candidate_0175_parsed.json",
+      "alias": "Candidate_0175"
+    },
+    {
+      "file": "Candidate_0176_parsed.json",
+      "alias": "Candidate_0176"
+    },
+    {
+      "file": "Candidate_0177_parsed.json",
+      "alias": "Candidate_0177"
+    },
+    {
+      "file": "Candidate_0178_parsed.json",
+      "alias": "Candidate_0178"
+    },
+    {
+      "file": "Candidate_0179_parsed.json",
+      "alias": "Candidate_0179"
+    },
+    {
+      "file": "Candidate_0180_parsed.json",
+      "alias": "Candidate_0180"
+    },
+    {
+      "file": "Candidate_0181_parsed.json",
+      "alias": "Candidate_0181"
+    },
+    {
+      "file": "Candidate_0182_parsed.json",
+      "alias": "Candidate_0182"
+    },
+    {
+      "file": "Candidate_0183_parsed.json",
+      "alias": "Candidate_0183"
+    },
+    {
+      "file": "Candidate_0184_parsed.json",
+      "alias": "Candidate_0184"
+    },
+    {
+      "file": "Candidate_0185_parsed.json",
+      "alias": "Candidate_0185"
+    },
+    {
+      "file": "Candidate_0186_parsed.json",
+      "alias": "Candidate_0186"
+    },
+    {
+      "file": "Candidate_0187_parsed.json",
+      "alias": "Candidate_0187"
+    },
+    {
+      "file": "Candidate_0188_parsed.json",
+      "alias": "Candidate_0188"
+    },
+    {
+      "file": "Candidate_0189_parsed.json",
+      "alias": "Candidate_0189"
+    },
+    {
+      "file": "Candidate_0190_parsed.json",
+      "alias": "Candidate_0190"
+    },
+    {
+      "file": "Candidate_0191_parsed.json",
+      "alias": "Candidate_0191"
+    },
+    {
+      "file": "Candidate_0192_parsed.json",
+      "alias": "Candidate_0192"
+    },
+    {
+      "file": "Candidate_0193_parsed.json",
+      "alias": "Candidate_0193"
+    },
+    {
+      "file": "Candidate_0194_parsed.json",
+      "alias": "Candidate_0194"
+    },
+    {
+      "file": "Candidate_0195_parsed.json",
+      "alias": "Candidate_0195"
+    },
+    {
+      "file": "Candidate_0196_parsed.json",
+      "alias": "Candidate_0196"
+    },
+    {
+      "file": "Candidate_0197_parsed.json",
+      "alias": "Candidate_0197"
+    }
+  ],
+  "note": "File names have been anonymized to alias-based names."
+}

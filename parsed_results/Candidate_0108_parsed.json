@@ -1,0 +1,670 @@
+{
+  "姓名": "Candidate_0108",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 10,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_GO_CORE",
+      "name": "Go",
+      "type": "LANGUAGE",
+      "evidence": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Golang",
+        "go语言",
+        "Go语言",
+        "Google Go"
+      ],
+      "languages": [
+        "Go"
+      ],
+      "matched_term": "Golang"
+    },
+    {
+      "skill_id": "SKILL_NODEJS",
+      "name": "Node.js",
+      "type": "RUNTIME",
+      "evidence": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Node"
+      ],
+      "languages": [
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "Node.js"
+    },
+    {
+      "skill_id": "SKILL_LANGCHAIN",
+      "name": "LangChain",
+      "type": "FRAMEWORK",
+      "evidence": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "Python",
+        "JavaScript",
+        "TypeScript"
+      ],
+      "matched_term": "LangChain"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "拥有10年以上人工智能开发经验，专注于AI系统架构设计、算法优化与工程化落地。擅长设计和部署企业级人工智能系统。具备从概念到生产环境交付可扩展的LLM解决方案的能力，专业领域包括通过微调优化模型性能以及开发自主智能体框架。热衷于通过严谨的审计协议实施负责任的人工智能实践。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_PYTORCH",
+      "name": "PyTorch",
+      "type": "ML_FRAMEWORK",
+      "evidence": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Pytorch",
+        "Torch"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "PyTorch"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 机器学习：具备从算法原理到系统落地的完整视角，能够在复杂业务场景中选择、组合并优化传统机器学习与深度学习方法（如逻辑回归、树模型、聚类与异常检测等），以稳定性、可解释性与工程可维护性为目标推动模型长期运行。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_MODEL_EVALUATION",
+      "name": "模型评估",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Model Evaluation",
+        "模型验证",
+        "模型效果评估"
+      ],
+      "matched_term": "模型评估"
+    },
+    {
+      "skill_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "name": "多轮对话管理",
+      "type": "AI_FEATURE",
+      "evidence": "- 实现多轮对话管理系统，支持金融场景复杂意图理解（准确率96.4%）。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Multi-turn",
+        "Context Management",
+        "上下文管理",
+        "对话历史"
+      ],
+      "belongs_to": [
+        "SKILL_CONTEXT_ENGINEERING"
+      ],
+      "matched_term": "多轮对话管理"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "- 早期从事分布式系统、微服务与大数据平台相关研发工作，参与并主导多个企业级系统的架构设计与落地，技术方向涵盖服务治理、数据治理、AI数据生产体系与大规模数据评测。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "擅长设计和部署企业级人工智能系统...主导新一代对话引擎开发，集成LLM与业务规则引擎...设计分布式Agent调度系统",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "name": "AI治理体系设计",
+      "type": "ABILITY",
+      "evidence": "热衷于通过严谨的审计协议实施负责任的人工智能实践...AI系统在数据合规、审计与责任边界上的工程化落地",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "AI治理",
+        "AI治理框架",
+        "AI治理体系",
+        "AI风险合规"
+      ],
+      "matched_term": "AI治理体系设计"
+    },
+    {
+      "competency_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "name": "技术风险管理",
+      "type": "ABILITY",
+      "evidence": "构建基于深度学习的动态风险监测模型，实现企业数据流自动化合规审查...创建用于模型鲁棒性评估的测试套件，支持自动化回归与风险用例沉淀",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "技术风险管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_AGENT_DEVELOPMENT",
+      "name": "AI Agent Development",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+        "- 实现多轮对话管理系统，支持金融场景复杂意图理解（准确率96.4%）。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_AGENT_DEV",
+          "rule_name": "LangChain -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "LangChain is frequently used to build tool-using agents, so AI agent development is a reasonable secondary inference.",
+          "inference_weight": 0.76
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理",
+          "rule_id": "RULE_MULTI_TURN_TO_AGENT_DEV",
+          "rule_name": "多轮对话管理 -> CAP_AI_AGENT_DEVELOPMENT",
+          "inference_reason": "Multi-turn dialogue management is a common component in conversational agent systems.",
+          "inference_weight": 0.69
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_GOVERNANCE_FRAMEWORK",
+      "name": "AI Governance Framework",
+      "domain_id": "DOMAIN_AI_STRATEGY",
+      "evidence": [
+        "热衷于通过严谨的审计协议实施负责任的人工智能实践...AI系统在数据合规、审计与责任边界上的工程化落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONVERSATION_STATE_MANAGEMENT",
+      "name": "Conversation State Management",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 实现多轮对话管理系统，支持金融场景复杂意图理解（准确率96.4%）。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MULTI_TURN_DIALOGUE",
+          "name": "多轮对话管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 早期从事分布式系统、微服务与大数据平台相关研发工作，参与并主导多个企业级系统的架构设计与落地，技术方向涵盖服务治理、数据治理、AI数据生产体系与大规模数据评测。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "- 早期从事分布式系统、微服务与大数据平台相关研发工作，参与并主导多个企业级系统的架构设计与落地，技术方向涵盖服务治理、数据治理、AI数据生产体系与大规模数据评测。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长设计和部署企业级人工智能系统...主导新一代对话引擎开发，集成LLM与业务规则引擎...设计分布式Agent调度系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_LANGCHAIN_ORCHESTRATION",
+      "name": "LangChain Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+        "- 机器学习：具备从算法原理到系统落地的完整视角，能够在复杂业务场景中选择、组合并优化传统机器学习与深度学习方法（如逻辑回归、树模型、聚类与异常检测等），以稳定性、可解释性与工程可维护性为目标推动模型长期运行。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PYTORCH",
+          "name": "PyTorch"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MODEL_EVALUATION",
+      "name": "Model Evaluation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MODEL_EVALUATION",
+          "name": "模型评估"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "擅长设计和部署企业级人工智能系统...主导新一代对话引擎开发，集成LLM与业务规则引擎...设计分布式Agent调度系统"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_LANGCHAIN",
+          "name": "LangChain",
+          "rule_id": "RULE_LANGCHAIN_TO_RAG",
+          "rule_name": "LangChain -> CAP_RAG",
+          "inference_reason": "LangChain is commonly used in retrieval orchestration, but the inference is kept narrower than broader downstream abilities.",
+          "inference_weight": 0.74
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "热衷于通过严谨的审计协议实施负责任的人工智能实践...AI系统在数据合规、审计与责任边界上的工程化落地"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_GOVERNANCE_DESIGN",
+          "name": "AI治理体系设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TECHNICAL_RISK_SYNC",
+      "name": "Technical Risk Synchronization",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "构建基于深度学习的动态风险监测模型，实现企业数据流自动化合规审查...创建用于模型鲁棒性评估的测试套件，支持自动化回归与风险用例沉淀"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+          "name": "技术风险管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "supports_entity_id": "SKILL_GO_CORE",
+      "supports_entity_name": "Go",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 工程与编程能力：精通Python作为AI与系统原型及核心工程语言，具备Java、Golang、Scala、Node.js等多语言背景，能够在不同技术栈中做出合理取舍，并在性能优化、系统稳定性与可维护性方面提供关键输入。",
+      "supports_entity_id": "SKILL_NODEJS",
+      "supports_entity_name": "Node.js",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "supports_entity_id": "SKILL_LANGCHAIN",
+      "supports_entity_name": "LangChain",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_LANGCHAIN_ORCHESTRATION",
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "拥有10年以上人工智能开发经验，专注于AI系统架构设计、算法优化与工程化落地。擅长设计和部署企业级人工智能系统。具备从概念到生产环境交付可扩展的LLM解决方案的能力，专业领域包括通过微调优化模型性能以及开发自主智能体框架。热衷于通过严谨的审计协议实施负责任的人工智能实践。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "supports_entity_id": "SKILL_PYTORCH",
+      "supports_entity_name": "PyTorch",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 机器学习：具备从算法原理到系统落地的完整视角，能够在复杂业务场景中选择、组合并优化传统机器学习与深度学习方法（如逻辑回归、树模型、聚类与异常检测等），以稳定性、可解释性与工程可维护性为目标推动模型长期运行。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构 · 模型评估与实验体系",
+      "supports_entity_id": "SKILL_MODEL_EVALUATION",
+      "supports_entity_name": "模型评估",
+      "derived_capability_ids": [
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 实现多轮对话管理系统，支持金融场景复杂意图理解（准确率96.4%）。",
+      "supports_entity_id": "SKILL_MULTI_TURN_DIALOGUE",
+      "supports_entity_name": "多轮对话管理",
+      "derived_capability_ids": [
+        "CAP_AI_AGENT_DEVELOPMENT",
+        "CAP_CONVERSATION_STATE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 早期从事分布式系统、微服务与大数据平台相关研发工作，参与并主导多个企业级系统的架构设计与落地，技术方向涵盖服务治理、数据治理、AI数据生产体系与大规模数据评测。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长设计和部署企业级人工智能系统...主导新一代对话引擎开发，集成LLM与业务规则引擎...设计分布式Agent调度系统",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "热衷于通过严谨的审计协议实施负责任的人工智能实践...AI系统在数据合规、审计与责任边界上的工程化落地",
+      "supports_entity_id": "SKILL_AI_GOVERNANCE_DESIGN",
+      "supports_entity_name": "AI治理体系设计",
+      "derived_capability_ids": [
+        "CAP_AI_GOVERNANCE_FRAMEWORK",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "构建基于深度学习的动态风险监测模型，实现企业数据流自动化合规审查...创建用于模型鲁棒性评估的测试套件，支持自动化回归与风险用例沉淀",
+      "supports_entity_id": "SKILL_TECHNICAL_RISK_MANAGEMENT",
+      "supports_entity_name": "技术风险管理",
+      "derived_capability_ids": [
+        "CAP_TECHNICAL_RISK_SYNC"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "LlamaIndex",
+      "evidence": "AI/LLM：Python · PyTorch · LangChain · LlamaIndex"
+    },
+    {
+      "skill_id": "",
+      "name": "Qwen-2.5",
+      "evidence": "针对金融领域微调Qwen-2.5模型，F1值提升41%"
+    },
+    {
+      "skill_id": "",
+      "name": "分布式Agent架构",
+      "evidence": "AI / LLM Systems & Agent Platforms：Python · PyTorch · LangChain · LlamaIndex · 分布式Agent架构"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "",
+      "职位": "AI/ML Computational Science Manager",
+      "时间": "",
+      "描述": "拥有10年以上人工智能开发经验，专注于AI系统架构设计、算法优化与工程化落地。擅长设计和部署企业级人工智能系统。"
+    },
+    {
+      "公司": "",
+      "职位": "技术负责人",
+      "时间": "",
+      "描述": "AI审计系统开发：构建基于深度学习的动态风险监测模型，实现企业数据流自动化合规审查。设计多模态数据融合架构，审计准确率提升至99.2%。"
+    },
+    {
+      "公司": "",
+      "职位": "首席架构师",
+      "时间": "",
+      "描述": "智能客服Chatbot平台：主导新一代对话引擎开发，集成LLM与业务规则引擎。实现多轮对话管理系统，支持金融场景复杂意图理解。"
+    },
+    {
+      "公司": "",
+      "职位": "核心开发者",
+      "时间": "",
+      "描述": "Agent协同平台：设计分布式Agent调度系统，支持10万+并发智能体协同作业。开发任务分解与路由算法。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 实现多轮对话管理系统，支持金融场景复杂意图理解（准确率96.4%）。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "**角色：** 核心开发者｜分布式Agent调度与企业系统集成",
+      "source": "rule",
+      "matched_term": "系统集成"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售财务",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "qinghan.xu_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\qinghan.xu_profile_CN.md",
+    "source_hash": "aa318f0089ffbfa119889bea277e0e84ac1d7f80c6d4361ec354027ee17958ff",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:54:13"
+  },
+  "城市": "Dalian"
+}

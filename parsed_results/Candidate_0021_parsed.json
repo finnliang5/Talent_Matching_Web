@@ -1,0 +1,742 @@
+{
+  "姓名": "Candidate_0021",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA",
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 3,
+      "competency_count": 11
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "* 【Python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_HTML",
+      "name": "HTML",
+      "type": "MARKUP",
+      "evidence": "* 【HTML】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "HTML"
+      ],
+      "matched_term": "HTML"
+    },
+    {
+      "skill_id": "SKILL_SPLUNK",
+      "name": "Splunk",
+      "type": "OBSERVABILITY_PLATFORM",
+      "evidence": "【工作年限：15年。从事领域：Agentic AI方向：覆盖从业务场景深度调研、高价值用例发掘，到产品架构设计、落地开发的全流程。企业级智能运维与自动化体系，主导Splunk、埃森哲Genwizard核心资产的部署实施、定制化开发及长期运维保障，同时为客户提供业务痛点分析、需求拆解与用例转化服务。监控平台的定制化开发与全流程测试，掌握主流RPA工具，可独立完成多场景的Bot自动化解决方案落地。供应链方向：供应链管理、价格审批、投标、标书、合规审计。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Splunk Enterprise",
+        "Splunk Cloud",
+        "Splunk Observability"
+      ],
+      "matched_term": "Splunk"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "* 【职责：深度参与IBM多维度RPA项目，兼顾流程专家（SME）、开发人员、业务分析师（BA）等多重角色。围绕IBM业务运营团队的自动化需求，全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路，确保自动化方案贴合业务实际场景。用到的RPA平台有Automation Anywhere, Blue prism, UI Path, VBA。项目成果：通过跨角色协作，完成多套适配IBM业务场景的RPA Bot开发落地，有效支撑业务运营流程的自动化升级。凭借专业的可行",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "* 【项目管理】",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "业务痛点分析、需求拆解与用例转化服务；全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "覆盖从业务场景深度调研、高价值用例发掘；主导客户Genwizard Agentic AI相关的用例发掘",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "产品架构设计、落地开发的全流程；负责产品的设计、开发、部署和维护",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "协助供应链经理开展战略规划与流程优化工作，参与制定采购计划、库存策略；围绕IBM业务运营团队的自动化需求，确保自动化方案贴合业务实际场景",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "主动发掘自动化用例，获得客户认可之后负责产品设计；与客户建立信任，实现零违规零投诉",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "跨角色协作完成多套RPA Bot开发落地；配合完成供应链日常运营事务，及时反馈并协助解决运营中的突发问题",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_ERP_AI_INTEGRATION",
+      "name": "ERP与AI集成",
+      "type": "ABILITY",
+      "evidence": "负责Genwizard for Oracle, Genwizard SAP ABAP等产品的部署与定制开发；打通ServiceNow与Splunk的数据同步链路",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "ERP与AI集成"
+    },
+    {
+      "competency_id": "SKILL_DATA_ASSET_PLANNING",
+      "name": "数据资产规划",
+      "type": "ABILITY",
+      "evidence": "基于Splunk Enterprise搭建运行环境，负责数据采集链路的配置与优化；完成动态数据的采集、格式化处理",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "数据资产盘点",
+        "数据资产管理",
+        "数据源规划",
+        "数据资产梳理"
+      ],
+      "matched_term": "数据资产规划"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "触发Python脚本完成工单自动resolution，大幅降低人工运维成本；有效支撑业务运营流程的自动化升级，助力提升业务运营效率",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "覆盖从业务场景深度调研、高价值用例发掘；主导客户Genwizard Agentic AI相关的用例发掘"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "覆盖从业务场景深度调研、高价值用例发掘；主导客户Genwizard Agentic AI相关的用例发掘"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "* 【职责：深度参与IBM多维度RPA项目，兼顾流程专家（SME）、开发人员、业务分析师（BA）等多重角色。围绕IBM业务运营团队的自动化需求，全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路，确保自动化方案贴合业务实际场景。用到的RPA平台有Automation Anywhere, Blue prism, UI Path, VBA。项目成果：通过跨角色协作，完成多套适配IBM业务场景的RPA Bot开发落地，有效支撑业务运营流程的自动化升级。凭借专业的可行"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "覆盖从业务场景深度调研、高价值用例发掘；主导客户Genwizard Agentic AI相关的用例发掘",
+        "触发Python脚本完成工单自动resolution，大幅降低人工运维成本；有效支撑业务运营流程的自动化升级，助力提升业务运营效率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主动发掘自动化用例，获得客户认可之后负责产品设计；与客户建立信任，实现零违规零投诉",
+        "跨角色协作完成多套RPA Bot开发落地；配合完成供应链日常运营事务，及时反馈并协助解决运营中的突发问题"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_MODELING",
+      "name": "Data Modeling",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "基于Splunk Enterprise搭建运行环境，负责数据采集链路的配置与优化；完成动态数据的采集、格式化处理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "基于Splunk Enterprise搭建运行环境，负责数据采集链路的配置与优化；完成动态数据的采集、格式化处理"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_ASSET_PLANNING",
+          "name": "数据资产规划"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_ERP_AI_INTEGRATION_DESIGN",
+      "name": "ERP and AI Integration Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责Genwizard for Oracle, Genwizard SAP ABAP等产品的部署与定制开发；打通ServiceNow与Splunk的数据同步链路"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "触发Python脚本完成工单自动resolution，大幅降低人工运维成本；有效支撑业务运营流程的自动化升级，助力提升业务运营效率"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "产品架构设计、落地开发的全流程；负责产品的设计、开发、部署和维护"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_MONITORING_INCIDENT_RESPONSE",
+      "name": "Monitoring and Incident Response",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "【工作年限：15年。从事领域：Agentic AI方向：覆盖从业务场景深度调研、高价值用例发掘，到产品架构设计、落地开发的全流程。企业级智能运维与自动化体系，主导Splunk、埃森哲Genwizard核心资产的部署实施、定制化开发及长期运维保障，同时为客户提供业务痛点分析、需求拆解与用例转化服务。监控平台的定制化开发与全流程测试，掌握主流RPA工具，可独立完成多场景的Bot自动化解决方案落地。供应链方向：供应链管理、价格审批、投标、标书、合规审计。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "产品架构设计、落地开发的全流程；负责产品的设计、开发、部署和维护"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PLATFORM_RELIABILITY",
+      "name": "Platform Reliability Engineering",
+      "domain_id": "DOMAIN_CLOUD_AND_INFRASTRUCTURE",
+      "evidence": [
+        "【工作年限：15年。从事领域：Agentic AI方向：覆盖从业务场景深度调研、高价值用例发掘，到产品架构设计、落地开发的全流程。企业级智能运维与自动化体系，主导Splunk、埃森哲Genwizard核心资产的部署实施、定制化开发及长期运维保障，同时为客户提供业务痛点分析、需求拆解与用例转化服务。监控平台的定制化开发与全流程测试，掌握主流RPA工具，可独立完成多场景的Bot自动化解决方案落地。供应链方向：供应链管理、价格审批、投标、标书、合规审计。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SPLUNK",
+          "name": "Splunk"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【职责：深度参与IBM多维度RPA项目，兼顾流程专家（SME）、开发人员、业务分析师（BA）等多重角色。围绕IBM业务运营团队的自动化需求，全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路，确保自动化方案贴合业务实际场景。用到的RPA平台有Automation Anywhere, Blue prism, UI Path, VBA。项目成果：通过跨角色协作，完成多套适配IBM业务场景的RPA Bot开发落地，有效支撑业务运营流程的自动化升级。凭借专业的可行",
+        "协助供应链经理开展战略规划与流程优化工作，参与制定采购计划、库存策略；围绕IBM业务运营团队的自动化需求，确保自动化方案贴合业务实际场景"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "* 【职责：深度参与IBM多维度RPA项目，兼顾流程专家（SME）、开发人员、业务分析师（BA）等多重角色。围绕IBM业务运营团队的自动化需求，全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路，确保自动化方案贴合业务实际场景。用到的RPA平台有Automation Anywhere, Blue prism, UI Path, VBA。项目成果：通过跨角色协作，完成多套适配IBM业务场景的RPA Bot开发落地，有效支撑业务运营流程的自动化升级。凭借专业的可行",
+        "业务痛点分析、需求拆解与用例转化服务；全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "业务痛点分析、需求拆解与用例转化服务；全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "* 【项目管理】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主动发掘自动化用例，获得客户认可之后负责产品设计；与客户建立信任，实现零违规零投诉"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TECH_DEPENDENCY_MAPPING",
+      "name": "Technical Dependency Mapping",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责Genwizard for Oracle, Genwizard SAP ABAP等产品的部署与定制开发；打通ServiceNow与Splunk的数据同步链路"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_ERP_AI_INTEGRATION",
+          "name": "ERP与AI集成"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 6
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【Python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "* 【HTML】",
+      "supports_entity_id": "SKILL_HTML",
+      "supports_entity_name": "HTML",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【工作年限：15年。从事领域：Agentic AI方向：覆盖从业务场景深度调研、高价值用例发掘，到产品架构设计、落地开发的全流程。企业级智能运维与自动化体系，主导Splunk、埃森哲Genwizard核心资产的部署实施、定制化开发及长期运维保障，同时为客户提供业务痛点分析、需求拆解与用例转化服务。监控平台的定制化开发与全流程测试，掌握主流RPA工具，可独立完成多场景的Bot自动化解决方案落地。供应链方向：供应链管理、价格审批、投标、标书、合规审计。】",
+      "supports_entity_id": "SKILL_SPLUNK",
+      "supports_entity_name": "Splunk",
+      "derived_capability_ids": [
+        "CAP_MONITORING_INCIDENT_RESPONSE",
+        "CAP_PLATFORM_RELIABILITY"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【职责：深度参与IBM多维度RPA项目，兼顾流程专家（SME）、开发人员、业务分析师（BA）等多重角色。围绕IBM业务运营团队的自动化需求，全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路，确保自动化方案贴合业务实际场景。用到的RPA平台有Automation Anywhere, Blue prism, UI Path, VBA。项目成果：通过跨角色协作，完成多套适配IBM业务场景的RPA Bot开发落地，有效支撑业务运营流程的自动化升级。凭借专业的可行",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "* 【项目管理】",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "业务痛点分析、需求拆解与用例转化服务；全流程负责从需求拆解、可行性分析，到Bot开发、测试验证的完整链路",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "覆盖从业务场景深度调研、高价值用例发掘；主导客户Genwizard Agentic AI相关的用例发掘",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "产品架构设计、落地开发的全流程；负责产品的设计、开发、部署和维护",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协助供应链经理开展战略规划与流程优化工作，参与制定采购计划、库存策略；围绕IBM业务运营团队的自动化需求，确保自动化方案贴合业务实际场景",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主动发掘自动化用例，获得客户认可之后负责产品设计；与客户建立信任，实现零违规零投诉",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "跨角色协作完成多套RPA Bot开发落地；配合完成供应链日常运营事务，及时反馈并协助解决运营中的突发问题",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责Genwizard for Oracle, Genwizard SAP ABAP等产品的部署与定制开发；打通ServiceNow与Splunk的数据同步链路",
+      "supports_entity_id": "SKILL_ERP_AI_INTEGRATION",
+      "supports_entity_name": "ERP与AI集成",
+      "derived_capability_ids": [
+        "CAP_ERP_AI_INTEGRATION_DESIGN",
+        "CAP_TECH_DEPENDENCY_MAPPING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于Splunk Enterprise搭建运行环境，负责数据采集链路的配置与优化；完成动态数据的采集、格式化处理",
+      "supports_entity_id": "SKILL_DATA_ASSET_PLANNING",
+      "supports_entity_name": "数据资产规划",
+      "derived_capability_ids": [
+        "CAP_DATA_MODELING",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "触发Python脚本完成工单自动resolution，大幅降低人工运维成本；有效支撑业务运营流程的自动化升级，助力提升业务运营效率",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Genwizard / Genziard",
+      "evidence": "核心技能列表及项目经验中提及埃森哲Genwizard AiOps资产的部署实施、定制化开发及相关产品（ATR, CloudChaser等）"
+    },
+    {
+      "skill_id": "",
+      "name": "Automation Anywhere",
+      "evidence": "核心技能列表提及，早期职业背景提及RPA开发工程师(AA)"
+    },
+    {
+      "skill_id": "",
+      "name": "Blue Prism",
+      "evidence": "核心技能列表提及，核心技术工具列表明确标注Blue Prism（RPA开发平台）"
+    },
+    {
+      "skill_id": "",
+      "name": "UiPath",
+      "evidence": "AEON项目技术栈及IBM RPA开发经历中明确使用UiPath进行机器人开发与测试"
+    },
+    {
+      "skill_id": "",
+      "name": "ServiceNow",
+      "evidence": "TSC项目经验中提及打通ServiceNow与Splunk的数据同步链路，实现工单智能分类与自动分配"
+    },
+    {
+      "skill_id": "",
+      "name": "GCP Cloud",
+      "evidence": "可选模块-工具与平台中明确列出"
+    },
+    {
+      "skill_id": "",
+      "name": "Gemini",
+      "evidence": "可选模块-工具与平台中明确列出"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 (Accenture)",
+      "职位": "设计/开发/顾问/维护/测试负责人 & RPA机器人开发负责人 & Splunk Monitoring and Automation Application Deployment lead",
+      "时间": "-",
+      "描述": "负责Genwizard平台全产品线部署、自定义开发与长期运维；主动发掘高价值自动化用例并获客户认可；主导Agentic AI用例发掘与团队能力建设。成果：实现零违规零投诉，客户深度依赖。独立负责AiOps RPA360部署与监控，实现自动化流程自愈；搭建Splunk AIOps资产环境，配置数据采集链路，实现Bot全生命周期监控、自动化报告推送及工单智能分类与自动分配，大幅降低人工运维成本。"
+    },
+    {
+      "公司": "IBM",
+      "职位": "Bid manager / RPA 开发/SME/BA / 供应链管理见习经理",
+      "时间": "2011-2019",
+      "描述": "担任Bid经理负责集采标书审核、价格合规审批及中标后订单物流跟踪，成功完成集采。兼任SME/BA/开发角色，兼顾流程专家与开发人员职责，完成多套适配IBM业务场景的RPA Bot开发落地。担任供应链见习经理，协助战略规划与流程优化，参与采购计划制定、供应商管理及库存物流协调，收集分析供应链数据支持决策。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "**角色：** 【Bid manager / 主要负责几大行以及中国电信的集中采购】",
+      "source": "rule",
+      "matched_term": "电信"
+    }
+  ],
+  "_batch": {
+    "source_file": "edie.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\edie.wang_profile_CN.md",
+    "source_hash": "ee35c0a39a0c83bccca1459eb2468765f6dd2896ab7d334b68f3a12411fdb932",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:18:19"
+  },
+  "级别推断": {
+    "level_requirement": "Level 7",
+    "has_level_requirement": true,
+    "source": "resume_title_rule",
+    "evidence": "【IBM / Bid manager】",
+    "confidence": 0.75
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,626 @@
+{
+  "姓名": "Candidate_0072",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "CONSULTING",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "TECHNICAL"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 9
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 主导SAP、供应链、库存、生产、零售软件需求分析与设计",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "- 作为项目技术实施负责人，精通变革管理，负责HR数字化项目(含人事六大模块)的0-1搭建，与wave 1- 7批次的实施上线，主导上百场业务&IT调研访谈，以进行快速适配与优化调整。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "变革管理"
+    },
+    {
+      "competency_id": "SKILL_CONSULTING_DELIVERY",
+      "name": "咨询交付",
+      "type": "ABILITY",
+      "evidence": "擅长大型数字化转型、流程卓越运营、HR技术咨询及技术交付；主导技术侧打单工作，包括方案汇报、DEMO演示",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "咨询交付"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "主导项目高阶设计、交付产品应用方案；非功能性设计：认证体系设计、性能设计、权限设计、微服务架构设计及数据流设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "标准化流程设计与项目交付；流程卓越运营；入转调离设计；考勤及排班管理设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "主导上百场业务&IT调研访谈，以进行快速适配与优化调整；沟通功能架构、可扩展性、SLA体系、运营体系及业务功能设计",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI机会洞察",
+      "type": "ABILITY",
+      "evidence": "通过AI及技术手段对业务流程进行改善提升；在0-1搭建的HR共享及员工体验平台基础上进行AI增强，增加AI智能体功能，提升开发效率、用户体验及数据洞察能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "AI机会洞察"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_AI_OPPORTUNITY_DISCOVERY",
+      "name": "AI Opportunity Discovery",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "通过AI及技术手段对业务流程进行改善提升；在0-1搭建的HR共享及员工体验平台基础上进行AI增强，增加AI智能体功能，提升开发效率、用户体验及数据洞察能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_AI_SCENARIO_SELECTION",
+      "name": "AI Scenario Selection",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "通过AI及技术手段对业务流程进行改善提升；在0-1搭建的HR共享及员工体验平台基础上进行AI增强，增加AI智能体功能，提升开发效率、用户体验及数据洞察能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- 作为项目技术实施负责人，精通变革管理，负责HR数字化项目(含人事六大模块)的0-1搭建，与wave 1- 7批次的实施上线，主导上百场业务&IT调研访谈，以进行快速适配与优化调整。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "通过AI及技术手段对业务流程进行改善提升；在0-1搭建的HR共享及员工体验平台基础上进行AI增强，增加AI智能体功能，提升开发效率、用户体验及数据洞察能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+          "name": "AI机会洞察"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "主导上百场业务&IT调研访谈，以进行快速适配与优化调整；沟通功能架构、可扩展性、SLA体系、运营体系及业务功能设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_CONSULTING_DELIVERY",
+      "name": "Consulting Delivery",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长大型数字化转型、流程卓越运营、HR技术咨询及技术交付；主导技术侧打单工作，包括方案汇报、DEMO演示"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "擅长大型数字化转型、流程卓越运营、HR技术咨询及技术交付；主导技术侧打单工作，包括方案汇报、DEMO演示"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_CONSULTING_DELIVERY",
+          "name": "咨询交付"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导项目高阶设计、交付产品应用方案；非功能性设计：认证体系设计、性能设计、权限设计、微服务架构设计及数据流设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "主导项目高阶设计、交付产品应用方案；非功能性设计：认证体系设计、性能设计、权限设计、微服务架构设计及数据流设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+        "标准化流程设计与项目交付；流程卓越运营；入转调离设计；考勤及排班管理设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+        "- 主导SAP、供应链、库存、生产、零售软件需求分析与设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 主导SAP、供应链、库存、生产、零售软件需求分析与设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 作为项目技术实施负责人，精通变革管理，负责HR数字化项目(含人事六大模块)的0-1搭建，与wave 1- 7批次的实施上线，主导上百场业务&IT调研访谈，以进行快速适配与优化调整。",
+        "主导上百场业务&IT调研访谈，以进行快速适配与优化调整；沟通功能架构、可扩展性、SLA体系、运营体系及业务功能设计"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 7
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 主导SAP、供应链、库存、生产、零售软件需求分析与设计",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "精通HR&IT数字化转型与ITIL框架下的ADM管理，15年以上的项目管理、0-1产品搭建、售前打单、技术交付、技术咨询、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。精通HR共享模式下的效率提升、系统集成与共享平台搭建。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 作为项目技术实施负责人，精通变革管理，负责HR数字化项目(含人事六大模块)的0-1搭建，与wave 1- 7批次的实施上线，主导上百场业务&IT调研访谈，以进行快速适配与优化调整。",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长大型数字化转型、流程卓越运营、HR技术咨询及技术交付；主导技术侧打单工作，包括方案汇报、DEMO演示",
+      "supports_entity_id": "SKILL_CONSULTING_DELIVERY",
+      "supports_entity_name": "咨询交付",
+      "derived_capability_ids": [
+        "CAP_CONSULTING_DELIVERY",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导项目高阶设计、交付产品应用方案；非功能性设计：认证体系设计、性能设计、权限设计、微服务架构设计及数据流设计",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "标准化流程设计与项目交付；流程卓越运营；入转调离设计；考勤及排班管理设计",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导上百场业务&IT调研访谈，以进行快速适配与优化调整；沟通功能架构、可扩展性、SLA体系、运营体系及业务功能设计",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "通过AI及技术手段对业务流程进行改善提升；在0-1搭建的HR共享及员工体验平台基础上进行AI增强，增加AI智能体功能，提升开发效率、用户体验及数据洞察能力",
+      "supports_entity_id": "SKILL_AI_OPPORTUNITY_DISCOVERY",
+      "supports_entity_name": "AI机会洞察",
+      "derived_capability_ids": [
+        "CAP_AI_OPPORTUNITY_DISCOVERY",
+        "CAP_AI_SCENARIO_SELECTION",
+        "CAP_BUSINESS_VALUE_QUANTIFICATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Claude code",
+      "evidence": "工具与平台: Claude code"
+    },
+    {
+      "skill_id": "",
+      "name": "扣子平台",
+      "evidence": "工具与平台: 扣子平台"
+    },
+    {
+      "skill_id": "",
+      "name": "ITIL",
+      "evidence": "ITIL认证；ITIL框架下的ADM管理"
+    },
+    {
+      "skill_id": "",
+      "name": "TOGAF",
+      "evidence": "TOGAF认证；Togaf框架下架构设计"
+    },
+    {
+      "skill_id": "",
+      "name": "SAP",
+      "evidence": "主导SAP、供应链、库存、生产、零售软件需求分析与设计"
+    },
+    {
+      "skill_id": "",
+      "name": "DMS",
+      "evidence": "设计交付DMS(汽车经销商管理系统)"
+    },
+    {
+      "skill_id": "",
+      "name": "IMS",
+      "evidence": "设计交付DMS与IMS解决方案"
+    },
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "对HRSSC，HRBP,ITSSC, RPA, AI, 数据分析等领域有较强的知识和项目经验"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲 / TFO",
+      "职位": "技术交付经理 / 松下电器",
+      "时间": "",
+      "描述": "主导技术侧打单工作，包括方案汇报、DEMO演示、与合同撰写；作为项目系统专家及交付经理，主导项目高阶设计、交付产品应用方案，流程包括招聘、入转调离、人资规划、培训、智能体等；主导HR转型中系统的0-1的功能设计、接口设计、集成设计、标准化流程设计与项目交付；主导上百场业务&IT调研访谈；管理薪酬供应商工具平台交付，平台服务员工40,000+。"
+    },
+    {
+      "公司": "埃森哲 / TFO",
+      "职位": "HR咨询与软件交付经理 / 阿里集团",
+      "时间": "",
+      "描述": "作为项目系统专家，负责HR工单及工作流系统设计与实现；设计、交付产品应用方案，包含入职，离职，调动，津贴，以及各个人事流程的状态跟踪、内部审计与合规性检查。"
+    },
+    {
+      "公司": "埃森哲 / TFO",
+      "职位": "HR工单项目经理 / 远景能源HR项目",
+      "时间": "",
+      "描述": "主导技术侧打单工作，包括方案汇报与DEMO演示；HR工单需求梳理；带领团队为客户提供人事共享服务工具测试与交付；帮助客户梳理业务指标、SLA体系搭建与系统实现。"
+    },
+    {
+      "公司": "埃森哲 / TFO",
+      "职位": "产品经理 / 内部HR项目0-1搭建",
+      "时间": "",
+      "描述": "调研市场痛点与业内领先做法；沟通功能架构、可扩展性、SLA体系、运营体系及业务功能设计；非功能性设计：认证体系设计、性能设计、权限设计、微服务架构设计及数据流设计。"
+    },
+    {
+      "公司": "CDK / 持续运营部",
+      "职位": "运营及交付经理 / 汽车进销存平台管理",
+      "时间": "",
+      "描述": "作为交付负责人，领导团队设计交付DMS与IMS解决方案；通过业务访谈，主导设计销售线索管理、新车预定、订单采购、零配件管理、财务等功能交付；精通订单管理、库存管理与CRM管理；主导SAP、供应链、库存、生产、零售软件需求分析与设计。"
+    },
+    {
+      "公司": "CDK / 运营交付部",
+      "职位": "运营及交付经理 / 汽车进销存平台管理",
+      "时间": "",
+      "描述": "作为IT共享中心服务经理，将海外及国内其他支持中心迁移到大连，包括人员团队建设、知识管理、服务指标设计、运维服务管理、紧急事件管理、Problem管理、发布管理与问题升级管理。"
+    },
+    {
+      "公司": "恒锐科技 / 国际事业部",
+      "职位": "售前经理 / ERP产品",
+      "时间": "",
+      "描述": "作为售前经理，主导海外展会推广、功能演示、需求分析、合同签署、蓝图设计、UAT测试与培训及上线支持。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 【恒锐科技 / 国际事业部】",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "- 新能源",
+      "source": "rule",
+      "matched_term": "能源"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 零售业",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "li.ding_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\li.ding_profile_CN.md",
+    "source_hash": "d9d6883aed4ca8d5599fe64810e6b934f3dfd7a702f382155698ca5c92496281",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:36:35"
+  },
+  "城市": "Dalian"
+}

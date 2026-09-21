@@ -1,0 +1,728 @@
+{
+  "姓名": "Candidate_0027",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "HYBRID",
+    "secondary": [
+      "PROJECT_MANAGER",
+      "BA"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 9,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- Python/C#/JavaScript/JAVA开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVA_CORE",
+      "name": "JAVA 核心",
+      "type": "LANGUAGE",
+      "evidence": "- Python/C#/JavaScript/JAVA开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Java",
+        "JAVA"
+      ],
+      "languages": [
+        "Java"
+      ],
+      "matched_term": "Java"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- Python/C#/JavaScript/JAVA开发",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 借助LLM、OCR及知识库，实现PTP流程员工费用（差旅、通讯费等）及对公费用（物流、服务、广告费等）的审核自动化",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 基于项目需求构建智能体框架及技术路线，结合财经业务场景，梳理智能体核心模块，结合客户Dify智能体和RAG平台，明确开发标准及交付规范。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_RAG",
+      "name": "RAG",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- AI Agent/RAG",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Retrieval-Augmented Generation",
+        "Retrieval Augmented Generation",
+        "检索增强生成"
+      ],
+      "matched_term": "RAG"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- Power BI",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_API_TESTING",
+      "name": "接口测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 对接S&OP（销售与运营计划）作为输入，作为ISP（集成供应链计划）的输入进行设计和测试；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标（销量预测、产能规划、库存目标、交付承诺等），明确S&OP数据向ISP系统的传递规则、数据格式及同步频率，设计ISP系统的输入接口及数据校验逻辑，开展接口测试、数据一致性测试，确保S&OP输入准确、高效支撑ISP计划的制定与执行，实现供需平衡与供应链协同。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "API测试",
+        "API Testing",
+        "接口自动化测试"
+      ],
+      "matched_term": "接口测试"
+    },
+    {
+      "skill_id": "SKILL_REGRESSION_TESTING",
+      "name": "回归测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 参与排产设计并转化为需求和系统设计，给开发人员，并进行测试验证；对接生产、计划等业务部门，梳理排产核心逻辑（含产能约束、物料齐套、交付周期、优先级规则等），将业务排产需求拆解为可落地的功能需求，系统设计文档，协助开发人员理解业务场景，开展功能测试、回归测试，验证排产相关功能是否符合业务预期，确保排产系统适配集成供应链整体流程。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Regression Testing"
+      ],
+      "matched_term": "回归测试"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "对接业务方，调研业务痛点，转化为智能体功能需求；将业务排产需求拆解为可落地的功能需求，系统设计文档",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "梳理业务流程衔接及数据流转规则，确保架构设计贴合业财一体业务场景；包括采购申请、寻源管理、订单及收获管理的端到端设计和实施",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "对接客户IT沟通与协调技术资源和集成交付管理；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "基于项目需求构建智能体框架及技术路线；设计技术及数据架构，梳理业务流程衔接及数据流转规则",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_API_TESTING",
+      "name": "API Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 对接S&OP（销售与运营计划）作为输入，作为ISP（集成供应链计划）的输入进行设计和测试；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标（销量预测、产能规划、库存目标、交付承诺等），明确S&OP数据向ISP系统的传递规则、数据格式及同步频率，设计ISP系统的输入接口及数据校验逻辑，开展接口测试、数据一致性测试，确保S&OP输入准确、高效支撑ISP计划的制定与执行，实现供需平衡与供应链协同。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_API_TESTING",
+          "name": "接口测试"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- Power BI"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对接客户IT沟通与协调技术资源和集成交付管理；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 基于项目需求构建智能体框架及技术路线，结合财经业务场景，梳理智能体核心模块，结合客户Dify智能体和RAG平台，明确开发标准及交付规范。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于项目需求构建智能体框架及技术路线；设计技术及数据架构，梳理业务流程衔接及数据流转规则"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "基于项目需求构建智能体框架及技术路线；设计技术及数据架构，梳理业务流程衔接及数据流转规则"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+        "梳理业务流程衔接及数据流转规则，确保架构设计贴合业财一体业务场景；包括采购申请、寻源管理、订单及收获管理的端到端设计和实施"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RAG",
+      "name": "RAG",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- AI Agent/RAG"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_RAG",
+          "name": "RAG"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+        "对接业务方，调研业务痛点，转化为智能体功能需求；将业务排产需求拆解为可落地的功能需求，系统设计文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "对接业务方，调研业务痛点，转化为智能体功能需求；将业务排产需求拆解为可落地的功能需求，系统设计文档"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "对接客户IT沟通与协调技术资源和集成交付管理；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 参与排产设计并转化为需求和系统设计，给开发人员，并进行测试验证；对接生产、计划等业务部门，梳理排产核心逻辑（含产能约束、物料齐套、交付周期、优先级规则等），将业务排产需求拆解为可落地的功能需求，系统设计文档，协助开发人员理解业务场景，开展功能测试、回归测试，验证排产相关功能是否符合业务预期，确保排产系统适配集成供应链整体流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ]
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 参与排产设计并转化为需求和系统设计，给开发人员，并进行测试验证；对接生产、计划等业务部门，梳理排产核心逻辑（含产能约束、物料齐套、交付周期、优先级规则等），将业务排产需求拆解为可落地的功能需求，系统设计文档，协助开发人员理解业务场景，开展功能测试、回归测试，验证排产相关功能是否符合业务预期，确保排产系统适配集成供应链整体流程。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ]
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python/C#/JavaScript/JAVA开发",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python/C#/JavaScript/JAVA开发",
+      "supports_entity_id": "SKILL_JAVA_CORE",
+      "supports_entity_name": "JAVA 核心",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Python/C#/JavaScript/JAVA开发",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 借助LLM、OCR及知识库，实现PTP流程员工费用（差旅、通讯费等）及对公费用（物流、服务、广告费等）的审核自动化",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 基于项目需求构建智能体框架及技术路线，结合财经业务场景，梳理智能体核心模块，结合客户Dify智能体和RAG平台，明确开发标准及交付规范。",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- AI Agent/RAG",
+      "supports_entity_id": "SKILL_RAG",
+      "supports_entity_name": "RAG",
+      "derived_capability_ids": [
+        "CAP_RAG"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- Power BI",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 对接S&OP（销售与运营计划）作为输入，作为ISP（集成供应链计划）的输入进行设计和测试；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标（销量预测、产能规划、库存目标、交付承诺等），明确S&OP数据向ISP系统的传递规则、数据格式及同步频率，设计ISP系统的输入接口及数据校验逻辑，开展接口测试、数据一致性测试，确保S&OP输入准确、高效支撑ISP计划的制定与执行，实现供需平衡与供应链协同。",
+      "supports_entity_id": "SKILL_API_TESTING",
+      "supports_entity_name": "接口测试",
+      "derived_capability_ids": [
+        "CAP_API_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 参与排产设计并转化为需求和系统设计，给开发人员，并进行测试验证；对接生产、计划等业务部门，梳理排产核心逻辑（含产能约束、物料齐套、交付周期、优先级规则等），将业务排产需求拆解为可落地的功能需求，系统设计文档，协助开发人员理解业务场景，开展功能测试、回归测试，验证排产相关功能是否符合业务预期，确保排产系统适配集成供应链整体流程。",
+      "supports_entity_id": "SKILL_REGRESSION_TESTING",
+      "supports_entity_name": "回归测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION",
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "20年的项目管理、业务分析、解决方案设计、软件开发、内外部客户项目交付等工作经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对接业务方，调研业务痛点，转化为智能体功能需求；将业务排产需求拆解为可落地的功能需求，系统设计文档",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "梳理业务流程衔接及数据流转规则，确保架构设计贴合业财一体业务场景；包括采购申请、寻源管理、订单及收获管理的端到端设计和实施",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对接客户IT沟通与协调技术资源和集成交付管理；联动销售、运营、供应链等相关部门，确认S&OP计划的核心指标",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "基于项目需求构建智能体框架及技术路线；设计技术及数据架构，梳理业务流程衔接及数据流转规则",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "AI Agent",
+      "evidence": "核心技能包含AI Agent/RAG；主导财经费用报账审核及对账智能体搭建"
+    },
+    {
+      "skill_id": "",
+      "name": "TOGAF",
+      "evidence": "核心技能包含TOGAF/4A架构"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL",
+      "evidence": "工具与平台列表中包含SQL"
+    },
+    {
+      "skill_id": "",
+      "name": "C#",
+      "evidence": "核心技能及工具列表中包含C#"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "海信",
+      "职位": "智能体交付经理/财经智能体平台",
+      "时间": "",
+      "描述": "主导财经费用报账审核及对账智能体搭建项目管理，制定计划把控进度；构建智能体框架及技术路线，结合Dify和RAG平台明确开发标准；调研业务痛点转化为功能需求，利用LLM/OCR/知识库实现PTP流程自动化及智能问答。"
+    },
+    {
+      "公司": "理想汽车",
+      "职位": "BA/集成供应链",
+      "时间": "",
+      "描述": "参与排产设计转化为需求与系统设计，对接生产计划等部门梳理排产核心逻辑并拆解为功能需求；联动销售运营供应链确认S&OP指标，设计ISP系统输入接口及数据校验逻辑，开展接口与一致性测试。"
+    },
+    {
+      "公司": "金风科技",
+      "职位": "项目经理 / 海外项目管理平台",
+      "时间": "",
+      "描述": "负责收集海外项目端到端业务逻辑与需求；对接客户IT协调资源与接口集成方案；参与业财一体业务，设计技术及数据架构，梳理业务流程衔接及数据流转规则。"
+    },
+    {
+      "公司": "埃森哲",
+      "职位": "项目经理/产品经理",
+      "时间": "",
+      "描述": "为埃森哲共享运营研发并在多项目中实施采购平台，涵盖采购申请、寻源管理、订单及收货管理的端到端设计与实施落地。"
+    },
+    {
+      "公司": "国内某大型汽车集团",
+      "职位": "项目经理/产品经理",
+      "时间": "",
+      "描述": "为国内大型汽车集团及分子公司设计实施采购平台，涵盖研发计划管理、需求拆解及寻源管理、价格管理、供应商全生命周期管理等SRM功能，并在集团推广。"
+    },
+    {
+      "公司": "装备制造业客户",
+      "职位": "BA",
+      "时间": "",
+      "描述": "为国内多个装备制造业研发MES产品，涵盖排产计划、物料管理、现场生产管理及数据采集等功能。"
+    },
+    {
+      "公司": "启明信息技术有限公司",
+      "职位": "项目经理 产品经理",
+      "时间": "",
+      "描述": "早期职业经历，担任项目经理与产品经理。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "SW/App/Cloud Tech Support Assoc Manager",
+      "source": "rule",
+      "matched_term": "Tech"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "行业经验明确列出“快销”",
+      "source": "llm",
+      "matched_term": "零售/快消"
+    },
+    {
+      "industry_id": "INDUSTRY_ENERGY",
+      "name": "能源",
+      "evidence": "在金风科技（风电/新能源企业）担任海外项目管理平台项目经理，涉及风电业务端到端逻辑",
+      "source": "llm",
+      "matched_term": "能源"
+    }
+  ],
+  "_batch": {
+    "source_file": "g.xiao_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\g.xiao_profile_CN.md",
+    "source_hash": "27c51f6021c3845ee420c5a52e3803a1f86f3f048cf02bdfcedf6faa757ad31a",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-08T12:19:56"
+  },
+  "级别推断": {
+    "level_requirement": "Level 8",
+    "has_level_requirement": true,
+    "source": "resume_explicit_level_text",
+    "evidence": "Level 8",
+    "confidence": 1.0
+  },
+  "城市": "Dalian"
+}

@@ -1,0 +1,618 @@
+{
+  "姓名": "Candidate_0125",
+  "级别": "Level 11",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "BA"
+    ],
+    "confidence": 0.95,
+    "signals": {
+      "technical_skill_count": 8,
+      "competency_count": 4
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- 【python】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 【LLM微调】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 【dify平台】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_QLIK_SENSE",
+      "name": "Qlik Sense",
+      "type": "BI_TOOL",
+      "evidence": "- 【Qlik sense】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "QlikSense",
+        "Qlik"
+      ],
+      "matched_term": "Qlik Sense"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "【Candidate_0125是埃森哲大数据分析团队的数据科学家，拥有5年数据分析及机器学习模型项目经验。在快消品、零售等行业拥有数据分析解决方案和模型项目交付经验。擅长运用传统机器学习与生成式AI等模型技术。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_FEATURE_ENGINEERING",
+      "name": "特征工程",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "她的业务范围涵盖业务数据梳理，模型因子设计、特征工程、算法选型、模型开发、模型效果跟踪、模型调优等内容。在分类、回归、聚类、时序、自然语言处理等各类算法均有丰富的实战经验，以应对各类业务需求。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Feature Engineering",
+        "特征构建",
+        "特征选择"
+      ],
+      "matched_term": "特征工程"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "- 【通过Power BI可视化工具进行结果展示和定期识别。】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    },
+    {
+      "skill_id": "SKILL_STATISTICAL_ANALYSIS",
+      "name": "统计分析",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- 【梳理客户痛点，聚焦到人力成本高，结合统计分析、传统机器学习、生成式AI的算法，Python逻辑开发，SQL Server的数据处理，Qlik Sense的数据可视化；】",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "matched_term": "统计分析"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "**角色：** 【数据科学家 / 日常费用数据治理项目】",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "梳理客户痛点，聚焦到人力成本高；基于客户的应收账款数据及业务逻辑",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "针对结果与项目组业务人员进行深入沟通，并提出改善方案",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "业务价值量化测算",
+      "type": "ABILITY",
+      "evidence": "最终达到人力的最大节约和有效利用；大幅度提升催收人员的催收效率，同时提高现金回收效果，为客户带来现金流改善",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "业务价值量化",
+        "价值量化测算",
+        "ROI测算",
+        "投资回报测算"
+      ],
+      "matched_term": "业务价值量化测算"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【Qlik sense】",
+        "- 【通过Power BI可视化工具进行结果展示和定期识别。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_QLIK_SENSE",
+          "name": "Qlik Sense"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "梳理客户痛点，聚焦到人力成本高；基于客户的应收账款数据及业务逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_VALUE_QUANTIFICATION",
+      "name": "Business Value Quantification",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "最终达到人力的最大节约和有效利用；大幅度提升催收人员的催收效率，同时提高现金回收效果，为客户带来现金流改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "针对结果与项目组业务人员进行深入沟通，并提出改善方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "**角色：** 【数据科学家 / 日常费用数据治理项目】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "**角色：** 【数据科学家 / 日常费用数据治理项目】"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 【dify平台】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEASIBILITY_COST_ASSESSMENT",
+      "name": "Feasibility and Cost Assessment",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "最终达到人力的最大节约和有效利用；大幅度提升催收人员的催收效率，同时提高现金回收效果，为客户带来现金流改善"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+          "name": "业务价值量化测算"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_FEATURE_ENGINEERING",
+      "name": "Feature Engineering",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "她的业务范围涵盖业务数据梳理，模型因子设计、特征工程、算法选型、模型开发、模型效果跟踪、模型调优等内容。在分类、回归、聚类、时序、自然语言处理等各类算法均有丰富的实战经验，以应对各类业务需求。】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_FEATURE_ENGINEERING",
+          "name": "特征工程"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "【Candidate_0125是埃森哲大数据分析团队的数据科学家，拥有5年数据分析及机器学习模型项目经验。在快消品、零售等行业拥有数据分析解决方案和模型项目交付经验。擅长运用传统机器学习与生成式AI等模型技术。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "梳理客户痛点，聚焦到人力成本高；基于客户的应收账款数据及业务逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "梳理客户痛点，聚焦到人力成本高；基于客户的应收账款数据及业务逻辑"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "针对结果与项目组业务人员进行深入沟通，并提出改善方案"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STATISTICAL_ANALYSIS",
+      "name": "Statistical Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "- 【梳理客户痛点，聚焦到人力成本高，结合统计分析、传统机器学习、生成式AI的算法，Python逻辑开发，SQL Server的数据处理，Qlik Sense的数据可视化；】"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_STATISTICAL_ANALYSIS",
+          "name": "统计分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "name": "Data Analytics",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【python】",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【LLM微调】",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【dify平台】",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【Qlik sense】",
+      "supports_entity_id": "SKILL_QLIK_SENSE",
+      "supports_entity_name": "Qlik Sense",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "【Candidate_0125是埃森哲大数据分析团队的数据科学家，拥有5年数据分析及机器学习模型项目经验。在快消品、零售等行业拥有数据分析解决方案和模型项目交付经验。擅长运用传统机器学习与生成式AI等模型技术。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "她的业务范围涵盖业务数据梳理，模型因子设计、特征工程、算法选型、模型开发、模型效果跟踪、模型调优等内容。在分类、回归、聚类、时序、自然语言处理等各类算法均有丰富的实战经验，以应对各类业务需求。】",
+      "supports_entity_id": "SKILL_FEATURE_ENGINEERING",
+      "supports_entity_name": "特征工程",
+      "derived_capability_ids": [
+        "CAP_FEATURE_ENGINEERING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【通过Power BI可视化工具进行结果展示和定期识别。】",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【梳理客户痛点，聚焦到人力成本高，结合统计分析、传统机器学习、生成式AI的算法，Python逻辑开发，SQL Server的数据处理，Qlik Sense的数据可视化；】",
+      "supports_entity_id": "SKILL_STATISTICAL_ANALYSIS",
+      "supports_entity_name": "统计分析",
+      "derived_capability_ids": [
+        "CAP_STATISTICAL_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "**角色：** 【数据科学家 / 日常费用数据治理项目】",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "梳理客户痛点，聚焦到人力成本高；基于客户的应收账款数据及业务逻辑",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "针对结果与项目组业务人员进行深入沟通，并提出改善方案",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "最终达到人力的最大节约和有效利用；大幅度提升催收人员的催收效率，同时提高现金回收效果，为客户带来现金流改善",
+      "supports_entity_id": "SKILL_BUSINESS_VALUE_QUANTIFICATION",
+      "supports_entity_name": "业务价值量化测算",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_VALUE_QUANTIFICATION",
+        "CAP_FEASIBILITY_COST_ASSESSMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "dify平台",
+      "evidence": "核心技能：dify平台"
+    },
+    {
+      "skill_id": "",
+      "name": "LLM微调",
+      "evidence": "核心技能：LLM微调"
+    },
+    {
+      "skill_id": "",
+      "name": "SQL Server",
+      "evidence": "SQL Server的数据处理"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "大数据分析团队数据科学家，拥有5年数据分析及机器学习模型项目经验。擅长运用传统机器学习与生成式AI等模型技术。业务范围涵盖业务数据梳理，模型因子设计、特征工程、算法选型、模型开发、模型效果跟踪、模型调优等内容。"
+    },
+    {
+      "公司": "大连达硕信息技术有限公司",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "早期职业背景"
+    },
+    {
+      "公司": "安永全球商务服务（大连）有限公司",
+      "职位": "税务分析师",
+      "时间": "",
+      "描述": "早期职业背景"
+    },
+    {
+      "公司": "全球知名装修装饰公司",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "劳动力最优规划项目。梳理客户痛点，聚焦到人力成本高，结合统计分析、传统机器学习、生成式AI的算法，Python逻辑开发，SQL Server的数据处理，Qlik Sense的数据可视化；结合员工绩效多平台管理，针对结果与项目组业务人员进行深入沟通，并提出改善方案；最终达到人力的最大节约和有效利用。"
+    },
+    {
+      "公司": "国际多家知名公司",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "日常费用数据治理项目。多家知名公司的日常采购费用报销场景下的数据规范与聚合，通过规则引擎与生成式AI技术结合，实现商品关键词、规格信息的自动提取；构建通用的采购品类智能匹配模型，提升采购归类的准确性与效率；深度参与人工标注，累计多家公司数据形成通用的高质量样本训练集，支持模型不断迭代；为最终的费用分析、预算控制与合规监测提供高质量数据基础。"
+    },
+    {
+      "公司": "国际知名快消品公司",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "基于客户的应收账款数据及业务逻辑，实现对客户数据进行清洗，通过聚类算法实现精准的客户分层，从而辅助业务人员制定相对应的催收策略；大幅度提升催收人员的催收效率，同时提高现金回收效果，为客户带来现金流改善。"
+    },
+    {
+      "公司": "国内知名汽车销售公司",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "通过探索性数据分析、异常点识别等数据分析及建模手段，结合品牌、门店、车型、地区等多个维度，从海量销售数据中，挖掘大额工单、异常费用支付、供应商集中度以及宣传费用等不合规销售情况以及供应商异常情况；通过Power BI可视化工具进行结果展示和定期识别。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 【通过探索性数据分析、异常点识别等数据分析及建模手段，结合品牌、门店、车型、地区等多个维度，从海量销售数据中，挖掘大额工单、异常费用支付、供应商集中度以及宣传费用等不合规销售情况以及供应商异常情况；】",
+      "source": "rule",
+      "matched_term": "支付"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "【Candidate_0125是埃森哲大数据分析团队的数据科学家，拥有5年数据分析及机器学习模型项目经验。在快消品、零售等行业拥有数据分析解决方案和模型项目交付经验。擅长运用传统机器学习与生成式AI等模型技术。",
+      "source": "rule",
+      "matched_term": "零售"
+    }
+  ],
+  "_batch": {
+    "source_file": "siyao.wei_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\siyao.wei_profile_CN.md",
+    "source_hash": "3b449eead03cda4d2cf0662a2859f15dee5be55f98948441a488cd35a19cf991",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:02:58"
+  },
+  "城市": "Dalian"
+}

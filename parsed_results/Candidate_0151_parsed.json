@@ -1,0 +1,327 @@
+{
+  "姓名": "Candidate_0151",
+  "级别": "Level 8",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 6
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "具备优秀的跨文化协作能力，擅长对接多国同事、跨职能团队协作，熟练完成各方干系人管理工作。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "识别并管控各类潜在风险，规避对网络交付进度造成的影响；参与客户方技术对接会议中的风险管控。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "统筹所有 IT 交付条线的预算编制、预测更新及费用核销管控；协同客户负责人，严格管控 IT 服务范围，确保交付内容符合合同条款与客户约定；定期开展 IT 服务复盘，围绕服务等级达成、项目问题、成本管控、持续优化等维度。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    },
+    {
+      "competency_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "name": "资源规划",
+      "type": "ABILITY",
+      "evidence": "负责现场人员资源调配及项目全套文档编制工作；从财务视角出发，负责年度 IT 成本预估，管控基础设施实际支出与预算偏差。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "资源规划"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "参与客户方各类技术对接会议，包含方案规划、安全评审、CDP 审核、风险管控及合规审计等；定期联合业务团队开展 IT 服务复盘。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备优秀的跨文化协作能力，擅长对接多国同事、跨职能团队协作，熟练完成各方干系人管理工作。",
+        "参与客户方各类技术对接会议，包含方案规划、安全评审、CDP 审核、风险管控及合规审计等；定期联合业务团队开展 IT 服务复盘。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点。",
+        "统筹所有 IT 交付条线的预算编制、预测更新及费用核销管控；协同客户负责人，严格管控 IT 服务范围，确保交付内容符合合同条款与客户约定；定期开展 IT 服务复盘，围绕服务等级达成、项目问题、成本管控、持续优化等维度。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RESOURCE_CAPACITY_PLANNING",
+      "name": "Resource and Capacity Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "负责现场人员资源调配及项目全套文档编制工作；从财务视角出发，负责年度 IT 成本预估，管控基础设施实际支出与预算偏差。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+          "name": "资源规划"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "识别并管控各类潜在风险，规避对网络交付进度造成的影响；参与客户方技术对接会议中的风险管控。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点。",
+        "识别并管控各类潜在风险，规避对网络交付进度造成的影响；参与客户方技术对接会议中的风险管控。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "具备优秀的跨文化协作能力，擅长对接多国同事、跨职能团队协作，熟练完成各方干系人管理工作。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 5
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "具备优秀的跨文化协作能力，擅长对接多国同事、跨职能团队协作，熟练完成各方干系人管理工作。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "识别并管控各类潜在风险，规避对网络交付进度造成的影响；参与客户方技术对接会议中的风险管控。",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "统筹所有 IT 交付条线的预算编制、预测更新及费用核销管控；协同客户负责人，严格管控 IT 服务范围，确保交付内容符合合同条款与客户约定；定期开展 IT 服务复盘，围绕服务等级达成、项目问题、成本管控、持续优化等维度。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责现场人员资源调配及项目全套文档编制工作；从财务视角出发，负责年度 IT 成本预估，管控基础设施实际支出与预算偏差。",
+      "supports_entity_id": "SKILL_RESOURCE_CAPACITY_PLANNING",
+      "supports_entity_name": "资源规划",
+      "derived_capability_ids": [
+        "CAP_RESOURCE_CAPACITY_PLANNING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "参与客户方各类技术对接会议，包含方案规划、安全评审、CDP 审核、风险管控及合规审计等；定期联合业务团队开展 IT 服务复盘。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "IP-VPN",
+      "evidence": "负责 NTT 国际 IP-VPN 网络建设项目"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "埃森哲",
+      "职位": "运营客户技术负责人/技术方案支持/技术架构师/技术交付启动负责人/基础设施服务管理",
+      "时间": "2015年10月 – 至今",
+      "描述": "全面负责 IT 交接迁移及日常运维（BAU）工作；以项目经理角色，保障迁移阶段基础设施按时部署落地，并常态化管理变更需求（CR）、处理日常 IT 故障问题。从财务视角出发，负责年度 IT 成本预估，管控基础设施实际支出与预算偏差，挖掘成本优化及降本机会。统筹 IT 审计相关工作，包含埃森哲内部审计及客户方 IT 审计，确保各项 IT 工作合规受控。曾任日本区 ISM 团队负责人，统筹工作分配、绩效考评、重大问题升级管理；协助团队把控项目迁移关键节点，保障交付达标、项目按计划顺利上线。熟悉埃森哲全量日本客户环境，同时具备全球大型项目及中国客户支持经验。具备优秀的跨文化协作能力，擅长对接多国同事、跨职能团队协作，熟练完成各方干系人管理工作。负责新项目 IT 方案设计，涵盖基础设施及埃森哲内部工具；紧密配合销售团队输出技术架构方案文档，该文档为合同中 IT 条款的核心依据。交付迁移团队将依据此方案，完成客户及埃森哲双方 IT 环境搭建。拥有两年日本新项目基础设施成本测算与预算评估工作经验。负责项目启动阶段埃森哲内部工具的部署配置，确保所有全球化工具在项目正式上线前平稳落地、顺利启用。作为客户侧所有技术类诉求与问题的升级对接人，协助业务团队处理工具及技术类升级故障、事件工单。统筹所有 IT 交付条线（基础设施、架构、三级技术支持、应用运维）的预算编制、预测更新及费用核销管控。协同客户负责人，严格管控 IT 服务范围，确保交付内容符合合同条款与客户约定。作为技术变更需求的首要对接窗口，执行变更管控流程，保障获批的技术变更可正常完成费用核销。参与客户方各类技术对接会议，包含方案规划、安全评审、CDP 审核、风险管控及合规审计等。定期联合业务团队开展 IT 服务复盘，围绕服务等级达成、项目问题、成本管控、持续优化、变更需求、新增业务机会及项目进度等维度开展回顾复盘。"
+    },
+    {
+      "公司": "NTT Communications",
+      "职位": "项目经理",
+      "时间": "2014年05月 – 2015年05月",
+      "描述": "负责 NTT 国际 IP-VPN 网络建设项目。统筹项目全周期管理，保障网络项目按期交付；制定工作分解结构（WBS），把控各关键里程碑节点，向相关干系人定期同步项目进展；识别并管控各类潜在风险，规避对网络交付进度造成的影响；负责现场人员资源调配及项目全套文档编制工作。"
+    },
+    {
+      "公司": "KDDI Evolva",
+      "职位": "热线客服/呼叫中心团队主管",
+      "时间": "2009年04月 – 2014年01月",
+      "描述": "长途通信业务负责 001 国际长途电话、固网优惠国际业务、国际电话卡相关咨询与服务支撑。多媒体基础业务固话、宽带、电视业务咨询；负责光缆调度中心、网线服务中心的电话口译对接工作。移动通信业务 au 品牌手机的购机指引、资费说明、合约解约咨询；承接 au 线下门店及官方客服的电话口译协作。技术支撑提供网络配置指导、网络故障排查等技术问题支持。团队管理 & 综合工作负责跨部门业务对接流转；团队人员工作稽核、排班轮班管理；开展新员工培训与业务带教。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "TSS/中国和全球合同（Lotus，Sanofi Payment，HISENSE Marketing，Kewpie Renew，Hisense HR，KSF RTR，NOVO NORDISK，Velvet，Channel）",
+      "source": "rule",
+      "matched_term": "Payment"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "NTT Communications｜项目经理",
+      "source": "rule",
+      "matched_term": "Communications"
+    }
+  ],
+  "_batch": {
+    "source_file": "xiaoguang.zhang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\xiaoguang.zhang_profile_CN.md",
+    "source_hash": "6b81f7dd53ca4e18e9f66fcaeb8326b6c3cebb25f3d59b108b9c850e281418a1",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:30:47"
+  },
+  "城市": "Dalian"
+}

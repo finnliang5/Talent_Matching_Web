@@ -1,0 +1,470 @@
+{
+  "姓名": "Candidate_0067",
+  "级别": "Level 7",
+  "profile_type": {
+    "primary": "PROJECT_MANAGER",
+    "secondary": [
+      "BA",
+      "CONSULTING"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 0,
+      "competency_count": 7
+    }
+  },
+  "技术技能": [],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "name": "业务分析",
+      "type": "ABILITY",
+      "evidence": "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "业务分析"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "主导OTC（Order-to-Cash）流程自动化项目的全周期管理，包括业务需求分析、RPA及自动化解决方案蓝图设计、技术选型、开发部署与最终交付。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_PROCESS_MODELING",
+      "name": "流程建模",
+      "type": "ABILITY",
+      "evidence": "对财务与会计（F&A）领域各流程有深入的知识和项目实践；擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "流程建模"
+    },
+    {
+      "competency_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "name": "干系人管理",
+      "type": "ABILITY",
+      "evidence": "协调业务、IT及外部供应商资源；主导跨职能团队完成催收策略模型设计、智能工作流开发及与全球ERP系统的集成。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "干系人管理"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "负责RPA及自动化解决方案蓝图设计；深度参与系统架构设计；设计并交付涵盖订单确认、开票、收款及客户服务的智能化解决方案。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "name": "数字化变革管理",
+      "type": "ABILITY",
+      "evidence": "擅长数字化转型与流程卓越运营；推动集团贸易金融业务的数字化变革。",
+      "source": "llm",
+      "source_type": "competency",
+      "aliases": [
+        "变革管理",
+        "数字化转型管理",
+        "业务变革管理",
+        "组织变革管理"
+      ],
+      "matched_term": "数字化变革管理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BUSINESS_GAP_ANALYSIS",
+      "name": "Business Gap Analysis",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+      "name": "Business Transformation Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "擅长数字化转型与流程卓越运营；推动集团贸易金融业务的数字化变革。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调业务、IT及外部供应商资源；主导跨职能团队完成催收策略模型设计、智能工作流开发及与全球ERP系统的集成。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责RPA及自动化解决方案蓝图设计；深度参与系统架构设计；设计并交付涵盖订单确认、开票、收款及客户服务的智能化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "负责RPA及自动化解决方案蓝图设计；深度参与系统架构设计；设计并交付涵盖订单确认、开票、收款及客户服务的智能化解决方案。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROCESS_MODELING",
+      "name": "Business Process Modeling",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+        "对财务与会计（F&A）领域各流程有深入的知识和项目实践；擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROCESS_MODELING",
+          "name": "流程建模"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+        "主导OTC（Order-to-Cash）流程自动化项目的全周期管理，包括业务需求分析、RPA及自动化解决方案蓝图设计、技术选型、开发部署与最终交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+          "name": "业务分析"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "主导OTC（Order-to-Cash）流程自动化项目的全周期管理，包括业务需求分析、RPA及自动化解决方案蓝图设计、技术选型、开发部署与最终交付。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_STAKEHOLDER_MANAGEMENT",
+      "name": "Stakeholder Management",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "协调业务、IT及外部供应商资源；主导跨职能团队完成催收策略模型设计、智能工作流开发及与全球ERP系统的集成。",
+        "擅长数字化转型与流程卓越运营；推动集团贸易金融业务的数字化变革。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+          "name": "干系人管理"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+          "name": "数字化变革管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "name": "Solution Architecture",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+      "supports_entity_id": "SKILL_BUSINESS_ANALYSIS_CORE",
+      "supports_entity_name": "业务分析",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_GAP_ANALYSIS",
+        "CAP_PROCESS_MODELING",
+        "CAP_REQUIREMENTS_ANALYSIS"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导OTC（Order-to-Cash）流程自动化项目的全周期管理，包括业务需求分析、RPA及自动化解决方案蓝图设计、技术选型、开发部署与最终交付。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "拥有16年以上项目管理、业务分析、解决方案设计及内外部客户项目交付经验。对财务与会计（F&A）领域各流程有深入的知识和项目实践，擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。具备丰富的解决方案交付、流程改善、系统架构设计及交付经验。",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "对财务与会计（F&A）领域各流程有深入的知识和项目实践；擅长数字化转型与流程卓越运营，通过技术手段对业务流程进行改善提升。",
+      "supports_entity_id": "SKILL_PROCESS_MODELING",
+      "supports_entity_name": "流程建模",
+      "derived_capability_ids": [
+        "CAP_PROCESS_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "协调业务、IT及外部供应商资源；主导跨职能团队完成催收策略模型设计、智能工作流开发及与全球ERP系统的集成。",
+      "supports_entity_id": "SKILL_STAKEHOLDER_MANAGEMENT",
+      "supports_entity_name": "干系人管理",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责RPA及自动化解决方案蓝图设计；深度参与系统架构设计；设计并交付涵盖订单确认、开票、收款及客户服务的智能化解决方案。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "擅长数字化转型与流程卓越运营；推动集团贸易金融业务的数字化变革。",
+      "supports_entity_id": "SKILL_TRANSFORMATION_CHANGE_MANAGEMENT",
+      "supports_entity_name": "数字化变革管理",
+      "derived_capability_ids": [
+        "CAP_BUSINESS_TRANSFORMATION_MANAGEMENT",
+        "CAP_STAKEHOLDER_MANAGEMENT"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "RPA",
+      "evidence": "RPA及自动化解决方案蓝图设计"
+    },
+    {
+      "skill_id": "",
+      "name": "ERP",
+      "evidence": "与全球ERP系统的集成"
+    },
+    {
+      "skill_id": "",
+      "name": "智能工作流",
+      "evidence": "智能工作流开发"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国内大型电子信息产业集团",
+      "职位": "OTC流程自动化项目负责人",
+      "时间": "",
+      "描述": "主导OTC流程自动化项目的全周期管理，包括业务需求分析、RPA及自动化解决方案蓝图设计、技术选型、开发部署与最终交付。协调业务、IT及外部供应商资源，确保项目按期上线。实现流程效率与准确率的显著提升。"
+    },
+    {
+      "公司": "国内大型贸易分销产业集团",
+      "职位": "OTC流程智能平台项目负责人",
+      "时间": "",
+      "描述": "主导应收智能平台从0到1的构建，深度参与系统架构设计、功能模块（信用管理、发票自动化、对账核销）开发与迭代。负责系统交付与用户培训，推动集团贸易金融业务的数字化变革。"
+    },
+    {
+      "公司": "全球知名科技公司",
+      "职位": "OTC流程智能平台项目负责人",
+      "时间": "",
+      "描述": "负责全球化催收智能平台项目的设计与交付，主导跨职能团队完成催收策略模型设计、智能工作流开发及与全球ERP系统的集成。特别负责平台在特定海外区域的本地化适配、部署及推广，成功提升海外应收账款的回收效率与合规性。"
+    },
+    {
+      "公司": "全球知名材料科学与制造公司",
+      "职位": "OTC流程智能平台项目负责人",
+      "时间": "",
+      "描述": "领导应收智能平台项目的实施，将全球业务流程标准与本地业务需求结合。设计并交付涵盖订单确认、开票、收款及客户服务的智能化解决方案，优化集团全球范围内的资金周转效率。"
+    },
+    {
+      "公司": "全球知名电子元器件公司",
+      "职位": "OTC应收端到端智能平台项目负责人",
+      "时间": "",
+      "描述": "主导战略级“应收端到端智能平台”项目，规划并实施从订单录入、信用审核、发票处理到现金匹配及争议处理的全链路自动化与智能化闭环。通过平台集成与数据流重构，显著缩短订单到现金的周期时间。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "负责系统交付与用户培训，推动集团贸易金融业务的数字化变革。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "- 科技",
+      "source": "rule",
+      "matched_term": "科技"
+    },
+    {
+      "industry_id": "INDUSTRY_RETAIL_FMCG",
+      "name": "零售/快消",
+      "evidence": "- 快消品",
+      "source": "rule",
+      "matched_term": "快消"
+    }
+  ],
+  "_batch": {
+    "source_file": "kevin.wei.wang_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\kevin.wei.wang_profile_CN.md",
+    "source_hash": "ee2dafbbd29a38abc796ac783ab58f6b6f629f2046a274d59eed14a2d1d21d60",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T13:33:11"
+  },
+  "城市": "Dalian"
+}

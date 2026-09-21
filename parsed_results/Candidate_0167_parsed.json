@@ -1,0 +1,636 @@
+{
+  "姓名": "Candidate_0167",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 12,
+      "competency_count": 3
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **希望解决的业务问题**：确保大语言模型 (LLM) 及 AI 驱动类应用的可靠性与准确性；弥合 AI 技术可行性与高质量业务交付之间的鸿沟。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_POSTGRESQL",
+      "name": "PostgreSQL",
+      "type": "DATABASE",
+      "evidence": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "PostgreSQL"
+    },
+    {
+      "skill_id": "SKILL_MYSQL",
+      "name": "MySQL",
+      "type": "DATABASE",
+      "evidence": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "languages": [
+        "SQL"
+      ],
+      "matched_term": "MySQL"
+    },
+    {
+      "skill_id": "SKILL_ELASTICSEARCH",
+      "name": "Elasticsearch",
+      "type": "DATABASE",
+      "evidence": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "ES",
+        "Elastic Stack",
+        "ELK Stack"
+      ],
+      "matched_term": "Elasticsearch"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_MODEL_EVALUATION",
+      "name": "模型评估",
+      "type": "DATA_SCIENCE_PRACTICE",
+      "evidence": "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Model Evaluation",
+        "模型验证",
+        "模型效果评估"
+      ],
+      "matched_term": "模型评估"
+    },
+    {
+      "skill_id": "SKILL_TEST_AUTOMATION",
+      "name": "自动化测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "Candidate_0167是埃森哲大中华区数据与人工智能团队的测试工程师。她拥有 7 年以上的丰富测试经验，工作贯穿整个软件开发生命周期。她擅长在公有云、TCE 及私有云环境下进行云安全产品测试，并在金融、医疗、高科技、互联网地图及电子商务等行业有深厚的业务积累。她精通手动与自动化测试，具备出色的风险识别与分析能力，能高效完成测试评估与计划管理。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试自动化",
+        "Automation Testing",
+        "Test Automation"
+      ],
+      "matched_term": "自动化测试"
+    },
+    {
+      "skill_id": "SKILL_PERFORMANCE_TESTING",
+      "name": "性能测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- **测试类型**：手动测试、自动化测试（API & GUI）、性能测试、单元/集成/系统/验收测试",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "压力测试",
+        "负载测试",
+        "Performance Testing",
+        "Load Testing",
+        "Stress Testing"
+      ],
+      "matched_term": "性能测试"
+    },
+    {
+      "skill_id": "SKILL_TEST_CASE_DESIGN",
+      "name": "测试用例设计",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 负责测试用例编写与执行，记录并跟踪缺陷，与开发协作定位根因并验证修复。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "测试场景设计",
+        "Test Case Design",
+        "测试用例"
+      ],
+      "matched_term": "测试用例"
+    },
+    {
+      "skill_id": "SKILL_REGRESSION_TESTING",
+      "name": "回归测试",
+      "type": "TESTING_PRACTICE",
+      "evidence": "- 执行回归测试确保版本稳定性，参与编写 API 和 UI 自动化脚本，负责云端性能测试。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Regression Testing"
+      ],
+      "matched_term": "回归测试"
+    },
+    {
+      "skill_id": "SKILL_SAFE_5",
+      "name": "SAFe 5",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- SAFe® 认证",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "SAFe",
+        "Scaled Agile Framework",
+        "Scaled Agile Framework 5",
+        "SAFe 5.0"
+      ],
+      "matched_term": "SAFe"
+    },
+    {
+      "skill_id": "SKILL_CI_CD",
+      "name": "CI/CD",
+      "type": "ENGINEERING_PRACTICE",
+      "evidence": "- **流程管理**：熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "CICD",
+        "CI CD",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "Continuous Deployment"
+      ],
+      "matched_term": "CI/CD"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "- 参与需求分析会议，深入理解业务需求，制定测试计划和策略，明确测试范围与工具。",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_RISK_MANAGEMENT",
+      "name": "风险管理",
+      "type": "ABILITY",
+      "evidence": "具备出色的风险识别与分析能力，能高效完成测试评估与计划管理；熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "风险管理"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "深度参与持续集成和交付过程，确保迭代版本的交付质量",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_CI_CD",
+      "name": "CI/CD Automation",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **流程管理**：熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- SAFe® 认证",
+        "深度参与持续集成和交付过程，确保迭代版本的交付质量"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_SAFE_5",
+          "name": "SAFe 5"
+        },
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MODEL_EVALUATION",
+      "name": "Model Evaluation",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MODEL_EVALUATION",
+          "name": "模型评估"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PERFORMANCE_TESTING",
+      "name": "Performance Testing",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- **测试类型**：手动测试、自动化测试（API & GUI）、性能测试、单元/集成/系统/验收测试"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_PERFORMANCE_TESTING",
+          "name": "性能测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RELEASE_MANAGEMENT",
+      "name": "Release Management",
+      "domain_id": "DOMAIN_DEVOPS",
+      "evidence": [
+        "- **流程管理**：熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_CI_CD",
+          "name": "CI/CD",
+          "rule_id": "RULE_CICD_TO_RELEASE",
+          "rule_name": "CI/CD -> CAP_RELEASE_MANAGEMENT",
+          "inference_reason": "CI/CD is strongly related to release workflows, but release governance remains a secondary inference.",
+          "inference_weight": 0.77
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "- 参与需求分析会议，深入理解业务需求，制定测试计划和策略，明确测试范围与工具。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 参与需求分析会议，深入理解业务需求，制定测试计划和策略，明确测试范围与工具。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_CONTINGENCY_PLANNING",
+      "name": "Risk Contingency Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备出色的风险识别与分析能力，能高效完成测试评估与计划管理；熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "具备出色的风险识别与分析能力，能高效完成测试评估与计划管理；熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_RISK_MANAGEMENT",
+          "name": "风险管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_AUTOMATION",
+      "name": "Test Automation",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "Candidate_0167是埃森哲大中华区数据与人工智能团队的测试工程师。她拥有 7 年以上的丰富测试经验，工作贯穿整个软件开发生命周期。她擅长在公有云、TCE 及私有云环境下进行云安全产品测试，并在金融、医疗、高科技、互联网地图及电子商务等行业有深厚的业务积累。她精通手动与自动化测试，具备出色的风险识别与分析能力，能高效完成测试评估与计划管理。",
+        "- 执行回归测试确保版本稳定性，参与编写 API 和 UI 自动化脚本，负责云端性能测试。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_AUTOMATION",
+          "name": "自动化测试"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_TEST_CASE_DESIGN",
+      "name": "Test Case Design",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "- 负责测试用例编写与执行，记录并跟踪缺陷，与开发协作定位根因并验证修复。",
+        "- 执行回归测试确保版本稳定性，参与编写 API 和 UI 自动化脚本，负责云端性能测试。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_TEST_CASE_DESIGN",
+          "name": "测试用例设计"
+        },
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_REGRESSION_TESTING",
+          "name": "回归测试"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 4
+    },
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **希望解决的业务问题**：确保大语言模型 (LLM) 及 AI 驱动类应用的可靠性与准确性；弥合 AI 技术可行性与高质量业务交付之间的鸿沟。",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "supports_entity_id": "SKILL_POSTGRESQL",
+      "supports_entity_name": "PostgreSQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "supports_entity_id": "SKILL_MYSQL",
+      "supports_entity_name": "MySQL",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **数据库/数据**：熟练操作 MySQL, PostgreSQL, Elasticsearch 等进行测试数据管理",
+      "supports_entity_id": "SKILL_ELASTICSEARCH",
+      "supports_entity_name": "Elasticsearch",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **重点关注领域**：专注于 AI 模型评估、面向机器学习的数据验证，以及确保金融和医疗行业 AI 产品的云安全合规性。",
+      "supports_entity_id": "SKILL_MODEL_EVALUATION",
+      "supports_entity_name": "模型评估",
+      "derived_capability_ids": [
+        "CAP_MODEL_EVALUATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0167是埃森哲大中华区数据与人工智能团队的测试工程师。她拥有 7 年以上的丰富测试经验，工作贯穿整个软件开发生命周期。她擅长在公有云、TCE 及私有云环境下进行云安全产品测试，并在金融、医疗、高科技、互联网地图及电子商务等行业有深厚的业务积累。她精通手动与自动化测试，具备出色的风险识别与分析能力，能高效完成测试评估与计划管理。",
+      "supports_entity_id": "SKILL_TEST_AUTOMATION",
+      "supports_entity_name": "自动化测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **测试类型**：手动测试、自动化测试（API & GUI）、性能测试、单元/集成/系统/验收测试",
+      "supports_entity_id": "SKILL_PERFORMANCE_TESTING",
+      "supports_entity_name": "性能测试",
+      "derived_capability_ids": [
+        "CAP_PERFORMANCE_TESTING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 负责测试用例编写与执行，记录并跟踪缺陷，与开发协作定位根因并验证修复。",
+      "supports_entity_id": "SKILL_TEST_CASE_DESIGN",
+      "supports_entity_name": "测试用例设计",
+      "derived_capability_ids": [
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 执行回归测试确保版本稳定性，参与编写 API 和 UI 自动化脚本，负责云端性能测试。",
+      "supports_entity_id": "SKILL_REGRESSION_TESTING",
+      "supports_entity_name": "回归测试",
+      "derived_capability_ids": [
+        "CAP_TEST_AUTOMATION",
+        "CAP_TEST_CASE_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- SAFe® 认证",
+      "supports_entity_id": "SKILL_SAFE_5",
+      "supports_entity_name": "SAFe 5",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- **流程管理**：熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力",
+      "supports_entity_id": "SKILL_CI_CD",
+      "supports_entity_name": "CI/CD",
+      "derived_capability_ids": [
+        "CAP_CI_CD",
+        "CAP_RELEASE_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- 参与需求分析会议，深入理解业务需求，制定测试计划和策略，明确测试范围与工具。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备出色的风险识别与分析能力，能高效完成测试评估与计划管理；熟悉 CI/CD 持续集成与交付流程，具备风险识别与分析管理能力",
+      "supports_entity_id": "SKILL_RISK_MANAGEMENT",
+      "supports_entity_name": "风险管理",
+      "derived_capability_ids": [
+        "CAP_RISK_CONTINGENCY_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "深度参与持续集成和交付过程，确保迭代版本的交付质量",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "TCE",
+      "evidence": "TCE 及私有云环境"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "某全球领先的生物技术企业",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "参与需求分析会议，制定测试计划和策略，编写测试用例，执行测试，记录跟踪缺陷，执行回归测试，参与编写 API 和 UI 自动化脚本，负责云端性能测试，参与持续集成和交付过程。"
+    },
+    {
+      "公司": "腾讯云",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "独立负责项目测试，涵盖需求评审、测试分析、用例设计，运用 JIRA 跟踪可交付成果与缺陷，操作 MySQL、PostgreSQL 和 Elasticsearch 数据库，执行回归测试，输出测试报告并组织迭代复盘会议。"
+    },
+    {
+      "公司": "腾讯地图",
+      "职位": "测试工程师",
+      "时间": "",
+      "描述": "参与前期需求对接，制定测试计划和策略，执行测试用例，管理软件缺陷，负责持续交付相关技术文档输出。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "### 某全球领先的生物技术企业",
+      "source": "rule",
+      "matched_term": "生物技术"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "Candidate_0167是埃森哲大中华区数据与人工智能团队的测试工程师。她拥有 7 年以上的丰富测试经验，工作贯穿整个软件开发生命周期。她擅长在公有云、TCE 及私有云环境下进行云安全产品测试，并在金融、医疗、高科技、互联网地图及电子商务等行业有深厚的业务积累。她精通手动与自动化测试，具备出色的风险识别与分析能力，能高效完成测试评估与计划管理。",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "Candidate_0167是埃森哲大中华区数据与人工智能团队的测试工程师。她拥有 7 年以上的丰富测试经验，工作贯穿整个软件开发生命周期。她擅长在公有云、TCE 及私有云环境下进行云安全产品测试，并在金融、医疗、高科技、互联网地图及电子商务等行业有深厚的业务积累。她精通手动与自动化测试，具备出色的风险识别与分析能力，能高效完成测试评估与计划管理。",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "Yao.wu-Profile-CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\Yao.wu-Profile-CN.md",
+    "source_hash": "ee7413b1f250d81fd89f524822b98f0f0358aff7b8bcf9143acee4360c05d2f1",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:36:12"
+  },
+  "城市": "Dalian"
+}

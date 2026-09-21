@@ -1,0 +1,296 @@
+{
+  "姓名": "Candidate_0124",
+  "级别": "Level 9",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [
+      "PROJECT_MANAGER"
+    ],
+    "confidence": 0.85,
+    "signals": {
+      "technical_skill_count": 4,
+      "competency_count": 2
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "- [Python]",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_JAVASCRIPT",
+      "name": "JavaScript",
+      "type": "LANGUAGE",
+      "evidence": "- [JavaScript]",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "JS"
+      ],
+      "languages": [
+        "JavaScript"
+      ],
+      "matched_term": "JavaScript"
+    },
+    {
+      "skill_id": "SKILL_MONGODB",
+      "name": "MongoDB",
+      "type": "DATABASE",
+      "evidence": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Mongo"
+      ],
+      "matched_term": "MongoDB"
+    },
+    {
+      "skill_id": "SKILL_REDIS",
+      "name": "Redis",
+      "type": "DATABASE",
+      "evidence": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "缓存"
+      ],
+      "matched_term": "Redis"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "name": "项目管理",
+      "type": "ABILITY",
+      "evidence": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "source": "rule",
+      "source_type": "competency",
+      "matched_term": "项目管理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "负责系统需求，设计，开发，测试，上线，追踪等过程",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_PROJECT_PLANNING",
+      "name": "Project Planning",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "负责系统需求，设计，开发，测试，上线，追踪等过程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "负责系统需求，设计，开发，测试，上线，追踪等过程"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_RISK_MANAGEMENT",
+      "name": "Risk Management",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+          "name": "项目管理"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "name": "Project Management",
+      "capability_count": 3
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 1
+    },
+    {
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "name": "Software Engineering",
+      "capability_count": 1
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- [Python]",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- [JavaScript]",
+      "supports_entity_id": "SKILL_JAVASCRIPT",
+      "supports_entity_name": "JavaScript",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "supports_entity_id": "SKILL_MONGODB",
+      "supports_entity_name": "MongoDB",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "supports_entity_id": "SKILL_REDIS",
+      "supports_entity_name": "Redis",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "- [一、负责公司项目管理系统的设计，搭建和开发。二、负责广州18/22号线弓网检测数据分析系统的设计，搭建和开发。项目中使用 redis 作为消息中间件，用 mongodb 作为缓存数据库。]",
+      "supports_entity_id": "SKILL_PROJECT_MANAGEMENT_CORE",
+      "supports_entity_name": "项目管理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE",
+        "CAP_PROJECT_PLANNING",
+        "CAP_RISK_MANAGEMENT"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "负责系统需求，设计，开发，测试，上线，追踪等过程",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "C#",
+      "evidence": "核心技能：C#"
+    },
+    {
+      "skill_id": "",
+      "name": "DataBase",
+      "evidence": "核心技能：DataBase；参与高校的在线学习平台的数据库设计"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "南京奥派信息产业股份公司",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "参与物流管理系统开发；负责移动电子商务学习系统改版升级及高校在线学习平台数据库与软件设计开发。"
+    },
+    {
+      "公司": "成都网阔信息技术股份有限公司",
+      "职位": "软件工程师",
+      "时间": "",
+      "描述": "负责驾驶培训管理系统、考场收费系统、考场预约系统等的设计、开发、升级与维护。"
+    },
+    {
+      "公司": "成都锦佳梁盾科技有限公司",
+      "职位": "项目管理师",
+      "时间": "",
+      "描述": "参与四川省物证鉴定系统、重庆市公安局受案系统、广安市公安局证据中心平台、贵州省黔南州STR信息综合平台的开发。"
+    },
+    {
+      "公司": "北京鼎汉检测技术有限公司成都分公司",
+      "职位": "项目管理师",
+      "时间": "",
+      "描述": "负责公司项目管理系统及广州18/22号线弓网检测数据分析系统的设计、搭建与开发；使用Redis作为消息中间件，MongoDB作为缓存数据库。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "【SW/App/Cloud Tech Support Team Lead】",
+      "source": "rule",
+      "matched_term": "Tech"
+    }
+  ],
+  "_batch": {
+    "source_file": "sihong.deng_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\sihong.deng_profile_CN.md",
+    "source_hash": "6f59c853f4f74efaf6929f5340d7644fff6a353653032155e208fc9ff6029671",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:02:10"
+  },
+  "城市": "Chengdu"
+}

@@ -1,0 +1,487 @@
+{
+  "姓名": "Candidate_0170",
+  "级别": "Level 10",
+  "profile_type": {
+    "primary": "TECHNICAL",
+    "secondary": [],
+    "confidence": 0.9,
+    "signals": {
+      "technical_skill_count": 5,
+      "competency_count": 5
+    }
+  },
+  "技术技能": [
+    {
+      "skill_id": "SKILL_PYTHON_CORE",
+      "name": "Python 基础",
+      "type": "LANGUAGE",
+      "evidence": "熟练使用python，Power BI等AI及数据分析工具",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Python"
+      ],
+      "languages": [
+        "Python"
+      ],
+      "matched_term": "Python"
+    },
+    {
+      "skill_id": "SKILL_LLM",
+      "name": "LLM",
+      "type": "AI_TECHNIQUE",
+      "evidence": "- 【技能 3】-- LLM微调能力",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Large Language Model",
+        "Large Language Models",
+        "大语言模型",
+        "大模型"
+      ],
+      "matched_term": "LLM"
+    },
+    {
+      "skill_id": "SKILL_DIFY",
+      "name": "Dify",
+      "type": "AI_PLATFORM",
+      "evidence": "- 【技能 2】-- Dify平台",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Dify.ai",
+        "Dify AI"
+      ],
+      "matched_term": "Dify"
+    },
+    {
+      "skill_id": "SKILL_MACHINE_LEARNING",
+      "name": "机器学习",
+      "type": "AI_TECHNIQUE",
+      "evidence": "Candidate_0170，埃森哲大数据分析团队数据科学家，拥有6年海内外数据分析与AI项目实战经验。擅长将复杂业务问题转化为数据解决方案，并运用机器学习与生成式AI等技术驱动业务价值。",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "Machine Learning",
+        "ML",
+        "机器学习算法"
+      ],
+      "matched_term": "机器学习"
+    },
+    {
+      "skill_id": "SKILL_POWER_BI",
+      "name": "Power BI",
+      "type": "BI_TOOL",
+      "evidence": "熟练使用python，Power BI等AI及数据分析工具",
+      "source": "rule",
+      "source_type": "technical_skill",
+      "aliases": [
+        "PowerBI",
+        "Microsoft Power BI"
+      ],
+      "matched_term": "Power BI"
+    }
+  ],
+  "胜任力": [
+    {
+      "competency_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "数据治理框架",
+      "type": "ABILITY",
+      "evidence": "具备全链路数据建模能力，擅长整合多源异构数据构建多维特征变量池，夯实模型基础。在落地中，坚持 “模型+规则”融合思维 ，通过算法与业务规则的结合，在效率与效果间取得最优平衡。凭借跨领域协同与交付经验，能深入房地产、制造等行业业务逻辑，主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。",
+      "source": "rule",
+      "source_type": "competency",
+      "aliases": [
+        "Data Governance",
+        "数据治理",
+        "数据治理体系",
+        "数据治理方法论"
+      ],
+      "matched_term": "数据治理"
+    },
+    {
+      "competency_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "name": "需求分析",
+      "type": "ABILITY",
+      "evidence": "深入理解新房与二手房业务流程，分析业务与财务数据，识别影响现金流的关键因子，构建100+特征变量池。整合报销单、员工、黑名单、信用卡等多维度数据源，构建特征变量池，支持风险建模与分析。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "需求分析"
+    },
+    {
+      "competency_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "高阶方案设计",
+      "type": "ABILITY",
+      "evidence": "设计并实施AI现金流预测方案，使用Python开发覆盖600+主体的自动化预测模型，实现全集团层面现金流动态预估。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "高阶方案设计"
+    },
+    {
+      "competency_id": "SKILL_COMMUNICATION_COORDINATION",
+      "name": "沟通协调",
+      "type": "ABILITY",
+      "evidence": "模型上线后持续优化，通过与业务部门紧密协作确保预测准确率。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "沟通协调"
+    },
+    {
+      "competency_id": "SKILL_DELIVERY_GOVERNANCE",
+      "name": "交付治理",
+      "type": "ABILITY",
+      "evidence": "主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。",
+      "source": "llm",
+      "source_type": "competency",
+      "matched_term": "交付治理"
+    }
+  ],
+  "能力": [
+    {
+      "capability_id": "CAP_BI_DASHBOARDING",
+      "name": "BI Dashboarding",
+      "domain_id": "DOMAIN_DATA_ANALYTICS",
+      "evidence": [
+        "熟练使用python，Power BI等AI及数据分析工具"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_POWER_BI",
+          "name": "Power BI"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_COMMUNICATION_AND_COORDINATION",
+      "name": "Communication and Coordination",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "模型上线后持续优化，通过与业务部门紧密协作确保预测准确率。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_COMMUNICATION_COORDINATION",
+          "name": "沟通协调"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_GOVERNANCE_FRAMEWORK",
+      "name": "Data Governance Framework",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "具备全链路数据建模能力，擅长整合多源异构数据构建多维特征变量池，夯实模型基础。在落地中，坚持 “模型+规则”融合思维 ，通过算法与业务规则的结合，在效率与效果间取得最优平衡。凭借跨领域协同与交付经验，能深入房地产、制造等行业业务逻辑，主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DATA_STANDARDIZATION",
+      "name": "Data Standardization",
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "evidence": [
+        "具备全链路数据建模能力，擅长整合多源异构数据构建多维特征变量池，夯实模型基础。在落地中，坚持 “模型+规则”融合思维 ，通过算法与业务规则的结合，在效率与效果间取得最优平衡。凭借跨领域协同与交付经验，能深入房地产、制造等行业业务逻辑，主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+          "name": "数据治理框架"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DELIVERY_GOVERNANCE",
+      "name": "Delivery Governance",
+      "domain_id": "DOMAIN_PROJECT_MANAGEMENT",
+      "evidence": [
+        "主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_DELIVERY_GOVERNANCE",
+          "name": "交付治理"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_DIFY_APP_ORCHESTRATION",
+      "name": "Dify App Orchestration",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "- 【技能 2】-- Dify平台"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_DIFY",
+          "name": "Dify"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+      "name": "High-level Solution Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并实施AI现金流预测方案，使用Python开发覆盖600+主体的自动化预测模型，实现全集团层面现金流动态预估。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_MACHINE_LEARNING_MODELING",
+      "name": "Machine Learning Modeling",
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "evidence": [
+        "Candidate_0170，埃森哲大数据分析团队数据科学家，拥有6年海内外数据分析与AI项目实战经验。擅长将复杂业务问题转化为数据解决方案，并运用机器学习与生成式AI等技术驱动业务价值。"
+      ],
+      "sources": [
+        {
+          "source_type": "technical_skill",
+          "source_id": "SKILL_MACHINE_LEARNING",
+          "name": "机器学习"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_NON_FUNCTIONAL_DESIGN",
+      "name": "Non-Functional Requirements Design",
+      "domain_id": "DOMAIN_SOLUTION_ARCHITECTURE",
+      "evidence": [
+        "设计并实施AI现金流预测方案，使用Python开发覆盖600+主体的自动化预测模型，实现全集团层面现金流动态预估。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+          "name": "高阶方案设计"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENTS_ANALYSIS",
+      "name": "Requirements Analysis",
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "evidence": [
+        "深入理解新房与二手房业务流程，分析业务与财务数据，识别影响现金流的关键因子，构建100+特征变量池。整合报销单、员工、黑名单、信用卡等多维度数据源，构建特征变量池，支持风险建模与分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    },
+    {
+      "capability_id": "CAP_REQUIREMENT_DECOMPOSITION",
+      "name": "Requirement Decomposition",
+      "domain_id": "DOMAIN_SOFTWARE_ENGINEERING",
+      "evidence": [
+        "深入理解新房与二手房业务流程，分析业务与财务数据，识别影响现金流的关键因子，构建100+特征变量池。整合报销单、员工、黑名单、信用卡等多维度数据源，构建特征变量池，支持风险建模与分析。"
+      ],
+      "sources": [
+        {
+          "source_type": "competency",
+          "source_id": "SKILL_REQUIREMENTS_ANALYSIS",
+          "name": "需求分析"
+        }
+      ],
+      "priority": "must"
+    }
+  ],
+  "领域": [
+    {
+      "domain_id": "DOMAIN_AI_ENGINEERING",
+      "name": "AI Engineering",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_BUSINESS_ANALYSIS",
+      "name": "Business Analysis",
+      "capability_count": 2
+    },
+    {
+      "domain_id": "DOMAIN_DATA_ENGINEERING",
+      "name": "Data Engineering",
+      "capability_count": 2
+    }
+  ],
+  "证据": [
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练使用python，Power BI等AI及数据分析工具",
+      "supports_entity_id": "SKILL_PYTHON_CORE",
+      "supports_entity_name": "Python 基础",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【技能 3】-- LLM微调能力",
+      "supports_entity_id": "SKILL_LLM",
+      "supports_entity_name": "LLM",
+      "derived_capability_ids": []
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "- 【技能 2】-- Dify平台",
+      "supports_entity_id": "SKILL_DIFY",
+      "supports_entity_name": "Dify",
+      "derived_capability_ids": [
+        "CAP_DIFY_APP_ORCHESTRATION"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "Candidate_0170，埃森哲大数据分析团队数据科学家，拥有6年海内外数据分析与AI项目实战经验。擅长将复杂业务问题转化为数据解决方案，并运用机器学习与生成式AI等技术驱动业务价值。",
+      "supports_entity_id": "SKILL_MACHINE_LEARNING",
+      "supports_entity_name": "机器学习",
+      "derived_capability_ids": [
+        "CAP_MACHINE_LEARNING_MODELING"
+      ]
+    },
+    {
+      "evidence_type": "technical_skill",
+      "source_text": "熟练使用python，Power BI等AI及数据分析工具",
+      "supports_entity_id": "SKILL_POWER_BI",
+      "supports_entity_name": "Power BI",
+      "derived_capability_ids": [
+        "CAP_BI_DASHBOARDING"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "具备全链路数据建模能力，擅长整合多源异构数据构建多维特征变量池，夯实模型基础。在落地中，坚持 “模型+规则”融合思维 ，通过算法与业务规则的结合，在效率与效果间取得最优平衡。凭借跨领域协同与交付经验，能深入房地产、制造等行业业务逻辑，主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。",
+      "supports_entity_id": "SKILL_DATA_GOVERNANCE_FRAMEWORK",
+      "supports_entity_name": "数据治理框架",
+      "derived_capability_ids": [
+        "CAP_DATA_GOVERNANCE_FRAMEWORK",
+        "CAP_DATA_STANDARDIZATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "深入理解新房与二手房业务流程，分析业务与财务数据，识别影响现金流的关键因子，构建100+特征变量池。整合报销单、员工、黑名单、信用卡等多维度数据源，构建特征变量池，支持风险建模与分析。",
+      "supports_entity_id": "SKILL_REQUIREMENTS_ANALYSIS",
+      "supports_entity_name": "需求分析",
+      "derived_capability_ids": [
+        "CAP_REQUIREMENTS_ANALYSIS",
+        "CAP_REQUIREMENT_DECOMPOSITION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "设计并实施AI现金流预测方案，使用Python开发覆盖600+主体的自动化预测模型，实现全集团层面现金流动态预估。",
+      "supports_entity_id": "SKILL_HIGH_LEVEL_SOLUTION_DESIGN",
+      "supports_entity_name": "高阶方案设计",
+      "derived_capability_ids": [
+        "CAP_HIGH_LEVEL_SOLUTION_DESIGN",
+        "CAP_NON_FUNCTIONAL_DESIGN"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "模型上线后持续优化，通过与业务部门紧密协作确保预测准确率。",
+      "supports_entity_id": "SKILL_COMMUNICATION_COORDINATION",
+      "supports_entity_name": "沟通协调",
+      "derived_capability_ids": [
+        "CAP_COMMUNICATION_AND_COORDINATION"
+      ]
+    },
+    {
+      "evidence_type": "competency",
+      "source_text": "主导AI预测、风控及数据治理等项目的模型部分从开发到上线的全周期交付，并确保模型效果的持续与稳定。",
+      "supports_entity_id": "SKILL_DELIVERY_GOVERNANCE",
+      "supports_entity_name": "交付治理",
+      "derived_capability_ids": [
+        "CAP_DELIVERY_GOVERNANCE"
+      ]
+    }
+  ],
+  "本体外技术技能": [
+    {
+      "skill_id": "",
+      "name": "Dify平台",
+      "evidence": "核心技能：Dify平台"
+    },
+    {
+      "skill_id": "",
+      "name": "LLM微调",
+      "evidence": "核心技能：LLM微调能力"
+    }
+  ],
+  "经验": [
+    {
+      "公司": "国际知名科技企业",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "整合报销单、员工、黑名单、信用卡等多维度数据源，构建特征变量池，支持风险建模与分析。设计并开发风控算法模型，结合业务规则设计必推规则与抽审机制，实现算法与业务策略深度融合。在降低整体复审比例的同时，将高风险案件命中率显著提升，帮助企业有效管控费用风险，提升审核效率。"
+    },
+    {
+      "公司": "国内房地产领先集团",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "深入理解新房与二手房业务流程，分析业务与财务数据，识别影响现金流的关键因子，构建100+特征变量池。设计并实施AI现金流预测方案，使用Python开发覆盖600+主体的自动化预测模型，实现全集团层面现金流动态预估。模型上线后持续优化，通过与业务部门紧密协作确保预测准确率，将现金流预测效率提升超过50%，支持财务决策与资金规划。"
+    },
+    {
+      "公司": "国内大型制造业集团",
+      "职位": "数据科学家",
+      "时间": "",
+      "描述": "参与企业日常费用报销场景下的发票数据治理，通过规则引擎与生成式AI技术结合，实现发票信息关键词与规格信息的自动提取。构建采购品类智能匹配模型，提升采购归类的准确性与效率；深度参与人工标注，累计完成数万条高质量样本标注，支撑模型迭代。为最终的费用分析、预算控制与合规监测提供高质量数据基础。"
+    }
+  ],
+  "行业知识": [
+    {
+      "industry_id": "INDUSTRY_LIFE_SCIENCES",
+      "name": "生命科学",
+      "evidence": "- 【早期岗位或背景 2】 - 北京脉络，医药行业的数据清洗与分析",
+      "source": "rule",
+      "matched_term": "医药"
+    },
+    {
+      "industry_id": "INDUSTRY_FINANCIAL_SERVICES",
+      "name": "金融",
+      "evidence": "- 【行业 1】 - 金融业",
+      "source": "rule",
+      "matched_term": "金融"
+    },
+    {
+      "industry_id": "INDUSTRY_CMT",
+      "name": "CMT",
+      "evidence": "### 【公司 / 国际知名科技企业】",
+      "source": "rule",
+      "matched_term": "科技"
+    }
+  ],
+  "_batch": {
+    "source_file": "yingying.a.dong_profile_CN.md",
+    "source_path": "C:\\Users\\LiangFinnFeng\\Documents\\Enterprise_Ontology\\Talent_Matching\\resumes\\yingying.a.dong_profile_CN.md",
+    "source_hash": "541ef937b07f445aa6848098350a54348795e0f54fd20f5d02c75f535d238655",
+    "parser_mode": "llm",
+    "parsed_at": "2026-07-22T14:37:44"
+  },
+  "城市": "Dalian"
+}
